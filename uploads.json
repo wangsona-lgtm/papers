@@ -146,5 +146,31 @@
       "jFEVD：所有變數同時衝擊對預測誤差的聯合貢獻",
       "延伸應用於中國航空股波動（Transport Research 2024）"
     ]
+  },
+  {
+    "title": "Spillover across varying Regional and Economic Realities: Evaluating the Hedging potential of Demographic Traits",
+    "authors": "(待確認作者名 — 稿件 Economies #4380754)",
+    "year": "2026",
+    "journal": "Economies (MDPI), 14(x), x–x. [Peer Review]",
+    "doi": "10.3390/xxxxx (稿件編號 economies-4380754)",
+    "date": "2026-06-12",
+    "tags": [
+      "DY",
+      "MSCI"
+    ],
+    "topics": [
+      "金融市場"
+    ],
+    "pdf": "uploads/MSCI_Spillover_Hedging_Demographic_Traits.pdf",
+    "notes": [
+      "DY(2009/2012) VAR-based connectedness + GARCH hedging",
+      "10 MSCI 指數 (4區域×4發展層級), 2012-2024, Yahoo Finance",
+      "TCI=26.54%（中度連通）",
+      "美國(+20.66)、德國(+8.16)、巴西(+7.44) 為淨溢散輸出者",
+      "COVID 期間溢散顯著升高",
+      "前沿/獨立市場 (巴林、巴基斯坦、牙買加、巴勒斯坦) 與全球相關性極低",
+      "交叉區域+發展光譜投資 → 顯著提升 portfolio efficiency",
+      "Peer Review 版本，DOI 暫為 xxxxx"
+    ]
   }
 ]
