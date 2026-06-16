@@ -225,5 +225,32 @@
       "GRI→ENT正向, RQ強化此過程, GEO抑制",
       "SDG-7 進展取決於技術能力+制度韌性"
     ]
+  },
+  {
+    "title": "Assessing the effects of green innovation, renewable energy, and environmental policy stringency on ecological and material footprints in G7 economies",
+    "authors": "Omri, Feki & Chtourou",
+    "year": "2026",
+    "journal": "Discover Environment, 4, 239",
+    "doi": "10.1007/s44274-026-00768-3",
+    "date": "2026-06-16",
+    "tags": [
+      "CS-ARDL",
+      "EF",
+      "MF",
+      "EPS",
+      "G7"
+    ],
+    "topics": [
+      "潔淨能源",
+      "碳市場/碳交易",
+      "氣候風險/政策"
+    ],
+    "pdf": "uploads/Omri_G7_EF_MF_2026.pdf",
+    "notes": [
+      "G7 panel (1990-2020), CS-ARDL",
+      "GDP→EF↑ MF↑, EPS→EF↓, RE→EF↓",
+      "GI→MF↑（綠色技術資源密集問題）",
+      "首篇聯合分析EF+MF驅動因子於G7"
+    ]
   }
 ]
