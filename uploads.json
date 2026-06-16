@@ -252,5 +252,32 @@
       "GI→MF↑（綠色技術資源密集問題）",
       "首篇聯合分析EF+MF驅動因子於G7"
     ]
+  },
+  {
+    "title": "The interplay of financial development, oil prices, and CO2 emissions in shaping renewable energy consumption in emerging nations: An evidence from panel quantile regression",
+    "authors": "Arsh, Liaqat, Batool & Khan",
+    "year": "2025",
+    "journal": "Vol. 3 No. 4 (2025)",
+    "doi": "",
+    "date": "2026-06-16",
+    "tags": [
+      "PQR",
+      "MMQR",
+      "FMOLS",
+      "quantile",
+      "REC"
+    ],
+    "topics": [
+      "潔淨能源",
+      "能源市場",
+      "金融市場"
+    ],
+    "pdf": "uploads/Arsh_FD_Oil_REC_Quantile_2025.pdf",
+    "notes": [
+      "22 emerging economies, 2005-2021",
+      "PQR(Powell 2016) + MMQR(Machado & Silva 2019) 雙重分位數",
+      "FD→REC+, Oil price 不對稱(低分位- 高分位+)",
+      "FDI→REC+, CO2→REC-(高分位)"
+    ]
   }
 ]
