@@ -172,5 +172,31 @@
       "交叉區域+發展光譜投資 → 顯著提升 portfolio efficiency",
       "Peer Review 版本，DOI 暫為 xxxxx"
     ]
+  },
+  {
+    "title": "The nexus between climate policy uncertainty and load capacity factor in China with the moderating role of financial development",
+    "authors": "Özbek, Şahin & Bayar",
+    "year": "2026",
+    "journal": "Discover Sustainability",
+    "doi": "10.1007/s43621-026-03409-0",
+    "date": "2026-06-16",
+    "tags": [
+      "A-ARDL",
+      "FMOLS",
+      "DOLS",
+      "LCF",
+      "CPU"
+    ],
+    "topics": [
+      "氣候風險/政策",
+      "碳市場/碳交易"
+    ],
+    "pdf": "uploads/CPU_LCF_China_Ozbek_2026.pdf",
+    "notes": [
+      "A-ARDL + FMOLS + DOLS 三種方法互補驗證",
+      "1990-2021, 中國",
+      "FD 和 CPU 各自降低環境品質，但交互項 FD×CPU 改善環境品質",
+      "FD 在不確定時期可透過三渠道維持綠色投資"
+    ]
   }
 ]
