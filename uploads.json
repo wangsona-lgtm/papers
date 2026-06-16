@@ -198,5 +198,32 @@
       "FD 和 CPU 各自降低環境品質，但交互項 FD×CPU 改善環境品質",
       "FD 在不確定時期可透過三渠道維持綠色投資"
     ]
+  },
+  {
+    "title": "Sustainable energy transition toward a zero-carbon future in major Global South economies: Roles of green innovation, institutions, and geopolitical risk",
+    "authors": "Caglar, Naimoglu & Demirdag",
+    "year": "2026",
+    "journal": "Energy for Sustainable Development, 93, 102050",
+    "doi": "10.1016/j.esd.2026.102050",
+    "date": "2026-06-16",
+    "tags": [
+      "panel",
+      "SDG-7",
+      "GRI",
+      "GEO",
+      "Porter Hypothesis"
+    ],
+    "topics": [
+      "潔淨能源",
+      "氣候風險/政策",
+      "宏觀總體"
+    ],
+    "pdf": "uploads/Caglar_GlobalSouth_ENT_2026.pdf",
+    "notes": [
+      "Panel: Brazil, China, India, Indonesia, Thailand (2002-2023)",
+      "Porter Hypothesis(強版本)延伸—地緣穩定為創新驅動環境轉型之前提",
+      "GRI→ENT正向, RQ強化此過程, GEO抑制",
+      "SDG-7 進展取決於技術能力+制度韌性"
+    ]
   }
 ]
