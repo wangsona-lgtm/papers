@@ -1,6 +1,6 @@
 {
   "total": 89,
-  "updated": "2026-06-27 11:58:46",
+  "updated": "2026-06-27 12:15:00",
   "topics": [
     "AI/科技",
     "其他",
@@ -1880,6 +1880,7 @@
     },
     {
       "id": "arxiv1-20260627-726932",
+      "search_date": "2026-06-27",
       "title": "Portfolio Optimization for Commodity ETFs under Heavy-Tailed Returns",
       "authors": "Nicholas Appiah, Ali Jaffri, Dilmi C.W. Hettiachchi-Halpe-Kankanamalage, Svetlozar T. Rachev",
       "year": 2026,
@@ -1934,7 +1935,8 @@
         "固定相對熵半徑 vs 固定基準壓力情境的區別",
         "可應用於四巫日前後的流動性風險管理"
       ],
-      "type": "search"
+      "type": "search",
+      "search_date": "2026-06-27"
     },
     {
       "id": "arxiv3-20260627-726932",
@@ -1963,7 +1965,8 @@
         "local volatility = activity-rescaled risk-neutral bid-ask variance",
         "可解釋 unspanned clock risk 導致的不完全市場定價"
       ],
-      "type": "search"
+      "type": "search",
+      "search_date": "2026-06-27"
     }
   ]
 }

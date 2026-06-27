@@ -109,6 +109,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto
   background: var(--accent-light); color: var(--accent);
 }
 .paper-card .paper-badge.upload { background: #d1fae5; color: #059669; }
+.paper-card .paper-badge.arxiv { background: #e0e7ff; color: #4338ca; }
 
 .paper-card .topic-badge {
   padding: 1px 7px; border-radius: 8px; font-size: 11px;

@@ -114,6 +114,7 @@ function render() {
       <div class="paper-meta">
         <span class="paper-date">${p.search_date || p.date || ''}</span>
         ${p.type === 'upload' ? '<span class="paper-badge upload">📁 上傳</span>' : ''}
+        ${p.arxiv_url ? '<span class="paper-badge arxiv">📄 arXiv</span>' : ''}
         ${p.year ? `<span>(${p.year})</span>` : ''}
         ${topics.map(t => `<span class="topic-badge">${t}</span>`).join('')}
       </div>
@@ -187,6 +188,12 @@ function openModal(id) {
       <div class="section">
         <h4>📁 檔案</h4>
         <p><a href="${p.pdf}" target="_blank">📄 下載 PDF</a></p>
+      </div>
+    ` : ''}
+    ${p.arxiv_url ? `
+      <div class="section">
+        <h4>🔗 arXiv</h4>
+        <p><a href="${p.arxiv_url}" target="_blank" rel="noopener">${p.arxiv_url}</a></p>
       </div>
     ` : ''}
     ${p.notes && p.notes.length > 0 ? `
