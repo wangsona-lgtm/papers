@@ -1,6 +1,6 @@
 {
   "total": 89,
-  "updated": "2026-06-27 12:15:00",
+  "updated": "2026-06-27 12:25:00",
   "topics": [
     "AI/科技",
     "其他",
@@ -17,6 +17,96 @@
     "金融市場"
   ],
   "papers": [
+    {
+      "id": "arxiv1-20260627-726932",
+      "search_date": "2026-06-27",
+      "title": "Portfolio Optimization for Commodity ETFs under Heavy-Tailed Returns",
+      "authors": "Nicholas Appiah, Ali Jaffri, Dilmi C.W. Hettiachchi-Halpe-Kankanamalage, Svetlozar T. Rachev",
+      "year": 2026,
+      "journal": "arXiv:2606.26625 [q-fin.PM, q-fin.RM]",
+      "doi": "",
+      "arxiv_url": "https://arxiv.org/abs/2606.26625",
+      "date": "2026-06-27",
+      "abstract": "本文探討商品ETF在厚尾報酬下的投組優化。使用30檔商品ETF（農業、能源、金屬）的日資料，比較均值-方差與CVaR兩種框架，發現downside-risk-aware策略顯著優於傳統方法，但優化投組仍無法消除極端尾部風險。",
+      "tags": [
+        "商品ETF",
+        "厚尾分配",
+        "CVaR",
+        "投組優化",
+        "ARMA-GARCH"
+      ],
+      "topics": [
+        "原物料/商品",
+        "方法論",
+        "金融市場"
+      ],
+      "notes": [
+        "CVaR/min-risk 框架優於 mean-variance tangent portfolio",
+        "能源類ETF波動度、偏態、峰度最極端",
+        "動態ARMA-GARCH+Student-t copula可改善預測",
+        "週轉率控制是實務關鍵"
+      ],
+      "type": "search"
+    },
+    {
+      "id": "arxiv2-20260627-726932",
+      "title": "Robust Hedging Valuation Adjustment under Liquidity-Demand Stress",
+      "authors": "Takayuki Sakuma",
+      "year": 2026,
+      "journal": "arXiv:2606.26731 [q-fin.RM, q-fin.CP]",
+      "doi": "",
+      "arxiv_url": "https://arxiv.org/abs/2606.26731",
+      "date": "2026-06-27",
+      "abstract": "本文提出穩健避險估值調整（HVA）指標，在流動性緊縮情境下衡量動態避險的worst-case預期損失。利用no-trade band控制再平衡頻率，並在相對熵鄰域內計算HVA。",
+      "tags": [
+        "避險",
+        "流動性風險",
+        "HVA",
+        "動態避險",
+        "no-trade band"
+      ],
+      "topics": [
+        "方法論",
+        "金融市場"
+      ],
+      "notes": [
+        "band width 決定 rebalancing 成本與 hedge error 的 trade-off",
+        "固定相對熵半徑 vs 固定基準壓力情境的區別",
+        "可應用於四巫日前後的流動性風險管理"
+      ],
+      "type": "search",
+      "search_date": "2026-06-27"
+    },
+    {
+      "id": "arxiv3-20260627-726932",
+      "title": "Option Prices from Operational-Time Reaction-Boundary Lattices",
+      "authors": "Chris Angstmann, Tim Gebbie",
+      "year": 2026,
+      "journal": "arXiv:2606.09564 [q-fin.PR, q-fin.MF, q-fin.TR]",
+      "doi": "",
+      "arxiv_url": "https://arxiv.org/abs/2606.09564",
+      "date": "2026-06-27",
+      "abstract": "本文用「運算時間（operational time）」取代日曆時間推導選擇權定價方程式。從 limit order book 的反應邊界 lattice 出發，推廣 Black-Scholes-Merton 框架，可處理跳躍風險與時鐘風險等不完全市場因素。",
+      "tags": [
+        "選擇權定價",
+        "operational time",
+        "微結構",
+        "反應邊界",
+        "lattice模型"
+      ],
+      "topics": [
+        "金融市場",
+        "方法論"
+      ],
+      "notes": [
+        "operational time Markov lattice 而非 calendar-time diffusion",
+        "Chapman-Kolmogorov 分解 → 離散前向/後向方程式",
+        "local volatility = activity-rescaled risk-neutral bid-ask variance",
+        "可解釋 unspanned clock risk 導致的不完全市場定價"
+      ],
+      "type": "search",
+      "search_date": "2026-06-27"
+    },
     {
       "title": "Revisiting Trade-sign Long-memory and Square-root Law Price Impact",
       "authors": "Chris Angstmann, Tim Gebbie",
@@ -1877,96 +1967,6 @@
       ],
       "type": "upload",
       "id": "upload-2026-06-05-1250"
-    },
-    {
-      "id": "arxiv1-20260627-726932",
-      "search_date": "2026-06-27",
-      "title": "Portfolio Optimization for Commodity ETFs under Heavy-Tailed Returns",
-      "authors": "Nicholas Appiah, Ali Jaffri, Dilmi C.W. Hettiachchi-Halpe-Kankanamalage, Svetlozar T. Rachev",
-      "year": 2026,
-      "journal": "arXiv:2606.26625 [q-fin.PM, q-fin.RM]",
-      "doi": "",
-      "arxiv_url": "https://arxiv.org/abs/2606.26625",
-      "date": "2026-06-27",
-      "abstract": "本文探討商品ETF在厚尾報酬下的投組優化。使用30檔商品ETF（農業、能源、金屬）的日資料，比較均值-方差與CVaR兩種框架，發現downside-risk-aware策略顯著優於傳統方法，但優化投組仍無法消除極端尾部風險。",
-      "tags": [
-        "商品ETF",
-        "厚尾分配",
-        "CVaR",
-        "投組優化",
-        "ARMA-GARCH"
-      ],
-      "topics": [
-        "原物料/商品",
-        "方法論",
-        "金融市場"
-      ],
-      "notes": [
-        "CVaR/min-risk 框架優於 mean-variance tangent portfolio",
-        "能源類ETF波動度、偏態、峰度最極端",
-        "動態ARMA-GARCH+Student-t copula可改善預測",
-        "週轉率控制是實務關鍵"
-      ],
-      "type": "search"
-    },
-    {
-      "id": "arxiv2-20260627-726932",
-      "title": "Robust Hedging Valuation Adjustment under Liquidity-Demand Stress",
-      "authors": "Takayuki Sakuma",
-      "year": 2026,
-      "journal": "arXiv:2606.26731 [q-fin.RM, q-fin.CP]",
-      "doi": "",
-      "arxiv_url": "https://arxiv.org/abs/2606.26731",
-      "date": "2026-06-27",
-      "abstract": "本文提出穩健避險估值調整（HVA）指標，在流動性緊縮情境下衡量動態避險的worst-case預期損失。利用no-trade band控制再平衡頻率，並在相對熵鄰域內計算HVA。",
-      "tags": [
-        "避險",
-        "流動性風險",
-        "HVA",
-        "動態避險",
-        "no-trade band"
-      ],
-      "topics": [
-        "方法論",
-        "金融市場"
-      ],
-      "notes": [
-        "band width 決定 rebalancing 成本與 hedge error 的 trade-off",
-        "固定相對熵半徑 vs 固定基準壓力情境的區別",
-        "可應用於四巫日前後的流動性風險管理"
-      ],
-      "type": "search",
-      "search_date": "2026-06-27"
-    },
-    {
-      "id": "arxiv3-20260627-726932",
-      "title": "Option Prices from Operational-Time Reaction-Boundary Lattices",
-      "authors": "Chris Angstmann, Tim Gebbie",
-      "year": 2026,
-      "journal": "arXiv:2606.09564 [q-fin.PR, q-fin.MF, q-fin.TR]",
-      "doi": "",
-      "arxiv_url": "https://arxiv.org/abs/2606.09564",
-      "date": "2026-06-27",
-      "abstract": "本文用「運算時間（operational time）」取代日曆時間推導選擇權定價方程式。從 limit order book 的反應邊界 lattice 出發，推廣 Black-Scholes-Merton 框架，可處理跳躍風險與時鐘風險等不完全市場因素。",
-      "tags": [
-        "選擇權定價",
-        "operational time",
-        "微結構",
-        "反應邊界",
-        "lattice模型"
-      ],
-      "topics": [
-        "金融市場",
-        "方法論"
-      ],
-      "notes": [
-        "operational time Markov lattice 而非 calendar-time diffusion",
-        "Chapman-Kolmogorov 分解 → 離散前向/後向方程式",
-        "local volatility = activity-rescaled risk-neutral bid-ask variance",
-        "可解釋 unspanned clock risk 導致的不完全市場定價"
-      ],
-      "type": "search",
-      "search_date": "2026-06-27"
     }
   ]
 }
