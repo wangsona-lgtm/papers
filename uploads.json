@@ -287,8 +287,13 @@
     "journal": "arXiv:2606.20977 [q-fin.MF]",
     "doi": "",
     "date": "2026-06-23",
-    "tags": ["方法論"],
-    "topics": ["方法論", "AI/科技"],
+    "tags": [
+      "方法論"
+    ],
+    "topics": [
+      "方法論",
+      "AI/科技"
+    ],
     "pdf": "uploads/Mathematics_of_Modeling_Future_Noguer_2026.pdf",
     "notes": [
       "從 filtration、conditional expectation、Markov kernel 到 Kolmogorov equations 的統一數學框架",
@@ -305,8 +310,14 @@
     "journal": "arXiv:2606.20903 [q-fin.PM]",
     "doi": "",
     "date": "2026-06-23",
-    "tags": ["RL", "continuous-time"],
-    "topics": ["金融市場", "AI/科技"],
+    "tags": [
+      "RL",
+      "continuous-time"
+    ],
+    "topics": [
+      "金融市場",
+      "AI/科技"
+    ],
     "pdf": "uploads/RL_Risk_Sensitive_Investment_Lleo_2026.pdf",
     "notes": [
       "free energy-entropy duality → risk-sensitive 資產配置改寫為 stochastic differential game",
@@ -323,8 +334,14 @@
     "journal": "arXiv:2606.16269 [q-fin.TR]",
     "doi": "",
     "date": "2026-06-23",
-    "tags": ["微結構", "price impact"],
-    "topics": ["金融市場", "方法論"],
+    "tags": [
+      "微結構",
+      "price impact"
+    ],
+    "topics": [
+      "金融市場",
+      "方法論"
+    ],
     "pdf": "uploads/Trade_sign_Long_Memory_Angstmann_2026.pdf",
     "notes": [
       "coupled reaction-diffusion 模型推導 LMF long-memory + square-root law",
@@ -332,6 +349,27 @@
       "Pareto 型 meta-order 長度 → power-law trade-sign autocorrelation",
       "Volterra equation leading-order → concave impact trajectory",
       "arXiv q-fin new 2026-06"
+    ]
+  },
+  {
+    "title": "Claude Code From Scratch — 從零構建 Coding Agent",
+    "authors": "Windy3f3f3f3f (原教程) / 王美智 (講義整理)",
+    "year": "2026",
+    "journal": "GitHub: Windy3f3f3f3f/claude-code-from-scratch",
+    "doi": "",
+    "date": "2026-07-02",
+    "tags": [
+      "其他"
+    ],
+    "topics": [
+      "AI/科技",
+      "教學資源"
+    ],
+    "pdf": "uploads/CC-Lecture.html",
+    "notes": [
+      "~4300 行程式碼 (TypeScript + Python) 重現 Claude Code 核心架構",
+      "13 章教學：Agent Loop、工具系統、System Prompt、CLI、記憶、技能、多 Agent、MCP 等",
+      "原教程以 CC BY-NC-SA 4.0 發布"
     ]
   }
 ]
