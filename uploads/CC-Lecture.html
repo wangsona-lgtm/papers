@@ -112,6 +112,10 @@ body {
 <main class="content" id="content">
 
 <div class="pb"></div>
+<h1>Claude Code From Scratch — 從零構建 Coding Agent</h1>
+<blockquote><strong>講義筆記</strong> — 改編自 <a href="https://github.com/Windy3f3f3f3f/claude-code-from-scratch">Windy3f3f3f3f/claude-code-from-scratch</a><br>原教程以 CC BY-NC-SA 4.0 發布，~4300 行程式碼（TypeScript + Python）重現 Claude Code 核心架構</blockquote>
+<p>整理日期：2026-07-02</p>
+<p>\newpage</p>
 <h1>引言：為什麼從零造一個 Claude Code？</h1>
 <h2>本章目標</h2>
 <p>理解專案定位、技術棧選擇和整體架構，5 分鐘內跑起來你自己的 coding agent。</p>
@@ -263,7 +267,7 @@ mini-claude --max-cost 0.50 --max-turns 20  # 預算控制</code></pre>
 <tr><td>[13. 架構對比](docs/13-whats-next.md)</td><td>全域性對比</td><td>全域性對比</td></tr></table>
 <hr>
 <blockquote><strong>下一章</strong>：從最核心的部分開始——Agent Loop，這是整個 coding agent 的心臟。</blockquote>
-<div class="pb"></div>
+<p>\newpage</p>
 <h1>1. Agent Loop — 核心迴圈</h1>
 <h2>本章目標</h2>
 <p>實現 coding agent 的心臟：一個 while 迴圈，不斷呼叫 LLM → 檢查是否需要執行工具 → 執行工具 → 把結果喂回 LLM → 重複，直到 LLM 認為任務完成。</p>
@@ -510,7 +514,7 @@ def abort(self) -&gt; None:
 <p><code>AbortController</code> 是標準的中斷機制：<code>abort()</code> 被呼叫後 signal 變為 <code>aborted</code>，迴圈在下一個檢查點退出。signal 同時傳給 API 呼叫，確保網路請求也能被取消。</p>
 <hr>
 <blockquote><strong>下一章</strong>：迴圈的核心動力是工具——沒有工具，LLM 只是一個聊天機器人。我們來看工具系統的實現。</blockquote>
-<div class="pb"></div>
+<p>\newpage</p>
 <h1>2. 工具系統</h1>
 <h2>本章目標</h2>
 <p>定義 6 個核心工具（讀檔案、寫檔案、編輯檔案、列檔案、搜尋、Shell）+ 5 個擴充套件工具（skill、agent、web_fetch、tool_search、plan mode），讓 LLM 能真正操作你的程式碼庫。實現編輯防護（read-before-edit + mtime 檢查）和延遲載入（deferred tools）機制。</p>
@@ -1207,7 +1211,7 @@ case "tool_search": {
 <tr><td>**網路訪問**</td><td>WebFetch（去標籤 + 超時）</td><td>web_fetch（去標籤 + 30s 超時 + 50KB 上限）</td></tr></table>
 <hr>
 <blockquote><strong>下一章</strong>：工具定義了 agent 的能力，但 System Prompt 定義了它的行為——怎麼用這些工具、什麼時候該小心。</blockquote>
-<div class="pb"></div>
+<p>\newpage</p>
 <h1>3. System Prompt 工程</h1>
 <h2>本章目標</h2>
 <p>構造一個讓 LLM 成為合格 coding agent 的 System Prompt：告訴它身份、規則、工具使用策略和環境資訊。</p>
@@ -1559,7 +1563,7 @@ This project uses TypeScript with strict mode.</code></pre>
 }</code></pre>
 <hr>
 <blockquote><strong>下一章</strong>：有了工具和提示詞，下一步是讓 Agent 變得可互動——CLI 入口、REPL 迴圈和會話持久化。</blockquote>
-<div class="pb"></div>
+<p>\newpage</p>
 <h1>4. CLI 與會話</h1>
 <h2>本章目標</h2>
 <p>構建使用者介面層：命令列引數解析、互動式 REPL、Ctrl+C 中斷處理、會話持久化和恢復。</p>
@@ -1956,7 +1960,7 @@ def print_tool_result(name: str, result: str) -&gt; None:
 <p><!-- tabs:end --></p>
 <p>工具結果在 UI 層截斷到 500 字元——這是給人看的顯示，完整結果已在訊息歷史中。</p>
 <blockquote><strong>下一章</strong>：讓 Agent 的輸出實時顯示——流式輸出與雙後端支援。</blockquote>
-<div class="pb"></div>
+<p>\newpage</p>
 <h1>5. 流式輸出與雙後端</h1>
 <h2>本章目標</h2>
 <p>實現流式輸出讓回答逐字顯示，並支援 Anthropic 和 OpenAI 兩套 API 後端。</p>
@@ -2531,7 +2535,7 @@ for batch in oai_batches:
 <tr><td>**並行工具執行**</td><td>完整的併發排程器</td><td>Anthropic 流式提前執行 + OpenAI 批次 Promise.all</td></tr></table>
 <hr>
 <blockquote><strong>下一章</strong>：Agent 能操作檔案和執行命令了，但我們需要防止它做危險的事——許可權系統保護你的系統。</blockquote>
-<div class="pb"></div>
+<p>\newpage</p>
 <h1>6. 許可權與安全</h1>
 <h2>本章目標</h2>
 <p>實現完整的許可權安全機制：危險命令檢測 → 可配置的 allow/deny 許可權規則 → 統一許可權檢查 → 會話級白名單 → 使用者確認對話方塊。從"寫死的規則"到"使用者定義規則"，讓 agent 自動放行安全操作、自動攔截危險操作，無需每次手動確認。</p>
@@ -3071,7 +3075,7 @@ mini-claude --dont-ask "..."       # dontAsk（CI 環境）</code></pre>
 <p>核心架構已對齊——5 種許可權模式 + 配置化規則 + 內建檢測，層次清晰。從"寫死的規則"到"使用者定義規則"，是從個人工具邁向團隊工具的關鍵一步。</p>
 <hr>
 <blockquote><strong>下一章</strong>：Agent 對話越來越長，上下文視窗快滿了——4 層壓縮流水線讓它看起來擁有無限記憶。</blockquote>
-<div class="pb"></div>
+<p>\newpage</p>
 <h1>7. 上下文管理</h1>
 <h2>本章目標</h2>
 <p>防止對話歷史超出 LLM 的上下文視窗：4 層分級壓縮管道，從輕量級截斷到全量摘要逐級遞進。</p>
@@ -3481,7 +3485,7 @@ self.last_input_token_count = response.usage.input_tokens</code></pre>
 <tr><td>**溢位儲存**</td><td>磁碟持久化，可按需讀取</td><td>磁碟持久化（>30KB），可按需讀取</td></tr></table>
 <hr>
 <blockquote><strong>下一章</strong>：讓 Agent 跨會話記住資訊——記憶系統。</blockquote>
-<div class="pb"></div>
+<p>\newpage</p>
 <h1>8. 記憶系統</h1>
 <h2>本章目標</h2>
 <p>實現跨會話記憶：讓 Agent 在多次對話間保持對使用者和專案的認知，不依賴對話歷史。</p>
@@ -3965,7 +3969,7 @@ export function memoryFreshnessWarning(mtimeMs: number): string {
 <tr><td>**API 呼叫**</td><td>每次召回 1 次</td><td>每次召回 1 次</td></tr></table>
 <hr>
 <blockquote><strong>下一章</strong>：可複用的 Prompt 模組——技能系統。</blockquote>
-<div class="pb"></div>
+<p>\newpage</p>
 <h1>9. 技能系統</h1>
 <h2>本章目標</h2>
 <p>讓 Agent 擁有可複用的 Prompt 模組：使用者定義一次，反覆呼叫。像 Shell 指令碼一樣即裝即用。</p>
@@ -4362,7 +4366,7 @@ def build_skill_descriptions() -&gt; str:
 <tr><td>**Prompt 替換**</td><td>`$ARGUMENTS` + `${CLAUDE_SKILL_DIR}` + `` !`shell` ``</td><td>`$ARGUMENTS` + `${CLAUDE_SKILL_DIR}`</td></tr></table>
 <hr>
 <blockquote><strong>下一章</strong>：讓 Agent 先想清楚再動手——Plan Mode，只讀規劃模式。</blockquote>
-<div class="pb"></div>
+<p>\newpage</p>
 <h1>10. Plan Mode：只讀規劃模式</h1>
 <h2>本章目標</h2>
 <p>實現 Plan Mode：讓 Agent 先制定計劃再執行，避免盲目修改程式碼。包含模式切換、plan 檔案持久化、許可權聯動和 4 選項審批工作流。</p>
@@ -4984,7 +4988,7 @@ if user_input == "/plan":
 <tr><td>子 Agent</td><td>Plan Agent 型別</td><td>Fallback 直接退出</td><td>簡化分支</td></tr></table>
 <hr>
 <blockquote><strong>下一章</strong>：當單個 Agent 的上下文不夠用時——多 Agent 架構，分而治之。</blockquote>
-<div class="pb"></div>
+<p>\newpage</p>
 <h1>11. 多 Agent 架構</h1>
 <h2>本章目標</h2>
 <p>實現 Sub-Agent（子代理）系統：讓主 Agent 能派生出獨立的子 Agent 執行探索、規劃、通用任務，完成後將結果返回主 Agent。這是 Claude Code 處理複雜任務時最重要的"分而治之"機制。</p>
@@ -5297,7 +5301,7 @@ def _emit_text(self, text: str) -&gt; None:
         },
     }</code></pre>
 <p><!-- tabs:end --></p>
-<p>Token 用增量計算（執行後 - 執行前），因為 Agent 例項的計數器是累積的。<code>chat()</code> 完全複用，它不關心自己在主 Agent 還是子 Agent 中——工具集和輸出去向已經在建構函式裡配置好了。</p>
+<p>Token 用增量計算（執行後 - 執行前），因為 Agent 例項的計數器是累積的。<code>chat()</code> 完全複用，它不關心自己在主 Agent 還是子 Agent 中——工具集和輸出去向已經在建構函式里配置好了。</p>
 <h4>3d. executeAgentTool：執行子 Agent</h4>
 <p><!-- tabs:start --></p>
 <h4><strong>TypeScript</strong></h4>
@@ -5441,7 +5445,7 @@ You are a code reviewer. Analyze the code thoroughly and report:
 <hr>
 <p>整個實現的核心洞察：<strong>子 Agent 本質上就是一個配置不同的 Agent 例項</strong>。透過給 Agent 類新增少量可選引數（<code>customTools</code>、<code>customSystemPrompt</code>、<code>isSubAgent</code>），同一套 agent loop 同時服務於主 Agent 和子 Agent，避免了程式碼重複。</p>
 <blockquote><strong>下一章</strong>：讓 Agent 連線外部工具伺服器——MCP 整合。</blockquote>
-<div class="pb"></div>
+<p>\newpage</p>
 <h1>12. MCP 整合</h1>
 <h2>本章目標</h2>
 <p>讓 Agent 動態載入外部工具——連線資料庫、Slack、GitHub 等服務，宣告一個伺服器地址即可，不改原始碼。</p>
@@ -5712,7 +5716,7 @@ if (!this.mcpInitialized &amp;&amp; !this.isSubAgent) {
 }</code></pre>
 <p>三個設計決策：</p>
 <ol>
-<li><strong>懶載入</strong>（首次 chat 時，而非建構函式裡）：使用者可能只是想問個快問題，不需要付 MCP 連線的啟動成本</li>
+<li><strong>懶載入</strong>（首次 chat 時，而非建構函式里）：使用者可能只是想問個快問題，不需要付 MCP 連線的啟動成本</li>
 </ol>
 <ol>
 <li><strong>只在主 Agent 載入</strong>：子 Agent 繼承主 Agent 的工具列表，不需要重複連線</li>
@@ -5754,7 +5758,7 @@ private async executeToolCall(name: string, input: Record&lt;string, any&gt;): P
 <tr><td>子 Agent 支援</td><td>獨立 MCP 連線</td><td>主 Agent 專屬，子 Agent 不連線</td></tr></table>
 <hr>
 <blockquote><strong>下一章</strong>：完整的架構對比——從 ~3400 行到 50 萬行，差距在哪裡，以及下一步可以做什麼。</blockquote>
-<div class="pb"></div>
+<p>\newpage</p>
 <h1>13. 架構對比與下一步</h1>
 <h2>完整架構對比</h2>
 <table><tr><th>元件</th><th>Claude Code</th><th>mini-claude</th><th>差異</th></tr>
@@ -5793,13 +5797,13 @@ private async executeToolCall(name: string, input: Record&lt;string, any&gt;): P
 <p>我們實現了 Sub-Agent（fork-return）。Claude Code 還有兩種模式：<strong>Coordinator</strong> 把大任務拆分給多個專業 Agent，<strong>Swarm</strong> 讓多個 Agent 對等通訊、並行探索。兩種模式解決的是單 Agent 上下文不夠時的任務分解問題。</p>
 <p>沒實現的原因：核心挑戰是任務分解準確性和 Agent 間通訊協議設計，更多是 prompt engineering 問題而非程式碼架構問題。實現本身不復雜，但要真正好用需要大量 prompt 調優。</p>
 <h3>LSP 整合</h3>
-<p>LSP 讓 agent 在編輯檔案後毫秒級獲得型別錯誤反饋，而不需要等完整的編譯/測試週期。在大型專案中，這能把修復一個 bug 所需的迴圈次數減少 30-50%。</p>
+<p>LSP 讓 agent 在編輯檔案後毫秒級獲得型別錯誤反饋，而不需要等完整的編譯/測試周期。在大型專案中，這能把修復一個 bug 所需的迴圈次數減少 30-50%。</p>
 <p>沒實現的原因：需要管理 LSP 伺服器程序、實現客戶端協議（初始化握手、能力協商、增量同步），1000+ 行且依賴對 LSP 協議的深入理解。透過 shell 命令（<code>tsc --noEmit</code>、<code>python -m py_compile</code>）獲得錯誤反饋，對教程場景已經足夠。</p>
 <h3>Prompt Caching</h3>
 <p>Anthropic API 支援快取系統提示詞——Claude Code 把不變的部分（角色定義、工具規範）放前面，變化的部分（git 狀態、當前檔案）放後面，快取命中可將輸入 token 成本降低 90%。</p>
 <p>沒實現的原因：程式碼改動極小（20-30 行），但需要仔細設計提示詞分割槽策略。如果你的 agent 要上線，這應該是第一個加上的最佳化。</p>
 <h3>Bash AST 安全分析</h3>
-<p>Claude Code 用 tree-sitter 解析 shell 命令的 AST，進行 23 項靜態安全檢查，能分析出管道組閤中的危險命令——這是純正則做不到的。</p>
+<p>Claude Code 用 tree-sitter 解析 shell 命令的 AST，進行 23 項靜態安全檢查，能分析出管道組合中的危險命令——這是純正則做不到的。</p>
 <p>沒實現的原因：tree-sitter 是 C/C++ 原生庫，需要 <code>node-gyp</code> 編譯環境，環境障礙太高。正則匹配覆蓋了 80% 的常見危險模式，教程場景風險可接受。</p>
 <h2>漸進式增強路線圖</h2>
 <h3>第一階段：效能與成本最佳化（1-2 天）</h3>
@@ -5887,7 +5891,7 @@ private async executeToolCall(name: string, input: Record&lt;string, any&gt;): P
 <p><strong>Phase 2 — 進階能力：</strong> 記憶系統（語義召回 + 非同步預取）、技能系統（inline/fork 雙模式）、Plan Mode（只讀規劃 + 4 選項審批）、多 Agent（Sub-Agent + 3 內建型別 + 自定義）、MCP 整合（JSON-RPC over stdio）、預算控制</p>
 <p>Claude Code 50 萬行裡的大量程式碼是邊緣情況處理和企業級可靠性。但核心 agent 能力——理解使用者意圖 → 呼叫工具操作程式碼 → 迭代直到完成——就是這 ~3400 行的事。</p>
 <p>現在你有了一個功能豐富的 coding agent，也理解了它背後每一行程式碼的設計意圖。去擴充套件它吧。</p>
-<div class="pb"></div>
+<p>\newpage</p>
 <h1>14. 功能測試指南</h1>
 <h2>本章目標</h2>
 <p>驗證 mini-claude 的 19 項核心功能都正常工作。所有測試均為手動執行 + 目視驗證，全部使用 <code>--yolo</code> 模式（跳過許可權確認）。</p>
@@ -6231,6 +6235,7 @@ python -m mini_claude --yolo --max-turns 2 "Read these files one by one: package
 <tr><td>17</td><td>Grep Search</td><td>編輯搜尋</td><td>☐</td><td>☐</td><td>正則搜尋 + include</td></tr>
 <tr><td>18</td><td>Write File</td><td>編輯搜尋</td><td>☐</td><td>☐</td><td>新檔案 + 自動建目錄</td></tr>
 <tr><td>19</td><td>自定義 Agent</td><td>擴充套件系統</td><td>☐</td><td>☐</td><td>.claude/agents/ 定義</td></tr></table>
+<p>\newpage</p>
 
 </main>
 </div>
