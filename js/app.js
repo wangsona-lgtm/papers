@@ -236,6 +236,13 @@ ${p.diagram}
   `;
   
   document.getElementById('paperModal').classList.add('open');
+
+  // Re-render Mermaid diagrams
+  setTimeout(() => {
+    if (window.mermaid) {
+      try { mermaid.run({ nodes: [document.querySelector('.mermaid')].filter(Boolean) }); } catch(e) {}
+    }
+  }, 200);
 }
 
 function closeModal() {
