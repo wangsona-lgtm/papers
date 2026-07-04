@@ -319,6 +319,111 @@ def extract_viewpoints(notes):
                     "connections": []
                 })
     
+    # ───── Pass 3: 從【摘要】中萃取觀點（針對自動生成簡短 notes）──
+    abs_lines = [l for l in notes if l.startswith('【摘要】') or l.startswith('【Abstract】')]
+    for abs_line in abs_lines:
+        text_abs = abs_line.replace('【摘要】', '').replace('【Abstract】', '').strip()
+        if not text_abs or len(text_abs) < 15:
+            continue
+        
+        # 1. 英文關係模式: X affects/influences/leads to Y, X and Y
+        en_matches = re.findall(r'([A-Z][a-z]+(?:\s+[A-Z][a-z]+)*?)\s+(affects|influences|leads? to|impacts?|drives|increases|decreases|reduces|enhances|boosts|lowers|examines?|analyz?es?|investigates?|assesses?)\s+([^\.,;]+)', text_abs)
+        for src, verb, tgt in en_matches:
+            src = src.strip()
+            tgt = tgt.strip()
+            if src and tgt and len(src) > 2 and len(tgt) > 2:
+                vps.append({
+                    "claim": f"{src} {verb} {tgt}",
+                    "evidence": text_abs,
+                    "confidence": "mid",
+                    "source": "摘要",
+                    "connections": []
+                })
+        
+        # 2. 中文「發現」「使用」「分析」模式
+        cn_findings = re.findall(r'發現([^。；]+)', text_abs)
+        for finding in cn_findings:
+            finding = finding.strip()
+            if len(finding) > 8:
+                vps.append({
+                    "claim": f"發現：{finding[:120]}",
+                    "evidence": text_abs,
+                    "confidence": "mid",
+                    "source": "摘要",
+                    "connections": []
+                })
+        
+        # 3. 使用 ... 分析/評估... 模式
+        cn_method = re.findall(r'(使用|採用|透過|利用)([^，。]+?)(分析|評估|探討|研究|檢驗)([^，。]+)', text_abs)
+        for _, method, action, target in cn_method:
+            method = method.strip()
+            target = target.strip()
+            if method and target:
+                vps.append({
+                    "claim": f"研究方法：{method} 用於分析 {target}",
+                    "evidence": text_abs,
+                    "confidence": "mid",
+                    "source": "方法",
+                    "connections": []
+                })
+    
+    # ───── Pass 4: 保底觀點（從 metadata / abstract 組合）──
+    if len(vps) < 2:
+        # 從 notes 提取「方法」「主題」「變數」行
+        method_line = ""
+        topic_line = ""
+        var_line = ""
+        abs_line = ""
+        for note in notes:
+            if note.startswith('方法：'):
+                method_line = note.replace('方法：', '')
+            elif note.startswith('主題：'):
+                topic_line = note.replace('主題：', '')
+            elif note.startswith('變數：'):
+                var_line = note.replace('變數：', '')
+            elif note.startswith('【摘要】'):
+                abs_line = note.replace('【摘要】', '').strip()
+        
+        # 方法觀點
+        if method_line:
+            vps.append({
+                "claim": f"研究方法：{method_line[:80]}",
+                "evidence": method_line,
+                "confidence": "mid",
+                "source": "方法",
+                "connections": []
+            })
+        
+        # 主題觀點
+        if topic_line:
+            vps.append({
+                "claim": f"研究主題：{topic_line[:80]}",
+                "evidence": topic_line,
+                "confidence": "mid",
+                "source": "主題",
+                "connections": []
+            })
+        
+        # 變數觀點
+        if var_line:
+            vps.append({
+                "claim": f"主要變數：{var_line[:80]}",
+                "evidence": var_line,
+                "confidence": "mid",
+                "source": "變數",
+                "connections": []
+            })
+        
+        # 摘要本身做為一個觀點
+        if abs_line and len(abs_line) > 15:
+            vps.append({
+                "claim": abs_line[:120] + ("…" if len(abs_line) > 120 else ""),
+                "evidence": abs_line,
+                "confidence": "mid",
+                "source": "摘要",
+                "connections": []
+            })
+    
     # ───── 去重 ─────
     seen = set()
     unique_vps = []
@@ -378,6 +483,23 @@ def extract_relations(notes):
                     "significant": True,
                     "label": verb
                 })
+    
+    # ───── 一般用途：英文關係（affects/influences/leads to）──
+    en_rel = re.findall(r'([A-Z][a-z]+(?:\s+(?:of|the|and|in|on|to)\s+[A-Za-z]+)*?)\s+(affects|influences|leads? to|impacts?|drives|increases|decreases|reduces|enhances|boosts|lowers)\s+([^\.,;]+)', text)
+    for src, verb, tgt in en_rel:
+        src = src.strip()
+        tgt = tgt.strip()
+        if src and tgt and len(src) > 2 and len(tgt) > 2:
+            is_positive = verb in ('increases', 'enhances', 'boosts', 'drives')
+            is_negative = verb in ('decreases', 'reduces', 'lowers')
+            relations.append({
+                "source": src,
+                "target": tgt,
+                "positive": is_positive,
+                "negative": is_negative,
+                "significant": True,
+                "label": verb
+            })
     
     # ───── 結構化【Step】──
     step_pattern = re.compile(r'【[^】]*[Ss]tep\s*\d+[^】]*】\s*([^:：]+)[:：]\s*([^【\n]+)')
