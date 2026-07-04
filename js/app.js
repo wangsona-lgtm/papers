@@ -202,6 +202,36 @@ function openModal(id) {
         ${p.notes.map(n => `<p style="margin-top:4px">• ${escapeHtml(n)}</p>`).join('')}
       </div>
     ` : ''}
+    ${p.diagram ? `
+      <div class="diagram-section">
+        <h4>🕸️ 論述圖譜</h4>
+        <div class="mermaid">
+${p.diagram}
+        </div>
+        <button class="diagram-toggle" onclick="toggleDiagramCode(this)">📋 顯示原始碼</button>
+      </div>
+    ` : ''}
+    ${p.viewpoints && p.viewpoints.length > 0 ? `
+      <div class="section">
+        <h4>💡 觀點與論證（${p.viewpoints.length}）</h4>
+      </div>
+      <div class="viewpoints-section">
+        ${p.viewpoints.map((vp, i) => `
+          <div class="vp-card vp-confidence-${vp.confidence||'mid'}">
+            <div class="vp-card-header" onclick="toggleVP(this)">
+              <span class="vp-num">${i+1}</span>
+              <span class="vp-claim">${escapeHtml(vp.claim)}</span>
+              <span class="vp-expand">▾</span>
+            </div>
+            <div class="vp-card-body">
+              ${vp.evidence ? `<div class="vp-evidence-label">📊 證據</div><div class="vp-evidence">${escapeHtml(vp.evidence)}</div>` : ''}
+              ${vp.source ? `<div class="vp-evidence-label">📄 來源</div><div class="vp-evidence">${escapeHtml(vp.source)}</div>` : ''}
+              ${vp.connections && vp.connections.length > 0 ? `<div class="vp-connections">🔗 關聯觀點：${vp.connections.map(c => `<span>#${c}</span>`).join('')}</div>` : ''}
+            </div>
+          </div>
+        `).join('')}
+      </div>
+    ` : ''}
     ${p.type === 'upload' ? `<div class="section"><p style="font-size:12px;color:var(--muted)">📁 使用者上傳文章</p></div>` : ''}
   `;
   
@@ -218,6 +248,42 @@ function escapeHtml(s) {
   const d = document.createElement('div');
   d.textContent = s;
   return d.innerHTML;
+}
+
+// Viewpoint toggle
+function toggleVP(el) {
+  const body = el.nextElementSibling;
+  const expand = el.querySelector('.vp-expand');
+  body.classList.toggle('open');
+  expand.classList.toggle('open');
+}
+
+// Diagram code toggle
+function toggleDiagramCode(el) {
+  const mermaid = el.previousElementSibling;
+  if (mermaid.style.background) {
+    mermaid.style.background = '';
+    mermaid.style.padding = '';
+    mermaid.style.fontFamily = '';
+    mermaid.style.fontSize = '';
+    mermaid.style.whiteSpace = '';
+    mermaid.style.borderRadius = '';
+    mermaid.textContent = mermaid.getAttribute('data-orig') || mermaid.textContent;
+    el.textContent = '📋 顯示原始碼';
+    // Re-render mermaid
+    if (window.mermaid) mermaid.run();
+  } else {
+    const code = mermaid.textContent.trim();
+    mermaid.setAttribute('data-orig', code);
+    mermaid.style.background = '#1e293b';
+    mermaid.style.padding = '12px 16px';
+    mermaid.style.fontFamily = 'monospace';
+    mermaid.style.fontSize = '12px';
+    mermaid.style.whiteSpace = 'pre-wrap';
+    mermaid.style.borderRadius = '6px';
+    mermaid.textContent = code;
+    el.textContent = '🔄 顯示圖譜';
+  }
 }
 
 // Event listeners
