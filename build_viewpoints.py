@@ -23,6 +23,8 @@ def load():
         return json.load(f)
 
 def save(data):
+    data["updated"] = __import__("datetime").datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    data["total"] = len(data["papers"])
     with open(PAPERS_JSON, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     print(f"✅ saved {len(data['papers'])} papers to {PAPERS_JSON}")
