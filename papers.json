@@ -1,6 +1,6 @@
 {
-  "total": 90,
-  "updated": "2026-07-05 09:30:11",
+  "total": 91,
+  "updated": "2026-07-05 10:41:35",
   "topics": [
     "AI/科技",
     "其他",
@@ -17,6 +17,143 @@
     "金融市場"
   ],
   "papers": [
+    {
+      "id": "upload-2026-07-05-balci",
+      "title": "The Nexus Between Sustainability Uncertainty and Ecological Footprint: Evidence from G7 Countries Using Second-Generation Panel Data Methods",
+      "authors": "Orhan Balcı, Ali Özarslan & Mehmet Ali Demir",
+      "year": "2026",
+      "journal": "World, 7, 108",
+      "doi": "10.3390/world7070108",
+      "date": "2026-07-05",
+      "tags": [
+        "CS-ARDL",
+        "AMG",
+        "ESGUI",
+        "ecological footprint",
+        "sustainability uncertainty",
+        "panel",
+        "G7"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "宏觀總體",
+        "潔淨能源"
+      ],
+      "type": "upload",
+      "pdf": "uploads/Balcı_ESGUI_EF_G7_2026.pdf",
+      "notes": [
+        "樣本：G7 國家（加拿大、法國、德國、義大利、日本、英國、美國），2002–2024，年資料，161 obs（7×23）",
+        "資料庫：Global Footprint Network（EF）、ESGUI Index（Gavriilidis 2025）、World Bank（GDP/TRADE/REN）",
+        "方法：CS-ARDL（Chudik & Pesaran 2015）+ AMG（Eberhardt & Bond 2009），第二代面板方法，處理 CSD、SH、混和整合階次",
+        "---",
+        "【變數】DV=EF（生態足跡 gha/人），IV=ESGUI（永續不確定性指數 0-100），Controls=LGDP（ln人均GDP）、TRADE（貿易開放度%GDP）、LREN（ln再生能源消費）",
+        "---",
+        "【H1 核心】ESGUI→EF：CS-ARDL長期係數−0.0072(p=0.079*)，AMG係數−0.0051(p=0.158)",
+        "  → SU對EF平均效果非常微弱（邊際顯著到不顯著），ESG不確定性的角色有限",
+        "【H2】LGDP→EF：CS-ARDL+6.1663(p<0.001***)，AMG+2.6849(p<0.001***) → 經濟成長是EF最大驅動因子",
+        "【H3】LREN→EF：CS-ARDL−0.8796(p=0.081*)，AMG−0.6500(p=0.066*) → 再生能源有邊際減排效果",
+        "【H4】TRADE→EF：CS-ARDL−0.0038(p=0.813不顯著)，AMG−0.0123(p=0.018**) → 貿易在AMG下顯著減排",
+        "---",
+        "【Simpson悖論】原始相關 EF vs LREN=+0.468，控制GDP後轉負 → GDP同時驅動EF↑與REN投資↑，迴歸分離後才顯現REN真實淨效果",
+        "【量級】ESGUI一個SD(8.6)→EF−0.062 gha；LGDP一個SD(0.18)→EF+1.122 gha → ESGUI效果僅為GDP的1/18",
+        "---",
+        "【前置檢定】Pesaran CD→所有變數CSD顯著(p<0.001)；Pesaran-Yamagata SH→斜率異質(p<0.001)；CIPS單根→I(1)混和I(0)；Westerlund共整合→Gt顯著(p=0.029)",
+        "【模型適配】CS-ARDL: R²組內=0.58, R²MG=0.92, ECT=−0.9315(p<0.001)年收斂93%；AMG: RMSE=0.156, Wald χ²=54.17(p<0.001)",
+        "---",
+        "【貢獻】1)首次以ESGUI分析G7國家SU對EF影響；2)採用CS-ARDL+AMG雙重第二代面板估計處理CSD與SH；3)揭露GDP抑制效果（Simpson悖論），解釋REN原始正相關之謎",
+        "---",
+        "【政策意涵】1)SU效果過弱 → 不需單獨針對SU制定政策，經濟成長仍是EF主導因子；2)須推動成長-資源脫鉤（binding resource productivity targets + EPR + 累進碳稅）；3)碳漏出風險 → 強化CBAM；4)REN單獨擴張不足 → 須同時訂定化石燃料淘汰目標+碳定價+電網儲能投資；5)稅制改革：從勞動稅轉向資源消耗/排放稅",
+        "---",
+        "【限制】僅G7不可外推、ESGUI無法拆解不確定性來源、EF總體指標無法反映分量異質性、REN弱顯著需細分能源別研究"
+      ],
+      "viewpoints": [
+        {
+          "claim": "ESGUI → EF",
+          "evidence": "ESGUI對EF的影響",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "LGDP → EF",
+          "evidence": "LGDP對EF的影響",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "LREN → EF",
+          "evidence": "LREN對EF的影響",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": ".001***) → 經濟成長是EF最大驅動因子",
+          "evidence": ".001***) → 經濟成長是EF最大對因子的影響：驅動",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "控制GDP後轉負 → GDP同時驅動EF↑與REN投資↑",
+          "evidence": "控制GDP後轉負 → GDP同時對EF↑與REN投資↑的影響：驅動",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "面板估計處理CSD與SH；3)揭露GDP抑制效果（Simpson悖論）",
+          "evidence": "面板估計處理CSD與SH；3)揭露GDP對效果（Simpson悖論）的影響：抑制",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "【模型適配】CS-ARDL: R²組內=0.58, R²MG=0.92, ECT=−0.9315(p<0.001)年收斂93%；AMG: RMSE=0.156, Wald χ²=54.17(p<0.001)",
+          "evidence": "【模型適配】CS-ARDL: R²組內=0.58, R²MG=0.92, ECT=−0.9315(p<0.001)年收斂93%；AMG: RMSE=0.156, Wald χ²=54.17(p<0.001)",
+          "confidence": "mid",
+          "source": "數據",
+          "connections": []
+        },
+        {
+          "claim": "【貢獻】1)首次以ESGUI分析G7國家SU對EF影響；2)採用CS-ARDL+AMG雙重第二代面板估計處理CSD與SH；3)揭露GDP抑制效果（Simpson悖論），解釋REN原始正相關之謎",
+          "evidence": "【貢獻】1)首次以ESGUI分析G7國家SU對EF影響；2)採用CS-ARDL+AMG雙重第二代面板估計處理CSD與SH；3)揭露GDP抑制效果（Simpson悖論），解釋REN原始正相關之謎",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【限制】僅G7不可外推、ESGUI無法拆解不確定性來源、EF總體指標無法反映分量異質性、REN弱顯著需細分能源別研究",
+          "evidence": "【限制】僅G7不可外推、ESGUI無法拆解不確定性來源、EF總體指標無法反映分量異質性、REN弱顯著需細分能源別研究",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "H1：ESGUI→EF：CS-ARDL長期係數−0.0072(p=0.079*)，AMG係數−0.0051(p=0.158)",
+          "evidence": "ESGUI→EF：CS-ARDL長期係數−0.0072(p=0.079*)，AMG係數−0.0051(p=0.158)",
+          "confidence": "mid",
+          "source": "假設檢定",
+          "connections": []
+        },
+        {
+          "claim": "H2：LGDP→EF：CS-ARDL+6.1663(p<0.001***)，AMG+2.6849(p<0.001***) → 經濟成長是EF最大驅動因子",
+          "evidence": "LGDP→EF：CS-ARDL+6.1663(p<0.001***)，AMG+2.6849(p<0.001***) → 經濟成長是EF最大驅動因子",
+          "confidence": "high",
+          "source": "假設檢定",
+          "connections": []
+        },
+        {
+          "claim": "H3：LREN→EF：CS-ARDL−0.8796(p=0.081*)，AMG−0.6500(p=0.066*) → 再生能源有邊際減排效果",
+          "evidence": "LREN→EF：CS-ARDL−0.8796(p=0.081*)，AMG−0.6500(p=0.066*) → 再生能源有邊際減排效果",
+          "confidence": "mid",
+          "source": "假設檢定",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    TheNexusBetween[\"📄 The Nexus Between Sustainability Uncerta\"]\n    style TheNexusBetween fill:#2563eb,color:#fff,font-weight:bold\n    vp0ESGUIEF[\"💡 ESGUI → EF\"]\n    style vp0ESGUIEF fill:#fef3c7,stroke:#d97706\n    TheNexusBetween --> vp0ESGUIEF\n    vp1LGDPEF[\"💡 LGDP → EF\"]\n    style vp1LGDPEF fill:#fef3c7,stroke:#d97706\n    TheNexusBetween --> vp1LGDPEF\n    vp2LRENEF[\"💡 LREN → EF\"]\n    style vp2LRENEF fill:#fef3c7,stroke:#d97706\n    TheNexusBetween --> vp2LRENEF\n    vp3001[\"💡 .001***) → 經濟成長是EF最大驅動因子\"]\n    style vp3001 fill:#fef3c7,stroke:#d97706\n    TheNexusBetween --> vp3001\n    vp4控制GDP後轉負[\"💡 控制GDP後轉負 → GDP同時驅動EF↑與REN投資↑\"]\n    style vp4控制GDP後轉負 fill:#fef3c7,stroke:#d97706\n    TheNexusBetween --> vp4控制GDP後轉負\n    vp5面板估計處理CSD與[\"💡 面板估計處理CSD與SH；3)揭露GDP抑制效果（Simpson悖論）\"]\n    style vp5面板估計處理CSD與 fill:#fef3c7,stroke:#d97706\n    TheNexusBetween --> vp5面板估計處理CSD與\n    vp6模型適配CSA[\"💡 【模型適配】CS-ARDL: R²組內=0.58, R²MG=0.92, ECT\"]\n    style vp6模型適配CSA fill:#fef3c7,stroke:#d97706\n    TheNexusBetween --> vp6模型適配CSA\n    vp7貢獻1首次以E[\"💡 【貢獻】1)首次以ESGUI分析G7國家SU對EF影響；2)採用CS-ARDL+\"]\n    style vp7貢獻1首次以E fill:#fef3c7,stroke:#d97706\n    TheNexusBetween --> vp7貢獻1首次以E\n    vp8限制僅G7不可外[\"💡 【限制】僅G7不可外推、ESGUI無法拆解不確定性來源、EF總體指標無法反映分量\"]\n    style vp8限制僅G7不可外 fill:#fef3c7,stroke:#d97706\n    TheNexusBetween --> vp8限制僅G7不可外\n    vp9H1ESGUIE[\"💡 H1：ESGUI→EF：CS-ARDL長期係數−0.0072(p=0.079*)\"]\n    style vp9H1ESGUIE fill:#fef3c7,stroke:#d97706\n    TheNexusBetween --> vp9H1ESGUIE\n    vp10H2LGDPEF[\"💡 H2：LGDP→EF：CS-ARDL+6.1663(p<0.001***)，AM\"]\n    style vp10H2LGDPEF fill:#dbeafe,stroke:#2563eb\n    TheNexusBetween --> vp10H2LGDPEF\n    vp11H3LRENEF[\"💡 H3：LREN→EF：CS-ARDL−0.8796(p=0.081*)，AMG−\"]\n    style vp11H3LRENEF fill:#fef3c7,stroke:#d97706\n    TheNexusBetween --> vp11H3LRENEF\n    ESGUI-->|\"EF\"|EF\n    note[\"⋯ 還有 12 個觀點\"]"
+    },
     {
       "title": "The Mediating Role of Globalization in the Nexus Between CO₂ Emissions, GHGs, and Economic Growth",
       "authors": "Abdelbasset Dhouiwi",
