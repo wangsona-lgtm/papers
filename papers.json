@@ -1,6 +1,6 @@
 {
-  "total": 90,
-  "updated": "2026-07-06 09:30:11",
+  "total": 91,
+  "updated": "2026-07-07 09:30:21",
   "topics": [
     "AI/科技",
     "其他",
@@ -17,6 +17,183 @@
     "金融市場"
   ],
   "papers": [
+    {
+      "title": "精讀筆記：方法論核心 5 篇 + 高引用實證 5 篇",
+      "authors": "王美智教授 QVAR 文獻庫精讀",
+      "year": "2026",
+      "journal": "QVAR 文獻庫精讀筆記",
+      "doi": "",
+      "date": "2026-07-06",
+      "tags": [
+        "QIRF",
+        "jQIRF",
+        "jQFEVD",
+        "QQGC",
+        "WQC",
+        "WQQGC",
+        "QGC",
+        "QVAR"
+      ],
+      "topics": [
+        "方法論",
+        "綠債/ESG",
+        "能源市場",
+        "碳市場/碳交易"
+      ],
+      "pdf": "uploads/精讀筆記_10篇_王美智_QVAR文獻庫_2026-07-06.pdf",
+      "notes": [
+        "十篇總覽：方法論五篇構成一條完整的「分位數衝擊分析」工具鏈",
+        "01 Han/Jung/Lee (JFEC 2022) — QIRF by Local Projections 奠基之作",
+        "02 Jung/Lee (2023) — QIRF 漸近理論與 R 套件",
+        "03 Mayer/Wied/Troster (JoE 2025) — 結構不穩定下的分位數因果檢定",
+        "04 Wiesen/Beaumont (2024) — 聯合衝擊視角",
+        "05 Wang/Chavas/Li (2024) — QIRF 在商品市場的應用",
+        "06 Adebayo/Olanrewaju (2025) — QGC 原油-碳-加密貨幣",
+        "07 Wang et al. (IREF 2024) — QQGC 觀光-碳排放",
+        "08 Usman et al. (Energy 2025) — WQQGC 加密貨幣-原油-碳",
+        "09 Yi/Shen/Cai (FRL 2025) — WQC 地緣風險-綠色金融",
+        "10 Jiang et al. (Sustainability 2025) — QQGC 碳-加密貨幣-綠色投資",
+        "標籤說明：全文精讀＝已取得全文；摘要精讀＝依公開摘要與方法文獻整理",
+        "來源：Mayer et al. arXiv 全文、Jiang et al. MDPI 全文、Wiley/Elsevier 頁面"
+      ],
+      "type": "upload",
+      "id": "upload-2026-07-06-7345",
+      "diagram": "graph TD\n    精讀筆記方法論核心5篇高引用[\"📄 精讀筆記：方法論核心 5 篇 + 高引用實證 5 篇\"]\n    style 精讀筆記方法論核心5篇高引用 fill:#2563eb,color:#fff,font-weight:bold"
+    },
+    {
+      "title": "Green innovation and the CO₂ emissions gap: New evidence from OECD economies",
+      "authors": "Nguyen, T.T.T. & Pham, B.T.",
+      "year": "2026",
+      "journal": "Environmental and Sustainability Indicators (Elsevier), 31, 101382",
+      "doi": "10.1016/j.indic.2026.101382",
+      "date": "2026-06-30",
+      "tags": [
+        "directed technical change",
+        "carbon inequality",
+        "green innovation",
+        "pooled Bewley",
+        "panel cointegration",
+        "OECD"
+      ],
+      "topics": [
+        "碳市場/碳交易",
+        "氣候風險/政策",
+        "方法論",
+        "宏觀總體"
+      ],
+      "pdf": "uploads/Nguyen_Green_Innovation_CO2_Gap_OECD_2026.pdf",
+      "notes": [
+        "樣本：36 OECD 經濟體（排除愛爾蘭、義大利資料不全），1990–2021，unbalanced panel，N=1082~1152",
+        "資料庫：World Inequality Database (CO2gap), WDI (GDP/TO/UBAN), OECD Patent Indicators (GINO), World Bank (LPAT)",
+        "方法：Pooled Bewley (PB) 估計長條共整合向量 + PMG/MG/DFE/FE-DK/IV-GMM 穩健性",
+        "---",
+        "【DV】CO2gap = ln(前10%排放者人均CO₂ − 後50%排放者人均CO₂)，Chancel (2022) 消費基礎碳足跡",
+        "【IV核心】GINO = 環境相關技術占國內發明專利比率(%) → 創新方向；LPAT = ln(總專利申請數) → 創新規模",
+        "【Controls】LGDP(人均GDP對數), LGDP²(EKC二次項), TROP(貿易開放%GDP), UBAN(城市化率%)",
+        "---",
+        "【H1結果】LPAT→CO2gap: 係數不顯著，創新規模與碳不平等無系統性關聯 ✅ H1成立",
+        "【H2結果 核心】GINO→CO2gap: PB係數−0.0051~−0.0063**(p<0.05), PMG係數−0.0095~−0.0136*(p<0.05)",
+        "  → 綠色技術佔比每增1pp，碳不平等降0.5%~1.4% ✅ H2成立",
+        "---",
+        "【EKC】LGDP(+)顯著, LGDP²(−)顯著 → 所得與碳不平等呈倒U型",
+        "【UBAN】−0.0152~−0.0166**(p<0.05) 城市化降低碳不平等（集聚效率效益）",
+        "【TROP】不穩定/不顯著",
+        "---",
+        "【分組分析】GINO對前10%排放者(−0.49~−0.68%)與後50%排放者(−0.55~−0.71%)皆降排",
+        "  → 高低排放者都受益，但量級相近，絕對差距因基數效應縮小",
+        "---",
+        "【診斷】CSD顯著(CD,CDw,CD*), LLC/Breitung/IPS/CIPS單根I(1), Kao/Pedroni/Westerlund共整合(p<0.05), ECT=−0.35~−0.37(p<0.01)",
+        "【穩健性】FE-DK Driscoll-Kraay 標準誤 + IV-GMM + MG/DFE + 擴增控制變數(INFL/FD/FDI/WUI) → GINO始終顯著負向",
+        "---",
+        "【理論基礎】Acemoglu et al. (2012) Directed Technical Change + Kaya恆等式 + Rebound效應",
+        "---",
+        "【政策意涵】1)創新方向比規模重要 → 碳定價+綠色產業政策引導R&D；2)綠色專利補貼可兼顧減排與公平；3)城市化建設低碳基礎設施有助降低不平等；4)僅靠一般性R&D補貼無法改善碳不平等",
+        "---",
+        "【限制】僅OECD、專利指標未必反映技術擴散與採用、消費基礎排放有量測誤差"
+      ],
+      "type": "upload",
+      "id": "upload-2026-06-30-9856",
+      "viewpoints": [
+        {
+          "claim": "LPAT → CO2gap",
+          "evidence": "LPAT對CO2gap的影響",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "GINO → CO2gap",
+          "evidence": "GINO對CO2gap的影響",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "0.0166**(p<0.05) 城市化降低碳不平等（集聚效率效益）",
+          "evidence": "0.0166**(p<0.05) 城市化對碳不平等（集聚效率效益）的影響：降低",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "排與公平；3)城市化建設低碳基礎設施有助降低不平等；4)僅靠一般性R&D補貼無法改善碳不平等",
+          "evidence": "排與公平；3)城市化建設低碳基礎設施有助對不平等；4)僅靠一般性R&D補貼無法改善碳不平等的影響：降低",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "【限制】僅OECD、專利指標未必反映技術擴散與採用、消費基礎排放有量測誤差",
+          "evidence": "【限制】僅OECD、專利指標未必反映技術擴散與採用、消費基礎排放有量測誤差",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "H1：LPAT→CO2gap: 係數不顯著，創新規模與碳不平等無系統性關聯 ✅ H1成立",
+          "evidence": "LPAT→CO2gap: 係數不顯著，創新規模與碳不平等無系統性關聯 ✅ H1成立",
+          "confidence": "high",
+          "source": "假設檢定",
+          "connections": []
+        },
+        {
+          "claim": "H2：GINO→CO2gap: PB係數−0.0051~−0.0063**(p<0.05), PMG係數−0.0095~−0.0136*(p<0.05)",
+          "evidence": "GINO→CO2gap: PB係數−0.0051~−0.0063**(p<0.05), PMG係數−0.0095~−0.0136*(p<0.05)",
+          "confidence": "high",
+          "source": "假設檢定",
+          "connections": []
+        },
+        {
+          "claim": "GINO = 環境相關技術占國內發明專利比率(%) → 創新方向；LPAT = ln(總專利申請數) → 創新規模",
+          "evidence": "GINO = 環境相關技術占國內發明專利比率(%) → 創新方向；LPAT = ln(總專利申請數) → 創新規模",
+          "confidence": "high",
+          "source": "核心發現",
+          "connections": []
+        },
+        {
+          "claim": "GINO→CO2gap: PB係數−0.0051~−0.0063**(p<0.05), PMG係數−0.0095~−0.0136*(p<0.05)\n  → 綠色技術佔比每增1pp，碳不平等降0.5%~1.4% ✅ H2成立",
+          "evidence": "GINO→CO2gap: PB係數−0.0051~−0.0063**(p<0.05), PMG係數−0.0095~−0.0136*(p<0.05)\n  → 綠色技術佔比每增1pp，碳不平等降0.5%~1.4% ✅ H2成立",
+          "confidence": "high",
+          "source": "核心發現",
+          "connections": []
+        },
+        {
+          "claim": "政策建議：創新方向比規模重要 → 碳定價+綠色產業政策引導R&D；2)綠色專利補貼可兼顧減排與公平；3)城市化建設低碳基礎設施有助降低不平等；4)僅靠一般性R&D補貼無法改善碳不平等",
+          "evidence": "創新方向比規模重要 → 碳定價+綠色產業政策引導R&D；2)綠色專利補貼可兼顧減排與公平；3)城市化建設低碳基礎設施有助降低不平等；4)僅靠一般性R&D補貼無法改善碳不平等",
+          "confidence": "mid",
+          "source": "政策意涵",
+          "connections": []
+        },
+        {
+          "claim": "研究限制：僅OECD、專利指標未必反映技術擴散與採用、消費基礎排放有量測誤差",
+          "evidence": "僅OECD、專利指標未必反映技術擴散與採用、消費基礎排放有量測誤差",
+          "confidence": "low",
+          "source": "研究限制",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    Greeninnovation[\"📄 Green innovation and the CO₂ emissions gap: New ev\"]\n    style Greeninnovation fill:#2563eb,color:#fff,font-weight:bold\n    vp0LPATCO2[\"💡 LPAT → CO2gap\"]\n    style vp0LPATCO2 fill:#fef3c7,stroke:#d97706\n    Greeninnovation --> vp0LPATCO2\n    vp1GINOCO2[\"💡 GINO → CO2gap\"]\n    style vp1GINOCO2 fill:#fef3c7,stroke:#d97706\n    Greeninnovation --> vp1GINOCO2\n    vp200166p[\"💡 0.0166**(p<0.05) 城市化降低碳不平等（集聚效率效益）\"]\n    style vp200166p fill:#fef3c7,stroke:#d97706\n    Greeninnovation --> vp200166p\n    vp3排與公平3城市化[\"💡 排與公平；3)城市化建設低碳基礎設施有助降低不平等；4)僅靠一般性R&D補貼無法\"]\n    style vp3排與公平3城市化 fill:#fef3c7,stroke:#d97706\n    Greeninnovation --> vp3排與公平3城市化\n    vp4限制僅OECD[\"💡 【限制】僅OECD、專利指標未必反映技術擴散與採用、消費基礎排放有量測誤差\"]\n    style vp4限制僅OECD fill:#fef3c7,stroke:#d97706\n    Greeninnovation --> vp4限制僅OECD\n    vp5H1LPATCO[\"💡 H1：LPAT→CO2gap: 係數不顯著，創新規模與碳不平等無系統性關聯 ✅ \"]\n    style vp5H1LPATCO fill:#dbeafe,stroke:#2563eb\n    Greeninnovation --> vp5H1LPATCO\n    vp6H2GINOCO[\"💡 H2：GINO→CO2gap: PB係數−0.0051~−0.0063**(p<\"]\n    style vp6H2GINOCO fill:#dbeafe,stroke:#2563eb\n    Greeninnovation --> vp6H2GINOCO\n    vp7GINO環境相[\"💡 GINO = 環境相關技術占國內發明專利比率(%) → 創新方向；LPAT = \"]\n    style vp7GINO環境相 fill:#dbeafe,stroke:#2563eb\n    Greeninnovation --> vp7GINO環境相\n    vp8GINOCO2ga[\"💡 GINO→CO2gap: PB係數−0.0051~−0.0063**(p<0.0\"]\n    style vp8GINOCO2ga fill:#dbeafe,stroke:#2563eb\n    Greeninnovation --> vp8GINOCO2ga\n    vp9政策建議創新方向比[\"💡 政策建議：創新方向比規模重要 → 碳定價+綠色產業政策引導R&D；2)綠色專利補\"]\n    style vp9政策建議創新方向比 fill:#fef3c7,stroke:#d97706\n    Greeninnovation --> vp9政策建議創新方向比\n    vp10研究限制僅OECD[\"💡 研究限制：僅OECD、專利指標未必反映技術擴散與採用、消費基礎排放有量測誤差\"]\n    style vp10研究限制僅OECD fill:#fee2e2,stroke:#dc2626\n    Greeninnovation --> vp10研究限制僅OECD\n    LPAT-->|\"CO2gap\"|CO2gap\n    GINO-->|\"CO2gap\"|CO2gap1\n    15200166p--x|\"降低\"|碳不平等集聚效率效益\n    貼可兼顧減排與公平3城市化--x|\"降低\"|不平等4僅靠一般性RD補"
+    },
     {
       "title": "Impact of Geopolitical Risk and Economic Globalization on Turkey's Environmental Sustainability: Novel Quantile-on-quantile KRLS Method",
       "authors": "Awan, A., Jahanger, A., Emran Hossain, M., Meo, M.S. & Yusoff, N.Y.b.M.",
@@ -63,7 +240,7 @@
         "【限制】僅土耳其單國、結果不可外推、年轉季資料可能有測量誤差"
       ],
       "type": "upload",
-      "id": "upload-2026-06-30-466",
+      "id": "upload-2026-06-30-7275",
       "viewpoints": [
         {
           "claim": "EGI → CO",
@@ -185,7 +362,7 @@
         "【限制】僅12國、未納碳價與政治風險、未考慮非線性與門檻效應、IQ多維度未拆解"
       ],
       "type": "upload",
-      "id": "upload-2026-06-30-4147",
+      "id": "upload-2026-06-30-7118",
       "viewpoints": [
         {
           "claim": "FD → REC",
@@ -275,140 +452,6 @@
       "diagram": "graph TD\n    Financialdevelo[\"📄 Financial development and renewable energy consump\"]\n    style Financialdevelo fill:#2563eb,color:#fff,font-weight:bold\n    vp0FDREC[\"💡 FD → REC\"]\n    style vp0FDREC fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp0FDREC\n    vp1IQREC[\"💡 IQ → REC\"]\n    style vp1IQREC fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp1IQREC\n    vp2EIREC[\"💡 EI → REC\"]\n    style vp2EIREC fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp2EIREC\n    vp31242p0[\"💡 1242*(p<0.10) → IQ正向調節FD-REC關係\"]\n    style vp31242p0 fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp31242p0\n    vp4技術創新反而抑制RE[\"💡 技術創新反而抑制REC(與再生能源目標脫鉤)\"]\n    style vp4技術創新反而抑制RE fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp4技術創新反而抑制RE\n    vp5I經濟體須投資能效技[\"💡 I經濟體須投資能效技術；4)利用貿易開放降低綠色技術關稅壁壘；5)技術創新須對齊\"]\n    style vp5I經濟體須投資能效技 fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp5I經濟體須投資能效技\n    vp6診斷CSD顯著[\"💡 【診斷】CSD顯著, HS異質斜率, LLC/IPS單根I(0), Pedron\"]\n    style vp6診斷CSD顯著 fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp6診斷CSD顯著\n    vp7政策意涵1金融[\"💡 【政策意涵】1)金融資源需重新導向綠色金融(綠債、補貼、稅務優惠)；2)強化制度\"]\n    style vp7政策意涵1金融 fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp7政策意涵1金融\n    vp8限制僅12國未[\"💡 【限制】僅12國、未納碳價與政治風險、未考慮非線性與門檻效應、IQ多維度未拆解\"]\n    style vp8限制僅12國未 fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp8限制僅12國未\n    vp9H1FDREC[\"💡 H1：FD→REC: Q.50係數−0.5386*(p<0.10), FE係數−\"]\n    style vp9H1FDREC fill:#dbeafe,stroke:#2563eb\n    Financialdevelo --> vp9H1FDREC\n    vp10H2FDIQR[\"💡 H2：FD×IQ→REC: APEC交互項係數+0.7815***(p<0.01\"]\n    style vp10H2FDIQR fill:#dbeafe,stroke:#2563eb\n    Financialdevelo --> vp10H2FDIQR\n    vp11政策建議金融資源需[\"💡 政策建議：金融資源需重新導向綠色金融(綠債、補貼、稅務優惠)；2)強化制度品質(\"]\n    style vp11政策建議金融資源需 fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp11政策建議金融資源需\n    FD-->|\"REC\"|REC\n    note[\"⋯ 還有 12 個觀點\"]"
     },
     {
-      "title": "Green innovation and the CO₂ emissions gap: New evidence from OECD economies",
-      "authors": "Nguyen, T.T.T. & Pham, B.T.",
-      "year": "2026",
-      "journal": "Environmental and Sustainability Indicators (Elsevier), 31, 101382",
-      "doi": "10.1016/j.indic.2026.101382",
-      "date": "2026-06-30",
-      "tags": [
-        "directed technical change",
-        "carbon inequality",
-        "green innovation",
-        "pooled Bewley",
-        "panel cointegration",
-        "OECD"
-      ],
-      "topics": [
-        "碳市場/碳交易",
-        "氣候風險/政策",
-        "方法論",
-        "宏觀總體"
-      ],
-      "pdf": "uploads/Nguyen_Green_Innovation_CO2_Gap_OECD_2026.pdf",
-      "notes": [
-        "樣本：36 OECD 經濟體（排除愛爾蘭、義大利資料不全），1990–2021，unbalanced panel，N=1082~1152",
-        "資料庫：World Inequality Database (CO2gap), WDI (GDP/TO/UBAN), OECD Patent Indicators (GINO), World Bank (LPAT)",
-        "方法：Pooled Bewley (PB) 估計長條共整合向量 + PMG/MG/DFE/FE-DK/IV-GMM 穩健性",
-        "---",
-        "【DV】CO2gap = ln(前10%排放者人均CO₂ − 後50%排放者人均CO₂)，Chancel (2022) 消費基礎碳足跡",
-        "【IV核心】GINO = 環境相關技術占國內發明專利比率(%) → 創新方向；LPAT = ln(總專利申請數) → 創新規模",
-        "【Controls】LGDP(人均GDP對數), LGDP²(EKC二次項), TROP(貿易開放%GDP), UBAN(城市化率%)",
-        "---",
-        "【H1結果】LPAT→CO2gap: 係數不顯著，創新規模與碳不平等無系統性關聯 ✅ H1成立",
-        "【H2結果 核心】GINO→CO2gap: PB係數−0.0051~−0.0063**(p<0.05), PMG係數−0.0095~−0.0136*(p<0.05)",
-        "  → 綠色技術佔比每增1pp，碳不平等降0.5%~1.4% ✅ H2成立",
-        "---",
-        "【EKC】LGDP(+)顯著, LGDP²(−)顯著 → 所得與碳不平等呈倒U型",
-        "【UBAN】−0.0152~−0.0166**(p<0.05) 城市化降低碳不平等（集聚效率效益）",
-        "【TROP】不穩定/不顯著",
-        "---",
-        "【分組分析】GINO對前10%排放者(−0.49~−0.68%)與後50%排放者(−0.55~−0.71%)皆降排",
-        "  → 高低排放者都受益，但量級相近，絕對差距因基數效應縮小",
-        "---",
-        "【診斷】CSD顯著(CD,CDw,CD*), LLC/Breitung/IPS/CIPS單根I(1), Kao/Pedroni/Westerlund共整合(p<0.05), ECT=−0.35~−0.37(p<0.01)",
-        "【穩健性】FE-DK Driscoll-Kraay 標準誤 + IV-GMM + MG/DFE + 擴增控制變數(INFL/FD/FDI/WUI) → GINO始終顯著負向",
-        "---",
-        "【理論基礎】Acemoglu et al. (2012) Directed Technical Change + Kaya恆等式 + Rebound效應",
-        "---",
-        "【政策意涵】1)創新方向比規模重要 → 碳定價+綠色產業政策引導R&D；2)綠色專利補貼可兼顧減排與公平；3)城市化建設低碳基礎設施有助降低不平等；4)僅靠一般性R&D補貼無法改善碳不平等",
-        "---",
-        "【限制】僅OECD、專利指標未必反映技術擴散與採用、消費基礎排放有量測誤差"
-      ],
-      "type": "upload",
-      "id": "upload-2026-06-30-2983",
-      "viewpoints": [
-        {
-          "claim": "LPAT → CO2gap",
-          "evidence": "LPAT對CO2gap的影響",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "GINO → CO2gap",
-          "evidence": "GINO對CO2gap的影響",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "0.0166**(p<0.05) 城市化降低碳不平等（集聚效率效益）",
-          "evidence": "0.0166**(p<0.05) 城市化對碳不平等（集聚效率效益）的影響：降低",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "排與公平；3)城市化建設低碳基礎設施有助降低不平等；4)僅靠一般性R&D補貼無法改善碳不平等",
-          "evidence": "排與公平；3)城市化建設低碳基礎設施有助對不平等；4)僅靠一般性R&D補貼無法改善碳不平等的影響：降低",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "【限制】僅OECD、專利指標未必反映技術擴散與採用、消費基礎排放有量測誤差",
-          "evidence": "【限制】僅OECD、專利指標未必反映技術擴散與採用、消費基礎排放有量測誤差",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "H1：LPAT→CO2gap: 係數不顯著，創新規模與碳不平等無系統性關聯 ✅ H1成立",
-          "evidence": "LPAT→CO2gap: 係數不顯著，創新規模與碳不平等無系統性關聯 ✅ H1成立",
-          "confidence": "high",
-          "source": "假設檢定",
-          "connections": []
-        },
-        {
-          "claim": "H2：GINO→CO2gap: PB係數−0.0051~−0.0063**(p<0.05), PMG係數−0.0095~−0.0136*(p<0.05)",
-          "evidence": "GINO→CO2gap: PB係數−0.0051~−0.0063**(p<0.05), PMG係數−0.0095~−0.0136*(p<0.05)",
-          "confidence": "high",
-          "source": "假設檢定",
-          "connections": []
-        },
-        {
-          "claim": "GINO = 環境相關技術占國內發明專利比率(%) → 創新方向；LPAT = ln(總專利申請數) → 創新規模",
-          "evidence": "GINO = 環境相關技術占國內發明專利比率(%) → 創新方向；LPAT = ln(總專利申請數) → 創新規模",
-          "confidence": "high",
-          "source": "核心發現",
-          "connections": []
-        },
-        {
-          "claim": "GINO→CO2gap: PB係數−0.0051~−0.0063**(p<0.05), PMG係數−0.0095~−0.0136*(p<0.05)\n  → 綠色技術佔比每增1pp，碳不平等降0.5%~1.4% ✅ H2成立",
-          "evidence": "GINO→CO2gap: PB係數−0.0051~−0.0063**(p<0.05), PMG係數−0.0095~−0.0136*(p<0.05)\n  → 綠色技術佔比每增1pp，碳不平等降0.5%~1.4% ✅ H2成立",
-          "confidence": "high",
-          "source": "核心發現",
-          "connections": []
-        },
-        {
-          "claim": "政策建議：創新方向比規模重要 → 碳定價+綠色產業政策引導R&D；2)綠色專利補貼可兼顧減排與公平；3)城市化建設低碳基礎設施有助降低不平等；4)僅靠一般性R&D補貼無法改善碳不平等",
-          "evidence": "創新方向比規模重要 → 碳定價+綠色產業政策引導R&D；2)綠色專利補貼可兼顧減排與公平；3)城市化建設低碳基礎設施有助降低不平等；4)僅靠一般性R&D補貼無法改善碳不平等",
-          "confidence": "mid",
-          "source": "政策意涵",
-          "connections": []
-        },
-        {
-          "claim": "研究限制：僅OECD、專利指標未必反映技術擴散與採用、消費基礎排放有量測誤差",
-          "evidence": "僅OECD、專利指標未必反映技術擴散與採用、消費基礎排放有量測誤差",
-          "confidence": "low",
-          "source": "研究限制",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    Greeninnovation[\"📄 Green innovation and the CO₂ emissions gap: New ev\"]\n    style Greeninnovation fill:#2563eb,color:#fff,font-weight:bold\n    vp0LPATCO2[\"💡 LPAT → CO2gap\"]\n    style vp0LPATCO2 fill:#fef3c7,stroke:#d97706\n    Greeninnovation --> vp0LPATCO2\n    vp1GINOCO2[\"💡 GINO → CO2gap\"]\n    style vp1GINOCO2 fill:#fef3c7,stroke:#d97706\n    Greeninnovation --> vp1GINOCO2\n    vp200166p[\"💡 0.0166**(p<0.05) 城市化降低碳不平等（集聚效率效益）\"]\n    style vp200166p fill:#fef3c7,stroke:#d97706\n    Greeninnovation --> vp200166p\n    vp3排與公平3城市化[\"💡 排與公平；3)城市化建設低碳基礎設施有助降低不平等；4)僅靠一般性R&D補貼無法\"]\n    style vp3排與公平3城市化 fill:#fef3c7,stroke:#d97706\n    Greeninnovation --> vp3排與公平3城市化\n    vp4限制僅OECD[\"💡 【限制】僅OECD、專利指標未必反映技術擴散與採用、消費基礎排放有量測誤差\"]\n    style vp4限制僅OECD fill:#fef3c7,stroke:#d97706\n    Greeninnovation --> vp4限制僅OECD\n    vp5H1LPATCO[\"💡 H1：LPAT→CO2gap: 係數不顯著，創新規模與碳不平等無系統性關聯 ✅ \"]\n    style vp5H1LPATCO fill:#dbeafe,stroke:#2563eb\n    Greeninnovation --> vp5H1LPATCO\n    vp6H2GINOCO[\"💡 H2：GINO→CO2gap: PB係數−0.0051~−0.0063**(p<\"]\n    style vp6H2GINOCO fill:#dbeafe,stroke:#2563eb\n    Greeninnovation --> vp6H2GINOCO\n    vp7GINO環境相[\"💡 GINO = 環境相關技術占國內發明專利比率(%) → 創新方向；LPAT = \"]\n    style vp7GINO環境相 fill:#dbeafe,stroke:#2563eb\n    Greeninnovation --> vp7GINO環境相\n    vp8GINOCO2ga[\"💡 GINO→CO2gap: PB係數−0.0051~−0.0063**(p<0.0\"]\n    style vp8GINOCO2ga fill:#dbeafe,stroke:#2563eb\n    Greeninnovation --> vp8GINOCO2ga\n    vp9政策建議創新方向比[\"💡 政策建議：創新方向比規模重要 → 碳定價+綠色產業政策引導R&D；2)綠色專利補\"]\n    style vp9政策建議創新方向比 fill:#fef3c7,stroke:#d97706\n    Greeninnovation --> vp9政策建議創新方向比\n    vp10研究限制僅OECD[\"💡 研究限制：僅OECD、專利指標未必反映技術擴散與採用、消費基礎排放有量測誤差\"]\n    style vp10研究限制僅OECD fill:#fee2e2,stroke:#dc2626\n    Greeninnovation --> vp10研究限制僅OECD\n    LPAT-->|\"CO2gap\"|CO2gap\n    GINO-->|\"CO2gap\"|CO2gap1\n    15200166p--x|\"降低\"|碳不平等集聚效率效益\n    貼可兼顧減排與公平3城市化--x|\"降低\"|不平等4僅靠一般性RD補"
-    },
-    {
       "title": "The Mediating Role of Globalization in the Nexus Between CO₂ Emissions, GHGs, and Economic Growth",
       "authors": "Abdelbasset Dhouiwi",
       "year": "2026",
@@ -448,7 +491,7 @@
         "【限制】僅G20不可外推；Baron&Kenny檢定力較低；年資料無法捕捉短期動態；未控制各國環境法規差異"
       ],
       "type": "upload",
-      "id": "upload-2026-06-30-1702",
+      "id": "upload-2026-06-30-1444",
       "viewpoints": [
         {
           "claim": "GHGE → EG",
@@ -561,7 +604,7 @@
         "arXiv q-fin new 2026-06"
       ],
       "type": "upload",
-      "id": "upload-2026-06-23-7223",
+      "id": "upload-2026-06-23-762",
       "viewpoints": [
         {
           "claim": "entropy duality → risk-sensitive",
@@ -572,48 +615,6 @@
         }
       ],
       "diagram": "graph TD\n    ReinforcementLe[\"📄 Reinforcement Learning for Risk-Sensitive Investme\"]\n    style ReinforcementLe fill:#2563eb,color:#fff,font-weight:bold\n    vp0entropydu[\"💡 entropy duality → risk-sensitive\"]\n    style vp0entropydu fill:#fef3c7,stroke:#d97706\n    ReinforcementLe --> vp0entropydu\n    entropyduality-->|\"risk-sensitive\"|risksensitive"
-    },
-    {
-      "title": "The Mathematics of Modeling the Future",
-      "authors": "Miquel Noguer i Alonso",
-      "year": "2026",
-      "journal": "arXiv:2606.20977 [q-fin.MF]",
-      "doi": "",
-      "date": "2026-06-23",
-      "tags": [
-        "方法論"
-      ],
-      "topics": [
-        "方法論",
-        "AI/科技"
-      ],
-      "pdf": "uploads/Mathematics_of_Modeling_Future_Noguer_2026.pdf",
-      "notes": [
-        "從 filtration、conditional expectation、Markov kernel 到 Kolmogorov equations 的統一數學框架",
-        "提出 forecasting calculus：tower property → semigroup law, Ito's formula → backward equation",
-        "Wasserstein gradient flow + Fisher-Rao 幾何下的密度演化",
-        "附 Gaussian OU / CIR 過程的顯式範例",
-        "arXiv q-fin new 2026-06"
-      ],
-      "type": "upload",
-      "id": "upload-2026-06-23-5588",
-      "viewpoints": [
-        {
-          "claim": "tower property → semigroup law",
-          "evidence": "tower property對semigroup law的影響",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "s formula → backward equation\nWasserstein",
-          "evidence": "s formula對backward equation\nWasserstein的影響",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    TheMathematicso[\"📄 The Mathematics of Modeling the Future\"]\n    style TheMathematicso fill:#2563eb,color:#fff,font-weight:bold\n    vp0towerprop[\"💡 tower property → semigroup law\"]\n    style vp0towerprop fill:#fef3c7,stroke:#d97706\n    TheMathematicso --> vp0towerprop\n    vp1sformula[\"💡 s formula → backward equation\nWasserstei\"]\n    style vp1sformula fill:#fef3c7,stroke:#d97706\n    TheMathematicso --> vp1sformula\n    towerproperty-->|\"semigroup law\"|semigrouplaw\n    sformula-->|\"backward equation\nWa\"|backwardequati"
     },
     {
       "title": "Revisiting Trade-sign Long-memory and Square-root Law Price Impact",
@@ -639,7 +640,7 @@
         "arXiv q-fin new 2026-06"
       ],
       "type": "upload",
-      "id": "upload-2026-06-23-3093",
+      "id": "upload-2026-06-23-7514",
       "viewpoints": [
         {
           "claim": "order → concave impact trajectory\narXi",
@@ -652,155 +653,46 @@
       "diagram": "graph TD\n    RevisitingTrade[\"📄 Revisiting Trade-sign Long-memory and Square-root \"]\n    style RevisitingTrade fill:#2563eb,color:#fff,font-weight:bold\n    vp0orderco[\"💡 order → concave impact trajectory\narXi\"]\n    style vp0orderco fill:#fef3c7,stroke:#d97706\n    RevisitingTrade --> vp0orderco\n    order-->|\"concave impact traje\"|concaveimpact"
     },
     {
-      "title": "The interplay of financial development, oil prices, and CO2 emissions in shaping renewable energy consumption in emerging nations: An evidence from panel quantile regression",
-      "authors": "Arsh, Liaqat, Batool & Khan",
-      "year": "2025",
-      "journal": "Vol. 3 No. 4 (2025)",
+      "title": "The Mathematics of Modeling the Future",
+      "authors": "Miquel Noguer i Alonso",
+      "year": "2026",
+      "journal": "arXiv:2606.20977 [q-fin.MF]",
       "doi": "",
-      "date": "2026-06-16",
+      "date": "2026-06-23",
       "tags": [
-        "PQR",
-        "MMQR",
-        "FMOLS",
-        "quantile",
-        "REC"
+        "方法論"
       ],
       "topics": [
-        "潔淨能源",
-        "能源市場",
-        "金融市場"
+        "方法論",
+        "AI/科技"
       ],
-      "pdf": "uploads/Arsh_FD_Oil_REC_Quantile_2025.pdf",
+      "pdf": "uploads/Mathematics_of_Modeling_Future_Noguer_2026.pdf",
       "notes": [
-        "22 emerging economies, 2005-2021",
-        "PQR(Powell 2016) + MMQR(Machado & Silva 2019) 雙重分位數",
-        "FD→REC+, Oil price 不對稱(低分位- 高分位+)",
-        "FDI→REC+, CO2→REC-(高分位)"
+        "從 filtration、conditional expectation、Markov kernel 到 Kolmogorov equations 的統一數學框架",
+        "提出 forecasting calculus：tower property → semigroup law, Ito's formula → backward equation",
+        "Wasserstein gradient flow + Fisher-Rao 幾何下的密度演化",
+        "附 Gaussian OU / CIR 過程的顯式範例",
+        "arXiv q-fin new 2026-06"
       ],
       "type": "upload",
-      "id": "upload-2026-06-16-8915",
+      "id": "upload-2026-06-23-6043",
       "viewpoints": [
         {
-          "claim": "FD → REC+",
-          "evidence": "FD對REC+的影響",
+          "claim": "tower property → semigroup law",
+          "evidence": "tower property對semigroup law的影響",
           "confidence": "mid",
           "source": "變數關係",
           "connections": []
         },
         {
-          "claim": "FDI → REC+",
-          "evidence": "FDI對REC+的影響",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "CO2 → REC-",
-          "evidence": "CO2對REC-的影響",
+          "claim": "s formula → backward equation\nWasserstein",
+          "evidence": "s formula對backward equation\nWasserstein的影響",
           "confidence": "mid",
           "source": "變數關係",
           "connections": []
         }
       ],
-      "diagram": "graph TD\n    Theinterplayoff[\"📄 The interplay of financial development, oil prices\"]\n    style Theinterplayoff fill:#2563eb,color:#fff,font-weight:bold\n    vp0FDREC[\"💡 FD → REC+\"]\n    style vp0FDREC fill:#fef3c7,stroke:#d97706\n    Theinterplayoff --> vp0FDREC\n    vp1FDIREC[\"💡 FDI → REC+\"]\n    style vp1FDIREC fill:#fef3c7,stroke:#d97706\n    Theinterplayoff --> vp1FDIREC\n    vp2CO2REC[\"💡 CO2 → REC-\"]\n    style vp2CO2REC fill:#fef3c7,stroke:#d97706\n    Theinterplayoff --> vp2CO2REC\n    FD-->|\"REC+\"|REC\n    FDI-->|\"REC+\"|REC1\n    CO2-->|\"REC-\"|REC2"
-    },
-    {
-      "title": "Sustainable energy transition toward a zero-carbon future in major Global South economies: Roles of green innovation, institutions, and geopolitical risk",
-      "authors": "Caglar, Naimoglu & Demirdag",
-      "year": "2026",
-      "journal": "Energy for Sustainable Development, 93, 102050",
-      "doi": "10.1016/j.esd.2026.102050",
-      "date": "2026-06-16",
-      "tags": [
-        "panel",
-        "SDG-7",
-        "GRI",
-        "GEO",
-        "Porter Hypothesis"
-      ],
-      "topics": [
-        "潔淨能源",
-        "氣候風險/政策",
-        "宏觀總體"
-      ],
-      "pdf": "uploads/Caglar_GlobalSouth_ENT_2026.pdf",
-      "notes": [
-        "Panel: Brazil, China, India, Indonesia, Thailand (2002-2023)",
-        "Porter Hypothesis(強版本)延伸—地緣穩定為創新驅動環境轉型之前提",
-        "GRI→ENT正向, RQ強化此過程, GEO抑制",
-        "SDG-7 進展取決於技術能力+制度韌性"
-      ],
-      "type": "upload",
-      "id": "upload-2026-06-16-5614",
-      "viewpoints": [
-        {
-          "claim": "GRI → ENT",
-          "evidence": "GRI對ENT的影響",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "hesis(強版本)延伸—地緣穩定為創新驅動環境轉型之前提",
-          "evidence": "hesis(強版本)延伸—地緣穩定為創新對環境轉型之前提的影響：驅動",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "→ENT正向, RQ強化此過程, GEO 抑制",
-          "evidence": "→ENT正向, RQ強化此過程, GEO抑制",
-          "confidence": "mid",
-          "source": "發現",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    Sustainableener[\"📄 Sustainable energy transition toward a zero-carbon\"]\n    style Sustainableener fill:#2563eb,color:#fff,font-weight:bold\n    vp0GRIENT[\"💡 GRI → ENT\"]\n    style vp0GRIENT fill:#fef3c7,stroke:#d97706\n    Sustainableener --> vp0GRIENT\n    vp1hesis強版本[\"💡 hesis(強版本)延伸—地緣穩定為創新驅動環境轉型之前提\"]\n    style vp1hesis強版本 fill:#fef3c7,stroke:#d97706\n    Sustainableener --> vp1hesis強版本\n    vp2ENT正向RQ[\"💡 →ENT正向, RQ強化此過程, GEO 抑制\"]\n    style vp2ENT正向RQ fill:#fef3c7,stroke:#d97706\n    Sustainableener --> vp2ENT正向RQ\n    GRI-->|\"ENT\"|ENT\n    Hypothesis強版本==>|\"驅動\"|環境轉型之前提"
-    },
-    {
-      "title": "The nexus between climate policy uncertainty and load capacity factor in China with the moderating role of financial development",
-      "authors": "Özbek, Şahin & Bayar",
-      "year": "2026",
-      "journal": "Discover Sustainability",
-      "doi": "10.1007/s43621-026-03409-0",
-      "date": "2026-06-16",
-      "tags": [
-        "A-ARDL",
-        "FMOLS",
-        "DOLS",
-        "LCF",
-        "CPU"
-      ],
-      "topics": [
-        "氣候風險/政策",
-        "碳市場/碳交易"
-      ],
-      "pdf": "uploads/CPU_LCF_China_Ozbek_2026.pdf",
-      "notes": [
-        "A-ARDL + FMOLS + DOLS 三種方法互補驗證",
-        "1990-2021, 中國",
-        "FD 和 CPU 各自降低環境品質，但交互項 FD×CPU 改善環境品質",
-        "FD 在不確定時期可透過三渠道維持綠色投資"
-      ],
-      "type": "upload",
-      "id": "upload-2026-06-16-3554",
-      "viewpoints": [
-        {
-          "claim": "FD 和 CPU 各自降低環境品質",
-          "evidence": "FD 和 CPU 各自對環境品質的影響：降低",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "但交互項 FD×CPU改善環境品質",
-          "evidence": "但交互項 FD×CPU對環境品質的影響：改善",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    Thenexusbetween[\"📄 The nexus between climate policy uncertainty and l\"]\n    style Thenexusbetween fill:#2563eb,color:#fff,font-weight:bold\n    vp0FD和CPU各[\"💡 FD 和 CPU 各自降低環境品質\"]\n    style vp0FD和CPU各 fill:#fef3c7,stroke:#d97706\n    Thenexusbetween --> vp0FD和CPU各\n    vp1但交互項FDCP[\"💡 但交互項 FD×CPU改善環境品質\"]\n    style vp1但交互項FDCP fill:#fef3c7,stroke:#d97706\n    Thenexusbetween --> vp1但交互項FDCP\n    FD和CPU各自--x|\"降低\"|環境品質\n    但交互項FDCPU==>|\"改善\"|環境品質1"
+      "diagram": "graph TD\n    TheMathematicso[\"📄 The Mathematics of Modeling the Future\"]\n    style TheMathematicso fill:#2563eb,color:#fff,font-weight:bold\n    vp0towerprop[\"💡 tower property → semigroup law\"]\n    style vp0towerprop fill:#fef3c7,stroke:#d97706\n    TheMathematicso --> vp0towerprop\n    vp1sformula[\"💡 s formula → backward equation\nWasserstei\"]\n    style vp1sformula fill:#fef3c7,stroke:#d97706\n    TheMathematicso --> vp1sformula\n    towerproperty-->|\"semigroup law\"|semigrouplaw\n    sformula-->|\"backward equation\nWa\"|backwardequati"
     },
     {
       "title": "Assessing the effects of green innovation, renewable energy, and environmental policy stringency on ecological and material footprints in G7 economies",
@@ -829,7 +721,7 @@
         "首篇聯合分析EF+MF驅動因子於G7"
       ],
       "type": "upload",
-      "id": "upload-2026-06-16-1562",
+      "id": "upload-2026-06-16-9362",
       "viewpoints": [
         {
           "claim": "ARDL\nGDP → EF↑ MF↑（正向）",
@@ -863,6 +755,157 @@
       "diagram": "graph TD\n    Assessingtheeff[\"📄 Assessing the effects of green innovation, renewab\"]\n    style Assessingtheeff fill:#2563eb,color:#fff,font-weight:bold\n    vp0ARDLGDP[\"💡 ARDL\nGDP → EF↑ MF↑（正向）\"]\n    style vp0ARDLGDP fill:#fef3c7,stroke:#d97706\n    Assessingtheeff --> vp0ARDLGDP\n    vp1EPSEF[\"💡 EPS → EF↓（負向）\"]\n    style vp1EPSEF fill:#fef3c7,stroke:#d97706\n    Assessingtheeff --> vp1EPSEF\n    vp2REEFG[\"💡 RE → EF↓\nGI→MF↑（正向）\"]\n    style vp2REEFG fill:#fef3c7,stroke:#d97706\n    Assessingtheeff --> vp2REEFG\n    vp3首篇聯合分析EFM[\"💡 首篇聯合分析EF+MF驅動因子於G7\"]\n    style vp3首篇聯合分析EFM fill:#fef3c7,stroke:#d97706\n    Assessingtheeff --> vp3首篇聯合分析EFM\n    ARDLGDP==>|\"EF↑ MF↑\"|EFMF\n    EPS--x|\"EF↓\"|EF\n    RE--x|\"EF↓\nGI→MF↑\"|EFGIMF\n    首篇聯合分析EFMF==>|\"驅動\"|因子於G7"
     },
     {
+      "title": "The nexus between climate policy uncertainty and load capacity factor in China with the moderating role of financial development",
+      "authors": "Özbek, Şahin & Bayar",
+      "year": "2026",
+      "journal": "Discover Sustainability",
+      "doi": "10.1007/s43621-026-03409-0",
+      "date": "2026-06-16",
+      "tags": [
+        "A-ARDL",
+        "FMOLS",
+        "DOLS",
+        "LCF",
+        "CPU"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "碳市場/碳交易"
+      ],
+      "pdf": "uploads/CPU_LCF_China_Ozbek_2026.pdf",
+      "notes": [
+        "A-ARDL + FMOLS + DOLS 三種方法互補驗證",
+        "1990-2021, 中國",
+        "FD 和 CPU 各自降低環境品質，但交互項 FD×CPU 改善環境品質",
+        "FD 在不確定時期可透過三渠道維持綠色投資"
+      ],
+      "type": "upload",
+      "id": "upload-2026-06-16-6539",
+      "viewpoints": [
+        {
+          "claim": "FD 和 CPU 各自降低環境品質",
+          "evidence": "FD 和 CPU 各自對環境品質的影響：降低",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "但交互項 FD×CPU改善環境品質",
+          "evidence": "但交互項 FD×CPU對環境品質的影響：改善",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    Thenexusbetween[\"📄 The nexus between climate policy uncertainty and l\"]\n    style Thenexusbetween fill:#2563eb,color:#fff,font-weight:bold\n    vp0FD和CPU各[\"💡 FD 和 CPU 各自降低環境品質\"]\n    style vp0FD和CPU各 fill:#fef3c7,stroke:#d97706\n    Thenexusbetween --> vp0FD和CPU各\n    vp1但交互項FDCP[\"💡 但交互項 FD×CPU改善環境品質\"]\n    style vp1但交互項FDCP fill:#fef3c7,stroke:#d97706\n    Thenexusbetween --> vp1但交互項FDCP\n    FD和CPU各自--x|\"降低\"|環境品質\n    但交互項FDCPU==>|\"改善\"|環境品質1"
+    },
+    {
+      "title": "Sustainable energy transition toward a zero-carbon future in major Global South economies: Roles of green innovation, institutions, and geopolitical risk",
+      "authors": "Caglar, Naimoglu & Demirdag",
+      "year": "2026",
+      "journal": "Energy for Sustainable Development, 93, 102050",
+      "doi": "10.1016/j.esd.2026.102050",
+      "date": "2026-06-16",
+      "tags": [
+        "panel",
+        "SDG-7",
+        "GRI",
+        "GEO",
+        "Porter Hypothesis"
+      ],
+      "topics": [
+        "潔淨能源",
+        "氣候風險/政策",
+        "宏觀總體"
+      ],
+      "pdf": "uploads/Caglar_GlobalSouth_ENT_2026.pdf",
+      "notes": [
+        "Panel: Brazil, China, India, Indonesia, Thailand (2002-2023)",
+        "Porter Hypothesis(強版本)延伸—地緣穩定為創新驅動環境轉型之前提",
+        "GRI→ENT正向, RQ強化此過程, GEO抑制",
+        "SDG-7 進展取決於技術能力+制度韌性"
+      ],
+      "type": "upload",
+      "id": "upload-2026-06-16-5200",
+      "viewpoints": [
+        {
+          "claim": "GRI → ENT",
+          "evidence": "GRI對ENT的影響",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "hesis(強版本)延伸—地緣穩定為創新驅動環境轉型之前提",
+          "evidence": "hesis(強版本)延伸—地緣穩定為創新對環境轉型之前提的影響：驅動",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "→ENT正向, RQ強化此過程, GEO 抑制",
+          "evidence": "→ENT正向, RQ強化此過程, GEO抑制",
+          "confidence": "mid",
+          "source": "發現",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    Sustainableener[\"📄 Sustainable energy transition toward a zero-carbon\"]\n    style Sustainableener fill:#2563eb,color:#fff,font-weight:bold\n    vp0GRIENT[\"💡 GRI → ENT\"]\n    style vp0GRIENT fill:#fef3c7,stroke:#d97706\n    Sustainableener --> vp0GRIENT\n    vp1hesis強版本[\"💡 hesis(強版本)延伸—地緣穩定為創新驅動環境轉型之前提\"]\n    style vp1hesis強版本 fill:#fef3c7,stroke:#d97706\n    Sustainableener --> vp1hesis強版本\n    vp2ENT正向RQ[\"💡 →ENT正向, RQ強化此過程, GEO 抑制\"]\n    style vp2ENT正向RQ fill:#fef3c7,stroke:#d97706\n    Sustainableener --> vp2ENT正向RQ\n    GRI-->|\"ENT\"|ENT\n    Hypothesis強版本==>|\"驅動\"|環境轉型之前提"
+    },
+    {
+      "title": "The interplay of financial development, oil prices, and CO2 emissions in shaping renewable energy consumption in emerging nations: An evidence from panel quantile regression",
+      "authors": "Arsh, Liaqat, Batool & Khan",
+      "year": "2025",
+      "journal": "Vol. 3 No. 4 (2025)",
+      "doi": "",
+      "date": "2026-06-16",
+      "tags": [
+        "PQR",
+        "MMQR",
+        "FMOLS",
+        "quantile",
+        "REC"
+      ],
+      "topics": [
+        "潔淨能源",
+        "能源市場",
+        "金融市場"
+      ],
+      "pdf": "uploads/Arsh_FD_Oil_REC_Quantile_2025.pdf",
+      "notes": [
+        "22 emerging economies, 2005-2021",
+        "PQR(Powell 2016) + MMQR(Machado & Silva 2019) 雙重分位數",
+        "FD→REC+, Oil price 不對稱(低分位- 高分位+)",
+        "FDI→REC+, CO2→REC-(高分位)"
+      ],
+      "type": "upload",
+      "id": "upload-2026-06-16-298",
+      "viewpoints": [
+        {
+          "claim": "FD → REC+",
+          "evidence": "FD對REC+的影響",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "FDI → REC+",
+          "evidence": "FDI對REC+的影響",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "CO2 → REC-",
+          "evidence": "CO2對REC-的影響",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    Theinterplayoff[\"📄 The interplay of financial development, oil prices\"]\n    style Theinterplayoff fill:#2563eb,color:#fff,font-weight:bold\n    vp0FDREC[\"💡 FD → REC+\"]\n    style vp0FDREC fill:#fef3c7,stroke:#d97706\n    Theinterplayoff --> vp0FDREC\n    vp1FDIREC[\"💡 FDI → REC+\"]\n    style vp1FDIREC fill:#fef3c7,stroke:#d97706\n    Theinterplayoff --> vp1FDIREC\n    vp2CO2REC[\"💡 CO2 → REC-\"]\n    style vp2CO2REC fill:#fef3c7,stroke:#d97706\n    Theinterplayoff --> vp2CO2REC\n    FD-->|\"REC+\"|REC\n    FDI-->|\"REC+\"|REC1\n    CO2-->|\"REC-\"|REC2"
+    },
+    {
       "title": "Spillover across varying Regional and Economic Realities: Evaluating the Hedging potential of Demographic Traits",
       "authors": "(待確認作者名 — 稿件 Economies #4380754)",
       "year": "2026",
@@ -888,7 +931,7 @@
         "Peer Review 版本，DOI 暫為 xxxxx"
       ],
       "type": "upload",
-      "id": "upload-2026-06-12-4970",
+      "id": "upload-2026-06-12-1764",
       "viewpoints": [
         {
           "claim": "COVID 期間溢散 顯著升高",
@@ -4415,7 +4458,7 @@
         "延伸應用於中國航空股波動（Transport Research 2024）"
       ],
       "type": "upload",
-      "id": "upload-2026-06-05-9497",
+      "id": "upload-2026-06-05-9889",
       "viewpoints": [
         {
           "claim": "jFEVD：所有變數同時衝擊對預測誤差的聯合貢獻",
@@ -4448,7 +4491,7 @@
         "建議 GCC 國家加速再生能源轉型"
       ],
       "type": "upload",
-      "id": "upload-2026-06-05-8405",
+      "id": "upload-2026-06-05-8527",
       "viewpoints": [
         {
           "claim": "能源消費是 CO₂ 排放最大驅動因子",
@@ -4466,119 +4509,6 @@
         }
       ],
       "diagram": "graph TD\n    EnergyConsumpti[\"📄 Energy Consumption, Economic Growth, and CO₂ Emiss\"]\n    style EnergyConsumpti fill:#2563eb,color:#fff,font-weight:bold\n    vp0能源消費是CO[\"💡 能源消費是 CO₂ 排放最大驅動因子\"]\n    style vp0能源消費是CO fill:#fef3c7,stroke:#d97706\n    EnergyConsumpti --> vp0能源消費是CO\n    vp1建議GCC國家加[\"💡 建議 GCC 國家加速再生能源轉型\"]\n    style vp1建議GCC國家加 fill:#fef3c7,stroke:#d97706\n    EnergyConsumpti --> vp1建議GCC國家加\n    能源消費是CO排放最大==>|\"驅動\"|因子\n    vp0能源消費是CO --- vp1建議GCC國家加"
-    },
-    {
-      "title": "Climate Policy Uncertainty and Load Capacity Factor in China",
-      "authors": "Özbek, Şahin & Bayar",
-      "year": "2026",
-      "journal": "Discover Sustainability (Springer)",
-      "doi": "10.1007/s43621-026-03409-0",
-      "date": "2026-06-05",
-      "tags": [
-        "QARDL"
-      ],
-      "topics": [
-        "氣候風險/政策",
-        "綠債/ESG"
-      ],
-      "pdf": "uploads/China_CPU_Load_Capacity_Factor.pdf",
-      "notes": [
-        "核心發現：金融發展×CPU 交互項係數顯著為正",
-        "FD 在高 CPU 時期扮演緩衝機制（綠色融資、風險分擔）",
-        "使用 FMOLS（主估計）+ DOLS（穩健性）",
-        "A-ARDL 共整合檢定 + Fourier KPSS 結構斷點單根檢定"
-      ],
-      "type": "upload",
-      "id": "upload-2026-06-05-6739",
-      "viewpoints": [
-        {
-          "claim": "核心發現：金融發展×CPU 交互項係數顯著為正",
-          "evidence": "核心發現：金融發展×CPU 交互項係數顯著為正",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    ClimatePolicyUn[\"📄 Climate Policy Uncertainty and Load Capacity Facto\"]\n    style ClimatePolicyUn fill:#2563eb,color:#fff,font-weight:bold\n    vp0核心發現金融發展[\"💡 核心發現：金融發展×CPU 交互項係數顯著為正\"]\n    style vp0核心發現金融發展 fill:#fef3c7,stroke:#d97706\n    ClimatePolicyUn --> vp0核心發現金融發展"
-    },
-    {
-      "title": "Climate Policy Uncertainty and Renewable Energy Consumption in China",
-      "authors": "Zheng, Wang, Moldovan, Mihit & Nicolescu",
-      "year": "2026",
-      "journal": "Sustainability (MDPI), 18, 5460",
-      "doi": "10.3390/su18115460",
-      "date": "2026-06-05",
-      "tags": [
-        "QARDL"
-      ],
-      "topics": [
-        "氣候風險/政策",
-        "潔淨能源"
-      ],
-      "pdf": "uploads/China_CPU_Renewable_Energy.pdf",
-      "notes": [
-        "CPU→REC 有 Granger 因果（雙向時變不對稱）",
-        "使用滾窗 Granger 因果檢定 + 雙向因果分析",
-        "控制 EPU（經濟政策不確定性）、原油價格"
-      ],
-      "type": "upload",
-      "id": "upload-2026-06-05-446",
-      "viewpoints": [
-        {
-          "claim": "CPU → REC",
-          "evidence": "CPU對REC的影響",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "控制 EPU（經濟政策不確定性）、原油價格",
-          "evidence": "控制 EPU（經濟政策不確定性）、原油價格",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    ClimatePolicyUn[\"📄 Climate Policy Uncertainty and Renewable Energy Co\"]\n    style ClimatePolicyUn fill:#2563eb,color:#fff,font-weight:bold\n    vp0CPUREC[\"💡 CPU → REC\"]\n    style vp0CPUREC fill:#fef3c7,stroke:#d97706\n    ClimatePolicyUn --> vp0CPUREC\n    vp1控制EPU經濟政[\"💡 控制 EPU（經濟政策不確定性）、原油價格\"]\n    style vp1控制EPU經濟政 fill:#fef3c7,stroke:#d97706\n    ClimatePolicyUn --> vp1控制EPU經濟政\n    CPU-->|\"REC\"|REC\n    vp0CPUREC --- vp1控制EPU經濟政"
-    },
-    {
-      "title": "Renewable Energy, Institutional Quality & EKC Dynamics in Developing Countries",
-      "authors": "Sumba",
-      "year": "2026",
-      "journal": "International Review of Economics and Finance (Elsevier), 109, 105445",
-      "doi": "10.1016/j.iref.2026.105445",
-      "date": "2026-06-05",
-      "tags": [],
-      "topics": [
-        "潔淨能源",
-        "宏觀總體"
-      ],
-      "pdf": "uploads/Sumba_Renewable_Energy_EKC_Developing_Countries.pdf",
-      "notes": [
-        "動態面板門檻模型 (DPT)+ 工具變數",
-        "EKC 假說在發展中國家成立",
-        "再生能源可加速 EKC 轉折",
-        "制度品質調節 EKC 形狀和轉折點"
-      ],
-      "type": "upload",
-      "id": "upload-2026-06-05-426",
-      "viewpoints": [
-        {
-          "claim": "制度品質調節EKC 形狀和轉折點",
-          "evidence": "制度品質對EKC 形狀和轉折點的影響：調節",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "制度品質調節 EKC 形狀和轉折點",
-          "evidence": "制度品質調節 EKC 形狀和轉折點",
-          "confidence": "mid",
-          "source": "檢定結果",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    RenewableEnergy[\"📄 Renewable Energy, Institutional Quality & EKC Dyna\"]\n    style RenewableEnergy fill:#2563eb,color:#fff,font-weight:bold\n    vp0制度品質調節EKC[\"💡 制度品質調節EKC 形狀和轉折點\"]\n    style vp0制度品質調節EKC fill:#fef3c7,stroke:#d97706\n    RenewableEnergy --> vp0制度品質調節EKC\n    vp1制度品質調節EKC[\"💡 制度品質調節 EKC 形狀和轉折點\"]\n    style vp1制度品質調節EKC fill:#fef3c7,stroke:#d97706\n    RenewableEnergy --> vp1制度品質調節EKC\n    制度品質-->|\"調節\"|EKC形狀和轉折點\n    vp0制度品質調節EKC --- vp1制度品質調節EKC"
     },
     {
       "title": "Toward Carbon Neutrality in Vietnam: Analyzing the Role of Renewable Energy Consumption and Economic Growth Using Wavelet Coherence and Quantile-on-Quantile Approaches",
@@ -4602,7 +4532,7 @@
         "GDP 成長在不同分量下對 CO₂ 效果不一致"
       ],
       "type": "upload",
-      "id": "upload-2026-06-05-3745",
+      "id": "upload-2026-06-05-8369",
       "viewpoints": [
         {
           "claim": "再生能源提升在中高分量下降低CO₂",
@@ -4642,7 +4572,7 @@
         "異質性：僅國有企業與東部地區顯著"
       ],
       "type": "upload",
-      "id": "upload-2026-06-05-3640",
+      "id": "upload-2026-06-05-6638",
       "viewpoints": [
         {
           "claim": "CETS 使營造企業 ESG 分數提高約 0.30 分",
@@ -4674,6 +4604,119 @@
         }
       ],
       "diagram": "graph TD\n    DoesChinasCETSE[\"📄 Does China's CETS Enhance ESG Performance in Const\"]\n    style DoesChinasCETSE fill:#2563eb,color:#fff,font-weight:bold\n    vp0CETS使營造企業[\"💡 CETS 使營造企業 ESG 分數提高約 0.30 分\"]\n    style vp0CETS使營造企業 fill:#fef3c7,stroke:#d97706\n    DoesChinasCETSE --> vp0CETS使營造企業\n    vp1政府補貼正向調節政策[\"💡 政府補貼正向調節政策效果\"]\n    style vp1政府補貼正向調節政策 fill:#fef3c7,stroke:#d97706\n    DoesChinasCETSE --> vp1政府補貼正向調節政策\n    vp2綠色技術創新中介效果[\"💡 綠色技術創新中介效果 5.9%（部分中介）\"]\n    style vp2綠色技術創新中介效果 fill:#fef3c7,stroke:#d97706\n    DoesChinasCETSE --> vp2綠色技術創新中介效果\n    vp3異質性僅國有企業與[\"💡 異質性：僅國有企業與東部地區顯著\"]\n    style vp3異質性僅國有企業與 fill:#fef3c7,stroke:#d97706\n    DoesChinasCETSE --> vp3異質性僅國有企業與\n    CETS使營造企業ESG==>|\"提高\"|約030分\n    政府補貼正向-->|\"調節\"|政策效果"
+    },
+    {
+      "title": "Climate Policy Uncertainty and Renewable Energy Consumption in China",
+      "authors": "Zheng, Wang, Moldovan, Mihit & Nicolescu",
+      "year": "2026",
+      "journal": "Sustainability (MDPI), 18, 5460",
+      "doi": "10.3390/su18115460",
+      "date": "2026-06-05",
+      "tags": [
+        "QARDL"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "潔淨能源"
+      ],
+      "pdf": "uploads/China_CPU_Renewable_Energy.pdf",
+      "notes": [
+        "CPU→REC 有 Granger 因果（雙向時變不對稱）",
+        "使用滾窗 Granger 因果檢定 + 雙向因果分析",
+        "控制 EPU（經濟政策不確定性）、原油價格"
+      ],
+      "type": "upload",
+      "id": "upload-2026-06-05-3683",
+      "viewpoints": [
+        {
+          "claim": "CPU → REC",
+          "evidence": "CPU對REC的影響",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "控制 EPU（經濟政策不確定性）、原油價格",
+          "evidence": "控制 EPU（經濟政策不確定性）、原油價格",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    ClimatePolicyUn[\"📄 Climate Policy Uncertainty and Renewable Energy Co\"]\n    style ClimatePolicyUn fill:#2563eb,color:#fff,font-weight:bold\n    vp0CPUREC[\"💡 CPU → REC\"]\n    style vp0CPUREC fill:#fef3c7,stroke:#d97706\n    ClimatePolicyUn --> vp0CPUREC\n    vp1控制EPU經濟政[\"💡 控制 EPU（經濟政策不確定性）、原油價格\"]\n    style vp1控制EPU經濟政 fill:#fef3c7,stroke:#d97706\n    ClimatePolicyUn --> vp1控制EPU經濟政\n    CPU-->|\"REC\"|REC\n    vp0CPUREC --- vp1控制EPU經濟政"
+    },
+    {
+      "title": "Renewable Energy, Institutional Quality & EKC Dynamics in Developing Countries",
+      "authors": "Sumba",
+      "year": "2026",
+      "journal": "International Review of Economics and Finance (Elsevier), 109, 105445",
+      "doi": "10.1016/j.iref.2026.105445",
+      "date": "2026-06-05",
+      "tags": [],
+      "topics": [
+        "潔淨能源",
+        "宏觀總體"
+      ],
+      "pdf": "uploads/Sumba_Renewable_Energy_EKC_Developing_Countries.pdf",
+      "notes": [
+        "動態面板門檻模型 (DPT)+ 工具變數",
+        "EKC 假說在發展中國家成立",
+        "再生能源可加速 EKC 轉折",
+        "制度品質調節 EKC 形狀和轉折點"
+      ],
+      "type": "upload",
+      "id": "upload-2026-06-05-2091",
+      "viewpoints": [
+        {
+          "claim": "制度品質調節EKC 形狀和轉折點",
+          "evidence": "制度品質對EKC 形狀和轉折點的影響：調節",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "制度品質調節 EKC 形狀和轉折點",
+          "evidence": "制度品質調節 EKC 形狀和轉折點",
+          "confidence": "mid",
+          "source": "檢定結果",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    RenewableEnergy[\"📄 Renewable Energy, Institutional Quality & EKC Dyna\"]\n    style RenewableEnergy fill:#2563eb,color:#fff,font-weight:bold\n    vp0制度品質調節EKC[\"💡 制度品質調節EKC 形狀和轉折點\"]\n    style vp0制度品質調節EKC fill:#fef3c7,stroke:#d97706\n    RenewableEnergy --> vp0制度品質調節EKC\n    vp1制度品質調節EKC[\"💡 制度品質調節 EKC 形狀和轉折點\"]\n    style vp1制度品質調節EKC fill:#fef3c7,stroke:#d97706\n    RenewableEnergy --> vp1制度品質調節EKC\n    制度品質-->|\"調節\"|EKC形狀和轉折點\n    vp0制度品質調節EKC --- vp1制度品質調節EKC"
+    },
+    {
+      "title": "Climate Policy Uncertainty and Load Capacity Factor in China",
+      "authors": "Özbek, Şahin & Bayar",
+      "year": "2026",
+      "journal": "Discover Sustainability (Springer)",
+      "doi": "10.1007/s43621-026-03409-0",
+      "date": "2026-06-05",
+      "tags": [
+        "QARDL"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "綠債/ESG"
+      ],
+      "pdf": "uploads/China_CPU_Load_Capacity_Factor.pdf",
+      "notes": [
+        "核心發現：金融發展×CPU 交互項係數顯著為正",
+        "FD 在高 CPU 時期扮演緩衝機制（綠色融資、風險分擔）",
+        "使用 FMOLS（主估計）+ DOLS（穩健性）",
+        "A-ARDL 共整合檢定 + Fourier KPSS 結構斷點單根檢定"
+      ],
+      "type": "upload",
+      "id": "upload-2026-06-05-1909",
+      "viewpoints": [
+        {
+          "claim": "核心發現：金融發展×CPU 交互項係數顯著為正",
+          "evidence": "核心發現：金融發展×CPU 交互項係數顯著為正",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    ClimatePolicyUn[\"📄 Climate Policy Uncertainty and Load Capacity Facto\"]\n    style ClimatePolicyUn fill:#2563eb,color:#fff,font-weight:bold\n    vp0核心發現金融發展[\"💡 核心發現：金融發展×CPU 交互項係數顯著為正\"]\n    style vp0核心發現金融發展 fill:#fef3c7,stroke:#d97706\n    ClimatePolicyUn --> vp0核心發現金融發展"
     }
   ]
 }
