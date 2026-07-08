@@ -1,6 +1,6 @@
 {
-  "total": 91,
-  "updated": "2026-07-07 09:30:21",
+  "total": 110,
+  "updated": "2026-07-08 09:30:17",
   "topics": [
     "AI/科技",
     "其他",
@@ -14,9 +14,914 @@
     "碳市場/碳交易",
     "綠債/ESG",
     "能源市場",
+    "行為金融",
     "金融市場"
   ],
   "papers": [
+    {
+      "id": "bf-2026-07-07-9",
+      "title": "Foreign Institutional Investor Herding and ESG Ratings",
+      "search_date": "2026-07-07",
+      "authors": "Fang, H., & Yang, J. J.",
+      "year": "2025",
+      "journal": "Pacific-Basin Finance Journal, 89",
+      "doi": "https://doi.org/10.1016/j.pacfin.2025.102692",
+      "citations": "6 次",
+      "openalex_url": "https://openalex.org/W4406853099",
+      "abstract": "",
+      "tags": [
+        "Behavioral Finance"
+      ],
+      "topics": [
+        "行為金融"
+      ],
+      "type": "search",
+      "notes": [
+        "=== 變數 ===",
+        "- 外資機構羊群行為",
+        "- ESG 評級",
+        "- 公司特徵變數",
+        "=== 資料來源 ===",
+        "- 中國 A 股資料",
+        "- ESG 評級資料 (多家評級機構)",
+        "- 外資持股資料",
+        "=== 方法論 ===",
+        "- LSV 羊群行為衡量",
+        "- ESG 評級分歧分析",
+        "- 面板迴歸",
+        "=== Key Findings ===",
+        "- 外資機構對 ESG 評級存在羊群行為",
+        "- ESG 評級分歧影響投資決策",
+        "- 外資羊群行為對股價有顯著影響",
+        "=== APA ===",
+        "Fang, H., & Yang, J. J. (2025). Foreign institutional investor herding and ESG ratings. *Pacific-Basin Finance Journal*, *89*, 102692. https://doi.org/10.1016/j.pacfin.2025.102692"
+      ],
+      "diagram": "graph TD\n    ForeignInstitut[\"📄 Foreign Institutional Investor Herding and ESG Rat\"]\n    style ForeignInstitut fill:#2563eb,color:#fff,font-weight:bold"
+    },
+    {
+      "id": "bf-2026-07-07-8",
+      "title": "Political Uncertainty and Institutional Herding",
+      "search_date": "2026-07-07",
+      "authors": "Gavriilidis, K., Kallinterakis, V., & Montone, M.",
+      "year": "2024",
+      "journal": "Journal of Corporate Finance, 86",
+      "doi": "https://doi.org/10.1016/j.jcorpfin.2024.102627",
+      "citations": "11 次 ⭐",
+      "openalex_url": "https://openalex.org/W4400926960",
+      "abstract": "",
+      "tags": [
+        "Institutional Herding"
+      ],
+      "topics": [
+        "行為金融"
+      ],
+      "type": "search",
+      "notes": [
+        "=== 變數 ===",
+        "- 政治不確定性 (political uncertainty)",
+        "- 機構羊群行為",
+        "- 市場波動率",
+        "=== 資料來源 ===",
+        "- 國際多國股市資料",
+        "- 政治不確定性指數",
+        "=== 方法論 ===",
+        "- 面板資料分析",
+        "- 條件羊群行為衡量",
+        "- 事件研究法",
+        "=== Key Findings ===",
+        "- 政治不確定性顯著增加機構羊群行為",
+        "- 不確定性時期投資者更傾向模仿他人",
+        "- 跨境羊群行為在政治事件期間加劇",
+        "=== APA ===",
+        "Gavriilidis, K., Kallinterakis, V., & Montone, M. (2024). Political uncertainty and institutional herding. *Journal of Corporate Finance*, *86*, 102627. https://doi.org/10.1016/j.jcorpfin.2024.102627"
+      ],
+      "viewpoints": [
+        {
+          "claim": "- 政治不確定性顯著增加機構羊群行為",
+          "evidence": "- 政治不確定性顯著對機構羊群行為的影響：增加",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    PoliticalUncert[\"📄 Political Uncertainty and Institutional Herding\"]\n    style PoliticalUncert fill:#2563eb,color:#fff,font-weight:bold\n    vp0政治不確定性顯著[\"💡 - 政治不確定性顯著增加機構羊群行為\"]\n    style vp0政治不確定性顯著 fill:#fef3c7,stroke:#d97706\n    PoliticalUncert --> vp0政治不確定性顯著\n    政治不確定性顯著==>|\"增加\"|機構羊群行為"
+    },
+    {
+      "id": "bf-2026-07-07-7",
+      "title": "Social Trust, Audit Quality and Institutional Investor Herd Behaviour",
+      "search_date": "2026-07-07",
+      "authors": "Wang, H., & Zhang, Y.",
+      "year": "2024",
+      "journal": "Finance Research Letters, 68",
+      "doi": "https://doi.org/10.1016/j.frl.2024.105363",
+      "citations": "14 次 ⭐",
+      "openalex_url": "https://openalex.org/W4393851666",
+      "abstract": "",
+      "tags": [
+        "Behavioral Finance"
+      ],
+      "topics": [
+        "行為金融"
+      ],
+      "type": "search",
+      "notes": [
+        "=== 變數 ===",
+        "- 社會信任 (social trust)",
+        "- 審計品質 (audit quality)",
+        "- 機構投資者羊群行為",
+        "=== 資料來源 ===",
+        "- 中國 A 股資料",
+        "- 社會信任調查資料",
+        "- 審計師事務所資料",
+        "=== 方法論 ===",
+        "- 面板資料迴歸",
+        "- 中介效應分析",
+        "- 交互項分析",
+        "=== Key Findings ===",
+        "- 社會信任顯著抑制機構羊群行為",
+        "- 審計品質在信任與羊群行為間起中介作用",
+        "- 制度環境影響投資者行為模式",
+        "=== APA ===",
+        "Wang, H., & Zhang, Y. (2024). Social trust, audit quality and institutional investor herd behaviour. *Finance Research Letters*, *68*, 105363. https://doi.org/10.1016/j.frl.2024.105363"
+      ],
+      "viewpoints": [
+        {
+          "claim": "- 社會信任顯著抑制機構羊群行為",
+          "evidence": "- 社會信任顯著對機構羊群行為的影響：抑制",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "- 審計品質在信任與羊群行為間起中介作用",
+          "evidence": "- 審計品質在信任與羊群行為間起中介作用",
+          "confidence": "mid",
+          "source": "檢定結果",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    SocialTrustAudi[\"📄 Social Trust, Audit Quality and Institutional Inve\"]\n    style SocialTrustAudi fill:#2563eb,color:#fff,font-weight:bold\n    vp0社會信任顯著抑制[\"💡 - 社會信任顯著抑制機構羊群行為\"]\n    style vp0社會信任顯著抑制 fill:#fef3c7,stroke:#d97706\n    SocialTrustAudi --> vp0社會信任顯著抑制\n    vp1審計品質在信任與[\"💡 - 審計品質在信任與羊群行為間起中介作用\"]\n    style vp1審計品質在信任與 fill:#fef3c7,stroke:#d97706\n    SocialTrustAudi --> vp1審計品質在信任與\n    社會信任顯著--x|\"抑制\"|機構羊群行為\n    vp0社會信任顯著抑制 --- vp1審計品質在信任與"
+    },
+    {
+      "id": "bf-2026-07-07-6",
+      "title": "Institutional Herding and Investor Sentiment",
+      "search_date": "2026-07-07",
+      "authors": "Guo, X., Gu, C., & Zhang, C.",
+      "year": "2024",
+      "journal": "Journal of Financial Markets, 69",
+      "doi": "https://doi.org/10.1016/j.finmar.2024.100891",
+      "citations": "19 次 ⭐",
+      "openalex_url": "https://openalex.org/W4391339376",
+      "abstract": "",
+      "tags": [
+        "Institutional Herding"
+      ],
+      "topics": [
+        "行為金融"
+      ],
+      "type": "search",
+      "notes": [
+        "=== 變數 ===",
+        "- 機構羊群行為 (institutional herding)",
+        "- 投資者情緒 (investor sentiment)",
+        "- 市場狀態變數 (牛市/熊市)",
+        "=== 資料來源 ===",
+        "- 中國 A 股市場機構持股資料",
+        "- 投資者情緒指標",
+        "=== 方法論 ===",
+        "- Lakonishok-Shleifer-Vishny (LSV) 羊群行為衡量",
+        "- 情緒指標建構",
+        "- 條件分析 (conditional on sentiment)",
+        "=== Key Findings ===",
+        "- 機構羊群行為與投資者情緒顯著相關",
+        "- 情緒高漲時羊群行為更明顯",
+        "- 市場狀態調節羊群行為強度",
+        "=== APA ===",
+        "Guo, X., Gu, C., & Zhang, C. (2024). Institutional herding and investor sentiment. *Journal of Financial Markets*, *69*, 100891. https://doi.org/10.1016/j.finmar.2024.100891"
+      ],
+      "viewpoints": [
+        {
+          "claim": "- 市場狀態調節羊群行為強度",
+          "evidence": "- 市場狀態對羊群行為強度的影響：調節",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    InstitutionalHe[\"📄 Institutional Herding and Investor Sentiment\"]\n    style InstitutionalHe fill:#2563eb,color:#fff,font-weight:bold\n    vp0市場狀態調節羊群[\"💡 - 市場狀態調節羊群行為強度\"]\n    style vp0市場狀態調節羊群 fill:#fef3c7,stroke:#d97706\n    InstitutionalHe --> vp0市場狀態調節羊群\n    市場狀態-->|\"調節\"|羊群行為強度"
+    },
+    {
+      "id": "bf-2026-07-07-5",
+      "title": "Trading Behavior-Stock Market Volatility Nexus among Institutional and Individual Investors",
+      "search_date": "2026-07-07",
+      "authors": "Saranj, A., & Zolfaghari, M.",
+      "year": "2025",
+      "journal": "Financial Innovation",
+      "doi": "https://doi.org/10.1186/s40854-024-00717-0",
+      "citations": "3 次",
+      "openalex_url": "https://openalex.org/W4408343851",
+      "abstract": "",
+      "tags": [
+        "Behavioral Finance"
+      ],
+      "topics": [
+        "行為金融"
+      ],
+      "type": "search",
+      "notes": [
+        "=== 變數 ===",
+        "- 機構投資者交易行為",
+        "- 個人投資者交易行為",
+        "- 股市波動率",
+        "=== 資料來源 ===",
+        "- 伊朗股市資料 (TSE)",
+        "- 投資者交易帳戶資料",
+        "=== 方法論 ===",
+        "- 波動率建模 (GARCH family)",
+        "- 向量自迴歸 (VAR)",
+        "- 因果檢定",
+        "=== Key Findings ===",
+        "- 機構和個人投資者交易行為對波動率有不同影響",
+        "- 存在顯著的雙向因果關係",
+        "- 投資者異質性影響市場穩定性",
+        "=== APA ===",
+        "Saranj, A., & Zolfaghari, M. (2025). Trading behavior-stock market volatility nexus among institutional and individual investors. *Financial Innovation*, *11*(1), 1–25. https://doi.org/10.1186/s40854-024-00717-0"
+      ],
+      "viewpoints": [
+        {
+          "claim": "- 投資者異質性影響市場穩定性",
+          "evidence": "- 投資者異質性影響市場穩定性",
+          "confidence": "mid",
+          "source": "檢定結果",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    TradingBehavior[\"📄 Trading Behavior-Stock Market Volatility Nexus amo\"]\n    style TradingBehavior fill:#2563eb,color:#fff,font-weight:bold\n    vp0投資者異質性影響[\"💡 - 投資者異質性影響市場穩定性\"]\n    style vp0投資者異質性影響 fill:#fef3c7,stroke:#d97706\n    TradingBehavior --> vp0投資者異質性影響"
+    },
+    {
+      "id": "bf-2026-07-07-4",
+      "title": "Institutional Liquidity Costs, Internalized Retail Trade Imbalances, and the Cross Section of Stock Returns",
+      "search_date": "2026-07-07",
+      "authors": "Barardehi, Y. H., Bernhardt, D., & Da, Z.",
+      "year": "2025",
+      "journal": "Journal of Financial and Quantitative Analysis",
+      "doi": "https://doi.org/10.1017/s0022109025000043",
+      "citations": "6 次",
+      "openalex_url": "https://openalex.org/W4406711726",
+      "abstract": "",
+      "tags": [
+        "Behavioral Finance"
+      ],
+      "topics": [
+        "行為金融"
+      ],
+      "type": "search",
+      "notes": [
+        "=== 變數 ===",
+        "- 機構流動性成本 (institutional liquidity costs)",
+        "- 零售交易不平衡 (retail trade imbalances)",
+        "- 股票橫截面收益",
+        "=== 資料來源 ===",
+        "- 美國股市交易資料",
+        "- 機構和零售投資者交易明細",
+        "=== 方法論 ===",
+        "- 橫截面迴歸分析",
+        "- Fama-MacBeth 迴歸",
+        "- 流動性成本建模",
+        "=== Key Findings ===",
+        "- 機構流動性成本顯著影響股票收益",
+        "- 零售交易不平衡與未來收益相關",
+        "- 內部化交易對市場效率的影響",
+        "=== APA ===",
+        "Barardehi, Y. H., Bernhardt, D., & Da, Z. (2025). Institutional liquidity costs, internalized retail trade imbalances, and the cross section of stock returns. *Journal of Financial and Quantitative Analysis*, *60*(2), 1–40. https://doi.org/10.1017/s0022109025000043"
+      ],
+      "diagram": "graph TD\n    InstitutionalLi[\"📄 Institutional Liquidity Costs, Internalized Retail\"]\n    style InstitutionalLi fill:#2563eb,color:#fff,font-weight:bold"
+    },
+    {
+      "id": "bf-2026-07-07-3",
+      "title": "Insider Trading Restrictions and Informed Trading in Peer Stocks",
+      "search_date": "2026-07-07",
+      "authors": "Deuskar, P., Khatri, A., & Sunder, J.",
+      "year": "2024",
+      "journal": "Management Science",
+      "doi": "https://doi.org/10.1287/mnsc.2022.02907",
+      "citations": "7 次",
+      "openalex_url": "https://openalex.org/W4399353020",
+      "abstract": "",
+      "tags": [
+        "Informed Trading"
+      ],
+      "topics": [
+        "行為金融"
+      ],
+      "type": "search",
+      "notes": [
+        "=== 變數 ===",
+        "- 內部人交易限制 (insider trading restrictions)",
+        "- 同業股票知情交易 (peer stock informed trading)",
+        "- 公司特徵變數",
+        "=== 資料來源 ===",
+        "- 美國 SEC 交易資料",
+        "- 公司財務報表",
+        "=== 方法論 ===",
+        "- 因果推斷 (DID / 事件研究法)",
+        "- 分析內部人交易限制對同業股票知情交易的溢出效應",
+        "=== Key Findings ===",
+        "- 內部人交易限制會將知情交易推向同業股票",
+        "- 存在顯著的 spillover effect",
+        "- 監管政策有非預期的外部性",
+        "=== APA ===",
+        "Deuskar, P., Khatri, A., & Sunder, J. (2024). Insider trading restrictions and informed trading in peer stocks. *Management Science*, *70*(5), 1–25. https://doi.org/10.1287/mnsc.2022.02907"
+      ],
+      "viewpoints": [
+        {
+          "claim": "- 內部人交易限制 (insider trading restrictions)",
+          "evidence": "- 內部人交易限制 (insider trading restrictions)",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "- 分析內部人交易限制對同業股票知情交易的溢出效應",
+          "evidence": "- 分析內部人交易限制對同業股票知情交易的溢出效應",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "- 內部人交易限制會將知情交易推向同業股票",
+          "evidence": "- 內部人交易限制會將知情交易推向同業股票",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    InsiderTradingR[\"📄 Insider Trading Restrictions and Informed Trading \"]\n    style InsiderTradingR fill:#2563eb,color:#fff,font-weight:bold\n    vp0內部人交易限制[\"💡 - 內部人交易限制 (insider trading restrictions)\"]\n    style vp0內部人交易限制 fill:#fef3c7,stroke:#d97706\n    InsiderTradingR --> vp0內部人交易限制\n    vp1分析內部人交易限[\"💡 - 分析內部人交易限制對同業股票知情交易的溢出效應\"]\n    style vp1分析內部人交易限 fill:#fef3c7,stroke:#d97706\n    InsiderTradingR --> vp1分析內部人交易限\n    vp2內部人交易限制會[\"💡 - 內部人交易限制會將知情交易推向同業股票\"]\n    style vp2內部人交易限制會 fill:#fef3c7,stroke:#d97706\n    InsiderTradingR --> vp2內部人交易限制會\n    vp0內部人交易限制 --- vp1分析內部人交易限\n    vp1分析內部人交易限 --- vp2內部人交易限制會"
+    },
+    {
+      "id": "bf-2026-07-07-2",
+      "title": "Brokers and Informed Traders: Dealing with Toxic Flow and Extracting Trading Signals",
+      "search_date": "2026-07-07",
+      "authors": "Cartea, Á., & Sánchez-Betancourt, L.",
+      "year": "2025",
+      "journal": "SIAM Journal on Financial Mathematics",
+      "doi": "https://doi.org/10.1137/24m1660243",
+      "citations": "8 次",
+      "openalex_url": "https://openalex.org/W4409303163",
+      "abstract": "",
+      "tags": [
+        "Behavioral Finance"
+      ],
+      "topics": [
+        "行為金融"
+      ],
+      "type": "search",
+      "notes": [
+        "=== 變數 ===",
+        "- 經紀商流量數據 (toxic flow vs. benign flow)",
+        "- 交易信號變數",
+        "- 市場衝擊成本",
+        "=== 資料來源 ===",
+        "- 經紀商專有交易資料",
+        "- 市場微觀結構資料",
+        "=== 方法論 ===",
+        "- 數學建模 + 機器學習分類",
+        "- 區分有毒流量 (informed traders) 和良性流量",
+        "- 信號提取算法",
+        "=== Key Findings ===",
+        "- 經紀商可通過流量分析識別 informed traders",
+        "- 有毒流量對市場價格有顯著影響",
+        "- 提出最優報價策略以應對信息不對稱",
+        "=== APA ===",
+        "Cartea, Á., & Sánchez-Betancourt, L. (2025). Brokers and informed traders: Dealing with toxic flow and extracting trading signals. *SIAM Journal on Financial Mathematics*, *16*(1), 1–30. https://doi.org/10.1137/24m1660243"
+      ],
+      "diagram": "graph TD\n    BrokersandInfor[\"📄 Brokers and Informed Traders: Dealing with Toxic F\"]\n    style BrokersandInfor fill:#2563eb,color:#fff,font-weight:bold"
+    },
+    {
+      "id": "bf-2026-07-07-19",
+      "title": "Framing Effect and Disposition Effect: Investment Decisions Tools to Understand Bounded Rationality",
+      "search_date": "2026-07-07",
+      "authors": "Kiky, A., Atahau, A. D. R., & Mahastanti, L. A.",
+      "year": "2024",
+      "journal": "Review of Behavioral Finance, 16(2)",
+      "doi": "https://doi.org/10.1108/rbf-11-2023-0311",
+      "citations": "11 次 ⭐",
+      "openalex_url": "https://openalex.org/W4396667421",
+      "abstract": "",
+      "tags": [
+        "Disposition Effect"
+      ],
+      "topics": [
+        "行為金融"
+      ],
+      "type": "search",
+      "notes": [
+        "=== 變數 ===",
+        "- 框架效應 (framing effect)",
+        "- 處置效應",
+        "- 有限理性指標",
+        "=== 資料來源 ===",
+        "- 實驗經濟學資料",
+        "- 投資者調查資料",
+        "=== 方法論 ===",
+        "- 實驗設計 (gain/loss framing)",
+        "- 行為衡量",
+        "- 統計分析",
+        "=== Key Findings ===",
+        "- 框架效應顯著影響處置效應強度",
+        "- 增益框架減少處置效應",
+        "- 損失框架加劇處置效應",
+        "- 有限理性決策的實證證據",
+        "=== APA ===",
+        "Kiky, A., Atahau, A. D. R., & Mahastanti, L. A. (2024). Framing effect and disposition effect: Investment decisions tools to understand bounded rationality. *Review of Behavioral Finance*, *16*(2), 1–20. https://doi.org/10.1108/rbf-11-2023-0311",
+        "| 排名 | 作者 | 年份 | 被引 | 主題 |",
+        "|:----:|------|:----:|:----:|------|",
+        "| 1 | An, Engelberg & Henriksson | 2024 | 44 | Disposition Effect |",
+        "| 2 | Bogousslavsky, Fos & Muravyev | 2024 | 73 | Informed Trading |",
+        "| 3 | Warkulat & Pelster | 2024 | 36 | Retail Attention |",
+        "| 4 | Li, Mao & Ren | 2025 | 27 | Retail Attention |",
+        "| 5 | Guo, Gu & Zhang | 2024 | 19 | Institutional Herding |",
+        "這批文獻適合歸類為以下主題：",
+        "- **行為金融** (Behavioral Finance)",
+        "- **市場微觀結構** (Market Microstructure)",
+        "- **投資者行為** (Investor Behavior)",
+        "- **機構投資者** (Institutional Investors)",
+        "- **零售投資者** (Retail Investors)",
+        "- **信息不對稱** (Information Asymmetry)",
+        "*搜尋日期：2026-07-07*",
+        "*資料來源：OpenAlex API + Brave Web Search*"
+      ],
+      "viewpoints": [
+        {
+          "claim": "- 增益框架減少處置效應",
+          "evidence": "- 增益框架對處置效應的影響：減少",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    FramingEffectan[\"📄 Framing Effect and Disposition Effect: Investment \"]\n    style FramingEffectan fill:#2563eb,color:#fff,font-weight:bold\n    vp0增益框架減少處置[\"💡 - 增益框架減少處置效應\"]\n    style vp0增益框架減少處置 fill:#fef3c7,stroke:#d97706\n    FramingEffectan --> vp0增益框架減少處置\n    增益框架--x|\"減少\"|處置效應"
+    },
+    {
+      "id": "bf-2026-07-07-18",
+      "title": "Information and Context Matter: Debiasing the Disposition Effect with Lasting Impact",
+      "search_date": "2026-07-07",
+      "authors": "Huang, L., & Guenther, B.",
+      "year": "2024",
+      "journal": "Frontiers in Behavioral Economics, 3",
+      "doi": "https://doi.org/10.3389/frbhe.2024.1345875",
+      "citations": "(新發表)",
+      "openalex_url": "https://openalex.org/W4396667421",
+      "abstract": "",
+      "tags": [
+        "Disposition Effect"
+      ],
+      "topics": [
+        "行為金融"
+      ],
+      "type": "search",
+      "notes": [
+        "=== 變數 ===",
+        "- 處置效應強度",
+        "- 信息介入 (information intervention)",
+        "- 情境脈絡 (context)",
+        "=== 資料來源 ===",
+        "- 實驗經濟學實驗資料",
+        "- 受試者交易決策資料",
+        "=== 方法論 ===",
+        "- 隨機對照實驗 (RCT)",
+        "- 行為介入設計",
+        "- 長期追蹤分析",
+        "=== Key Findings ===",
+        "- 信息和情境可有效降低處置效應",
+        "- 介入效果具有持久性",
+        "- 去偏策略對投資者教育有實務價值",
+        "=== APA ===",
+        "Huang, L., & Guenther, B. (2024). Information and context matter: Debiasing the disposition effect with lasting impact. *Frontiers in Behavioral Economics*, *3*, 1345875. https://doi.org/10.3389/frbhe.2024.1345875"
+      ],
+      "viewpoints": [
+        {
+          "claim": "- 信息和情境可有效降低處置效應",
+          "evidence": "- 信息和情境可有效對處置效應的影響：降低",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    InformationandC[\"📄 Information and Context Matter: Debiasing the Disp\"]\n    style InformationandC fill:#2563eb,color:#fff,font-weight:bold\n    vp0信息和情境可有效[\"💡 - 信息和情境可有效降低處置效應\"]\n    style vp0信息和情境可有效 fill:#fef3c7,stroke:#d97706\n    InformationandC --> vp0信息和情境可有效\n    信息和情境可有效--x|\"降低\"|處置效應"
+    },
+    {
+      "id": "bf-2026-07-07-17",
+      "title": "The Portfolio-Driven Disposition Effect",
+      "search_date": "2026-07-07",
+      "authors": "An, L., Engelberg, J., & Henriksson, M.",
+      "year": "2024",
+      "journal": "Journal of Finance, 79(3)",
+      "doi": "https://doi.org/10.1111/jofi.13378",
+      "citations": "44 次 ⭐⭐⭐",
+      "openalex_url": "https://openalex.org/W4401777196",
+      "abstract": "",
+      "tags": [
+        "Disposition Effect"
+      ],
+      "topics": [
+        "行為金融"
+      ],
+      "type": "search",
+      "notes": [
+        "=== 變數 ===",
+        "- 處置效應 (disposition effect)",
+        "- 投資組合層面變數",
+        "- 個股層面變數",
+        "- 參考點 (reference point)",
+        "=== 資料來源 ===",
+        "- 美國零售投資者交易帳戶資料",
+        "- 長期面板資料",
+        "=== 方法論 ===",
+        "- 投資組合層面處置效應衡量",
+        "- 參考點動態建模",
+        "- 個股 vs 投資組合比較分析",
+        "=== Key Findings ===",
+        "- 處置效應主要驅動於投資組合層面而非個股層面",
+        "- 投資者以整體投資組合為參考點",
+        "- 挑戰傳統個股層面分析框架",
+        "- 對投資組合理論有重大意涵",
+        "=== APA ===",
+        "An, L., Engelberg, J., & Henriksson, M. (2024). The portfolio-driven disposition effect. *Journal of Finance*, *79*(3), 1–50. https://doi.org/10.1111/jofi.13378"
+      ],
+      "viewpoints": [
+        {
+          "claim": "- 處置效應主要驅動於投資組合層面而非個股層面",
+          "evidence": "- 處置效應主要對於投資組合層面而非個股層面的影響：驅動",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    ThePortfolioDri[\"📄 The Portfolio-Driven Disposition Effect\"]\n    style ThePortfolioDri fill:#2563eb,color:#fff,font-weight:bold\n    vp0處置效應主要驅動[\"💡 - 處置效應主要驅動於投資組合層面而非個股層面\"]\n    style vp0處置效應主要驅動 fill:#fef3c7,stroke:#d97706\n    ThePortfolioDri --> vp0處置效應主要驅動\n    處置效應主要==>|\"驅動\"|於投資組合層面而非個股層面"
+    },
+    {
+      "id": "bf-2026-07-07-16",
+      "title": "Retail Investor Attention and Audit Pricing",
+      "search_date": "2026-07-07",
+      "authors": "Cho, M., Huang, F., & Luo, X.",
+      "year": "2024",
+      "journal": "Journal of Information Systems, 38(2)",
+      "doi": "https://doi.org/10.2308/isys-2023-017",
+      "citations": "6 次",
+      "openalex_url": "https://openalex.org/W4390533299",
+      "abstract": "",
+      "tags": [
+        "Behavioral Finance"
+      ],
+      "topics": [
+        "行為金融"
+      ],
+      "type": "search",
+      "notes": [
+        "=== 變數 ===",
+        "- 零售投資者注意力",
+        "- 審計費用 (audit pricing)",
+        "- 審計風險指標",
+        "=== 資料來源 ===",
+        "- 美國上市公司資料",
+        "- 審計費用資料",
+        "- 注意力代理變數",
+        "=== 方法論 ===",
+        "- 審計定價模型",
+        "- 注意力風險傳導分析",
+        "- 面板迴歸",
+        "=== Key Findings ===",
+        "- 零售注意力增加審計風險感知",
+        "- 導致審計費用上升",
+        "- 注意力作為風險信號",
+        "=== APA ===",
+        "Cho, M., Huang, F., & Luo, X. (2024). Retail investor attention and audit pricing. *Journal of Information Systems*, *38*(2), 1–25. https://doi.org/10.2308/isys-2023-017"
+      ],
+      "viewpoints": [
+        {
+          "claim": "- 零售注意力增加審計風險感知",
+          "evidence": "- 零售注意力對審計風險感知的影響：增加",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    RetailInvestorA[\"📄 Retail Investor Attention and Audit Pricing\"]\n    style RetailInvestorA fill:#2563eb,color:#fff,font-weight:bold\n    vp0零售注意力增加審[\"💡 - 零售注意力增加審計風險感知\"]\n    style vp0零售注意力增加審 fill:#fef3c7,stroke:#d97706\n    RetailInvestorA --> vp0零售注意力增加審\n    零售注意力==>|\"增加\"|審計風險感知"
+    },
+    {
+      "id": "bf-2026-07-07-15",
+      "title": "The Power of the Many: How Retail Investor Attention Reshapes Corporate Trade Credit and Bank Loans",
+      "search_date": "2026-07-07",
+      "authors": "Li, W., Xie, C., & Liu, C.",
+      "year": "2024",
+      "journal": "Finance Research Letters, 71",
+      "doi": "https://doi.org/10.1016/j.frl.2024.106217",
+      "citations": "6 次",
+      "openalex_url": "https://openalex.org/W4403273742",
+      "abstract": "",
+      "tags": [
+        "Behavioral Finance"
+      ],
+      "topics": [
+        "行為金融"
+      ],
+      "type": "search",
+      "notes": [
+        "=== 變數 ===",
+        "- 零售投資者注意力",
+        "- 企業貿易信用 (trade credit)",
+        "- 銀行貸款",
+        "=== 資料來源 ===",
+        "- 中國 A 股資料",
+        "- 企業財務報表",
+        "- 注意力代理變數",
+        "=== 方法論 ===",
+        "- 面板資料分析",
+        "- 融資結構分析",
+        "- 注意力衝擊建模",
+        "=== Key Findings ===",
+        "- 零售注意力增加企業貿易信用",
+        "- 減少對銀行貸款的依賴",
+        "- 注意力作為替代融資管道",
+        "=== APA ===",
+        "Li, W., Xie, C., & Liu, C. (2024). The power of the many: How retail investor attention reshapes corporate trade credit and bank loans. *Finance Research Letters*, *71*, 106217. https://doi.org/10.1016/j.frl.2024.106217"
+      ],
+      "viewpoints": [
+        {
+          "claim": "- 零售注意力增加企業貿易信用",
+          "evidence": "- 零售注意力對企業貿易信用的影響：增加",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    ThePoweroftheMa[\"📄 The Power of the Many: How Retail Investor Attenti\"]\n    style ThePoweroftheMa fill:#2563eb,color:#fff,font-weight:bold\n    vp0零售注意力增加企[\"💡 - 零售注意力增加企業貿易信用\"]\n    style vp0零售注意力增加企 fill:#fef3c7,stroke:#d97706\n    ThePoweroftheMa --> vp0零售注意力增加企\n    零售注意力==>|\"增加\"|企業貿易信用"
+    },
+    {
+      "id": "bf-2026-07-07-14",
+      "title": "Retail Investor Attention: Guardian of Corporate ESG Integrity or Catalyst for Greenwashing?",
+      "search_date": "2026-07-07",
+      "authors": "Li, W., Mao, Z., & Ren, X.",
+      "year": "2025",
+      "journal": "Energy Economics, 139",
+      "doi": "https://doi.org/10.1016/j.eneco.2025.108361",
+      "citations": "27 次 ⭐⭐",
+      "openalex_url": "https://openalex.org/W4408267557",
+      "abstract": "",
+      "tags": [
+        "Behavioral Finance"
+      ],
+      "topics": [
+        "行為金融"
+      ],
+      "type": "search",
+      "notes": [
+        "=== 變數 ===",
+        "- 零售投資者注意力 (Baidu 搜尋指數)",
+        "- ESG 評級",
+        "- 綠色洗白 (greenwashing) 指標",
+        "=== 資料來源 ===",
+        "- 中國 A 股資料",
+        "- Baidu 搜尋指數",
+        "- ESG 評級資料 (多家機構)",
+        "=== 方法論 ===",
+        "- 注意力指標建構",
+        "- ESG 評級分歧分析",
+        "- 因果推斷 (IV / DID)",
+        "=== Key Findings ===",
+        "- 零售注意力可監督公司 ESG 真實性",
+        "- 但也可能助長 greenwashing 行為",
+        "- 注意力與 ESG 評級改善存在複雜關係",
+        "=== APA ===",
+        "Li, W., Mao, Z., & Ren, X. (2025). Retail investor attention: Guardian of corporate ESG integrity or catalyst for greenwashing? *Energy Economics*, *139*, 108361. https://doi.org/10.1016/j.eneco.2025.108361"
+      ],
+      "viewpoints": [
+        {
+          "claim": "- 注意力與 ESG 評級改善存在複雜關係",
+          "evidence": "- 注意力與 ESG 評級對存在複雜關係的影響：改善",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    RetailInvestorA[\"📄 Retail Investor Attention: Guardian of Corporate E\"]\n    style RetailInvestorA fill:#2563eb,color:#fff,font-weight:bold\n    vp0注意力與ESG[\"💡 - 注意力與 ESG 評級改善存在複雜關係\"]\n    style vp0注意力與ESG fill:#fef3c7,stroke:#d97706\n    RetailInvestorA --> vp0注意力與ESG\n    注意力與ESG評級==>|\"改善\"|存在複雜關係"
+    },
+    {
+      "id": "bf-2026-07-07-13",
+      "title": "Social Media Attention and Retail Investor Behavior: Evidence from r/wallstreetbets",
+      "search_date": "2026-07-07",
+      "authors": "Warkulat, S., & Pelster, M.",
+      "year": "2024",
+      "journal": "International Review of Financial Analysis, 95",
+      "doi": "https://doi.org/10.1016/j.irfa.2024.103721",
+      "citations": "36 次 ⭐⭐",
+      "openalex_url": "https://openalex.org/W4404032561",
+      "abstract": "",
+      "tags": [
+        "Behavioral Finance"
+      ],
+      "topics": [
+        "行為金融"
+      ],
+      "type": "search",
+      "notes": [
+        "=== 變數 ===",
+        "- 社交媒體注意力 (Reddit r/wallstreetbets)",
+        "- 零售投資者交易行為",
+        "- 股票收益和波動率",
+        "=== 資料來源 ===",
+        "- Reddit r/wallstreetbets 帖子資料",
+        "- 美國股市交易資料",
+        "- 零售交易平台資料",
+        "=== 方法論 ===",
+        "- 文本挖掘 + 自然語言處理",
+        "- 注意力指標建構 (帖子數、情緒等)",
+        "- 事件研究法 + 面板迴歸",
+        "=== Key Findings ===",
+        "- 社交媒體注意力顯著影響零售投資者行為",
+        "- 注意力激增導致股價短期超漲",
+        "- 長期存在價格反轉現象",
+        "- GameStop 事件的系統性分析",
+        "=== APA ===",
+        "Warkulat, S., & Pelster, M. (2024). Social media attention and retail investor behavior: Evidence from r/wallstreetbets. *International Review of Financial Analysis*, *95*, 103721. https://doi.org/10.1016/j.irfa.2024.103721"
+      ],
+      "diagram": "graph TD\n    SocialMediaAtte[\"📄 Social Media Attention and Retail Investor Behavio\"]\n    style SocialMediaAtte fill:#2563eb,color:#fff,font-weight:bold"
+    },
+    {
+      "id": "bf-2026-07-07-12",
+      "title": "How Mutual Funds Respond to Asymmetric Feedback Trading in China's Stock Market",
+      "search_date": "2026-07-07",
+      "authors": "Wan, D., Yang, L., & Yang, X.",
+      "year": "2024",
+      "journal": "Journal of Management Science and Engineering, 9(1)",
+      "doi": "https://doi.org/10.1016/j.jmse.2024.01.001",
+      "citations": "3 次",
+      "openalex_url": "https://openalex.org/W4391849031",
+      "abstract": "",
+      "tags": [
+        "Behavioral Finance"
+      ],
+      "topics": [
+        "行為金融"
+      ],
+      "type": "search",
+      "notes": [
+        "=== 變數 ===",
+        "- 共同基金交易行為",
+        "- 不對稱正反饋交易 (asymmetric feedback trading)",
+        "- 市場狀態變數",
+        "=== 資料來源 ===",
+        "- 中國 A 股共同基金交易資料",
+        "- 市場指數資料",
+        "=== 方法論 ===",
+        "- 正反饋交易衡量 (Badrinath & Wahal 2002)",
+        "- 不對稱性分析 (上漲 vs 下跌市場)",
+        "- 面板迴歸",
+        "=== Key Findings ===",
+        "- 共同基金存在不對稱正反饋交易",
+        "- 上漲市場中追漲行為更強",
+        "- 下跌市場中止損行為較弱",
+        "=== APA ===",
+        "Wan, D., Yang, L., & Yang, X. (2024). How mutual funds respond to asymmetric feedback trading in China's stock market. *Journal of Management Science and Engineering*, *9*(1), 1–15. https://doi.org/10.1016/j.jmse.2024.01.001"
+      ],
+      "diagram": "graph TD\n    HowMutualFundsR[\"📄 How Mutual Funds Respond to Asymmetric Feedback Tr\"]\n    style HowMutualFundsR fill:#2563eb,color:#fff,font-weight:bold"
+    },
+    {
+      "id": "bf-2026-07-07-11",
+      "title": "Spatial Linkages of Positive Feedback Trading Among the Stock Index Futures Markets",
+      "search_date": "2026-07-07",
+      "authors": "Tian, S., Liu, S., & Mu, L.",
+      "year": "2024",
+      "journal": "North American Journal of Economics and Finance, 72",
+      "doi": "https://doi.org/10.1016/j.najef.2024.102315",
+      "citations": "0 次",
+      "openalex_url": "https://openalex.org/W4404412743",
+      "abstract": "",
+      "tags": [
+        "Positive Feedback Trading"
+      ],
+      "topics": [
+        "行為金融"
+      ],
+      "type": "search",
+      "notes": [
+        "=== 變數 ===",
+        "- 股指期貨正反饋交易",
+        "- 跨市場空間關聯",
+        "- 市場間波動溢散",
+        "=== 資料來源 ===",
+        "- 多國股指期貨市場資料",
+        "- 日內高頻資料",
+        "=== 方法論 ===",
+        "- 空間計量模型",
+        "- 波動率溢散分析",
+        "- DCC-GARCH",
+        "=== Key Findings ===",
+        "- 股指期貨市場間存在正反饋交易的空間關聯",
+        "- 地理接近性影響溢出強度",
+        "- 市場整合程度與正反饋交易相關",
+        "=== APA ===",
+        "Tian, S., Liu, S., & Mu, L. (2024). Spatial linkages of positive feedback trading among the stock index futures markets. *North American Journal of Economics and Finance*, *72*, 102315. https://doi.org/10.1016/j.najef.2024.102315"
+      ],
+      "diagram": "graph TD\n    SpatialLinkages[\"📄 Spatial Linkages of Positive Feedback Trading Amon\"]\n    style SpatialLinkages fill:#2563eb,color:#fff,font-weight:bold"
+    },
+    {
+      "id": "bf-2026-07-07-10",
+      "title": "Positive Feedback Trading in Meme Stocks: Swing Trading or Betting on Lotteries?",
+      "search_date": "2026-07-07",
+      "authors": "Cho, E., Kim, W., & Woo, M.",
+      "year": "2024",
+      "journal": "SSRN Working Paper",
+      "doi": "https://doi.org/10.2139/ssrn.4818837",
+      "citations": "0 次 (working paper)",
+      "openalex_url": "https://openalex.org/W4396713492",
+      "abstract": "",
+      "tags": [
+        "Positive Feedback Trading"
+      ],
+      "topics": [
+        "行為金融"
+      ],
+      "type": "search",
+      "notes": [
+        "=== 變數 ===",
+        "- 迷因股 (meme stocks) 交易行為",
+        "- 正反饋交易強度",
+        "- 投資者類型 (swing traders vs. lottery seekers)",
+        "=== 資料來源 ===",
+        "- 韓國股市 meme stocks 交易資料",
+        "- 投資者帳戶級別資料",
+        "=== 方法論 ===",
+        "- 正反饋交易衡量 (Bikhchandani et al. 1992)",
+        "- 投資者異質性分析",
+        "- 事件研究法",
+        "=== Key Findings ===",
+        "- Meme stocks 中存在顯著的正反饋交易",
+        "- 投資者動機異質：部分為動量交易，部分為彩票偏好",
+        "- 社交媒體加劇正反饋交易行為",
+        "=== APA ===",
+        "Cho, E., Kim, W., & Woo, M. (2024). Positive feedback trading in meme stocks: Swing trading or betting on lotteries? *SSRN Working Paper*. https://doi.org/10.2139/ssrn.4818837"
+      ],
+      "viewpoints": [
+        {
+          "claim": "- 投資者動機異質：部分為動量交易，部分為彩票偏好",
+          "evidence": "- 投資者動機異質：部分為動量交易，部分為彩票偏好",
+          "confidence": "mid",
+          "source": "檢定結果",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    PositiveFeedbac[\"📄 Positive Feedback Trading in Meme Stocks: Swing Tr\"]\n    style PositiveFeedbac fill:#2563eb,color:#fff,font-weight:bold\n    vp0投資者動機異質[\"💡 - 投資者動機異質：部分為動量交易，部分為彩票偏好\"]\n    style vp0投資者動機異質 fill:#fef3c7,stroke:#d97706\n    PositiveFeedbac --> vp0投資者動機異質"
+    },
+    {
+      "id": "bf-2026-07-07-1",
+      "title": "Informed Trading Intensity",
+      "search_date": "2026-07-07",
+      "authors": "Bogousslavsky, V., Fos, V., & Muravyev, D.",
+      "year": "2024",
+      "journal": "Journal of Finance, 79(3)",
+      "doi": "https://doi.org/10.1111/jofi.13320",
+      "citations": "73 次 ⭐⭐",
+      "openalex_url": "https://openalex.org/W4392201170",
+      "abstract": "",
+      "tags": [
+        "Informed Trading"
+      ],
+      "topics": [
+        "行為金融"
+      ],
+      "type": "search",
+      "notes": [
+        "=== 變數 ===",
+        "- 核心變數：informed trading intensity (ITI)",
+        "- 市場微觀結構變數：bid-ask spread, order flow, price impact",
+        "- 公司特徵變數：size, book-to-market, analyst coverage",
+        "=== 資料來源 ===",
+        "- 美國股市日內交易資料 (TAQ)",
+        "- 樣本期間：較長面板資料",
+        "=== 方法論 ===",
+        "- 提出新的 informed trading intensity 衡量指標",
+        "- 基於市場微觀結構理論 (Kyle 1985, Glosten-Milgrom 1985)",
+        "- 利用高頻交易資料分解信息成分",
+        "=== Key Findings ===",
+        "- ITI 能有效預測未來股票收益",
+        "- 高 ITI 股票存在顯著的風險調整後超額收益",
+        "- 信息交易強度與公司資訊環境密切相關",
+        "=== APA ===",
+        "Bogousslavsky, V., Fos, V., & Muravyev, D. (2024). Informed trading intensity. *Journal of Finance*, *79*(3), 1–45. https://doi.org/10.1111/jofi.13320"
+      ],
+      "viewpoints": [
+        {
+          "claim": "- 核心變數：informed trading intensity (ITI)",
+          "evidence": "- 核心變數：informed trading intensity (ITI)",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    InformedTrading[\"📄 Informed Trading Intensity\"]\n    style InformedTrading fill:#2563eb,color:#fff,font-weight:bold\n    vp0核心變數inf[\"💡 - 核心變數：informed trading intensity (ITI)\"]\n    style vp0核心變數inf fill:#fef3c7,stroke:#d97706\n    InformedTrading --> vp0核心變數inf"
+    },
     {
       "title": "精讀筆記：方法論核心 5 篇 + 高引用實證 5 篇",
       "authors": "王美智教授 QVAR 文獻庫精讀",
@@ -57,8 +962,137 @@
         "來源：Mayer et al. arXiv 全文、Jiang et al. MDPI 全文、Wiley/Elsevier 頁面"
       ],
       "type": "upload",
-      "id": "upload-2026-07-06-7345",
+      "id": "upload-2026-07-06-3371",
       "diagram": "graph TD\n    精讀筆記方法論核心5篇高引用[\"📄 精讀筆記：方法論核心 5 篇 + 高引用實證 5 篇\"]\n    style 精讀筆記方法論核心5篇高引用 fill:#2563eb,color:#fff,font-weight:bold"
+    },
+    {
+      "title": "The Mediating Role of Globalization in the Nexus Between CO₂ Emissions, GHGs, and Economic Growth",
+      "authors": "Abdelbasset Dhouiwi",
+      "year": "2026",
+      "journal": "Published April 5, 2026",
+      "doi": "",
+      "date": "2026-06-30",
+      "tags": [
+        "panel",
+        "mediation",
+        "globalization",
+        "G20",
+        "Baron-Kenny"
+      ],
+      "topics": [
+        "宏觀總體",
+        "碳市場/碳交易",
+        "氣候風險/政策"
+      ],
+      "pdf": "uploads/Globalization_Mediating_CO2_GHG_Growth_Dhouiwi_2026.pdf",
+      "notes": [
+        "樣本：20 G20 國家，2010–2024，年資料，300 筆觀測值",
+        "資料庫：Global Economy Database",
+        "方法：Baron & Kenny (1986) 四步驟中介分析 + 固定效果面板",
+        "---",
+        "【變數】DV=經濟成長(實質GDP成長率), IV=CO₂排放(每單位GDP)+GHGE(每單位GDP), Mediator=全球化(KOF指數0-100), Controls=投資/GDP比, 通膨, 失業率, 監管品質",
+        "---",
+        "【Step 1】CO₂→EG: +2.1680(p<0.001), GHGE→EG: +12.1037(p=0.002) 正向顯著",
+        "【Step 2】CO₂→GLOB: −0.9385(p<0.001), GHGE→GLOB: −18.9679(p<0.001) 排放越高全球化越低",
+        "【Step 3】GLOB→EG: +4.7803(p=0.025) 全球化正向促成長",
+        "【Step 4 核心】CO₂+GLOB→EG: CO₂變為−1.1601(p=0.405❌), GLOB維持+5.1606(p<0.001)✅ → 全球化完全中介 CO₂→EG",
+        "【Step 4 核心】GHGE+GLOB→EG: GHGE變為−0.3395(p=0.888❌), GLOB維持+5.0169(p<0.001)✅ → 全球化完全中介 GHGE→EG",
+        "---",
+        "【診斷】CSD顯著(χ²=343.55), 單根I(0), VIF<3, JB常態(p=0.392), DW=1.98, 非線性不顯著",
+        "---",
+        "【政策意涵】1)不能只靠減排，全球化渠道更關鍵；2)促國際整合+貿易+FDI有助環境壓力轉綠色成長；3)G20需協調行動；4)注意污染天堂假說",
+        "---",
+        "【限制】僅G20不可外推；Baron&Kenny檢定力較低；年資料無法捕捉短期動態；未控制各國環境法規差異"
+      ],
+      "type": "upload",
+      "id": "upload-2026-06-30-9317",
+      "viewpoints": [
+        {
+          "claim": "GHGE → EG",
+          "evidence": "GHGE對EG的影響",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "GHGE → GLOB",
+          "evidence": "GHGE對GLOB的影響",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "GLOB → EG",
+          "evidence": "GLOB對EG的影響",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "【診斷】CSD顯著(χ²=343.55), 單根I(0), VIF<3, JB常態(p=0.392), DW=1.98, 非線性不顯著",
+          "evidence": "【診斷】CSD顯著(χ²=343.55), 單根I(0), VIF<3, JB常態(p=0.392), DW=1.98, 非線性不顯著",
+          "confidence": "mid",
+          "source": "數據",
+          "connections": []
+        },
+        {
+          "claim": "【政策意涵】1)不能只靠減排，全球化渠道更關鍵；2)促國際整合+貿易+FDI有助環境壓力轉綠色成長；3)G20需協調行動；4)注意污染天堂假說",
+          "evidence": "【政策意涵】1)不能只靠減排，全球化渠道更關鍵；2)促國際整合+貿易+FDI有助環境壓力轉綠色成長；3)G20需協調行動；4)注意污染天堂假說",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【限制】僅G20不可外推；Baron&Kenny檢定力較低；年資料無法捕捉短期動態；未控制各國環境法規差異",
+          "evidence": "【限制】僅G20不可外推；Baron&Kenny檢定力較低；年資料無法捕捉短期動態；未控制各國環境法規差異",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "CO₂→EG：+2.1680(p<0.001), GHGE→EG: +12.1037(p=0.002) 正向顯著",
+          "evidence": "+2.1680(p<0.001), GHGE→EG: +12.1037(p=0.002) 正向顯著",
+          "confidence": "high",
+          "source": "假設檢定",
+          "connections": []
+        },
+        {
+          "claim": "CO₂→GLOB：−0.9385(p<0.001), GHGE→GLOB: −18.9679(p<0.001) 排放越高全球化越低",
+          "evidence": "−0.9385(p<0.001), GHGE→GLOB: −18.9679(p<0.001) 排放越高全球化越低",
+          "confidence": "high",
+          "source": "假設檢定",
+          "connections": []
+        },
+        {
+          "claim": "GLOB→EG：+4.7803(p=0.025) 全球化正向促成長",
+          "evidence": "+4.7803(p=0.025) 全球化正向促成長",
+          "confidence": "mid",
+          "source": "假設檢定",
+          "connections": []
+        },
+        {
+          "claim": "CO₂+GLOB→EG：CO₂變為−1.1601(p=0.405❌), GLOB維持+5.1606(p<0.001)✅ → 全球化完全中介 CO₂→EG",
+          "evidence": "CO₂變為−1.1601(p=0.405❌), GLOB維持+5.1606(p<0.001)✅ → 全球化完全中介 CO₂→EG",
+          "confidence": "high",
+          "source": "假設檢定",
+          "connections": []
+        },
+        {
+          "claim": "GHGE+GLOB→EG：GHGE變為−0.3395(p=0.888❌), GLOB維持+5.0169(p<0.001)✅ → 全球化完全中介 GHGE→EG",
+          "evidence": "GHGE變為−0.3395(p=0.888❌), GLOB維持+5.0169(p<0.001)✅ → 全球化完全中介 GHGE→EG",
+          "confidence": "high",
+          "source": "假設檢定",
+          "connections": []
+        },
+        {
+          "claim": "CO₂+GLOB→EG: CO₂變為−1.1601(p=0.405❌), GLOB維持+5.1606(p<0.001)✅ → 全球化完全中介 CO₂→EG",
+          "evidence": "CO₂+GLOB→EG: CO₂變為−1.1601(p=0.405❌), GLOB維持+5.1606(p<0.001)✅ → 全球化完全中介 CO₂→EG",
+          "confidence": "high",
+          "source": "核心發現",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    TheMediatingRol[\"📄 The Mediating Role of Globalization in the Nexus B\"]\n    style TheMediatingRol fill:#2563eb,color:#fff,font-weight:bold\n    vp0GHGEEG[\"💡 GHGE → EG\"]\n    style vp0GHGEEG fill:#fef3c7,stroke:#d97706\n    TheMediatingRol --> vp0GHGEEG\n    vp1GHGEGLO[\"💡 GHGE → GLOB\"]\n    style vp1GHGEGLO fill:#fef3c7,stroke:#d97706\n    TheMediatingRol --> vp1GHGEGLO\n    vp2GLOBEG[\"💡 GLOB → EG\"]\n    style vp2GLOBEG fill:#fef3c7,stroke:#d97706\n    TheMediatingRol --> vp2GLOBEG\n    vp3診斷CSD顯著[\"💡 【診斷】CSD顯著(χ²=343.55), 單根I(0), VIF<3, JB常\"]\n    style vp3診斷CSD顯著 fill:#fef3c7,stroke:#d97706\n    TheMediatingRol --> vp3診斷CSD顯著\n    vp4政策意涵1不能[\"💡 【政策意涵】1)不能只靠減排，全球化渠道更關鍵；2)促國際整合+貿易+FDI有助\"]\n    style vp4政策意涵1不能 fill:#fef3c7,stroke:#d97706\n    TheMediatingRol --> vp4政策意涵1不能\n    vp5限制僅G20不可[\"💡 【限制】僅G20不可外推；Baron&Kenny檢定力較低；年資料無法捕捉短期動\"]\n    style vp5限制僅G20不可 fill:#fef3c7,stroke:#d97706\n    TheMediatingRol --> vp5限制僅G20不可\n    vp6COEG2[\"💡 CO₂→EG：+2.1680(p<0.001), GHGE→EG: +12.10\"]\n    style vp6COEG2 fill:#dbeafe,stroke:#2563eb\n    TheMediatingRol --> vp6COEG2\n    vp7COGLOB[\"💡 CO₂→GLOB：−0.9385(p<0.001), GHGE→GLOB: −1\"]\n    style vp7COGLOB fill:#dbeafe,stroke:#2563eb\n    TheMediatingRol --> vp7COGLOB\n    vp8GLOBEG4[\"💡 GLOB→EG：+4.7803(p=0.025) 全球化正向促成長\"]\n    style vp8GLOBEG4 fill:#fef3c7,stroke:#d97706\n    TheMediatingRol --> vp8GLOBEG4\n    vp9COGLOBE[\"💡 CO₂+GLOB→EG：CO₂變為−1.1601(p=0.405❌), GLOB\"]\n    style vp9COGLOBE fill:#dbeafe,stroke:#2563eb\n    TheMediatingRol --> vp9COGLOBE\n    vp10GHGEGLOB[\"💡 GHGE+GLOB→EG：GHGE變為−0.3395(p=0.888❌), GL\"]\n    style vp10GHGEGLOB fill:#dbeafe,stroke:#2563eb\n    TheMediatingRol --> vp10GHGEGLOB\n    vp11COGLOBE[\"💡 CO₂+GLOB→EG: CO₂變為−1.1601(p=0.405❌), GLO\"]\n    style vp11COGLOBE fill:#dbeafe,stroke:#2563eb\n    TheMediatingRol --> vp11COGLOBE\n    GHGE-->|\"EG\"|EG\n    note[\"⋯ 還有 12 個觀點\"]"
     },
     {
       "title": "Green innovation and the CO₂ emissions gap: New evidence from OECD economies",
@@ -112,7 +1146,7 @@
         "【限制】僅OECD、專利指標未必反映技術擴散與採用、消費基礎排放有量測誤差"
       ],
       "type": "upload",
-      "id": "upload-2026-06-30-9856",
+      "id": "upload-2026-06-30-7134",
       "viewpoints": [
         {
           "claim": "LPAT → CO2gap",
@@ -240,7 +1274,7 @@
         "【限制】僅土耳其單國、結果不可外推、年轉季資料可能有測量誤差"
       ],
       "type": "upload",
-      "id": "upload-2026-06-30-7275",
+      "id": "upload-2026-06-30-4759",
       "viewpoints": [
         {
           "claim": "EGI → CO",
@@ -362,7 +1396,7 @@
         "【限制】僅12國、未納碳價與政治風險、未考慮非線性與門檻效應、IQ多維度未拆解"
       ],
       "type": "upload",
-      "id": "upload-2026-06-30-7118",
+      "id": "upload-2026-06-30-1861",
       "viewpoints": [
         {
           "claim": "FD → REC",
@@ -452,135 +1486,6 @@
       "diagram": "graph TD\n    Financialdevelo[\"📄 Financial development and renewable energy consump\"]\n    style Financialdevelo fill:#2563eb,color:#fff,font-weight:bold\n    vp0FDREC[\"💡 FD → REC\"]\n    style vp0FDREC fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp0FDREC\n    vp1IQREC[\"💡 IQ → REC\"]\n    style vp1IQREC fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp1IQREC\n    vp2EIREC[\"💡 EI → REC\"]\n    style vp2EIREC fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp2EIREC\n    vp31242p0[\"💡 1242*(p<0.10) → IQ正向調節FD-REC關係\"]\n    style vp31242p0 fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp31242p0\n    vp4技術創新反而抑制RE[\"💡 技術創新反而抑制REC(與再生能源目標脫鉤)\"]\n    style vp4技術創新反而抑制RE fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp4技術創新反而抑制RE\n    vp5I經濟體須投資能效技[\"💡 I經濟體須投資能效技術；4)利用貿易開放降低綠色技術關稅壁壘；5)技術創新須對齊\"]\n    style vp5I經濟體須投資能效技 fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp5I經濟體須投資能效技\n    vp6診斷CSD顯著[\"💡 【診斷】CSD顯著, HS異質斜率, LLC/IPS單根I(0), Pedron\"]\n    style vp6診斷CSD顯著 fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp6診斷CSD顯著\n    vp7政策意涵1金融[\"💡 【政策意涵】1)金融資源需重新導向綠色金融(綠債、補貼、稅務優惠)；2)強化制度\"]\n    style vp7政策意涵1金融 fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp7政策意涵1金融\n    vp8限制僅12國未[\"💡 【限制】僅12國、未納碳價與政治風險、未考慮非線性與門檻效應、IQ多維度未拆解\"]\n    style vp8限制僅12國未 fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp8限制僅12國未\n    vp9H1FDREC[\"💡 H1：FD→REC: Q.50係數−0.5386*(p<0.10), FE係數−\"]\n    style vp9H1FDREC fill:#dbeafe,stroke:#2563eb\n    Financialdevelo --> vp9H1FDREC\n    vp10H2FDIQR[\"💡 H2：FD×IQ→REC: APEC交互項係數+0.7815***(p<0.01\"]\n    style vp10H2FDIQR fill:#dbeafe,stroke:#2563eb\n    Financialdevelo --> vp10H2FDIQR\n    vp11政策建議金融資源需[\"💡 政策建議：金融資源需重新導向綠色金融(綠債、補貼、稅務優惠)；2)強化制度品質(\"]\n    style vp11政策建議金融資源需 fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp11政策建議金融資源需\n    FD-->|\"REC\"|REC\n    note[\"⋯ 還有 12 個觀點\"]"
     },
     {
-      "title": "The Mediating Role of Globalization in the Nexus Between CO₂ Emissions, GHGs, and Economic Growth",
-      "authors": "Abdelbasset Dhouiwi",
-      "year": "2026",
-      "journal": "Published April 5, 2026",
-      "doi": "",
-      "date": "2026-06-30",
-      "tags": [
-        "panel",
-        "mediation",
-        "globalization",
-        "G20",
-        "Baron-Kenny"
-      ],
-      "topics": [
-        "宏觀總體",
-        "碳市場/碳交易",
-        "氣候風險/政策"
-      ],
-      "pdf": "uploads/Globalization_Mediating_CO2_GHG_Growth_Dhouiwi_2026.pdf",
-      "notes": [
-        "樣本：20 G20 國家，2010–2024，年資料，300 筆觀測值",
-        "資料庫：Global Economy Database",
-        "方法：Baron & Kenny (1986) 四步驟中介分析 + 固定效果面板",
-        "---",
-        "【變數】DV=經濟成長(實質GDP成長率), IV=CO₂排放(每單位GDP)+GHGE(每單位GDP), Mediator=全球化(KOF指數0-100), Controls=投資/GDP比, 通膨, 失業率, 監管品質",
-        "---",
-        "【Step 1】CO₂→EG: +2.1680(p<0.001), GHGE→EG: +12.1037(p=0.002) 正向顯著",
-        "【Step 2】CO₂→GLOB: −0.9385(p<0.001), GHGE→GLOB: −18.9679(p<0.001) 排放越高全球化越低",
-        "【Step 3】GLOB→EG: +4.7803(p=0.025) 全球化正向促成長",
-        "【Step 4 核心】CO₂+GLOB→EG: CO₂變為−1.1601(p=0.405❌), GLOB維持+5.1606(p<0.001)✅ → 全球化完全中介 CO₂→EG",
-        "【Step 4 核心】GHGE+GLOB→EG: GHGE變為−0.3395(p=0.888❌), GLOB維持+5.0169(p<0.001)✅ → 全球化完全中介 GHGE→EG",
-        "---",
-        "【診斷】CSD顯著(χ²=343.55), 單根I(0), VIF<3, JB常態(p=0.392), DW=1.98, 非線性不顯著",
-        "---",
-        "【政策意涵】1)不能只靠減排，全球化渠道更關鍵；2)促國際整合+貿易+FDI有助環境壓力轉綠色成長；3)G20需協調行動；4)注意污染天堂假說",
-        "---",
-        "【限制】僅G20不可外推；Baron&Kenny檢定力較低；年資料無法捕捉短期動態；未控制各國環境法規差異"
-      ],
-      "type": "upload",
-      "id": "upload-2026-06-30-1444",
-      "viewpoints": [
-        {
-          "claim": "GHGE → EG",
-          "evidence": "GHGE對EG的影響",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "GHGE → GLOB",
-          "evidence": "GHGE對GLOB的影響",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "GLOB → EG",
-          "evidence": "GLOB對EG的影響",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "【診斷】CSD顯著(χ²=343.55), 單根I(0), VIF<3, JB常態(p=0.392), DW=1.98, 非線性不顯著",
-          "evidence": "【診斷】CSD顯著(χ²=343.55), 單根I(0), VIF<3, JB常態(p=0.392), DW=1.98, 非線性不顯著",
-          "confidence": "mid",
-          "source": "數據",
-          "connections": []
-        },
-        {
-          "claim": "【政策意涵】1)不能只靠減排，全球化渠道更關鍵；2)促國際整合+貿易+FDI有助環境壓力轉綠色成長；3)G20需協調行動；4)注意污染天堂假說",
-          "evidence": "【政策意涵】1)不能只靠減排，全球化渠道更關鍵；2)促國際整合+貿易+FDI有助環境壓力轉綠色成長；3)G20需協調行動；4)注意污染天堂假說",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【限制】僅G20不可外推；Baron&Kenny檢定力較低；年資料無法捕捉短期動態；未控制各國環境法規差異",
-          "evidence": "【限制】僅G20不可外推；Baron&Kenny檢定力較低；年資料無法捕捉短期動態；未控制各國環境法規差異",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "CO₂→EG：+2.1680(p<0.001), GHGE→EG: +12.1037(p=0.002) 正向顯著",
-          "evidence": "+2.1680(p<0.001), GHGE→EG: +12.1037(p=0.002) 正向顯著",
-          "confidence": "high",
-          "source": "假設檢定",
-          "connections": []
-        },
-        {
-          "claim": "CO₂→GLOB：−0.9385(p<0.001), GHGE→GLOB: −18.9679(p<0.001) 排放越高全球化越低",
-          "evidence": "−0.9385(p<0.001), GHGE→GLOB: −18.9679(p<0.001) 排放越高全球化越低",
-          "confidence": "high",
-          "source": "假設檢定",
-          "connections": []
-        },
-        {
-          "claim": "GLOB→EG：+4.7803(p=0.025) 全球化正向促成長",
-          "evidence": "+4.7803(p=0.025) 全球化正向促成長",
-          "confidence": "mid",
-          "source": "假設檢定",
-          "connections": []
-        },
-        {
-          "claim": "CO₂+GLOB→EG：CO₂變為−1.1601(p=0.405❌), GLOB維持+5.1606(p<0.001)✅ → 全球化完全中介 CO₂→EG",
-          "evidence": "CO₂變為−1.1601(p=0.405❌), GLOB維持+5.1606(p<0.001)✅ → 全球化完全中介 CO₂→EG",
-          "confidence": "high",
-          "source": "假設檢定",
-          "connections": []
-        },
-        {
-          "claim": "GHGE+GLOB→EG：GHGE變為−0.3395(p=0.888❌), GLOB維持+5.0169(p<0.001)✅ → 全球化完全中介 GHGE→EG",
-          "evidence": "GHGE變為−0.3395(p=0.888❌), GLOB維持+5.0169(p<0.001)✅ → 全球化完全中介 GHGE→EG",
-          "confidence": "high",
-          "source": "假設檢定",
-          "connections": []
-        },
-        {
-          "claim": "CO₂+GLOB→EG: CO₂變為−1.1601(p=0.405❌), GLOB維持+5.1606(p<0.001)✅ → 全球化完全中介 CO₂→EG",
-          "evidence": "CO₂+GLOB→EG: CO₂變為−1.1601(p=0.405❌), GLOB維持+5.1606(p<0.001)✅ → 全球化完全中介 CO₂→EG",
-          "confidence": "high",
-          "source": "核心發現",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    TheMediatingRol[\"📄 The Mediating Role of Globalization in the Nexus B\"]\n    style TheMediatingRol fill:#2563eb,color:#fff,font-weight:bold\n    vp0GHGEEG[\"💡 GHGE → EG\"]\n    style vp0GHGEEG fill:#fef3c7,stroke:#d97706\n    TheMediatingRol --> vp0GHGEEG\n    vp1GHGEGLO[\"💡 GHGE → GLOB\"]\n    style vp1GHGEGLO fill:#fef3c7,stroke:#d97706\n    TheMediatingRol --> vp1GHGEGLO\n    vp2GLOBEG[\"💡 GLOB → EG\"]\n    style vp2GLOBEG fill:#fef3c7,stroke:#d97706\n    TheMediatingRol --> vp2GLOBEG\n    vp3診斷CSD顯著[\"💡 【診斷】CSD顯著(χ²=343.55), 單根I(0), VIF<3, JB常\"]\n    style vp3診斷CSD顯著 fill:#fef3c7,stroke:#d97706\n    TheMediatingRol --> vp3診斷CSD顯著\n    vp4政策意涵1不能[\"💡 【政策意涵】1)不能只靠減排，全球化渠道更關鍵；2)促國際整合+貿易+FDI有助\"]\n    style vp4政策意涵1不能 fill:#fef3c7,stroke:#d97706\n    TheMediatingRol --> vp4政策意涵1不能\n    vp5限制僅G20不可[\"💡 【限制】僅G20不可外推；Baron&Kenny檢定力較低；年資料無法捕捉短期動\"]\n    style vp5限制僅G20不可 fill:#fef3c7,stroke:#d97706\n    TheMediatingRol --> vp5限制僅G20不可\n    vp6COEG2[\"💡 CO₂→EG：+2.1680(p<0.001), GHGE→EG: +12.10\"]\n    style vp6COEG2 fill:#dbeafe,stroke:#2563eb\n    TheMediatingRol --> vp6COEG2\n    vp7COGLOB[\"💡 CO₂→GLOB：−0.9385(p<0.001), GHGE→GLOB: −1\"]\n    style vp7COGLOB fill:#dbeafe,stroke:#2563eb\n    TheMediatingRol --> vp7COGLOB\n    vp8GLOBEG4[\"💡 GLOB→EG：+4.7803(p=0.025) 全球化正向促成長\"]\n    style vp8GLOBEG4 fill:#fef3c7,stroke:#d97706\n    TheMediatingRol --> vp8GLOBEG4\n    vp9COGLOBE[\"💡 CO₂+GLOB→EG：CO₂變為−1.1601(p=0.405❌), GLOB\"]\n    style vp9COGLOBE fill:#dbeafe,stroke:#2563eb\n    TheMediatingRol --> vp9COGLOBE\n    vp10GHGEGLOB[\"💡 GHGE+GLOB→EG：GHGE變為−0.3395(p=0.888❌), GL\"]\n    style vp10GHGEGLOB fill:#dbeafe,stroke:#2563eb\n    TheMediatingRol --> vp10GHGEGLOB\n    vp11COGLOBE[\"💡 CO₂+GLOB→EG: CO₂變為−1.1601(p=0.405❌), GLO\"]\n    style vp11COGLOBE fill:#dbeafe,stroke:#2563eb\n    TheMediatingRol --> vp11COGLOBE\n    GHGE-->|\"EG\"|EG\n    note[\"⋯ 還有 12 個觀點\"]"
-    },
-    {
       "title": "Reinforcement Learning for Risk-Sensitive Investment Management: a Free Energy--Entropy Duality Approach",
       "authors": "Sebastien Lleo, Wolfgang Runggaldier",
       "year": "2026",
@@ -604,7 +1509,7 @@
         "arXiv q-fin new 2026-06"
       ],
       "type": "upload",
-      "id": "upload-2026-06-23-762",
+      "id": "upload-2026-06-23-866",
       "viewpoints": [
         {
           "claim": "entropy duality → risk-sensitive",
@@ -615,6 +1520,48 @@
         }
       ],
       "diagram": "graph TD\n    ReinforcementLe[\"📄 Reinforcement Learning for Risk-Sensitive Investme\"]\n    style ReinforcementLe fill:#2563eb,color:#fff,font-weight:bold\n    vp0entropydu[\"💡 entropy duality → risk-sensitive\"]\n    style vp0entropydu fill:#fef3c7,stroke:#d97706\n    ReinforcementLe --> vp0entropydu\n    entropyduality-->|\"risk-sensitive\"|risksensitive"
+    },
+    {
+      "title": "The Mathematics of Modeling the Future",
+      "authors": "Miquel Noguer i Alonso",
+      "year": "2026",
+      "journal": "arXiv:2606.20977 [q-fin.MF]",
+      "doi": "",
+      "date": "2026-06-23",
+      "tags": [
+        "方法論"
+      ],
+      "topics": [
+        "方法論",
+        "AI/科技"
+      ],
+      "pdf": "uploads/Mathematics_of_Modeling_Future_Noguer_2026.pdf",
+      "notes": [
+        "從 filtration、conditional expectation、Markov kernel 到 Kolmogorov equations 的統一數學框架",
+        "提出 forecasting calculus：tower property → semigroup law, Ito's formula → backward equation",
+        "Wasserstein gradient flow + Fisher-Rao 幾何下的密度演化",
+        "附 Gaussian OU / CIR 過程的顯式範例",
+        "arXiv q-fin new 2026-06"
+      ],
+      "type": "upload",
+      "id": "upload-2026-06-23-5764",
+      "viewpoints": [
+        {
+          "claim": "tower property → semigroup law",
+          "evidence": "tower property對semigroup law的影響",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "s formula → backward equation\nWasserstein",
+          "evidence": "s formula對backward equation\nWasserstein的影響",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    TheMathematicso[\"📄 The Mathematics of Modeling the Future\"]\n    style TheMathematicso fill:#2563eb,color:#fff,font-weight:bold\n    vp0towerprop[\"💡 tower property → semigroup law\"]\n    style vp0towerprop fill:#fef3c7,stroke:#d97706\n    TheMathematicso --> vp0towerprop\n    vp1sformula[\"💡 s formula → backward equation\nWasserstei\"]\n    style vp1sformula fill:#fef3c7,stroke:#d97706\n    TheMathematicso --> vp1sformula\n    towerproperty-->|\"semigroup law\"|semigrouplaw\n    sformula-->|\"backward equation\nWa\"|backwardequati"
     },
     {
       "title": "Revisiting Trade-sign Long-memory and Square-root Law Price Impact",
@@ -640,7 +1587,7 @@
         "arXiv q-fin new 2026-06"
       ],
       "type": "upload",
-      "id": "upload-2026-06-23-7514",
+      "id": "upload-2026-06-23-5261",
       "viewpoints": [
         {
           "claim": "order → concave impact trajectory\narXi",
@@ -653,46 +1600,155 @@
       "diagram": "graph TD\n    RevisitingTrade[\"📄 Revisiting Trade-sign Long-memory and Square-root \"]\n    style RevisitingTrade fill:#2563eb,color:#fff,font-weight:bold\n    vp0orderco[\"💡 order → concave impact trajectory\narXi\"]\n    style vp0orderco fill:#fef3c7,stroke:#d97706\n    RevisitingTrade --> vp0orderco\n    order-->|\"concave impact traje\"|concaveimpact"
     },
     {
-      "title": "The Mathematics of Modeling the Future",
-      "authors": "Miquel Noguer i Alonso",
+      "title": "The nexus between climate policy uncertainty and load capacity factor in China with the moderating role of financial development",
+      "authors": "Özbek, Şahin & Bayar",
       "year": "2026",
-      "journal": "arXiv:2606.20977 [q-fin.MF]",
-      "doi": "",
-      "date": "2026-06-23",
+      "journal": "Discover Sustainability",
+      "doi": "10.1007/s43621-026-03409-0",
+      "date": "2026-06-16",
       "tags": [
-        "方法論"
+        "A-ARDL",
+        "FMOLS",
+        "DOLS",
+        "LCF",
+        "CPU"
       ],
       "topics": [
-        "方法論",
-        "AI/科技"
+        "氣候風險/政策",
+        "碳市場/碳交易"
       ],
-      "pdf": "uploads/Mathematics_of_Modeling_Future_Noguer_2026.pdf",
+      "pdf": "uploads/CPU_LCF_China_Ozbek_2026.pdf",
       "notes": [
-        "從 filtration、conditional expectation、Markov kernel 到 Kolmogorov equations 的統一數學框架",
-        "提出 forecasting calculus：tower property → semigroup law, Ito's formula → backward equation",
-        "Wasserstein gradient flow + Fisher-Rao 幾何下的密度演化",
-        "附 Gaussian OU / CIR 過程的顯式範例",
-        "arXiv q-fin new 2026-06"
+        "A-ARDL + FMOLS + DOLS 三種方法互補驗證",
+        "1990-2021, 中國",
+        "FD 和 CPU 各自降低環境品質，但交互項 FD×CPU 改善環境品質",
+        "FD 在不確定時期可透過三渠道維持綠色投資"
       ],
       "type": "upload",
-      "id": "upload-2026-06-23-6043",
+      "id": "upload-2026-06-16-8617",
       "viewpoints": [
         {
-          "claim": "tower property → semigroup law",
-          "evidence": "tower property對semigroup law的影響",
+          "claim": "FD 和 CPU 各自降低環境品質",
+          "evidence": "FD 和 CPU 各自對環境品質的影響：降低",
           "confidence": "mid",
           "source": "變數關係",
           "connections": []
         },
         {
-          "claim": "s formula → backward equation\nWasserstein",
-          "evidence": "s formula對backward equation\nWasserstein的影響",
+          "claim": "但交互項 FD×CPU改善環境品質",
+          "evidence": "但交互項 FD×CPU對環境品質的影響：改善",
           "confidence": "mid",
           "source": "變數關係",
           "connections": []
         }
       ],
-      "diagram": "graph TD\n    TheMathematicso[\"📄 The Mathematics of Modeling the Future\"]\n    style TheMathematicso fill:#2563eb,color:#fff,font-weight:bold\n    vp0towerprop[\"💡 tower property → semigroup law\"]\n    style vp0towerprop fill:#fef3c7,stroke:#d97706\n    TheMathematicso --> vp0towerprop\n    vp1sformula[\"💡 s formula → backward equation\nWasserstei\"]\n    style vp1sformula fill:#fef3c7,stroke:#d97706\n    TheMathematicso --> vp1sformula\n    towerproperty-->|\"semigroup law\"|semigrouplaw\n    sformula-->|\"backward equation\nWa\"|backwardequati"
+      "diagram": "graph TD\n    Thenexusbetween[\"📄 The nexus between climate policy uncertainty and l\"]\n    style Thenexusbetween fill:#2563eb,color:#fff,font-weight:bold\n    vp0FD和CPU各[\"💡 FD 和 CPU 各自降低環境品質\"]\n    style vp0FD和CPU各 fill:#fef3c7,stroke:#d97706\n    Thenexusbetween --> vp0FD和CPU各\n    vp1但交互項FDCP[\"💡 但交互項 FD×CPU改善環境品質\"]\n    style vp1但交互項FDCP fill:#fef3c7,stroke:#d97706\n    Thenexusbetween --> vp1但交互項FDCP\n    FD和CPU各自--x|\"降低\"|環境品質\n    但交互項FDCPU==>|\"改善\"|環境品質1"
+    },
+    {
+      "title": "The interplay of financial development, oil prices, and CO2 emissions in shaping renewable energy consumption in emerging nations: An evidence from panel quantile regression",
+      "authors": "Arsh, Liaqat, Batool & Khan",
+      "year": "2025",
+      "journal": "Vol. 3 No. 4 (2025)",
+      "doi": "",
+      "date": "2026-06-16",
+      "tags": [
+        "PQR",
+        "MMQR",
+        "FMOLS",
+        "quantile",
+        "REC"
+      ],
+      "topics": [
+        "潔淨能源",
+        "能源市場",
+        "金融市場"
+      ],
+      "pdf": "uploads/Arsh_FD_Oil_REC_Quantile_2025.pdf",
+      "notes": [
+        "22 emerging economies, 2005-2021",
+        "PQR(Powell 2016) + MMQR(Machado & Silva 2019) 雙重分位數",
+        "FD→REC+, Oil price 不對稱(低分位- 高分位+)",
+        "FDI→REC+, CO2→REC-(高分位)"
+      ],
+      "type": "upload",
+      "id": "upload-2026-06-16-7485",
+      "viewpoints": [
+        {
+          "claim": "FD → REC+",
+          "evidence": "FD對REC+的影響",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "FDI → REC+",
+          "evidence": "FDI對REC+的影響",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "CO2 → REC-",
+          "evidence": "CO2對REC-的影響",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    Theinterplayoff[\"📄 The interplay of financial development, oil prices\"]\n    style Theinterplayoff fill:#2563eb,color:#fff,font-weight:bold\n    vp0FDREC[\"💡 FD → REC+\"]\n    style vp0FDREC fill:#fef3c7,stroke:#d97706\n    Theinterplayoff --> vp0FDREC\n    vp1FDIREC[\"💡 FDI → REC+\"]\n    style vp1FDIREC fill:#fef3c7,stroke:#d97706\n    Theinterplayoff --> vp1FDIREC\n    vp2CO2REC[\"💡 CO2 → REC-\"]\n    style vp2CO2REC fill:#fef3c7,stroke:#d97706\n    Theinterplayoff --> vp2CO2REC\n    FD-->|\"REC+\"|REC\n    FDI-->|\"REC+\"|REC1\n    CO2-->|\"REC-\"|REC2"
+    },
+    {
+      "title": "Sustainable energy transition toward a zero-carbon future in major Global South economies: Roles of green innovation, institutions, and geopolitical risk",
+      "authors": "Caglar, Naimoglu & Demirdag",
+      "year": "2026",
+      "journal": "Energy for Sustainable Development, 93, 102050",
+      "doi": "10.1016/j.esd.2026.102050",
+      "date": "2026-06-16",
+      "tags": [
+        "panel",
+        "SDG-7",
+        "GRI",
+        "GEO",
+        "Porter Hypothesis"
+      ],
+      "topics": [
+        "潔淨能源",
+        "氣候風險/政策",
+        "宏觀總體"
+      ],
+      "pdf": "uploads/Caglar_GlobalSouth_ENT_2026.pdf",
+      "notes": [
+        "Panel: Brazil, China, India, Indonesia, Thailand (2002-2023)",
+        "Porter Hypothesis(強版本)延伸—地緣穩定為創新驅動環境轉型之前提",
+        "GRI→ENT正向, RQ強化此過程, GEO抑制",
+        "SDG-7 進展取決於技術能力+制度韌性"
+      ],
+      "type": "upload",
+      "id": "upload-2026-06-16-5010",
+      "viewpoints": [
+        {
+          "claim": "GRI → ENT",
+          "evidence": "GRI對ENT的影響",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "hesis(強版本)延伸—地緣穩定為創新驅動環境轉型之前提",
+          "evidence": "hesis(強版本)延伸—地緣穩定為創新對環境轉型之前提的影響：驅動",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "→ENT正向, RQ強化此過程, GEO 抑制",
+          "evidence": "→ENT正向, RQ強化此過程, GEO抑制",
+          "confidence": "mid",
+          "source": "發現",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    Sustainableener[\"📄 Sustainable energy transition toward a zero-carbon\"]\n    style Sustainableener fill:#2563eb,color:#fff,font-weight:bold\n    vp0GRIENT[\"💡 GRI → ENT\"]\n    style vp0GRIENT fill:#fef3c7,stroke:#d97706\n    Sustainableener --> vp0GRIENT\n    vp1hesis強版本[\"💡 hesis(強版本)延伸—地緣穩定為創新驅動環境轉型之前提\"]\n    style vp1hesis強版本 fill:#fef3c7,stroke:#d97706\n    Sustainableener --> vp1hesis強版本\n    vp2ENT正向RQ[\"💡 →ENT正向, RQ強化此過程, GEO 抑制\"]\n    style vp2ENT正向RQ fill:#fef3c7,stroke:#d97706\n    Sustainableener --> vp2ENT正向RQ\n    GRI-->|\"ENT\"|ENT\n    Hypothesis強版本==>|\"驅動\"|環境轉型之前提"
     },
     {
       "title": "Assessing the effects of green innovation, renewable energy, and environmental policy stringency on ecological and material footprints in G7 economies",
@@ -721,7 +1777,7 @@
         "首篇聯合分析EF+MF驅動因子於G7"
       ],
       "type": "upload",
-      "id": "upload-2026-06-16-9362",
+      "id": "upload-2026-06-16-1694",
       "viewpoints": [
         {
           "claim": "ARDL\nGDP → EF↑ MF↑（正向）",
@@ -755,157 +1811,6 @@
       "diagram": "graph TD\n    Assessingtheeff[\"📄 Assessing the effects of green innovation, renewab\"]\n    style Assessingtheeff fill:#2563eb,color:#fff,font-weight:bold\n    vp0ARDLGDP[\"💡 ARDL\nGDP → EF↑ MF↑（正向）\"]\n    style vp0ARDLGDP fill:#fef3c7,stroke:#d97706\n    Assessingtheeff --> vp0ARDLGDP\n    vp1EPSEF[\"💡 EPS → EF↓（負向）\"]\n    style vp1EPSEF fill:#fef3c7,stroke:#d97706\n    Assessingtheeff --> vp1EPSEF\n    vp2REEFG[\"💡 RE → EF↓\nGI→MF↑（正向）\"]\n    style vp2REEFG fill:#fef3c7,stroke:#d97706\n    Assessingtheeff --> vp2REEFG\n    vp3首篇聯合分析EFM[\"💡 首篇聯合分析EF+MF驅動因子於G7\"]\n    style vp3首篇聯合分析EFM fill:#fef3c7,stroke:#d97706\n    Assessingtheeff --> vp3首篇聯合分析EFM\n    ARDLGDP==>|\"EF↑ MF↑\"|EFMF\n    EPS--x|\"EF↓\"|EF\n    RE--x|\"EF↓\nGI→MF↑\"|EFGIMF\n    首篇聯合分析EFMF==>|\"驅動\"|因子於G7"
     },
     {
-      "title": "The nexus between climate policy uncertainty and load capacity factor in China with the moderating role of financial development",
-      "authors": "Özbek, Şahin & Bayar",
-      "year": "2026",
-      "journal": "Discover Sustainability",
-      "doi": "10.1007/s43621-026-03409-0",
-      "date": "2026-06-16",
-      "tags": [
-        "A-ARDL",
-        "FMOLS",
-        "DOLS",
-        "LCF",
-        "CPU"
-      ],
-      "topics": [
-        "氣候風險/政策",
-        "碳市場/碳交易"
-      ],
-      "pdf": "uploads/CPU_LCF_China_Ozbek_2026.pdf",
-      "notes": [
-        "A-ARDL + FMOLS + DOLS 三種方法互補驗證",
-        "1990-2021, 中國",
-        "FD 和 CPU 各自降低環境品質，但交互項 FD×CPU 改善環境品質",
-        "FD 在不確定時期可透過三渠道維持綠色投資"
-      ],
-      "type": "upload",
-      "id": "upload-2026-06-16-6539",
-      "viewpoints": [
-        {
-          "claim": "FD 和 CPU 各自降低環境品質",
-          "evidence": "FD 和 CPU 各自對環境品質的影響：降低",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "但交互項 FD×CPU改善環境品質",
-          "evidence": "但交互項 FD×CPU對環境品質的影響：改善",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    Thenexusbetween[\"📄 The nexus between climate policy uncertainty and l\"]\n    style Thenexusbetween fill:#2563eb,color:#fff,font-weight:bold\n    vp0FD和CPU各[\"💡 FD 和 CPU 各自降低環境品質\"]\n    style vp0FD和CPU各 fill:#fef3c7,stroke:#d97706\n    Thenexusbetween --> vp0FD和CPU各\n    vp1但交互項FDCP[\"💡 但交互項 FD×CPU改善環境品質\"]\n    style vp1但交互項FDCP fill:#fef3c7,stroke:#d97706\n    Thenexusbetween --> vp1但交互項FDCP\n    FD和CPU各自--x|\"降低\"|環境品質\n    但交互項FDCPU==>|\"改善\"|環境品質1"
-    },
-    {
-      "title": "Sustainable energy transition toward a zero-carbon future in major Global South economies: Roles of green innovation, institutions, and geopolitical risk",
-      "authors": "Caglar, Naimoglu & Demirdag",
-      "year": "2026",
-      "journal": "Energy for Sustainable Development, 93, 102050",
-      "doi": "10.1016/j.esd.2026.102050",
-      "date": "2026-06-16",
-      "tags": [
-        "panel",
-        "SDG-7",
-        "GRI",
-        "GEO",
-        "Porter Hypothesis"
-      ],
-      "topics": [
-        "潔淨能源",
-        "氣候風險/政策",
-        "宏觀總體"
-      ],
-      "pdf": "uploads/Caglar_GlobalSouth_ENT_2026.pdf",
-      "notes": [
-        "Panel: Brazil, China, India, Indonesia, Thailand (2002-2023)",
-        "Porter Hypothesis(強版本)延伸—地緣穩定為創新驅動環境轉型之前提",
-        "GRI→ENT正向, RQ強化此過程, GEO抑制",
-        "SDG-7 進展取決於技術能力+制度韌性"
-      ],
-      "type": "upload",
-      "id": "upload-2026-06-16-5200",
-      "viewpoints": [
-        {
-          "claim": "GRI → ENT",
-          "evidence": "GRI對ENT的影響",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "hesis(強版本)延伸—地緣穩定為創新驅動環境轉型之前提",
-          "evidence": "hesis(強版本)延伸—地緣穩定為創新對環境轉型之前提的影響：驅動",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "→ENT正向, RQ強化此過程, GEO 抑制",
-          "evidence": "→ENT正向, RQ強化此過程, GEO抑制",
-          "confidence": "mid",
-          "source": "發現",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    Sustainableener[\"📄 Sustainable energy transition toward a zero-carbon\"]\n    style Sustainableener fill:#2563eb,color:#fff,font-weight:bold\n    vp0GRIENT[\"💡 GRI → ENT\"]\n    style vp0GRIENT fill:#fef3c7,stroke:#d97706\n    Sustainableener --> vp0GRIENT\n    vp1hesis強版本[\"💡 hesis(強版本)延伸—地緣穩定為創新驅動環境轉型之前提\"]\n    style vp1hesis強版本 fill:#fef3c7,stroke:#d97706\n    Sustainableener --> vp1hesis強版本\n    vp2ENT正向RQ[\"💡 →ENT正向, RQ強化此過程, GEO 抑制\"]\n    style vp2ENT正向RQ fill:#fef3c7,stroke:#d97706\n    Sustainableener --> vp2ENT正向RQ\n    GRI-->|\"ENT\"|ENT\n    Hypothesis強版本==>|\"驅動\"|環境轉型之前提"
-    },
-    {
-      "title": "The interplay of financial development, oil prices, and CO2 emissions in shaping renewable energy consumption in emerging nations: An evidence from panel quantile regression",
-      "authors": "Arsh, Liaqat, Batool & Khan",
-      "year": "2025",
-      "journal": "Vol. 3 No. 4 (2025)",
-      "doi": "",
-      "date": "2026-06-16",
-      "tags": [
-        "PQR",
-        "MMQR",
-        "FMOLS",
-        "quantile",
-        "REC"
-      ],
-      "topics": [
-        "潔淨能源",
-        "能源市場",
-        "金融市場"
-      ],
-      "pdf": "uploads/Arsh_FD_Oil_REC_Quantile_2025.pdf",
-      "notes": [
-        "22 emerging economies, 2005-2021",
-        "PQR(Powell 2016) + MMQR(Machado & Silva 2019) 雙重分位數",
-        "FD→REC+, Oil price 不對稱(低分位- 高分位+)",
-        "FDI→REC+, CO2→REC-(高分位)"
-      ],
-      "type": "upload",
-      "id": "upload-2026-06-16-298",
-      "viewpoints": [
-        {
-          "claim": "FD → REC+",
-          "evidence": "FD對REC+的影響",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "FDI → REC+",
-          "evidence": "FDI對REC+的影響",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "CO2 → REC-",
-          "evidence": "CO2對REC-的影響",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    Theinterplayoff[\"📄 The interplay of financial development, oil prices\"]\n    style Theinterplayoff fill:#2563eb,color:#fff,font-weight:bold\n    vp0FDREC[\"💡 FD → REC+\"]\n    style vp0FDREC fill:#fef3c7,stroke:#d97706\n    Theinterplayoff --> vp0FDREC\n    vp1FDIREC[\"💡 FDI → REC+\"]\n    style vp1FDIREC fill:#fef3c7,stroke:#d97706\n    Theinterplayoff --> vp1FDIREC\n    vp2CO2REC[\"💡 CO2 → REC-\"]\n    style vp2CO2REC fill:#fef3c7,stroke:#d97706\n    Theinterplayoff --> vp2CO2REC\n    FD-->|\"REC+\"|REC\n    FDI-->|\"REC+\"|REC1\n    CO2-->|\"REC-\"|REC2"
-    },
-    {
       "title": "Spillover across varying Regional and Economic Realities: Evaluating the Hedging potential of Demographic Traits",
       "authors": "(待確認作者名 — 稿件 Economies #4380754)",
       "year": "2026",
@@ -931,7 +1836,7 @@
         "Peer Review 版本，DOI 暫為 xxxxx"
       ],
       "type": "upload",
-      "id": "upload-2026-06-12-1764",
+      "id": "upload-2026-06-12-2473",
       "viewpoints": [
         {
           "claim": "COVID 期間溢散 顯著升高",
@@ -4458,7 +5363,7 @@
         "延伸應用於中國航空股波動（Transport Research 2024）"
       ],
       "type": "upload",
-      "id": "upload-2026-06-05-9889",
+      "id": "upload-2026-06-05-8398",
       "viewpoints": [
         {
           "claim": "jFEVD：所有變數同時衝擊對預測誤差的聯合貢獻",
@@ -4469,181 +5374,6 @@
         }
       ],
       "diagram": "graph TD\n    jQIRFjQFEVD聯合分[\"📄 jQIRF / jQFEVD — 聯合分量脈衝響應函數 & 聯合分量預測誤差變異數分解（方法論文）\"]\n    style jQIRFjQFEVD聯合分 fill:#2563eb,color:#fff,font-weight:bold\n    vp0jFEVD所有變數[\"💡 jFEVD：所有變數同時衝擊對預測誤差的聯合貢獻\"]\n    style vp0jFEVD所有變數 fill:#fef3c7,stroke:#d97706\n    jQIRFjQFEVD聯合分 --> vp0jFEVD所有變數"
-    },
-    {
-      "title": "Energy Consumption, Economic Growth, and CO₂ Emissions in GCC Countries: Panel Evidence and the EKC",
-      "authors": "Ben Salah, Arouri, Klibi & Smaoui",
-      "year": "2026",
-      "journal": "Sustainability (MDPI), 18, 5196",
-      "doi": "10.3390/su18105196",
-      "date": "2026-06-05",
-      "tags": [],
-      "topics": [
-        "碳市場/碳交易",
-        "能源市場",
-        "宏觀總體"
-      ],
-      "pdf": "uploads/GCC_Energy_CO2_EKC.pdf",
-      "notes": [
-        "使用 STIRPAT + 固定效果 panel 模型",
-        "EKC 假說在海灣六國成立",
-        "能源消費是 CO₂ 排放最大驅動因子",
-        "建議 GCC 國家加速再生能源轉型"
-      ],
-      "type": "upload",
-      "id": "upload-2026-06-05-8527",
-      "viewpoints": [
-        {
-          "claim": "能源消費是 CO₂ 排放最大驅動因子",
-          "evidence": "能源消費是 CO₂ 排放最大對因子的影響：驅動",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "建議 GCC 國家加速再生能源轉型",
-          "evidence": "建議 GCC 國家加速再生能源轉型",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    EnergyConsumpti[\"📄 Energy Consumption, Economic Growth, and CO₂ Emiss\"]\n    style EnergyConsumpti fill:#2563eb,color:#fff,font-weight:bold\n    vp0能源消費是CO[\"💡 能源消費是 CO₂ 排放最大驅動因子\"]\n    style vp0能源消費是CO fill:#fef3c7,stroke:#d97706\n    EnergyConsumpti --> vp0能源消費是CO\n    vp1建議GCC國家加[\"💡 建議 GCC 國家加速再生能源轉型\"]\n    style vp1建議GCC國家加 fill:#fef3c7,stroke:#d97706\n    EnergyConsumpti --> vp1建議GCC國家加\n    能源消費是CO排放最大==>|\"驅動\"|因子\n    vp0能源消費是CO --- vp1建議GCC國家加"
-    },
-    {
-      "title": "Toward Carbon Neutrality in Vietnam: Analyzing the Role of Renewable Energy Consumption and Economic Growth Using Wavelet Coherence and Quantile-on-Quantile Approaches",
-      "authors": "Thuy Bui Minh",
-      "year": "2026",
-      "journal": "International Journal of Energy Research (Wiley)",
-      "doi": "10.1155/er/5633215",
-      "date": "2026-06-05",
-      "tags": [
-        "QQGC"
-      ],
-      "topics": [
-        "潔淨能源",
-        "碳市場/碳交易"
-      ],
-      "pdf": "uploads/Vietnam_Carbon_Neutrality_QQR.pdf",
-      "notes": [
-        "方法：Wavelet Coherence + QQR（分量對分量迴歸）",
-        "年資料 1985-2023，越南案例",
-        "再生能源提升在中高分量下降低 CO₂",
-        "GDP 成長在不同分量下對 CO₂ 效果不一致"
-      ],
-      "type": "upload",
-      "id": "upload-2026-06-05-8369",
-      "viewpoints": [
-        {
-          "claim": "再生能源提升在中高分量下降低CO₂",
-          "evidence": "再生能源提升在中高分量下對CO₂的影響：降低",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "研究方法：Wavelet Coherence + QQR（分量對分量迴歸）",
-          "evidence": "Wavelet Coherence + QQR（分量對分量迴歸）",
-          "confidence": "mid",
-          "source": "方法",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    TowardCarbonNeu[\"📄 Toward Carbon Neutrality in Vietnam: Analyzing the\"]\n    style TowardCarbonNeu fill:#2563eb,color:#fff,font-weight:bold\n    vp0再生能源提升在中高分[\"💡 再生能源提升在中高分量下降低CO₂\"]\n    style vp0再生能源提升在中高分 fill:#fef3c7,stroke:#d97706\n    TowardCarbonNeu --> vp0再生能源提升在中高分\n    vp1研究方法Wavel[\"💡 研究方法：Wavelet Coherence + QQR（分量對分量迴歸）\"]\n    style vp1研究方法Wavel fill:#fef3c7,stroke:#d97706\n    TowardCarbonNeu --> vp1研究方法Wavel\n    再生能源提升在中高分量下--x|\"降低\"|CO\n    vp0再生能源提升在中高分 --- vp1研究方法Wavel"
-    },
-    {
-      "title": "Does China's CETS Enhance ESG Performance in Construction Enterprises?",
-      "authors": "Huang, Liu & Yu",
-      "year": "2026",
-      "journal": "Systems (MDPI), 14, 559",
-      "doi": "10.3390/systems14050559",
-      "date": "2026-06-05",
-      "tags": [],
-      "topics": [
-        "碳市場/碳交易",
-        "綠債/ESG"
-      ],
-      "pdf": "uploads/China_CETS_ESG_Construction.pdf",
-      "notes": [
-        "方法：PSM-DID（傾向得分匹配+雙重差分）",
-        "CETS 使營造企業 ESG 分數提高約 0.30 分",
-        "綠色技術創新中介效果 5.9%（部分中介）",
-        "政府補貼正向調節政策效果",
-        "異質性：僅國有企業與東部地區顯著"
-      ],
-      "type": "upload",
-      "id": "upload-2026-06-05-6638",
-      "viewpoints": [
-        {
-          "claim": "CETS 使營造企業 ESG 分數提高約 0.30 分",
-          "evidence": "CETS 使營造企業 ESG 分數對約 0.30 分的影響：提高",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "政府補貼正向調節政策效果",
-          "evidence": "政府補貼正向對政策效果的影響：調節",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "綠色技術創新中介效果 5.9%（部分中介）",
-          "evidence": "綠色技術創新中介效果 5.9%（部分中介）",
-          "confidence": "mid",
-          "source": "檢定結果",
-          "connections": []
-        },
-        {
-          "claim": "異質性：僅國有企業與東部地區顯著",
-          "evidence": "異質性：僅國有企業與東部地區顯著",
-          "confidence": "mid",
-          "source": "檢定結果",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    DoesChinasCETSE[\"📄 Does China's CETS Enhance ESG Performance in Const\"]\n    style DoesChinasCETSE fill:#2563eb,color:#fff,font-weight:bold\n    vp0CETS使營造企業[\"💡 CETS 使營造企業 ESG 分數提高約 0.30 分\"]\n    style vp0CETS使營造企業 fill:#fef3c7,stroke:#d97706\n    DoesChinasCETSE --> vp0CETS使營造企業\n    vp1政府補貼正向調節政策[\"💡 政府補貼正向調節政策效果\"]\n    style vp1政府補貼正向調節政策 fill:#fef3c7,stroke:#d97706\n    DoesChinasCETSE --> vp1政府補貼正向調節政策\n    vp2綠色技術創新中介效果[\"💡 綠色技術創新中介效果 5.9%（部分中介）\"]\n    style vp2綠色技術創新中介效果 fill:#fef3c7,stroke:#d97706\n    DoesChinasCETSE --> vp2綠色技術創新中介效果\n    vp3異質性僅國有企業與[\"💡 異質性：僅國有企業與東部地區顯著\"]\n    style vp3異質性僅國有企業與 fill:#fef3c7,stroke:#d97706\n    DoesChinasCETSE --> vp3異質性僅國有企業與\n    CETS使營造企業ESG==>|\"提高\"|約030分\n    政府補貼正向-->|\"調節\"|政策效果"
-    },
-    {
-      "title": "Climate Policy Uncertainty and Renewable Energy Consumption in China",
-      "authors": "Zheng, Wang, Moldovan, Mihit & Nicolescu",
-      "year": "2026",
-      "journal": "Sustainability (MDPI), 18, 5460",
-      "doi": "10.3390/su18115460",
-      "date": "2026-06-05",
-      "tags": [
-        "QARDL"
-      ],
-      "topics": [
-        "氣候風險/政策",
-        "潔淨能源"
-      ],
-      "pdf": "uploads/China_CPU_Renewable_Energy.pdf",
-      "notes": [
-        "CPU→REC 有 Granger 因果（雙向時變不對稱）",
-        "使用滾窗 Granger 因果檢定 + 雙向因果分析",
-        "控制 EPU（經濟政策不確定性）、原油價格"
-      ],
-      "type": "upload",
-      "id": "upload-2026-06-05-3683",
-      "viewpoints": [
-        {
-          "claim": "CPU → REC",
-          "evidence": "CPU對REC的影響",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "控制 EPU（經濟政策不確定性）、原油價格",
-          "evidence": "控制 EPU（經濟政策不確定性）、原油價格",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    ClimatePolicyUn[\"📄 Climate Policy Uncertainty and Renewable Energy Co\"]\n    style ClimatePolicyUn fill:#2563eb,color:#fff,font-weight:bold\n    vp0CPUREC[\"💡 CPU → REC\"]\n    style vp0CPUREC fill:#fef3c7,stroke:#d97706\n    ClimatePolicyUn --> vp0CPUREC\n    vp1控制EPU經濟政[\"💡 控制 EPU（經濟政策不確定性）、原油價格\"]\n    style vp1控制EPU經濟政 fill:#fef3c7,stroke:#d97706\n    ClimatePolicyUn --> vp1控制EPU經濟政\n    CPU-->|\"REC\"|REC\n    vp0CPUREC --- vp1控制EPU經濟政"
     },
     {
       "title": "Renewable Energy, Institutional Quality & EKC Dynamics in Developing Countries",
@@ -4665,7 +5395,7 @@
         "制度品質調節 EKC 形狀和轉折點"
       ],
       "type": "upload",
-      "id": "upload-2026-06-05-2091",
+      "id": "upload-2026-06-05-769",
       "viewpoints": [
         {
           "claim": "制度品質調節EKC 形狀和轉折點",
@@ -4706,7 +5436,7 @@
         "A-ARDL 共整合檢定 + Fourier KPSS 結構斷點單根檢定"
       ],
       "type": "upload",
-      "id": "upload-2026-06-05-1909",
+      "id": "upload-2026-06-05-7443",
       "viewpoints": [
         {
           "claim": "核心發現：金融發展×CPU 交互項係數顯著為正",
@@ -4717,6 +5447,181 @@
         }
       ],
       "diagram": "graph TD\n    ClimatePolicyUn[\"📄 Climate Policy Uncertainty and Load Capacity Facto\"]\n    style ClimatePolicyUn fill:#2563eb,color:#fff,font-weight:bold\n    vp0核心發現金融發展[\"💡 核心發現：金融發展×CPU 交互項係數顯著為正\"]\n    style vp0核心發現金融發展 fill:#fef3c7,stroke:#d97706\n    ClimatePolicyUn --> vp0核心發現金融發展"
+    },
+    {
+      "title": "Energy Consumption, Economic Growth, and CO₂ Emissions in GCC Countries: Panel Evidence and the EKC",
+      "authors": "Ben Salah, Arouri, Klibi & Smaoui",
+      "year": "2026",
+      "journal": "Sustainability (MDPI), 18, 5196",
+      "doi": "10.3390/su18105196",
+      "date": "2026-06-05",
+      "tags": [],
+      "topics": [
+        "碳市場/碳交易",
+        "能源市場",
+        "宏觀總體"
+      ],
+      "pdf": "uploads/GCC_Energy_CO2_EKC.pdf",
+      "notes": [
+        "使用 STIRPAT + 固定效果 panel 模型",
+        "EKC 假說在海灣六國成立",
+        "能源消費是 CO₂ 排放最大驅動因子",
+        "建議 GCC 國家加速再生能源轉型"
+      ],
+      "type": "upload",
+      "id": "upload-2026-06-05-6937",
+      "viewpoints": [
+        {
+          "claim": "能源消費是 CO₂ 排放最大驅動因子",
+          "evidence": "能源消費是 CO₂ 排放最大對因子的影響：驅動",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "建議 GCC 國家加速再生能源轉型",
+          "evidence": "建議 GCC 國家加速再生能源轉型",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    EnergyConsumpti[\"📄 Energy Consumption, Economic Growth, and CO₂ Emiss\"]\n    style EnergyConsumpti fill:#2563eb,color:#fff,font-weight:bold\n    vp0能源消費是CO[\"💡 能源消費是 CO₂ 排放最大驅動因子\"]\n    style vp0能源消費是CO fill:#fef3c7,stroke:#d97706\n    EnergyConsumpti --> vp0能源消費是CO\n    vp1建議GCC國家加[\"💡 建議 GCC 國家加速再生能源轉型\"]\n    style vp1建議GCC國家加 fill:#fef3c7,stroke:#d97706\n    EnergyConsumpti --> vp1建議GCC國家加\n    能源消費是CO排放最大==>|\"驅動\"|因子\n    vp0能源消費是CO --- vp1建議GCC國家加"
+    },
+    {
+      "title": "Toward Carbon Neutrality in Vietnam: Analyzing the Role of Renewable Energy Consumption and Economic Growth Using Wavelet Coherence and Quantile-on-Quantile Approaches",
+      "authors": "Thuy Bui Minh",
+      "year": "2026",
+      "journal": "International Journal of Energy Research (Wiley)",
+      "doi": "10.1155/er/5633215",
+      "date": "2026-06-05",
+      "tags": [
+        "QQGC"
+      ],
+      "topics": [
+        "潔淨能源",
+        "碳市場/碳交易"
+      ],
+      "pdf": "uploads/Vietnam_Carbon_Neutrality_QQR.pdf",
+      "notes": [
+        "方法：Wavelet Coherence + QQR（分量對分量迴歸）",
+        "年資料 1985-2023，越南案例",
+        "再生能源提升在中高分量下降低 CO₂",
+        "GDP 成長在不同分量下對 CO₂ 效果不一致"
+      ],
+      "type": "upload",
+      "id": "upload-2026-06-05-6929",
+      "viewpoints": [
+        {
+          "claim": "再生能源提升在中高分量下降低CO₂",
+          "evidence": "再生能源提升在中高分量下對CO₂的影響：降低",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "研究方法：Wavelet Coherence + QQR（分量對分量迴歸）",
+          "evidence": "Wavelet Coherence + QQR（分量對分量迴歸）",
+          "confidence": "mid",
+          "source": "方法",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    TowardCarbonNeu[\"📄 Toward Carbon Neutrality in Vietnam: Analyzing the\"]\n    style TowardCarbonNeu fill:#2563eb,color:#fff,font-weight:bold\n    vp0再生能源提升在中高分[\"💡 再生能源提升在中高分量下降低CO₂\"]\n    style vp0再生能源提升在中高分 fill:#fef3c7,stroke:#d97706\n    TowardCarbonNeu --> vp0再生能源提升在中高分\n    vp1研究方法Wavel[\"💡 研究方法：Wavelet Coherence + QQR（分量對分量迴歸）\"]\n    style vp1研究方法Wavel fill:#fef3c7,stroke:#d97706\n    TowardCarbonNeu --> vp1研究方法Wavel\n    再生能源提升在中高分量下--x|\"降低\"|CO\n    vp0再生能源提升在中高分 --- vp1研究方法Wavel"
+    },
+    {
+      "title": "Climate Policy Uncertainty and Renewable Energy Consumption in China",
+      "authors": "Zheng, Wang, Moldovan, Mihit & Nicolescu",
+      "year": "2026",
+      "journal": "Sustainability (MDPI), 18, 5460",
+      "doi": "10.3390/su18115460",
+      "date": "2026-06-05",
+      "tags": [
+        "QARDL"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "潔淨能源"
+      ],
+      "pdf": "uploads/China_CPU_Renewable_Energy.pdf",
+      "notes": [
+        "CPU→REC 有 Granger 因果（雙向時變不對稱）",
+        "使用滾窗 Granger 因果檢定 + 雙向因果分析",
+        "控制 EPU（經濟政策不確定性）、原油價格"
+      ],
+      "type": "upload",
+      "id": "upload-2026-06-05-4517",
+      "viewpoints": [
+        {
+          "claim": "CPU → REC",
+          "evidence": "CPU對REC的影響",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "控制 EPU（經濟政策不確定性）、原油價格",
+          "evidence": "控制 EPU（經濟政策不確定性）、原油價格",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    ClimatePolicyUn[\"📄 Climate Policy Uncertainty and Renewable Energy Co\"]\n    style ClimatePolicyUn fill:#2563eb,color:#fff,font-weight:bold\n    vp0CPUREC[\"💡 CPU → REC\"]\n    style vp0CPUREC fill:#fef3c7,stroke:#d97706\n    ClimatePolicyUn --> vp0CPUREC\n    vp1控制EPU經濟政[\"💡 控制 EPU（經濟政策不確定性）、原油價格\"]\n    style vp1控制EPU經濟政 fill:#fef3c7,stroke:#d97706\n    ClimatePolicyUn --> vp1控制EPU經濟政\n    CPU-->|\"REC\"|REC\n    vp0CPUREC --- vp1控制EPU經濟政"
+    },
+    {
+      "title": "Does China's CETS Enhance ESG Performance in Construction Enterprises?",
+      "authors": "Huang, Liu & Yu",
+      "year": "2026",
+      "journal": "Systems (MDPI), 14, 559",
+      "doi": "10.3390/systems14050559",
+      "date": "2026-06-05",
+      "tags": [],
+      "topics": [
+        "碳市場/碳交易",
+        "綠債/ESG"
+      ],
+      "pdf": "uploads/China_CETS_ESG_Construction.pdf",
+      "notes": [
+        "方法：PSM-DID（傾向得分匹配+雙重差分）",
+        "CETS 使營造企業 ESG 分數提高約 0.30 分",
+        "綠色技術創新中介效果 5.9%（部分中介）",
+        "政府補貼正向調節政策效果",
+        "異質性：僅國有企業與東部地區顯著"
+      ],
+      "type": "upload",
+      "id": "upload-2026-06-05-2412",
+      "viewpoints": [
+        {
+          "claim": "CETS 使營造企業 ESG 分數提高約 0.30 分",
+          "evidence": "CETS 使營造企業 ESG 分數對約 0.30 分的影響：提高",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "政府補貼正向調節政策效果",
+          "evidence": "政府補貼正向對政策效果的影響：調節",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "綠色技術創新中介效果 5.9%（部分中介）",
+          "evidence": "綠色技術創新中介效果 5.9%（部分中介）",
+          "confidence": "mid",
+          "source": "檢定結果",
+          "connections": []
+        },
+        {
+          "claim": "異質性：僅國有企業與東部地區顯著",
+          "evidence": "異質性：僅國有企業與東部地區顯著",
+          "confidence": "mid",
+          "source": "檢定結果",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    DoesChinasCETSE[\"📄 Does China's CETS Enhance ESG Performance in Const\"]\n    style DoesChinasCETSE fill:#2563eb,color:#fff,font-weight:bold\n    vp0CETS使營造企業[\"💡 CETS 使營造企業 ESG 分數提高約 0.30 分\"]\n    style vp0CETS使營造企業 fill:#fef3c7,stroke:#d97706\n    DoesChinasCETSE --> vp0CETS使營造企業\n    vp1政府補貼正向調節政策[\"💡 政府補貼正向調節政策效果\"]\n    style vp1政府補貼正向調節政策 fill:#fef3c7,stroke:#d97706\n    DoesChinasCETSE --> vp1政府補貼正向調節政策\n    vp2綠色技術創新中介效果[\"💡 綠色技術創新中介效果 5.9%（部分中介）\"]\n    style vp2綠色技術創新中介效果 fill:#fef3c7,stroke:#d97706\n    DoesChinasCETSE --> vp2綠色技術創新中介效果\n    vp3異質性僅國有企業與[\"💡 異質性：僅國有企業與東部地區顯著\"]\n    style vp3異質性僅國有企業與 fill:#fef3c7,stroke:#d97706\n    DoesChinasCETSE --> vp3異質性僅國有企業與\n    CETS使營造企業ESG==>|\"提高\"|約030分\n    政府補貼正向-->|\"調節\"|政策效果"
     }
   ]
 }
