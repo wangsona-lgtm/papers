@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light only">
+<title>🔍 論文全文搜尋 — 王美智</title>
+<link rel="stylesheet" href="../style.css">
+<style>
+.search-hero {
+  background: linear-gradient(135deg, #065f46 0%, #059669 100%);
+  color: #fff; padding: 48px 20px 36px; text-align: center;
+}
+.search-hero h1 { font-size: 28px; margin-bottom: 6px; }
+.search-hero .subtitle { font-size: 15px; opacity: .85; }
+.search-box-big {
+  max-width: 600px; margin: 20px auto 0; position: relative;
+}
+.search-box-big input {
+  width: 100%; padding: 14px 20px; border: none; border-radius: 12px;
+  font-size: 16px; background: rgba(255,255,255,.95);
+  box-shadow: 0 4px 12px rgba(0,0,0,.15);
+  transition: .2s;
+}
+.search-box-big input:focus { outline: none; box-shadow: 0 4px 20px rgba(0,0,0,.25); }
+.search-box-big .hint {
+  position: absolute; right: 16px; top: 50%; transform: translateY(-50%);
+  font-size: 13px; color: #999; pointer-events: none;
+}
+.search-options { display: flex; gap: 10px; justify-content: center; margin-top: 10px; }
+.search-options select, .search-options button {
+  padding: 6px 14px; border-radius: 8px; border: 1px solid rgba(255,255,255,.3);
+  background: rgba(255,255,255,.15); color: #fff; font-size: 13px; cursor: pointer;
+}
+.search-options option { color: #333; }
+
+/* 結果區 */
+#results { margin-top: 20px; }
+.result-count { font-size: 14px; color: var(--muted); margin-bottom: 12px; }
+.result-card {
+  background: var(--card-bg); border-radius: var(--radius); padding: 16px 20px;
+  border: 1px solid var(--border); margin-bottom: 10px; transition: .15s; cursor: pointer;
+}
+.result-card:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(37,99,235,.1); }
+.result-card h3 { font-size: 15px; font-weight: 600; margin-bottom: 3px; }
+.result-card .meta { font-size: 13px; color: var(--muted); margin-bottom: 3px; }
+.result-card .snippet { font-size: 13px; line-height: 1.6; color: #555; margin-top: 4px; }
+.result-card .snippet mark { background: #fef3c7; padding: 0 2px; border-radius: 2px; }
+.result-card .badge {
+  display: inline-block; padding: 2px 8px; border-radius: 10px;
+  font-size: 11px; font-weight: 600; margin-right: 4px;
+}
+.badge-arxiv { background: #e0e7ff; color: #4338ca; }
+.badge-upload { background: #d1fae5; color: #059669; }
+.badge-search { background: #f1f5f9; color: #64748b; }
+
+.loading { text-align: center; padding: 40px; color: var(--muted); }
+.error { text-align: center; padding: 20px; color: #dc2626; background: #fef2f2; border-radius: var(--radius); }
+.empty { text-align: center; padding: 40px; color: var(--muted); }
+.empty .big-icon { font-size: 48px; margin-bottom: 10px; }
+
+.modal-content { max-width: 750px; }
+#modalBody .note-item {
+  padding: 8px 12px; background: var(--bg); border-radius: 6px; margin-bottom: 6px;
+  font-size: 13px; line-height: 1.6;
+}
+#modalBody .note-item .note-label {
+  font-size: 11px; font-weight: 700; color: var(--accent);
+  text-transform: uppercase; letter-spacing: .5px;
+}
+</style>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="nav-inner">
+    <a href="../index.html" class="nav-brand">🏠 王美智</a>
+    <div class="nav-links">
+      <a href="../dashboard/">儀表板</a>
+      <a href="../stock-viewer/">技術分析</a>
+      <a href="../report.html">報告</a>
+      <a href="index.html">📚 論文庫</a>
+      <a href="search.html" class="active">🔍 搜尋</a>
+      <a href="../arxiv/">📖 arXiv</a>
+    </div>
+  </div>
+</nav>
+
+<div class="search-hero">
+  <h1>🔍 論文全文搜尋</h1>
+  <p class="subtitle">搜尋 110+ 篇論文的標題、摘要、筆記</p>
+  <div class="search-box-big">
+    <input type="text" id="q" placeholder="輸入關鍵字，例如 QVAR、P/C ratio、外資..." autocomplete="off">
+    <span class="hint">↵ Enter</span>
+  </div>
+  <div class="search-options">
+    <select id="source">
+      <option value="all">全部來源</option>
+      <option value="arxiv">📖 arXiv</option>
+      <option value="search">🔬 學術搜尋</option>
+      <option value="upload">📁 上傳</option>
+    </select>
+    <button onclick="doSearch()">🔍 搜尋</button>
+  </div>
+</div>
+
+<main class="container">
+  <div id="results">
+    <div class="empty">
+      <div class="big-icon">🔍</div>
+      <p>輸入關鍵字開始搜尋<br><span style="font-size:13px;color:var(--muted);">支援中文、英文、混合搜尋</span></p>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <p>王美智 · 論文全文搜尋 · 搜尋引擎：客戶端 FTS</p>
+</footer>
+
+<script>
+// 載入論文資料
+let papers = [];
+let topics = [];
+
+fetch('papers.json')
+  .then(r => r.json())
+  .then(d => {
+    papers = d.papers || [];
+    topics = d.topics || [];
+    // 建立搜尋索引
+    buildIndex();
+  })
+  .catch(e => {
+    document.getElementById('results').innerHTML = '<div class="error">❌ 無法載入論文資料：' + e.message + '</div>';
+  });
+
+// 簡單的全文搜尋（前端 FTS）
+let searchIndex = [];
+
+function buildIndex() {
+  searchIndex = papers.map(p => {
+    const text = [
+      p.title || '',
+      p.abstract || '',
+      (p.notes || []).join(' '),
+      p.authors || '',
+      (p.tags || []).join(' '),
+      p.journal || ''
+    ].join(' ').toLowerCase();
+    return { id: p.id, text };
+  });
+}
+
+function doSearch() {
+  const q = document.getElementById('q').value.trim();
+  const source = document.getElementById('source').value;
+  if (!q) return;
+
+  const resultsDiv = document.getElementById('results');
+  resultsDiv.innerHTML = '<div class="loading">⏳ 搜尋中…</div>';
+
+  // 客戶端搜尋
+  const terms = q.toLowerCase().split(/[\s,，、]+/).filter(t => t.length > 0);
+  
+  let filtered = papers;
+  if (source !== 'all') {
+    filtered = filtered.filter(p => p.type === source);
+  }
+
+  // 評分
+  const scored = filtered.map(p => {
+    const text = [
+      p.title || '',
+      p.abstract || '',
+      (p.notes || []).join(' '),
+      p.authors || '',
+      (p.tags || []).join(' '),
+      p.journal || ''
+    ].join(' ').toLowerCase();
+    
+    let score = 0;
+    for (const term of terms) {
+      if (text.includes(term)) {
+        score += 1;
+        // title match 加權
+        if ((p.title || '').toLowerCase().includes(term)) score += 3;
+        // 完全吻合再加權
+        if (text.includes(term + ' ')) score += 1;
+      }
+    }
+    // 年份加權（越新越高）
+    if (p.year) score += (parseInt(p.year) - 2020) * 0.1;
+    return { paper: p, score };
+  }).filter(s => s.score > 0)
+    .sort((a, b) => b.score - a.score);
+
+  if (scored.length === 0) {
+    resultsDiv.innerHTML = `<div class="empty">
+      <div class="big-icon">🔍</div>
+      <p>找不到與「${q}」相關的文獻</p>
+      <p style="font-size:13px;color:var(--muted);">試試其他關鍵字，或搜尋英文詞彙</p>
+    </div>`;
+    return;
+  }
+
+  let html = `<div class="result-count">找到 <strong>${scored.length}</strong> 篇與「${q}」相關的文獻</div>`;
+  
+  // 每頁顯示
+  const showPapers = scored.slice(0, 50);
+  
+  for (const { paper: p, score } of showPapers) {
+    const badgeClass = p.type === 'arxiv' ? 'badge-arxiv' : p.type === 'upload' ? 'badge-upload' : 'badge-search';
+    const badgeLabel = p.type === 'arxiv' ? '📖 arXiv' : p.type === 'upload' ? '📁 上傳' : '🔬 學術';
+    
+    // 產生 snippet（關鍵字前後文）
+    let snippet = '';
+    if (p.abstract) {
+      const idx = p.abstract.toLowerCase().indexOf(terms[0]);
+      if (idx >= 0) {
+        const start = Math.max(0, idx - 60);
+        const end = Math.min(p.abstract.length, idx + 140);
+        let s = p.abstract.substring(start, end);
+        if (start > 0) s = '…' + s;
+        if (end < p.abstract.length) s = s + '…';
+        // 高亮關鍵字
+        for (const t of terms) {
+          const re = new RegExp(t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi');
+          s = s.replace(re, '<mark>$&</mark>');
+        }
+        snippet = s;
+      }
+    }
+    
+    html += `<div class="result-card" onclick="showDetail('${p.id}')">
+      <div>
+        <span class="badge ${badgeClass}">${badgeLabel}</span>
+        <span style="font-size:12px;color:var(--muted);">${p.search_date || p.year || ''}</span>
+      </div>
+      <h3>${p.title}</h3>
+      <div class="meta">${p.authors || ''}</div>
+      ${snippet ? `<div class="snippet">${snippet}</div>` : ''}
+    </div>`;
+  }
+
+  if (scored.length > 50) {
+    html += `<p style="text-align:center;color:var(--muted);font-size:13px;">…還有 ${scored.length - 50} 篇，請輸入更精確的關鍵字</p>`;
+  }
+
+  resultsDiv.innerHTML = html;
+}
+
+// Enter 鍵搜尋
+document.getElementById('q').addEventListener('keydown', e => {
+  if (e.key === 'Enter') doSearch();
+});
+
+// Modal 顯示詳情
+function showDetail(id) {
+  const p = papers.find(x => x.id === id);
+  if (!p) return;
+  
+  const modal = document.getElementById('paperModal');
+  const body = document.getElementById('modalBody');
+  
+  let notesHtml = '';
+  if (p.notes && p.notes.length > 0) {
+    notesHtml = '<div class="section"><h4>📝 研究筆記</h4>';
+    for (const n of p.notes) {
+      if (typeof n === 'string') {
+        notesHtml += `<div class="note-item">${n}</div>`;
+      } else if (typeof n === 'object' && n.content) {
+        notesHtml += `<div class="note-item">
+          <div class="note-label">${n.type || '摘要重點'}</div>
+          ${n.content}
+          ${n.page_ref ? `<br><span style="font-size:12px;color:#999;">p. ${n.page_ref}</span>` : ''}
+        </div>`;
+      }
+    }
+    notesHtml += '</div>';
+  }
+  
+  body.innerHTML = `
+    <h2>${p.title}</h2>
+    <div class="meta-line"><strong>👤 作者：</strong>${p.authors || '—'}</div>
+    <div class="meta-line"><strong>📅 年份：</strong>${p.year || '—'}</div>
+    ${p.journal ? `<div class="meta-line"><strong>📰 期刊：</strong>${p.journal}</div>` : ''}
+    ${p.doi ? `<div class="meta-line"><strong>🔗 DOI：</strong><a href="${p.doi}" target="_blank">${p.doi}</a></div>` : ''}
+    ${p.openalex_url ? `<div class="meta-line"><strong>🌐 OpenAlex：</strong><a href="${p.openalex_url}" target="_blank">${p.openalex_url}</a></div>` : ''}
+    ${p.citations ? `<div class="meta-line"><strong>📊 引用數：</strong>${p.citations}</div>` : ''}
+    ${p.tags && p.tags.length ? `<div class="section"><h4>🏷️ 標籤</h4><div class="tags">${p.tags.map(t => `<span>${t}</span>`).join('')}</div></div>` : ''}
+    ${p.topics && p.topics.length ? `<div class="section"><h4>📂 主題</h4><div class="tags">${p.topics.map(t => `<span class="topic-tag">${t}</span>`).join('')}</div></div>` : ''}
+    ${p.abstract ? `<div class="section"><h4>📝 摘要</h4><p>${p.abstract}</p></div>` : ''}
+    ${notesHtml}
+  `;
+  
+  modal.classList.add('open');
+}
+
+function closeModal() {
+  document.getElementById('paperModal').classList.remove('open');
+}
+</script>
+
+<div id="paperModal" class="modal" onclick="if(event.target===this)closeModal()">
+  <div class="modal-content" onclick="event.stopPropagation()">
+    <button class="modal-close" onclick="closeModal()">✕</button>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+</body>
+</html>
