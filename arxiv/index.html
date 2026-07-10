@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light only">
+<title>arXiv q-fin 每日精選 — 王美智</title>
+<link rel="stylesheet" href="../style.css">
+<style>
+/* arXiv 專用樣式 */
+.arxiv-hero {
+  background: linear-gradient(135deg, #1a1a2e 0%, #4338ca 100%);
+  color: #fff; padding: 48px 20px 36px; text-align: center;
+}
+.arxiv-hero h1 { font-size: 28px; margin-bottom: 6px; }
+.arxiv-hero .subtitle { font-size: 15px; opacity: .85; margin-bottom: 12px; }
+.arxiv-hero .hero-stats { font-size: 14px; opacity: .9; }
+.arxiv-hero .hero-stats .sep { margin: 0 8px; opacity: .5; }
+
+/* 文章卡 */
+.arxiv-card {
+  background: var(--card-bg); border-radius: var(--radius); padding: 20px 24px;
+  border: 1px solid var(--border); margin-bottom: 16px; transition: .15s;
+}
+.arxiv-card:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(37,99,235,.1); }
+.arxiv-card .card-num {
+  display: inline-block; width: 28px; height: 28px; line-height: 28px;
+  text-align: center; border-radius: 50%; background: var(--accent); color: #fff;
+  font-size: 13px; font-weight: 700; margin-right: 8px;
+}
+.arxiv-card h3 { font-size: 16px; font-weight: 600; margin: 8px 0 4px; line-height: 1.4; }
+.arxiv-card .meta { font-size: 13px; color: var(--muted); margin-bottom: 4px; }
+.arxiv-card .meta a { color: var(--accent); text-decoration: none; }
+.arxiv-card .meta a:hover { text-decoration: underline; }
+.arxiv-card .tags { display: flex; flex-wrap: wrap; gap: 3px; margin: 6px 0; }
+.arxiv-card .tags span {
+  padding: 2px 8px; border-radius: 8px; font-size: 11px; font-weight: 500;
+  background: var(--tag-bg); color: var(--muted);
+}
+.arxiv-card .tags .arxiv-tag { background: #e0e7ff; color: #4338ca; }
+.arxiv-card .abstract {
+  font-size: 14px; line-height: 1.7; color: var(--text); margin: 8px 0;
+  padding: 12px; background: var(--bg); border-radius: 8px;
+}
+.arxiv-card .commentary {
+  font-size: 13px; line-height: 1.6; color: var(--muted);
+  border-left: 3px solid var(--accent); padding-left: 14px; margin-top: 8px;
+}
+.arxiv-card .commentary strong { color: var(--text); }
+
+.day-nav { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; }
+.day-nav a { color: var(--accent); text-decoration: none; font-size: 14px; }
+.day-nav a:hover { text-decoration: underline; }
+.day-nav .current { font-weight: 600; color: var(--text); }
+</style>
+</head>
+<body>
+
+<!-- 導覽列 -->
+<nav class="topnav">
+  <div class="nav-inner">
+    <a href="../index.html" class="nav-brand">🏠 王美智</a>
+    <div class="nav-links">
+      <a href="../dashboard/">儀表板</a>
+      <a href="../stock-viewer/">技術分析</a>
+      <a href="../report.html">報告</a>
+      <a href="../papers/">📚 論文庫</a>
+      <a href="index.html" class="active">📖 arXiv 精選</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<div class="arxiv-hero">
+  <h1>📖 arXiv q-fin 每日精選</h1>
+  <p class="subtitle">量化金融最新論文 · 中英摘要 · 研究評論</p>
+  <div class="hero-stats">
+    <span>資料來源：arXiv q-fin</span>
+    <span class="sep">·</span>
+    <span>自動整理每日 3 篇精選</span>
+  </div>
+</div>
+
+<main class="container">
+
+<div class="day-nav">
+  <span class="current">📅 2026-07-10（週五）</span>
+  <span class="sep">·</span>
+  <a href="2026-07-10.html">完整閱讀 →</a>
+</div>
+
+<!-- 精選 1 -->
+<div class="arxiv-card">
+  <div>
+    <span class="card-num">1</span>
+    <span class="tags" style="display:inline-flex;margin-left:4px;">
+      <span class="arxiv-tag">arXiv</span>
+      <span>2607.05011</span>
+    </span>
+  </div>
+  <h3>Reaction-boundary variance and adjoint-consistent local-volatility projection</h3>
+  <div class="meta">👤 Chris Angstmann, Tim Gebbie · 🏷️ q-fin.PR · q-fin.MF · q-fin.TR</div>
+  <div class="abstract">
+    推導一個潛在訂單簿反應邊界的操作時間變異數核，將日曆時間波動率模型中通常混在一起的三個對象——結構邊界累積量、時鐘投影與定價測度選擇——分離開來。反應邊界是買賣盤不平衡場的零點；對局部線性訂單簿而言，簽署訂單流擾動會通過阻尼 Abel 響應核移動這個零點，使得邊界增量的變異數成為有限尺度格林函數累積量，而非原始的擴散係數。
+  </div>
+  <div class="commentary">
+    <strong>💬 評論</strong> — 這篇在理論上相當重要：它給出了一個原則性的框架，把 microstructure noise 和 volatility dynamics 用物理語言連結起來。對做選擇權定價或波動率曲面建模的人來說，adjoint consistency 的觀點提供了一個現實約束——不是所有 time-change 都 admissible。實務上可以用來診斷 local vol model 的理論一致性，尤其在高頻環境下 calendar-time projection 的選擇會直接影響 Greeks。
+  </div>
+  <div class="meta" style="margin-top:8px;">
+    🔗 <a href="https://arxiv.org/abs/2607.05011" target="_blank">https://arxiv.org/abs/2607.05011</a>
+  </div>
+</div>
+
+<!-- 精選 2 -->
+<div class="arxiv-card">
+  <div>
+    <span class="card-num">2</span>
+    <span class="tags" style="display:inline-flex;margin-left:4px;">
+      <span class="arxiv-tag">arXiv</span>
+      <span>2607.08199</span>
+    </span>
+  </div>
+  <h3>Volatility in Prediction Markets: A Structural Approach</h3>
+  <div class="meta">👤 Weiye Xi, Ciamac C. Moallemi, Mallesh Pai, Shouqiao Wang · 🏷️ q-fin.TR</div>
+  <div class="abstract">
+    為二元預測市場量身訂製波動率模型，結合 Wright-Fisher 到期解析機制（描述剩餘二元不確定性如何被迫隨時間解析）與 Glosten-Milgrom 訂單流成分（捕捉知情交易透過 spread 和 volume 反映的波動）。使用 Kalshi 大量合約數據，證明結構變數的預測力遠勝純 ARCH/GARCH；搭配殘差 GARCH 可達到最佳預測效果。波動率在 odds 接近 50/50 時最高、接近到期時升高，經濟類合約呈平滑到期解析，運動類則有事件集中跳躍行為。
+  </div>
+  <div class="commentary">
+    <strong>💬 評論</strong> — 預測市場（Polymarket、Kalshi）在 2024-2026 爆發式成長，但相關的波動率建模工具嚴重落後。這篇填補了一個關鍵缺口——結構模型不僅 outperforms GARCH，還提供了可解釋的分解。對做事件驅動交易或 prediction market market-making 的人來說，可以直接套用到 Polymarket 的合約定價和避險上。
+  </div>
+  <div class="meta" style="margin-top:8px;">
+    🔗 <a href="https://arxiv.org/abs/2607.08199" target="_blank">https://arxiv.org/abs/2607.08199</a>
+  </div>
+</div>
+
+<!-- 精選 3 -->
+<div class="arxiv-card">
+  <div>
+    <span class="card-num">3</span>
+    <span class="tags" style="display:inline-flex;margin-left:4px;">
+      <span class="arxiv-tag">arXiv</span>
+      <span>2607.08291</span>
+    </span>
+  </div>
+  <h3>Robustness in Sequential Decision Making under Evolving Uncertainty: Evidence from High-Frequency Market Making</h3>
+  <div class="meta">👤 Ying Chen, Hoa Nguyen, Julian Sester, Hoang Hai Tran, Yijiong Zhang · 🏷️ q-fin.TR · q-fin.MF · q-fin.RM</div>
+  <div class="abstract">
+    研究高頻金融市場中動態不確定性下的序列決策，證明穩健性有兩個經濟維度：不確定容忍度（容許多少不確定性）與行動穩健性（決策多保守）。在變化的市場環境中，行動穩健性的影響遠大於不確定容忍度。過度穩健在流動性差的市場可能反而減少獲利，因為會限制執行機會。
+  </div>
+  <div class="commentary">
+    <strong>💬 評論</strong> — 這篇對高頻做市和 algorithmic execution 有直接的實踐意義。很多 HFT 策略用 robust optimization 時只關心 parameter uncertainty，但這篇指出 action robustness 才是瓶頸——尤其在高波動或低流動性環境，過度保守的執行邏輯可能讓 order 一直無法成交。對於做 crypto market making 或台股高頻策略的人，可以反思自己系統中的 robustness 參數是否真正對應到 market dynamics。
+  </div>
+  <div class="meta" style="margin-top:8px;">
+    🔗 <a href="https://arxiv.org/abs/2607.08291" target="_blank">https://arxiv.org/abs/2607.08291</a>
+  </div>
+</div>
+
+</main>
+
+<footer>
+  <p>王美智 · arXiv q-fin 每日精選 · 資料來源：arXiv.org · 自動整理於 2026-07-10</p>
+</footer>
+
+</body>
+</html>
