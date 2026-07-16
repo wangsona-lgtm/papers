@@ -1,92 +1,100 @@
-/* ===== papers/js/app.js — 論文文獻庫前端邏輯 ===== */
+/* ===== papers/js/app.js — 論文文獻庫前端邏輯 (ES5/ES6 相容) ===== */
 
-let allPapers = [];
-let allTopics = [];
-let filteredPapers = [];
-let currentTag = 'all';
-let currentTopic = 'all';
-let currentPage = 1;
-const PER_PAGE = 20;
+var allPapers = [];
+var allTopics = [];
+var filteredPapers = [];
+var currentTag = 'all';
+var currentTopic = 'all';
+var currentPage = 1;
+var PER_PAGE = 20;
 
-async function loadPapers() {
-  try {
-    document.getElementById('paperList').innerHTML = '<p style="text-align:center;color:var(--muted);padding:40px">⏳ 正在載入論文資料庫…</p>';
-    const res = await fetch('papers.json?_=' + Date.now());
-    if (!res.ok) throw new Error('HTTP ' + res.status);
-    const data = await res.json();
-    allPapers = data.papers || [];
-    allTopics = data.topics || [];
-    document.getElementById('stat-total').textContent = allPapers.length;
-    document.getElementById('stat-date').textContent = data.updated || '—';
-    document.getElementById('searchInput').placeholder = '🔍 即時搜尋 ' + allPapers.length + ' 篇論文 — 輸入標題、作者、關鍵字…';
-    buildTopicTabs();
-    applyFilters();
-  } catch (e) {
-    console.error('papers.json load error:', e);
-    document.getElementById('paperList').innerHTML = '<p style="text-align:center;color:#dc2626;padding:40px">❌ 論文資料載入失敗：' + e.message + '<br><small>請重整頁面再試（Ctrl+Shift+R）</small></p>';
-  }
+function loadPapers() {
+  document.getElementById('paperList').innerHTML = '<p style="text-align:center;color:var(--muted);padding:40px">⏳ 正在載入論文資料庫…</p>';
+  
+  fetch('papers.json?_=' + Date.now())
+    .then(function(res) {
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      return res.json();
+    })
+    .then(function(data) {
+      allPapers = data.papers || [];
+      allTopics = data.topics || [];
+      document.getElementById('stat-total').textContent = allPapers.length;
+      document.getElementById('stat-date').textContent = data.updated || '—';
+      var si = document.getElementById('searchInput');
+      if (si) si.placeholder = '🔍 即時搜尋 ' + allPapers.length + ' 篇論文 — 輸入標題、作者、關鍵字…';
+      buildTopicTabs();
+      applyFilters();
+    })
+    .catch(function(e) {
+      document.getElementById('paperList').innerHTML = '<p style="text-align:center;color:#dc2626;padding:40px">❌ 論文資料載入失敗：' + e.message + '<br><small>請重整頁面再試（Ctrl+Shift+R）</small></p>';
+    });
 }
 
 function buildTopicTabs() {
-  const container = document.getElementById('topicTags');
+  var container = document.getElementById('topicTags');
   container.innerHTML = '<button class="tag active" data-topic="all">🌐 全部</button>';
   
-  // Preferred order for topics
-  const preferred = [
+  var preferred = [
     "綠債/ESG", "潔淨能源", "碳市場/碳交易", "氣候風險/政策", "能源市場",
     "金融市場", "地緣政治/國防", "加密貨幣/數位金融", "原物料/商品",
     "宏觀總體", "AI/科技", "方法論", "其他"
   ];
   
-  const ordered = [];
-  for (const t of preferred) {
-    if (allTopics.includes(t)) ordered.push(t);
+  var ordered = [];
+  var i, t;
+  for (i = 0; i < preferred.length; i++) {
+    t = preferred[i];
+    if (allTopics.indexOf(t) !== -1) ordered.push(t);
   }
-  for (const t of allTopics) {
-    if (!ordered.includes(t)) ordered.push(t);
+  for (i = 0; i < allTopics.length; i++) {
+    t = allTopics[i];
+    if (ordered.indexOf(t) === -1) ordered.push(t);
   }
   
-  for (const topic of ordered) {
-    const btn = document.createElement('button');
+  var btn;
+  for (i = 0; i < ordered.length; i++) {
+    btn = document.createElement('button');
     btn.className = 'tag';
-    btn.dataset.topic = topic;
-    btn.textContent = topic;
+    btn.setAttribute('data-topic', ordered[i]);
+    btn.textContent = ordered[i];
     container.appendChild(btn);
   }
   
-  container.querySelectorAll('.tag').forEach(btn => {
-    btn.addEventListener('click', () => {
-      container.querySelectorAll('.tag').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      currentTopic = btn.dataset.topic;
-      currentPage = 1;
-      applyFilters();
-    });
-  });
+  var btns = container.querySelectorAll('.tag');
+  for (i = 0; i < btns.length; i++) {
+    (function(b) {
+      b.addEventListener('click', function() {
+        var all = container.querySelectorAll('.tag');
+        for (var j = 0; j < all.length; j++) all[j].classList.remove('active');
+        b.classList.add('active');
+        currentTopic = b.getAttribute('data-topic');
+        currentPage = 1;
+        applyFilters();
+      });
+    })(btns[i]);
+  }
 }
 
 function applyFilters() {
-  const q = document.getElementById('searchInput').value.toLowerCase().trim();
+  var q = document.getElementById('searchInput').value.toLowerCase().trim();
   
-  filteredPapers = allPapers.filter(p => {
-    // Method tag filter
+  filteredPapers = allPapers.filter(function(p) {
     if (currentTag !== 'all') {
       if (currentTag === 'upload') {
         if (p.type !== 'upload') return false;
       } else {
-        if (!p.tags || !p.tags.includes(currentTag)) return false;
+        if (!p.tags || p.tags.indexOf(currentTag) === -1) return false;
       }
     }
     
-    // Topic filter
     if (currentTopic !== 'all') {
-      if (!p.topics || !p.topics.includes(currentTopic)) return false;
+      if (!p.topics || p.topics.indexOf(currentTopic) === -1) return false;
     }
     
-    // Search text
     if (q) {
-      const text = (p.title + ' ' + p.authors + ' ' + p.journal + ' ' + (p.abstract||'') + ' ' + (p.tags||[]).join(' ') + ' ' + (p.topics||[]).join(' ')).toLowerCase();
-      if (!text.includes(q)) return false;
+      var text = (p.title + ' ' + p.authors + ' ' + p.journal + ' ' + (p.abstract||'') + ' ' + (p.tags||[]).join(' ') + ' ' + (p.topics||[]).join(' ')).toLowerCase();
+      if (text.indexOf(q) === -1) return false;
     }
     
     return true;
@@ -97,22 +105,21 @@ function applyFilters() {
 }
 
 function render() {
-  const total = filteredPapers.length;
-  const totalPages = Math.ceil(total / PER_PAGE);
-  const start = (currentPage - 1) * PER_PAGE;
-  const pagePapers = filteredPapers.slice(start, start + PER_PAGE);
+  var total = filteredPapers.length;
+  var totalPages = Math.ceil(total / PER_PAGE);
+  var start = (currentPage - 1) * PER_PAGE;
+  var pagePapers = filteredPapers.slice(start, start + PER_PAGE);
   
-  const list = document.getElementById('paperList');
+  var list = document.getElementById('paperList');
   
-  // 顯示搜尋結果摘要
-  const q = document.getElementById('searchInput').value.trim();
-  let summaryHtml = '';
+  var q = document.getElementById('searchInput').value.trim();
+  var summaryHtml = '';
   if (q && allPapers.length > 0) {
     summaryHtml = '<div class="search-summary">🔍 「' + escapeHtml(q) + '」— 找到 <strong>' + total + '</strong> 篇</div>';
   }
   
   if (pagePapers.length === 0) {
-    const msg = q 
+    var msg = q 
       ? '📭 找不到包含「' + escapeHtml(q) + '」的論文，請試試其他關鍵字'
       : '📭 沒有符合條件的論文';
     list.innerHTML = '<p style="text-align:center;color:var(--muted);padding:60px 20px">' + msg + '</p>';
@@ -120,43 +127,55 @@ function render() {
     return;
   }
   
-  list.innerHTML = summaryHtml + pagePapers.map(p => {
-    const tags = (p.tags||[]).slice(0, 3);
-    const topics = (p.topics||[]).slice(0, 2);
-    return `
-    <div class="paper-card" onclick="openModal('${escapeHtml(p.id)}')">
-      <div class="paper-meta">
-        <span class="paper-date">${p.search_date || p.date || ''}</span>
-        ${p.type === 'upload' ? '<span class="paper-badge upload">📁 上傳</span>' : ''}
-        ${p.arxiv_url ? '<span class="paper-badge arxiv">📄 arXiv</span>' : ''}
-        ${p.year ? `<span>(${p.year})</span>` : ''}
-        ${topics.map(t => `<span class="topic-badge">${t}</span>`).join('')}
-      </div>
-      <h3>${escapeHtml(p.title)}</h3>
-      ${p.authors ? `<div class="paper-authors">${escapeHtml(p.authors)}</div>` : ''}
-      ${p.journal ? `<div class="paper-journal">${escapeHtml(p.journal)}</div>` : ''}
-      <div class="paper-tags">
-        ${tags.map(t => `<span>${t}</span>`).join('')}
-        ${tags.length < (p.tags||[]).length ? `<span>+${(p.tags||[]).length - tags.length}</span>` : ''}
-      </div>
-    </div>`;
-  }).join('');
+  var cardsHtml = '';
+  for (var i = 0; i < pagePapers.length; i++) {
+    var p = pagePapers[i];
+    var tags = (p.tags||[]).slice(0, 3);
+    var topics = (p.topics||[]).slice(0, 2);
+    var topicsHtml = '';
+    for (var ti = 0; ti < topics.length; ti++) {
+      topicsHtml += '<span class="topic-badge">' + escapeHtml(topics[ti]) + '</span>';
+    }
+    var tagsHtml = '';
+    for (var tj = 0; tj < tags.length; tj++) {
+      tagsHtml += '<span>' + escapeHtml(tags[tj]) + '</span>';
+    }
+    if (tags.length < (p.tags||[]).length) {
+      tagsHtml += '<span>+' + ((p.tags||[]).length - tags.length) + '</span>';
+    }
+    
+    cardsHtml += '<div class="paper-card" onclick="openModal(\'' + escapeHtml(p.id).replace(/'/g, "\\'") + '\')">' +
+      '<div class="paper-meta">' +
+        '<span class="paper-date">' + (p.search_date || p.date || '') + '</span>' +
+        (p.type === 'upload' ? '<span class="paper-badge upload">📁 上傳</span>' : '') +
+        (p.arxiv_url ? '<span class="paper-badge arxiv">📄 arXiv</span>' : '') +
+        (p.year ? '<span>(' + p.year + ')</span>' : '') +
+        topicsHtml +
+      '</div>' +
+      '<h3>' + escapeHtml(p.title) + '</h3>' +
+      (p.authors ? '<div class="paper-authors">' + escapeHtml(p.authors) + '</div>' : '') +
+      (p.journal ? '<div class="paper-journal">' + escapeHtml(p.journal) + '</div>' : '') +
+      '<div class="paper-tags">' + tagsHtml + '</div>' +
+    '</div>';
+  }
   
-  // Pagination
+  list.innerHTML = summaryHtml + cardsHtml;
+  
   if (totalPages <= 1) {
     document.getElementById('pagination').innerHTML = '';
     return;
   }
   
-  let pgHtml = `<button ${currentPage <= 1 ? 'disabled' : ''} onclick="goPage(${currentPage - 1})">‹</button>`;
-  for (let i = 1; i <= totalPages; i++) {
-    if (i === 1 || i === totalPages || Math.abs(i - currentPage) <= 2) {
-      pgHtml += `<button class="${i === currentPage ? 'active' : ''}" onclick="goPage(${i})">${i}</button>`;
-    } else if (i === currentPage - 3 || i === currentPage + 3) {
-      pgHtml += `<button disabled>…</button>`;
+  var pgHtml = '';
+  pgHtml += '<button ' + (currentPage <= 1 ? 'disabled' : '') + ' onclick="goPage(' + (currentPage - 1) + ')">‹</button>';
+  for (var pi = 1; pi <= totalPages; pi++) {
+    if (pi === 1 || pi === totalPages || Math.abs(pi - currentPage) <= 2) {
+      pgHtml += '<button class="' + (pi === currentPage ? 'active' : '') + '" onclick="goPage(' + pi + ')">' + pi + '</button>';
+    } else if (pi === currentPage - 3 || pi === currentPage + 3) {
+      pgHtml += '<button disabled>…</button>';
     }
   }
-  pgHtml += `<button ${currentPage >= totalPages ? 'disabled' : ''} onclick="goPage(${currentPage + 1})">›</button>`;
+  pgHtml += '<button ' + (currentPage >= totalPages ? 'disabled' : '') + ' onclick="goPage(' + (currentPage + 1) + ')">›</button>';
   document.getElementById('pagination').innerHTML = pgHtml;
 }
 
@@ -167,96 +186,41 @@ function goPage(n) {
 }
 
 function openModal(id) {
-  const p = allPapers.find(x => x.id === id);
+  var p = null;
+  for (var i = 0; i < allPapers.length; i++) {
+    if (allPapers[i].id === id) { p = allPapers[i]; break; }
+  }
   if (!p) return;
   
-  const body = document.getElementById('modalBody');
-  body.innerHTML = `
-    <h2>${escapeHtml(p.title)}</h2>
-    ${p.authors ? `<div class="meta-line"><strong>作者</strong> ${escapeHtml(p.authors)}</div>` : ''}
-    ${p.journal ? `<div class="meta-line"><strong>期刊</strong> ${escapeHtml(p.journal)}</div>` : ''}
-    ${p.year ? `<div class="meta-line"><strong>年份</strong> ${p.year}</div>` : ''}
-    ${p.search_date ? `<div class="meta-line"><strong>搜尋日期</strong> ${p.search_date}</div>` : ''}
-    ${p.date ? `<div class="meta-line"><strong>上傳日期</strong> ${p.date}</div>` : ''}
-    ${p.citations ? `<div class="meta-line"><strong>被引次數</strong> ${p.citations}</div>` : ''}
-    <div class="tags">
-      ${(p.tags||[]).map(t => `<span>${t}</span>`).join('')}
-      ${(p.topics||[]).map(t => `<span class="topic-tag">${t}</span>`).join('')}
-    </div>
-    ${p.abstract ? `
-      <div class="section">
-        <h4>📄 摘要</h4>
-        <p>${escapeHtml(p.abstract)}</p>
-      </div>
-    ` : ''}
-    ${p.doi ? `
-      <div class="section">
-        <h4>🔗 連結</h4>
-        <p><a href="https://doi.org/${p.doi.replace('https://doi.org/','').replace(/^\//,'')}" target="_blank" rel="noopener">${p.doi}</a></p>
-      </div>
-    ` : ''}
-    ${p.openalex_url ? `
-      <p><a href="${p.openalex_url}" target="_blank" rel="noopener">📖 OpenAlex</a></p>
-    ` : ''}
-    ${p.pdf ? `
-      <div class="section">
-        <h4>📁 檔案</h4>
-        <p><a href="${p.pdf}" target="_blank">📄 下載 PDF</a></p>
-      </div>
-    ` : ''}
-    ${p.arxiv_url ? `
-      <div class="section">
-        <h4>🔗 arXiv</h4>
-        <p><a href="${p.arxiv_url}" target="_blank" rel="noopener">${p.arxiv_url}</a></p>
-      </div>
-    ` : ''}
-    ${p.notes && p.notes.length > 0 ? `
-      <div class="section">
-        <h4>📝 筆記</h4>
-        ${p.notes.map(n => `<p style="margin-top:4px">• ${escapeHtml(n)}</p>`).join('')}
-      </div>
-    ` : ''}
-    ${p.diagram ? `
-      <div class="diagram-section">
-        <h4>🕸️ 論述圖譜</h4>
-        <div class="mermaid">
-${p.diagram}
-        </div>
-        <button class="diagram-toggle" onclick="toggleDiagramCode(this)">📋 顯示原始碼</button>
-      </div>
-    ` : ''}
-    ${p.viewpoints && p.viewpoints.length > 0 ? `
-      <div class="section">
-        <h4>💡 觀點與論證（${p.viewpoints.length}）</h4>
-      </div>
-      <div class="viewpoints-section">
-        ${p.viewpoints.map((vp, i) => `
-          <div class="vp-card vp-confidence-${vp.confidence||'mid'}">
-            <div class="vp-card-header" onclick="toggleVP(this)">
-              <span class="vp-num">${i+1}</span>
-              <span class="vp-claim">${escapeHtml(vp.claim)}</span>
-              <span class="vp-expand">▾</span>
-            </div>
-            <div class="vp-card-body">
-              ${vp.evidence ? `<div class="vp-evidence-label">📊 證據</div><div class="vp-evidence">${escapeHtml(vp.evidence)}</div>` : ''}
-              ${vp.source ? `<div class="vp-evidence-label">📄 來源</div><div class="vp-evidence">${escapeHtml(vp.source)}</div>` : ''}
-              ${vp.connections && vp.connections.length > 0 ? `<div class="vp-connections">🔗 關聯觀點：${vp.connections.map(c => `<span>#${c}</span>`).join('')}</div>` : ''}
-            </div>
-          </div>
-        `).join('')}
-      </div>
-    ` : ''}
-    ${p.type === 'upload' ? `<div class="section"><p style="font-size:12px;color:var(--muted)">📁 使用者上傳文章</p></div>` : ''}
-  `;
+  var body = document.getElementById('modalBody');
+  var html = '';
+  html += '<h2>' + escapeHtml(p.title) + '</h2>';
+  if (p.authors) html += '<div class="meta-line"><strong>作者</strong> ' + escapeHtml(p.authors) + '</div>';
+  if (p.journal) html += '<div class="meta-line"><strong>期刊</strong> ' + escapeHtml(p.journal) + '</div>';
+  if (p.year) html += '<div class="meta-line"><strong>年份</strong> ' + p.year + '</div>';
+  if (p.search_date) html += '<div class="meta-line"><strong>搜尋日期</strong> ' + p.search_date + '</div>';
+  if (p.date) html += '<div class="meta-line"><strong>上傳日期</strong> ' + p.date + '</div>';
+  if (p.citations) html += '<div class="meta-line"><strong>被引次數</strong> ' + p.citations + '</div>';
   
+  html += '<div class="tags">';
+  for (var ti = 0; ti < (p.tags||[]).length; ti++) html += '<span>' + escapeHtml(p.tags[ti]) + '</span>';
+  for (var tj = 0; tj < (p.topics||[]).length; tj++) html += '<span class="topic-tag">' + escapeHtml(p.topics[tj]) + '</span>';
+  html += '</div>';
+  
+  if (p.abstract) html += '<div class="section"><h4>📄 摘要</h4><p>' + escapeHtml(p.abstract) + '</p></div>';
+  if (p.doi) html += '<div class="section"><h4>🔗 連結</h4><p><a href="https://doi.org/' + p.doi.replace('https://doi.org/','').replace(/^\//,'') + '" target="_blank" rel="noopener">' + escapeHtml(p.doi) + '</a></p></div>';
+  if (p.openalex_url) html += '<p><a href="' + escapeHtml(p.openalex_url) + '" target="_blank" rel="noopener">📖 OpenAlex</a></p>';
+  if (p.pdf) html += '<div class="section"><h4>📁 檔案</h4><p><a href="' + escapeHtml(p.pdf) + '" target="_blank">📄 下載 PDF</a></p></div>';
+  if (p.arxiv_url) html += '<div class="section"><h4>🔗 arXiv</h4><p><a href="' + escapeHtml(p.arxiv_url) + '" target="_blank" rel="noopener">' + escapeHtml(p.arxiv_url) + '</a></p></div>';
+  
+  if (p.notes && p.notes.length > 0) {
+    html += '<div class="section"><h4>📝 筆記</h4>';
+    for (var ni = 0; ni < p.notes.length; ni++) html += '<p style="margin-top:4px">• ' + escapeHtml(p.notes[ni]) + '</p>';
+    html += '</div>';
+  }
+  
+  body.innerHTML = html;
   document.getElementById('paperModal').classList.add('open');
-
-  // Re-render Mermaid diagrams
-  setTimeout(() => {
-    if (window.mermaid) {
-      try { mermaid.run({ nodes: [document.querySelector('.mermaid')].filter(Boolean) }); } catch(e) {}
-    }
-  }, 200);
 }
 
 function closeModal() {
@@ -266,80 +230,57 @@ function closeModal() {
 function escapeHtml(s) {
   if (!s) return '';
   s = String(s);
-  const d = document.createElement('div');
+  var d = document.createElement('div');
   d.textContent = s;
   return d.innerHTML;
 }
 
-// Viewpoint toggle
 function toggleVP(el) {
-  const body = el.nextElementSibling;
-  const expand = el.querySelector('.vp-expand');
-  body.classList.toggle('open');
-  expand.classList.toggle('open');
+  var body = el.nextElementSibling;
+  var expand = el.querySelector('.vp-expand');
+  if (body) body.classList.toggle('open');
+  if (expand) expand.classList.toggle('open');
 }
 
-// Diagram code toggle
-function toggleDiagramCode(el) {
-  const mermaid = el.previousElementSibling;
-  if (mermaid.style.background) {
-    mermaid.style.background = '';
-    mermaid.style.padding = '';
-    mermaid.style.fontFamily = '';
-    mermaid.style.fontSize = '';
-    mermaid.style.whiteSpace = '';
-    mermaid.style.borderRadius = '';
-    mermaid.textContent = mermaid.getAttribute('data-orig') || mermaid.textContent;
-    el.textContent = '📋 顯示原始碼';
-    // Re-render mermaid
-    if (window.mermaid) mermaid.run();
-  } else {
-    const code = mermaid.textContent.trim();
-    mermaid.setAttribute('data-orig', code);
-    mermaid.style.background = '#1e293b';
-    mermaid.style.padding = '12px 16px';
-    mermaid.style.fontFamily = 'monospace';
-    mermaid.style.fontSize = '12px';
-    mermaid.style.whiteSpace = 'pre-wrap';
-    mermaid.style.borderRadius = '6px';
-    mermaid.textContent = code;
-    el.textContent = '🔄 顯示圖譜';
-  }
-}
-
-// Event listeners
-document.addEventListener('DOMContentLoaded', () => {
+// ===== Event Listeners =====
+document.addEventListener('DOMContentLoaded', function() {
   loadPapers();
   
-  const si = document.getElementById('searchInput');
-  si.addEventListener('input', applyFilters);
-  // Enter 鍵支援：捲動到結果區
-  si.addEventListener('keydown', (e) => {
-    if (e.key === 'Enter') {
+  var si = document.getElementById('searchInput');
+  if (!si) return;
+  
+  // 即時篩選（打字就搜）
+  si.addEventListener('input', function() {
+    applyFilters();
+  });
+  
+  // Enter 鍵支援
+  si.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter' || e.keyCode === 13) {
       e.preventDefault();
       applyFilters();
-      document.getElementById('paperList').scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
-  });
-  // Slash 快捷鍵聚焦搜尋框
-  document.addEventListener('keydown', (e) => {
-    if (e.key === '/' && document.activeElement !== si && document.activeElement?.tagName !== 'INPUT') {
-      e.preventDefault();
-      si.focus();
+      var list = document.getElementById('paperList');
+      if (list) list.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
   });
   
-  document.querySelectorAll('.filter-tags .tag').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('.filter-tags .tag').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      currentTag = btn.dataset.tag;
-      currentPage = 1;
-      applyFilters();
-    });
-  });
+  // 方法標籤
+  var methodBtns = document.querySelectorAll('#methodTags .tag');
+  for (var i = 0; i < methodBtns.length; i++) {
+    (function(btn) {
+      btn.addEventListener('click', function() {
+        var all = document.querySelectorAll('#methodTags .tag');
+        for (var j = 0; j < all.length; j++) all[j].classList.remove('active');
+        btn.classList.add('active');
+        currentTag = btn.getAttribute('data-tag');
+        currentPage = 1;
+        applyFilters();
+      });
+    })(methodBtns[i]);
+  }
   
-  document.addEventListener('keydown', e => {
-    if (e.key === 'Escape') closeModal();
+  // Esc 關 modal
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' || e.keyCode === 27) closeModal();
   });
 });
