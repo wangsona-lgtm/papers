@@ -10,16 +10,20 @@ const PER_PAGE = 20;
 
 async function loadPapers() {
   try {
+    document.getElementById('paperList').innerHTML = '<p style="text-align:center;color:var(--muted);padding:40px">⏳ 正在載入論文資料庫…</p>';
     const res = await fetch('papers.json?_=' + Date.now());
+    if (!res.ok) throw new Error('HTTP ' + res.status);
     const data = await res.json();
     allPapers = data.papers || [];
     allTopics = data.topics || [];
     document.getElementById('stat-total').textContent = allPapers.length;
     document.getElementById('stat-date').textContent = data.updated || '—';
+    document.getElementById('searchInput').placeholder = '🔍 即時搜尋 ' + allPapers.length + ' 篇論文 — 輸入標題、作者、關鍵字…';
     buildTopicTabs();
     applyFilters();
   } catch (e) {
-    document.getElementById('paperList').innerHTML = '<p style="text-align:center;color:var(--muted);padding:40px">⚠️ 論文資料載入失敗</p>';
+    console.error('papers.json load error:', e);
+    document.getElementById('paperList').innerHTML = '<p style="text-align:center;color:#dc2626;padding:40px">❌ 論文資料載入失敗：' + e.message + '<br><small>請重整頁面再試（Ctrl+Shift+R）</small></p>';
   }
 }
 

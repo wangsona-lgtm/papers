@@ -5,68 +5,95 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="light only">
 <title>🔍 論文全文搜尋 — 王美智</title>
-<link rel="stylesheet" href="../style.css">
 <style>
-.search-hero {
-  background: linear-gradient(135deg, #065f46 0%, #059669 100%);
-  color: #fff; padding: 48px 20px 36px; text-align: center;
+/* ===== 基礎樣式（獨立，不依賴外部 CSS）===== */
+:root {
+  --bg: #f8f9fa;
+  --card-bg: #ffffff;
+  --text: #1a1a2e;
+  --muted: #6c757d;
+  --accent: #2563eb;
+  --accent-light: #dbeafe;
+  --border: #e2e8f0;
+  --tag-bg: #f1f5f9;
+  --shadow: 0 1px 3px rgba(0,0,0,.08);
+  --radius: 10px;
 }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans TC", sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+
+/* 導覽列 */
+.topnav { background: var(--card-bg); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; }
+.nav-inner { max-width: 1100px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; padding: 0 20px; height: 52px; flex-wrap: wrap; }
+.nav-brand { font-weight: 700; color: var(--accent); text-decoration: none; font-size: 15px; }
+.nav-links { display: flex; gap: 6px; flex-wrap: wrap; }
+.nav-links a { padding: 6px 14px; border-radius: 6px; font-size: 14px; color: var(--muted); text-decoration: none; transition: .15s; }
+.nav-links a:hover { background: var(--tag-bg); color: var(--text); }
+.nav-links a.active { background: var(--accent-light); color: var(--accent); font-weight: 600; }
+
+/* 搜尋區 */
+.search-hero { background: linear-gradient(135deg, #065f46 0%, #059669 100%); color: #fff; padding: 48px 20px 36px; text-align: center; }
 .search-hero h1 { font-size: 28px; margin-bottom: 6px; }
 .search-hero .subtitle { font-size: 15px; opacity: .85; }
-.search-box-big {
-  max-width: 600px; margin: 20px auto 0; position: relative;
-}
-.search-box-big input {
-  width: 100%; padding: 14px 20px; border: none; border-radius: 12px;
-  font-size: 16px; background: rgba(255,255,255,.95);
-  box-shadow: 0 4px 12px rgba(0,0,0,.15);
-  transition: .2s;
-}
+.search-box-big { max-width: 600px; margin: 20px auto 0; position: relative; }
+.search-box-big input { width: 100%; padding: 14px 20px; border: none; border-radius: 12px; font-size: 16px; background: rgba(255,255,255,.95); box-shadow: 0 4px 12px rgba(0,0,0,.15); transition: .2s; color: #333; }
 .search-box-big input:focus { outline: none; box-shadow: 0 4px 20px rgba(0,0,0,.25); }
-.search-box-big .hint {
-  position: absolute; right: 16px; top: 50%; transform: translateY(-50%);
-  font-size: 13px; color: #999; pointer-events: none;
-}
-.search-options { display: flex; gap: 10px; justify-content: center; margin-top: 10px; }
-.search-options select, .search-options button {
-  padding: 6px 14px; border-radius: 8px; border: 1px solid rgba(255,255,255,.3);
-  background: rgba(255,255,255,.15); color: #fff; font-size: 13px; cursor: pointer;
-}
+.search-box-big .hint { position: absolute; right: 16px; top: 50%; transform: translateY(-50%); font-size: 13px; color: #999; pointer-events: none; }
+.search-options { display: flex; gap: 10px; justify-content: center; margin-top: 10px; flex-wrap: wrap; }
+.search-options select, .search-options button { padding: 6px 14px; border-radius: 8px; border: 1px solid rgba(255,255,255,.3); background: rgba(255,255,255,.15); color: #fff; font-size: 13px; cursor: pointer; }
 .search-options option { color: #333; }
+.search-options button:hover { background: rgba(255,255,255,.25); }
+
+/* 容器 */
+.container { max-width: 860px; margin: 0 auto; padding: 20px; }
 
 /* 結果區 */
-#results { margin-top: 20px; }
-.result-count { font-size: 14px; color: var(--muted); margin-bottom: 12px; }
-.result-card {
-  background: var(--card-bg); border-radius: var(--radius); padding: 16px 20px;
-  border: 1px solid var(--border); margin-bottom: 10px; transition: .15s; cursor: pointer;
-}
+#results { margin-top: 0; }
+#status { text-align: center; padding: 20px; font-size: 14px; color: var(--muted); }
+.result-count { font-size: 14px; color: var(--muted); margin-bottom: 12px; padding: 8px 0; }
+.result-card { background: var(--card-bg); border-radius: var(--radius); padding: 16px 20px; border: 1px solid var(--border); margin-bottom: 10px; transition: .15s; cursor: pointer; }
 .result-card:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(37,99,235,.1); }
-.result-card h3 { font-size: 15px; font-weight: 600; margin-bottom: 3px; }
+.result-card h3 { font-size: 15px; font-weight: 600; margin-bottom: 3px; color: var(--text); }
 .result-card .meta { font-size: 13px; color: var(--muted); margin-bottom: 3px; }
 .result-card .snippet { font-size: 13px; line-height: 1.6; color: #555; margin-top: 4px; }
 .result-card .snippet mark { background: #fef3c7; padding: 0 2px; border-radius: 2px; }
-.result-card .badge {
-  display: inline-block; padding: 2px 8px; border-radius: 10px;
-  font-size: 11px; font-weight: 600; margin-right: 4px;
-}
+.result-card .badge { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 11px; font-weight: 600; margin-right: 4px; }
 .badge-arxiv { background: #e0e7ff; color: #4338ca; }
 .badge-upload { background: #d1fae5; color: #059669; }
 .badge-search { background: #f1f5f9; color: #64748b; }
 
 .loading { text-align: center; padding: 40px; color: var(--muted); }
-.error { text-align: center; padding: 20px; color: #dc2626; background: #fef2f2; border-radius: var(--radius); }
+.error { text-align: center; padding: 20px; color: #dc2626; background: #fef2f2; border-radius: var(--radius); margin-top: 10px; }
 .empty { text-align: center; padding: 40px; color: var(--muted); }
 .empty .big-icon { font-size: 48px; margin-bottom: 10px; }
 
-.modal-content { max-width: 750px; }
-#modalBody .note-item {
-  padding: 8px 12px; background: var(--bg); border-radius: 6px; margin-bottom: 6px;
-  font-size: 13px; line-height: 1.6;
-}
-#modalBody .note-item .note-label {
-  font-size: 11px; font-weight: 700; color: var(--accent);
-  text-transform: uppercase; letter-spacing: .5px;
+/* Modal */
+.modal { display: none; position: fixed; inset: 0; background: rgba(0,0,0,.5); z-index: 999; overflow-y: auto; padding: 20px; }
+.modal.open { display: flex; align-items: flex-start; justify-content: center; }
+.modal-content { background: #fff; border-radius: 12px; padding: 28px 32px; max-width: 750px; width: 100%; margin: 40px auto; box-shadow: 0 8px 32px rgba(0,0,0,.2); position: relative; }
+.modal-close { position: absolute; top: 12px; right: 16px; background: none; border: none; font-size: 22px; cursor: pointer; color: var(--muted); line-height: 1; }
+.modal-close:hover { color: var(--text); }
+#modalBody h2 { font-size: 20px; margin-bottom: 12px; color: var(--text); }
+#modalBody .meta-line { font-size: 13px; color: var(--muted); margin-bottom: 4px; }
+#modalBody .meta-line strong { color: var(--text); }
+#modalBody .section { margin-top: 16px; padding-top: 12px; border-top: 1px solid var(--border); }
+#modalBody .section h4 { font-size: 14px; margin-bottom: 6px; color: var(--accent); }
+#modalBody .section p { font-size: 14px; line-height: 1.7; }
+#modalBody .section a { color: var(--accent); }
+#modalBody .tags { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 4px; }
+#modalBody .tags span { padding: 3px 10px; border-radius: 10px; font-size: 12px; background: var(--tag-bg); color: var(--muted); }
+#modalBody .topic-tag { background: var(--accent-light) !important; color: var(--accent) !important; }
+#modalBody .note-item { padding: 8px 12px; background: var(--bg); border-radius: 6px; margin-bottom: 6px; font-size: 13px; line-height: 1.6; }
+#modalBody .note-item .note-label { font-size: 11px; font-weight: 700; color: var(--accent); text-transform: uppercase; letter-spacing: .5px; }
+
+/* Footer */
+footer { text-align: center; padding: 24px 20px; font-size: 12px; color: var(--muted); border-top: 1px solid var(--border); margin-top: 20px; }
+footer a { color: var(--accent); }
+
+@media (max-width: 600px) {
+  .search-hero h1 { font-size: 22px; }
+  .nav-links a { font-size: 12px; padding: 4px 10px; }
+  .modal-content { padding: 20px 16px; margin: 20px 0; }
 }
 </style>
 </head>
@@ -74,23 +101,20 @@
 
 <nav class="topnav">
   <div class="nav-inner">
-    <a href="../index.html" class="nav-brand">🏠 王美智</a>
+    <a href="index.html" class="nav-brand">🏠 王美智</a>
     <div class="nav-links">
-      <a href="../dashboard/">儀表板</a>
-      <a href="../stock-viewer/">技術分析</a>
-      <a href="../report.html">報告</a>
       <a href="index.html">📚 論文庫</a>
       <a href="search.html" class="active">🔍 搜尋</a>
-      <a href="../arxiv/">📖 arXiv</a>
+      <a href="arxiv/">📖 arXiv</a>
     </div>
   </div>
 </nav>
 
 <div class="search-hero">
   <h1>🔍 論文全文搜尋</h1>
-  <p class="subtitle">搜尋 110+ 篇論文的標題、摘要、筆記</p>
+  <p class="subtitle">搜尋 <span id="paperCount">—</span> 篇論文的標題、摘要、筆記</p>
   <div class="search-box-big">
-    <input type="text" id="q" placeholder="輸入關鍵字，例如 QVAR、P/C ratio、外資..." autocomplete="off">
+    <input type="text" id="q" placeholder="輸入關鍵字，例如 QVAR、green bond、外資..." autocomplete="off">
     <span class="hint">↵ Enter</span>
   </div>
   <div class="search-options">
@@ -105,6 +129,7 @@
 </div>
 
 <main class="container">
+  <div id="status">⏳ 正在載入論文資料庫…</div>
   <div id="results">
     <div class="empty">
       <div class="big-icon">🔍</div>
@@ -114,192 +139,8 @@
 </main>
 
 <footer>
-  <p>王美智 · 論文全文搜尋 · 搜尋引擎：客戶端 FTS</p>
+  <p>王美智 · 論文全文搜尋 · 客戶端全文檢索（FTS）</p>
 </footer>
-
-<script>
-// 載入論文資料
-let papers = [];
-let topics = [];
-
-fetch('papers.json')
-  .then(r => r.json())
-  .then(d => {
-    papers = d.papers || [];
-    topics = d.topics || [];
-    // 建立搜尋索引
-    buildIndex();
-  })
-  .catch(e => {
-    document.getElementById('results').innerHTML = '<div class="error">❌ 無法載入論文資料：' + e.message + '</div>';
-  });
-
-// 簡單的全文搜尋（前端 FTS）
-let searchIndex = [];
-
-function buildIndex() {
-  searchIndex = papers.map(p => {
-    const text = [
-      p.title || '',
-      p.abstract || '',
-      (p.notes || []).join(' '),
-      p.authors || '',
-      (p.tags || []).join(' '),
-      p.journal || ''
-    ].join(' ').toLowerCase();
-    return { id: p.id, text };
-  });
-}
-
-function doSearch() {
-  const q = document.getElementById('q').value.trim();
-  const source = document.getElementById('source').value;
-  if (!q) return;
-
-  const resultsDiv = document.getElementById('results');
-  resultsDiv.innerHTML = '<div class="loading">⏳ 搜尋中…</div>';
-
-  // 客戶端搜尋
-  const terms = q.toLowerCase().split(/[\s,，、]+/).filter(t => t.length > 0);
-  
-  let filtered = papers;
-  if (source !== 'all') {
-    filtered = filtered.filter(p => p.type === source);
-  }
-
-  // 評分
-  const scored = filtered.map(p => {
-    const text = [
-      p.title || '',
-      p.abstract || '',
-      (p.notes || []).join(' '),
-      p.authors || '',
-      (p.tags || []).join(' '),
-      p.journal || ''
-    ].join(' ').toLowerCase();
-    
-    let score = 0;
-    for (const term of terms) {
-      if (text.includes(term)) {
-        score += 1;
-        // title match 加權
-        if ((p.title || '').toLowerCase().includes(term)) score += 3;
-        // 完全吻合再加權
-        if (text.includes(term + ' ')) score += 1;
-      }
-    }
-    // 年份加權（越新越高）
-    if (p.year) score += (parseInt(p.year) - 2020) * 0.1;
-    return { paper: p, score };
-  }).filter(s => s.score > 0)
-    .sort((a, b) => b.score - a.score);
-
-  if (scored.length === 0) {
-    resultsDiv.innerHTML = `<div class="empty">
-      <div class="big-icon">🔍</div>
-      <p>找不到與「${q}」相關的文獻</p>
-      <p style="font-size:13px;color:var(--muted);">試試其他關鍵字，或搜尋英文詞彙</p>
-    </div>`;
-    return;
-  }
-
-  let html = `<div class="result-count">找到 <strong>${scored.length}</strong> 篇與「${q}」相關的文獻</div>`;
-  
-  // 每頁顯示
-  const showPapers = scored.slice(0, 50);
-  
-  for (const { paper: p, score } of showPapers) {
-    const badgeClass = p.type === 'arxiv' ? 'badge-arxiv' : p.type === 'upload' ? 'badge-upload' : 'badge-search';
-    const badgeLabel = p.type === 'arxiv' ? '📖 arXiv' : p.type === 'upload' ? '📁 上傳' : '🔬 學術';
-    
-    // 產生 snippet（關鍵字前後文）
-    let snippet = '';
-    if (p.abstract) {
-      const idx = p.abstract.toLowerCase().indexOf(terms[0]);
-      if (idx >= 0) {
-        const start = Math.max(0, idx - 60);
-        const end = Math.min(p.abstract.length, idx + 140);
-        let s = p.abstract.substring(start, end);
-        if (start > 0) s = '…' + s;
-        if (end < p.abstract.length) s = s + '…';
-        // 高亮關鍵字
-        for (const t of terms) {
-          const re = new RegExp(t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi');
-          s = s.replace(re, '<mark>$&</mark>');
-        }
-        snippet = s;
-      }
-    }
-    
-    html += `<div class="result-card" onclick="showDetail('${p.id}')">
-      <div>
-        <span class="badge ${badgeClass}">${badgeLabel}</span>
-        <span style="font-size:12px;color:var(--muted);">${p.search_date || p.year || ''}</span>
-      </div>
-      <h3>${p.title}</h3>
-      <div class="meta">${p.authors || ''}</div>
-      ${snippet ? `<div class="snippet">${snippet}</div>` : ''}
-    </div>`;
-  }
-
-  if (scored.length > 50) {
-    html += `<p style="text-align:center;color:var(--muted);font-size:13px;">…還有 ${scored.length - 50} 篇，請輸入更精確的關鍵字</p>`;
-  }
-
-  resultsDiv.innerHTML = html;
-}
-
-// Enter 鍵搜尋
-document.getElementById('q').addEventListener('keydown', e => {
-  if (e.key === 'Enter') doSearch();
-});
-
-// Modal 顯示詳情
-function showDetail(id) {
-  const p = papers.find(x => x.id === id);
-  if (!p) return;
-  
-  const modal = document.getElementById('paperModal');
-  const body = document.getElementById('modalBody');
-  
-  let notesHtml = '';
-  if (p.notes && p.notes.length > 0) {
-    notesHtml = '<div class="section"><h4>📝 研究筆記</h4>';
-    for (const n of p.notes) {
-      if (typeof n === 'string') {
-        notesHtml += `<div class="note-item">${n}</div>`;
-      } else if (typeof n === 'object' && n.content) {
-        notesHtml += `<div class="note-item">
-          <div class="note-label">${n.type || '摘要重點'}</div>
-          ${n.content}
-          ${n.page_ref ? `<br><span style="font-size:12px;color:#999;">p. ${n.page_ref}</span>` : ''}
-        </div>`;
-      }
-    }
-    notesHtml += '</div>';
-  }
-  
-  body.innerHTML = `
-    <h2>${p.title}</h2>
-    <div class="meta-line"><strong>👤 作者：</strong>${p.authors || '—'}</div>
-    <div class="meta-line"><strong>📅 年份：</strong>${p.year || '—'}</div>
-    ${p.journal ? `<div class="meta-line"><strong>📰 期刊：</strong>${p.journal}</div>` : ''}
-    ${p.doi ? `<div class="meta-line"><strong>🔗 DOI：</strong><a href="${p.doi}" target="_blank">${p.doi}</a></div>` : ''}
-    ${p.openalex_url ? `<div class="meta-line"><strong>🌐 OpenAlex：</strong><a href="${p.openalex_url}" target="_blank">${p.openalex_url}</a></div>` : ''}
-    ${p.citations ? `<div class="meta-line"><strong>📊 引用數：</strong>${p.citations}</div>` : ''}
-    ${p.tags && p.tags.length ? `<div class="section"><h4>🏷️ 標籤</h4><div class="tags">${p.tags.map(t => `<span>${t}</span>`).join('')}</div></div>` : ''}
-    ${p.topics && p.topics.length ? `<div class="section"><h4>📂 主題</h4><div class="tags">${p.topics.map(t => `<span class="topic-tag">${t}</span>`).join('')}</div></div>` : ''}
-    ${p.abstract ? `<div class="section"><h4>📝 摘要</h4><p>${p.abstract}</p></div>` : ''}
-    ${notesHtml}
-  `;
-  
-  modal.classList.add('open');
-}
-
-function closeModal() {
-  document.getElementById('paperModal').classList.remove('open');
-}
-</script>
 
 <div id="paperModal" class="modal" onclick="if(event.target===this)closeModal()">
   <div class="modal-content" onclick="event.stopPropagation()">
@@ -308,5 +149,229 @@ function closeModal() {
   </div>
 </div>
 
+<script>
+// ===== 狀態 =====
+let papers = [];
+let searchIndex = [];
+let DATA_LOADED = false;
+let DATA_ERROR = null;
+
+// ===== 載入資料 =====
+const statusEl = document.getElementById('status');
+const resultsEl = document.getElementById('results');
+
+function setStatus(msg, isError) {
+  statusEl.innerHTML = msg;
+  statusEl.style.color = isError ? '#dc2626' : 'var(--muted)';
+}
+
+fetch('papers.json?_=' + Date.now())
+  .then(function(r) {
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    return r.json();
+  })
+  .then(function(d) {
+    papers = d.papers || [];
+    document.getElementById('paperCount').textContent = papers.length;
+    setStatus('✅ 已載入 <strong>' + papers.length + '</strong> 篇論文，可以開始搜尋');
+    buildIndex();
+    DATA_LOADED = true;
+  })
+  .catch(function(e) {
+    DATA_ERROR = e.message;
+    setStatus('❌ 無法載入論文資料：' + e.message, true);
+    console.error('papers.json load error:', e);
+  });
+
+function buildIndex() {
+  searchIndex = papers.map(function(p) {
+    var text = [
+      p.title || '',
+      p.abstract || '',
+      (p.notes || []).join(' '),
+      p.authors || '',
+      (p.tags || []).join(' '),
+      p.journal || ''
+    ].join(' ').toLowerCase();
+    return { id: p.id, text: text };
+  });
+}
+
+// ===== 搜尋 =====
+function doSearch() {
+  var q = document.getElementById('q').value.trim();
+  var source = document.getElementById('source').value;
+
+  if (!DATA_LOADED) {
+    if (DATA_ERROR) {
+      resultsEl.innerHTML = '<div class="error">❌ 資料庫未載入：' + DATA_ERROR + '<br><small>請重整頁面再試</small></div>';
+    } else {
+      resultsEl.innerHTML = '<div class="loading">⏳ 資料庫仍在載入中，請稍候再搜尋…</div>';
+    }
+    return;
+  }
+
+  if (!q) {
+    resultsEl.innerHTML = '<div class="empty"><div class="big-icon">🔍</div><p>請輸入關鍵字開始搜尋</p></div>';
+    return;
+  }
+
+  resultsEl.innerHTML = '<div class="loading">⏳ 搜尋中…</div>';
+
+  // 稍延遲讓 loading 顯示
+  setTimeout(function() { runSearch(q, source); }, 50);
+}
+
+function runSearch(q, source) {
+  var terms = q.toLowerCase().split(/[\s,，、]+/).filter(function(t) { return t.length > 0; });
+  if (terms.length === 0) {
+    resultsEl.innerHTML = '<div class="empty"><div class="big-icon">🔍</div><p>請輸入有效的關鍵字</p></div>';
+    return;
+  }
+
+  // 篩選
+  var filtered = papers;
+  if (source !== 'all') {
+    filtered = filtered.filter(function(p) { return p.type === source; });
+  }
+
+  // 評分
+  var scored = [];
+  for (var i = 0; i < filtered.length; i++) {
+    var p = filtered[i];
+    var text = [
+      p.title || '',
+      p.abstract || '',
+      (p.notes || []).join(' '),
+      p.authors || '',
+      (p.tags || []).join(' '),
+      p.journal || ''
+    ].join(' ').toLowerCase();
+
+    var score = 0;
+    for (var j = 0; j < terms.length; j++) {
+      var term = terms[j];
+      if (text.indexOf(term) !== -1) {
+        score += 1;
+        if ((p.title || '').toLowerCase().indexOf(term) !== -1) score += 3;
+        if (text.indexOf(term + ' ') !== -1) score += 1;
+      }
+    }
+    // 年份加權
+    if (p.year) score += (parseInt(p.year) - 2020) * 0.1;
+    if (score > 0) scored.push({ paper: p, score: score });
+  }
+
+  scored.sort(function(a, b) { return b.score - a.score; });
+
+  if (scored.length === 0) {
+    resultsEl.innerHTML = '<div class="empty"><div class="big-icon">🔍</div><p>找不到與「<strong>' + escapeHtml(q) + '</strong>」相關的文獻</p><p style="font-size:13px;color:var(--muted);">試試其他關鍵字，或搜尋英文詞彙</p></div>';
+    return;
+  }
+
+  var html = '<div class="result-count">找到 <strong>' + scored.length + '</strong> 篇與「' + escapeHtml(q) + '」相關的文獻</div>';
+  var showPapers = scored.slice(0, 50);
+
+  for (var k = 0; k < showPapers.length; k++) {
+    var item = showPapers[k];
+    var p = item.paper;
+    var badgeClass = p.type === 'arxiv' ? 'badge-arxiv' : p.type === 'upload' ? 'badge-upload' : 'badge-search';
+    var badgeLabel = p.type === 'arxiv' ? '📖 arXiv' : p.type === 'upload' ? '📁 上傳' : '🔬 學術';
+
+    // snippet
+    var snippet = '';
+    if (p.abstract) {
+      var idx = p.abstract.toLowerCase().indexOf(terms[0]);
+      if (idx >= 0) {
+        var start = Math.max(0, idx - 60);
+        var end = Math.min(p.abstract.length, idx + 140);
+        var s = p.abstract.substring(start, end);
+        if (start > 0) s = '…' + s;
+        if (end < p.abstract.length) s = s + '…';
+        for (var ti = 0; ti < terms.length; ti++) {
+          var re = new RegExp(terms[ti].replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi');
+          s = s.replace(re, '<mark>$&</mark>');
+        }
+        snippet = s;
+      }
+    }
+
+    var paperId = String(p.id).replace(/'/g, "\\'");
+    html += '<div class="result-card" onclick="showDetail(\'' + paperId + '\')">' +
+      '<div>' +
+        '<span class="badge ' + badgeClass + '">' + badgeLabel + '</span>' +
+        '<span style="font-size:12px;color:var(--muted);">' + (p.search_date || p.year || '') + '</span>' +
+      '</div>' +
+      '<h3>' + escapeHtml(p.title) + '</h3>' +
+      '<div class="meta">' + escapeHtml(p.authors || '') + '</div>' +
+      (snippet ? '<div class="snippet">' + snippet + '</div>' : '') +
+    '</div>';
+  }
+
+  if (scored.length > 50) {
+    html += '<p style="text-align:center;color:var(--muted);font-size:13px;">…還有 ' + (scored.length - 50) + ' 篇，請輸入更精確的關鍵字</p>';
+  }
+
+  resultsEl.innerHTML = html;
+}
+
+// Enter 觸發搜尋
+document.getElementById('q').addEventListener('keydown', function(e) {
+  if (e.key === 'Enter') doSearch();
+});
+
+// ===== Modal =====
+function showDetail(id) {
+  var p = null;
+  for (var i = 0; i < papers.length; i++) {
+    if (papers[i].id === id) { p = papers[i]; break; }
+  }
+  if (!p) return;
+
+  var modal = document.getElementById('paperModal');
+  var body = document.getElementById('modalBody');
+
+  var notesHtml = '';
+  if (p.notes && p.notes.length > 0) {
+    notesHtml = '<div class="section"><h4>📝 研究筆記</h4>';
+    for (var ni = 0; ni < p.notes.length; ni++) {
+      var n = p.notes[ni];
+      if (typeof n === 'string') {
+        notesHtml += '<div class="note-item">' + escapeHtml(n) + '</div>';
+      } else if (typeof n === 'object' && n.content) {
+        notesHtml += '<div class="note-item"><div class="note-label">' + escapeHtml(n.type || '摘要重點') + '</div>' + escapeHtml(n.content) + (n.page_ref ? '<br><span style="font-size:12px;color:#999;">p. ' + escapeHtml(n.page_ref) + '</span>' : '') + '</div>';
+      }
+    }
+    notesHtml += '</div>';
+  }
+
+  body.innerHTML =
+    '<h2>' + escapeHtml(p.title) + '</h2>' +
+    (p.authors ? '<div class="meta-line"><strong>👤 作者：</strong>' + escapeHtml(p.authors) + '</div>' : '') +
+    (p.year ? '<div class="meta-line"><strong>📅 年份：</strong>' + escapeHtml(p.year) + '</div>' : '') +
+    (p.journal ? '<div class="meta-line"><strong>📰 期刊：</strong>' + escapeHtml(p.journal) + '</div>' : '') +
+    (p.doi ? '<div class="meta-line"><strong>🔗 DOI：</strong><a href="' + escapeHtml(p.doi) + '" target="_blank" rel="noopener">' + escapeHtml(p.doi) + '</a></div>' : '') +
+    (p.openalex_url ? '<div class="meta-line"><strong>🌐 OpenAlex：</strong><a href="' + escapeHtml(p.openalex_url) + '" target="_blank" rel="noopener">' + escapeHtml(p.openalex_url) + '</a></div>' : '') +
+    (p.citations ? '<div class="meta-line"><strong>📊 引用數：</strong>' + escapeHtml(String(p.citations)) + '</div>' : '') +
+    (p.tags && p.tags.length ? '<div class="section"><h4>🏷️ 標籤</h4><div class="tags">' + p.tags.map(function(t) { return '<span>' + escapeHtml(t) + '</span>'; }).join('') + '</div></div>' : '') +
+    (p.topics && p.topics.length ? '<div class="section"><h4>📂 主題</h4><div class="tags">' + p.topics.map(function(t) { return '<span class="topic-tag">' + escapeHtml(t) + '</span>'; }).join('') + '</div></div>' : '') +
+    (p.abstract ? '<div class="section"><h4>📝 摘要</h4><p>' + escapeHtml(p.abstract) + '</p></div>' : '') +
+    notesHtml;
+
+  modal.classList.add('open');
+}
+
+function closeModal() {
+  document.getElementById('paperModal').classList.remove('open');
+}
+
+function escapeHtml(s) {
+  if (!s) return '';
+  s = String(s);
+  var d = document.createElement('div');
+  d.textContent = s;
+  return d.innerHTML;
+}
+</script>
 </body>
 </html>
