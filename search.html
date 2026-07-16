@@ -229,6 +229,9 @@ function runSearch(q, source) {
     return;
   }
 
+  var isChinese = /[\u4e00-\u9fff]/.test(q);
+  var qChars = isChinese ? q.replace(/\s/g, '').split('') : null;
+
   // 篩選
   var filtered = papers;
   if (source !== 'all') {
@@ -248,16 +251,32 @@ function runSearch(q, source) {
       p.journal || ''
     ].join(' ').toLowerCase();
 
+    var matches = false;
+    if (isChinese) {
+      // 逐字依序匹配
+      var ti = 0;
+      for (var ci = 0; ci < text.length && ti < qChars.length; ci++) {
+        if (text[ci] === qChars[ti]) ti++;
+      }
+      matches = (ti === qChars.length);
+    } else {
+      matches = true;
+      for (var j = 0; j < terms.length; j++) {
+        if (text.indexOf(terms[j]) === -1) { matches = false; break; }
+      }
+    }
+
+    if (!matches) continue;
+
     var score = 0;
-    for (var j = 0; j < terms.length; j++) {
-      var term = terms[j];
+    for (var k = 0; k < terms.length; k++) {
+      var term = terms[k];
       if (text.indexOf(term) !== -1) {
         score += 1;
         if ((p.title || '').toLowerCase().indexOf(term) !== -1) score += 3;
         if (text.indexOf(term + ' ') !== -1) score += 1;
       }
     }
-    // 年份加權
     if (p.year) score += (parseInt(p.year) - 2020) * 0.1;
     if (score > 0) scored.push({ paper: p, score: score });
   }

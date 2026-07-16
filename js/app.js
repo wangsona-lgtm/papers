@@ -78,6 +78,8 @@ function buildTopicTabs() {
 
 function applyFilters() {
   var q = document.getElementById('searchInput').value.toLowerCase().trim();
+  var terms = q ? q.split(/[\s,，、]+/).filter(function(t) { return t.length > 0; }) : [];
+  var isChinese = /[\u4e00-\u9fff]/.test(q);
   
   filteredPapers = allPapers.filter(function(p) {
     if (currentTag !== 'all') {
@@ -94,7 +96,21 @@ function applyFilters() {
     
     if (q) {
       var text = (p.title + ' ' + p.authors + ' ' + p.journal + ' ' + (p.abstract||'') + ' ' + (p.tags||[]).join(' ') + ' ' + (p.topics||[]).join(' ')).toLowerCase();
-      if (text.indexOf(q) === -1) return false;
+      
+      // 中文搜尋：用「逐字依序匹配」支援縮寫（如「綠債」可匹配「綠色債券」）
+      if (isChinese) {
+        var chars = q.replace(/\s/g, '').split('');
+        var ti = 0;
+        for (var i = 0; i < text.length && ti < chars.length; i++) {
+          if (text[i] === chars[ti]) ti++;
+        }
+        if (ti < chars.length) return false;
+      } else {
+        // 英文：每個詞都要出現在文字中
+        for (var t = 0; t < terms.length; t++) {
+          if (text.indexOf(terms[t]) === -1) return false;
+        }
+      }
     }
     
     return true;
