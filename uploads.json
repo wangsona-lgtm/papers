@@ -372,5 +372,27 @@
       "13 章教學：Agent Loop、工具系統、System Prompt、CLI、記憶、技能、多 Agent、MCP 等",
       "原教程以 CC BY-NC-SA 4.0 發布"
     ]
+  },
+  {
+    "title": "深入理解 AI Agent：設計原理與工程實踐 — 精選講義",
+    "authors": "李博傑 (原著) / 王美智 (講義整理)",
+    "year": "2026",
+    "journal": "GitHub: bojieli/ai-agent-book",
+    "doi": "",
+    "date": "2026-07-16",
+    "tags": [
+      "其他"
+    ],
+    "topics": [
+      "AI/科技",
+      "教學資源"
+    ],
+    "pdf": "uploads/AI-Agent-Lecture.html",
+    "notes": [
+      "全書 10 章濃縮為 10 講講義",
+      "核心公式：Agent = LLM + 上下文 + 工具",
+      "涵蓋：ReAct 循環、上下文工程、MCP 協議、Coding Agent、自我進化、多 Agent 協作",
+      "HTML 自適應深色主題，手機/桌面皆可閱讀"
+    ]
   }
 ]

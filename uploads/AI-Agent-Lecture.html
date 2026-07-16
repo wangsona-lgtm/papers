@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>深入理解 AI Agent — 講義</title>
+<style>
+  :root {
+    --bg: #0f172a;
+    --surface: #1e293b;
+    --surface2: #334155;
+    --accent: #38bdf8;
+    --accent2: #818cf8;
+    --text: #f1f5f9;
+    --text2: #94a3b8;
+    --green: #4ade80;
+    --orange: #fb923c;
+    --pink: #f472b6;
+    --border: #334155;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans TC', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    padding: 0;
+  }
+  /* Cover */
+  .cover {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #0f172a 100%);
+    position: relative;
+    overflow: hidden;
+  }
+  .cover::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle at 30% 50%, rgba(56,189,248,0.08) 0%, transparent 50%),
+                radial-gradient(circle at 70% 50%, rgba(129,140,248,0.08) 0%, transparent 50%);
+    animation: pulse 8s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { transform: scale(1); opacity: 0.5; }
+    50% { transform: scale(1.1); opacity: 1; }
+  }
+  .cover h1 {
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
+    font-weight: 800;
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    position: relative;
+    margin-bottom: 0.5rem;
+  }
+  .cover .subtitle {
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    color: var(--text2);
+    margin-bottom: 2rem;
+    position: relative;
+  }
+  .cover .formula {
+    font-size: clamp(1.8rem, 4vw, 3rem);
+    font-weight: 700;
+    color: var(--accent);
+    padding: 1rem 2rem;
+    border: 2px solid var(--accent);
+    border-radius: 1rem;
+    display: inline-block;
+    margin: 1rem 0;
+    position: relative;
+    background: rgba(56,189,248,0.05);
+  }
+  .cover .meta {
+    color: var(--text2);
+    font-size: 0.9rem;
+    margin-top: 3rem;
+    position: relative;
+  }
+  .cover .scroll-hint {
+    position: absolute;
+    bottom: 2rem;
+    color: var(--text2);
+    font-size: 0.8rem;
+    animation: bounce 2s infinite;
+  }
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(8px); }
+  }
+  /* Content */
+  .container { max-width: 960px; margin: 0 auto; padding: 2rem 1.5rem; }
+  section { margin: 4rem 0; }
+  h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--accent);
+    border-left: 4px solid var(--accent);
+    padding-left: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--accent2);
+    margin: 1.5rem 0 0.8rem;
+  }
+  h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text);
+    margin: 1rem 0 0.5rem;
+  }
+  p { margin-bottom: 1rem; color: var(--text2); }
+  strong { color: var(--text); }
+  /* Cards */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    margin: 1rem 0;
+  }
+  .card h4 { margin-top: 0; }
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+  /* Formula box */
+  .formula-box {
+    background: linear-gradient(135deg, rgba(56,189,248,0.08), rgba(129,140,248,0.08));
+    border: 1px solid var(--accent);
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--accent);
+    margin: 1.5rem 0;
+  }
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 0.9rem;
+  }
+  th, td {
+    border: 1px solid var(--border);
+    padding: 0.6rem 0.8rem;
+    text-align: left;
+  }
+  th {
+    background: var(--surface2);
+    color: var(--accent);
+    font-weight: 600;
+  }
+  td { color: var(--text2); }
+  tr:hover td { background: rgba(56,189,248,0.03); }
+  /* Code */
+  pre {
+    background: #0c1222;
+    border: 1px solid var(--border);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    overflow-x: auto;
+    font-size: 0.85rem;
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    color: var(--text);
+    margin: 1rem 0;
+  }
+  code {
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    font-size: 0.85em;
+    background: var(--surface);
+    padding: 0.15em 0.4em;
+    border-radius: 0.3em;
+  }
+  pre code { background: none; padding: 0; }
+  /* Tags */
+  .tag {
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    border-radius: 0.3rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin: 0.2rem;
+  }
+  .tag-blue { background: rgba(56,189,248,0.15); color: var(--accent); }
+  .tag-purple { background: rgba(129,140,248,0.15); color: var(--accent2); }
+  .tag-green { background: rgba(74,222,128,0.15); color: var(--green); }
+  .tag-orange { background: rgba(251,146,60,0.15); color: var(--orange); }
+  .tag-pink { background: rgba(244,114,182,0.15); color: var(--pink); }
+  /* Timeline */
+  .timeline {
+    position: relative;
+    padding-left: 2rem;
+    margin: 1.5rem 0;
+  }
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 0.5rem;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: var(--border);
+  }
+  .timeline-item {
+    position: relative;
+    margin-bottom: 1.5rem;
+  }
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -1.65rem;
+    top: 0.5rem;
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+  .timeline-item h4 { margin-bottom: 0.3rem; }
+  .timeline-item p { margin-bottom: 0.3rem; }
+  /* Highlight */
+  .highlight {
+    background: linear-gradient(135deg, rgba(56,189,248,0.1), rgba(129,140,248,0.1));
+    border-left: 3px solid var(--accent);
+    padding: 1rem 1.2rem;
+    border-radius: 0 0.5rem 0.5rem 0;
+    margin: 1.5rem 0;
+  }
+  .highlight.green { border-left-color: var(--green); }
+  .highlight.orange { border-left-color: var(--orange); }
+  /* Architecture diagram */
+  .arch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    margin: 2rem 0;
+  }
+  .arch-row {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .arch-box {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 0.5rem;
+    padding: 0.8rem 1.2rem;
+    text-align: center;
+    min-width: 100px;
+  }
+  .arch-box.accent { border-color: var(--accent); background: rgba(56,189,248,0.08); }
+  .arch-box.purple { border-color: var(--accent2); background: rgba(129,140,248,0.08); }
+  .arch-box.green { border-color: var(--green); background: rgba(74,222,128,0.08); }
+  .arch-arrow { color: var(--text2); font-size: 1.5rem; }
+  /* Chapter indicator */
+  .chapter-badge {
+    display: inline-block;
+    background: var(--accent);
+    color: var(--bg);
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 0.15rem 0.5rem;
+    border-radius: 0.3rem;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+  }
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 3rem 1.5rem;
+    color: var(--text2);
+    border-top: 1px solid var(--border);
+    font-size: 0.85rem;
+  }
+  footer strong { color: var(--accent); }
+  /* Responsive */
+  @media (max-width: 640px) {
+    .container { padding: 1rem; }
+    h2 { font-size: 1.4rem; }
+    .card-grid { grid-template-columns: 1fr; }
+    table { font-size: 0.8rem; }
+    th, td { padding: 0.4rem 0.5rem; }
+  }
+  /* ToC */
+  .toc { margin: 2rem 0; }
+  .toc ol {
+    list-style: none;
+    counter-reset: toc-counter;
+  }
+  .toc ol li {
+    counter-increment: toc-counter;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border);
+    color: var(--text2);
+  }
+  .toc ol li::before {
+    content: "第 " counter(toc-counter) " 講 ";
+    color: var(--accent);
+    font-weight: 600;
+    margin-right: 0.5rem;
+  }
+  .toc ol li a { color: var(--text); text-decoration: none; }
+  .toc ol li a:hover { color: var(--accent); }
+</style>
+</head>
+<body>
+
+<!-- Cover -->
+<div class="cover">
+  <div>
+    <h1>深入理解 AI Agent</h1>
+    <div class="subtitle">設計原理 × 工程實踐 × 實戰落地</div>
+    <div class="formula">Agent = LLM + 上下文 + 工具</div>
+    <div style="margin-top: 1rem; font-size: 1.1rem; color: var(--text2); position: relative;">
+      🤖 大腦 · 👁️ 眼睛 · 🖐️ 手腳
+    </div>
+    <div class="meta">
+      基於《深入理解 AI Agent》李博傑 著<br>
+      精選講義 · 2026
+    </div>
+  </div>
+  <div class="scroll-hint">↓ 向下閱讀</div>
+</div>
+
+<div class="container">
+
+<!-- 目錄 -->
+<section>
+  <h2>📋 課程目錄</h2>
+  <div class="toc">
+    <ol>
+      <li><a href="#ch1">Agent 基礎知識 — 核心公式與運作循環</a></li>
+      <li><a href="#ch2">上下文工程 — 決定 Agent 能力上限</a></li>
+      <li><a href="#ch3">使用者記憶與知識庫 — 跨會話的持久化</a></li>
+      <li><a href="#ch4">工具設計 — Agent 的手腳與 MCP 協議</a></li>
+      <li><a href="#ch5">Coding Agent — 通用 Agent 的終極內核</a></li>
+      <li><a href="#ch6">評估 — 把表現變成可比較的信號</a></li>
+      <li><a href="#ch7">模型後訓練 — SFT 與 RL</a></li>
+      <li><a href="#ch8">自我進化 — 不改權重的成長</a></li>
+      <li><a href="#ch9">多模態與即時互動</a></li>
+      <li><a href="#ch10">多 Agent 協作 — 群體智慧</a></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ========== 第1講 ========== -->
+<section id="ch1">
+  <h2><span class="chapter-badge">1</span> Agent 基礎知識</h2>
+
+  <div class="formula-box">Agent = LLM + 上下文 + 工具</div>
+
+  <p>這是實戰後濃縮的唯一公式。三個組件缺一不可，各自對應到不同層次的語言：</p>
+
+  <table>
+    <tr><th>直覺</th><th>實現</th><th>學術 (RL)</th><th>含義</th></tr>
+    <tr><td>🧠 大腦</td><td>LLM</td><td>策略 (Policy)</td><td>決策核心 — 下一步做什麼</td></tr>
+    <tr><td>👁️ 眼睛</td><td>上下文</td><td>觀察空間 (Observation Space)</td><td>能看到的所有資訊</td></tr>
+    <tr><td>🖐️ 手腳</td><td>工具</td><td>動作空間 (Action Space)</td><td>能做的所有事情</td></tr>
+  </table>
+
+  <h3>ReAct 循環 — Agent 的心跳</h3>
+  <p>所有 Agent 系統都在執行同一個基本循環：</p>
+  <div class="timeline">
+    <div class="timeline-item"><h4>💭 思考 (Think)</h4><p>LLM 根據當前上下文決定下一步：是直接用自然語言回覆，還是需要調用工具？</p></div>
+    <div class="timeline-item"><h4>🛠️ 行動 (Act)</h4><p>若有工具調用需求，LLM 輸出結構化的 tool_call（工具名 + 參數）</p></div>
+    <div class="timeline-item"><h4>👁️ 觀察 (Observe)</h4><p>工具結果被加入上下文 → 循環回到思考</p></div>
+  </div>
+
+  <div class="highlight">
+    <strong>💡 關鍵洞察</strong>：2025 年後，先進模型（GPT-5、Claude 4、Kimi K2）已將工具調用能力「內化」為原生能力 — 模型自己決定何時調用、調哪個、傳什麼參數，無需人工編排。
+  </div>
+
+  <h3>Agent 的三種學習範式</h3>
+  <table>
+    <tr><th>範式</th><th>方式</th><th>類比人類</th></tr>
+    <tr><td>後訓練</td><td>SFT / RL 改模型權重</td><td>正式的學校教育</td></tr>
+    <tr><td>上下文學習</td><td>提示詞、RAG、Skills</td><td>翻閱參考書、用筆記本</td></tr>
+    <tr><td>外部化學習</td><td>寫檔案、建立知識庫</td><td>寫工作日記、沉澱 SOP</td></tr>
+  </table>
+</section>
+
+<!-- ========== 第2講 ========== -->
+<section id="ch2">
+  <h2><span class="chapter-badge">2</span> 上下文工程</h2>
+
+  <div class="highlight">
+    <strong>📌 核心命題</strong>：上下文品質決定 Agent 能力的真正上限。一個中等模型配上精心組織的上下文，往往勝過頂級模型在資訊匱乏下的盲目摸索。
+  </div>
+
+  <h3>API 的四種訊息角色</h3>
+  <table>
+    <tr><th>角色</th><th>說明</th></tr>
+    <tr><td><code>system</code></td><td>開發者寫的行為規則、身分定義、約束條件。最高優先級。</td></tr>
+    <tr><td><code>user</code></td><td>終端使用者的輸入</td></tr>
+    <tr><td><code>assistant</code></td><td>模型過去的回覆（含 tool_calls）</td></tr>
+    <tr><td><code>tool</code></td><td>工具執行結果，透過 <code>tool_call_id</code> 關聯</td></tr>
+  </table>
+
+  <h3>Agent 的上下文構成（從最佔 token 到最核心）</h3>
+  <ul style="color: var(--text2); padding-left: 1.5rem; margin-bottom: 1rem;">
+    <li><strong>系統提示詞</strong> — 角色定義、行為規則</li>
+    <li><strong>工具定義</strong> — 工具名稱、描述、參數 schema</li>
+    <li><strong>對話歷史</strong> — 使用者與 Agent 的互動軌跡</li>
+    <li><strong>Agent 狀態</strong> — 當前時間、工作目錄、已完成的步驟</li>
+    <li><strong>使用者記憶</strong> — 從過去對話中提取的偏好與事實</li>
+  </ul>
+
+  <h3>KV Cache 友好的上下文設計</h3>
+  <p>KV Cache 是大模型推理時復用歷史計算結果的機制。設計不良的上下文會破壞快取效率：</p>
+  <div class="card-grid">
+    <div class="card">
+      <h4 style="color: var(--orange);">❌ 常見錯誤</h4>
+      <p>工具定義無限膨脹、對話歷史無限制增長、每次請求重新載入相同靜態內容</p>
+    </div>
+    <div class="card">
+      <h4 style="color: var(--green);">✅ 最佳實踐</h4>
+      <p>把高頻使用的內容放 context 開頭與結尾（注意力熱點）、按需動態載入 Skills、定期摘要壓縮歷史</p>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 第3講 ========== -->
+<section id="ch3">
+  <h2><span class="chapter-badge">3</span> 使用者記憶與知識庫</h2>
+
+  <p>從「無狀態對話」到「有記憶的夥伴」：</p>
+
+  <h3>記憶的四層結構</h3>
+  <div class="arch">
+    <div class="arch-box green">🧠 Core Memory（本次對話）</div>
+    <div class="arch-arrow">↓ 定期寫入</div>
+    <div class="arch-box accent">📝 Working Memory（短期摘要）</div>
+    <div class="arch-arrow">↓ 跨會話讀取</div>
+    <div class="arch-box purple">📖 Long-term Memory（事實/偏好）</div>
+    <div class="arch-arrow">↓ 沉澱</div>
+    <div class="arch-box">🗂️ Knowledge Base（RAG + 結構化索引）</div>
+  </div>
+
+  <div class="highlight green">
+    <strong>🔑 關鍵設計</strong>：OpenClaw 使用 <strong>MEMORY.md</strong>（Markdown 純文字）而非向量資料庫。好處是使用者可直接打開編輯、可 Git 版本控制、天然保留時間順序。
+  </div>
+</section>
+
+<!-- ========== 第4講 ========== -->
+<section id="ch4">
+  <h2><span class="chapter-badge">4</span> 工具設計</h2>
+
+  <h3>五類工具總覽</h3>
+  <table>
+    <tr><th>工具類型</th><th>調用方向</th><th>作用對象</th><th>範例</th></tr>
+    <tr><td><span class="tag tag-blue">感知</span></td><td>Agent 主動</td><td>獲取資訊</td><td>web_search, read_file, grep</td></tr>
+    <tr><td><span class="tag tag-green">執行</span></td><td>Agent 主動</td><td>改變世界</td><td>shell_exec, write_file, edit_file</td></tr>
+    <tr><td><span class="tag tag-purple">協作</span></td><td>Agent 主動</td><td>驅動其他 Agent</td><td>spawn_subagent, send_message</td></tr>
+    <tr><td><span class="tag tag-orange">事件觸發</span></td><td>外部觸發</td><td>驅動 Agent</td><td>set_timer, monitor_shell, webhook</td></tr>
+    <tr><td><span class="tag tag-pink">使用者溝通</span></td><td>Agent 主動</td><td>傳遞資訊給使用者</td><td>reply_to_user, send_card</td></tr>
+  </table>
+
+  <h3>MCP 協議</h3>
+  <p><strong>Model Context Protocol</strong> — OpenAI 推出的開放標準，讓工具接入像安裝 Plugin 一樣簡單。任何支援 MCP 的 Agent 框架都能無縫使用同一套工具生態。目前已有數百個 MCP Server 覆蓋資料庫、瀏覽器、檔案系統等場景。</p>
+
+  <h3>Coding Agent 的七個核心工具</h3>
+  <div class="card-grid">
+    <div class="card"><h4>1️⃣ Code Interpreter</h4><p>隔離沙盒執行 Python</p></div>
+    <div class="card"><h4>2️⃣ Bash Shell</h4><p>終端命令執行</p></div>
+    <div class="card"><h4>3️⃣ Read File</h4><p>讀取檔案內容</p></div>
+    <div class="card"><h4>4️⃣ Write File</h4><p>建立或覆寫檔案</p></div>
+    <div class="card"><h4>5️⃣ Edit File</h4><p>局部修改</p></div>
+    <div class="card"><h4>6️⃣ Glob (Search Files)</h4><p>按模式搜檔名</p></div>
+    <div class="card"><h4>7️⃣ Grep</h4><p>搜檔案內容</p></div>
+  </div>
+  <p style="text-align: center; color: var(--text2);">這七個工具可覆蓋 <strong>95%</strong> 以上的開發任務</p>
+</section>
+
+<!-- ========== 第5講 ========== -->
+<section id="ch5">
+  <h2><span class="chapter-badge">5</span> Coding Agent — 通用 Agent 的終極內核</h2>
+
+  <div class="highlight">
+    <strong>⚡ 核心論斷</strong>：Coding Agent + 檔案系統 = 通用 Agent 最核心的技術基礎。程式碼不僅是工具箱裡的一個工具，而是<strong>元能力</strong> — 能在執行時期動態創造新工具和能力。
+  </div>
+
+  <h3>為什麼是 Coding？</h3>
+  <p>程式碼在 Agent 中扮演兩個層次的角色：</p>
+  <table>
+    <tr><th>層次</th><th>功能</th><th>範例</th></tr>
+    <tr><td>🧠 <strong>思考層</strong></td><td>形式化邏輯，消除歧義</td><td><code>age > 18 and is_verified</code> 比自然語言精確</td></tr>
+    <tr><td>🛠️ <strong>表達層</strong></td><td>動態創造新工具</td><td>Agent 寫一個 Python 腳本處理臨時 CSV 格式</td></tr>
+  </table>
+
+  <h3>從 Manus 到 OpenClaw 的架構</h3>
+  <div class="arch">
+    <div class="arch-row">
+      <div class="arch-box accent">Coding Agent<br>內核</div>
+      <div class="arch-arrow">⬋</div>
+      <div class="arch-box purple">檔案系統<br>(記憶/知識/產物)</div>
+      <div class="arch-box green">能力模組<br>(搜尋/瀏覽器/…)</div>
+    </div>
+  </div>
+
+  <p>執行流範例：「分析上一季銷售資料並建立摘要報告」：</p>
+  <ol style="color: var(--text2); padding-left: 1.2rem;">
+    <li>讀取 <strong>MEMORY.md</strong> → 發現使用者偏好 PDF 格式</li>
+    <li>透過搜尋取得 Google Sheets API 用法 → 寫 Python 腳本下載資料</li>
+    <li>Pandas 聚合分析 → Matplotlib 畫圖 → 寫入 <code>report.pdf</code></li>
+    <li>更新 <strong>MEMORY.md</strong> → 下次直接使用，不再詢問</li>
+  </ol>
+</section>
+
+<!-- ========== 第6講 ========== -->
+<section id="ch6">
+  <h2><span class="chapter-badge">6</span> 評估 — 把表現變成可比較的信號</h2>
+
+  <div class="highlight orange">
+    <strong>📊 第一原理</strong>：沒有評估，就沒有進步。評估讓你能分辨一次改動是真的變好了，還是只是運氣。
+  </div>
+
+  <h3>評估三要素</h3>
+  <div class="card-grid">
+    <div class="card"><h4>🌍 環境</h4><p>工具調用 vs 人機互動 vs 仿真環境</p></div>
+    <div class="card"><h4>📋 數據集</h4><p>代表性測試案例、邊界情況、驗證集</p></div>
+    <div class="card"><h4>📐 指標</h4><p>成功率、完成時間、成本、LLM-as-a-Judge 評分</p></div>
+  </div>
+  <p>建立評估 → 發現瓶頸 → 定向改善 → 再次評估，形成完整的迭代閉環。</p>
+</section>
+
+<!-- ========== 第7講 ========== -->
+<section id="ch7">
+  <h2><span class="chapter-badge">7</span> 模型後訓練 — SFT 與 RL</h2>
+
+  <div class="highlight">
+    <strong>🎯 核心論點</strong>：SFT 記憶，RL 泛化。資料與環境比演算法更重要。
+  </div>
+
+  <h3>三階段訓練全景</h3>
+  <table>
+    <tr><th>階段</th><th>目標</th><th>特性</th></tr>
+    <tr><td>預訓練</td><td>世界知識 + 語言能力</td><td>大量無監督數據</td></tr>
+    <tr><td>SFT 微調</td><td>模仿特定行為模式</td><td>精選標註數據；學會「照樣學樣」</td></tr>
+    <tr><td>RL 強化學習</td><td>透過試錯自主提升</td><td>獎勵信號驅動；學會「泛化策略」</td></tr>
+  </table>
+
+  <p><strong>SFT</strong> 擅長記憶大量事實與固定流程，<strong>RL</strong> 擅長發現新的策略與泛化到未見過的情況。後訓練是讓模型從「聰明」走向「專業」的關鍵。</p>
+</section>
+
+<!-- ========== 第8講 ========== -->
+<section id="ch8">
+  <h2><span class="chapter-badge">8</span> 自我進化 — 不改權重的成長</h2>
+
+  <p>Agent 在不修改模型權重的前提下，透過兩個路徑持續變強：</p>
+
+  <div class="card-grid">
+    <div class="card">
+      <h4>📝 從經驗中學習</h4>
+      <ul style="color: var(--text2); padding-left: 1rem;">
+        <li>策略摘要（提取成功模式）</li>
+        <li>工作流錄製（重複任務固化）</li>
+        <li>提示詞自動優化</li>
+        <li>Skills 知識外部化 → 沉澱為可重複使用的技能</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h4>🔧 發現與創造工具</h4>
+      <ul style="color: var(--text2); padding-left: 1rem;">
+        <li>MCP-Zero：Model 自主探索新 API</li>
+        <li>開源工具整合</li>
+        <li>用程式碼動態創造新工具</li>
+        <li>從工具使用者 → 工具創造者</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 第9講 ========== -->
+<section id="ch9">
+  <h2><span class="chapter-badge">9</span> 多模態與即時互動</h2>
+
+  <p>Agent 從純文字世界走向物理世界：</p>
+  <table>
+    <tr><th>領域</th><th>核心挑戰</th><th>代表技術</th></tr>
+    <tr><td>🗣️ 語音</td><td>即時流式處理</td><td>級聯 → 端到端全模態 → 全雙工</td></tr>
+    <tr><td>🖥️ Computer Use</td><td>GUI 操作 (點擊/輸入/滾動)</td><td>螢幕截圖 + 視覺理解</td></tr>
+    <tr><td>🤖 機器人</td><td>VLA 模型控制</td><td>Sim2Real 遷移</td></tr>
+  </table>
+  <p>共同架構挑戰：即時性（低延遲感知與響應）vs 多模態（文字、語音、視覺、動作）的融合。</p>
+</section>
+
+<!-- ========== 第10講 ========== -->
+<section id="ch10">
+  <h2><span class="chapter-badge">10</span> 多 Agent 協作 — 群體智慧</h2>
+
+  <h3>協作分類框架</h3>
+  <table>
+    <tr><th></th><th>共享上下文</th><th>獨立上下文</th></tr>
+    <tr><td><strong>對等</strong><br>（平等協商）</td><td>共同編輯同一份產出</td><td>各自探索後匯總結果</td></tr>
+    <tr><td><strong>管理者</strong><br>（指揮調度）</td><td>管理者分配子任務</td><td>子 Agent 獨立執行回報</td></tr>
+    <tr><td><strong>去中心化</strong><br>（市場機制）</td><td>有限局部資訊</td><td>透過任務市場協調</td></tr>
+  </table>
+
+  <div class="highlight">
+    <strong>🌟 終極願景</strong>：Agent 社會與 Agent 經濟。多個 Agent 自主協作，形成分工、交易、競爭的微型生態系統。
+  </div>
+</section>
+
+<!-- 推薦閱讀路徑 -->
+<section>
+  <h2>📖 建議閱讀路徑</h2>
+  <div class="card-grid">
+    <div class="card">
+      <h4>🚀 Agent 開發者</h4>
+      <p>按順序通讀 Ch1~6，Ch7 選擇性閱讀，Ch8~10 為進階方向</p>
+    </div>
+    <div class="card">
+      <h4>🎯 產品經理/管理者</h4>
+      <p>著重 Ch1（核心公式）、Ch2（上下文決定上限）、Ch6（評估驅動）</p>
+    </div>
+    <div class="card">
+      <h4>🔬 研究人員</h4>
+      <p>Ch1 + Ch7（後訓練）+ Ch8（自我進化）+ Ch10（多 Agent）</p>
+    </div>
+  </div>
+</section>
+
+</div>
+
+<footer>
+  <p>本講義基於 <strong>《深入理解 AI Agent：設計原理與工程實作》</strong> 李博傑 著</p>
+  <p>原始碼開源於 <a href="https://github.com/bojieli/ai-agent-book" style="color: var(--accent);">github.com/bojieli/ai-agent-book</a></p>
+  <p style="margin-top: 0.5rem; font-size: 0.8rem;">核心公式：<strong>Agent = LLM + 上下文 + 工具</strong></p>
+</footer>
+
+</body>
+</html>
