@@ -104,13 +104,23 @@ function render() {
   
   const list = document.getElementById('paperList');
   
+  // 顯示搜尋結果摘要
+  const q = document.getElementById('searchInput').value.trim();
+  let summaryHtml = '';
+  if (q && allPapers.length > 0) {
+    summaryHtml = '<div class="search-summary">🔍 「' + escapeHtml(q) + '」— 找到 <strong>' + total + '</strong> 篇</div>';
+  }
+  
   if (pagePapers.length === 0) {
-    list.innerHTML = '<p style="text-align:center;color:var(--muted);padding:60px 20px">📭 沒有符合的論文</p>';
+    const msg = q 
+      ? '📭 找不到包含「' + escapeHtml(q) + '」的論文，請試試其他關鍵字'
+      : '📭 沒有符合條件的論文';
+    list.innerHTML = '<p style="text-align:center;color:var(--muted);padding:60px 20px">' + msg + '</p>';
     document.getElementById('pagination').innerHTML = '';
     return;
   }
   
-  list.innerHTML = pagePapers.map(p => {
+  list.innerHTML = summaryHtml + pagePapers.map(p => {
     const tags = (p.tags||[]).slice(0, 3);
     const topics = (p.topics||[]).slice(0, 2);
     return `
@@ -301,7 +311,23 @@ function toggleDiagramCode(el) {
 document.addEventListener('DOMContentLoaded', () => {
   loadPapers();
   
-  document.getElementById('searchInput').addEventListener('input', applyFilters);
+  const si = document.getElementById('searchInput');
+  si.addEventListener('input', applyFilters);
+  // Enter 鍵支援：捲動到結果區
+  si.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      applyFilters();
+      document.getElementById('paperList').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  });
+  // Slash 快捷鍵聚焦搜尋框
+  document.addEventListener('keydown', (e) => {
+    if (e.key === '/' && document.activeElement !== si && document.activeElement?.tagName !== 'INPUT') {
+      e.preventDefault();
+      si.focus();
+    }
+  });
   
   document.querySelectorAll('.filter-tags .tag').forEach(btn => {
     btn.addEventListener('click', () => {
