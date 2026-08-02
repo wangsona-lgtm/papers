@@ -162,85 +162,205 @@ Our study addresses all five gaps. We provide the first Panel FE and QARDL analy
 
 ---
 
+---
+
 ## 3. Data and Methodology
 
 ### 3.1 Data
 
-We construct a balanced panel dataset covering eight East Asian economies—China, Japan, South Korea, Indonesia, Malaysia, Thailand, the Philippines, and Singapore—over the period 1996–2023 (28 years, 224 observations).
+We construct a balanced panel dataset covering eight East Asian economies—China, Japan, South Korea, Indonesia, Malaysia, Thailand, the Philippines, and Singapore—over the period 1996–2023 (N = 8, T = 28, total = 224 observations).
 
-The dependent variable is **renewable energy share** (RE_share), defined as the percentage of electricity generation from renewable sources (hydro, solar, wind, bioenergy, and other renewables), sourced from Our World in Data (OWID) based on Ember's yearly electricity data and BP Statistical Review.
+The dependent variable is **renewable electricity share** (\\(RE_{it}\\)), defined as the percentage of electricity generation from renewable sources (hydro, solar, wind, bioenergy, and other renewables), sourced from Our World in Data (OWID) based on Ember's Yearly Electricity Data and the BP Statistical Review of World Energy.
 
-The primary independent variable is the **Climate Policy Uncertainty index** (CPU), using the narrow dictionary-based measure (`cpu_index_narrow`) from Gavriilidis et al. (2026). Monthly values are averaged to annual frequency.
+The primary independent variable is the **Climate Policy Uncertainty index** (\\(CPU_t\\)), using the narrow dictionary-based measure (\\(cpu\\_index\\_narrow\\)) from Gavriilidis, Känzig, Raghavan, and Stock (2026). The index is constructed as the scaled monthly frequency of articles in eight major U.S. newspapers that discuss climate change, policy, and uncertainty within the same paragraph. Monthly values are averaged to annual frequency. The index is common across all eight countries, i.e., \\(CPU_{it} = CPU_t\\) for all \\(i\\), reflecting the argument that U.S.-originated climate policy discourse influences global markets through policy diffusion, trade linkages, and financial spillovers.
 
-Control variables include:
+Control variables are drawn from established sources:
 
-| Variable | Description | Source |
-|----------|-------------|--------|
-| GPR | Geopolitical Risk Index (global) | Caldara & Iacoviello (2022) |
-| EPU | Global Economic Policy Uncertainty Index | Baker, Bloom & Davis (2016) / policyuncertainty.com |
-| GDP_pc | GDP per capita (constant 2015 US$) | World Bank WDI via QoG Standard Dataset |
-| CO₂_pc | CO₂ emissions per capita (tonnes) | OWID / Global Carbon Project |
-| FDI | Foreign direct investment, net inflows (% GDP) | World Bank WDI via QoG |
-| Inflation | Consumer price inflation (annual %) | World Bank WDI via QoG |
-| Trade | Trade openness (exports + imports, % GDP) | World Bank WDI via QoG |
+| Variable | Notation | Description | Source |
+|----------|----------|-------------|--------|
+| Geopolitical Risk | \\(GPR_t\\) | Global GPR index (annual average) | Caldara & Iacoviello (2022) |
+| Economic Policy Uncertainty | \\(EPU_t\\) | Global EPU index (annual average) | Baker, Bloom & Davis (2016) |
+| GDP per capita | \\(\\ln(GDP_{it})\\) | GDP per capita, constant 2015 US$, log | World Bank WDI via QoG |
+| CO₂ per capita | \\(\\ln(CO2_{it})\\) | CO₂ emissions per capita (tonnes), log | OWID / Global Carbon Project |
+| FDI inflows | \\(FDI_{it}\\) | Foreign direct investment, net inflows (% GDP) | World Bank WDI via QoG |
+| Inflation | \\(INF_{it}\\) | Consumer price inflation, annual % | World Bank WDI via QoG |
+| Trade openness | \\(TRADE_{it}\\) | Exports + imports, % GDP | World Bank WDI via QoG |
 
-Governance moderating variables are the six WGI dimensions from the Worldwide Governance Indicators (Kaufmann et al., 2010), sourced via the Quality of Government (QoG) Standard Dataset (Teorell et al., 2024):
+Governance moderating variables are the six Worldwide Governance Indicators (WGI; Kaufmann, Kraay, & Mastruzzi, 2010), sourced via the Quality of Government (QoG) Standard Dataset (Teorell et al., 2024):
 
-| Variable | WGI Dimension |
-|----------|---------------|
-| WGI_VA | Voice and Accountability |
-| WGI_PS | Political Stability and Absence of Violence |
-| WGI_GE | Government Effectiveness |
-| WGI_RQ | Regulatory Quality |
-| WGI_RL | Rule of Law |
-| WGI_CC | Control of Corruption |
+| Variable | Dimension |
+|----------|-----------|
+| \\(WGI^{VA}_{it}\\) | Voice and Accountability |
+| \\(WGI^{PS}_{it}\\) | Political Stability and Absence of Violence/Terrorism |
+| \\(WGI^{GE}_{it}\\) | Government Effectiveness |
+| \\(WGI^{RQ}_{it}\\) | Regulatory Quality |
+| \\(WGI^{RL}_{it}\\) | Rule of Law |
+| \\(WGI^{CC}_{it}\\) | Control of Corruption |
 
-WGI data are interpolated linearly between biennial observations (2002, 2003, …, 2023) to obtain annual coverage. The CPU series is sourced from the 2026 updated version, providing full coverage for 1996–2023 without extrapolation. All nominal variables are transformed to natural logarithms where appropriate.
+All WGI dimensions are normalized to have zero mean and unit standard deviation in the global sample, facilitating interpretation of interaction coefficients. WGI data are available biennially from 1996 through 2002 and annually from 2003 onward. We linearly interpolate between adjacent observations to obtain annual coverage for all years.[^1]
 
-**Figure 1** displays the CPU index from 1985 to 2026, annotated with major climate policy events. The index exhibits pronounced spikes around the Copenhagen COP15 (2009), the Trump administration's announcement of U.S. withdrawal from the Paris Agreement (2017), and the Build Back Better/Inflation Reduction Act legislative period (2021–2022). **Figure 2** presents the renewable electricity share trajectories for each of the eight East Asian economies, revealing substantial cross-country heterogeneity in both levels and trends.
+[^1]: The period 1996–2002 contains four biennial data points (1996, 1998, 2000, 2002), requiring three interpolation steps. As a robustness check, we also estimate all models on the 2003–2023 sub-period with fully observed annual WGI data; results are qualitatively unchanged (see Appendix A).
+
+**Figure 1** displays the CPU index from 1985 to 2026, annotated with major climate policy events. The index exhibits pronounced spikes around the Copenhagen COP15 conference (2009), the Trump administration's announcement of U.S. withdrawal from the Paris Agreement (2017), and the Build Back Better / Inflation Reduction Act legislative period (2021–2022). The annual average CPU increased from 56.7 in 1996 to 201.7 in 2022—a more than threefold rise—before moderating to 174.0 in 2023. **Figure 2** presents the renewable electricity share trajectories for each of the eight East Asian economies, revealing substantial cross-country heterogeneity in both levels and trends: China's RE share rose from 17.8% in 1996 to 28.7% in 2023, Japan's declined from 11.2% to 10.4% (reflecting post-Fukushima nuclear phase-out effects), the Philippines maintained high but stable levels (~30%), while Singapore remained below 1% throughout the sample.
 
 > **[Insert Figure 1 and Figure 2 about here]**
 
-### 3.2 Econometric Framework
+### 3.2 Empirical Strategy
 
-#### 3.2.1 Panel Unit Root and Cointegration Tests
+Our empirical strategy proceeds in four stages. First, we establish the time-series properties of the data through panel unit root and cointegration tests (Section 3.3–3.4). Second, we estimate the baseline within-country relationship between CPU and renewable energy using Panel Fixed Effects and Panel ARDL / Pooled Mean Group specifications (Section 3.5–3.6). Third, we test for distributional heterogeneity using Panel Quantile Regression (Section 3.7). Fourth, we test governance moderation through interaction models (Section 3.8). Robustness is provided by monthly-frequency Panel QVAR connectedness analysis (Section 3.9).
 
-We employ Fisher-type augmented Dickey-Fuller (ADF) panel unit root tests (Maddala & Wu, 1999; Choi, 2001) to determine the order of integration of each variable. The null hypothesis is that all panels contain a unit root.
+### 3.3 Panel Unit Root Tests
 
-For cointegration testing, we apply the Kao (1999) residual-based panel cointegration test, which extends the Engle-Granger framework to panel data. We also compute the Pedroni (2004) test statistics as a robustness check.
+We employ Fisher-type augmented Dickey-Fuller (ADF) panel unit root tests (Maddala & Wu, 1999; Choi, 2001). For each country \\(i\\) and variable \\(y\\) we estimate:
 
-#### 3.2.2 Panel ARDL
+\\[
+\\Delta y_{it} = \\alpha_i + \\rho_i y_{i,t-1} + \\sum_{j=1}^{p_i} \\gamma_{ij} \\Delta y_{i,t-j} + \\varepsilon_{it} \\tag{1}
+\\]
 
-The baseline model follows a Panel Autoregressive Distributed Lag (ARDL) specification in the Pooled Mean Group (PMG) framework (Pesaran, Shin, & Smith, 1999):
+where the lag order \\(p_i\\) is selected by the modified Akaike Information Criterion (MAIC) with a maximum of 4 lags (T = 28). The null hypothesis is \\(H_0: \\rho_i = 0\\) for all \\(i\\) (all panels contain a unit root) against the alternative \\(H_1: \\rho_i < 0\\) for at least one \\(i\\). The Fisher statistic combines the \\(p\\)-values from individual ADF tests:
 
-\[
-\Delta RE_{it} = \phi_i RE_{i,t-1} + \beta_1 CPU_{i,t-1} + \beta_2 GPR_{i,t-1} + \beta_3 \ln GDP_{i,t-1} + \beta_4 \ln CO2_{i,t-1} + \sum_{j=1}^{p-1} \gamma_{ij} \Delta RE_{i,t-j} + \sum_{j=0}^{q-1} \delta_{1ij} \Delta CPU_{i,t-j} + \cdots + \varepsilon_{it}
-\]
+\\[
+\\chi^2 = -2 \\sum_{i=1}^{N} \\ln(p_i) \\sim \\chi^2(2N) \\tag{2}
+\\]
 
-where \(\phi_i\) is the error-correction term (speed of adjustment), \(\beta_k\) are the long-run coefficients, and \(\gamma_{ij}, \delta_{kij}\) are short-run dynamics.
+We test all variables in levels and first differences. Variables that are I(1) in levels but I(0) in first differences satisfy the ARDL bounds testing condition that no variable is integrated of order two, I(2).
 
-#### 3.2.3 Panel QARDL
+### 3.4 Panel Cointegration Tests
 
-To capture distributional heterogeneity, we estimate a Panel Quantile ARDL (Cho et al., 2015; Shahbaz et al., 2018):
+We test for cointegration using two complementary approaches. First, we compute country-by-country Engle-Granger (1987) residual-based cointegration tests on the long-run relationship:
 
-\[
-Q_{\tau}(RE_{it} | \cdot) = \alpha_i(\tau) + \theta(\tau) CPU_{it} + \sum_{k} \beta_k(\tau) X_{kit} + \varepsilon_{it}(\tau)
-\]
+\\[
+RE_{it} = \\alpha_i + \\beta_{1i} CPU_t + \\beta_{2i} GPR_t + \\beta_{3i} \\ln(GDP_{it}) + \\beta_{4i} \\ln(CO2_{it}) + e_{it} \\tag{3}
+\\]
 
-where \(Q_{\tau}(\cdot)\) denotes the \(\tau\)-th conditional quantile (\(\tau \in \{0.10, 0.25, 0.50, 0.75, 0.90\}\)). This framework allows us to test whether the CPU effect varies across the conditional distribution of renewable energy penetration. We estimate quantile regressions on within-transformed data (entity-demeaned), using the QuantReg estimator (Koenker & Bassett, 1978) with asymptotic standard errors. The within-group transformation absorbs country-specific time-invariant heterogeneity, isolating the conditional relationship between CPU and RE within each country's temporal variation.
+The ADF test is applied to the residuals \\(\\hat{e}_{it}\\):
 
-#### 3.2.4 Interaction Effects
+\\[
+\\Delta \\hat{e}_{it} = \\delta_i \\hat{e}_{i,t-1} + \\sum_{j=1}^{p_i} \\eta_{ij} \\Delta \\hat{e}_{i,t-j} + \\nu_{it} \\tag{4}
+\\]
 
-We test governance moderation by augmenting the baseline model with interaction terms:
+with \\(H_0: \\delta_i = 0\\) (no cointegration in country \\(i\\)). Country-specific \\(p\\)-values are combined via the Fisher (1932) method to test the null of no panel cointegration. Second, we compute the Kao (1999) and Pedroni (2004) residual-based panel cointegration tests as robustness checks.
 
-\[
-RE_{it} = \alpha + \beta_1 CPU_{it} + \beta_2 WGI_{it}^k + \beta_3 (CPU_{it} \times WGI_{it}^k) + \gamma' \mathbf{X}_{it} + \varepsilon_{it}
-\]
+### 3.5 Panel Fixed Effects Estimation
 
-where \(WGI_{it}^k\) is one of the six governance dimensions, estimated separately for each \(k\). A significant interaction coefficient \(\beta_3\) indicates that governance quality moderates the CPU–renewable energy relationship.
+Our primary estimator is the within-group (entity fixed effects) estimator:
+
+\\[
+RE_{it} = \\alpha_i + \\beta_1 CPU_t + \\beta_2 GPR_t + \\beta_3 \\ln(GDP_{it}) + \\beta_4 \\ln(CO2_{it}) + \\varepsilon_{it} \\tag{5}
+\\]
+
+where:
+
+- \\(\\alpha_i\\) are country fixed effects, absorbing time-invariant unobserved heterogeneity (geographic endowments, institutional legacies, cultural attitudes toward environmental regulation);
+- \\(\\beta_1\\) is the parameter of interest: the average within-country association between CPU and renewable electricity share.
+
+Because \\(CPU_t\\) and \\(GPR_t\\) are common across countries (no \\(i\\) subscript), Equation (5) cannot be estimated with both country and year fixed effects simultaneously—the year effects would absorb the common variables. We therefore estimate Equation (5) with country fixed effects only and include a linear time trend as a control for common secular trends. Standard errors are clustered at the country level to account for within-country serial correlation and cross-sectional heteroskedasticity.
+
+The within-group transformation subtracts the country-specific mean from each variable:
+
+\\[
+\\widetilde{RE}_{it} = RE_{it} - \\bar{RE}_i, \\quad \\widetilde{CPU}_t = CPU_t - \\bar{CPU}, \\quad \\ldots \\tag{6}
+\\]
+
+Equation (5) is estimated via ordinary least squares on the transformed data using \\(\\text{PanelOLS}\\) with entity effects (linearmodels package, Sheppard, 2024). The coefficient \\(\\beta_1\\) identifies the average within-country association between CPU and RE, net of cross-country level differences that could create spurious correlations in pooled OLS.
+
+### 3.6 Panel ARDL and Pooled Mean Group Estimation
+
+We complement the static FE specification with a dynamic Panel Autoregressive Distributed Lag (ARDL) model. The general ARDL(\\(p, q_1, \\ldots, q_k\\)) specification in error-correction form (Pesaran, Shin, & Smith, 1999) is:
+
+\\[
+\\Delta RE_{it} = \\phi_i RE_{i,t-1} + \\boldsymbol{\\theta}_i' \\mathbf{X}_{i,t-1} + \\sum_{j=1}^{p-1} \\gamma_{ij} \\Delta RE_{i,t-j} + \\sum_{j=0}^{q-1} \\boldsymbol{\\delta}_{ij}' \\Delta \\mathbf{X}_{i,t-j} + \\varepsilon_{it} \\tag{7}
+\\]
+
+where \\(\\mathbf{X}_{it} = [CPU_t, GPR_t, \\ln(GDP_{it}), \\ln(CO2_{it})]'\\) is the vector of long-run forcing variables, \\(\\phi_i\\) is the country-specific error-correction coefficient, and \\(\\boldsymbol{\\theta}_i\\) contains the long-run coefficients. The long-run relationship for country \\(i\\) is recovered as:
+
+\\[
+\\boldsymbol{\\beta}_i^{LR} = -\\boldsymbol{\\theta}_i / \\phi_i \\tag{8}
+\\]
+
+The PMG estimator imposes long-run homogeneity (\\(\\boldsymbol{\\theta}_i = \\boldsymbol{\\theta}\\) for all \\(i\\)) while allowing short-run coefficients (\\(\\gamma_{ij}, \\boldsymbol{\\delta}_{ij}\\)) and error-correction speeds (\\(\\phi_i\\)) to vary across countries. This is the standard approach when N is small and T is moderate, as in our setting (Pesaran et al., 1999).
+
+Because the PMG homogeneity restriction may be restrictive with only eight countries, we also report the Mean Group (MG) estimator (Pesaran & Smith, 1995), which averages country-specific estimates without imposing long-run homogeneity:
+
+\\[
+\\hat{\\boldsymbol{\\beta}}^{MG} = \\frac{1}{N} \\sum_{i=1}^{N} \\hat{\\boldsymbol{\\beta}}_i, \\quad \\hat{\\phi}^{MG} = \\frac{1}{N} \\sum_{i=1}^{N} \\hat{\\phi}_i \\tag{9}
+\\]
+
+The MG estimator is consistent under both the null (homogeneous long-run coefficients) and the alternative (heterogeneous long-run coefficients), making it a conservative robustness check. We report the Hausman (1978) test for the validity of the long-run homogeneity restriction.
+
+### 3.7 Panel Quantile Regression
+
+To test for distributional heterogeneity—the possibility that the CPU effect varies across the conditional distribution of renewable energy penetration—we estimate a Panel Quantile Regression model. Following Koenker and Bassett (1978), we specify:
+
+\\[
+Q_{\\tau}(\\widetilde{RE}_{it} \\mid \\widetilde{\\mathbf{X}}_{it}) = \\widetilde{\\mathbf{X}}_{it}' \\boldsymbol{\\beta}(\\tau) \\tag{10}
+\\]
+
+where \\(Q_{\\tau}(\\cdot)\\) denotes the \\(\\tau\\)-th conditional quantile function, \\(\\widetilde{\\mathbf{X}}_{it}\\) is the vector of within-transformed regressors \\([CPU_t, GPR_t, \\ln(GDP_{it}), \\ln(CO2_{it})]\\) (see Equation 6), and \\(\\boldsymbol{\\beta}(\\tau)\\) is the vector of quantile-specific coefficients. We estimate Equation (10) for \\(\\tau \\in \\{0.10, 0.25, 0.50, 0.75, 0.90\\}\\) using the QuantReg estimator with asymptotic standard errors.
+
+The within-group transformation absorbs country heterogeneity, so that \\(\\beta_1(\\tau)\\) identifies the CPU effect at quantile \\(\\tau\\) of the within-country RE distribution. A monotonically increasing quantile pattern would support a uniform hedging interpretation across all levels of renewable penetration. A monotonically decreasing pattern would support the uniform real-options interpretation. A non-monotonic pattern—our central hypothesis—would suggest that the balance between the real-options and hedging channels shifts with a country's position in the renewable energy development trajectory.
+
+For each \\(\\tau\\), the coefficient vector solves:
+
+\\[
+\\hat{\\boldsymbol{\\beta}}(\\tau) = \\arg\\min_{\\boldsymbol{\\beta}} \\sum_{i=1}^{N} \\sum_{t=1}^{T} \\rho_{\\tau}\\left(\\widetilde{RE}_{it} - \\widetilde{\\mathbf{X}}_{it}' \\boldsymbol{\\beta}\\right) \\tag{11}
+\\]
+
+where \\(\\rho_{\\tau}(u) = u(\\tau - \\mathbb{1}_{[u < 0]})\\) is the asymmetric absolute loss function that weights positive and negative residuals differently depending on the quantile (Koenker & Bassett, 1978). For \\(\\tau = 0.10\\), negative residuals are weighted nine times more heavily than positive residuals, pulling the regression toward the lower tail of the conditional distribution; for \\(\\tau = 0.90\\), the weighting is reversed.
+
+### 3.8 Interaction Effects: Governance Moderation
+
+We test governance moderation by augmenting the within-group specification with interaction terms:
+
+\\[
+RE_{it} = \\alpha_i + \\beta_1 CPU_t + \\beta_2 WGI_{it}^k + \\beta_3 (CPU_t \\times WGI_{it}^k) + \\beta_4 GPR_t + \\beta_5 \\ln(GDP_{it}) + \\beta_6 \\ln(CO2_{it}) + \\varepsilon_{it} \\tag{12}
+\\]
+
+where \\(WGI_{it}^k\\) denotes one of the six governance dimensions (\\(k \\in \\{VA, PS, GE, RQ, RL, CC\\}\\)). Equation (12) is estimated separately for each \\(k\\), with standard errors clustered at the country level. The parameter of interest is \\(\\beta_3\\), the interaction coefficient. A statistically significant \\(\\beta_3\\) indicates that governance quality moderates the CPU–RE relationship.
+
+The total marginal effect of CPU on RE, conditional on governance quality, is:
+
+\\[
+\\frac{\\partial RE_{it}}{\\partial CPU_t} = \\beta_1 + \\beta_3 \\cdot WGI_{it}^k \\tag{13}
+\\]
+
+We evaluate this marginal effect at three levels of each WGI dimension: the sample mean (0 by global normalization), one standard deviation above the mean (+1), and one standard deviation below the mean (−1). We report these conditional effects graphically and test the statistical significance of the difference in slopes across governance levels.
+
+### 3.9 Robustness: Monthly Panel QVAR and Connectedness
+
+To provide high-frequency robustness evidence, we construct an auxiliary monthly panel covering seven East Asian economies (Indonesia excluded due to data availability) from January 2015 to December 2024 (T = 120, N × T = 840). Monthly renewable electricity generation growth (\\(\\Delta mRE_{it}\\)) is sourced from Ember's monthly electricity data. We estimate a Panel Vector Autoregression (Panel QVAR) of order \\(p\\):
+
+\\[
+\\mathbf{Y}_{it} = \\boldsymbol{\\nu}_i + \\sum_{l=1}^{p} \\boldsymbol{\\Phi}_l \\mathbf{Y}_{i,t-l} + \\boldsymbol{\\varepsilon}_{it} \\tag{14}
+\\]
+
+where \\(\\mathbf{Y}_{it} = [\\Delta mRE_{it}, CPU_t, GPR_t, EPU_t]'\\), \\(\\boldsymbol{\\nu}_i\\) are country fixed effects (absorbing time-invariant differences in renewable generation levels), \\(\\boldsymbol{\\Phi}_l\\) are \\(4 \\times 4\\) coefficient matrices constrained to be homogeneous across countries, and \\(\\boldsymbol{\\varepsilon}_{it} \\sim (\\mathbf{0}, \\boldsymbol{\\Sigma})\\). The lag order \\(p\\) is selected by the Bayesian Information Criterion (BIC) with a maximum of 12 lags.
+
+From the estimated VAR, we compute two quantities:
+
+1. **Orthogonalized impulse response functions (IRFs)**: using a Cholesky decomposition with ordering \\(\\Delta mRE \\rightarrow CPU \\rightarrow GPR \\rightarrow EPU\\), reflecting the assumption that renewable generation responds contemporaneously to all uncertainty variables, while CPU is ordered before GPR and EPU on the argument that climate policy developments precede geopolitical responses. We compute IRFs to a one-standard-deviation shock in CPU with 95% bootstrap confidence bands (500 replications).
+
+2. **Diebold-Yilmaz (2012) connectedness**: the generalized forecast error variance decomposition (GFEVD) at horizon \\(H = 12\\) months quantifies the fraction of the \\(H\\)-step-ahead forecast error variance of variable \\(j\\) attributable to shocks in variable \\(k\\):
+
+\\[
+\\theta_{jk}(H) = \\frac{\\sigma_{kk}^{-1} \\sum_{h=0}^{H-1} (\\mathbf{e}_j' \\mathbf{A}_h \\boldsymbol{\\Sigma} \\mathbf{e}_k)^2}{\\sum_{h=0}^{H-1} \\mathbf{e}_j' \\mathbf{A}_h \\boldsymbol{\\Sigma} \\mathbf{A}_h' \\mathbf{e}_j} \\tag{15}
+\\]
+
+where \\(\\sigma_{kk}\\) is the \\(k\\)-th diagonal element of \\(\\boldsymbol{\\Sigma}\\), \\(\\mathbf{e}_j\\) is a selection vector with unity in the \\(j\\)-th position, and \\(\\mathbf{A}_h\\) are the moving-average coefficient matrices from the VMA(\\(\\infty\\)) representation. The total connectedness index (TCI) and directional spillovers (TO, FROM, NET) are computed from the normalized \\(\\tilde{\\theta}_{jk}(H)\\) matrix. This analysis identifies which uncertainty variables transmit shocks to the network and which are net receivers.
+
+**Table 2** summarizes the empirical strategy, mapping each research question to its corresponding method and output.
+
+**Table 2. Empirical Strategy Overview**
+
+| Research Question | Method | Equation(s) | Output |
+|-------------------|--------|-------------|--------|
+| Are variables cointegrated? | Fisher-EG, Kao, Pedroni | (1)–(4) | Results Table 4 |
+| Does CPU affect RE on average? | Panel FE, PMG-MG | (5)–(9) | Results Table 5 |
+| Does CPU effect vary across quantiles? | Panel Quantile Regression | (10)–(11) | Results Table 6, Fig. 3 |
+| Does governance moderate the CPU effect? | Within-FE interaction | (12)–(13) | Results Table 7, Fig. 6 & 8 |
+| Are annual results robust at monthly frequency? | Panel QVAR, DY connectedness | (14)–(15) | Results Table 8, Fig. 4, 5 & 7 |
 
 ---
-
 ## 4. Empirical Results
 
 ### 4.1 Summary Statistics and Preliminary Analysis
