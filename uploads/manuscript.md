@@ -136,6 +136,10 @@ Governance moderating variables are the six WGI dimensions from the Worldwide Go
 
 WGI data are interpolated linearly between biennial observations (2002, 2003, …, 2023) to obtain annual coverage. The CPU series is sourced from the 2026 updated version, providing full coverage for 1996–2023 without extrapolation. All nominal variables are transformed to natural logarithms where appropriate.
 
+**Figure 1** displays the CPU index from 1985 to 2026, annotated with major climate policy events. The index exhibits pronounced spikes around the Copenhagen COP15 (2009), the Trump administration's announcement of U.S. withdrawal from the Paris Agreement (2017), and the Build Back Better/Inflation Reduction Act legislative period (2021–2022). **Figure 2** presents the renewable electricity share trajectories for each of the eight East Asian economies, revealing substantial cross-country heterogeneity in both levels and trends.
+
+> **[Insert Figure 1 and Figure 2 about here]**
+
 ### 3.2 Econometric Framework
 
 #### 3.2.1 Panel Unit Root and Cointegration Tests
@@ -256,6 +260,10 @@ The QARDL results reveal a clear and economically meaningful pattern: the CPU ef
 
 This gradient suggests a **positive feedback mechanism**: countries with already-higher renewable capacity respond more strongly to climate policy uncertainty shocks, possibly because they possess the institutional infrastructure, supply chains, and technical expertise to accelerate deployment when policy signals intensify. In contrast, countries at the lower end of the distribution face structural barriers that limit their responsiveness to CPU signals.
 
+**Figure 3** visualizes the quantile gradient, plotting the CPU coefficient across Q10–Q90 with 95% confidence bands and the OLS estimate for comparison. The monotonic increase from left to right is visually striking: the Q10 coefficient lies near zero, while the Q90 coefficient is more than three times larger. The OLS point estimate (dashed red line) captures an average effect that masks substantial distributional variation—precisely the limitation that the QARDL framework overcomes.
+
+> **[Insert Figure 3 about here]**
+
 ### 4.5 Governance Moderation Effects
 
 **Table 5. Interaction Effects — CPU × WGI Governance Dimensions**
@@ -272,6 +280,10 @@ This gradient suggests a **positive feedback mechanism**: countries with already
 *Note: t-statistics in parentheses. *** p < 0.01, ** p < 0.05.*
 
 Among the six WGI dimensions, only Voice and Accountability (VA) exhibits a statistically significant interaction with CPU (β = −0.017, p < 0.05). The negative sign indicates that higher democratic governance **reduces** the positive CPU effect on renewable energy. This finding has a compelling interpretation: in countries with strong voice and accountability mechanisms (Japan, South Korea), climate policy uncertainty is less likely to translate into a "rush to renewables" because democratic institutions provide multiple channels for policy resolution and stakeholder engagement, thereby reducing the perceived urgency of preemptive clean energy investment. Conversely, in countries with lower VA scores, CPU shocks generate stronger renewable energy responses, as firms and investors face fewer institutional mechanisms for policy clarification and thus engage in more aggressive hedging.
+
+**Figure 6** illustrates this moderation effect by plotting the predicted CPU–RE relationship at three levels of Voice and Accountability: low (−1 SD), mean, and high (+1 SD). The slope flattens substantially as VA increases, confirming that democratic accountability dampens the CPU-driven push toward renewables.
+
+> **[Insert Figure 6 about here]**
 
 ### 4.6 Discussion of Main Results
 
@@ -314,6 +326,10 @@ For quantile IRFs, we estimate the VAR equation-by-equation using quantile regre
 *Total Connectedness Index = 19.6%*
 
 The Diebold-Yilmaz analysis reveals a striking pattern: **Geopolitical Risk (GPR) is the dominant transmitter** in the uncertainty–energy nexus. CPU directs 33.9% of its spillover to GPR, and GPR receives 72.5% of its forecast error variance from other variables in the system. This suggests that climate policy uncertainty does not operate in isolation—it propagates through geopolitical risk channels, potentially because climate policy disagreements amplify international tensions over trade, technology transfer, and resource allocation.
+
+**Figure 4** displays the orthogonalized impulse response function of ΔRE to a one-standard-deviation CPU shock over a 24-month horizon, with 90% bootstrap confidence intervals (200 replications). The response turns positive immediately (month 1: +0.032) and remains elevated through the forecast horizon. **Figure 5** presents the Diebold-Yilmaz connectedness network, where edge widths are proportional to pairwise directional spillovers. The dominant CPU → GPR edge (33.9%) is prominently visible. **Figure 7** complements the connectedness analysis with a stacked bar decomposition of each variable's forecast error variance by source.
+
+> **[Insert Figure 4, Figure 5, and Figure 7 about here]**
 
 ### 5.4 Reconciliation with Annual Results
 
