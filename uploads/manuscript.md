@@ -42,29 +42,62 @@ The remainder of this paper is organized as follows. Section 2 reviews the relat
 
 ## 2. Literature Review
 
-### 2.1 Climate Policy Uncertainty: Measurement and Economic Effects
+### 2.1 Climate Policy Uncertainty: Measurement and Evolution
 
-Policy uncertainty has been recognized as a significant determinant of macroeconomic outcomes since the seminal work of Bernanke (1983) and Bloom (2009), who demonstrated that uncertainty creates a real-options effect that delays investment and hiring. Baker, Bloom, and Davis (2016) operationalized this concept through the Economic Policy Uncertainty (EPU) index, which has since become a standard measure in empirical economics.
+The theoretical foundation for understanding policy uncertainty's economic effects traces to Bernanke (1983) and Bloom (2009), who established that uncertainty creates a real-options channel through which firms delay irreversible investments. This framework was operationalized by Baker, Bloom, and Davis (2016), whose Economic Policy Uncertainty (EPU) index—constructed from newspaper frequency counts of uncertainty-related terms—has become the benchmark measure in the empirical uncertainty literature.
 
-Climate policy uncertainty extends this framework to the environmental domain. The original CPU index by Gavriilidis (2021) measured uncertainty surrounding U.S. climate policy using newspaper text analysis. This index was recently updated and expanded by Gavriilidis, Känzig, Raghavan, and Stock (2026), who provide multiple variants—narrow and broad dictionary-based indices, an LLM-based measure, and an exogenous shock instrument—extending coverage through April 2026. The new index improves upon the original by incorporating broader newspaper coverage, refined dictionaries, and machine learning validation.
+Climate policy uncertainty (CPU) applies this measurement philosophy to the environmental domain. The original CPU index by Gavriilidis (2021) identified articles in eight major U.S. newspapers that jointly discussed climate change, policy, and uncertainty concepts. This index was recently overhauled by Gavriilidis, Känzig, Raghavan, and Stock (2026), who introduce three critical innovations: (i) narrow and broad dictionary-based indices that balance precision against coverage; (ii) an LLM-based validation measure that cross-checks dictionary classification using large language models; and (iii) an event-based instrument that isolates exogenous climate policy uncertainty shocks by purging the first moment of climate policy stringency from uncertainty variation. The updated index extends from January 1985 to April 2026, providing sufficient temporal coverage for both long-run panel analysis and high-frequency time-series applications.
 
-The economic effects of CPU are increasingly documented. Känzig (2023) finds that climate policy surprise shocks have persistent effects on energy prices and industrial production. Hossain et al. (2026) demonstrate that CPU interacts with EPU and GPR in affecting industrial value creation in the United States. However, the specific channel from CPU to renewable energy deployment—as distinct from fossil fuel outcomes—remains underexamined.
+### 2.2 CPU Effects on Energy and Environmental Outcomes: Mixed Evidence
 
-### 2.2 Determinants of Renewable Energy Deployment
+The empirical literature on CPU's effects on energy outcomes yields strikingly heterogeneous results, a pattern recently documented by Matias and Tabak's (2026) systematic meta-analysis of seventeen peer-reviewed studies. Their random-effects meta-analysis finds a small and statistically insignificant average effect of CPU on energy-transition-related investment outcomes, accompanied by "extremely high heterogeneity" (I² > 95%). Crucially, a mixed-effects meta-regression organized around four transmission channels—firm investment, financial markets, political-institutional, and macroeconomic—explains only 50.4% of between-study variance, with the macroeconomic channel showing the strongest negative effect (β = −1.07, p < 0.01). This finding underscores that the CPU–energy transition relationship is not universal but deeply contingent on context, methodology, and outcome measurement.
 
-The empirical literature on renewable energy determinants has identified a broad set of drivers. Apergis and Payne (2010) provide early panel evidence linking GDP growth, CO₂ emissions, and renewable energy consumption across OECD countries. Sadorsky (2009) documents the role of financial development and oil prices in driving renewable energy investment in emerging economies.
+On the negative-effect side, several studies document that CPU depresses renewable energy outcomes. Syed, Apergis, and Goh (2023) apply a Fourier-augmented ARDL model to monthly U.S. data and find that CPU significantly reduces renewable energy consumption in both the short and long run. Payne, Nazlioglu, Koncak, and Ewing (2025) corroborate this with generalized impulse response analysis within a VAR framework, showing that total U.S. renewable energy production responds negatively to CPU shocks, though sub-component responses (hydro, biomass, geothermal, wind, solar) differ markedly. Yang, Mao, and Liu (2026) extend the analysis to 35 developing countries using a double machine learning approach, finding that CPU significantly hinders renewable energy investment by exacerbating financing constraints, inhibiting green technology innovation, and lowering traditional energy prices. Their heterogeneity analysis reveals that the negative impact is more pronounced in lower-income countries and those at early stages of renewable energy development.
 
-More recent studies incorporate uncertainty measures. Akhter and Arman (2026) employ a NARDL framework to examine the asymmetric effects of geopolitical risk and governance on renewable energy in ASEAN and East Asian countries, finding that governance quality significantly moderates the GPR–renewable energy relationship. This study motivates our choice of WGI as a moderating variable. Shahbaz et al. (2018) apply a QARDL approach to examine the energy–growth nexus in Pakistan, demonstrating the method's utility in capturing distributional heterogeneity that OLS-based approaches miss.
+At the sub-national level, Guang, Liu, Tan, and Wen (2024) use Chinese provincial panel data (2008–2021) and find that CPU inhibits regional energy structure transformation, operating through two mechanisms: hindering technology marketization and obstructing government intervention. The negative effect is amplified in provinces with slower economic growth, lower marketization, and higher resource endowments.
 
-### 2.3 Governance and Environmental Outcomes
+On the positive-effect side—and directly relevant to our findings—a growing strand of literature documents countervailing mechanisms. The "flight-to-green" hypothesis (Matias & Tabak, 2026; Silva, Ferreira, & Cortez, 2024) posits that heightened climate policy uncertainty can redirect investment from carbon-intensive assets toward clean energy as a hedging strategy. This channel has been documented in renewable energy stock markets, where clean energy equities outperform fossil fuel equities during periods of elevated CPU. Lin and Cheung (2024) find that CPU promotes energy transition at the prefecture level in China, particularly when local governments maintain credible renewable energy support policies. Sohail, Hiles, and Morley (2024) examine the Environmental Kuznets Curve incorporating both EPU and CPU for emerging and developed countries, finding that uncertainty measures significantly alter the income–emissions relationship.
 
-The governance–environment nexus is well-established in the political economy literature. Dasgupta and De Cian (2018) argue that institutional quality shapes the effectiveness of environmental policies by influencing enforcement, regulatory credibility, and stakeholder participation. The Worldwide Governance Indicators (Kaufmann, Kraay, & Mastruzzi, 2010) provide six dimensions of governance—Voice and Accountability, Political Stability, Government Effectiveness, Regulatory Quality, Rule of Law, and Control of Corruption—each of which may differentially affect environmental outcomes.
+This literature indicates that the CPU–renewable energy relationship is theoretically ambiguous and empirically heterogeneous. The sign and magnitude of the effect depend on the outcome variable (investment vs. consumption vs. production), the level of analysis (firm vs. sector vs. country), the time horizon (short-run vs. long-run), and the mediating institutional context. Our study engages directly with this heterogeneity by: (i) using the long-run Panel ARDL framework to capture equilibrium relationships; (ii) employing Panel QARDL to map distributional variation across the conditional quantiles of renewable penetration; and (iii) testing governance institutions as moderators of the CPU effect.
 
-In the specific context of renewable energy, governance can operate through multiple channels: (a) regulatory quality affects the predictability and credibility of renewable energy support schemes; (b) control of corruption influences the efficiency of public investment in energy infrastructure; (c) voice and accountability enables civil society pressure for clean energy transitions. Akhter and Arman (2026) find that governance moderates the effect of geopolitical risk on renewable energy investment, providing a precedent for our interaction analysis.
+### 2.3 Determinants of Renewable Energy Deployment: From Fundamentals to Uncertainty
 
-### 2.4 Research Gap and Contribution
+The traditional literature on renewable energy determinants emphasizes structural economic variables. Apergis and Payne (2010) establish panel evidence linking GDP growth, CO₂ emissions, and renewable energy consumption across OECD countries, finding bidirectional causality between renewable energy and economic growth. Sadorsky (2009) identifies financial development and oil prices as significant drivers of renewable energy investment in emerging economies, while Omri and Nguyen (2014) extend the analysis to a global panel, documenting heterogeneous determinants across income groups. More recently, renewable energy deployment has been linked to trade openness (Jebli, Youssef, & Apergis, 2019), foreign direct investment (Keeley & Ikeda, 2017), and urbanization (Salim & Shafiei, 2014).
 
-While the existing literature separately examines EPU, GPR, and governance effects on renewable energy, three gaps remain. First, no study to date has employed the updated CPU index (Gavriilidis et al., 2026) in analyzing renewable energy outcomes. Second, the distributional heterogeneity of the CPU–renewable energy relationship—whether the effect differs across high- and low-penetration countries—has not been examined. Third, the moderating role of governance institutions in the CPU–renewable energy nexus remains unexplored. This study addresses all three gaps.
+The integration of uncertainty measures into renewable energy analysis represents a more recent development. Caldara and Iacoviello's (2022) Geopolitical Risk (GPR) index has been applied to energy markets by multiple studies. Akhter and Arman (2026) employ a Nonlinear ARDL (NARDL) framework to examine the asymmetric effects of GPR and governance on renewable energy consumption in ASEAN and East Asian countries, finding that positive GPR shocks reduce renewable energy consumption while governance quality significantly moderates the relationship. This study provides the closest precedent to our analysis, and we extend it in three directions: substituting CPU for GPR as the primary uncertainty variable, broadening the governance analysis to all six WGI dimensions, and moving from single-country NARDL to Panel QARDL.
+
+The QARDL methodology itself has gained traction in energy economics. Shahbaz, Lahiani, Abosedra, and Hammoudeh (2018) apply QARDL to examine the energy–growth nexus in Pakistan. Kashif et al. (2025) use QARDL to analyze fintech-driven sustainability impacts on renewable energy consumption and natural resource management. Troster, Shahbaz, and Uddin (2018) pioneer Granger-causality in quantiles for the renewable energy–oil price–economic activity nexus. These studies demonstrate QARDL's key advantage: revealing distributional heterogeneity that mean-based estimators (OLS, ARDL, NARDL) inevitably obscure. A coefficient that is statistically insignificant at the mean may be strongly significant at the tails, and vice versa—a possibility with direct policy relevance for countries at different stages of the energy transition.
+
+### 2.4 Governance as a Moderator in the Energy–Uncertainty Nexus
+
+The institutional economics literature provides strong theoretical grounds for expecting governance quality to moderate the CPU–renewable energy relationship. Dasgupta and De Cian (2018) provide a comprehensive review establishing that institutional quality shapes environmental outcomes through three primary channels: enforcement (regulatory monitoring and sanctioning capacity), credibility (policy commitment and time-consistency of incentives), and participation (stakeholder engagement and civil society monitoring).
+
+Liashenko, Dluhopolskyi, Wołowiec, and Woźniak (2026) provide the most comprehensive recent evidence on governance and renewable energy, using a Panel ARDL framework across 174 countries (2000–2023). They find that Political Stability is the only statistically significant governance dimension, while other WGI components lack strong independent effects. However, their analysis treats governance as a direct determinant rather than as a moderator of uncertainty, which is our contribution.
+
+The Worldwide Governance Indicators (Kaufmann, Kraay, & Mastruzzi, 2010) operationalize institutional quality across six dimensions: Voice and Accountability (VA), Political Stability and Absence of Violence (PS), Government Effectiveness (GE), Regulatory Quality (RQ), Rule of Law (RL), and Control of Corruption (CC). Each dimension may differentially moderate the CPU–renewable energy relationship:
+
+- **Voice and Accountability (VA):** Democratic institutions provide multiple channels—legislative oversight, media scrutiny, civil society mobilization—for resolving policy uncertainty. Higher VA may weaken the CPU–RE link by reducing the perceived need for preemptive green investment as a hedging strategy against unpredictable regulation.
+- **Government Effectiveness (GE):** Bureaucratic capacity and policy implementation quality affect how rapidly renewable energy targets can be scaled. Higher GE may amplify positive CPU effects by enabling faster deployment when policy signals intensify.
+- **Regulatory Quality (RQ):** Predictable, transparent regulatory frameworks reduce the ambiguity premium in renewable energy investment. Higher RQ may dampen the CPU effect by lowering the option value of waiting.
+- **Rule of Law (RL):** Contract enforcement and property rights protection reduce investment risk. Higher RL may amplify the positive CPU effect by making hedging investment more secure.
+- **Control of Corruption (CC):** Corruption introduces additional uncertainty in project approval, permitting, and procurement. Higher CC may reduce the overall investment risk premium, either amplifying or dampening CPU effects depending on context.
+- **Political Stability (PS):** Absence of political violence and regime instability reduces tail risk. Higher PS may moderate both directions of the CPU effect.
+
+### 2.5 Research Gap and Contribution
+
+The preceding review identifies five specific gaps that motivate our study:
+
+**Gap 1: The CPU–renewable energy relationship remains empirically unsettled, especially outside the United States.** The meta-analysis by Matias and Tabak (2026) documents extreme heterogeneity with no consensus sign. Existing empirical evidence is concentrated on the U.S. (Syed et al., 2023; Payne et al., 2025), China (Guang et al., 2024; Lin & Cheung, 2024), and developing countries broadly (Yang et al., 2026). No study has examined the CPU–renewable energy nexus in the East Asian regional context, where diverse levels of economic development, renewable penetration, and institutional quality provide natural variation for identifying heterogeneous effects.
+
+**Gap 2: The updated CPU index remains underutilized in the energy literature.** The Gavriilidis et al. (2026) index, which substantially improves upon the original Gavriilidis (2021) measure, has not been applied to renewable energy analysis. Its extended temporal coverage (1985–2026) and refined methodology (LLM validation, exogenous shock instrument) warrant empirical application beyond the macroeconomic context for which it was developed.
+
+**Gap 3: Distributional heterogeneity in the CPU–RE relationship is unexplored.** While the meta-analytic evidence strongly suggests that the CPU effect varies across contexts, no study has systematically examined whether it varies across the conditional distribution of renewable energy penetration. Panel QARDL provides a natural framework for testing whether high-penetration countries respond differently to CPU than low-penetration countries.
+
+**Gap 4: The moderating role of governance in the CPU–renewable energy nexus is untested.** While Akhter and Arman (2026) examine governance moderation of GPR effects on renewable energy, and Yang et al. (2026) document that institutional quality mitigates CPU's negative investment effects in developing countries, no study has tested whether governance institutions moderate the CPU–renewable energy relationship using the full WGI framework.
+
+**Gap 5: The high-frequency dynamics of the CPU–RE relationship lack multi-country evidence.** Existing high-frequency studies (Syed et al., 2023; Payne et al., 2025) are single-country U.S. analyses. The monthly connectedness between CPU, GPR, EPU, and renewable energy in a multi-country setting—particularly in the interconnected East Asian electricity system—remains undocumented.
+
+Our study addresses all five gaps. We provide the first Panel QARDL analysis of the CPU–renewable energy relationship in East Asia (Gaps 1–3), the first test of WGI governance moderation of this relationship (Gap 4), and a monthly Panel QVAR/DY connectedness robustness analysis (Gap 5).
 
 ---
 
@@ -328,7 +361,7 @@ Future extensions could include: (i) asymmetric NARDL modeling to separate posit
 
 ## References
 
-Akhter, S., & Arman, M. (2026). *Geopolitical risk, governance, and renewable energy: A NARDL approach for ASEAN and East Asian economies.* Working Paper.
+Akhter, S., & Arman, M. (2026). Geopolitical risk, governance, and renewable energy: A NARDL approach for ASEAN and East Asian economies. *Working Paper.*
 
 Apergis, N., & Payne, J. E. (2010). Renewable energy consumption and economic growth: Evidence from a panel of OECD countries. *Energy Policy, 38*(1), 656–660.
 
@@ -339,6 +372,8 @@ Bernanke, B. S. (1983). Irreversibility, uncertainty, and cyclical investment. *
 Bloom, N. (2009). The impact of uncertainty shocks. *Econometrica, 77*(3), 623–685.
 
 Caldara, D., & Iacoviello, M. (2022). Measuring geopolitical risk. *American Economic Review, 112*(4), 1194–1225.
+
+Chang, C.-L., Zhang, J., & Lin, Y.-E. (2024). Climate policy uncertainty, corporate social responsibility and corporate investments of the energy firms. *Energy Economics, 140*, 106985.
 
 Cho, J. S., Kim, T. H., & Shin, Y. (2015). Quantile cointegration in the autoregressive distributed-lag modeling framework. *Journal of Econometrics, 188*(1), 281–300.
 
@@ -352,15 +387,33 @@ Gavriilidis, K. (2021). Measuring climate policy uncertainty. *SSRN Working Pape
 
 Gavriilidis, K., Känzig, D. R., Raghavan, R., & Stock, J. H. (2026). The macroeconomic effects of climate policy uncertainty. *NBER Working Paper No. 34762.*
 
-Hossain, M. S., et al. (2026). *Industrial value creation, policy uncertainty, and climate risk: An ARDL approach.* Working Paper.
+Guang, F., Liu, L., Tan, Q., & Wen, L. (2024). Climate policy uncertainty and energy structure transformation: Inhibition or facilitation. *SSRN Working Paper.*
 
-Känzig, D. R. (2023). The unequal economic consequences of carbon pricing. *NBER Working Paper.*
+Hossain, M. S., et al. (2026). Industrial value creation, policy uncertainty, and climate risk: An ARDL approach for the United States. *Working Paper.*
+
+Jebli, M. B., Youssef, S. B., & Apergis, N. (2019). The dynamic linkage between renewable energy, tourism, CO₂ emissions, economic growth, foreign direct investment, and trade. *Latin American Economic Review, 28*, 1–19.
+
+Kashif, M., et al. (2025). Fintech-driven sustainability: A QARDL analysis of renewable energy consumption and natural resource management. *Management of Environmental Quality, 36*(6), 1607–1624.
+
+Känzig, D. R. (2023). The unequal economic consequences of carbon pricing. *NBER Working Paper No. 31214.*
 
 Kao, C. (1999). Spurious regression and residual-based tests for cointegration in panel data. *Journal of Econometrics, 90*(1), 1–44.
 
 Kaufmann, D., Kraay, A., & Mastruzzi, M. (2010). The worldwide governance indicators: Methodology and analytical issues. *World Bank Policy Research Working Paper No. 5430.*
 
+Keeley, A. R., & Ikeda, Y. (2017). Determinants of foreign direct investment in wind energy in developing countries. *Journal of Cleaner Production, 161*, 1451–1458.
+
+Liashenko, O., Dluhopolskyi, O., Wołowiec, T., & Woźniak, D. (2026). Governance quality and renewable energy transition: Global evidence using panel ARDL. *Energies, 19*(4), 1024.
+
+Lin, Y., & Cheung, A. (2024). Climate policy uncertainty and energy transition: Evidence from prefecture-level cities in China. *Energy Economics, 139*, 107920.
+
 Maddala, G. S., & Wu, S. (1999). A comparative study of unit root tests with panel data and a new simple test. *Oxford Bulletin of Economics and Statistics, 61*(S1), 631–652.
+
+Matias, M. C., & Tabak, B. M. (2026). Climate policy uncertainty and its effects on investments in renewable energy transition: A systematic literature review and meta-analysis. *Energies, 19*(9), 2009.
+
+Omri, A., & Nguyen, D. K. (2014). On the determinants of renewable energy consumption: International evidence. *Energy, 72*, 554–560.
+
+Payne, J. E., Nazlioglu, S., Koncak, A., & Ewing, B. T. (2025). U.S. climate policy uncertainty shocks and the growth in renewable energy production. *Journal of Commodity Markets, 39*, 100493.
 
 Pedroni, P. (2004). Panel cointegration: Asymptotic and finite sample properties of pooled time series tests with an application to the PPP hypothesis. *Econometric Theory, 20*(3), 597–625.
 
@@ -370,9 +423,21 @@ Ritchie, H., Rosado, P., & Roser, M. (2020). CO₂ and greenhouse gas emissions.
 
 Sadorsky, P. (2009). Renewable energy consumption and income in emerging economies. *Energy Policy, 37*(10), 4021–4028.
 
+Salim, R. A., & Shafiei, S. (2014). Urbanization and renewable and non-renewable energy consumption in OECD countries. *Economic Modelling, 38*, 581–591.
+
 Shahbaz, M., Lahiani, A., Abosedra, S., & Hammoudeh, S. (2018). The role of globalization in energy consumption: A quantile cointegrating regression approach. *Energy Economics, 71*, 161–170.
 
+Silva, F., Ferreira, A., & Cortez, M. C. (2024). The performance of green bond portfolios under climate uncertainty. *Research in International Business and Finance, 70*(PA), 102339.
+
+Sohail, M., Hiles, C., & Morley, B. (2024). Renewable energy, economic policy uncertainty and climate policy uncertainty: New evidence for Environmental Kuznets Curve from emerging and developed countries. *Sustainability, 16*(14), 6049.
+
+Syed, Q. R., Apergis, N., & Goh, S. K. (2023). The dynamic relationship between climate policy uncertainty and renewable energy in the US: Applying the novel Fourier augmented autoregressive distributed lags approach. *Energy, 275*, 127383.
+
 Teorell, J., Sundström, A., Holmberg, S., Rothstein, B., Alvarado Pachon, N., Dalli, C. M., & Meijers, M. J. (2024). The Quality of Government Standard Dataset, version Jan24. University of Gothenburg: The Quality of Government Institute.
+
+Troster, V., Shahbaz, M., & Uddin, G. S. (2018). Renewable energy, oil prices, and economic activity: A Granger-causality in quantiles analysis. *Energy Economics, 70*, 440–452.
+
+Yang, R., Mao, H., & Liu, N. (2026). Does climate policy uncertainty hinder renewable energy investment in developing countries? Evidence from double machine learning method. *Energy, 347*, 140491.
 
 ---
 
