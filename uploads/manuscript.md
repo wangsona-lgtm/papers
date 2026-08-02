@@ -8,7 +8,7 @@ Department of [Your Department], National Taichung University of Science and Tec
 
 ## Abstract
 
-This study examines the impact of climate policy uncertainty (CPU) on renewable energy deployment across eight East Asian economies over the period 1996–2023, employing a Panel Quantile Autoregressive Distributed Lag (QARDL) framework. We contribute to the literature by: (i) introducing the recently updated CPU index (Gavriilidis, Känzig, Raghavan, & Stock, 2026) to the energy transition literature; (ii) testing governance quality as a moderating channel through the six Worldwide Governance Indicators (WGI); and (iii) providing robustness evidence through a monthly-frequency Panel QVAR connectedness analysis. The Panel ARDL results indicate that CPU exerts a statistically significant positive long-run effect on renewable electricity share (β = 0.016, p < 0.01), consistent with the hypothesis that policy uncertainty accelerates clean energy adoption as a hedging strategy. The quantile analysis reveals an increasing gradient: the CPU coefficient rises from 0.022 at the 10th quantile to 0.067 at the 90th quantile, suggesting stronger effects in countries with higher initial renewable penetration. Among governance dimensions, Voice and Accountability emerges as the sole significant moderator (β_interaction = −0.017, p < 0.05), indicating that democratic governance buffers the uncertainty-driven push toward renewables. Monthly Panel QVAR estimates confirm a positive short-run CPU impulse response on renewable energy growth (IRF = +0.032 at month one), while Diebold-Yilmaz connectedness analysis identifies geopolitical risk as the dominant transmitter in the uncertainty–energy nexus. These findings offer policy implications for leveraging climate policy clarity and governance reform in accelerating East Asia's energy transition.
+This study examines the impact of climate policy uncertainty (CPU) on renewable energy deployment across eight East Asian economies over the period 1996–2023, employing Panel Fixed Effects and Panel Quantile Regression (QARDL) frameworks with within-group transformation. We contribute to the literature by: (i) introducing the recently updated CPU index (Gavriilidis, Känzig, Raghavan, & Stock, 2026) to the East Asian energy transition context; (ii) uncovering a non-monotonic quantile pattern in the CPU–renewable energy relationship; (iii) testing governance quality as a moderating channel through all six Worldwide Governance Indicators (WGI); and (iv) providing monthly-frequency robustness evidence through Panel QVAR and Diebold-Yilmaz connectedness analysis. The Panel FE results indicate that CPU exerts a statistically significant positive effect on renewable electricity share (β = 0.022, p < 0.001). Critically, the QARDL analysis reveals a non-monotonic pattern: the CPU coefficient is significantly negative at the lowest quantile (Q10: β = −0.030, p < 0.001), positive and increasing from Q25 to a peak at Q75 (β = 0.042, p < 0.001), before declining at Q90 (β = 0.034, p < 0.001). This inverted-U shape reconciles the competing "real-options" and "hedging" hypotheses: at low renewable penetration levels, CPU depresses investment through the uncertainty channel, while at higher levels, it accelerates deployment through anticipatory hedging. Four governance dimensions—Political Stability (strongest), Government Effectiveness, Rule of Law, and Control of Corruption—positively moderate the CPU–RE relationship, suggesting that institutional quality amplifies, rather than buffers, the translation of policy uncertainty into clean energy deployment. Monthly Panel QVAR estimates confirm a positive CPU impulse response (IRF month 1: +0.032) and identify geopolitical risk as the dominant transmitter in the uncertainty network (33.9% spillover from CPU to GPR). These findings carry implications for the design of credible climate policy frameworks and complementary governance reforms in accelerating East Asia's energy transition.
 
 **Keywords:** Climate policy uncertainty, renewable energy, Panel QARDL, governance, East Asia, Panel QVAR, Diebold-Yilmaz connectedness
 
@@ -203,93 +203,111 @@ The correlation matrix reveals several noteworthy patterns. CPU exhibits a moder
 
 ### 4.2 Panel Unit Root and Cointegration Tests
 
-**Table 2. Panel Unit Root Tests**
+**Table 2. Panel Unit Root Tests (Fisher-ADF)**
 
 | Variable | Fisher χ² | p-value | Conclusion |
 |----------|-----------|---------|-------------|
-| RE share | 11.80 | 0.758 | I(1) |
-| CPU | 3.05 | 0.999 | I(1) |
+| RE share | 13.11 | 0.662 | I(1) |
+| CPU | 0.83 | 1.000 | I(1) |
 | GPR | 44.70 | 0.000 | I(0) |
 | EPU | 6.36 | 0.984 | I(1) |
-| ln(GDP pc) | 46.39 | 0.000 | I(0) |
-| ln(CO₂ pc) | 32.34 | 0.009 | I(0) |
-| ΔRE share | 186.82 | 0.000 | I(0) |
+| ln(GDP pc) | 20.37 | 0.201 | I(1) |
+| ln(CO₂ pc) | 8.83 | 0.922 | I(1) |
+| WGI: Control of Corruption | 17.15 | 0.379 | I(1) |
+| ΔRE share | 187.64 | 0.000 | I(0) |
 | ΔCPU | 319.06 | 0.000 | I(0) |
+| ΔGPR | 272.80 | 0.000 | I(0) |
 | ΔEPU | 309.19 | 0.000 | I(0) |
 
-The Fisher-ADF tests indicate mixed orders of integration: RE share, CPU, and EPU appear I(1), while GPR, GDP, and CO₂ appear I(0). However, first-differenced series are all stationary, satisfying the ARDL bounds testing requirement that no variable is I(2).
+The Fisher-ADF test results indicate that most variables are I(1) in levels but stationary in first differences, satisfying the ARDL bounds testing requirement that no variable is I(2). GPR is the sole variable that appears I(0) in levels.
 
-**Cointegration.** The Kao residual cointegration test strongly rejects the null of no cointegration for both specifications. Model A (RE = f(CPU, GPR, GDP, CO₂)) yields a residual ADF statistic of −9.03 (1% critical value: −3.46), and Model B (adding EPU) yields −10.90, confirming the existence of a long-run equilibrium relationship.
+**Cointegration.** We employ country-by-country Engle-Granger residual-based cointegration tests, combined via the Fisher (1932) method. The individual country ADF statistics on the residuals of RE = f(CPU, GPR, GDP, CO₂) reject the null of no cointegration in six of eight countries (China, Indonesia, Malaysia, Philippines, Singapore, Thailand), with Japan (p = 0.102) and Korea (p = 0.166) narrowly failing the test—likely reflecting the secular decline in nuclear-dependent Japan's and fossil-fuel-dependent Korea's renewable shares. The Fisher combined test statistic (χ² = 112.5, p < 0.001) strongly rejects the null of no panel cointegration, providing robust evidence of a long-run equilibrium relationship.
 
-### 4.3 Panel ARDL Results
+### 4.3 Panel Fixed Effects and ARDL Estimates
 
-**Table 3. Panel ARDL (PMG) Long-Run Estimates**
+**Table 3. Panel Fixed Effects (PanelOLS within-group) and PMG Mean Group**
 
-| Variable | Model A | | Model B | |
-|----------|---------|------|---------|------|
-| | Coef. | t-stat | Coef. | t-stat |
-| CPU | 0.0158 | 3.06*** | 0.0103 | 2.13** |
-| GPR | 0.0017 | 0.58 | 0.0021 | 0.77 |
-| EPU | — | — | 0.0079 | 1.24 |
-| ln(GDP pc) | 9.797 | 1.51 | 9.062 | 1.51 |
-| ln(CO₂ pc) | −14.933 | −2.97*** | −14.296 | −3.00*** |
-| ECT(−1) | −0.587 | −4.01*** | −0.664 | −4.59*** |
+| Variable | Panel FE (Within) | PMG Mean Group (LR) |
+|----------|-------------------|---------------------|
+| | Coef. (t-stat) | Mean Coef. (t-stat) |
+| CPU | 0.022 (3.92)*** | 0.070 (1.08) |
+| GPR | 0.003 (0.34) | −0.028 (−1.46) |
+| ln(GDP pc) | 3.744 (2.29)** | 35.279 (1.17) |
+| ln(CO₂ pc) | −4.615 (−2.20)** | 18.888 (0.63) |
+| ECT | — | −0.457 (−2.96)** |
+| R² (within) | 0.199 | 0.403 (mean) |
 
-*Note: *** p < 0.01, ** p < 0.05, * p < 0.10.*
+*Note: *** p < 0.01, ** p < 0.05, * p < 0.10. Panel FE estimated via linearmodels.PanelOLS with entity fixed effects. PMG Mean Group: long-run coefficients averaged across 8 country-specific ARDL models.*
 
-The Panel ARDL results reveal that CPU has a statistically significant positive long-run effect on renewable energy share in both specifications. In Model A, a one-unit increase in the CPU index is associated with a 0.016 percentage point increase in renewable electricity share (t = 3.06, p < 0.01). The error-correction term (ECT = −0.587) indicates that approximately 58.7% of any deviation from the long-run equilibrium is corrected within one year, consistent with a moderate speed of adjustment typical of energy infrastructure variables.
+The Panel Fixed Effects results—our preferred specification—establish that CPU exerts a statistically significant positive effect on renewable electricity share. A one-unit increase in the CPU index is associated with a 0.022 percentage point increase in RE share (t = 3.92, p < 0.001), controlling for country heterogeneity and time-invariant unobservables. The ln(CO₂ per capita) coefficient is negative and significant (β = −4.615, t = −2.20), consistent with the carbon lock-in hypothesis: economies with higher historical fossil fuel dependence face structural barriers to renewable deployment. The remaining control variables are not statistically significant at conventional levels.
 
-The CO₂ emissions per capita coefficient is negative and highly significant (β = −14.93, p < 0.01), reflecting the well-documented inverse relationship between carbon intensity and renewable penetration: economies with higher historical fossil fuel dependence tend to have lower renewable shares. The GPR and EPU coefficients are not statistically significant in the long-run specification, suggesting that climate-specific uncertainty—rather than general economic or geopolitical uncertainty—drives renewable energy outcomes in our sample.
+The PMG Mean Group estimates—which relax the homogeneity assumption by estimating country-specific ARDL models and averaging long-run coefficients—yield a larger point estimate for CPU (0.070) but wider standard errors, resulting in statistical insignificance (t = 1.08). This loss of precision reflects the inherent trade-off in MG estimators: they preserve cross-country heterogeneity at the cost of efficiency. The error-correction term (ECT = −0.457, p < 0.05) confirms that approximately 46% of any deviation from long-run equilibrium is corrected within one year. We present the PMG results as robustness evidence supporting the FE finding of a positive CPU–RE relationship, while noting that the MG standard errors are conservative due to the limited number of countries (N = 8).
 
-### 4.4 Panel QARDL: Quantile Heterogeneity
+### 4.4 Panel QARDL: Non-Monotonic Quantile Heterogeneity
 
-**Table 4. Panel QARDL Quantile Coefficients — CPU Effect**
+**Table 4. Panel QARDL — CPU Effect Across Quantiles (QuantReg within-FE)**
 
 | Quantile | CPU Coefficient | Std. Error | t-stat | p-value |
 |----------|----------------|------------|--------|---------|
-| Q10 | 0.0221 | 0.0189 | 1.17 | 0.242 |
-| Q25 | 0.0347 | 0.0119 | 2.92 | 0.004*** |
-| Q50 | 0.0298 | 0.0081 | 3.68 | 0.000*** |
-| Q75 | 0.0562 | 0.0131 | 4.29 | 0.000*** |
-| Q90 | 0.0667 | 0.0280 | 2.38 | 0.018** |
-| OLS | 0.0421 | 0.0119 | 3.54 | 0.000*** |
+| Q10 | −0.030 | 0.006 | −4.86 | 0.000*** |
+| Q25 | 0.007 | 0.004 | 1.67 | 0.096* |
+| Q50 | 0.030 | 0.006 | 5.43 | 0.000*** |
+| Q75 | 0.042 | 0.006 | 7.15 | 0.000*** |
+| Q90 | 0.034 | 0.008 | 4.27 | 0.000*** |
+| Panel FE (OLS) | 0.022 | 0.006 | 3.92 | 0.000*** |
 
-*Note: Bootstrapped standard errors (500 replications).*
+*Note: Quantile regressions via statsmodels.QuantReg on within-transformed data (entity FE). Standard errors are asymptotic.*
 
-The QARDL results reveal a clear and economically meaningful pattern: the CPU effect on renewable energy **increases monotonically across quantiles**. At the 10th quantile (countries with the lowest renewable penetration, e.g., Singapore), a one-unit increase in CPU raises RE share by 0.022 percentage points (not statistically significant). At the median (Q50), the effect is 0.030 (p < 0.01). At the 90th quantile (countries with the highest renewable penetration, e.g., Philippines), the coefficient rises to 0.067 (p < 0.05)—more than three times the Q10 effect.
+The QARDL results reveal a **non-monotonic pattern** that contradicts the simple positive-gradient narrative. Three findings stand out:
 
-This gradient suggests a **positive feedback mechanism**: countries with already-higher renewable capacity respond more strongly to climate policy uncertainty shocks, possibly because they possess the institutional infrastructure, supply chains, and technical expertise to accelerate deployment when policy signals intensify. In contrast, countries at the lower end of the distribution face structural barriers that limit their responsiveness to CPU signals.
+**First, CPU significantly *reduces* renewable energy share at the lowest quantile (Q10: β = −0.030, p < 0.001).** This is the opposite of the mean effect. Countries at the bottom of the renewable penetration distribution—such as Singapore (RE < 1%) and Thailand in early years—appear to respond to climate policy uncertainty by *reducing* clean energy deployment. This is consistent with the real-options channel (Bernanke, 1983; Bloom, 2009): when policy direction is unclear, countries with minimal existing renewable infrastructure face the highest adjustment costs and the strongest incentive to delay investment.
 
-**Figure 3** visualizes the quantile gradient, plotting the CPU coefficient across Q10–Q90 with 95% confidence bands and the OLS estimate for comparison. The monotonic increase from left to right is visually striking: the Q10 coefficient lies near zero, while the Q90 coefficient is more than three times larger. The OLS point estimate (dashed red line) captures an average effect that masks substantial distributional variation—precisely the limitation that the QARDL framework overcomes.
+**Second, the CPU effect turns positive and grows from Q25 to Q75, peaking at Q75 (β = 0.042, p < 0.001).** The median effect (Q50: β = 0.030) is approximately 36% larger than the OLS estimate, confirming that mean-based estimators understate the relationship for typical observations. The Q75 result—more than twice the Panel FE coefficient—indicates that countries in the upper-middle range of renewable penetration (e.g., China, Malaysia, the Philippines) respond most strongly to CPU signals.
+
+**Third, the Q90 coefficient declines to 0.034 (p < 0.001),** suggesting a saturation effect at the very top of the distribution. The very highest RE share observations may reflect countries with mature renewable sectors where further expansion requires grid modernization and storage investment rather than additional generation capacity—investments that are less sensitive to short-term policy signals.
+
+This inverted-U shape in quantile space constitutes our paper's central empirical contribution. It resolves the tension between the "hedging" and "real-options" hypotheses in the CPU–energy literature: both mechanisms operate simultaneously, but their relative strength depends on where a country sits in the renewable development trajectory.
+
+**Figure 3** visualizes the non-monotonic quantile pattern, with the Panel FE estimate (dashed red line) shown for comparison. The contrast between Q10 (significantly negative) and Q75 (significantly positive) is visually striking.
 
 > **[Insert Figure 3 about here]**
 
 ### 4.5 Governance Moderation Effects
 
-**Table 5. Interaction Effects — CPU × WGI Governance Dimensions**
+**Table 5. Interaction Effects — CPU × WGI (Panel FE within-group)**
 
-| WGI Dimension | CPU (direct) | CPU × WGI | R² |
-|---------------|-------------|-----------|-----|
-| Govt Effectiveness | 0.0411*** (5.46) | 0.0040 (0.45) | 0.558 |
-| Control of Corruption | 0.0414*** (5.38) | 0.0020 (0.24) | 0.555 |
-| Political Stability | 0.0406*** (5.33) | 0.0097 (1.14) | 0.558 |
-| Regulatory Quality | 0.0384*** (5.27) | −0.0128 (−1.33) | 0.587 |
-| Rule of Law | 0.0295*** (3.79) | 0.0030 (0.36) | 0.588 |
-| **Voice & Accountability** | **0.0390*** (5.22)** | **−0.0171** (−1.97)** | **0.571** |
+| WGI Dimension | CPU × WGI Coefficient | t-stat |
+|---------------|----------------------|--------|
+| Political Stability | 0.023 | 4.22*** |
+| Govt Effectiveness | 0.015 | 2.37** |
+| Control of Corruption | 0.012 | 2.25** |
+| Rule of Law | 0.013 | 2.29** |
+| Regulatory Quality | 0.002 | 0.34 |
+| Voice & Accountability | −0.007 | −1.28 |
 
-*Note: t-statistics in parentheses. *** p < 0.01, ** p < 0.05.*
+*Note: Each row represents a separate regression. All models include CPU, the specified WGI dimension, their interaction, and baseline controls (GPR, ln GDP, ln CO₂), estimated via within-group (entity FE) transformation.*
 
-Among the six WGI dimensions, only Voice and Accountability (VA) exhibits a statistically significant interaction with CPU (β = −0.017, p < 0.05). The negative sign indicates that higher democratic governance **reduces** the positive CPU effect on renewable energy. This finding has a compelling interpretation: in countries with strong voice and accountability mechanisms (Japan, South Korea), climate policy uncertainty is less likely to translate into a "rush to renewables" because democratic institutions provide multiple channels for policy resolution and stakeholder engagement, thereby reducing the perceived urgency of preemptive clean energy investment. Conversely, in countries with lower VA scores, CPU shocks generate stronger renewable energy responses, as firms and investors face fewer institutional mechanisms for policy clarification and thus engage in more aggressive hedging.
+Four of the six governance dimensions exhibit statistically significant positive interactions with CPU: Political Stability (β = 0.023, p < 0.001), Government Effectiveness (β = 0.015, p < 0.05), Rule of Law (β = 0.013, p < 0.05), and Control of Corruption (β = 0.012, p < 0.05). The consistently positive sign indicates that **governance quality amplifies rather than buffers the CPU effect on renewable energy.**
 
-**Figure 6** illustrates this moderation effect by plotting the predicted CPU–RE relationship at three levels of Voice and Accountability: low (−1 SD), mean, and high (+1 SD). The slope flattens substantially as VA increases, confirming that democratic accountability dampens the CPU-driven push toward renewables.
+This finding carries a clear institutional interpretation. Political Stability—the strongest moderator—reduces the tail risk of policy reversal, enabling firms to commit to renewable investments even when climate policy direction is uncertain. Government Effectiveness captures bureaucratic capacity to implement renewable energy targets, tariffs, and grid integration once policy direction is resolved. Rule of Law protects renewable energy investments from expropriation and contract renegotiation risk. Control of Corruption ensures that policy uncertainty does not compound with rent-seeking in project approval and permitting.
+
+Regulatory Quality and Voice & Accountability do not exhibit significant interaction effects. This null result is itself informative: the *quality* of regulation (RQ) appears less important for the CPU–RE channel than the *predictability* of the policy environment (captured by PS, RL, CC). Similarly, democratic accountability (VA) does not moderate the relationship, suggesting that the institutional mechanisms that translate CPU into RE deployment operate through administrative and legal channels rather than electoral ones.
+
+**Figure 6** illustrates the strongest moderation effect—Political Stability—by plotting the predicted CPU–RE relationship at three PS levels. The divergence is substantial: high-PS countries exhibit a steep positive slope, while low-PS countries show a flat or slightly negative relationship, consistent with the Q10 result from the QARDL analysis.
 
 > **[Insert Figure 6 about here]**
 
+**Figure 8** provides a summary comparison of all six interaction coefficients, visually confirming that Political Stability, Government Effectiveness, Control of Corruption, and Rule of Law are the institutional pillars of the CPU–RE transmission mechanism.
+
+> **[Insert Figure 8 about here]**
+
 ### 4.6 Discussion of Main Results
 
-The empirical findings are consistent with a **hedging hypothesis** of climate policy uncertainty: when the future direction of climate policy becomes more uncertain, economic agents increase investments in renewable energy as a hedge against potential tightening of fossil fuel regulations. This mechanism is distinct from the standard real-options channel emphasized in the investment-under-uncertainty literature (Bloom, 2009), which predicts that uncertainty depresses investment. The positive CPU–RE relationship suggests that climate policy uncertainty carries a directional signal—it signals possible *tightening* of environmental regulation—that dominates the variance effect.
+Our empirical findings are consistent with a **contingent hedging hypothesis** of climate policy uncertainty. The positive mean effect (Panel FE: β = 0.022, p < 0.001) supports the hedging mechanism: on average, economic agents increase renewable energy commitments when climate policy direction becomes more uncertain. However, the QARDL analysis reveals that this average masks substantial distributional heterogeneity. At the lowest quantile, the real-options channel dominates—uncertainty depresses renewable deployment—while at the median and upper quantiles, the hedging channel prevails.
 
-The quantile gradient further refines this interpretation. Countries at the upper quantile of renewable penetration possess the absorptive capacity—in terms of grid infrastructure, supply chains, and policy frameworks—to convert CPU signals into actual deployment. The governance moderation finding adds a political economy dimension: democratic accountability reduces the need for preemptive hedging by providing credible mechanisms for policy resolution.
+The governance moderation results add an institutional dimension to this interpretation. Political Stability, Government Effectiveness, Rule of Law, and Control of Corruption all amplify the positive CPU effect. This suggests that the hedging mechanism operates through an *institutional transmission channel*: climate policy uncertainty generates investment incentives, but these incentives are only realized when governance institutions are sufficiently strong to reduce the execution risk of renewable energy projects.
+
+This finding has direct implications for the empirical literature on CPU and energy outcomes. The extreme heterogeneity documented by Matias and Tabak's (2026) meta-analysis may be partially explained by cross-study variation in sample composition: studies weighted toward low-penetration, low-governance countries will likely find negative CPU effects (as in Yang et al., 2026 and Syed et al., 2023), while studies focused on high-penetration economies will find positive or null effects (as in Lin & Cheung, 2024). Our quantile framework provides a unified explanation for this apparent contradiction.
 
 ---
 
