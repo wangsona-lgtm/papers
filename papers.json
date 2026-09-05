@@ -1,6 +1,6 @@
 {
-  "total": 112,
-  "updated": "2026-09-03 20:30:10",
+  "total": 116,
+  "updated": "2026-09-05 20:17:28 +08:00",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,257 @@
     "金融市場"
   ],
   "papers": [
+    {
+      "id": "qvar-2026-09-05-frl-110372",
+      "title": "How climate risk impacts interaction among green assets under varying market states: Evidence from a time-frequency QVAR model integrating an autoencoder",
+      "search_date": "2026-09-05",
+      "authors": "Wei-Yi-Qing Wang; Chi Xie; Xiao-Xin Li; Zhi-Yu Zhang",
+      "year": "2026",
+      "journal": "Finance Research Letters, 107, 110372",
+      "doi": "https://doi.org/10.1016/j.frl.2026.110372",
+      "citations": "0 次（OpenAlex，2026-09-05）",
+      "openalex_url": "https://openalex.org/W7165368896",
+      "publisher_url": "https://www.sciencedirect.com/science/article/pii/S1544612326009001",
+      "reading_level": "摘要層級",
+      "abstract": "以自編碼器整合多項氣候風險代理變數形成氣候風險指數，並用 time-frequency QVAR 檢視氣候風險在不同市場狀態與投資期限下如何改變綠色資產間的互動；另以新聞情緒與經濟政策不確定性作為調節因素。結果顯示，氣候風險對綠色資產互動的方向會隨熊市、常態與牛市以及短長期而改變；綠色加密貨幣多為風險傳送者，綠色股票多為接收者，綠債與碳配額相對孤立。",
+      "tags": [
+        "QVAR",
+        "time-frequency connectedness",
+        "autoencoder",
+        "climate risk",
+        "green assets",
+        "moderation"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "綠債/ESG",
+        "碳市場/碳交易",
+        "加密貨幣/數位金融",
+        "金融市場"
+      ],
+      "keywords": [
+        "climate risk",
+        "green stocks",
+        "green bonds",
+        "carbon allowances",
+        "green cryptocurrencies",
+        "news sentiment",
+        "economic policy uncertainty"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；出版社頁面僅提供摘要、highlights 與部分預覽，未取得合法完整全文，因此未把未揭露資訊補寫成精讀結果。",
+        "【研究問題與動機】既有氣候風險指數因資料來源與建構方式不同而不一致；本文先以 autoencoder 彙整異質代理變數，再檢視氣候風險如何在熊市、常態與牛市及不同期限下重塑綠色資產互動，並測試新聞情緒與 EPU 的調節角色。",
+        "【研究變數】氣候風險（由 8 個代理變數輸入 autoencoder；預覽可確認的實體風險代理包括 GWI、NDI、PRI、ETI）、綠色股票、綠色債券、碳配額、綠色加密貨幣、新聞情緒（NS）、經濟政策不確定性（EPU）。其餘代理變數定義於可存取摘要中未完整報告。",
+        "【資料／市場／樣本】市場範圍、資料庫、樣本期間、資料頻率與樣本量：可存取摘要未報告。",
+        "【模型與估計】autoencoder 氣候風險指數；time-frequency QVAR；以 NS 與 EPU 的調節迴歸檢視外部資訊作用。穩健性檢驗：摘要未報告。",
+        "【主要結果】常態市場下 CR 降低綠色資產互動；熊市下抑制、牛市下增強。CR 的負向影響由短期轉為長期正向（摘要以超過 5 天描述長期轉折）；NS 在短期較像加速器，EPU 在長期較像穩定器。綠色加密貨幣主要為風險傳送者、綠色股票主要為接收者，綠債與碳配額相對孤立。以上為條件關聯／網絡方向，不宜改寫成結構因果。",
+        "【限制】作者限制：摘要未報告。其他限制：autoencoder 的可解釋性與代理變數選擇可能影響 CR 指數；未取得全文前無法核對資料頻率、滾動窗、分位數與頻帶設定；綠色加密貨幣的能源標籤亦可能忽略能源來源與全生命週期。",
+        "【與美智研究的關聯】5/5。重疊：氣候風險×綠色資產、time-frequency QVAR、熊／常／牛市場。可借鏡：多代理 CR 指數、NS/EPU 調節與配對網絡角色。主要差異：本文不是以 CPU 為唯一核心衝擊，也未在摘要中呈現 TVP-VAR-SV＋BK 的三層架構。可追蹤引用：time-frequency QVAR 與綠資產網絡文獻。",
+        "【APA 7】Wang, W.-Y.-Q., Xie, C., Li, X.-X., & Zhang, Z.-Y. (2026). How climate risk impacts interaction among green assets under varying market states: Evidence from a time-frequency QVAR model integrating an autoencoder. Finance Research Letters, 107, 110372. https://doi.org/10.1016/j.frl.2026.110372"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-05-ecr-85",
+      "title": "Multiscale connectedness between stocks, energy, and green bonds under economic and climate policy uncertainty: evidence from the G7",
+      "search_date": "2026-09-05",
+      "authors": "Houssem Eddine Belghouthi; Adel Boubaker",
+      "year": "2026",
+      "journal": "Economic Change and Restructuring, 59(4), Article 85",
+      "doi": "https://doi.org/10.1007/s10644-026-10042-4",
+      "citations": "0 次（OpenAlex，2026-09-05）",
+      "openalex_url": "https://openalex.org/W7167886868",
+      "publisher_url": "https://link.springer.com/article/10.1007/s10644-026-10042-4",
+      "reading_level": "摘要層級",
+      "abstract": "以 G7 股市、原油、潔淨能源與綠色債券為網絡，結合 quantile-frequency connectedness、wavelet quantile correlation、非參數分位數因果與 quantile-on-quantile regression，評估 GEPU、CPU 與 ESG 不確定性如何改變跨市場外溢。2015-08-03 至 2025-08-20 的結果顯示，連結度在極端熊／牛市明顯升高且以短期外溢為主；氣候與 ESG 不確定性的影響強於全球 EPU。",
+      "tags": [
+        "quantile-frequency connectedness",
+        "WQC",
+        "quantile causality",
+        "QQR",
+        "CPU",
+        "green bonds"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "潔淨能源",
+        "綠債/ESG",
+        "能源市場",
+        "金融市場",
+        "宏觀總體"
+      ],
+      "keywords": [
+        "G7",
+        "stocks",
+        "oil",
+        "clean energy",
+        "green bonds",
+        "climate policy uncertainty",
+        "ESG uncertainty"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；Springer 明示為訂閱內容預覽，未繞過付費牆。",
+        "【研究問題與動機】比較傳統股市、油市、潔淨能源與綠債在不同市場狀態與期限的外溢，並辨識 GEPU、CPU 與 ESGUI 對連結度的相對影響。",
+        "【研究變數】G7 國家股票指數、原油、潔淨能源、綠色債券、全球經濟政策不確定性、氣候政策不確定性與 ESG 相關不確定性。各指數供應商與精確定義在摘要未完整報告。",
+        "【資料／市場／樣本】G7；2015-08-03 至 2025-08-20。資料頻率與樣本量：摘要未報告。",
+        "【模型與估計】quantile-frequency connectedness、wavelet quantile correlation（WQC）、非參數 quantile causality、quantile-on-quantile regression（QQR）。多方法結果可交叉比較，但摘要未將其明確界定為穩健性檢驗。",
+        "【主要結果】極端熊市與牛市的連結度高於常態，且外溢主要集中短期；歐洲與日本股市通常為淨傳送者，美國、加拿大、油、潔淨能源與綠債多為淨接收者，但危機期會反轉。WQC 顯示長期依賴較強，quantile causality 以中位分位較突出；WilderHill 與加拿大是重要雙向樞紐。CPU 與 ESG 不確定性的關聯強於 GEPU。",
+        "【限制】作者限制：摘要未報告。其他限制：訂閱預覽不足以核對變數來源、分位數、頻帶與滾動窗；短期 connectedness 較強而 WQC 長期依賴較強是不同統計量，不能直接視為矛盾或因果。",
+        "【與美智研究的關聯】5/5。重疊：CPU、綠債、潔淨能源、分位數×頻率外溢。可借鏡：WQC＋quantile-frequency＋QQR 的多尺度驗證，以及 CPU/ESGUI/GEPU 比較。主要差異：本文未使用 TVP-VAR-SV，CPU 是不確定性解釋因素之一而非唯一系統核心。可追蹤引用：Ando 等的 quantile connectedness 與 WQC 文獻。",
+        "【APA 7】Belghouthi, H. E., & Boubaker, A. (2026). Multiscale connectedness between stocks, energy, and green bonds under economic and climate policy uncertainty: Evidence from the G7. Economic Change and Restructuring, 59(4), Article 85. https://doi.org/10.1007/s10644-026-10042-4"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-05-najef-102610",
+      "title": "Quantile connectedness among green and dirty cryptocurrencies and North American clean technology and ESG",
+      "search_date": "2026-09-05",
+      "authors": "Monica Singhania; Surabhi Seth; Chanchal Saini",
+      "year": "2026",
+      "journal": "The North American Journal of Economics and Finance, 83, 102610",
+      "doi": "https://doi.org/10.1016/j.najef.2026.102610",
+      "citations": "3 次（OpenAlex，2026-09-05）",
+      "openalex_url": "https://openalex.org/W7131824387",
+      "publisher_url": "https://www.sciencedirect.com/science/article/pii/S106294082600032X",
+      "reading_level": "摘要層級",
+      "abstract": "以能源效率區分綠色／非綠色加密貨幣，運用 quantile time-frequency connectedness 檢視其與北美 cleantech、ESG 股票的波動外溢，並加入總體金融不確定性與投組分析。2018–2025 年間，極端市場下短期外溢較高；Bitcoin、Ethereum、Cardano 的傳送／接收角色隨狀態改變，Ripple 較常為接收者；minimum connectedness portfolio 在高外溢狀態下提供較佳下行保護。",
+      "tags": [
+        "quantile time-frequency connectedness",
+        "green cryptocurrency",
+        "clean technology",
+        "ESG",
+        "portfolio optimization"
+      ],
+      "topics": [
+        "加密貨幣/數位金融",
+        "潔淨能源",
+        "綠債/ESG",
+        "金融市場"
+      ],
+      "keywords": [
+        "Bitcoin",
+        "Ethereum",
+        "Cardano",
+        "Ripple",
+        "proof of work",
+        "proof of stake",
+        "cleantech",
+        "ESG"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；ScienceDirect 顯示需機構存取／購買，僅依公開摘要、highlights 與合法預覽整理。",
+        "【研究問題與動機】能源密集型與節能型加密貨幣是否和北美 cleantech／ESG 股票呈現不同的尾部與期限外溢？Ethereum 於 2022-09-15 由 PoW 轉 PoS 是否伴隨角色變化？",
+        "【研究變數】Bitcoin（PoW／dirty）、Ripple 與 Cardano（energy-efficient／clean）、Ethereum（PoW→PoS 轉型）、北美 cleantech 與 ESG 股票指數、總體金融不確定性指標及投組績效。穩定幣因錨定造成報酬變異過低而排除。",
+        "【資料／市場／樣本】北美氣候導向股票與全球主要加密資產；2018–2025，包含 COVID-19、俄烏戰爭、2022–2023 緊縮、Terra-Luna／FTX 與 Ethereum Merge。資料頻率與樣本量：公開摘要未報告。",
+        "【模型與估計】rolling quantile time-frequency connectedness；spillover determinants analysis；minimum connectedness portfolio，並與 minimum variance／minimum correlation 投組比較。完整分位數、頻帶與滾動窗：摘要未報告。",
+        "【主要結果】連結度隨分位數與期限改變，壓力期短期外溢上升；BTC、ETH、ADA 的傳送／接收角色會反轉，XRP 較常是接收者；cleantech 與 ESG 股票也具狀態依賴角色。minimum connectedness portfolio 在高外溢狀態下的下行保護優於傳統比較投組。",
+        "【限制】作者限制：摘要未報告。其他限制：以共識機制／能源效率將幣種分為 clean/dirty，可能忽略能源來源、硬體與全生命週期排放，存在『clean crypto』標籤過度簡化風險；北美股市範圍限制外部效度。",
+        "【與美智研究的關聯】4/5。重疊：綠色資產、clean crypto、time-frequency quantile connectedness、極端市場投組含意。可借鏡：把 Ethereum Merge 當結構事件，並檢驗 clean-crypto 標籤是否可能形成漂綠敘事。主要差異：核心不是 CPU，且全文未公開。",
+        "【APA 7】Singhania, M., Seth, S., & Saini, C. (2026). Quantile connectedness among green and dirty cryptocurrencies and North American clean technology and ESG. The North American Journal of Economics and Finance, 83, 102610. https://doi.org/10.1016/j.najef.2026.102610"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-05-egyr-1403",
+      "title": "Climate change, renewable energy, and Gulf Cooperation Council stock market dynamics: A quantile vector autoregression and wavelet quantile framework",
+      "search_date": "2026-09-05",
+      "authors": "Alanoud Al-Maadid; Mohamed Sami Ben Ali; Ijaz Younis",
+      "year": "2025",
+      "journal": "Energy Reports, 14, 1403–1423",
+      "doi": "https://doi.org/10.1016/j.egyr.2025.07.035",
+      "citations": "13 次（OpenAlex，2026-09-05）",
+      "openalex_url": "https://openalex.org/W4412657012",
+      "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S2352484725004573",
+      "reading_level": "全文精讀",
+      "abstract": "以 GCC 六國 MSCI 指數、區域溫度與 WilderHill Clean Energy Index 為系統，使用 QVAR 與 wavelet quantile correlation 分析 2014-08-29 至 2023-12 的分位數與期限異質性。Saudi Arabia、UAE 與 Kuwait 在多種市場狀態下較具系統影響力；Oman、Bahrain 等較脆弱。再生能源在下行期略具穩定作用，而溫度與市場報酬的關聯在中長期更強。",
+      "tags": [
+        "QVAR",
+        "wavelet quantile correlation",
+        "climate change",
+        "renewable energy",
+        "GCC",
+        "network connectedness"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "潔淨能源",
+        "金融市場",
+        "宏觀總體"
+      ],
+      "keywords": [
+        "temperature",
+        "WilderHill Clean Energy Index",
+        "MSCI",
+        "Saudi Arabia",
+        "UAE",
+        "Kuwait",
+        "Qatar",
+        "Oman",
+        "Bahrain"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】全文精讀；出版社標示 open access（OpenAlex 記錄為 gold OA），並以公開可讀全文頁核對資料、方法、結果與附錄。未下載本地 PDF。",
+        "【研究問題與動機】石油依賴的 GCC 在氣候變化與能源轉型下，溫度、再生能源與六國股市報酬如何於尾部狀態及不同期限傳導？",
+        "【研究變數】GCC 區域溫度（TEMP，Kelvin）、WilderHill Clean Energy Index（ECOI）、Saudi Arabia、UAE、Kuwait、Qatar、Oman、Bahrain 的 MSCI 國家指數報酬。",
+        "【資料／市場／樣本】GCC 六國；2014-08-29 至 2023-12；市場資料為日頻，最終樣本量未明確報告。ECOI 與 GCC MSCI 來自 Thomson Reuters DataStream；可讀文本未清楚標出溫度資料庫名稱。",
+        "【模型與估計】QVAR connectedness；重點分位數 τ=0.05、0.50、0.90；網絡傳送／接收角色。穩健性包含替代 rolling window 與 10-step-ahead 設定，以及 wavelet quantile correlation 對短、中、長期關聯的檢查。",
+        "【主要結果】Saudi Arabia、UAE、Kuwait 在多數狀態下具較強淨外溢／系統影響力；Oman、Qatar、Bahrain 與 ECOI 多偏接收者。ECOI 在下行期略具緩衝，溫度與 GCC 報酬的關聯在中長期較強；UAE 與 Saudi Arabia 的再生能源—市場關聯長期較明顯。以上為連結度與相關性證據，不等同因果。",
+        "【限制】作者未在結論中獨立列出限制。其他限制：區域溫度是粗略氣候代理，ECOI 為全球潔淨能源指數而非 GCC 本地產業指數；樣本止於 2023 年，且淨接收者／正 NET 的經濟詮釋需與 safe-haven 檢驗分開。",
+        "【與美智研究的關聯】4/5。重疊：氣候代理×綠能×股市、QVAR、分位數與時間尺度。可借鏡：QVAR 後用 WQC 做多尺度驗證、τ=0.05/0.50/0.90 的尾部設計。主要差異：以實體溫度而非 CPU，且沒有 TVP-VAR-SV／BK。可追蹤引用：GCC 氣候金融與 wavelet quantile 文獻。",
+        "【APA 7】Al-Maadid, A., Ben Ali, M. S., & Younis, I. (2025). Climate change, renewable energy, and Gulf Cooperation Council stock market dynamics: A quantile vector autoregression and wavelet quantile framework. Energy Reports, 14, 1403–1423. https://doi.org/10.1016/j.egyr.2025.07.035"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-05-igd-100324",
+      "title": "Extreme frequency connectedness between clean energy, fossil fuel, and G7 stock markets: Portfolio management implications",
+      "search_date": "2026-09-05",
+      "authors": "Houssem Eddine Belghouthi; Walid Mensi; Khamis Hamed Al-Yahyaee",
+      "year": "2026",
+      "journal": "Innovation and Green Development, 5(1), 100324",
+      "doi": "https://doi.org/10.1016/j.igd.2026.100324",
+      "citations": "5 次（OpenAlex，2026-09-05）",
+      "openalex_url": "https://openalex.org/W7118932637",
+      "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S2949753126000019",
+      "reading_level": "全文精讀",
+      "abstract": "以 G7 股市、四種油品與三個潔淨能源指數建立 quantile-frequency connectedness 網絡，並分析投組對沖。2015-03-02 至 2025-03-21 的結果顯示，尾部分位的連結度接近 100%，中位分位低於 60%，且熊市外溢強於牛市、短期外溢高於長期。G7 股市多為傳送者，潔淨能源在熊市多為接收者；油品長期角色可能由接收轉為傳送。",
+      "tags": [
+        "quantile frequency connectedness",
+        "QVAR",
+        "G7",
+        "clean energy",
+        "oil",
+        "portfolio hedging"
+      ],
+      "topics": [
+        "潔淨能源",
+        "能源市場",
+        "金融市場",
+        "方法論"
+      ],
+      "keywords": [
+        "Brent",
+        "WTI",
+        "gasoline",
+        "heating oil",
+        "S&P GCE",
+        "RENIXX",
+        "WilderHill",
+        "minimum connectedness portfolio"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】全文精讀；出版社標示 open access，OpenAlex 記錄為 gold OA／CC BY-NC-ND，並以公開全文段落核對模型、樣本、圖表結果與投組數值。未下載本地 PDF。",
+        "【研究問題與動機】G7 股票、傳統油品與潔淨能源的外溢是否因熊／常／牛市及投資期限而異？何種能源資產能改善股市投組風險？",
+        "【研究變數】G7 股票指數；Brent、WTI、Gasoline、Heating Oil；S&P Global Clean Energy、RENIXX、WilderHill 三個潔淨能源指數。",
+        "【資料／市場／樣本】G7；2015-03-02 至 2025-03-21；日資料；樣本量未直接報告。可讀段落未完整列出各序列資料供應商。",
+        "【模型與估計】quantile-frequency connectedness；100 日 rolling-window QVAR、1 階落後、10-step forecast；短期 1–5 日與長期 5 日以上頻帶；網絡分析。投組比較 MVP、MCP、MCoP 與 hedging effectiveness。",
+        "【主要結果】極端分位 TCI 接近 100%，中位分位低於 60%；熊市與短期外溢更強。G7 股市多為淨傳送者，潔淨能源在熊市多為淨接收者；油品可能由短期接收者轉為長期傳送者。MVP 下油品降低波動貢獻約 89%–94%，潔淨能源約 76%–83%；後者風險調整後報酬表現較佳。",
+        "【限制】作者建議未來擴展到新興經濟體。其他限制：僅 G7 與特定指數限制外部效度；100 日窗與頻帶界線可能影響角色判定；淨接收者本身不是 safe-haven 的充分證據，仍需壓力期相關／尾部依賴檢驗。",
+        "【與美智研究的關聯】4/5。重疊：QVAR、頻率分解、尾部連結度與投組含意。可借鏡：100 日窗、1 lag、10-step 與 1–5 日頻帶設定，以及不同投組對沖比較。主要差異：未納入 CPU 或氣候風險指標，也不是 TVP-VAR-SV＋BK。",
+        "【APA 7】Belghouthi, H. E., Mensi, W., & Al-Yahyaee, K. H. (2026). Extreme frequency connectedness between clean energy, fossil fuel, and G7 stock markets: Portfolio management implications. Innovation and Green Development, 5(1), 100324. https://doi.org/10.1016/j.igd.2026.100324"
+      ]
+    },
     {
       "title": "Volatility and co-movement between ESG and non-ESG futures and uncertainty indices: Evidence from wavelet coherence and GARCH models",
       "authors": "Mosionek-Schweda, Magdalena; Chylińska, Marta",
@@ -3748,58 +3999,43 @@
       "search_date": "2026-06-10",
       "authors": "Md Qamruzzaman; Abdulrahman Alomair; Mohammed Alomair; Sylvia Kor",
       "year": "2026",
-      "journal": "Quality & Quantity",
-      "doi": "//doi.org/10.1007/s11135026026683",
-      "citations": "0",
-      "openalex_url": "//openalex.org/W7140109798",
-      "abstract": "-  研究氣候政策不確定性對能源與金融市場波動外溢的影響，結合 TVP-VAR-SV、BK 頻率連結度與 QVAR 模型。",
+      "journal": "Quality & Quantity, 60(3), 10765–10804",
+      "doi": "https://doi.org/10.1007/s11135-026-02668-3",
+      "citations": "OpenAlex 未索引（2026-09-05）",
+      "openalex_url": "",
+      "abstract": "以 TVP-VAR-SV、Baruník–Křehlík 頻率分解與 QVAR 整合分析 CPU 對歐洲電力、能源、碳與金融資產外溢的期限與尾部異質性。文章報告 CPU 在長期與下行情境的放大作用最強；惟出版社全文中的樣本期間、觀察資料與合成序列描述互相衝突，引用前必須再核對資料表與重現材料。",
       "tags": [
+        "TVP-VAR-SV",
+        "Baruník–Křehlík",
         "QVAR",
-        "TVP-VAR"
+        "CPU",
+        "DCC-GARCH",
+        "GAS copula"
       ],
       "topics": [
         "氣候風險/政策",
+        "能源市場",
+        "碳市場/碳交易",
         "金融市場",
-        "宏觀總體"
+        "宏觀總體",
+        "方法論"
       ],
       "type": "search",
       "notes": [
-        "作者：Md Qamruzzaman; Abdulrahman Alomair; Mohammed Alomair; Sylvia Kor",
-        "年份：2026",
-        "期刊：Quality & Quantity",
-        "主題：氣候風險/政策、金融市場、宏觀總體",
-        "方法：QVAR (Quantile Vector Autoregression) + TVP-VAR (Time-Varying Parameter VAR) + VAR (Vector Autoregression)",
-        "---",
-        "【摘要】-  研究氣候政策不確定性對能源與金融市場波動外溢的影響，結合 TVP-VAR-SV、BK 頻率連結度與 QVAR 模型。",
-        "發現：-  研究氣候政策不確定性對能源與金融市場波動外溢的影響",
-        "---",
-        "DOI：//doi.org/10.1007/s11135026026683",
-        "被引次數：0"
+        "【閱讀層級】全文精讀，但列為資料品質警示；DOI 與 Springer 書目可核驗，OpenAlex 截至 2026-09-05 查無有效紀錄。",
+        "【研究問題與動機】CPU 如何改變歐洲電力、化石能源、碳與金融資產間的時變、期限別與尾部外溢？動態、頻域與分位數模型是否給出一致的風險傳導圖像？",
+        "【研究變數】德國日前電價、Brent、天然氣、煤、EUA 碳價、CPU、STOXX Europe 600、Bitcoin、Ethereum、VIX、EUR/USD。文中另提法國、西班牙、Nordic bidding zones 與 TTF 作穩健性替代。",
+        "【資料／市場／樣本】ENTSO-E、World Bank／IMF commodity prices、EIA／FRED、PolicyUncertainty.org／Figshare 等。重要警示：全文一處寫 2010-01 至 2023-12，另一處又寫 2015-01 至 2024-12；最終樣本、頻率轉換與樣本量未能一致核對。",
+        "【模型與估計】TVP-VAR-SV；Baruník–Křehlík 短／中／長期 connectedness；QVAR 尾部 connectedness；DCC-GARCH 與 GAS-copula 用於動態對沖比較。",
+        "【主要結果】作者報告 CPU 在長期限與下行情境是較強的外溢放大者；短期主要由電力、油、氣的實體能源衝擊主導，中期逐漸轉向碳與股票，牛市則由加密資產與股票較常傳送。這些是模型內的方向性外溢，不等同識別後的政策因果。",
+        "【作者限制】歷史 CPU 指數可能無法完整捕捉即時談判與前瞻政策；異質市場與頻率協調會造成測量限制。",
+        "【額外品質警示】圖表敘述出現『synthetic mean-reverting VIX』與 AR(1) CPU、甚至模擬衝擊字樣，與資料來源段落宣稱的觀察資料不一致。應取得資料／程式與原始表格核對後，才把結果用於研究設計或文獻論證。",
+        "【與美智研究的關聯】5/5（主題與方法完全重疊，但證據可信度暫降）。可借鏡三層 TVP-VAR-SV＋BK＋QVAR 架構與 hedging 模組；主要差異與風險是資料建構及樣本期間不一致。",
+        "【APA 7】Qamruzzaman, M., Alomair, A., Alomair, M., & Kor, S. (2026). Time-varying, frequency-domain, and quantile spillovers across energy and financial markets under climate policy uncertainty: Evidence from TVP-VAR-SV, BK, and QVAR models. Quality & Quantity, 60(3), 10765–10804. https://doi.org/10.1007/s11135-026-02668-3"
       ],
-      "viewpoints": [
-        {
-          "claim": "主題：氣候風險/政策、金融市場、宏觀總體",
-          "evidence": "主題：氣候風險/政策、金融市場、宏觀總體",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【摘要】-  研究氣候政策不確定性對能源與金融市場波動外溢的影響，結合 TVP-VAR-SV、BK 頻率連結度與 QVAR 模型。",
-          "evidence": "【摘要】-  研究氣候政策不確定性對能源與金融市場波動外溢的影響，結合 TVP-VAR-SV、BK 頻率連結度與 QVAR 模型。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "發現：-  研究氣候政策不確定性對能源與金融市場波動外溢的影響",
-          "evidence": "發現：-  研究氣候政策不確定性對能源與金融市場波動外溢的影響",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    Timevaryingfreq[\"📄 Time-varying, frequency-domain, and quantile spill\"]\n    style Timevaryingfreq fill:#2563eb,color:#fff,font-weight:bold\n    vp0主題氣候風險政策[\"💡 主題：氣候風險/政策、金融市場、宏觀總體\"]\n    style vp0主題氣候風險政策 fill:#fef3c7,stroke:#d97706\n    Timevaryingfreq --> vp0主題氣候風險政策\n    vp1摘要研究氣[\"💡 【摘要】-  研究氣候政策不確定性對能源與金融市場波動外溢的影響，結合 TVP-\"]\n    style vp1摘要研究氣 fill:#fef3c7,stroke:#d97706\n    Timevaryingfreq --> vp1摘要研究氣\n    vp2發現研究氣候[\"💡 發現：-  研究氣候政策不確定性對能源與金融市場波動外溢的影響\"]\n    style vp2發現研究氣候 fill:#fef3c7,stroke:#d97706\n    Timevaryingfreq --> vp2發現研究氣候\n    vp0主題氣候風險政策 --- vp1摘要研究氣\n    vp1摘要研究氣 --- vp2發現研究氣候"
+      "openalex_status": "以 DOI 與標題查詢 OpenAlex 均無有效紀錄（2026-09-05）",
+      "publisher_url": "https://link.springer.com/article/10.1007/s11135-026-02668-3",
+      "reading_level": "全文精讀（含資料品質警示）"
     },
     {
       "id": "2026-06-10-19",
@@ -4817,77 +5053,6 @@
         }
       ],
       "diagram": "graph TD\n    ICT擴散綠色能源生態足跡[\"📄 ICT 擴散 × 綠色能源-生態足跡 — QARDL\"]\n    style ICT擴散綠色能源生態足跡 fill:#2563eb,color:#fff,font-weight:bold\n    vp0研究方法QARDL[\"💡 研究方法：QARDL (Quantile Autoregressive Dist\"]\n    style vp0研究方法QARDL fill:#fef3c7,stroke:#d97706\n    ICT擴散綠色能源生態足跡 --> vp0研究方法QARDL\n    vp1研究主題潔淨能源[\"💡 研究主題：潔淨能源、AI/科技\"]\n    style vp1研究主題潔淨能源 fill:#fef3c7,stroke:#d97706\n    ICT擴散綠色能源生態足跡 --> vp1研究主題潔淨能源\n    vp0研究方法QARDL --- vp1研究主題潔淨能源"
-    },
-    {
-      "id": "2026-06-07-2",
-      "title": "能源 × 金融市場 × 氣候政策不確定性 — TVP-VAR-SV, BK, QVAR",
-      "search_date": "2026-06-07",
-      "authors": "Md Qamruzzaman, Abdulrahman Alomair, Mohammed Alomair, Sylvia Kor",
-      "year": "",
-      "journal": "Quality & Quantity (2026)",
-      "doi": "//doi.org/10.1007/s11135026026683",
-      "citations": "",
-      "openalex_url": "",
-      "abstract": "This study investigates time-varying, frequency-domain, and quantile spillovers across energy and financial markets under climate policy uncertainty using TVP-VAR-SV, BK, and QVAR models. Results show asymmetric spillover intensities across different market conditions.",
-      "tags": [
-        "QVAR",
-        "TVP-VAR"
-      ],
-      "topics": [
-        "氣候風險/政策",
-        "金融市場",
-        "宏觀總體"
-      ],
-      "type": "search",
-      "notes": [
-        "作者：Md Qamruzzaman, Abdulrahman Alomair, Mohammed Alomair, Sylvia Kor",
-        "期刊：Quality & Quantity (2026)",
-        "主題：氣候風險/政策、金融市場、宏觀總體",
-        "方法：QVAR (Quantile Vector Autoregression) + TVP-VAR (Time-Varying Parameter VAR) + VAR (Vector Autoregression)",
-        "變數：能源價格 / Energy Price、不確定性指數 / Uncertainty Index",
-        "---",
-        "【摘要】This study investigates time-varying, frequency-domain, and quantile spillovers across energy and financial markets under climate policy uncertainty using TVP-VAR-SV, BK, and QVAR models. Results show asymmetric spillover intensities across different market conditions.",
-        "---",
-        "DOI：//doi.org/10.1007/s11135026026683"
-      ],
-      "viewpoints": [
-        {
-          "claim": "主題：氣候風險/政策、金融市場、宏觀總體",
-          "evidence": "主題：氣候風險/政策、金融市場、宏觀總體",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "研究方法：QVAR (Quantile Vector Autoregression) + TVP-VAR (Time-Varying Parameter VAR) + V",
-          "evidence": "QVAR (Quantile Vector Autoregression) + TVP-VAR (Time-Varying Parameter VAR) + VAR (Vector Autoregression)",
-          "confidence": "mid",
-          "source": "方法",
-          "connections": []
-        },
-        {
-          "claim": "研究主題：氣候風險/政策、金融市場、宏觀總體",
-          "evidence": "氣候風險/政策、金融市場、宏觀總體",
-          "confidence": "mid",
-          "source": "主題",
-          "connections": []
-        },
-        {
-          "claim": "主要變數：能源價格 / Energy Price、不確定性指數 / Uncertainty Index",
-          "evidence": "能源價格 / Energy Price、不確定性指數 / Uncertainty Index",
-          "confidence": "mid",
-          "source": "變數",
-          "connections": []
-        },
-        {
-          "claim": "This study investigates time-varying, frequency-domain, and quantile spillovers across energy and financial markets unde…",
-          "evidence": "This study investigates time-varying, frequency-domain, and quantile spillovers across energy and financial markets under climate policy uncertainty using TVP-VAR-SV, BK, and QVAR models. Results show asymmetric spillover intensities across different market conditions.",
-          "confidence": "mid",
-          "source": "摘要",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    能源金融市場氣候政策不確定性[\"📄 能源 × 金融市場 × 氣候政策不確定性 — TVP-VAR-SV, BK, QVAR\"]\n    style 能源金融市場氣候政策不確定性 fill:#2563eb,color:#fff,font-weight:bold\n    vp0主題氣候風險政策[\"💡 主題：氣候風險/政策、金融市場、宏觀總體\"]\n    style vp0主題氣候風險政策 fill:#fef3c7,stroke:#d97706\n    能源金融市場氣候政策不確定性 --> vp0主題氣候風險政策\n    vp1研究方法QVAR[\"💡 研究方法：QVAR (Quantile Vector Autoregressio\"]\n    style vp1研究方法QVAR fill:#fef3c7,stroke:#d97706\n    能源金融市場氣候政策不確定性 --> vp1研究方法QVAR\n    vp2研究主題氣候風險[\"💡 研究主題：氣候風險/政策、金融市場、宏觀總體\"]\n    style vp2研究主題氣候風險 fill:#fef3c7,stroke:#d97706\n    能源金融市場氣候政策不確定性 --> vp2研究主題氣候風險\n    vp3主要變數能源價格[\"💡 主要變數：能源價格 / Energy Price、不確定性指數 / Uncert\"]\n    style vp3主要變數能源價格 fill:#fef3c7,stroke:#d97706\n    能源金融市場氣候政策不確定性 --> vp3主要變數能源價格\n    vp4Thisstudy[\"💡 This study investigates time-varying, fr\"]\n    style vp4Thisstudy fill:#fef3c7,stroke:#d97706\n    能源金融市場氣候政策不確定性 --> vp4Thisstudy\n    vp0主題氣候風險政策 --- vp1研究方法QVAR\n    vp1研究方法QVAR --- vp2研究主題氣候風險\n    vp2研究主題氣候風險 --- vp3主要變數能源價格"
     },
     {
       "id": "2026-06-07-19",
