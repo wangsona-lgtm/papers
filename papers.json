@@ -1,6 +1,6 @@
 {
-  "total": 116,
-  "updated": "2026-09-05 20:17:28 +08:00",
+  "total": 122,
+  "updated": "2026-09-06 20:15:12 +08:00",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,312 @@
     "金融市場"
   ],
   "papers": [
+    {
+      "id": "qvar-2026-09-06-iref-104428",
+      "title": "Quantile time-frequency spillovers among climate policy uncertainty, energy markets, and stock markets",
+      "search_date": "2026-09-06",
+      "authors": "Zhifang He; Wanchuan Qian; Badir Miftah; Mohammad Zoynul Abedin",
+      "year": "2025",
+      "journal": "International Review of Economics & Finance, 103, Article 104428",
+      "doi": "https://doi.org/10.1016/j.iref.2025.104428",
+      "citations": "未取得（OpenAlex 尚未收錄，2026-09-06）",
+      "openalex_url": "",
+      "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S105905602500591X",
+      "reading_level": "摘要層級",
+      "abstract": "以全球氣候政策不確定性（CPU）、煤、原油、天然氣、潔淨能源及中美股市建立 QVAR-DY 與 QVAR-BK 分位數—頻率外溢網絡。總連結度主要由短期衝擊主導，極端市場及 COVID-19 期間更強；CPU 由短期淨接收者轉為中長期淨傳送者，中國股市對 CPU 的短期外溢尤其突出。",
+      "tags": [
+        "QVAR-DY",
+        "QVAR-BK",
+        "quantile time-frequency connectedness",
+        "climate policy uncertainty",
+        "energy markets",
+        "stock markets"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "潔淨能源",
+        "能源市場",
+        "金融市場",
+        "宏觀總體"
+      ],
+      "keywords": [
+        "global climate policy uncertainty",
+        "coal",
+        "crude oil",
+        "natural gas",
+        "clean energy",
+        "China stock market",
+        "US stock market"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；以出版社公開摘要與 Crossref 書目核驗。出版社標示 open access，但本次未取得可完整解析的全文，因此不把摘要外資訊當作全文結論。",
+        "【研究問題與動機】全球 CPU 如何在不同市場狀態與投資期限中，與化石能源、潔淨能源以及中美股市形成風險外溢網絡？",
+        "【研究變數】全球 CPU；煤、原油、天然氣與潔淨能源市場；中國與美國股市。各指數的精確名稱與定義在可取得摘要中未報告。",
+        "【資料／市場／樣本】全球 CPU、能源市場及中美股市；樣本期間、資料來源、頻率與樣本量在可取得摘要中未報告。",
+        "【模型與估計】QVAR-DY 分位數連結度與 QVAR-BK（Baruník–Křehlík）頻率分解；估計分位數、落後期、預測期與穩健性設定在可取得摘要中未報告。",
+        "【主要結果】總連結度以短期衝擊為主，極端市場尤其 COVID-19 期間更高。常態市場中潔淨能源與美國股市為淨傳送者；CPU 從短期淨接收者轉為中長期淨傳送者，中國股市對 CPU 的短期外溢較其他市場更強；極端市場中煤為傳送者、潔淨能源為接收者。以上是連結度證據，不等同結構因果。",
+        "【限制】作者限制在可取得摘要中未報告。其他限制：無法由摘要核對樣本、變數建構與穩健性；QVAR-BK 描述預測性外溢與期限配置，不能單獨識別 CPU 的因果衝擊。",
+        "【與美智研究的關聯】5/5。重疊：CPU×能源金融市場、QVAR、DY 與 BK、尾部與頻率異質性。可借鏡：把 CPU 的短期接收／中長期傳送角色作為待檢驗命題，並比較中國與美國市場來源。主要差異：摘要未顯示 TVP-VAR-SV，且未涵蓋綠債與碳價。可追蹤引用：CPU—能源—股市 QVAR-BK 文獻鏈。",
+        "【APA 7】He, Z., Qian, W., Miftah, B., & Abedin, M. Z. (2025). Quantile time-frequency spillovers among climate policy uncertainty, energy markets, and stock markets. International Review of Economics & Finance, 103, 104428. https://doi.org/10.1016/j.iref.2025.104428"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-06-eneco-107919",
+      "title": "Climate policy uncertainty, clean energy and energy metals: A quantile time-frequency spillover study",
+      "search_date": "2026-09-06",
+      "authors": "Sen Qiao; Yuan Chang; Xi Xi Mai; Yi Jing Dang",
+      "year": "2024",
+      "journal": "Energy Economics, 139, Article 107919",
+      "doi": "https://doi.org/10.1016/j.eneco.2024.107919",
+      "citations": "41 次（OpenAlex，2026-09-06）",
+      "openalex_url": "https://openalex.org/W4402621330",
+      "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S0140988324006273",
+      "reading_level": "摘要層級",
+      "abstract": "以 TVP-QVAR 結合時間—頻率外溢指標分析 CPU、潔淨能源與能源金屬。外溢沿條件分配呈 V 型，右尾風險較強；上分位主要由短期外溢主導，下分位則以長期為主。CPU 是跨市場風險路徑的重要節點，且潔淨能源與能源金屬的傳送者角色隨分位數反轉。",
+      "tags": [
+        "TVP-QVAR",
+        "quantile time-frequency connectedness",
+        "climate policy uncertainty",
+        "clean energy",
+        "energy metals",
+        "network topology"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "潔淨能源",
+        "原物料/商品",
+        "能源市場",
+        "金融市場"
+      ],
+      "keywords": [
+        "solar",
+        "wind",
+        "bio/clean fuels",
+        "fuel cell",
+        "aluminum",
+        "silver",
+        "copper",
+        "nickel",
+        "palladium",
+        "zinc",
+        "rare earths"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；以出版社摘要、Crossref 與 OpenAlex 核驗書目和主要結論，未取得合法可解析全文。",
+        "【研究問題與動機】CPU、潔淨能源與能源轉型所需金屬的風險傳染，是否隨條件分位數與投資期限改變，且跨市場路徑如何反轉？",
+        "【研究變數】CPU；NASDAQ OMX Solar、Wind、Bio/Clean Fuels、Fuel Cell 指數；鋁、銀、銅、鎳、鈀、鋅與稀土（REMX）。精確報酬／波動轉換在可取得摘要中未報告。",
+        "【資料／市場／樣本】全球潔淨能源與能源金屬市場；資料來源、樣本期間、頻率與樣本量在可取得摘要中未報告。",
+        "【模型與估計】time-varying parameter QVAR 與時間—頻率外溢指標、網絡拓撲分析；具體分位數、頻帶切點、落後期、預測期與穩健性在摘要中未報告。",
+        "【主要結果】外溢在條件分配呈 V 型，右尾更強；外部極端事件會使風險傳染跳升。上分位由短期外溢主導，下分位由長期外溢主導。低分位潔淨能源是風險來源，高分位能源金屬是風險來源；CPU 是重要路徑節點。這些為風險傳染／連結度結果，不等同已識別因果。",
+        "【限制】作者限制在可取得摘要中未報告。其他限制：樣本與資料細節無法由摘要核對；能源金屬與潔淨能源指數的組成可能影響網絡角色，且分位數外溢不能直接證明政策衝擊因果。",
+        "【與美智研究的關聯】5/5。重疊：CPU、TVP-QVAR、尾部與時間—頻率異質性。可借鏡：V 型分位數模式、上下尾短長期主導反轉，以及 CPU 作為傳染路徑節點的網絡命題。主要差異：研究資產為潔淨能源與能源金屬，未使用綠債／碳價與 TVP-VAR-SV。可追蹤引用：CPU—能源金屬—潔淨能源尾部傳染。",
+        "【APA 7】Qiao, S., Chang, Y., Mai, X. X., & Dang, Y. J. (2024). Climate policy uncertainty, clean energy and energy metals: A quantile time-frequency spillover study. Energy Economics, 139, 107919. https://doi.org/10.1016/j.eneco.2024.107919"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-06-fbj-177",
+      "title": "Spillover connectedness among climate risk, cleantech and green bonds: evidence from quantile and frequency-dependent approach",
+      "search_date": "2026-09-06",
+      "authors": "Thomas Adjei Kuffour; Patrick Kwashie Akorsu; Peterson Owusu Junior",
+      "year": "2026",
+      "journal": "Future Business Journal, 12(1), Article 177",
+      "doi": "https://doi.org/10.1186/s43093-026-00884-9",
+      "citations": "未取得（OpenAlex 尚未收錄，2026-09-06）",
+      "openalex_url": "",
+      "fulltext_url": "https://link.springer.com/article/10.1186/s43093-026-00884-9",
+      "reading_level": "全文精讀",
+      "abstract": "以 2017–2024 日資料及 QVAR-GFEVD/BK 頻率分解，研究實體與轉型氣候風險、綠債及八個 CleanTech 部門。尾部連結度顯著高於中位數；氣候風險短期吸收衝擊，卻在中長期轉為主要傳送者。生質燃料與地熱多為傳送者，風能、太陽能、水處理與綠債多為接收者。",
+      "tags": [
+        "QVAR",
+        "GFEVD",
+        "Baruník–Křehlík",
+        "quantile-frequency connectedness",
+        "physical climate risk",
+        "transition climate risk",
+        "green bonds",
+        "CleanTech"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "潔淨能源",
+        "綠債/ESG",
+        "金融市場"
+      ],
+      "keywords": [
+        "solar",
+        "wind",
+        "biofuels",
+        "geothermal",
+        "smart transportation",
+        "green buildings",
+        "smart grids",
+        "water filtration"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】全文精讀；出版社完整 HTML 為 CC BY 4.0 開放取用，並用 Crossref 核驗 DOI、作者、卷期與文章號。未下載本地 PDF。",
+        "【研究問題與動機】實體／轉型氣候風險、綠債與細分 CleanTech 部門的衝擊傳遞，如何隨熊市、常態、牛市及短中長期而變？細分部門能否揭露聚合 CleanTech 指數掩蓋的異質性？",
+        "【研究變數】Physical Risk Index（PRI）、Transition Risk Index（TRI）、S&P 綠債指數，以及太陽能、風能、生質燃料、地熱、智慧交通、綠建築、智慧電網、水處理等八個 CleanTech 指數之日報酬。",
+        "【資料／市場／樣本】全球市場；2017–2024；日頻，樣本量未明確報告。PRI/TRI 取自 ISETS Energy Finance Network，CleanTech 指數取自 EquityRT，綠債取自 S&P；共同交易日對齊，缺值依情況插值或 listwise deletion。",
+        "【模型與估計】QVAR 於 τ=0.05、0.50、0.95；GFEVD 預測期 H=10；BK 頻率分解為短期 1–5 日、中期 5–22 日、長期 22 日以上；AIC/BIC 選落後期。穩健性使用替代落後期、預測期及分位數敏感度；ERS 單根與 Shapiro–Wilk 診斷。",
+        "【主要結果】總體尾部連結度遠高於中位數；5% 分位總外溢指標為 95.71%。PRI/TRI 短期為接收者，但中期與長期轉為主要傳送者；5% 分位中期 TRI/PRI 淨傳送約 13.57%/10.15%，長期約 8.20%/5.88%。生質燃料與地熱多為傳送者，風能、太陽能、水處理及綠債多為接收者；淨接收者身分僅表示潛在分散效果，不能直接當作避險／安全港證據。",
+        "【限制】作者明確提醒淨接收者不等於正式 hedge 或 safe haven，仍需相關／依賴結構檢驗。其他限制：樣本始於 2017、缺值處理混用插值與刪除、指數層級資料無法識別公司或國家異質性；QVAR-GFEVD 為預測性連結度而非結構因果。",
+        "【與美智研究的關聯】5/5。重疊：氣候風險×綠色資產、QVAR、BK、尾部與時間尺度。可借鏡：PRI/TRI 分拆、1–5／5–22／22+ 日頻帶，以及短期接收轉中長期傳送的可檢驗命題。主要差異：未納入 CPU 與 TVP-VAR-SV，且使用 CleanTech 部門而非多類綠色資產。可追蹤引用：Wang et al. (2023) 與 Liu et al. (2025) 的氣候—綠色金融連結度文獻。",
+        "【APA 7】Kuffour, T. A., Akorsu, P. K., & Owusu Junior, P. (2026). Spillover connectedness among climate risk, cleantech and green bonds: Evidence from quantile and frequency-dependent approach. Future Business Journal, 12, Article 177. https://doi.org/10.1186/s43093-026-00884-9"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-06-pej-387",
+      "title": "Connectedness among green sectoral equities under extreme and normal market conditions: evidence from a quantile VAR approach",
+      "search_date": "2026-09-06",
+      "authors": "Nasir Nadeem; Imran Abbas Jadoon; Faheem Aslam; Paulo Ferreira",
+      "year": "2026",
+      "journal": "Portuguese Economic Journal, 25(3), 387–413",
+      "doi": "https://doi.org/10.1007/s10258-026-00293-4",
+      "citations": "未取得（OpenAlex 尚未收錄，2026-09-06）",
+      "openalex_url": "",
+      "fulltext_url": "https://link.springer.com/article/10.1007/s10258-026-00293-4",
+      "reading_level": "全文精讀",
+      "abstract": "使用 2010-10-15 至 2023-09-30 的 12 個 NASDAQ OMX 綠色經濟部門日指數與 QVAR，發現總連結度在 0.05 與 0.95 尾部明顯高於中位數。能源效率、水與回收在常態及牛市為主要傳送者；熊市時能源效率、綠色交通與照明居前；生質／潔淨燃料、自然資源與健康生活多為接收者。",
+      "tags": [
+        "QVAR",
+        "dynamic connectedness",
+        "green sector equities",
+        "tail risk",
+        "rolling window",
+        "portfolio diversification"
+      ],
+      "topics": [
+        "潔淨能源",
+        "綠債/ESG",
+        "金融市場"
+      ],
+      "keywords": [
+        "NASDAQ OMX Green Economy",
+        "energy efficiency",
+        "water",
+        "recycling",
+        "green transportation",
+        "bio/clean fuels",
+        "natural resources",
+        "healthy living"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】全文精讀；出版社完整 HTML 與補充材料說明為 CC BY 4.0 開放取用，並用 Crossref 核驗書目。未下載本地 PDF。",
+        "【研究問題與動機】不同綠色經濟部門在熊市、常態與牛市中的尾部連結度是否不同？哪些部門在危機中成為主要衝擊傳送或吸收節點？",
+        "【研究變數】12 個 NASDAQ OMX Green Economy 部門指數：先進材料、能源效率、生質／潔淨燃料、綠建築、照明、綠色交通、健康生活、自然資源、污染減緩、再生能源發電、回收與水；以日收盤價的對數差分報酬建模。",
+        "【資料／市場／樣本】全球綠色部門股；2010-10-15 至 2023-09-30；日頻，樣本量未明確報告；資料取自 Investing.com。各指數期間一致，作者說明採 point-in-time 編製以減少 survivorship bias。",
+        "【模型與估計】QVAR-GFEVD，主要分位數 τ=0.05、0.50、0.95；AIC 選一階落後、20 步預測期、200 日滾動窗。穩健性改用 150／250 日視窗與 τ=0.10／0.90；另檢查 ADF、Jarque–Bera 與 VAR 穩定性。",
+        "【主要結果】TCI 對分位數呈 U 型，0.05 尾部最高；兩端外溢約落在 80%–96%。常態與牛市的主要淨傳送者為能源效率、水與回收，熊市則為能源效率、綠色交通與照明；生質／潔淨燃料、自然資源與健康生活在各狀態多為接收者。動態連結度在歐債危機、油價崩跌、COVID-19 與俄烏戰爭期間升高。",
+        "【限制】作者指出未進行 Granger 等正式因果分析，也未對重大危機做結構斷點檢驗。其他限制：單一指數家族與全球部門層級可能掩蓋國家／公司異質性；接收者角色不能直接等同安全港或最佳投資組合。",
+        "【與美智研究的關聯】4/5。重疊：綠色資產、QVAR、尾部連結度與動態危機比較。可借鏡：分位數 U 型、部門角色反轉、150／200／250 日視窗和 0.05／0.10 尾部敏感度。主要差異：沒有 CPU、頻率分解或 TVP-VAR-SV。可追蹤引用：綠色部門細分與尾部外溢研究。",
+        "【APA 7】Nadeem, N., Jadoon, I. A., Aslam, F., & Ferreira, P. (2026). Connectedness among green sectoral equities under extreme and normal market conditions: Evidence from a quantile VAR approach. Portuguese Economic Journal, 25, 387–413. https://doi.org/10.1007/s10258-026-00293-4"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-06-jrfm-656",
+      "title": "Carbon Market Risk, Green Finance Assets, and Digital Asset Spillovers: Evidence from a Quantile Connectedness Framework",
+      "search_date": "2026-09-06",
+      "authors": "Seyed Amirhossein Shojaei; Jesus Cuauhtemoc Tellez Gaytan; Bashar Yaser Almansour; Ammar Yaser Almansour",
+      "year": "2026",
+      "journal": "Journal of Risk and Financial Management, 19(9), Article 656",
+      "doi": "https://doi.org/10.3390/jrfm19090656",
+      "citations": "未取得（OpenAlex 尚未收錄，2026-09-06）",
+      "openalex_url": "",
+      "fulltext_url": "https://www.mdpi.com/1911-8074/19/9/656",
+      "reading_level": "全文精讀",
+      "abstract": "以 2018-01-02 至 2026-03-19、2,143 筆日資料，將 EUA、綠債、ESG、傳統金融與 Bitcoin 納入 VAR-X/QVAR-X-GFEVD。全樣本 TCI 為 39.31%，100 日滾動平均 43.03%，市場壓力期升高；VIX、S&P 500 與 ESG 為主要傳送者，EUA、Bitcoin、原油與綠債多為接收者，分位數 TCI 並未向尾部單調上升。",
+      "tags": [
+        "QVAR-X",
+        "VAR-X",
+        "GFEVD",
+        "rolling connectedness",
+        "Bai–Perron",
+        "EU ETS",
+        "Bitcoin",
+        "green bonds",
+        "ESG"
+      ],
+      "topics": [
+        "碳市場/碳交易",
+        "綠債/ESG",
+        "加密貨幣/數位金融",
+        "金融市場"
+      ],
+      "keywords": [
+        "EU Allowances",
+        "Bloomberg MSCI Green Bond",
+        "MSCI World ESG Leaders",
+        "S&P 500",
+        "VIX",
+        "gold",
+        "WTI",
+        "Bitcoin",
+        "EUR/USD"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】全文精讀；出版社公開 HTML 為 CC BY 4.0，並以 Crossref 核驗 DOI、作者與卷期。OpenAlex 於核驗日尚無可解析紀錄。未下載本地 PDF。",
+        "【研究問題與動機】EUA、綠債、ESG、傳統金融與數位資產的衝擊如何傳遞？連結度是否隨時間、分位數與 EU ETS Phase IV 相關時點改變，且 Bitcoin 角色是否對資產集合敏感？",
+        "【研究變數】八個內生資產：EUA、Bloomberg MSCI Green Bond Total Return Index、S&P 500、黃金、VIX、Bitcoin、WTI、MSCI World ESG Leaders；EUR/USD 在基準 VAR-X 中為外生控制，穩健性中改列第九個內生節點。",
+        "【資料／市場／樣本】歐盟碳市場與全球金融資產；2018-01-02 至 2026-03-19；日頻；每序列 2,143 筆。EUA 來自 EEX、WTI 來自 EIA，其餘主要金融序列使用文中列示的市場指數資料來源；重大事件僅作圖形註記。",
+        "【模型與估計】基準全樣本及 100 日滾動 VAR-X/GFEVD；分位數 QVAR-X/GFEVD；Bai–Perron 結構斷點。穩健性包含 80／120 日視窗、替代落後期與預測期、前十大加密貨幣市值加權組合、BTC/ETH/XRP/Solana 擴充系統，以及把 EUR/USD 改為內生節點。",
+        "【主要結果】全樣本 TCI=39.31%，100 日滾動平均=43.03%；滾動峰值 54.17%（2022-07-20），COVID-19 期峰值 48.80%（2020-06-08）。VIX、S&P 500、ESG 為主要淨傳送者，EUA、Bitcoin、WTI、綠債為淨接收者；EUA 2024 後淨接收程度縮小但未反轉。分位數 TCI 非單調，約由 τ=0.6 的 18.28% 到 τ=0.4 的 23.52%。Bitcoin 在擴充加密貨幣系統中會轉為傳送者，顯示角色依網絡組成而變。",
+        "【限制】作者明確限制：連結度是預測誤差變異數關係，不是結構因果；2024 年後 EUA 變化不能歸因於 Phase IV；Bitcoin 不代表全部數位資產且角色依網絡組成。其他限制：日資料與既定資產集合無法涵蓋場外碳曝險或公司層級異質性。",
+        "【與美智研究的關聯】4/5。重疊：碳價、綠債、ESG、數位資產與尾部連結度。可借鏡：VAR-X／QVAR-X 對匯率條件化、結構斷點、資產集合敏感度，以及明確區分時間變動與分位數變動。主要差異：未使用 CPU、BK 或 TVP-VAR-SV。可追蹤引用：EUA—綠債—ESG—加密資產的多層網絡。",
+        "【APA 7】Shojaei, S. A., Tellez Gaytan, J. C., Almansour, B. Y., & Almansour, A. Y. (2026). Carbon market risk, green finance assets, and digital asset spillovers: Evidence from a quantile connectedness framework. Journal of Risk and Financial Management, 19(9), 656. https://doi.org/10.3390/jrfm19090656"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-06-qref-102177",
+      "title": "Quantile spillovers under extreme events: Evidence from China’s sectoral markets",
+      "search_date": "2026-09-06",
+      "authors": "Xiuwen Zheng; Doojin Ryu; Wonho Song",
+      "year": "2026",
+      "journal": "The Quarterly Review of Economics and Finance, 109, Article 102177",
+      "doi": "https://doi.org/10.1016/j.qref.2026.102177",
+      "citations": "0 次（OpenAlex，2026-09-06）",
+      "openalex_url": "https://openalex.org/W7164936766",
+      "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S1062976926000724",
+      "reading_level": "摘要層級",
+      "abstract": "以 28 個中國申萬一級產業指數、2014-02-24 至 2025-03-31 共 2,686 個交易日，使用 QFVAR 先濾除潛在共同因子，再比較中美貿易戰與 COVID-19 的尾部外溢。左尾衝擊較集中，右尾呈多中心；傳送部門會依事件與市場狀態改變。",
+      "tags": [
+        "QFVAR",
+        "quantile factor VAR",
+        "GFEVD",
+        "tail connectedness",
+        "latent factors",
+        "China sectoral equities"
+      ],
+      "topics": [
+        "金融市場",
+        "宏觀總體",
+        "地緣政治/國防"
+      ],
+      "keywords": [
+        "Shenwan sector index",
+        "US–China trade war",
+        "COVID-19",
+        "common factors",
+        "idiosyncratic spillovers",
+        "sector network"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；出版社摘要、章節片段、Crossref 與 OpenAlex 可核驗，全文受存取限制，未繞過付費牆。",
+        "【研究問題與動機】在排除廣泛市場共同因子後，中國產業股的個別衝擊傳遞如何隨左尾／右尾及中美貿易戰、COVID-19 兩種事件改組？",
+        "【研究變數】28 個中國申萬一級產業指數日收盤價／報酬；產業依 A 股上市公司主要營收與營業利益分類。",
+        "【資料／市場／樣本】中國上海與深圳 A 股產業；2014-02-24 至 2025-03-31；日頻；排除週末與假日後 2,686 個交易日；資料來自 Shenwan Research Database。",
+        "【模型與估計】Quantile Factor VAR（QFVAR）將潛在共同因子與產業特定外溢分離，搭配 GFEVD、靜態與滾動連結度及分位數網絡。可取得片段顯示估計涵蓋 τ=0.01–0.99；完整落後期、視窗、預測期與穩健性設定未能核對。",
+        "【主要結果】左尾下跌狀態的外溢集中於少數傳送部門，食物特別重要；右尾則由國防、食物、非銀行金融與鋼鐵等形成多中心。貿易戰期間農林、通訊、媒體與非銀行金融較集中；疫情期間有色金屬、社會服務及多個生產／材料部門成為狀態依賴的傳送者。結果反映事件特定與分位數特定的預測性傳導，不能直接視為因果。",
+        "【限制】作者限制在可取得摘要與片段中未報告。其他限制：僅中國產業股與兩種事件；共同因子數量與產業分類設定會影響個別外溢；無法由受限全文完整核對全部穩健性。",
+        "【與美智研究的關聯】3/5。重疊：QVAR 類尾部連結度、動態網絡與極端事件。可借鏡：先濾除共同因子以避免把市場共振誤認為跨部門外溢，並分開比較不同危機。主要差異：沒有氣候／綠色資產、CPU、BK 或 TVP-VAR-SV。可追蹤引用：Ando–Greenwood-Nimmo–Shin 的 QFVAR 方法。",
+        "【APA 7】Zheng, X., Ryu, D., & Song, W. (2026). Quantile spillovers under extreme events: Evidence from China’s sectoral markets. The Quarterly Review of Economics and Finance, 109, 102177. https://doi.org/10.1016/j.qref.2026.102177"
+      ]
+    },
     {
       "id": "qvar-2026-09-05-frl-110372",
       "title": "How climate risk impacts interaction among green assets under varying market states: Evidence from a time-frequency QVAR model integrating an autoencoder",
