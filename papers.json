@@ -1,5 +1,5 @@
 {
-  "total": 107,
+  "total": 126,
   "updated": "2026-09-08 10:21:56 +08:00",
   "topics": [
     "AI/科技",
@@ -5119,6 +5119,906 @@
       "diagram": "graph TD\n    Biodiversityris[\"📄 Biodiversity risk as a financial threat: Evidence \"]\n    style Biodiversityris fill:#2563eb,color:#fff,font-weight:bold\n    vp0研究方法QVAR[\"💡 研究方法：QVAR (Quantile Vector Autoregressio\"]\n    style vp0研究方法QVAR fill:#fef3c7,stroke:#d97706\n    Biodiversityris --> vp0研究方法QVAR\n    vp1研究主題綠債ES[\"💡 研究主題：綠債/ESG\"]\n    style vp1研究主題綠債ES fill:#fef3c7,stroke:#d97706\n    Biodiversityris --> vp1研究主題綠債ES\n    vp0研究方法QVAR --- vp1研究主題綠債ES"
     },
     {
+      "id": "2026-06-07-9",
+      "title": "匯率 × 俄羅斯股票 — WQC（作者包含 Mei-Chih Wang！）",
+      "search_date": "2026-06-07",
+      "authors": "Tsangyao Chang, MeiChih Wang, Alexey Mikhaylov",
+      "year": "",
+      "journal": "Applied Economics Letters (2026)",
+      "doi": "//doi.org/10.1080/13504851.2026.2661873",
+      "citations": "",
+      "openalex_url": "",
+      "abstract": "This study examines the effect of the exchange rate on Russian stock returns using a wavelet quantile correlation analysis during the pandemic and Russia-Ukraine conflict periods.",
+      "tags": [
+        "WQC"
+      ],
+      "topics": [
+        "金融市場",
+        "宏觀總體",
+        "AI/科技"
+      ],
+      "type": "search",
+      "notes": [
+        "作者：Tsangyao Chang, MeiChih Wang, Alexey Mikhaylov",
+        "期刊：Applied Economics Letters (2026)",
+        "主題：金融市場、宏觀總體、AI/科技",
+        "方法：WQC (Wavelet Quantile Correlation) + Wavelet 分析",
+        "變數：股價 / Stock Price、匯率 / Exchange Rate",
+        "---",
+        "【摘要】This study examines the effect of the exchange rate on Russian stock returns using a wavelet quantile correlation analysis during the pandemic and Russia-Ukraine conflict periods.",
+        "---",
+        "DOI：//doi.org/10.1080/13504851.2026.2661873"
+      ],
+      "viewpoints": [
+        {
+          "claim": "研究方法：WQC (Wavelet Quantile Correlation) + Wavelet 分析",
+          "evidence": "WQC (Wavelet Quantile Correlation) + Wavelet 分析",
+          "confidence": "mid",
+          "source": "方法",
+          "connections": []
+        },
+        {
+          "claim": "研究主題：金融市場、宏觀總體、AI/科技",
+          "evidence": "金融市場、宏觀總體、AI/科技",
+          "confidence": "mid",
+          "source": "主題",
+          "connections": []
+        },
+        {
+          "claim": "主要變數：股價 / Stock Price、匯率 / Exchange Rate",
+          "evidence": "股價 / Stock Price、匯率 / Exchange Rate",
+          "confidence": "mid",
+          "source": "變數",
+          "connections": []
+        },
+        {
+          "claim": "This study examines the effect of the exchange rate on Russian stock returns using a wavelet quantile correlation analys…",
+          "evidence": "This study examines the effect of the exchange rate on Russian stock returns using a wavelet quantile correlation analysis during the pandemic and Russia-Ukraine conflict periods.",
+          "confidence": "mid",
+          "source": "摘要",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    匯率俄羅斯股票WQC作者包[\"📄 匯率 × 俄羅斯股票 — WQC（作者包含 Mei-Chih Wang！）\"]\n    style 匯率俄羅斯股票WQC作者包 fill:#2563eb,color:#fff,font-weight:bold\n    vp0研究方法WQC[\"💡 研究方法：WQC (Wavelet Quantile Correlation) \"]\n    style vp0研究方法WQC fill:#fef3c7,stroke:#d97706\n    匯率俄羅斯股票WQC作者包 --> vp0研究方法WQC\n    vp1研究主題金融市場[\"💡 研究主題：金融市場、宏觀總體、AI/科技\"]\n    style vp1研究主題金融市場 fill:#fef3c7,stroke:#d97706\n    匯率俄羅斯股票WQC作者包 --> vp1研究主題金融市場\n    vp2主要變數股價[\"💡 主要變數：股價 / Stock Price、匯率 / Exchange Rate\"]\n    style vp2主要變數股價 fill:#fef3c7,stroke:#d97706\n    匯率俄羅斯股票WQC作者包 --> vp2主要變數股價\n    vp3Thisstudy[\"💡 This study examines the effect of the ex\"]\n    style vp3Thisstudy fill:#fef3c7,stroke:#d97706\n    匯率俄羅斯股票WQC作者包 --> vp3Thisstudy\n    vp0研究方法WQC --- vp1研究主題金融市場\n    vp1研究主題金融市場 --- vp2主要變數股價\n    vp2主要變數股價 --- vp3Thisstudy"
+    },
+    {
+      "id": "2026-06-07-8",
+      "title": "石油衝擊 × ASEAN 金融市場 — QVAR + Partial Wavelet Coherence",
+      "search_date": "2026-06-07",
+      "authors": "Mohammad Enamul Hoque, Akther Uddin, Faik Bilgili, LainTze Tee",
+      "year": "",
+      "journal": "SSRN Electronic Journal (2026)",
+      "doi": "//doi.org/10.2139/ssrn.6732294",
+      "citations": "",
+      "openalex_url": "",
+      "abstract": "(SSRN preprint)",
+      "tags": [
+        "QVAR"
+      ],
+      "topics": [
+        "能源市場",
+        "金融市場"
+      ],
+      "type": "search",
+      "notes": [
+        "作者：Mohammad Enamul Hoque, Akther Uddin, Faik Bilgili, LainTze Tee",
+        "期刊：SSRN Electronic Journal (2026)",
+        "主題：能源市場、金融市場",
+        "方法：QVAR (Quantile Vector Autoregression) + VAR (Vector Autoregression)",
+        "---",
+        "【摘要】(SSRN preprint)",
+        "---",
+        "DOI：//doi.org/10.2139/ssrn.6732294"
+      ],
+      "viewpoints": [
+        {
+          "claim": "研究方法：QVAR (Quantile Vector Autoregression) + VAR (Vector Autoregression)",
+          "evidence": "QVAR (Quantile Vector Autoregression) + VAR (Vector Autoregression)",
+          "confidence": "mid",
+          "source": "方法",
+          "connections": []
+        },
+        {
+          "claim": "研究主題：能源市場、金融市場",
+          "evidence": "能源市場、金融市場",
+          "confidence": "mid",
+          "source": "主題",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    石油衝擊ASEAN金融市場[\"📄 石油衝擊 × ASEAN 金融市場 — QVAR + Partial Wavelet Coheren\"]\n    style 石油衝擊ASEAN金融市場 fill:#2563eb,color:#fff,font-weight:bold\n    vp0研究方法QVAR[\"💡 研究方法：QVAR (Quantile Vector Autoregressio\"]\n    style vp0研究方法QVAR fill:#fef3c7,stroke:#d97706\n    石油衝擊ASEAN金融市場 --> vp0研究方法QVAR\n    vp1研究主題能源市場[\"💡 研究主題：能源市場、金融市場\"]\n    style vp1研究主題能源市場 fill:#fef3c7,stroke:#d97706\n    石油衝擊ASEAN金融市場 --> vp1研究主題能源市場\n    vp0研究方法QVAR --- vp1研究主題能源市場"
+    },
+    {
+      "id": "2026-06-07-7",
+      "title": "伊斯蘭股票指數 — QVAR Network + Frequency Connectedness",
+      "search_date": "2026-06-07",
+      "authors": "Samuel Duku Yeboah, John Gartchie Gatsi, David Korsah, Thomas Adjei Kuffour",
+      "year": "",
+      "journal": "Future Business Journal (2026)",
+      "doi": "//doi.org/10.1186/s4309302600730y",
+      "citations": "",
+      "openalex_url": "",
+      "abstract": "This study investigates dynamic spillover effects among Islamic stock indices during global financial crises using QVAR network and frequency connectedness approaches.",
+      "tags": [
+        "QVAR"
+      ],
+      "topics": [
+        "金融市場"
+      ],
+      "type": "search",
+      "notes": [
+        "作者：Samuel Duku Yeboah, John Gartchie Gatsi, David Korsah, Thomas Adjei Kuffour",
+        "期刊：Future Business Journal (2026)",
+        "主題：金融市場",
+        "方法：QVAR (Quantile Vector Autoregression) + VAR (Vector Autoregression) + DY (2012) Spillover Index / Connectedness",
+        "變數：股價 / Stock Price",
+        "---",
+        "【摘要】This study investigates dynamic spillover effects among Islamic stock indices during global financial crises using QVAR network and frequency connectedness approaches.",
+        "---",
+        "DOI：//doi.org/10.1186/s4309302600730y"
+      ],
+      "viewpoints": [
+        {
+          "claim": "研究方法：QVAR (Quantile Vector Autoregression) + VAR (Vector Autoregression) + DY (2012) ",
+          "evidence": "QVAR (Quantile Vector Autoregression) + VAR (Vector Autoregression) + DY (2012) Spillover Index / Connectedness",
+          "confidence": "mid",
+          "source": "方法",
+          "connections": []
+        },
+        {
+          "claim": "研究主題：金融市場",
+          "evidence": "金融市場",
+          "confidence": "mid",
+          "source": "主題",
+          "connections": []
+        },
+        {
+          "claim": "主要變數：股價 / Stock Price",
+          "evidence": "股價 / Stock Price",
+          "confidence": "mid",
+          "source": "變數",
+          "connections": []
+        },
+        {
+          "claim": "This study investigates dynamic spillover effects among Islamic stock indices during global financial crises using QVAR …",
+          "evidence": "This study investigates dynamic spillover effects among Islamic stock indices during global financial crises using QVAR network and frequency connectedness approaches.",
+          "confidence": "mid",
+          "source": "摘要",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    伊斯蘭股票指數QVARNetw[\"📄 伊斯蘭股票指數 — QVAR Network + Frequency Connectedness\"]\n    style 伊斯蘭股票指數QVARNetw fill:#2563eb,color:#fff,font-weight:bold\n    vp0研究方法QVAR[\"💡 研究方法：QVAR (Quantile Vector Autoregressio\"]\n    style vp0研究方法QVAR fill:#fef3c7,stroke:#d97706\n    伊斯蘭股票指數QVARNetw --> vp0研究方法QVAR\n    vp1研究主題金融市場[\"💡 研究主題：金融市場\"]\n    style vp1研究主題金融市場 fill:#fef3c7,stroke:#d97706\n    伊斯蘭股票指數QVARNetw --> vp1研究主題金融市場\n    vp2主要變數股價[\"💡 主要變數：股價 / Stock Price\"]\n    style vp2主要變數股價 fill:#fef3c7,stroke:#d97706\n    伊斯蘭股票指數QVARNetw --> vp2主要變數股價\n    vp3Thisstudy[\"💡 This study investigates dynamic spillove\"]\n    style vp3Thisstudy fill:#fef3c7,stroke:#d97706\n    伊斯蘭股票指數QVARNetw --> vp3Thisstudy\n    vp0研究方法QVAR --- vp1研究主題金融市場\n    vp1研究主題金融市場 --- vp2主要變數股價\n    vp2主要變數股價 --- vp3Thisstudy"
+    },
+    {
+      "id": "2026-06-07-6",
+      "title": "綠債 × 新能源車 × 清潔能源 — TVP-VAR + QVAR Network",
+      "search_date": "2026-06-07",
+      "authors": "Chunyan Jiang, Yayun Wang, Wanqi Li, Runze Ding",
+      "year": "",
+      "journal": "Environment, Development and Sustainability (2026)",
+      "doi": "//doi.org/10.1007/s1066802507287w",
+      "citations": "",
+      "openalex_url": "",
+      "abstract": "This paper examines time-varying extreme risk spillovers and asymmetric effects in green bonds, new energy vehicles, and clean energy markets using a TVP-VAR and QVAR network approach.",
+      "tags": [
+        "QVAR",
+        "TVP-VAR"
+      ],
+      "topics": [
+        "綠債/ESG",
+        "潔淨能源",
+        "能源市場"
+      ],
+      "type": "search",
+      "notes": [
+        "作者：Chunyan Jiang, Yayun Wang, Wanqi Li, Runze Ding",
+        "期刊：Environment, Development and Sustainability (2026)",
+        "主題：綠債/ESG、潔淨能源、能源市場",
+        "方法：QVAR (Quantile Vector Autoregression) + TVP-VAR (Time-Varying Parameter VAR) + VAR (Vector Autoregression)",
+        "變數：綠色指標 / Green Variable、能源價格 / Energy Price、綠色債券 / Green Bond、債券報酬 / Bond Return",
+        "---",
+        "【摘要】This paper examines time-varying extreme risk spillovers and asymmetric effects in green bonds, new energy vehicles, and clean energy markets using a TVP-VAR and QVAR network approach.",
+        "---",
+        "DOI：//doi.org/10.1007/s1066802507287w"
+      ],
+      "viewpoints": [
+        {
+          "claim": "研究方法：QVAR (Quantile Vector Autoregression) + TVP-VAR (Time-Varying Parameter VAR) + V",
+          "evidence": "QVAR (Quantile Vector Autoregression) + TVP-VAR (Time-Varying Parameter VAR) + VAR (Vector Autoregression)",
+          "confidence": "mid",
+          "source": "方法",
+          "connections": []
+        },
+        {
+          "claim": "研究主題：綠債/ESG、潔淨能源、能源市場",
+          "evidence": "綠債/ESG、潔淨能源、能源市場",
+          "confidence": "mid",
+          "source": "主題",
+          "connections": []
+        },
+        {
+          "claim": "主要變數：綠色指標 / Green Variable、能源價格 / Energy Price、綠色債券 / Green Bond、債券報酬 / Bond Return",
+          "evidence": "綠色指標 / Green Variable、能源價格 / Energy Price、綠色債券 / Green Bond、債券報酬 / Bond Return",
+          "confidence": "mid",
+          "source": "變數",
+          "connections": []
+        },
+        {
+          "claim": "This paper examines time-varying extreme risk spillovers and asymmetric effects in green bonds, new energy vehicles, and…",
+          "evidence": "This paper examines time-varying extreme risk spillovers and asymmetric effects in green bonds, new energy vehicles, and clean energy markets using a TVP-VAR and QVAR network approach.",
+          "confidence": "mid",
+          "source": "摘要",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    綠債新能源車清潔能源T[\"📄 綠債 × 新能源車 × 清潔能源 — TVP-VAR + QVAR Network\"]\n    style 綠債新能源車清潔能源T fill:#2563eb,color:#fff,font-weight:bold\n    vp0研究方法QVAR[\"💡 研究方法：QVAR (Quantile Vector Autoregressio\"]\n    style vp0研究方法QVAR fill:#fef3c7,stroke:#d97706\n    綠債新能源車清潔能源T --> vp0研究方法QVAR\n    vp1研究主題綠債ES[\"💡 研究主題：綠債/ESG、潔淨能源、能源市場\"]\n    style vp1研究主題綠債ES fill:#fef3c7,stroke:#d97706\n    綠債新能源車清潔能源T --> vp1研究主題綠債ES\n    vp2主要變數綠色指標[\"💡 主要變數：綠色指標 / Green Variable、能源價格 / Energy\"]\n    style vp2主要變數綠色指標 fill:#fef3c7,stroke:#d97706\n    綠債新能源車清潔能源T --> vp2主要變數綠色指標\n    vp3Thispaper[\"💡 This paper examines time-varying extreme\"]\n    style vp3Thispaper fill:#fef3c7,stroke:#d97706\n    綠債新能源車清潔能源T --> vp3Thispaper\n    vp0研究方法QVAR --- vp1研究主題綠債ES\n    vp1研究主題綠債ES --- vp2主要變數綠色指標\n    vp2主要變數綠色指標 --- vp3Thispaper"
+    },
+    {
+      "id": "2026-06-07-5",
+      "title": "全球系統性金融風險 — TVP-QVAR",
+      "search_date": "2026-06-07",
+      "authors": "Lin Zhang, Xuhui Ding, Zhenhua Zhang",
+      "year": "",
+      "journal": "Emerging Markets Finance and Trade (2026)",
+      "doi": "//doi.org/10.1080/1540496x.2026.2626335",
+      "citations": "",
+      "openalex_url": "",
+      "abstract": "This study examines cross-market risk transmission and marginal contribution differentiation in global systemic financial risk using the TVP-QVAR model. Results show time-varying risk spillover patterns across different market regimes.",
+      "tags": [
+        "QVAR"
+      ],
+      "topics": [
+        "金融市場"
+      ],
+      "type": "search",
+      "notes": [
+        "作者：Lin Zhang, Xuhui Ding, Zhenhua Zhang",
+        "期刊：Emerging Markets Finance and Trade (2026)",
+        "主題：金融市場",
+        "方法：QVAR (Quantile Vector Autoregression) + VAR (Vector Autoregression) + DY (2012) Spillover Index / Connectedness",
+        "---",
+        "【摘要】This study examines cross-market risk transmission and marginal contribution differentiation in global systemic financial risk using the TVP-QVAR model. Results show time-varying risk spillover patterns across different market regimes.",
+        "---",
+        "DOI：//doi.org/10.1080/1540496x.2026.2626335"
+      ],
+      "viewpoints": [
+        {
+          "claim": "研究方法：QVAR (Quantile Vector Autoregression) + VAR (Vector Autoregression) + DY (2012) ",
+          "evidence": "QVAR (Quantile Vector Autoregression) + VAR (Vector Autoregression) + DY (2012) Spillover Index / Connectedness",
+          "confidence": "mid",
+          "source": "方法",
+          "connections": []
+        },
+        {
+          "claim": "研究主題：金融市場",
+          "evidence": "金融市場",
+          "confidence": "mid",
+          "source": "主題",
+          "connections": []
+        },
+        {
+          "claim": "This study examines cross-market risk transmission and marginal contribution differentiation in global systemic financia…",
+          "evidence": "This study examines cross-market risk transmission and marginal contribution differentiation in global systemic financial risk using the TVP-QVAR model. Results show time-varying risk spillover patterns across different market regimes.",
+          "confidence": "mid",
+          "source": "摘要",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    全球系統性金融風險TVPQVA[\"📄 全球系統性金融風險 — TVP-QVAR\"]\n    style 全球系統性金融風險TVPQVA fill:#2563eb,color:#fff,font-weight:bold\n    vp0研究方法QVAR[\"💡 研究方法：QVAR (Quantile Vector Autoregressio\"]\n    style vp0研究方法QVAR fill:#fef3c7,stroke:#d97706\n    全球系統性金融風險TVPQVA --> vp0研究方法QVAR\n    vp1研究主題金融市場[\"💡 研究主題：金融市場\"]\n    style vp1研究主題金融市場 fill:#fef3c7,stroke:#d97706\n    全球系統性金融風險TVPQVA --> vp1研究主題金融市場\n    vp2Thisstudy[\"💡 This study examines cross-market risk tr\"]\n    style vp2Thisstudy fill:#fef3c7,stroke:#d97706\n    全球系統性金融風險TVPQVA --> vp2Thisstudy\n    vp0研究方法QVAR --- vp1研究主題金融市場\n    vp1研究主題金融市場 --- vp2Thisstudy"
+    },
+    {
+      "id": "2026-06-07-4",
+      "title": "ESG 股票 × 商品市場 — QVAR Portfolio Shielding",
+      "search_date": "2026-06-07",
+      "authors": "Susovon Jana, Megha Agarwalla, B Tejesvee, Tarak Nath Sahu",
+      "year": "",
+      "journal": "Studies in Microeconomics (2026)",
+      "doi": "//doi.org/10.1177/23210222261424096",
+      "citations": "",
+      "openalex_url": "",
+      "abstract": "This study analyzes quantile spillovers and portfolio shielding effects between ESG stocks and commodity markets using the QVAR framework. Findings suggest ESG assets provide hedging benefits during extreme market conditions.",
+      "tags": [
+        "QVAR"
+      ],
+      "topics": [
+        "綠債/ESG",
+        "金融市場",
+        "原物料/商品"
+      ],
+      "type": "search",
+      "notes": [
+        "作者：Susovon Jana, Megha Agarwalla, B Tejesvee, Tarak Nath Sahu",
+        "期刊：Studies in Microeconomics (2026)",
+        "主題：綠債/ESG、金融市場、原物料/商品",
+        "方法：QVAR (Quantile Vector Autoregression) + VAR (Vector Autoregression) + DY (2012) Spillover Index / Connectedness",
+        "變數：股價 / Stock Price",
+        "---",
+        "【摘要】This study analyzes quantile spillovers and portfolio shielding effects between ESG stocks and commodity markets using the QVAR framework. Findings suggest ESG assets provide hedging benefits during extreme market conditions.",
+        "---",
+        "DOI：//doi.org/10.1177/23210222261424096"
+      ],
+      "viewpoints": [
+        {
+          "claim": "研究方法：QVAR (Quantile Vector Autoregression) + VAR (Vector Autoregression) + DY (2012) ",
+          "evidence": "QVAR (Quantile Vector Autoregression) + VAR (Vector Autoregression) + DY (2012) Spillover Index / Connectedness",
+          "confidence": "mid",
+          "source": "方法",
+          "connections": []
+        },
+        {
+          "claim": "研究主題：綠債/ESG、金融市場、原物料/商品",
+          "evidence": "綠債/ESG、金融市場、原物料/商品",
+          "confidence": "mid",
+          "source": "主題",
+          "connections": []
+        },
+        {
+          "claim": "主要變數：股價 / Stock Price",
+          "evidence": "股價 / Stock Price",
+          "confidence": "mid",
+          "source": "變數",
+          "connections": []
+        },
+        {
+          "claim": "This study analyzes quantile spillovers and portfolio shielding effects between ESG stocks and commodity markets using t…",
+          "evidence": "This study analyzes quantile spillovers and portfolio shielding effects between ESG stocks and commodity markets using the QVAR framework. Findings suggest ESG assets provide hedging benefits during extreme market conditions.",
+          "confidence": "mid",
+          "source": "摘要",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    ESG股票商品市場QVAR[\"📄 ESG 股票 × 商品市場 — QVAR Portfolio Shielding\"]\n    style ESG股票商品市場QVAR fill:#2563eb,color:#fff,font-weight:bold\n    vp0研究方法QVAR[\"💡 研究方法：QVAR (Quantile Vector Autoregressio\"]\n    style vp0研究方法QVAR fill:#fef3c7,stroke:#d97706\n    ESG股票商品市場QVAR --> vp0研究方法QVAR\n    vp1研究主題綠債ES[\"💡 研究主題：綠債/ESG、金融市場、原物料/商品\"]\n    style vp1研究主題綠債ES fill:#fef3c7,stroke:#d97706\n    ESG股票商品市場QVAR --> vp1研究主題綠債ES\n    vp2主要變數股價[\"💡 主要變數：股價 / Stock Price\"]\n    style vp2主要變數股價 fill:#fef3c7,stroke:#d97706\n    ESG股票商品市場QVAR --> vp2主要變數股價\n    vp3Thisstudy[\"💡 This study analyzes quantile spillovers \"]\n    style vp3Thisstudy fill:#fef3c7,stroke:#d97706\n    ESG股票商品市場QVAR --> vp3Thisstudy\n    vp0研究方法QVAR --- vp1研究主題綠債ES\n    vp1研究主題綠債ES --- vp2主要變數股價\n    vp2主要變數股價 --- vp3Thisstudy"
+    },
+    {
+      "id": "2026-06-07-3",
+      "title": "碳交易價格極端尾端衝擊 — Scenario-based QVAR",
+      "search_date": "2026-06-07",
+      "authors": "Meng Wan, Cong Sui",
+      "year": "",
+      "journal": "Finance Research Letters (2026)",
+      "doi": "//doi.org/10.1016/j.frl.2026.109720",
+      "citations": "",
+      "openalex_url": "",
+      "abstract": "This paper develops a scenario-based QVAR approach to assess the dynamic resilience of the shipping market to extreme carbon trading price tail shocks. The model captures asymmetric responses across different quantiles.",
+      "tags": [
+        "QVAR"
+      ],
+      "topics": [
+        "碳市場/碳交易"
+      ],
+      "type": "search",
+      "notes": [
+        "作者：Meng Wan, Cong Sui",
+        "期刊：Finance Research Letters (2026)",
+        "主題：碳市場/碳交易",
+        "方法：QVAR (Quantile Vector Autoregression) + VAR (Vector Autoregression)",
+        "變數：碳排放 / Carbon Emissions",
+        "---",
+        "【摘要】This paper develops a scenario-based QVAR approach to assess the dynamic resilience of the shipping market to extreme carbon trading price tail shocks. The model captures asymmetric responses across different quantiles.",
+        "---",
+        "DOI：//doi.org/10.1016/j.frl.2026.109720"
+      ],
+      "viewpoints": [
+        {
+          "claim": "研究方法：QVAR (Quantile Vector Autoregression) + VAR (Vector Autoregression)",
+          "evidence": "QVAR (Quantile Vector Autoregression) + VAR (Vector Autoregression)",
+          "confidence": "mid",
+          "source": "方法",
+          "connections": []
+        },
+        {
+          "claim": "研究主題：碳市場/碳交易",
+          "evidence": "碳市場/碳交易",
+          "confidence": "mid",
+          "source": "主題",
+          "connections": []
+        },
+        {
+          "claim": "主要變數：碳排放 / Carbon Emissions",
+          "evidence": "碳排放 / Carbon Emissions",
+          "confidence": "mid",
+          "source": "變數",
+          "connections": []
+        },
+        {
+          "claim": "This paper develops a scenario-based QVAR approach to assess the dynamic resilience of the shipping market to extreme ca…",
+          "evidence": "This paper develops a scenario-based QVAR approach to assess the dynamic resilience of the shipping market to extreme carbon trading price tail shocks. The model captures asymmetric responses across different quantiles.",
+          "confidence": "mid",
+          "source": "摘要",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    碳交易價格極端尾端衝擊Scen[\"📄 碳交易價格極端尾端衝擊 — Scenario-based QVAR\"]\n    style 碳交易價格極端尾端衝擊Scen fill:#2563eb,color:#fff,font-weight:bold\n    vp0研究方法QVAR[\"💡 研究方法：QVAR (Quantile Vector Autoregressio\"]\n    style vp0研究方法QVAR fill:#fef3c7,stroke:#d97706\n    碳交易價格極端尾端衝擊Scen --> vp0研究方法QVAR\n    vp1研究主題碳市場碳[\"💡 研究主題：碳市場/碳交易\"]\n    style vp1研究主題碳市場碳 fill:#fef3c7,stroke:#d97706\n    碳交易價格極端尾端衝擊Scen --> vp1研究主題碳市場碳\n    vp2主要變數碳排放[\"💡 主要變數：碳排放 / Carbon Emissions\"]\n    style vp2主要變數碳排放 fill:#fef3c7,stroke:#d97706\n    碳交易價格極端尾端衝擊Scen --> vp2主要變數碳排放\n    vp3Thispaper[\"💡 This paper develops a scenario-based QVA\"]\n    style vp3Thispaper fill:#fef3c7,stroke:#d97706\n    碳交易價格極端尾端衝擊Scen --> vp3Thispaper\n    vp0研究方法QVAR --- vp1研究主題碳市場碳\n    vp1研究主題碳市場碳 --- vp2主要變數碳排放\n    vp2主要變數碳排放 --- vp3Thispaper"
+    },
+    {
+      "id": "2026-06-07-21",
+      "title": "金融發展 × 貿易 × 能源 × 環境足跡 — QARDL + Wavelet Coherence",
+      "search_date": "2026-06-07",
+      "authors": "Jianxiong Wang, Jayabharathi S., Manigandan P., Pachiyappan D.",
+      "year": "",
+      "journal": "Journal of Environmental Engineering and Landscape Management (2026)",
+      "doi": "//doi.org/10.3846/jeelm.2026.25785",
+      "citations": "",
+      "openalex_url": "",
+      "abstract": "",
+      "tags": [
+        "QARDL"
+      ],
+      "topics": [
+        "碳市場/碳交易"
+      ],
+      "type": "search",
+      "notes": [
+        "作者：Jianxiong Wang, Jayabharathi S., Manigandan P., Pachiyappan D.",
+        "期刊：Journal of Environmental Engineering and Landscape Management (2026)",
+        "主題：碳市場/碳交易",
+        "方法：QARDL (Quantile Autoregressive Distributed Lag) + ARDL (Autoregressive Distributed Lag)",
+        "---",
+        "DOI：//doi.org/10.3846/jeelm.2026.25785"
+      ],
+      "viewpoints": [
+        {
+          "claim": "研究方法：QARDL (Quantile Autoregressive Distributed Lag) + ARDL (Autoregressive Distribut",
+          "evidence": "QARDL (Quantile Autoregressive Distributed Lag) + ARDL (Autoregressive Distributed Lag)",
+          "confidence": "mid",
+          "source": "方法",
+          "connections": []
+        },
+        {
+          "claim": "研究主題：碳市場/碳交易",
+          "evidence": "碳市場/碳交易",
+          "confidence": "mid",
+          "source": "主題",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    金融發展貿易能源環境足[\"📄 金融發展 × 貿易 × 能源 × 環境足跡 — QARDL + Wavelet Coherence\"]\n    style 金融發展貿易能源環境足 fill:#2563eb,color:#fff,font-weight:bold\n    vp0研究方法QARDL[\"💡 研究方法：QARDL (Quantile Autoregressive Dist\"]\n    style vp0研究方法QARDL fill:#fef3c7,stroke:#d97706\n    金融發展貿易能源環境足 --> vp0研究方法QARDL\n    vp1研究主題碳市場碳[\"💡 研究主題：碳市場/碳交易\"]\n    style vp1研究主題碳市場碳 fill:#fef3c7,stroke:#d97706\n    金融發展貿易能源環境足 --> vp1研究主題碳市場碳\n    vp0研究方法QARDL --- vp1研究主題碳市場碳"
+    },
+    {
+      "id": "2026-06-07-20",
+      "title": "ICT 擴散 × 綠色能源-生態足跡 — QARDL",
+      "search_date": "2026-06-07",
+      "authors": "Mehdi Abid, Mona Elshaabany, Hanane Abdelli, Zouheyr Gheraia",
+      "year": "",
+      "journal": "1",
+      "doi": "//doi.org/10.1016/j.grets.2026.100398",
+      "citations": "",
+      "openalex_url": "",
+      "abstract": "",
+      "tags": [
+        "QARDL"
+      ],
+      "topics": [
+        "潔淨能源",
+        "AI/科技"
+      ],
+      "type": "search",
+      "notes": [
+        "作者：Mehdi Abid, Mona Elshaabany, Hanane Abdelli, Zouheyr Gheraia",
+        "期刊：1",
+        "主題：潔淨能源、AI/科技",
+        "方法：QARDL (Quantile Autoregressive Distributed Lag) + ARDL (Autoregressive Distributed Lag)",
+        "---",
+        "DOI：//doi.org/10.1016/j.grets.2026.100398"
+      ],
+      "viewpoints": [
+        {
+          "claim": "研究方法：QARDL (Quantile Autoregressive Distributed Lag) + ARDL (Autoregressive Distribut",
+          "evidence": "QARDL (Quantile Autoregressive Distributed Lag) + ARDL (Autoregressive Distributed Lag)",
+          "confidence": "mid",
+          "source": "方法",
+          "connections": []
+        },
+        {
+          "claim": "研究主題：潔淨能源、AI/科技",
+          "evidence": "潔淨能源、AI/科技",
+          "confidence": "mid",
+          "source": "主題",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    ICT擴散綠色能源生態足跡[\"📄 ICT 擴散 × 綠色能源-生態足跡 — QARDL\"]\n    style ICT擴散綠色能源生態足跡 fill:#2563eb,color:#fff,font-weight:bold\n    vp0研究方法QARDL[\"💡 研究方法：QARDL (Quantile Autoregressive Dist\"]\n    style vp0研究方法QARDL fill:#fef3c7,stroke:#d97706\n    ICT擴散綠色能源生態足跡 --> vp0研究方法QARDL\n    vp1研究主題潔淨能源[\"💡 研究主題：潔淨能源、AI/科技\"]\n    style vp1研究主題潔淨能源 fill:#fef3c7,stroke:#d97706\n    ICT擴散綠色能源生態足跡 --> vp1研究主題潔淨能源\n    vp0研究方法QARDL --- vp1研究主題潔淨能源"
+    },
+    {
+      "id": "2026-06-07-19",
+      "title": "經濟不確定性 × 加密貨幣情緒 — QARDL",
+      "search_date": "2026-06-07",
+      "authors": "Kashif Abbass, Muhammad Tahir Suleman, Huaming Song, Arshian Sharif",
+      "year": "",
+      "journal": "Financial Innovation (2026)",
+      "doi": "//doi.org/10.1186/s40854025008599",
+      "citations": "",
+      "openalex_url": "",
+      "abstract": "",
+      "tags": [
+        "QARDL"
+      ],
+      "topics": [
+        "加密貨幣/數位金融",
+        "宏觀總體"
+      ],
+      "type": "search",
+      "notes": [
+        "作者：Kashif Abbass, Muhammad Tahir Suleman, Huaming Song, Arshian Sharif",
+        "期刊：Financial Innovation (2026)",
+        "主題：加密貨幣/數位金融、宏觀總體",
+        "方法：QARDL (Quantile Autoregressive Distributed Lag) + ARDL (Autoregressive Distributed Lag)",
+        "---",
+        "DOI：//doi.org/10.1186/s40854025008599"
+      ],
+      "viewpoints": [
+        {
+          "claim": "研究方法：QARDL (Quantile Autoregressive Distributed Lag) + ARDL (Autoregressive Distribut",
+          "evidence": "QARDL (Quantile Autoregressive Distributed Lag) + ARDL (Autoregressive Distributed Lag)",
+          "confidence": "mid",
+          "source": "方法",
+          "connections": []
+        },
+        {
+          "claim": "研究主題：加密貨幣/數位金融、宏觀總體",
+          "evidence": "加密貨幣/數位金融、宏觀總體",
+          "confidence": "mid",
+          "source": "主題",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    經濟不確定性加密貨幣情緒QA[\"📄 經濟不確定性 × 加密貨幣情緒 — QARDL\"]\n    style 經濟不確定性加密貨幣情緒QA fill:#2563eb,color:#fff,font-weight:bold\n    vp0研究方法QARDL[\"💡 研究方法：QARDL (Quantile Autoregressive Dist\"]\n    style vp0研究方法QARDL fill:#fef3c7,stroke:#d97706\n    經濟不確定性加密貨幣情緒QA --> vp0研究方法QARDL\n    vp1研究主題加密貨幣[\"💡 研究主題：加密貨幣/數位金融、宏觀總體\"]\n    style vp1研究主題加密貨幣 fill:#fef3c7,stroke:#d97706\n    經濟不確定性加密貨幣情緒QA --> vp1研究主題加密貨幣\n    vp0研究方法QARDL --- vp1研究主題加密貨幣"
+    },
+    {
+      "id": "2026-06-07-18",
+      "title": "貿易政策 × 貨幣政策 × 永續發展 — Wavelet QQGC",
+      "search_date": "2026-06-07",
+      "authors": "Tomiwa Sunday Adebayo, Victoria Olushola Olanrewaju",
+      "year": "",
+      "journal": "16",
+      "doi": "//doi.org/10.1002/sd.3157",
+      "citations": "",
+      "openalex_url": "",
+      "abstract": "",
+      "tags": [
+        "QQGC"
+      ],
+      "topics": [
+        "宏觀總體"
+      ],
+      "type": "search",
+      "notes": [
+        "作者：Tomiwa Sunday Adebayo, Victoria Olushola Olanrewaju",
+        "期刊：16",
+        "主題：宏觀總體",
+        "方法：QQGC (Quantile-on-Quantile Granger Causality)",
+        "---",
+        "DOI：//doi.org/10.1002/sd.3157"
+      ],
+      "viewpoints": [
+        {
+          "claim": "研究方法：QQGC (Quantile-on-Quantile Granger Causality)",
+          "evidence": "QQGC (Quantile-on-Quantile Granger Causality)",
+          "confidence": "mid",
+          "source": "方法",
+          "connections": []
+        },
+        {
+          "claim": "研究主題：宏觀總體",
+          "evidence": "宏觀總體",
+          "confidence": "mid",
+          "source": "主題",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    貿易政策貨幣政策永續發展[\"📄 貿易政策 × 貨幣政策 × 永續發展 — Wavelet QQGC\"]\n    style 貿易政策貨幣政策永續發展 fill:#2563eb,color:#fff,font-weight:bold\n    vp0研究方法QQGC[\"💡 研究方法：QQGC (Quantile-on-Quantile Granger \"]\n    style vp0研究方法QQGC fill:#fef3c7,stroke:#d97706\n    貿易政策貨幣政策永續發展 --> vp0研究方法QQGC\n    vp1研究主題宏觀總體[\"💡 研究主題：宏觀總體\"]\n    style vp1研究主題宏觀總體 fill:#fef3c7,stroke:#d97706\n    貿易政策貨幣政策永續發展 --> vp1研究主題宏觀總體\n    vp0研究方法QQGC --- vp1研究主題宏觀總體"
+    },
+    {
+      "id": "2026-06-07-17",
+      "title": "第四次工業革命 × 髒/潔淨能源 — QQGC",
+      "search_date": "2026-06-07",
+      "authors": "Ojonugwa Usman, Blend Ibrahim, Oktay Özkan, George N. Ike",
+      "year": "",
+      "journal": "5",
+      "doi": "//doi.org/10.1016/j.energy.2025.135582",
+      "citations": "",
+      "openalex_url": "",
+      "abstract": "",
+      "tags": [
+        "QQGC"
+      ],
+      "topics": [
+        "潔淨能源",
+        "AI/科技"
+      ],
+      "type": "search",
+      "notes": [
+        "作者：Ojonugwa Usman, Blend Ibrahim, Oktay Özkan, George N. Ike",
+        "期刊：5",
+        "主題：潔淨能源、AI/科技",
+        "方法：QQGC (Quantile-on-Quantile Granger Causality)",
+        "---",
+        "DOI：//doi.org/10.1016/j.energy.2025.135582"
+      ],
+      "viewpoints": [
+        {
+          "claim": "研究方法：QQGC (Quantile-on-Quantile Granger Causality)",
+          "evidence": "QQGC (Quantile-on-Quantile Granger Causality)",
+          "confidence": "mid",
+          "source": "方法",
+          "connections": []
+        },
+        {
+          "claim": "研究主題：潔淨能源、AI/科技",
+          "evidence": "潔淨能源、AI/科技",
+          "confidence": "mid",
+          "source": "主題",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    第四次工業革命髒潔淨能源Q[\"📄 第四次工業革命 × 髒/潔淨能源 — QQGC\"]\n    style 第四次工業革命髒潔淨能源Q fill:#2563eb,color:#fff,font-weight:bold\n    vp0研究方法QQGC[\"💡 研究方法：QQGC (Quantile-on-Quantile Granger \"]\n    style vp0研究方法QQGC fill:#fef3c7,stroke:#d97706\n    第四次工業革命髒潔淨能源Q --> vp0研究方法QQGC\n    vp1研究主題潔淨能源[\"💡 研究主題：潔淨能源、AI/科技\"]\n    style vp1研究主題潔淨能源 fill:#fef3c7,stroke:#d97706\n    第四次工業革命髒潔淨能源Q --> vp1研究主題潔淨能源\n    vp0研究方法QQGC --- vp1研究主題潔淨能源"
+    },
+    {
+      "id": "2026-06-07-16",
+      "title": "mqqcause: Multivariate Quantile-on-Quantile Granger Causality（R 套件）",
+      "search_date": "2026-06-07",
+      "authors": "Merwan Roudane",
+      "year": "",
+      "journal": "CRAN Package (2026)",
+      "doi": "//doi.org/10.32614/cran.package.mqqcause",
+      "citations": "",
+      "openalex_url": "",
+      "abstract": "",
+      "tags": [
+        "QVAR"
+      ],
+      "topics": [
+        "方法論"
+      ],
+      "type": "search",
+      "notes": [
+        "作者：Merwan Roudane",
+        "期刊：CRAN Package (2026)",
+        "主題：方法論",
+        "方法：QVAR (Quantile Vector Autoregression) + VAR (Vector Autoregression)",
+        "---",
+        "DOI：//doi.org/10.32614/cran.package.mqqcause"
+      ],
+      "viewpoints": [
+        {
+          "claim": "研究方法：QVAR (Quantile Vector Autoregression) + VAR (Vector Autoregression)",
+          "evidence": "QVAR (Quantile Vector Autoregression) + VAR (Vector Autoregression)",
+          "confidence": "mid",
+          "source": "方法",
+          "connections": []
+        },
+        {
+          "claim": "研究主題：方法論",
+          "evidence": "方法論",
+          "confidence": "mid",
+          "source": "主題",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    mqqcauseMultiva[\"📄 mqqcause: Multivariate Quantile-on-Quantile Grange\"]\n    style mqqcauseMultiva fill:#2563eb,color:#fff,font-weight:bold\n    vp0研究方法QVAR[\"💡 研究方法：QVAR (Quantile Vector Autoregressio\"]\n    style vp0研究方法QVAR fill:#fef3c7,stroke:#d97706\n    mqqcauseMultiva --> vp0研究方法QVAR\n    vp1研究主題方法論[\"💡 研究主題：方法論\"]\n    style vp1研究主題方法論 fill:#fef3c7,stroke:#d97706\n    mqqcauseMultiva --> vp1研究主題方法論\n    vp0研究方法QVAR --- vp1研究主題方法論"
+    },
+    {
+      "id": "2026-06-07-15",
+      "title": "美國能源效率 × 碳中和 — Rolling Window WQC",
+      "search_date": "2026-06-07",
+      "authors": "Babatunde Sunday Eweade",
+      "year": "",
+      "journal": "2",
+      "doi": "//doi.org/10.1002/gj.70217",
+      "citations": "",
+      "openalex_url": "",
+      "abstract": "",
+      "tags": [
+        "WQC"
+      ],
+      "topics": [
+        "潔淨能源"
+      ],
+      "type": "search",
+      "notes": [
+        "作者：Babatunde Sunday Eweade",
+        "期刊：2",
+        "主題：潔淨能源",
+        "方法：WQC (Wavelet Quantile Correlation)",
+        "---",
+        "DOI：//doi.org/10.1002/gj.70217"
+      ],
+      "viewpoints": [
+        {
+          "claim": "研究方法：WQC (Wavelet Quantile Correlation)",
+          "evidence": "WQC (Wavelet Quantile Correlation)",
+          "confidence": "mid",
+          "source": "方法",
+          "connections": []
+        },
+        {
+          "claim": "研究主題：潔淨能源",
+          "evidence": "潔淨能源",
+          "confidence": "mid",
+          "source": "主題",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    美國能源效率碳中和Rolli[\"📄 美國能源效率 × 碳中和 — Rolling Window WQC\"]\n    style 美國能源效率碳中和Rolli fill:#2563eb,color:#fff,font-weight:bold\n    vp0研究方法WQC[\"💡 研究方法：WQC (Wavelet Quantile Correlation)\"]\n    style vp0研究方法WQC fill:#fef3c7,stroke:#d97706\n    美國能源效率碳中和Rolli --> vp0研究方法WQC\n    vp1研究主題潔淨能源[\"💡 研究主題：潔淨能源\"]\n    style vp1研究主題潔淨能源 fill:#fef3c7,stroke:#d97706\n    美國能源效率碳中和Rolli --> vp1研究主題潔淨能源\n    vp0研究方法WQC --- vp1研究主題潔淨能源"
+    },
+    {
+      "id": "2026-06-07-14",
+      "title": "原油 → 綠色能源 — WQC",
+      "search_date": "2026-06-07",
+      "authors": "Ummara Razi, Calvin W.H. Cheong, Arshian Sharif, Sahar Afshan",
+      "year": "",
+      "journal": "Energy (2026)",
+      "doi": "//doi.org/10.1016/j.energy.2026.140223",
+      "citations": "",
+      "openalex_url": "",
+      "abstract": "",
+      "tags": [
+        "WQC"
+      ],
+      "topics": [
+        "潔淨能源",
+        "能源市場"
+      ],
+      "type": "search",
+      "notes": [
+        "作者：Ummara Razi, Calvin W.H. Cheong, Arshian Sharif, Sahar Afshan",
+        "期刊：Energy (2026)",
+        "主題：潔淨能源、能源市場",
+        "方法：WQC (Wavelet Quantile Correlation)",
+        "---",
+        "DOI：//doi.org/10.1016/j.energy.2026.140223"
+      ],
+      "viewpoints": [
+        {
+          "claim": "研究方法：WQC (Wavelet Quantile Correlation)",
+          "evidence": "WQC (Wavelet Quantile Correlation)",
+          "confidence": "mid",
+          "source": "方法",
+          "connections": []
+        },
+        {
+          "claim": "研究主題：潔淨能源、能源市場",
+          "evidence": "潔淨能源、能源市場",
+          "confidence": "mid",
+          "source": "主題",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    原油綠色能源WQC[\"📄 原油 → 綠色能源 — WQC\"]\n    style 原油綠色能源WQC fill:#2563eb,color:#fff,font-weight:bold\n    vp0研究方法WQC[\"💡 研究方法：WQC (Wavelet Quantile Correlation)\"]\n    style vp0研究方法WQC fill:#fef3c7,stroke:#d97706\n    原油綠色能源WQC --> vp0研究方法WQC\n    vp1研究主題潔淨能源[\"💡 研究主題：潔淨能源、能源市場\"]\n    style vp1研究主題潔淨能源 fill:#fef3c7,stroke:#d97706\n    原油綠色能源WQC --> vp1研究主題潔淨能源\n    vp0研究方法WQC --- vp1研究主題潔淨能源"
+    },
+    {
+      "id": "2026-06-07-13",
+      "title": "美國生態永續路徑 — WQC",
+      "search_date": "2026-06-07",
+      "authors": "Solomon Prince Nathaniel, Emmanuel Uche, Mamello Nchake, Magdalena Radulescu",
+      "year": "",
+      "journal": "Environmental Sciences Europe (2026)",
+      "doi": "//doi.org/10.1186/s12302026013516",
+      "citations": "",
+      "openalex_url": "",
+      "abstract": "",
+      "tags": [
+        "WQC"
+      ],
+      "topics": [
+        "氣候風險/政策"
+      ],
+      "type": "search",
+      "notes": [
+        "作者：Solomon Prince Nathaniel, Emmanuel Uche, Mamello Nchake, Magdalena Radulescu",
+        "期刊：Environmental Sciences Europe (2026)",
+        "主題：氣候風險/政策",
+        "方法：WQC (Wavelet Quantile Correlation)",
+        "---",
+        "DOI：//doi.org/10.1186/s12302026013516"
+      ],
+      "viewpoints": [
+        {
+          "claim": "研究方法：WQC (Wavelet Quantile Correlation)",
+          "evidence": "WQC (Wavelet Quantile Correlation)",
+          "confidence": "mid",
+          "source": "方法",
+          "connections": []
+        },
+        {
+          "claim": "研究主題：氣候風險/政策",
+          "evidence": "氣候風險/政策",
+          "confidence": "mid",
+          "source": "主題",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    美國生態永續路徑WQC[\"📄 美國生態永續路徑 — WQC\"]\n    style 美國生態永續路徑WQC fill:#2563eb,color:#fff,font-weight:bold\n    vp0研究方法WQC[\"💡 研究方法：WQC (Wavelet Quantile Correlation)\"]\n    style vp0研究方法WQC fill:#fef3c7,stroke:#d97706\n    美國生態永續路徑WQC --> vp0研究方法WQC\n    vp1研究主題氣候風險[\"💡 研究主題：氣候風險/政策\"]\n    style vp1研究主題氣候風險 fill:#fef3c7,stroke:#d97706\n    美國生態永續路徑WQC --> vp1研究主題氣候風險\n    vp0研究方法WQC --- vp1研究主題氣候風險"
+    },
+    {
+      "id": "2026-06-07-12",
+      "title": "所得不平等 × 制度品質 × 生態足跡 — QQ + WQC",
+      "search_date": "2026-06-07",
+      "authors": "Oliver Chika Ike, Oluwatoyin Abidemi Somoye, Huseyin Ozdeser, Muhammad Mar'I",
+      "year": "",
+      "journal": "Sustainability (2026)",
+      "doi": "//doi.org/10.3390/su18062871",
+      "citations": "",
+      "openalex_url": "",
+      "abstract": "",
+      "tags": [
+        "WQC"
+      ],
+      "topics": [
+        "其他"
+      ],
+      "type": "search",
+      "notes": [
+        "作者：Oliver Chika Ike, Oluwatoyin Abidemi Somoye, Huseyin Ozdeser, Muhammad Mar'I",
+        "期刊：Sustainability (2026)",
+        "主題：其他",
+        "方法：WQC (Wavelet Quantile Correlation)",
+        "---",
+        "DOI：//doi.org/10.3390/su18062871"
+      ],
+      "viewpoints": [
+        {
+          "claim": "研究方法：WQC (Wavelet Quantile Correlation)",
+          "evidence": "WQC (Wavelet Quantile Correlation)",
+          "confidence": "mid",
+          "source": "方法",
+          "connections": []
+        },
+        {
+          "claim": "研究主題：其他",
+          "evidence": "其他",
+          "confidence": "mid",
+          "source": "主題",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    所得不平等制度品質生態足跡[\"📄 所得不平等 × 制度品質 × 生態足跡 — QQ + WQC\"]\n    style 所得不平等制度品質生態足跡 fill:#2563eb,color:#fff,font-weight:bold\n    vp0研究方法WQC[\"💡 研究方法：WQC (Wavelet Quantile Correlation)\"]\n    style vp0研究方法WQC fill:#fef3c7,stroke:#d97706\n    所得不平等制度品質生態足跡 --> vp0研究方法WQC\n    vp1研究主題其他[\"💡 研究主題：其他\"]\n    style vp1研究主題其他 fill:#fef3c7,stroke:#d97706\n    所得不平等制度品質生態足跡 --> vp1研究主題其他\n    vp0研究方法WQC --- vp1研究主題其他"
+    },
+    {
+      "id": "2026-06-07-11",
+      "title": "氫能作為分散工具？— WQC",
+      "search_date": "2026-06-07",
+      "authors": "Georgios Angelopoulos, Dimitrios Dimitriou, Dimitris Kenourgios, Alexandros Tsioutsios",
+      "year": "",
+      "journal": "Zenodo (CERN European Organization for Nuclear Research) (2026)",
+      "doi": "//doi.org/10.5281/zenodo.19108099",
+      "citations": "",
+      "openalex_url": "",
+      "abstract": "",
+      "tags": [
+        "WQC"
+      ],
+      "topics": [
+        "潔淨能源"
+      ],
+      "type": "search",
+      "notes": [
+        "作者：Georgios Angelopoulos, Dimitrios Dimitriou, Dimitris Kenourgios, Alexandros Tsioutsios",
+        "期刊：Zenodo (CERN European Organization for Nuclear Research) (2026)",
+        "主題：潔淨能源",
+        "方法：WQC (Wavelet Quantile Correlation)",
+        "---",
+        "DOI：//doi.org/10.5281/zenodo.19108099"
+      ],
+      "viewpoints": [
+        {
+          "claim": "研究方法：WQC (Wavelet Quantile Correlation)",
+          "evidence": "WQC (Wavelet Quantile Correlation)",
+          "confidence": "mid",
+          "source": "方法",
+          "connections": []
+        },
+        {
+          "claim": "研究主題：潔淨能源",
+          "evidence": "潔淨能源",
+          "confidence": "mid",
+          "source": "主題",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    氫能作為分散工具WQC[\"📄 氫能作為分散工具？— WQC\"]\n    style 氫能作為分散工具WQC fill:#2563eb,color:#fff,font-weight:bold\n    vp0研究方法WQC[\"💡 研究方法：WQC (Wavelet Quantile Correlation)\"]\n    style vp0研究方法WQC fill:#fef3c7,stroke:#d97706\n    氫能作為分散工具WQC --> vp0研究方法WQC\n    vp1研究主題潔淨能源[\"💡 研究主題：潔淨能源\"]\n    style vp1研究主題潔淨能源 fill:#fef3c7,stroke:#d97706\n    氫能作為分散工具WQC --> vp1研究主題潔淨能源\n    vp0研究方法WQC --- vp1研究主題潔淨能源"
+    },
+    {
       "id": "2026-06-07-10",
       "title": "國防股 × Reddit 中東衝突情緒 — TabNet + WQC",
       "search_date": "2026-06-07",
@@ -5408,6 +6308,40 @@
         }
       ],
       "diagram": "graph TD\n    EnergyConsumpti[\"📄 Energy Consumption, Economic Growth, and CO₂ Emiss\"]\n    style EnergyConsumpti fill:#2563eb,color:#fff,font-weight:bold\n    vp0能源消費是CO[\"💡 能源消費是 CO₂ 排放最大驅動因子\"]\n    style vp0能源消費是CO fill:#fef3c7,stroke:#d97706\n    EnergyConsumpti --> vp0能源消費是CO\n    vp1建議GCC國家加[\"💡 建議 GCC 國家加速再生能源轉型\"]\n    style vp1建議GCC國家加 fill:#fef3c7,stroke:#d97706\n    EnergyConsumpti --> vp1建議GCC國家加\n    能源消費是CO排放最大==>|\"驅動\"|因子\n    vp0能源消費是CO --- vp1建議GCC國家加"
+    },
+    {
+      "title": "Climate Policy Uncertainty and Load Capacity Factor in China",
+      "authors": "Özbek, Şahin & Bayar",
+      "year": "2026",
+      "journal": "Discover Sustainability (Springer)",
+      "doi": "10.1007/s43621-026-03409-0",
+      "date": "2026-06-05",
+      "tags": [
+        "QARDL"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "綠債/ESG"
+      ],
+      "pdf": "uploads/China_CPU_Load_Capacity_Factor.pdf",
+      "notes": [
+        "核心發現：金融發展×CPU 交互項係數顯著為正",
+        "FD 在高 CPU 時期扮演緩衝機制（綠色融資、風險分擔）",
+        "使用 FMOLS（主估計）+ DOLS（穩健性）",
+        "A-ARDL 共整合檢定 + Fourier KPSS 結構斷點單根檢定"
+      ],
+      "type": "upload",
+      "id": "upload-2026-06-05-2059",
+      "viewpoints": [
+        {
+          "claim": "核心發現：金融發展×CPU 交互項係數顯著為正",
+          "evidence": "核心發現：金融發展×CPU 交互項係數顯著為正",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    ClimatePolicyUn[\"📄 Climate Policy Uncertainty and Load Capacity Facto\"]\n    style ClimatePolicyUn fill:#2563eb,color:#fff,font-weight:bold\n    vp0核心發現金融發展[\"💡 核心發現：金融發展×CPU 交互項係數顯著為正\"]\n    style vp0核心發現金融發展 fill:#fef3c7,stroke:#d97706\n    ClimatePolicyUn --> vp0核心發現金融發展"
     }
   ]
 }
