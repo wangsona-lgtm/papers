@@ -1,6 +1,6 @@
 {
-  "total": 129,
-  "updated": "2026-09-08 10:21:56 +08:00",
+  "total": 137,
+  "updated": "2026-09-09 08:05:40 +08:00",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,407 @@
     "金融市場"
   ],
   "papers": [
+    {
+      "id": "qvar-2026-09-09-systems-652",
+      "title": "Supply Chain Shocks and the Reconfiguration of Green Finance Markets: A Quantile-on-Quantile Connectedness Analysis",
+      "search_date": "2026-09-09",
+      "authors": "Jian Yao; Junda Wu; Haoyuan Feng; Jiajing Sun",
+      "year": "2026",
+      "journal": "Systems, 14(6), Article 652",
+      "doi": "https://doi.org/10.3390/systems14060652",
+      "citations": "未取得（OpenAlex 尚未收錄，2026-09-09；Crossref 顯示 1 次）",
+      "openalex_url": "",
+      "fulltext_url": "https://www.mdpi.com/2079-8954/14/6/652",
+      "reading_level": "全文精讀",
+      "abstract": "以 2018–2026 年日資料把中國、美國與歐元區供應瓶頸連結至潔淨能源、綠債及 EUA 碳價。QQC 顯示共同尾端與反向尾端的連結都顯著升高，中位狀態僅約 2–5；美國瓶頸對三類綠色市場的尾端 TCI 峰值約 69.4–70.6，供應鏈衝擊會重組而非單向破壞綠色金融網絡。",
+      "tags": [
+        "quantile-on-quantile connectedness",
+        "QQC",
+        "QVAR",
+        "supply chain shocks",
+        "green bonds",
+        "clean energy",
+        "carbon market"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "潔淨能源",
+        "碳市場/碳交易",
+        "綠債/ESG",
+        "金融市場"
+      ],
+      "keywords": [
+        "Supply Bottleneck Index",
+        "global supply bottleneck factor",
+        "S&P Clean Energy Index",
+        "S&P Dow Jones Green Bond Index",
+        "ICE EUA futures",
+        "tail dependence"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】全文精讀；以 MDPI 公開全文（CC BY 4.0）核對資料、模型、結果與限制，並以 Crossref 核驗 DOI、作者、卷期與文章號。OpenAlex 於 2026-09-09 尚未收錄。",
+        "【研究問題與動機】全球與區域供應鏈瓶頸是否會依市場狀態改變潔淨能源、綠債與碳價的連結架構？中國、美國及歐元區衝擊是否呈現不同的綠色金融傳導節點？",
+        "【研究變數】中國、美國與歐元區新聞型 Supply Bottleneck Indices；以 PCA 建構的全球 GSBI；S&P Clean Energy Index、S&P Dow Jones Green Bond Index、ICE EUA 連續期貨結算價。區域 SBI 與資產價格取對數差分，PCA 因子取一階差分。",
+        "【資料／市場／樣本】全球與中、美、歐元區；共同水準樣本 2018-01-02 至 2026-03-31、2121 筆，轉換後 2018-01-03 至 2026-03-31、2120 筆日資料。SBI 取自 Banco de España；綠色資產取 S&P 指數與 ICE EUA 連續期貨。",
+        "【模型與估計】PCA 建立 GSBI，再依 Gabauer–Stenfors 架構估計供應指標與各綠色市場的雙變量 QQC。穩健性包含平均式與 quantile-rank GSBI、2023 年後子樣本及替代 QQC 調整參數。",
+        "【主要結果】共同尾端與反向尾端連結最強，中位狀態約 2–5。中國與美國瓶頸在極端上尾與潔淨能源連結最強；歐元區瓶頸更集中於 EUA。美國 SBI 的 TCI 峰值為 CE 70.6、GB 69.8、Carbon 69.4。供應瓶頸多在極端狀態占較強淨位置，但碳價在平靜／中間狀態可反向主導；這是連結度關聯，不是結構因果。",
+        "【限制】作者明確指出連續 EUA 期貨無法重建換月日、roll yield 與到期別策略。其他限制包括雙變量 QQC 無法同時辨識整體網絡的條件傳導，新聞型 SBI 與資產交易日對齊可能帶來測量誤差。",
+        "【與美智研究的關聯】4/5。重疊：綠債／潔淨能源／碳價、尾部連結度與外生不確定衝擊。可借鏡：把供應鏈壓力作為 CPU 之外的控制或替代衝擊，並比較 joint-tail 與 cross-tail。主要差異：未使用 CPU、BK 或 TVP-VAR-SV，且核心是雙變量 QQC。可追蹤引用：Gabauer–Stenfors QQC 與 Banco de España SBI。",
+        "【APA 7】Yao, J., Wu, J., Feng, H., & Sun, J. (2026). Supply chain shocks and the reconfiguration of green finance markets: A quantile-on-quantile connectedness analysis. Systems, 14(6), Article 652. https://doi.org/10.3390/systems14060652"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-09-ssrn-7239499",
+      "title": "Do climate policy uncertainty and artificial intelligence matter in energy markets? A quantile-frequency connectedness analysis for China and the U.S",
+      "search_date": "2026-09-09",
+      "authors": "Sufang Li; Mingxu Xiao; Di Yuan; Peilin Wang; Kai Du",
+      "year": "2026",
+      "journal": "SSRN Electronic Journal (preprint)",
+      "doi": "https://doi.org/10.2139/ssrn.7239499",
+      "citations": "0 次（OpenAlex，2026-09-09）",
+      "openalex_url": "https://openalex.org/W7172489362",
+      "fulltext_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7239499",
+      "reading_level": "摘要層級",
+      "abstract": "以 GARCH-MIDAS 分解結合分位數—頻率連結網絡，比較中國與美國 CPU、AI 與能源市場。兩端分位的系統連結同步升高，長期外溢主導持續依賴；中國 CPU 偏向長期傳送，美國 CPU 在壓力狀態更重要，AI 與能源的角色則依國家與期限改變。",
+      "tags": [
+        "quantile-frequency connectedness",
+        "GARCH-MIDAS",
+        "climate policy uncertainty",
+        "artificial intelligence",
+        "energy markets",
+        "China",
+        "United States"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "AI/科技",
+        "能源市場",
+        "金融市場"
+      ],
+      "keywords": [
+        "CPU",
+        "AI investment",
+        "long-run spillovers",
+        "tail connectedness",
+        "cross-country heterogeneity"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；SSRN 顯示 2026-08-05 上傳 47 頁版本，但本次全文端點回傳 403，僅依 SSRN 公開摘要、Crossref 與 OpenAlex 核驗。文獻類型為尚未同儕審查的預印本。",
+        "【研究問題與動機】中國與美國的 CPU、AI 與能源市場是否在不同分位數與期限形成異質風險網絡？CPU 與 AI 的衝擊傳送角色是否因國家及壓力狀態而改變？",
+        "【研究變數】中國與美國 CPU、AI 指標及能源市場變數；可取得摘要未列出具體 AI 指數、能源品項與變數建構。",
+        "【資料／市場／樣本】中國與美國；資料來源、樣本起訖、頻率與樣本量在公開摘要中未報告。",
+        "【模型與估計】以 GARCH-MIDAS 分解後建立 quantile-frequency connectedness network；分位數、頻帶、落後期、預測期與動態估計細節在摘要中未報告。",
+        "【主要結果】兩端分位 TCI 顯著升高；長期外溢主導持續性的系統依賴，短期較像暫時調整。中國 CPU 主要透過長期傳送，美國 CPU 在壓力狀態更具影響；AI 在有利狀態較常傳送，能源市場多為接收者。以上是預測性連結度，不是 CPU 或 AI 的因果效果。",
+        "【限制】預印本尚未完成期刊同儕審查；摘要未提供指標定義、樣本、頻帶與穩健性，且無法核對中美交易日、頻率混合與 GARCH-MIDAS 分解設定。",
+        "【與美智研究的關聯】5/5。重疊：CPU、能源市場、尾部分位與頻率分解，並直接比較中國／美國。可借鏡：把 AI 納入 CPU—能源傳導機制、區分長期持續依賴與短期調整。主要差異：未宣稱 TVP-VAR-SV 或標準 BK，且目前只有預印本摘要可核。可追蹤引用：GARCH-MIDAS 分解後的 quantile-frequency network。",
+        "【APA 7】Li, S., Xiao, M., Yuan, D., Wang, P., & Du, K. (2026). Do climate policy uncertainty and artificial intelligence matter in energy markets? A quantile-frequency connectedness analysis for China and the U.S. SSRN Electronic Journal. https://doi.org/10.2139/ssrn.7239499"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-09-iref-105749",
+      "title": "Cryptocurrency–carbon market connectedness: Evidence from energy-intensive and energy-efficient digital assets",
+      "search_date": "2026-09-09",
+      "authors": "Remzi Gök; Elie Bouri; Eray Gemici",
+      "year": "2026",
+      "journal": "International Review of Economics & Finance, 111, 105749",
+      "doi": "https://doi.org/10.1016/j.iref.2026.105749",
+      "citations": "未取得（OpenAlex 尚未收錄，2026-09-09；Crossref 顯示 0 次）",
+      "openalex_url": "",
+      "publisher_url": "https://www.sciencedirect.com/science/article/pii/S1059056026008622",
+      "reading_level": "摘要層級",
+      "abstract": "以 2018–2025 年 Bitcoin、Ripple 與全球碳信用市場，使用 QQVAR-FC 分別檢驗報酬與波動連結。報酬外溢集中在相近分位且偏短期；波動外溢更持久並在上尾增強。Bitcoin 的碳價連結較 Ripple 強，碳信用的對沖能力有限，Ripple 僅提供具條件性的分散效益。",
+      "tags": [
+        "QQVAR-FC",
+        "quantile-on-quantile connectedness",
+        "frequency connectedness",
+        "clean cryptocurrency",
+        "dirty cryptocurrency",
+        "carbon credits"
+      ],
+      "topics": [
+        "加密貨幣/數位金融",
+        "碳市場/碳交易",
+        "氣候風險/政策",
+        "金融市場"
+      ],
+      "keywords": [
+        "Bitcoin",
+        "Ripple",
+        "energy intensity",
+        "return spillovers",
+        "volatility spillovers",
+        "portfolio performance"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；以 ScienceDirect 公開摘要與 Crossref 核驗題名、作者、DOI、卷與文章號。Crossref 有 CC BY 4.0 授權紀錄，但本次全文頁遭 403，未把摘要擴寫成全文精讀；OpenAlex 尚未收錄。",
+        "【研究問題與動機】能源密集型與節能型加密資產對全球碳信用市場的報酬與波動連結，是否隨兩邊分位數及投資期限改變？能源效率是否對碳風險暴露具有辨識力？",
+        "【研究變數】Bitcoin（能源密集）、Ripple（能源效率較高）、全球碳信用市場；分別分析報酬與波動，並計算投組績效。具體碳指數與波動估計在摘要中未報告。",
+        "【資料／市場／樣本】全球；2018–2025，涵蓋 COVID-19 與俄烏戰爭。精確起訖日、頻率、資料供應商與樣本量在公開摘要中未報告。",
+        "【模型與估計】quantile-on-quantile frequency connectedness（QQVAR-FC）搭配投組績效指標；分位數格點、頻帶、滾動窗、預測期與穩健性設定在摘要中未報告。",
+        "【主要結果】報酬外溢偏向相同分位並集中短期；加密資產短期吸收衝擊、較長期轉為傳送者。波動外溢更持久，在上尾增強且主導跨狀態風險傳導。Bitcoin 與碳價的連結比 Ripple 強；全球衝擊主要透過波動通道放大。碳信用對沖有限，Ripple 的分散效益最大但具條件性。",
+        "【限制】作者限制在摘要中未報告。其他限制：僅以 Bitcoin／Ripple 代表能源密集／節能加密資產，不能涵蓋能源來源、共識機制變動與全生命週期排放；全文設定與對沖績效數值尚未核對。",
+        "【與美智研究的關聯】4/5。重疊：碳價、clean/dirty crypto、雙分位×頻率連結與尾部投組含意。可借鏡：分開估計報酬與波動 QQVAR-FC，檢驗「節能幣」標籤是否真正降低碳風險連結。主要差異：未納入 CPU、綠債或 TVP-VAR-SV。可追蹤引用：QQVAR-FC 與 energy-profile heterogeneity。",
+        "【APA 7】Gök, R., Bouri, E., & Gemici, E. (2026). Cryptocurrency–carbon market connectedness: Evidence from energy-intensive and energy-efficient digital assets. International Review of Economics & Finance, 111, 105749. https://doi.org/10.1016/j.iref.2026.105749"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-09-jecfin-09764",
+      "title": "Tail connectedness between energy-intensive cryptocurrencies, green bonds, clean energy, and commodity markets",
+      "search_date": "2026-09-09",
+      "authors": "Sami Al-Kharusi; Eray Gemici; Walid Mensi; Sang Hoon Kang",
+      "year": "2026",
+      "journal": "Journal of Economics and Finance, 50(1), 1–32",
+      "doi": "https://doi.org/10.1007/s12197-026-09764-y",
+      "citations": "1 次（OpenAlex，2026-09-09）",
+      "openalex_url": "https://openalex.org/W7160107514",
+      "publisher_url": "https://link.springer.com/article/10.1007/s12197-026-09764-y",
+      "reading_level": "摘要層級",
+      "abstract": "以六種能源密集型加密貨幣、綠債、潔淨能源、ESG、黃金與 WTI 建立 quantile–frequency connectedness。壓力期 Bitcoin、Ethereum 是短期主要傳送者；綠色資產與商品多為接收者。平靜期外溢減弱，黃金與 WTI 的接收角色在長期趨於平衡。",
+      "tags": [
+        "quantile-frequency connectedness",
+        "tail risk",
+        "dirty cryptocurrency",
+        "green bonds",
+        "clean energy",
+        "ESG",
+        "commodities"
+      ],
+      "topics": [
+        "加密貨幣/數位金融",
+        "潔淨能源",
+        "綠債/ESG",
+        "原物料/商品",
+        "金融市場"
+      ],
+      "keywords": [
+        "Bitcoin",
+        "Bitcoin Cash",
+        "Ethereum",
+        "Ethereum Classic",
+        "Litecoin",
+        "Monero",
+        "gold",
+        "WTI"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；全文受 Springer 存取限制，本次依出版社/RePEc 摘要、Crossref 與 OpenAlex 核驗。OpenAlex 顯示非撤稿、closed access、1 次被引。",
+        "【研究問題與動機】能源密集型加密貨幣的尾部衝擊會如何傳至綠債、潔淨能源、ESG 與策略商品？傳送／接收角色是否因熊市、常態、牛市與期限而改變？",
+        "【研究變數】Bitcoin、Bitcoin Cash、Ethereum、Ethereum Classic、Litecoin、Monero；S&P Green Bond Index、S&P Global Clean Energy Index、S&P ESG Leader Index；黃金與 WTI。",
+        "【資料／市場／樣本】全球金融與商品市場；研究涵蓋 COVID-19 與俄烏戰爭，但公開摘要未報告精確起訖日、頻率、資料來源與樣本量。",
+        "【模型與估計】quantile–frequency connectedness，比較 bullish、bearish、stable 狀態與頻率期限；具體分位數、頻帶、滾動窗、預測期與穩健性在摘要中未報告。",
+        "【主要結果】壓力期外溢升高，Bitcoin 與 Ethereum 是主要短期淨傳送者；綠色資產與商品，尤其黃金，多為接收者。平靜期連結減弱；黃金與 WTI 在短期吸收衝擊、長期趨於平衡。接收者身分本身不等同已通過條件相關或避險績效的安全港。",
+        "【限制】作者限制在摘要中未報告。其他限制：只納入 PoW／能源密集型幣種，無法比較真正的低能耗共識機制；摘要不足以核對 safe-haven 判準與頻率設定。",
+        "【與美智研究的關聯】4/5。重疊：綠債、潔淨能源、ESG、尾部與頻率外溢。可借鏡：把能源密集型加密資產作為綠色資產網絡的壓力來源，區分短期傳送與長期平衡。主要差異：未納入 CPU、碳價或 TVP-VAR-SV。可追蹤引用：dirty-crypto tail connectedness。",
+        "【APA 7】Al-Kharusi, S., Gemici, E., Mensi, W., & Kang, S. H. (2026). Tail connectedness between energy-intensive cryptocurrencies, green bonds, clean energy, and commodity markets. Journal of Economics and Finance, 50(1), 1–32. https://doi.org/10.1007/s12197-026-09764-y"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-09-qref-101954",
+      "title": "Spillovers between cryptocurrency, DeFi, carbon, and energy markets: A frequency quantile-on-quantile perspective",
+      "search_date": "2026-09-09",
+      "authors": "Remzi Gök",
+      "year": "2025",
+      "journal": "The Quarterly Review of Economics and Finance, 100, 101954",
+      "doi": "https://doi.org/10.1016/j.qref.2024.101954",
+      "citations": "22 次（OpenAlex，2026-09-09）",
+      "openalex_url": "https://openalex.org/W4405807878",
+      "publisher_url": "https://www.sciencedirect.com/science/article/pii/S1062976924001601",
+      "reading_level": "摘要層級",
+      "abstract": "以 CCI30、DeFi Pulse、碳、潔淨與化石能源建立 frequency quantile-on-quantile connectedness。相同分位的外溢強於反向分位，極端下尾與短期最強；碳價是對數位市場最有影響力的節點。疫情期角色改變，俄烏戰爭期外溢更強。",
+      "tags": [
+        "QQFC",
+        "quantile-on-quantile connectedness",
+        "frequency connectedness",
+        "cryptocurrency",
+        "DeFi",
+        "carbon",
+        "clean energy"
+      ],
+      "topics": [
+        "加密貨幣/數位金融",
+        "碳市場/碳交易",
+        "潔淨能源",
+        "能源市場",
+        "金融市場"
+      ],
+      "keywords": [
+        "CCI30",
+        "DeFi Pulse Index",
+        "coal",
+        "oil",
+        "natural gas",
+        "New Energy Global Innovation",
+        "COVID-19",
+        "Russia–Ukraine war"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；ScienceDirect 全文受機構／付費存取限制，僅依公開摘要與 highlights，並以 Crossref、OpenAlex 核驗。OpenAlex 顯示非撤稿、closed access、22 次被引。",
+        "【研究問題與動機】加密貨幣與 DeFi 對碳、潔淨／化石能源的外溢，是否同時取決於兩邊的分位數組合、期限及疫情／戰爭事件？",
+        "【研究變數】Cryptocurrency Index 30（CCI30）、DeFi Pulse Index（DPI）、碳市場、煤、石油、天然氣及潔淨能源指數（包含 New Energy Global Innovation）。完整指數清單在摘要中未報告。",
+        "【資料／市場／樣本】全球數位、碳與能源市場；包含 COVID-19 與俄烏戰爭子期間。精確樣本期、頻率、資料來源與樣本量在公開摘要中未報告。",
+        "【模型與估計】frequency quantile-on-quantile connectedness（QQFC），同時比較直接與反向分位組合及短／長期頻帶；完整分位格點、頻帶界線、滾動窗與穩健性未在摘要報告。",
+        "【主要結果】相同方向分位的連結強於反向分位，極端下尾影響最大，且外溢隨期限增加而下降。潔淨能源與數位市場的連結高於化石能源／碳；數位市場在短期極端狀態多吸收其他市場衝擊，長期反而較常傳送。碳是對 crypto／DeFi 最有影響力的節點，油與氣較易受數位市場影響；戰爭期外溢強於疫情期。",
+        "【限制】作者限制在摘要中未報告。其他限制：使用大型綜合 crypto／DeFi 指數會掩蓋幣種能源差異；事件子樣本與頻率設定未能全文核對，所有方向均是預測性外溢而非因果。",
+        "【與美智研究的關聯】4/5。重疊：碳×潔淨／化石能源、QQC 與頻率分解、極端狀態。可借鏡：完整分位數配對而非只比較同一 τ，並拆分疫情與戰爭。主要差異：未加入 CPU、綠債或 TVP-VAR-SV。可追蹤引用：QQFC 方法與 carbon-as-transmitter 命題。",
+        "【APA 7】Gök, R. (2025). Spillovers between cryptocurrency, DeFi, carbon, and energy markets: A frequency quantile-on-quantile perspective. The Quarterly Review of Economics and Finance, 100, 101954. https://doi.org/10.1016/j.qref.2024.101954"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-09-irfa-104370",
+      "title": "Tail risk contagion and connectedness between clean cryptocurrency, green assets and commodity markets",
+      "search_date": "2026-09-09",
+      "authors": "Walid Mensi; Houssem Eddine Belghouthi; Sami Al-Kharusi; Sang Hoon Kang",
+      "year": "2025",
+      "journal": "International Review of Financial Analysis, 105, 104370",
+      "doi": "https://doi.org/10.1016/j.irfa.2025.104370",
+      "citations": "13 次（OpenAlex，2026-09-09）",
+      "openalex_url": "https://openalex.org/W4410909545",
+      "publisher_url": "https://www.sciencedirect.com/science/article/pii/S1057521925004570",
+      "reading_level": "摘要層級",
+      "abstract": "以七種被標記為 clean 的加密貨幣、綠債、潔淨能源、ESG、黃金與 WTI，先用 CAViaR 估計尾部風險，再以 quantile connectedness 比較熊／常／牛市。極端狀態連結升高，clean crypto 尾部風險偏高；綠債、ESG 與黃金較具韌性，WTI 在熊市接收、牛市傳送。",
+      "tags": [
+        "CAViaR",
+        "quantile connectedness",
+        "tail contagion",
+        "clean cryptocurrency",
+        "green bonds",
+        "ESG",
+        "commodities"
+      ],
+      "topics": [
+        "加密貨幣/數位金融",
+        "潔淨能源",
+        "綠債/ESG",
+        "原物料/商品",
+        "金融市場"
+      ],
+      "keywords": [
+        "Cardano",
+        "EOS",
+        "NANO",
+        "TRON",
+        "Stellar",
+        "Tezos",
+        "Ripple",
+        "CAViaR tail risk"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；ScienceDirect 全文受存取限制，本次依公開摘要、highlights、Crossref 與 OpenAlex 核驗。OpenAlex 顯示非撤稿、closed access、13 次被引。",
+        "【研究問題與動機】被歸為 clean 的加密貨幣，是否能在不同市場狀態與綠債、潔淨能源、ESG、黃金及 WTI 形成較低尾部傳染與較佳分散？",
+        "【研究變數】Cardano、EOS、NANO、TRON、Stellar、Tezos、Ripple；S&P Green Bond Index、S&P Global Clean Energy Index、S&P ESG Leader Index；黃金與 WTI。",
+        "【資料／市場／樣本】全球市場；2017-11-09 至 2024-07-31；日資料。公開摘要未完整報告資料供應商與有效樣本量。",
+        "【模型與估計】CAViaR 估計各市場尾部風險，再用 Ando 等人的 quantile connectedness 比較正常、bearish、bullish 狀態；完整分位數、滾動窗、預測期與穩健性在摘要中未報告。",
+        "【主要結果】clean crypto 的尾部風險在市場擾動時仍偏高，系統連結在極端狀態增強且牛市外溢較強；綠債、ESG 與黃金相對具韌性。WTI 在熊市為接收者、牛市轉為傳送者。這些結果支持狀態依賴的尾部傳染，但不足以單獨證明 safe haven。",
+        "【限制】作者限制在摘要中未報告。其他限制：clean crypto 分類可能忽略鏈上能源來源、共識機制與生命周期排放，存在漂綠風險；CAViaR 與 QVAR 的設定及安全港判準尚未全文核對。",
+        "【與美智研究的關聯】4/5。重疊：clean crypto、綠債／潔淨能源／ESG、尾部 QVAR 與危機投組。可借鏡：先以 CAViaR 建構尾部風險，再分析連結；同時把 clean 標籤納入漂綠敏感度檢驗。主要差異：未納入 CPU、碳價、BK 或 TVP-VAR-SV。可追蹤引用：CAViaR-to-QVAR tail contagion。",
+        "【APA 7】Mensi, W., Belghouthi, H. E., Al-Kharusi, S., & Kang, S. H. (2025). Tail risk contagion and connectedness between clean cryptocurrency, green assets and commodity markets. International Review of Financial Analysis, 105, 104370. https://doi.org/10.1016/j.irfa.2025.104370"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-09-jcms-0062",
+      "title": "Dynamic quantile and time–frequency connectedness in global markets and commodities during health and geopolitical crises",
+      "search_date": "2026-09-09",
+      "authors": "Olfa El Aoun",
+      "year": "2026",
+      "journal": "Journal of Capital Markets Studies, 10(1), 57–88",
+      "doi": "https://doi.org/10.1108/JCMS-05-2025-0062",
+      "citations": "未取得（OpenAlex 尚未收錄，2026-09-09；Crossref 顯示 1 次）",
+      "openalex_url": "",
+      "fulltext_url": "https://www.emerald.com/jcms/article/10/1/57/1367268/Dynamic-quantile-and-time-frequency-connectedness",
+      "reading_level": "全文精讀",
+      "abstract": "以 2017–2025 日資料結合 TVP-VAR、QVAR、BK 型頻率分解與 QWC，分析 G7 股市、Bitcoin、黃金、WTI、天然氣與小麥。中位 TCI 約 46.35%，COVID-19 期間動態連結最高約 85%；極端兩尾傳導近對稱，1–5 日短期外溢主導，WTI 在俄烏戰爭由接收者轉為傳送者。",
+      "tags": [
+        "TVP-VAR",
+        "QVAR",
+        "Baruník–Křehlík",
+        "time-frequency connectedness",
+        "quantile wavelet coherence",
+        "geopolitical risk",
+        "commodities"
+      ],
+      "topics": [
+        "地緣政治/國防",
+        "能源市場",
+        "原物料/商品",
+        "加密貨幣/數位金融",
+        "金融市場"
+      ],
+      "keywords": [
+        "G7 equities",
+        "Bitcoin",
+        "WTI",
+        "natural gas",
+        "wheat",
+        "gold",
+        "COVID-19",
+        "Russia–Ukraine war"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】全文精讀；Emerald 公開 HTML 為 CC BY 4.0，已核對資料、表格、模型、結論與限制，並以 Crossref 核驗 DOI、作者、卷期頁碼。OpenAlex 於 2026-09-09 尚未收錄。",
+        "【研究問題與動機】COVID-19 與俄烏戰爭期間，G7 股票、Bitcoin、能源／農產／貴金屬的波動連結是否因分位數與期限改變？哪些資產的傳送／接收角色會在危機中反轉？",
+        "【研究變數】Bitcoin、黃金、WTI、小麥、天然氣，以及 S&P 500、FTSE、Nikkei、DAX 40、CAC 40、FTSE MIB、S&P/TSX 等 G7 股市日報酬。",
+        "【資料／市場／樣本】G7 與全球商品／Bitcoin；2017-01-03 至 2025-02-07；日資料，取自 Datastream。有效樣本量原文未直接報告。",
+        "【模型與估計】TVP-VAR 動態連結、Ando 型 QVAR、依 Baruník–Křehlík 精神的 1–5 日與 5 日以上頻率分解；QWC 作穩健性。BDS 檢定拒絕 i.i.d.，支持非線性模型；部分 BDS 表格僅可索取。",
+        "【主要結果】中位靜態 TCI 約 46.35%（表中亦列 cTCI 50.57%）；動態 TCI 約 40%–85%，COVID-19 附近最高。DAX、CAC 等歐洲股市多為傳送者；Bitcoin、黃金、WTI、小麥與 Nikkei 多為接收者，但 WTI 在戰爭期轉為顯著傳送者。極端兩尾傳導近對稱；短期外溢占主導，長期連結約 5.01%。淨接收者不能自動等同安全港。",
+        "【限制】作者指出資產類別有限、只有一種加密貨幣、僅日資料，且危機期採質性劃分，未正式納入 VIX、EPU、GPR 等不確定指數。其他限制：個別 BDS 表未公開，事件對齊不能識別危機的結構因果。",
+        "【與美智研究的關聯】4/5。重疊：QVAR、TVP-VAR、BK 頻率分解與地緣危機下的能源—金融外溢。可借鏡：1–5 日／5 日以上頻帶與危機角色反轉，並將 GPR／CPU 正式加入而非只做事件標記。主要差異：沒有 SV 隨機波動、CPU、綠債或碳價。可追蹤引用：QWC 作跨方法穩健性。",
+        "【APA 7】El Aoun, O. (2026). Dynamic quantile and time–frequency connectedness in global markets and commodities during health and geopolitical crises. Journal of Capital Markets Studies, 10(1), 57–88. https://doi.org/10.1108/JCMS-05-2025-0062"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-09-frl-109666",
+      "title": "Asymmetric causality and dynamic spillovers between biodiversity index and US equity sectors",
+      "search_date": "2026-09-09",
+      "authors": "Hongjun Zeng; Mohammad Zoynul Abedin",
+      "year": "2026",
+      "journal": "Finance Research Letters, 94, 109666",
+      "doi": "https://doi.org/10.1016/j.frl.2026.109666",
+      "citations": "1 次（OpenAlex，2026-09-09）",
+      "openalex_url": "https://openalex.org/W7130379578",
+      "publisher_url": "https://www.sciencedirect.com/science/article/pii/S1544612326001972",
+      "reading_level": "摘要層級",
+      "abstract": "結合 quantile-on-quantile Granger causality（QQGC）與 TVP-VAR connectedness，分析 S&P 500 Biodiversity Index 對美國產業股。USBIO 對各產業具有廣泛但不對稱的預測能力，並在連結網絡中成為淨傳送者；TCI 為 82.04%，資訊科技、通訊服務與非必需消費品的曝險尤其明顯。",
+      "tags": [
+        "QQGC",
+        "quantile-on-quantile Granger causality",
+        "TVP-VAR connectedness",
+        "biodiversity risk",
+        "sector equities"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "綠債/ESG",
+        "金融市場",
+        "方法論"
+      ],
+      "keywords": [
+        "S&P 500 Biodiversity Index",
+        "information technology",
+        "communication services",
+        "consumer discretionary",
+        "COVID-19",
+        "sector rotation"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；ScienceDirect 全文需訂閱，本次依公開摘要與可讀方法／結果片段，並以 Crossref、OpenAlex 核驗。OpenAlex 顯示非撤稿、closed access、1 次被引。",
+        "【研究問題與動機】生物多樣性資產在不同分位狀態下是否能預測美國產業報酬？其衝擊是否在 TVP-VAR 網絡中成為系統性傳送來源，且危機後持續升高？",
+        "【研究變數】S&P 500 Biodiversity Index（USBIO）與美國產業報酬；公開內容明確提及資訊科技、通訊服務、非必需消費品、能源與房地產等產業，完整產業清單與代碼需全文核對。",
+        "【資料／市場／樣本】美國產業股與 biodiversity index；公開摘要未報告資料來源、樣本起訖、頻率與樣本量。",
+        "【模型與估計】quantile-on-quantile Granger causality（QQGC）檢驗預測能力，搭配 TVP-VAR connectedness 與方向性外溢。落後期、分位格點、預測期與穩健性在可取得內容中未完整報告。",
+        "【主要結果】USBIO 對多數產業具有廣泛但異質、非對稱的預測能力；當 biodiversity 資產位於較低狀態時，對繁榮產業狀態的預測較強。TVP-VAR 顯示 USBIO 為淨傳送者，TCI=82.04%，對資訊科技、通訊服務與非必需消費品方向外溢較強；COVID-19 後系統連結維持高檔。QQGC 是預測因果，不是結構因果。",
+        "【限制】作者限制在摘要中未報告。其他限制：單一 USBIO 指數可能混合實體風險、投資人偏好與產業權重；沒有全文便無法核對樣本、控制變數與穩健性，TCI 高值也可能部分反映共同市場因子。",
+        "【與美智研究的關聯】4/5。重疊：氣候／自然風險代理、QQGC、TVP-VAR 與尾部不對稱。可借鏡：用 QQGC 補充 connectedness 的方向性，並把 biodiversity risk 作為 CPU 之外的自然風險節點。主要差異：不含綠債、能源、BK 或 TVP-VAR-SV。可追蹤引用：USBIO 與 sector-level biodiversity pricing。",
+        "【APA 7】Zeng, H., & Abedin, M. Z. (2026). Asymmetric causality and dynamic spillovers between biodiversity index and US equity sectors. Finance Research Letters, 94, 109666. https://doi.org/10.1016/j.frl.2026.109666"
+      ]
+    },
     {
       "id": "qvar-2026-09-08-erl-156409",
       "title": "Assessing the Impact of Physical and Transition Climate Risks on Clean Energy and Green Bond Markets: A Quantile-on-Quantile Connectedness Analysis",
