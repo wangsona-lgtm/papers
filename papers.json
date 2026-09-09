@@ -1,6 +1,6 @@
 {
-  "total": 137,
-  "updated": "2026-09-09 08:05:40 +08:00",
+  "total": 145,
+  "updated": "2026-09-09 20:13:34 +08:00",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,379 @@
     "金融市場"
   ],
   "papers": [
+    {
+      "id": "qvar-2026-09-09-ijfs-195",
+      "title": "Research on Risk Spillovers and Early Warning Between Geopolitical Risk and China’s Financial Markets: A Quantile Time-Frequency Connectedness and Machine Learning Approach",
+      "search_date": "2026-09-09",
+      "authors": "Baoshuai Zhang; Jinwei Zhang; Jun Duan",
+      "year": "2026",
+      "journal": "International Journal of Financial Studies, 14(8), Article 195",
+      "doi": "https://doi.org/10.3390/ijfs14080195",
+      "citations": "未取得（OpenAlex 尚未收錄，2026-09-09；Crossref 顯示 0 次）",
+      "openalex_url": "",
+      "fulltext_url": "https://www.mdpi.com/2227-7072/14/8/195",
+      "reading_level": "全文精讀",
+      "abstract": "以 2013–2025 年日資料連結全球地緣政治風險與中國七類金融市場，建立 QVAR time-frequency connectedness 與機器學習預警架構。TCI 從正常狀態的 13.72% 升至下尾 77.97% 與上尾 78.47%；短期傳導主導，但極端狀態下長期成分增強。股市、房地產與商品多為淨傳送者，債券與匯市多為淨接收者。",
+      "tags": [
+        "QVAR",
+        "quantile time-frequency connectedness",
+        "geopolitical risk",
+        "machine learning early warning",
+        "China financial markets",
+        "tail risk"
+      ],
+      "topics": [
+        "地緣政治/國防",
+        "宏觀總體",
+        "金融市場",
+        "AI/科技"
+      ],
+      "keywords": [
+        "GPR",
+        "CSI 300",
+        "CSI Aggregate Bond Index",
+        "RMB exchange rate",
+        "rolling TCI threshold",
+        "out-of-sample warning"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】全文精讀；以 MDPI 公開全文核對變數、樣本、QVAR time-frequency 設定、預警設計、結果與限制，並以 Crossref 核驗 DOI、作者、卷期與文章號。OpenAlex 於 2026-09-09 尚未收錄。",
+        "【研究問題與動機】地緣政治風險與中國股票、債券、貨幣、外匯、商品、黃金及房地產市場的連結是否隨市場狀態與投資期限改變？由動態連結度衍生的訊號能否提前辨識高風險網絡狀態？",
+        "【研究變數】Caldara–Iacoviello 全球 GPR；CSI 300、CSI 綜合債券指數、7 日加權同業拆借利率、美元兌人民幣中間價、南華綜合指數、黃金現貨價及申萬房地產業指數；市場水準多取對數差分，貨幣市場變數解讀為資金成本變動。",
+        "【資料／市場／樣本】中國；2013-01-04 至 2025-12-19 日資料，以共同交易日對齊，不前向填補或插值。來源包括 GPR 官方資料、上交所、中證指數、人民銀行、南華期貨、中國外匯交易中心、申萬研究與生意社；轉換後樣本量原文未集中報告。",
+        "【模型與估計】QVAR-GFEVD 的 time-frequency connectedness，動態估計採 200 日滾動窗與 16 步預測期；以動態 TCI、門檻距離、NET、報酬與滾動波動建構機器學習分類特徵，預測未來 1、5、16 日高風險狀態。穩健性含 80%／90% 門檻、naive benchmark、ablation 與 2023–2025 嚴格樣本外測試。",
+        "【主要結果】正常狀態 TCI 為 13.72%，下尾與上尾分別升至 77.97% 與 78.47%。短期連結主導，極端狀態的長期成分上升；股票、房地產、商品多為淨傳送者，債券與外匯多為淨接收者。機器學習具有樣本外排序與機率校準價值，但主要訊息來自 TCI 水準及其距滾動門檻的差距，不能把網絡位置解讀為結構因果。",
+        "【限制】作者指出單一全球新聞型 GPR 無法區分事件類型與區域異質性；只涵蓋中國七個子市場，未納入跨國傳導；二元高風險標籤與以連結度／波動為主的特徵限制外推；部分預測力來自狀態持續性與門檻接近度，仍需即時滾動重估、跨市場外部驗證與更長預警期。",
+        "【與美智研究的關聯】4/5。重疊：外生不確定性、QVAR 尾部連結、頻率分解與動態風險監測。可借鏡：把 TCI 與門檻距離轉成可驗證的預警變數，並用 naive／ablation 界定機器學習的增額價值。主要差異：核心是 GPR 與中國綜合金融市場，不是 CPU—綠色資產，也未使用 TVP-VAR-SV。可追蹤引用：QVAR time-frequency early-warning pipeline。",
+        "【APA 7】Zhang, B., Zhang, J., & Duan, J. (2026). Research on risk spillovers and early warning between geopolitical risk and China’s financial markets: A quantile time-frequency connectedness and machine learning approach. International Journal of Financial Studies, 14(8), Article 195. https://doi.org/10.3390/ijfs14080195"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-09-glce-3945",
+      "title": "Time-Frequency and Quantile Connectedness Among Geopolitical Risks, Conventional and Clean Energy, Electricity, and Carbon Markets",
+      "search_date": "2026-09-09",
+      "authors": "Wei Jiang; Jingang Jiang; Jinyan Hu",
+      "year": "2026",
+      "journal": "Green and Low-Carbon Economy, 4(3), 301–319",
+      "doi": "https://doi.org/10.47852/bonviewGLCE52023945",
+      "citations": "未取得（OpenAlex 尚未收錄，2026-09-09；Crossref 顯示 2 次）",
+      "openalex_url": "",
+      "fulltext_url": "https://ojs.bonviewpress.com/index.php/GLCE/article/view/3945",
+      "reading_level": "全文精讀",
+      "abstract": "以 2013–2024 年日資料比較 GPR、化石能源、歐洲電力、潔淨能源與 EUA 碳價在均值與不同分位、不同期限的連結。極端尾端的連結顯著放大且短期成分主導；電力持續是重要傳送節點，GPR 在短期多為接收者、在中長期轉為傳送者，碳市場於極端狀態成為顯著傳送者。",
+      "tags": [
+        "QVAR",
+        "Barunik-Krehlik",
+        "time-frequency connectedness",
+        "geopolitical risk",
+        "clean energy",
+        "carbon market"
+      ],
+      "topics": [
+        "地緣政治/國防",
+        "氣候風險/政策",
+        "潔淨能源",
+        "能源市場",
+        "碳市場/碳交易"
+      ],
+      "keywords": [
+        "Caldara-Iacoviello GPR",
+        "crude oil",
+        "natural gas",
+        "Rotterdam coal futures",
+        "Phelix-DE electricity",
+        "ERIX",
+        "EUA futures"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】全文精讀；以期刊 CC BY 4.0 公開全文核對資料、模型、表格、結論與限制，並以 Crossref 核驗題名、作者、DOI、卷期及頁碼。OpenAlex 於 2026-09-09 尚未收錄。",
+        "【研究問題與動機】地緣政治風險、傳統／潔淨能源、歐洲電力與碳市場的方向性風險外溢，是否同時依分位狀態與投資期限改變？能源轉型相關市場在重大危機中扮演傳送者還是接收者？",
+        "【研究變數】Caldara–Iacoviello 日 GPR；原油、天然氣與鹿特丹煤炭期貨；EEX Phelix-DE Baseload Year 電力期貨；European Renewable Energy Index（ERIX）；EUA 期貨。七序列以對數成長率進入分析。",
+        "【資料／市場／樣本】全球 GPR 與歐洲能源／碳市場；2013-01-02 至 2024-03-28 日資料，樣本量原文未報告。GPR 來自 Caldara–Iacoviello，化石能源取 WIND，電力取 EEX，ERIX 與 EUA 取 Bloomberg。",
+        "【模型與估計】先以均值 VAR 搭配 Baruník–Křehlík 頻率分解，再以 QVAR-GFEVD 檢視條件分位連結；VAR 與 QVAR 依 SIC 設一階落後，報告 TO、FROM、NET、TCI 及 200 期滾動結果，短期頻帶為 1–5 日。",
+        "【主要結果】尾端連結明顯高於中位，且各分位的動態外溢主要集中短期。電力市場跨尺度持續扮演重要傳送者；化石與潔淨能源多接收來自電力與碳市場的衝擊。GPR 短期多為淨接收者，中長期轉為淨傳送者；EUA 在極端情況成為顯著風險傳送者。這些是預測性連結，不足以辨識事件因果。",
+        "【限制】作者指出雖然重大地緣政治與公共衛生事件期間連結上升，但未實證區分政府債務危機、利率變動與極端天氣等不同外生事件在各分位的影響。其他限制包括歐洲市場代表性、日 GPR 的新聞測量誤差與未明確辨識結構衝擊。",
+        "【與美智研究的關聯】5/5。重疊：不確定性／地緣政治風險、潔淨能源、碳價、QVAR 與 BK time-frequency connectedness。可借鏡：比較 GPR 在短中長期的角色翻轉，並把電力與 EUA 視為能源轉型網絡節點。主要差異：未使用 CPU、綠債或 TVP-VAR-SV。可追蹤引用：QVAR-BK 雙框架與 1–5 日短期頻帶。",
+        "【APA 7】Jiang, W., Jiang, J., & Hu, J. (2026). Time-frequency and quantile connectedness among geopolitical risks, conventional and clean energy, electricity, and carbon markets. Green and Low-Carbon Economy, 4(3), 301–319. https://doi.org/10.47852/bonviewGLCE52023945"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-09-frl-109933",
+      "title": "Quantile-Dependent Connectedness of ESG Uncertainty in G7 Countries",
+      "search_date": "2026-09-09",
+      "authors": "David Y. Aharon; Shoaib Ali; Muhammad Naveed",
+      "year": "2026",
+      "journal": "Finance Research Letters, 99, 109933",
+      "doi": "https://doi.org/10.1016/j.frl.2026.109933",
+      "citations": "0 次（OpenAlex，2026-09-09）",
+      "openalex_url": "https://openalex.org/W7147479624",
+      "publisher_url": "https://www.sciencedirect.com/science/article/pii/S1544612326004629",
+      "reading_level": "摘要層級",
+      "abstract": "以 QVAR 檢視 G7 國家 ESG 不確定性的條件分位連結。跨國傳導在尾端呈顯著非對稱，美國在中位與兩端分位均持續為淨衝擊傳送者；relative tail dependence 顯示上尾傳導高於下尾，且各國角色隨時間改變。",
+      "tags": [
+        "QVAR",
+        "ESG uncertainty",
+        "G7",
+        "relative tail dependence",
+        "tail asymmetry"
+      ],
+      "topics": [
+        "綠債/ESG",
+        "氣候風險/政策",
+        "金融市場"
+      ],
+      "keywords": [
+        "ESG uncertainty",
+        "G7 countries",
+        "United States transmitter",
+        "upper-tail dependence",
+        "cross-border investment"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；以 RePEc／ScienceDirect 公開摘要、Crossref 與 OpenAlex 核驗。出版商全文標示訂閱限制，未繞過付費牆；OpenAlex ID 為 W7147479624，2026-09-09 被引 0 次且未標記撤稿。",
+        "【研究問題與動機】G7 國家 ESG 不確定性的跨國傳導是否隨條件分位與時間改變？上尾與下尾是否具有不同的相對尾端依賴，哪些國家是穩定的淨傳送者？",
+        "【研究變數】G7 各國 ESG uncertainty 指標；公開摘要未報告各國指標的具體建構、頻率或轉換方式。",
+        "【資料／市場／樣本】加拿大、法國、德國、義大利、日本、英國與美國；資料來源、樣本期間、頻率與樣本量在公開摘要中未報告。",
+        "【模型與估計】QVAR connectedness、動態 TO／FROM／NET 與 relative tail dependence（RTD）；分位數格點、落後期、預測期、滾動窗及穩健性在摘要中未報告。",
+        "【主要結果】G7 ESG 不確定性在不同條件分位間有強傳導，極端分位呈明顯不對稱；美國在中位及極端分位皆持續為淨衝擊傳送者。RTD 顯示上尾傳導高於下尾，各國傳送角色與強度隨時間變化。這是連結度與預測誤差分解證據，不等於 ESG 不確定性的結構因果效果。",
+        "【限制】作者限制在摘要中未報告。其他限制：ESG uncertainty 指標定義、資料頻率與樣本窗未知；G7 聚合可能掩蓋政策制度差異；無全文時無法核對事件歸因、RTD 設定與穩健性。",
+        "【與美智研究的關聯】4/5。重疊：政策／ESG 不確定性、跨國尾部連結、QVAR 與極端非對稱。可借鏡：用 RTD 明確比較上尾與下尾傳導，並檢驗美國是否為穩定外溢核心。主要差異：未直接連結 CPU 與綠色資產，也沒有頻率分解或 TVP-VAR-SV。可追蹤引用：relative tail dependence。",
+        "【APA 7】Aharon, D. Y., Ali, S., & Naveed, M. (2026). Quantile-dependent connectedness of ESG uncertainty in G7 countries. Finance Research Letters, 99, 109933. https://doi.org/10.1016/j.frl.2026.109933"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-09-apec-2645235",
+      "title": "Assessing Time-Frequency Spillovers Between Oil Shocks and Energy Cryptocurrencies: Evidence from TVP-VAR Framework and Quantile Coherency Perspective",
+      "search_date": "2026-09-09",
+      "authors": "Shi-Feng Shao",
+      "year": "2026",
+      "journal": "Applied Economics, advance online publication, 1–17",
+      "doi": "https://doi.org/10.1080/00036846.2026.2645235",
+      "citations": "未取得（OpenAlex 尚未收錄，2026-09-09；Crossref 顯示 0 次）",
+      "openalex_url": "",
+      "publisher_url": "https://www.tandfonline.com/doi/abs/10.1080/00036846.2026.2645235",
+      "reading_level": "摘要層級",
+      "abstract": "以 2017–2024 年資料結合 Ready 油價衝擊分解、frequency-domain TVP-VAR 與 quantile coherency，研究原油結構衝擊對 POWR、SNC 能源加密貨幣報酬的期限與尾部傳導。短期連結遠高於長期，重大事件會放大連結並改變淨傳導方向；需求與風險衝擊的連結較強，極端狀態下關係進一步升高。",
+      "tags": [
+        "TVP-VAR",
+        "frequency connectedness",
+        "quantile coherency",
+        "oil shocks",
+        "energy cryptocurrencies",
+        "Ready decomposition"
+      ],
+      "topics": [
+        "能源市場",
+        "加密貨幣/數位金融",
+        "原物料/商品",
+        "金融市場"
+      ],
+      "keywords": [
+        "POWR",
+        "SNC",
+        "oil demand shock",
+        "oil risk shock",
+        "COVID-19",
+        "hedging"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；以 Taylor & Francis 公開摘要與註腳、Crossref 核驗題名、作者、DOI、頁碼與上線日期。全文需要訂閱，未繞過付費牆；OpenAlex 於 2026-09-09 尚未收錄。",
+        "【研究問題與動機】不同類型油價結構衝擊與能源加密貨幣報酬的連結，是否依期限與市場分位而改變？重大事件會否重排淨傳送者／接收者並改變對沖潛力？",
+        "【研究變數】依 Ready（2018）分解的油價衝擊，以及 Powerledger（POWR）與 SunContract（SNC）報酬；公開摘要未完整列出油價基準、各衝擊序列定義與資料供應商。",
+        "【資料／市場／樣本】原油與能源加密貨幣市場；2017-11-01 至 2024-07-02。研究為涵蓋 COVID-19 僅選取成立較早的 POWR 與 SNC；資料頻率與樣本量在公開摘要中未明列。",
+        "【模型與估計】Ready 油價衝擊分解、frequency-domain TVP-VAR connectedness 與 quantile coherency；BDS 檢驗支持非線性分析。附錄穩健性把預測期改為 200 日，靜態表與動態淨傳導角色大致維持。",
+        "【主要結果】短期連結顯著高於長期；重大事件提高系統內部連結並改變淨方向。油價需求／風險衝擊與能源加密貨幣的連結強於其他衝擊，極端市場狀態下連結升高；能源幣對原油的避險能力取決於衝擊類型。以上是動態關聯與頻率分解，不是油價衝擊的結構因果估計。",
+        "【限制】作者以樣本長度為由只選 POWR 與 SNC，難以代表快速演化的能源代幣市場。其他限制：摘要未完整報告頻率、衝擊序列與頻帶界線；代幣流動性與存活者偏誤可能影響結果，且事件期角色翻轉不等於事件因果。",
+        "【與美智研究的關聯】4/5。重疊：能源轉型數位資產、TVP-VAR、頻率分解與尾部狀態。可借鏡：先做油價結構衝擊分解，再以 quantile coherency 驗證 QVAR／connectedness 的非線性方向。主要差異：未使用 CPU、綠債、碳價或 QVAR-BK。可追蹤引用：Ready shock decomposition 與 200 日預測期穩健性。",
+        "【APA 7】Shao, S.-F. (2026). Assessing time-frequency spillovers between oil shocks and energy cryptocurrencies: Evidence from TVP-VAR framework and quantile coherency perspective. Applied Economics, 1–17. Advance online publication. https://doi.org/10.1080/00036846.2026.2645235"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-09-intfin-102358",
+      "title": "Quantile Liquidity Connectedness in Foreign Exchange Markets",
+      "search_date": "2026-09-09",
+      "authors": "Ya-Ting Chang; Yin-Feng Gau",
+      "year": "2026",
+      "journal": "Journal of International Financial Markets, Institutions and Money, 111, 102358",
+      "doi": "https://doi.org/10.1016/j.intfin.2026.102358",
+      "citations": "未取得（OpenAlex 尚未收錄，2026-09-09；Crossref 顯示 0 次）",
+      "openalex_url": "",
+      "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S1042443126000740",
+      "reading_level": "摘要層級",
+      "abstract": "以九個主要外匯市場的報價型與成交型流動性衡量，利用 QVAR connectedness 比較高度流動、正常與嚴重不流動狀態。連結度沿條件分布呈 U 型，兩端皆高於中間；報價與成交流動性的動態並不相同，且與全球風險、融資條件及中介商資產負債表約束相關。",
+      "tags": [
+        "QVAR",
+        "liquidity connectedness",
+        "foreign exchange",
+        "tail dependence",
+        "dealer constraints"
+      ],
+      "topics": [
+        "金融市場",
+        "宏觀總體"
+      ],
+      "keywords": [
+        "FX liquidity",
+        "quotation-based liquidity",
+        "trade-based liquidity",
+        "funding conditions",
+        "intermediary balance sheet"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；ScienceDirect 標示開放授權，但本次可取得頁面僅完整呈現公開摘要與 highlights，因此不冒充全文精讀。Crossref 核驗題名、作者、DOI、卷與文章號；OpenAlex 於 2026-09-09 尚未收錄。",
+        "【研究問題與動機】主要外匯市場的流動性衝擊傳導是否隨條件分布改變？高度流動與嚴重不流動兩端是否都會形成更緊密的流動性網絡，報價型與成交型衡量是否一致？",
+        "【研究變數】九個主要貨幣市場的 quotation-based 與 trade-based liquidity measures，以及全球風險、融資條件和中介商資產負債表約束指標；具體貨幣、公式與控制變數在公開摘要中未報告。",
+        "【資料／市場／樣本】九個主要外匯市場，EBS Service Company Ltd. 提供核心資料；樣本期間、頻率、貨幣清單與樣本量在公開摘要中未報告，資料無公開分享權限。",
+        "【模型與估計】依 Ando et al. 的 QVAR 延伸 Diebold–Yilmaz connectedness，分析條件分位下的流動性 TO／FROM／NET／TCI；摘要未報告分位格點、滾動窗、預測期與穩健性設定。",
+        "【主要結果】流動性連結隨條件分布呈 U 型：高度流動與嚴重不流動兩端都比中間狀態強。報價型與成交型流動性的狀態動態有異，並與全球風險、融資條件及中介商限制相關。摘要只支持關聯敘述，不能寫成這些條件造成外匯流動性連結的因果效果。",
+        "【限制】作者資料聲明指出無權分享資料，限制可重現性。其他限制：摘要未提供貨幣清單、樣本窗、指標公式與驅動因子估計；EBS 涵蓋範圍可能偏向特定交易場所，且 U 型連結不能單獨辨識資本流動或交易商約束機制。",
+        "【與美智研究的關聯】2/5。重疊：QVAR、尾端 U 型連結與流動性壓力。可借鏡：同時檢驗左右尾端而不預設壞狀態只在單側，並區分報價／成交衡量。主要差異：無氣候、綠色資產或頻率分解。可追蹤引用：liquidity-state QVAR connectedness。",
+        "【APA 7】Chang, Y.-T., & Gau, Y.-F. (2026). Quantile liquidity connectedness in foreign exchange markets. Journal of International Financial Markets, Institutions and Money, 111, 102358. https://doi.org/10.1016/j.intfin.2026.102358"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-09-jrfm-490",
+      "title": "Quantile Connectedness and Downside Risk in Portfolio Construction",
+      "search_date": "2026-09-09",
+      "authors": "Konoka Hamada; Yuichiro Hamada; Shigeyuki Hamori",
+      "year": "2026",
+      "journal": "Journal of Risk and Financial Management, 19(7), Article 490",
+      "doi": "https://doi.org/10.3390/jrfm19070490",
+      "citations": "未取得（OpenAlex 尚未收錄，2026-09-09；Crossref 顯示 0 次）",
+      "openalex_url": "",
+      "fulltext_url": "https://www.mdpi.com/1911-8074/19/7/490",
+      "reading_level": "全文精讀",
+      "abstract": "以 2000–2025 年八個美國產業 ETF 的日報酬估計 QVAR connectedness，將各期淨傳送者排名轉成簡單投組權重。下尾連結在全球金融危機與 COVID-19 時急升，使用下尾訊息降低最大回撤與下行風險的效果優於中位、上尾與等權投組，且鄰近分位、替代權重和即時門檻檢驗大致維持。",
+      "tags": [
+        "QVAR",
+        "downside risk",
+        "portfolio construction",
+        "sector ETFs",
+        "rolling connectedness"
+      ],
+      "topics": [
+        "金融市場",
+        "行為金融"
+      ],
+      "keywords": [
+        "Select Sector SPDR",
+        "lower-tail connectedness",
+        "maximum drawdown",
+        "Calmar ratio",
+        "out-of-sample allocation"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】全文精讀；以 MDPI 公開全文核對資料、QVAR、投組規則、績效與附錄穩健性，並以 Crossref 核驗 DOI、作者、卷期與文章號。OpenAlex 於 2026-09-09 尚未收錄。",
+        "【研究問題與動機】分位數特定的淨連結訊息能否不只衡量系統風險，還能轉化為可執行的產業配置規則？下尾連結是否比中位或上尾更能管理最大回撤等下行風險？",
+        "【研究變數】八個 Select Sector SPDR ETF 日調整收盤價與對數報酬：XLE、XLI、XLY、XLP、XLV、XLF、XLK、XLU；由 QVAR-GFEVD 建構各產業 NET 與 TCI，再產生月度投組權重、報酬、Sharpe、Calmar、最大回撤與 turnover。",
+        "【資料／市場／樣本】美國八產業 ETF；Yahoo Finance 日資料，2000-01 至 2025-12。原文未集中報告最終共同交易日樣本量。",
+        "【模型與估計】QVAR(1)，250 日滾動窗、H=10，主分位 τ=0.05／0.50／0.95；每月把淨傳送者上四分位降權為 0.2、其餘為 1，再正規化。穩健性包含 τ=0.10／0.90、降權 0.3／0.4、expanding-window regime threshold 與 turnover。",
+        "【主要結果】下尾 TCI 在 2008 全球金融危機與 COVID-19 顯著且持久上升；依 τ=0.05 淨連結降權的投組在下行風險管理上優於中位、上尾與等權基準，鄰近尾端分位與替代權重下仍成立。基準 0.2／1.0 規則年化報酬 4.44%、Sharpe 0.2468、Calmar 0.0771、turnover 0.0452；這是樣本內外投組比較，不是因果估計。",
+        "【限制】簡單離散降權規則未完整估計交易成本、稅負與市場衝擊；八個產業 ETF 代表性有限，樣本結果可能受美國危機事件主導。用樣本中位數分 regime 具有前視疑慮，雖以 expanding-window 門檻補驗，仍需真正即時重估與其他市場外部驗證。",
+        "【與美智研究的關聯】2/5。重疊：QVAR 尾部連結、動態 TCI 與投組含意。可借鏡：把下尾 NET 直接轉成透明配置規則，並以鄰近分位與即時門檻檢驗。主要差異：只有美國產業 ETF，無 CPU、綠色資產或 BK 頻率分解。可追蹤引用：lower-tail transmitter penalty rule。",
+        "【APA 7】Hamada, K., Hamada, Y., & Hamori, S. (2026). Quantile connectedness and downside risk in portfolio construction. Journal of Risk and Financial Management, 19(7), Article 490. https://doi.org/10.3390/jrfm19070490"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-09-frl-109813",
+      "title": "Wealth Effect Versus Portfolio Rebalancing in Driving Cross-Market Contagion: A Time–Frequency Quantile Approach",
+      "search_date": "2026-09-09",
+      "authors": "Jichuan Zong; Jingyu Xiong; Xinxin Zhu",
+      "year": "2026",
+      "journal": "Finance Research Letters, 96, 109813",
+      "doi": "https://doi.org/10.1016/j.frl.2026.109813",
+      "citations": "0 次（OpenAlex，2026-09-09）",
+      "openalex_url": "https://openalex.org/W7135378608",
+      "publisher_url": "https://www.sciencedirect.com/science/article/pii/S1544612326003430",
+      "reading_level": "摘要層級",
+      "abstract": "以 2004–2025 年六個新興與九個已開發市場、四次危機的日資料，結合 Lasso-VAR 高階動差網絡與 time-frequency QVAR 分辨投組再平衡及財富效果。再平衡在 1–5 日與中度壓力較重要；財富效果在 6–250 日與嚴重壓力主導，且其重要性隨壓力加劇。",
+      "tags": [
+        "time-frequency QVAR",
+        "Lasso-VAR",
+        "higher-moment connectedness",
+        "portfolio rebalancing",
+        "wealth effect",
+        "cross-market contagion"
+      ],
+      "topics": [
+        "金融市場",
+        "行為金融",
+        "宏觀總體"
+      ],
+      "keywords": [
+        "six emerging markets",
+        "nine developed markets",
+        "volatility skewness kurtosis",
+        "1-5 days",
+        "6-20 days",
+        "21-250 days"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；以 ScienceDirect 公開摘要、highlights 與可見方法片段，搭配 Crossref、OpenAlex 核驗。全文未合法開放；OpenAlex ID W7135378608，2026-09-09 被引 0 次且未標記撤稿。",
+        "【研究問題與動機】跨市場危機傳染究竟較符合策略性投組再平衡還是流動性約束下的財富效果？把壓力程度與時間尺度分開後，兩種機制是否能同時存在並各有主導區域？",
+        "【研究變數】15 個主要股票市場的日報酬與高階動差連結（波動、偏態、峰度）；公開摘要未列出六個新興與九個已開發市場的完整名單及高階動差估計公式。",
+        "【資料／市場／樣本】六個新興與九個已開發市場，2004–2025 日資料，涵蓋四次危機；精確起訖日、危機窗、資料供應商與樣本量在公開摘要中未報告。",
+        "【模型與估計】Lasso-VAR 衡量高階動差連結，再以 time-frequency QVAR 比較 1–5、6–20、21–250 日頻帶；壓力由 τ=0.45／0.55 延伸到 0.10／0.90。滾動窗、預測期與穩健性在公開片段中未完整報告。",
+        "【主要結果】投組再平衡在 1–5 日與中度壓力相對重要；財富效果在 6–250 日與嚴重壓力更強，且壓力由中度走向極端時其影響上升。波動主要經長期通道傳導，偏態與峰度偏短期；財富效果在新興—已開發市場之間較一致。這是機制一致性證據，非對個別投資人行為的直接因果辨識。",
+        "【限制】作者限制在摘要中未報告。其他限制：以市場層級高階動差反推投資人機制存在識別不唯一問題；市場名單、危機定義與 Lasso 設定未能由公開摘要核對；交易與持倉微觀資料缺失，無法直接觀察再平衡或強制平倉。",
+        "【與美智研究的關聯】3/5。重疊：QVAR × time-frequency、危機期角色轉換與尾部傳染。可借鏡：把短／中／長期界線與壓力分位共同用來辨識傳導機制，並納入偏態、峰度。主要差異：無氣候或綠色資產，且行為機制來自間接推論。可追蹤引用：mechanism-by-horizon design。",
+        "【APA 7】Zong, J., Xiong, J., & Zhu, X. (2026). Wealth effect versus portfolio rebalancing in driving cross-market contagion: A time–frequency quantile approach. Finance Research Letters, 96, 109813. https://doi.org/10.1016/j.frl.2026.109813"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-09-hssc-08346",
+      "title": "Connectedness and Systemic Risk in Global Government Bond Markets from a Quantile VAR Perspective",
+      "search_date": "2026-09-09",
+      "authors": "Wei Jiang; Heming Guan; Xiaoyu Yue; Guangyao Xu",
+      "year": "2026",
+      "journal": "Humanities and Social Sciences Communications, advance online publication",
+      "doi": "https://doi.org/10.1057/s41599-026-08346-x",
+      "citations": "未取得（OpenAlex 尚未收錄，2026-09-09；Crossref 顯示 0 次）",
+      "openalex_url": "",
+      "fulltext_url": "https://www.nature.com/articles/s41599-026-08346-x",
+      "reading_level": "全文精讀",
+      "abstract": "以 2015–2025 年 13 個經濟體的短、長天期公債殖利率週變動估計 QVAR connectedness。中位狀態下長債 TCI 61.90%、短債 55.40%，歐洲與澳洲多為淨傳送者；兩端分位 TCI 約 84–93% 並呈 U 型，尾端成熟度差異收斂。2025 年美國關稅公告後首次衝擊最大、後續邊際變化下降。",
+      "tags": [
+        "QVAR",
+        "government bonds",
+        "systemic risk",
+        "maturity structure",
+        "marginal spillovers",
+        "tariff war"
+      ],
+      "topics": [
+        "宏觀總體",
+        "金融市場",
+        "地緣政治/國防"
+      ],
+      "keywords": [
+        "sovereign bond yields",
+        "13 economies",
+        "short-term bonds",
+        "long-term bonds",
+        "smile curve",
+        "2025 US tariffs"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】全文精讀；以 Springer Nature CC BY-NC-ND 4.0 的 75 頁 Article in Press 公開全文核對資料、方法、表格、穩健性與限制，並以 Crossref 核驗 DOI、作者與上線日期。OpenAlex 於 2026-09-09 尚未收錄。",
+        "【研究問題與動機】全球公債內部的跨國風險連結如何隨殖利率狀態、期限與事件時間改變？上下尾的放大是否對稱，2025 年美國關稅公告是否重塑核心—邊陲網絡？",
+        "【研究變數】美、中、日、韓、印尼、印度、澳洲、英、法、德、義、俄及香港的 1–5 年與 6–10 年公債殖利率；取一階差分為基點變動，分別代表短期政策／流動性預期與長期成長／通膨預期。",
+        "【資料／市場／樣本】13 個已開發與新興經濟體；WIND 週資料，2015-01-01 至 2025-04-16，共 538 筆。期間涵蓋 2016 升息、COVID-19、俄烏戰爭與 2025 美國關稅事件。",
+        "【模型與估計】QVAR-GFEVD 計算 TCI、TO、FROM、NET，主分位 0.05／0.50／0.95，並估計事件期 marginal net spillovers；動態基準為 100 週窗、H=5。穩健性改用 80 週窗、H=10，並將 QVAR 落後階由 1 調至 3。",
+        "【主要結果】中位下長債 TCI 61.90%、短債 55.40%；歐洲與澳洲多為傳送者，亞洲多為接收者，美國 GROSS 參與率短／長期為 122.95%／150.00%，中國僅 5.45%／8.72%。兩端分位 TCI 約 84–93%，低於 20% 或高於 80% 後急升且上下尾差異不顯著。2025 關稅衝擊後長債 TCI 峰值由 91.50% 降至 74.00%，屬描述性邊際遞減而非因果。",
+        "【限制】作者明確指出 QVAR 連結只能捕捉動態相依與方向性預測誤差，無法建立事件間的結構因果，建議提高資料頻率辨識機制。其他限制：Article in Press 尚可能編修；WIND 週資料與寬天期區間會平滑日內／逐券差異，關稅事件分析也缺乏反事實對照。",
+        "【與美智研究的關聯】3/5。重疊：QVAR、尾端 U 型外溢、動態窗與政策事件。可借鏡：分開短長天期、檢驗 20%／80% 門檻及明確聲明不可因果解讀。主要差異：研究公債跨國網絡，無 CPU、綠色資產或 BK 頻率分解。可追蹤引用：marginal event-time spillovers。",
+        "【APA 7】Jiang, W., Guan, H., Yue, X., & Xu, G. (2026). Connectedness and systemic risk in global government bond markets from a quantile VAR perspective. Humanities and Social Sciences Communications. Advance online publication. https://doi.org/10.1057/s41599-026-08346-x"
+      ]
+    },
     {
       "id": "qvar-2026-09-09-systems-652",
       "title": "Supply Chain Shocks and the Reconfiguration of Green Finance Markets: A Quantile-on-Quantile Connectedness Analysis",
