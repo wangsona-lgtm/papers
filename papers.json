@@ -1,6 +1,6 @@
 {
-  "total": 158,
-  "updated": "2026-09-12 12:53:53 +08:00",
+  "total": 161,
+  "updated": "2026-09-12 20:10:41 +08:00",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,197 @@
     "金融市場"
   ],
   "papers": [
+    {
+      "id": "qvar-2026-09-12-aims-risk-aversion-bitcoin",
+      "title": "Risk aversion, safe-haven assets, and Bitcoin's evolving role in global financial markets: Insights from quantile spillover analysis",
+      "search_date": "2026-09-12",
+      "authors": "Seung Ho Choi; Hayoung Choi; Sun-Yong Choi",
+      "year": "2026",
+      "journal": "AIMS Mathematics, 11(1), 2481–2526",
+      "doi": "https://doi.org/10.3934/math.2026101",
+      "citations": "1（OpenAlex，2026-09-12；Crossref 亦顯示 1 次）",
+      "openalex_url": "https://openalex.org/W7125787943",
+      "fulltext_url": "https://www.aimspress.com/aimspress-data/math/2026/1/PDF/math-11-01-101.pdf",
+      "reading_level": "全文精讀",
+      "abstract": "以 2014-07-01 至 2024-07-14 日資料，透過滾動 QVAR 溢出架構比較風險厭惡指數與黃金、白銀、Bitcoin、原油、主要匯率、美國公債、REIT、股息股及區域 ETF 的連結。Bitcoin 在中位與上尾是重要淨傳送者，但下尾傳送力明顯減弱；危機狀態下，美國公債與黃金較能吸收衝擊。改變預測期與以 VIX 替代風險厭惡指數後，主要型態大致維持，支持 Bitcoin 是狀態依存的風險資產，而非一致的下檔避險工具。",
+      "tags": [
+        "QVAR",
+        "quantile spillover",
+        "risk aversion",
+        "Bitcoin",
+        "safe haven",
+        "rolling window"
+      ],
+      "topics": [
+        "加密貨幣/數位金融",
+        "行為金融",
+        "金融市場"
+      ],
+      "keywords": [
+        "RABEX",
+        "VIX",
+        "gold",
+        "U.S. Treasuries",
+        "REIT",
+        "portfolio diversification"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】全文精讀；已核對期刊公開 PDF、Crossref 與 OpenAlex。DOI、完整作者、卷期與頁碼一致；OpenAlex W7125787943 標示非撤稿、開放取用。",
+        "【研究問題與動機】全球風險厭惡衝擊如何在不同市場狀態下傳到傳統與新型避險候選資產？Bitcoin 在下尾、中位與上尾究竟是衝擊傳送者、吸收者，或可靠避險工具？",
+        "【研究變數】Nancy Xu 風險厭惡指數（RABEX/RAI）與 18 類資產：黃金、白銀、Bitcoin、原油、EUR／GBP／JPY／CNY、REIT、美國十年期公債殖利率、KO／JNJ／T 股息股，以及韓、日、美、中、歐區域 ETF；穩健性改用 VIX。",
+        "【資料與樣本】2014-07-01 至 2024-07-14 日資料；資產價格由 Yahoo Finance／yfinance 取得並轉成美元報酬，RAI 取自 Nancy Xu 公開資料頁。原文未報告最終觀測筆數。",
+        "【模型與估計】在 τ=0.10、0.50、0.90 使用滾動視窗 QVAR-GFEVD 估計總體、方向與淨溢出；報告 ADF、Phillips–Perron 與常態性診斷。穩健性包括改變預測期，以及以 VIX 替代基準風險厭惡指數。",
+        "【主要結果】Bitcoin 在正常狀態為主要淨傳送者，在牛市與 REIT 等高 beta 資產共同強化風險傳導；其下尾傳送力明顯減弱。熊市時美國公債與黃金為主要衝擊吸收者，因此 Bitcoin 的上行分散效益不等於可靠的下檔避險。主要型態對預測期與恐慌代理替換大致穩健。",
+        "【限制】作者指出樣本止於 2024 年、未涵蓋 NFT、DeFi、CBDC、ESG 等新資產；RAI 之外仍有 CDS、情緒指數等替代代理；滾動 QVAR 未直接建模參數演化，未來可採 TVP-VAR。另須注意高維系統、滾動窗與代理變數選擇可能影響淨角色。",
+        "【APA 7】Choi, S. H., Choi, H., & Choi, S.-Y. (2026). Risk aversion, safe-haven assets, and Bitcoin's evolving role in global financial markets: Insights from quantile spillover analysis. AIMS Mathematics, 11(1), 2481–2526. https://doi.org/10.3934/math.2026101",
+        "【與美智研究的關聯】3/5。方法上重疊於滾動 QVAR-GFEVD、尾部淨角色與替代不確定性代理穩健性；可借鏡避險角色不可跨分位數外推的論證。主題上偏跨資產避險與 Bitcoin，沒有氣候政策、綠色資產或 BK 頻域分解。"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-12-jimf-fintech-attention",
+      "title": "Reassessing Attention to Fintech: Spillover Effects on Conventional and Islamic Financial Stocks",
+      "search_date": "2026-09-12",
+      "authors": "Ahmad Al Izham Izadin; Ooi Kok Loang; Mohd Shahidan Shaari; Abdul Rahim Ridzuan; Sevenpri Candra",
+      "year": "2026",
+      "journal": "Journal of Islamic Monetary Economics and Finance, 12(1), 35–58",
+      "doi": "https://doi.org/10.21098/jimf.v12i1.3300",
+      "citations": "0（OpenAlex，2026-09-12；Crossref 亦顯示 0 次）",
+      "openalex_url": "https://openalex.org/W7131682562",
+      "fulltext_url": "https://jimf-bi.org/JIMF/article/download/3300/1028",
+      "reading_level": "全文精讀",
+      "abstract": "以 2019 年 12 月至 2024 年 12 月週資料，結合 QVAR、分位數迴歸與 Granger 預測性檢定，研究 FinTech 注意力、FinTech 股票、伊斯蘭金融股票與傳統金融股票的狀態依存溢出。TCI 在下尾、中位與上尾分別為 68.67%、44.81%、69.98%。FinTech 注意力在熊市與正常狀態為淨接收者，但在牛市轉為淨傳送者（+10.70）；伊斯蘭金融股在上尾轉為淨接收者。Granger 檢定不支持注意力領先 FinTech 或傳統金融股，故不宜把同期傳送角色寫成因果驅動。",
+      "tags": [
+        "QVAR",
+        "FinTech",
+        "investor attention",
+        "Islamic finance",
+        "quantile regression",
+        "Granger causality"
+      ],
+      "topics": [
+        "AI/科技",
+        "行為金融",
+        "金融市場"
+      ],
+      "keywords": [
+        "Google Trends",
+        "Global X FinTech ETF",
+        "Dow Jones Islamic Financial Index",
+        "tail connectedness",
+        "financial contagion"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】全文精讀；已核對期刊公開 PDF、Crossref 與 OpenAlex。DOI、完整作者、卷期、頁碼一致；OpenAlex W7131682562 標示非撤稿、開放取用。",
+        "【研究問題與動機】FinTech 注意力是金融市場的領先驅動者，還是對市場事件的反應？其與 FinTech、伊斯蘭及傳統金融股票的溢出角色是否隨熊市、正常與牛市狀態改變？",
+        "【研究變數】ATFIN 為 Google Trends 的 FinTech 搜尋注意力；FINTS 為 Global X FinTech ETF；IFINS 為 Dow Jones Islamic Financial Index；FINS 為 Dow Jones Global Financial Index。四者均轉為週報酬。",
+        "【資料與樣本】週資料期間為 2019 年 12 月至 2024 年 12 月，涵蓋 COVID-19 與 2023 年銀行危機；原文未報告精確樣本量。ATFIN 來自 Google Trends，其餘為全球 ETF／股價指數。",
+        "【模型與估計】QVAR-GFEVD 於 τ=0.05、0.50、0.95 估計 FROM、TO、NET 與調整後 TCI；另以分位數迴歸檢查條件關聯，並用成對 Granger 檢定作預測方向穩健性檢查。",
+        "【主要結果】TCI 在熊市、正常、牛市為 68.67%、44.81%、69.98%。ATFIN 在下尾與中位為淨接收者（−12.32、−10.78），在上尾轉為淨傳送者（+10.70）；傳統金融股在熊市是主要傳送者，伊斯蘭金融股在牛市成為淨接收者（−9.74）。Granger 結果顯示 FINTS、IFINS、FINS 可預測 ATFIN，但 ATFIN 不預測 FINTS、IFINS 或 FINS。",
+        "【限制】作者未明列專節限制。可辨識限制包括樣本僅五年、Google Trends 關鍵字代理可能有測量誤差、單一 FinTech ETF 與兩個金融指數限制外部效度；同期 QVAR 淨傳送角色與 Granger 預測方向並不等於結構因果。",
+        "【APA 7】Izadin, A. A. I., Loang, O. K., Shaari, M. S., Ridzuan, A. R., & Candra, S. (2026). Reassessing attention to Fintech: Spillover effects on conventional and Islamic financial stocks. Journal of Islamic Monetary Economics and Finance, 12(1), 35–58. https://doi.org/10.21098/jimf.v12i1.3300",
+        "【與美智研究的關聯】3/5。方法上與 QVAR-GFEVD、尾部狀態切換及淨傳送／接收者辨識相近，可借鏡以額外預測性檢定限制因果詮釋。主題上偏 FinTech 注意力與伊斯蘭金融，未涵蓋氣候風險、綠色資產或 time-frequency／BK 分解。"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-12-ijeep-global-local-energy",
+      "title": "Global Conventional and Clean Energy Spillovers, Uncertainty, and Local Markets: Evidence from Leading Oil-Exporting and Oil-Importing Countries",
+      "search_date": "2026-09-12",
+      "authors": "Mohd Ziaur Rehman",
+      "year": "2026",
+      "journal": "International Journal of Energy Economics and Policy, 16(5), 10–25",
+      "doi": "https://doi.org/10.32479/ijeep.22367",
+      "citations": "0（OpenAlex，2026-09-12；Crossref 亦顯示 0 次）",
+      "openalex_url": "https://openalex.org/W7206196621",
+      "fulltext_url": "https://econjournals.com/index.php/ijeep/article/download/22367/10345",
+      "reading_level": "全文精讀",
+      "abstract": "以 2013-01-07 至 2022-12-29 日資料，使用 QVAR 比較全球潔淨／傳統能源、全球與六國能源及股票指數、OVX 與地緣政治風險的尾部溢出。潔淨能源系統的 TCI 在 0.10、0.50、0.90 分位分別為 96.20%、82.71%、96.83%；傳統能源系統為 96.24%、82.07%、96.98%。全球潔淨／傳統能源與加拿大能源多為淨傳送者，GPRD 及沙烏地、中國、印度、美國能源多為淨接收者；OVX 與俄羅斯能源角色隨分位數轉換。",
+      "tags": [
+        "QVAR",
+        "quantile spillover",
+        "clean energy",
+        "dirty energy",
+        "geopolitical risk",
+        "oil exporting countries"
+      ],
+      "topics": [
+        "潔淨能源",
+        "能源市場",
+        "地緣政治/國防",
+        "金融市場"
+      ],
+      "keywords": [
+        "OVX",
+        "GPRD",
+        "Saudi Arabia",
+        "Canada",
+        "Russia",
+        "China",
+        "India",
+        "United States"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】全文精讀；已核對出版社開放 PDF、Crossref 與 OpenAlex。DOI、作者、卷期與頁碼一致；OpenAlex W7206196621 標示非撤稿並提供合法全文連結。",
+        "【研究問題與動機】全球潔淨與傳統能源、全球股票／能源市場，以及主要石油出口國與進口國的能源和股票指數，在不確定性下是否呈現狀態依存的溢出？OVX 與地緣政治風險在不同分位數扮演何種角色？",
+        "【研究變數】OVX、地緣政治風險指標 GPRD、S&P GSCI Energy Spot（傳統能源）、S&P Global Clean Energy、S&P Global 1200 能源與股票指數，以及沙烏地阿拉伯、加拿大、俄羅斯、美國、中國、印度的能源與股票指數。",
+        "【資料與樣本】Bloomberg Terminal 日收盤資料，期間為 2013-01-07 至 2022-12-29；涵蓋全球市場與六個主要石油出口／進口國。原文未報告最終樣本量。",
+        "【模型與估計】在 0.10、0.50、0.90 分位估計 QVAR 與 GFEVD 連結度，報告 FROM、TO、NET 與 TCI；以 Elliott–Rothenberg–Stock 單根檢定確認報酬序列平穩。原文未另報告頻域分解或替代模型穩健性。",
+        "【主要結果】潔淨能源系統 TCI 為 96.20%、82.71%、96.83%，傳統能源系統為 96.24%、82.07%、96.98%，顯示兩尾明顯高於中位數。全球潔淨／傳統能源、全球能源與加拿大能源多為淨傳送者；GPRD 與沙烏地、中國、印度、美國能源多為淨接收者。潔淨能源中位數下，加拿大與俄羅斯能源淨傳送率較低（4.64%、2.73%），潔淨與全球能源傳送較高（44.34%、43.5%）。",
+        "【限制】作者未明列研究限制。可辨識限制包括樣本止於 2022 年、資料依賴 Bloomberg、國家與指數代理有限、未做時間頻率分解，且高 TCI 可能受大型系統與共同市場因子影響；QVAR 連結度反映預測性關聯而非結構因果。",
+        "【APA 7】Rehman, M. Z. (2026). Global conventional and clean energy spillovers, uncertainty, and local markets: Evidence from leading oil-exporting and oil-importing countries. International Journal of Energy Economics and Policy, 16(5), 10–25. https://doi.org/10.32479/ijeep.22367",
+        "【與美智研究的關聯】4/5。重疊於潔淨／傳統能源、尾部分位溢出與 GPR；可借鏡跨國能源角色比較、尾部與中位 TCI 對照及 OVX／GPRD 的納入。主要差異是未直接使用氣候政策不確定性、TVP-VAR-SV 或 BK 頻域分解，且資料止於 2022 年；可追蹤其 18 變數跨國 QVAR 網路設計。"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-12-energies-brown-green-climate-risk",
+      "title": "Climate Risk Transmission Across Brown and Green Energy Equity Markets During the Energy Transition",
+      "search_date": "2026-09-12",
+      "authors": "Shigeyuki Hamori",
+      "year": "2026",
+      "journal": "Energies, 19(17), 4095",
+      "doi": "https://doi.org/10.3390/en19174095",
+      "citations": "0（OpenAlex，2026-09-12；Crossref 亦顯示 0 次）",
+      "openalex_url": "https://openalex.org/W7204771199",
+      "fulltext_url": "https://www.mdpi.com/1996-1073/19/17/4095",
+      "reading_level": "全文精讀",
+      "abstract": "以 2015-01-05 至 2024-12-30 的六檔全球棕色與綠色能源 ETF 日報酬，結合 QVAR 連結度與頻域分解，檢視市場狀態、投資期間及轉型／實體氣候風險的關聯。尾部分位的連結度明顯高於中位數；下尾包含重要的長期成分。轉型風險創新與下一期短期連結度升高呈正向關聯，實體風險則與總連結度變化呈負向關聯，但後者對離群值處理敏感。這些結果是條件預測關聯，並非因果效果。",
+      "tags": [
+        "QVAR",
+        "quantile-frequency connectedness",
+        "climate risk",
+        "brown energy",
+        "green energy",
+        "energy ETFs"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "潔淨能源",
+        "能源市場",
+        "金融市場"
+      ],
+      "keywords": [
+        "transition risk",
+        "physical risk",
+        "state-frequency dependence",
+        "tail spillovers",
+        "brown-green equity",
+        "rolling connectedness"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】全文精讀；已核對 MDPI 正式全文、神戶大學典藏之 Version of Record、Crossref 與 OpenAlex。DOI、作者、期卷期、文章編號一致；OpenAlex W7204771199 標示非撤稿、開放取用。",
+        "【研究問題與動機】棕色與綠色能源股票的風險傳導是否同時受市場分位數與投資期間影響？轉型風險與實體風險創新，是否對總體、短期與長期連結度呈現不同的後續關聯？",
+        "【研究變數】棕色 ETF：XLE、IXC、VDE；綠色 ETF：ICLN、TAN、PBW。氣候風險以 Transition Risk Index（TRI）與 Physical Risk Index（PRI）衡量；控制 VIX、S&P 500 日報酬及 WTI 現貨價格變動。",
+        "【資料與樣本】ETF 調整收盤價取自 Yahoo Finance；WTI 取自 FRED；氣候風險指數為公開日資料。六檔 ETF 共同樣本為 2015-01-05 至 2024-12-30、2,514 筆；200 日滾動窗後，氣候風險迴歸的最終樣本為 2015-10-19 至 2024-12-30、2,300 筆。",
+        "【模型與估計】先以 Diebold–Yilmaz GFEVD 建構連結度，再使用 QVAR 捕捉下尾、中位與上尾狀態，並做短期／長期頻率分解；氣候風險部分以 TRI、PRI 創新解釋次日連結度變化，且明確定位為條件預測關聯。穩健性包含五交易日替代頻帶切點、控制變數與影響值處理。",
+        "【主要結果】全樣本 TCI 為 70.26%；XLE、IXC、VDE 為淨傳送者，ICLN、TAN、PBW 為淨接收者。尾部連結度顯著高於中位狀態，下尾的長期成分具有經濟重要性。TRI 創新與下一期短期連結度變化正相關；PRI 與總連結度變化負相關，但對影響值處理較敏感。不得將這些關聯解讀為氣候風險的因果效果。",
+        "【限制】作者指出氣候風險迴歸只能識別條件預測關聯，不能識別因果；資產僅含六檔能源 ETF，外部效度受限。另可注意 Yahoo Finance 與指數代理的測量限制，以及頻帶切點、200 日滾動窗與樣本終止於 2024 年對結果的影響。",
+        "【APA 7】Hamori, S. (2026). Climate risk transmission across brown and green energy equity markets during the energy transition. Energies, 19(17), Article 4095. https://doi.org/10.3390/en19174095",
+        "【與美智研究的關聯】5/5。高度重疊於氣候風險、綠色資產、QVAR 與 time-frequency connectedness；可直接借鏡其狀態×期間雙維度設計、TRI／PRI 分拆、因果邊界與頻帶穩健性。主要差異是本文聚焦 ETF 報酬與氣候風險預測關聯，未使用 TVP-VAR-SV，亦未直接納入 CPU、碳價或綠債；可追蹤其 QVAR 頻域分解與氣候風險指數來源。"
+      ]
+    },
     {
       "id": "qvar-2026-09-11-retrec-shipping-transition",
       "title": "Green transition and risk connectedness across carbon, shipping, and energy-related commodity markets: A quantile time-frequency analysis",
@@ -8091,13 +8282,20 @@
       "search_date": "2026-06-10",
       "authors": "Kwame Ofori Asomaning; Hamayoon Shah; Frederick Boamah; Emmanuel Uche; Anis Mnif",
       "year": "2026",
-      "journal": "Resources Policy",
-      "doi": "//doi.org/10.1016/j.resourpol.2026.105916",
-      "citations": "0",
-      "openalex_url": "//openalex.org/W7147035673",
-      "abstract": "",
+      "journal": "Resources Policy, 116, 105916",
+      "doi": "https://doi.org/10.1016/j.resourpol.2026.105916",
+      "citations": "0（OpenAlex，2026-09-12；Crossref 亦顯示 0 次）",
+      "openalex_url": "https://openalex.org/W7147035673",
+      "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S0301420726000887",
+      "reading_level": "摘要層級",
+      "abstract": "以地緣政治風險、關鍵稀土礦物與國防類股為對象，整合 CEEMDAN 可變落後期的 Transfer Entropy 與 time-frequency QVAR，分析非線性、時變與分位數依存的資訊溢出。極端狀態的連結度高於平穩狀態，國防部門在上尾、尤其系統壓力較高時成為淨傳送者；Transfer Entropy 亦顯示方向不對稱。由於本次僅取得出版商摘要與書目頁，未延伸推斷樣本與參數設定。",
       "tags": [
-        "QVAR"
+        "time-frequency QVAR",
+        "transfer entropy",
+        "CEEMDAN",
+        "geopolitical risk",
+        "critical rare earth minerals",
+        "defense stocks"
       ],
       "topics": [
         "地緣政治/國防",
@@ -8105,14 +8303,15 @@
       ],
       "type": "search",
       "notes": [
-        "作者：Kwame Ofori Asomaning; Hamayoon Shah; Frederick Boamah; Emmanuel Uche; Anis Mnif",
-        "年份：2026",
-        "期刊：Resources Policy",
-        "主題：地緣政治/國防、原物料/商品",
-        "方法：QVAR (Quantile Vector Autoregression) + VAR (Vector Autoregression)",
-        "---",
-        "DOI：//doi.org/10.1016/j.resourpol.2026.105916",
-        "被引次數：0"
+        "【閱讀層級】摘要層級；已以 ScienceDirect 摘要、Crossref、OpenAlex 與作者機構書目頁核對題名、五位作者、DOI、卷次與文章編號。出版商全文受訂閱限制，本次未繞過存取控制。",
+        "【研究問題與動機】地緣政治風險如何透過關鍵稀土市場連結到國防類股？這些資訊與傳遞是否具有非線性、方向不對稱、分位數與頻率依存特徵？",
+        "【研究變數】地緣政治風險指標、關鍵稀土礦物市場與國防部門股票；公開摘要未完整列出各礦物、股票指數、報酬定義與控制變數。",
+        "【資料與樣本】跨地緣政治、關鍵稀土與國防股市場；摘要未報告資料庫、國家範圍、樣本期間、頻率與樣本量。",
+        "【模型與估計】整合 CEEMDAN-based Variable Lag modeling、Transfer Entropy 與 time-frequency Quantile VAR；摘要顯示非線性方向性與跨尺度、跨分位數 connectedness。摘要未報告 QVAR 落後期、預測期、頻帶切點與滾動窗。",
+        "【主要結果】Transfer Entropy 顯示不對稱且時變的方向關係；國防部門在上尾、尤其系統壓力期間為淨傳送者。分位數連結度在極端狀態更高，在平穩狀態較弱且不對稱。這些結果支持多尺度相依性，但摘要不足以確認具體數值與事件期。",
+        "【限制】摘要未提供作者完整限制。可辨識限制包括資料與參數未公開於摘要、混合多步驟方法的模型選擇風險，以及 Transfer Entropy 的方向性不等於經識別的結構因果；全文受訂閱限制。",
+        "【APA 7】Asomaning, K. O., Shah, H., Boamah, F., Uche, E., & Mnif, A. (2026). Nonlinear information spillovers between geopolitical risk, critical rare earth minerals, and defense stocks: A transfer entropy and time-frequency QVAR approach. Resources Policy, 116, Article 105916. https://doi.org/10.1016/j.resourpol.2026.105916",
+        "【與美智研究的關聯】4/5。方法上高度重疊於 time-frequency QVAR、尾部分位與淨傳送者辨識，主題上提供稀土×國防股的地緣政治應用。可借鏡非線性方向性與多尺度設計；主要差異是未聚焦氣候政策不確定性、綠色資產、TVP-VAR-SV 或 BK 分解。"
       ],
       "viewpoints": [
         {
@@ -9146,68 +9345,6 @@
         }
       ],
       "diagram": "graph TD\n    國防股Reddit中東衝突情緒[\"📄 國防股 × Reddit 中東衝突情緒 — TabNet + WQC\"]\n    style 國防股Reddit中東衝突情緒 fill:#2563eb,color:#fff,font-weight:bold\n    vp0研究方法WQC[\"💡 研究方法：WQC (Wavelet Quantile Correlation)\"]\n    style vp0研究方法WQC fill:#fef3c7,stroke:#d97706\n    國防股Reddit中東衝突情緒 --> vp0研究方法WQC\n    vp1研究主題地緣政治[\"💡 研究主題：地緣政治/國防\"]\n    style vp1研究主題地緣政治 fill:#fef3c7,stroke:#d97706\n    國防股Reddit中東衝突情緒 --> vp1研究主題地緣政治\n    vp0研究方法WQC --- vp1研究主題地緣政治"
-    },
-    {
-      "id": "2026-06-07-1",
-      "title": "地緣政治 × 關鍵稀土 × 國防股 — Nonlinear QVAR",
-      "search_date": "2026-06-07",
-      "authors": "Kwame Ofori Asomaning, Hamayoon Shah, Frederick Boamah, Emmanuel Uche",
-      "year": "",
-      "journal": "Resources Policy (2026)",
-      "doi": "//doi.org/10.1016/j.resourpol.2026.105916",
-      "citations": "",
-      "openalex_url": "",
-      "abstract": "This study examines the nonlinear information spillovers between geopolitical risk, critical rare earth minerals, and defense stocks using a transfer entropy and time-frequency QVAR approach. The findings reveal significant tail-dependent spillover effects during geopolitical turmoil.",
-      "tags": [
-        "QVAR"
-      ],
-      "topics": [
-        "地緣政治/國防",
-        "原物料/商品"
-      ],
-      "type": "search",
-      "notes": [
-        "作者：Kwame Ofori Asomaning, Hamayoon Shah, Frederick Boamah, Emmanuel Uche",
-        "期刊：Resources Policy (2026)",
-        "主題：地緣政治/國防、原物料/商品",
-        "方法：QVAR (Quantile Vector Autoregression) + VAR (Vector Autoregression) + DY (2012) Spillover Index / Connectedness",
-        "變數：原油價格 / Oil Price、股價 / Stock Price、地緣政治風險 / Geopolitical Risk",
-        "---",
-        "【摘要】This study examines the nonlinear information spillovers between geopolitical risk, critical rare earth minerals, and defense stocks using a transfer entropy and time-frequency QVAR approach. The findings reveal significant tail-dependent spillover effects during geopolitical turmoil.",
-        "---",
-        "DOI：//doi.org/10.1016/j.resourpol.2026.105916"
-      ],
-      "viewpoints": [
-        {
-          "claim": "研究方法：QVAR (Quantile Vector Autoregression) + VAR (Vector Autoregression) + DY (2012) ",
-          "evidence": "QVAR (Quantile Vector Autoregression) + VAR (Vector Autoregression) + DY (2012) Spillover Index / Connectedness",
-          "confidence": "mid",
-          "source": "方法",
-          "connections": []
-        },
-        {
-          "claim": "研究主題：地緣政治/國防、原物料/商品",
-          "evidence": "地緣政治/國防、原物料/商品",
-          "confidence": "mid",
-          "source": "主題",
-          "connections": []
-        },
-        {
-          "claim": "主要變數：原油價格 / Oil Price、股價 / Stock Price、地緣政治風險 / Geopolitical Risk",
-          "evidence": "原油價格 / Oil Price、股價 / Stock Price、地緣政治風險 / Geopolitical Risk",
-          "confidence": "mid",
-          "source": "變數",
-          "connections": []
-        },
-        {
-          "claim": "This study examines the nonlinear information spillovers between geopolitical risk, critical rare earth minerals, and de…",
-          "evidence": "This study examines the nonlinear information spillovers between geopolitical risk, critical rare earth minerals, and defense stocks using a transfer entropy and time-frequency QVAR approach. The findings reveal significant tail-dependent spillover effects during geopolitical turmoil.",
-          "confidence": "mid",
-          "source": "摘要",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    地緣政治關鍵稀土國防股[\"📄 地緣政治 × 關鍵稀土 × 國防股 — Nonlinear QVAR\"]\n    style 地緣政治關鍵稀土國防股 fill:#2563eb,color:#fff,font-weight:bold\n    vp0研究方法QVAR[\"💡 研究方法：QVAR (Quantile Vector Autoregressio\"]\n    style vp0研究方法QVAR fill:#fef3c7,stroke:#d97706\n    地緣政治關鍵稀土國防股 --> vp0研究方法QVAR\n    vp1研究主題地緣政治[\"💡 研究主題：地緣政治/國防、原物料/商品\"]\n    style vp1研究主題地緣政治 fill:#fef3c7,stroke:#d97706\n    地緣政治關鍵稀土國防股 --> vp1研究主題地緣政治\n    vp2主要變數原油價格[\"💡 主要變數：原油價格 / Oil Price、股價 / Stock Price、地\"]\n    style vp2主要變數原油價格 fill:#fef3c7,stroke:#d97706\n    地緣政治關鍵稀土國防股 --> vp2主要變數原油價格\n    vp3Thisstudy[\"💡 This study examines the nonlinear inform\"]\n    style vp3Thisstudy fill:#fef3c7,stroke:#d97706\n    地緣政治關鍵稀土國防股 --> vp3Thisstudy\n    vp0研究方法QVAR --- vp1研究主題地緣政治\n    vp1研究主題地緣政治 --- vp2主要變數原油價格\n    vp2主要變數原油價格 --- vp3Thisstudy"
     },
     {
       "title": "Climate Policy Uncertainty and Renewable Energy Consumption in China",
