@@ -217,6 +217,7 @@ function openModal(id) {
   if (p.search_date) html += '<div class="meta-line"><strong>搜尋日期</strong> ' + p.search_date + '</div>';
   if (p.date) html += '<div class="meta-line"><strong>上傳日期</strong> ' + p.date + '</div>';
   if (p.citations) html += '<div class="meta-line"><strong>被引次數</strong> ' + p.citations + '</div>';
+  if (p.reading_level) html += '<div class="meta-line"><strong>閱讀層級</strong> ' + escapeHtml(p.reading_level) + '</div>';
   
   html += '<div class="tags">';
   for (var ti = 0; ti < (p.tags||[]).length; ti++) html += '<span>' + escapeHtml(p.tags[ti]) + '</span>';
@@ -226,6 +227,7 @@ function openModal(id) {
   if (p.abstract) html += '<div class="section"><h4>📄 摘要</h4><p>' + escapeHtml(p.abstract) + '</p></div>';
   if (p.doi) html += '<div class="section"><h4>🔗 連結</h4><p><a href="https://doi.org/' + p.doi.replace('https://doi.org/','').replace(/^\//,'') + '" target="_blank" rel="noopener">' + escapeHtml(p.doi) + '</a></p></div>';
   if (p.openalex_url) html += '<p><a href="' + escapeHtml(p.openalex_url) + '" target="_blank" rel="noopener">📖 OpenAlex</a></p>';
+  if (p.fulltext_url) html += '<p><a href="' + escapeHtml(p.fulltext_url) + '" target="_blank" rel="noopener">📄 全文／文章頁</a></p>';
   if (p.pdf) html += '<div class="section"><h4>📁 檔案</h4><p><a href="' + escapeHtml(p.pdf) + '" target="_blank">📄 下載 PDF</a></p></div>';
   if (p.arxiv_url) html += '<div class="section"><h4>🔗 arXiv</h4><p><a href="' + escapeHtml(p.arxiv_url) + '" target="_blank" rel="noopener">' + escapeHtml(p.arxiv_url) + '</a></p></div>';
   

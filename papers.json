@@ -1,6 +1,6 @@
 {
-  "total": 152,
-  "updated": "2026-09-11 20:34:39",
+  "total": 158,
+  "updated": "2026-09-12 12:53:53 +08:00",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,292 @@
     "金融市場"
   ],
   "papers": [
+    {
+      "id": "qvar-2026-09-11-retrec-shipping-transition",
+      "title": "Green transition and risk connectedness across carbon, shipping, and energy-related commodity markets: A quantile time-frequency analysis",
+      "search_date": "2026-09-11",
+      "authors": "Meng Wan; Cong Sui; Jiaxi Sun",
+      "year": "2026",
+      "journal": "Research in Transportation Economics, 119, 101827",
+      "doi": "https://doi.org/10.1016/j.retrec.2026.101827",
+      "citations": "0（OpenAlex，2026-09-11；Crossref 亦顯示 0 次）",
+      "openalex_url": "https://openalex.org/W7203556560",
+      "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S0739885926001241",
+      "reading_level": "摘要層級",
+      "abstract": "以 2010-07-23 至 2025-11-28 週資料，從分位數與頻率維度檢視碳市場、航運市場及能源相關商品的風險傳導。極端市場狀態的整體連結顯著高於中位狀態，短期傳導又高於長期；甲醇在整體與短期頻帶多為淨傳送者，EU 碳市場在下尾較重要，新造船市場則在中位至上尾更具影響力。這些結果屬於狀態依存的關聯與預測性傳導，不構成因果效果。",
+      "tags": [
+        "quantile time-frequency connectedness",
+        "carbon market",
+        "shipping market",
+        "energy commodities",
+        "green transition",
+        "tail spillovers"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "碳市場/碳交易",
+        "能源市場",
+        "原物料/商品"
+      ],
+      "keywords": [
+        "EU ETS Phase IV",
+        "shipping decarbonization",
+        "methanol",
+        "newbuilding market",
+        "short-term connectedness",
+        "green shipping attention"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；以出版社／書目摘要核對樣本、方法與主要結果，並以 Crossref、OpenAlex 驗證 DOI、作者、卷期、文章編號、引用及非撤稿狀態。OpenAlex 標示為 closed access，本次未取得合法公開全文，未補寫摘要未報告的細節。",
+        "【研究問題與動機】航運去碳化與 EU ETS 納入航運後，碳價、航運市場及能源相關商品的尾部風險如何跨市場、跨期間傳遞？短期與長期的淨傳送角色是否隨分位數改變？",
+        "【研究變數】公開摘要明確涵蓋 EU 碳市場、航運／新造船市場與能源相關商品，並特別討論甲醇與綠色航運關注度；摘要未完整列出全部指數與商品定義。",
+        "【資料／市場／樣本】全球航運、歐洲碳市場與能源商品；2010-07-23 至 2025-11-28 週資料。摘要未報告資料庫、共同週數與缺值處理。",
+        "【模型與估計】quantile time-frequency spillover／connectedness 架構，比較極端與中位分位數及短、長頻帶；以新造船合約資料作補充檢查。摘要未報告 QVAR 落後期、預測期、頻帶切點與滾動窗。",
+        "【主要結果】極端狀態的整體 connectedness 明顯高於中位狀態，且短期傳導持續強於長期。甲醇在整體與短期頻帶是較強淨傳送者；EU 碳市場在下尾較重要，新造船市場在中位至上尾較重要。EU ETS 第四階段及航運納管後，跨市場 spillovers 呈上升。綠色航運關注度與關鍵市場的外溢強度呈條件關聯。",
+        "【限制】摘要未提供作者完整限制。可辨識限制包括：週資料可能平滑日內／日間尾部衝擊；市場代表性受指數選擇影響；綠色航運關注度與外溢強度的關聯不足以識別政策或注意力的因果效果。",
+        "【與美智研究的關聯】5/5。重疊：碳市場尾部衝擊、能源金融市場、分位數時頻 connectedness 與政策階段比較。可借鏡：直接把航運納入碳價傳導網絡，並比較 EU ETS 第四階段與航運納管前後。主要差異：未直接使用 CPU，摘要未確認 TVP-VAR-SV 或 BK 的具體實作。可追蹤引用：碳價尾部衝擊×航運。",
+        "【APA 7】Wan, M., Sui, C., & Sun, J. (2026). Green transition and risk connectedness across carbon, shipping, and energy-related commodity markets: A quantile time-frequency analysis. Research in Transportation Economics, 119, 101827. https://doi.org/10.1016/j.retrec.2026.101827"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-11-energy-uncertainty-clean",
+      "title": "The connectedness between international energy-related uncertainties, economic policy uncertainties, and clean energy markets",
+      "search_date": "2026-09-11",
+      "authors": "Roula Inglesi-Lotz; Alanda Venter; Panayiotis Tzeremes",
+      "year": "2026",
+      "journal": "Energy Sources, Part B: Economics, Planning, and Policy, 21(1), 2650378",
+      "doi": "https://doi.org/10.1080/15567249.2026.2650378",
+      "citations": "未取得（OpenAlex 尚未收錄，2026-09-11；Crossref 顯示 1 次）",
+      "openalex_url": "",
+      "fulltext_url": "https://www.tandfonline.com/doi/full/10.1080/15567249.2026.2650378",
+      "reading_level": "全文精讀",
+      "abstract": "以 2005-12 至 2022-10 的 203 筆月資料，研究國際能源相關不確定性（EUI）、經濟政策不確定性（EPU）與潔淨能源指數（CEI）的 QVAR-GFEVD connectedness。0.05 與 0.95 兩端的系統連結高於 0.50；EPU 多為淨傳送者，EUI 的角色隨時間切換，而 CEI 在極端下行情境主要吸收 EUI 與 EPU 的衝擊。這些結果描述條件性關聯與風險傳導，不能解讀為政策不確定性的結構因果效果。",
+      "tags": [
+        "QVAR",
+        "GFEVD",
+        "quantile spillover",
+        "energy uncertainty",
+        "economic policy uncertainty",
+        "clean energy"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "潔淨能源",
+        "宏觀總體",
+        "金融市場"
+      ],
+      "keywords": [
+        "EUI",
+        "EPU",
+        "CEI",
+        "tail intensification",
+        "quantile process",
+        "COVID-19"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】全文精讀；透過期刊 CC BY 4.0 全文頁核對資料、QVAR-GFEVD、分位數歷程穩健性、結果與資料可用性，並以 Crossref 核驗 DOI、完整作者、卷期、文章編號與引用。OpenAlex 於 2026-09-11 尚無可解析紀錄。",
+        "【研究問題與動機】能源轉型所需投資是否受到廣義能源不確定性與經濟政策不確定性的尾部傳導影響？EUI、EPU 與 clean-energy returns 在壓力、正常與繁榮狀態下分別扮演何種風險角色？",
+        "【研究變數】Energy-related Uncertainty Index（EUI）、Economic Policy Uncertainty Index（EPU）與 Clean Energy Index（CEI），均轉為對數報酬。CEI 來自 Song et al. 與 Lu et al. 延伸資料，EUI 來自 Dang et al.，EPU 來自 Davis 的全球 EPU 資料。",
+        "【資料／市場／樣本】國際／全球層級；2005-12 至 2022-10 月資料，共 203 筆。採最大共同樣本，避免把月頻不確定性指數插值至較高頻率。",
+        "【模型與估計】Ando–Greenwood-Nimmo–Shin QVAR connectedness 與 GFEVD，核心比較 q=0.05、0.50、0.95；另以 Chatziantoniou–Gabauer–Stenfors quantile-process 熱圖跨完整分位數網格驗證尾部放大與時間變動。全文未集中報告替代樣本期或替代變數的穩健性。",
+        "【主要結果】兩端分位數的 connectedness 均明顯高於中位數，早期 2010 年代與 2020 年附近尤為突出。EPU 多數時期為淨傳送者；EUI 在淨傳送與淨接收間切換；CEI 在極端下行情境主要受 EUI 與 EPU 溢出影響，但其系統角色會隨時間變化。完整分位數熱圖支持 tail intensification。",
+        "【限制】作者未設獨立限制節；資料聲明指出資料須向通訊作者索取。可辨識限制是僅三個全球月頻指標、203 筆觀測與指數建構依賴，難以分辨國家／資產異質性；QVAR connectedness 與 quantile process 不提供結構因果辨識。",
+        "【與美智研究的關聯】5/5。重疊：政策／能源不確定性、潔淨能源、QVAR-GFEVD、尾部風險與動態角色。可借鏡：避免混頻插值，並以完整 quantile-process 熱圖作穩健性補充。主要差異：EPU/EUI 不等於 CPU，未採 TVP-VAR-SV 或 BK 頻率分解，資產網絡也較小。可追蹤引用：EUI×EPU×clean energy 的分位數傳導。",
+        "【APA 7】Inglesi-Lotz, R., Venter, A., & Tzeremes, P. (2026). The connectedness between international energy-related uncertainties, economic policy uncertainties, and clean energy markets. Energy Sources, Part B: Economics, Planning, and Policy, 21(1), 2650378. https://doi.org/10.1080/15567249.2026.2650378"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-11-ijccsm-transition-finance",
+      "title": "Dynamic spillovers between climate risk, energy transition, and sustainable finance: implications for financial markets",
+      "search_date": "2026-09-11",
+      "authors": "Dhoha Mellouli",
+      "year": "2026",
+      "journal": "International Journal of Climate Change Strategies and Management, 18(2), 1–21",
+      "doi": "https://doi.org/10.1108/IJCCSM-11-2025-0433",
+      "citations": "未取得（OpenAlex 尚未收錄，2026-09-11；Crossref 顯示 3 次）",
+      "openalex_url": "",
+      "fulltext_url": "https://www.emerald.com/ijccsm/article/18/2/1/1336935/Dynamic-spillovers-between-climate-risk-energy",
+      "reading_level": "摘要層級",
+      "abstract": "研究氣候風險、碳排放、再生與非再生能源，以及綠債／ESG 等永續金融資產的動態 connectedness。公開摘要指出危機期間連結增強，1–5 日短期傳導占主導，而 5 日以上連結較穩定；再生能源雖是轉型核心，也可能放大短期波動。摘要同時提及 TVP-VAR、頻率與 quantile connectedness，但本次無法通過出版社機器人驗證取得全文，故不補寫未公開的樣本與估計細節。",
+      "tags": [
+        "TVP-VAR",
+        "quantile connectedness",
+        "frequency connectedness",
+        "climate risk",
+        "energy transition",
+        "sustainable finance"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "潔淨能源",
+        "綠債/ESG",
+        "碳市場/碳交易"
+      ],
+      "keywords": [
+        "carbon emissions",
+        "renewable energy",
+        "nonrenewable energy",
+        "green bonds",
+        "ESG",
+        "Russia–Ukraine conflict"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；以 Crossref 的出版社摘要、書目與 CC BY 4.0 授權欄位，以及公開書目頁核對研究問題、方法與結果。出版社全文連結在本次執行觸發機器人驗證，未繞過；OpenAlex 尚無可解析紀錄。",
+        "【研究問題與動機】氣候風險、碳排放、能源轉型市場與永續金融工具的風險傳導如何隨時間、頻率與市場狀態改變？COVID-19 與俄烏戰爭是否重塑風險傳送／吸收角色？",
+        "【研究變數】公開摘要涵蓋 climate risk、CO2／carbon-emissions indices、再生與化石能源基準、green bonds 與 ESG／sustainability-linked products；摘要未完整報告各指數名稱與轉換方式。",
+        "【資料／市場／樣本】金融、能源與永續資產市場；公開摘要未報告國家／市場範圍、樣本起訖、資料頻率、來源與樣本量，故均標示未報告。",
+        "【模型與估計】摘要明示 TVP-VAR connectedness，並稱以 quantile connectedness 捕捉不同市場狀態、以頻率切分短期 1–5 日與長期 5 日以上。摘要未報告先驗、遺忘因子、預測期、分位數、頻帶切點與正式穩健性設計。",
+        "【主要結果】跨市場連結高度動態，在 COVID-19 與俄烏戰爭期間升高；1–5 日短期 connectedness 占主導，反映快速衝擊傳播，而 5 日以上連結相對穩定。再生能源市場可能同時扮演轉型資產與短期波動來源；方向性 spillovers 在頻帶間的一致性被作者視為結果穩健的證據。",
+        "【限制】摘要未提供作者明列限制。可辨識限制是關鍵樣本與估計設定未能由公開摘要驗證；危機對照屬事件關聯，不能單憑 TVP-VAR/QVAR connectedness 推論危機的因果效果。全文可用後應再核對變數、樣本與頻率分解實作。",
+        "【與美智研究的關聯】5/5。重疊：氣候風險、能源轉型、綠債／ESG、TVP-VAR、quantile 與 frequency connectedness。可借鏡：同時比較市場狀態與短長期間，並把再生能源視為可能的短期風險傳送者。主要差異：摘要未確認 TVP-VAR-SV、BK 或 CPU 的具體設定。可追蹤引用：短期風險占主導與危機期角色切換。",
+        "【APA 7】Mellouli, D. (2026). Dynamic spillovers between climate risk, energy transition, and sustainable finance: Implications for financial markets. International Journal of Climate Change Strategies and Management, 18(2), 1–21. https://doi.org/10.1108/IJCCSM-11-2025-0433"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-11-green-bonds-global-debt",
+      "title": "Green bonds and global debt dynamics within a sustainable debt policy framework: A quantile VAR connectedness analysis",
+      "search_date": "2026-09-11",
+      "authors": "Gözde Eş Polat",
+      "year": "2026",
+      "journal": "Journal of Management and Economics Research, 24(2), 118–140",
+      "doi": "https://doi.org/10.11611/yead.1893023",
+      "citations": "未取得（OpenAlex 尚未收錄，2026-09-11；Crossref 顯示 0 次）",
+      "openalex_url": "",
+      "fulltext_url": "https://dergipark.org.tr/tr/download/article-file/5735928",
+      "reading_level": "全文精讀",
+      "abstract": "以 2010-04-30 至 2025-10-07 的日報酬，對 S&P ESG、S&P Green Bond、S&P Bond 與 S&P Clean Energy 四指數估計 0.05／0.50／0.95 QVAR-GFEVD connectedness。TCI 在 2015–2016、2020 與 2024–2025 一度達 80%–100%；綠債在下尾主要吸收衝擊、在上尾轉為淨傳送者，中位狀態則較能與其他資產分離。結果支持綠債避險與 greenium 具有狀態依存性，但不等同於綠債可因果降低公共債務成本。",
+      "tags": [
+        "QVAR",
+        "GFEVD",
+        "green bonds",
+        "greenium",
+        "systemic connectedness",
+        "tail risk"
+      ],
+      "topics": [
+        "綠債/ESG",
+        "潔淨能源",
+        "宏觀總體",
+        "金融市場"
+      ],
+      "keywords": [
+        "S&P Green Bond Index",
+        "S&P ESG Index",
+        "S&P Bond Index",
+        "S&P Clean Energy Index",
+        "sustainable debt policy",
+        "fiscal shield"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】全文精讀；以 Dergipark 正式 23 頁 PDF 核對資料、QVAR-GFEVD、圖表、結果與揭露，並以頁面 metadata 與 Crossref 驗證 DOI、作者、卷期頁碼及引用。OpenAlex 於 2026-09-11 尚無可解析紀錄。",
+        "【研究問題與動機】若暫不考慮環境目標，綠債能否因較低融資成本、期限與風險韌性成為公共／私人債務管理工具？這些優勢在熊市、正常與牛市是否改變？",
+        "【研究變數】S&P ESG Index（SPESG）、S&P Green Bond Index（SPGBI）、S&P Bond Index（SPBI）與 S&P Clean Energy Index（SPCEI）的日百分比報酬。",
+        "【資料／市場／樣本】全球指數；Refinitiv Eikon；2010-04-30 至 2025-10-07 日資料。全文未報告對齊後的有效交易日樣本量。",
+        "【模型與估計】Ando–Greenwood-Nimmo–Shin QVAR(p) 在 0.05、0.50、0.95 分位數估計，配合 QVMA、GFEVD、TO／FROM／NET、net pairwise connectedness 與調整後 TCI。前置檢查含 ERS 單根、Jarque–Bera、Ljung–Box Q(20)/Q²(20) 與 Kendall 相關；全文未報告替代分位數、窗長或預測期穩健性。",
+        "【主要結果】TCI 在極端分位數顯著高於中位數，並於 2015–2016、2020、2024–2025 達 80%–100%。SPESG 與 SPCEI 多為淨傳送者；SPGBI 在 0.05 壓力狀態多為較小的淨接收節點，在 0.95 轉為淨傳送者，0.50 則相對均衡。作者據此主張 greenium／避險角色是狀態依存，而非固定優勢。",
+        "【限制】作者未設獨立限制節。可辨識限制包括：四個高度聚合的 S&P 指數無法代表各國主權／公司綠債；SPESG 與 SPCEI 的 Kendall 相關達 0.950，網絡角色可能受高度重疊影響；缺少替代指數與窗口穩健性；connectedness 不能證明綠債會因果降低債務成本或避免紓困。",
+        "【與美智研究的關聯】4/5。重疊：綠債／潔淨能源、QVAR-GFEVD、尾部角色翻轉與危機事件。可借鏡：把綠債由淨接收轉為淨傳送的分位數翻轉寫成明確的狀態依存假說，並保留公共債務政策意涵。主要差異：沒有 CPU、TVP-VAR-SV 或 BK 頻率分解。可追蹤引用：greenium 與 safe-haven 不可視為固定特性。",
+        "【APA 7】Eş Polat, G. (2026). Green bonds and global debt dynamics within a sustainable debt policy framework: A quantile VAR connectedness analysis. Journal of Management and Economics Research, 24(2), 118–140. https://doi.org/10.11611/yead.1893023"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-11-stablecoin-designs",
+      "title": "Stability Anchors and Risk Amplifiers: Tail Spillovers Across Stablecoin Designs",
+      "search_date": "2026-09-11",
+      "authors": "Wenbin Wu; Can Liu",
+      "year": "2026",
+      "journal": "arXiv preprint arXiv:2602.18820",
+      "doi": "https://doi.org/10.48550/arXiv.2602.18820",
+      "citations": "1（OpenAlex，2026-09-11）",
+      "openalex_url": "https://openalex.org/W7131416340",
+      "fulltext_url": "https://arxiv.org/pdf/2602.18820",
+      "reading_level": "全文精讀",
+      "abstract": "以 2021–2025 年八種主要穩定幣日資料建立 0.05／0.50／0.95 QVAR 網絡，並以三種額外代幣的分鐘事件資料檢視四次脫鉤危機。法幣儲備型穩定幣在各分位數的淨溢出接近零，而演算法型與加密抵押型在尾部可比中位狀態放大約 15–50 個百分點；壓力期 DXY 與 Bitcoin 的直接風險通道亦會繞過穩定幣中介。本文為未經期刊同儕審查的預印本，政策數值仍需獨立複核。",
+      "tags": [
+        "QVAR",
+        "stablecoins",
+        "tail spillovers",
+        "Forbes-Rigobon contagion test",
+        "synthetic control",
+        "systemic risk"
+      ],
+      "topics": [
+        "加密貨幣/數位金融",
+        "金融市場",
+        "方法論"
+      ],
+      "keywords": [
+        "USDT",
+        "USDC",
+        "DAI",
+        "FRAX",
+        "depeg",
+        "DXY-Bitcoin"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】全文精讀；以 arXiv 全文核對樣本、QVAR 網絡、脫鉤事件研究、數值結果與作者限制，並以 OpenAlex 驗證題名、作者、ID、引用與非撤稿狀態。屬 2026 年預印本，尚未以期刊正式版本取代。",
+        "【研究問題與動機】不同穩定機制的穩定幣在尾部壓力時究竟是風險錨或放大器？法幣—穩定幣—加密資產之間的隔離是否在脫鉤危機中失效？",
+        "【研究變數】日資料主樣本含法幣儲備型 USDT、USDC、BUSD、TUSD，演算法型 FRAX、sUSD，以及加密抵押型 DAI、LUSD；擴充網絡加入 Bitcoin 與美國廣義美元指數 DTWEXB。分鐘事件研究另涵蓋 UST、USDe 等重大脫鉤代幣。",
+        "【資料／市場／樣本】全球加密市場；八種主要穩定幣 2021–2025 日資料，另以四次脫鉤事件的分鐘資料檢查 UST（2022）、SVB/USDC（2023）、sUSD（2025）與 USDe（2025）。原始穩定幣價格來自 CoinMetrics Pro，DXY 代理來自 FRED；完整有效樣本量未集中報告。",
+        "【模型與估計】0.05、0.50、0.95 QVAR connectedness 與滾動網絡，分解 FROM／TO／NET；三層 fiat–stablecoin–crypto 網絡；四次事件採 Forbes–Rigobon 異質變異校正相關，SVB/USDC 另作 synthetic control。作者亦以替代窗口／樣本與危機檢查支撐結果。",
+        "【主要結果】法幣儲備型穩定幣跨分位數淨溢出近零；演算法與加密抵押型在尾部比中位狀態放大約 15–50 個百分點。極端狀態下 DXY 與 BTC 出現繞過穩定幣的直接傳導。Forbes–Rigobon 校正後，演算法型平均相關變化約 +0.07，法幣與加密抵押型分別約 −0.10、−0.14；SVB synthetic-control 檢查對 USDC 的額外溢出不顯著（p=0.75）。",
+        "【限制】作者指出主 QVAR 因資料限制未納入 UST、FDUSD、USDe；SVB 合成控制僅三個 donor，統計力有限；樣本涵蓋特定監管與市場結構，外推至其他制度需謹慎。另因預印本尚未同儕審查，2–3 倍資本緩衝建議不宜直接當成政策定論。",
+        "【與美智研究的關聯】3/5。重疊：QVAR、尾部淨傳導、危機事件與 clean／dirty crypto 相關研究脈絡。可借鏡：依資產設計機制分組，並以事件層級方法區分共同波動與剩餘 contagion。主要差異：沒有氣候風險、綠色資產或頻率分解。可追蹤引用：穩定機制導致的尾部異質性與因果措辭邊界。",
+        "【APA 7】Wu, W., & Liu, C. (2026). Stability anchors and risk amplifiers: Tail spillovers across stablecoin designs [Preprint]. arXiv. https://doi.org/10.48550/arXiv.2602.18820"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-11-frontiers-global-tail-risk",
+      "title": "Tail risk spillover asymmetry across global financial markets: a quantile connectedness approach",
+      "search_date": "2026-09-11",
+      "authors": "Hongyi Yu; Bin Li",
+      "year": "2026",
+      "journal": "Frontiers in Physics, 14, early view",
+      "doi": "https://doi.org/10.3389/fphy.2026.1876146",
+      "citations": "未取得（Crossref 與 OpenAlex 尚未收錄，2026-09-11）",
+      "openalex_url": "",
+      "fulltext_url": "https://www.frontiersin.org/journals/physics/articles/10.3389/fphy.2026.1876146/abstract",
+      "reading_level": "摘要層級",
+      "abstract": "以 12 個經濟體、五類市場在 2008-01-02 至 2024-12-31 的資料，先用 PCA 萃取市場因子，再以 0.05／0.50／0.95 QVAR 衡量跨市場尾部傳導。中位狀態 TCI 約 16%，下尾超過 87%；但 bootstrap 顯示，市場層級的淨角色多數未顯著異於零，只有下尾貨幣市場淨吸收與上尾商品市場淨傳送較穩健。出版社頁顯示文章尚待最終排版，因此本次只作摘要層級收錄。",
+      "tags": [
+        "QVAR",
+        "PCA",
+        "bootstrap inference",
+        "tail risk",
+        "global financial markets",
+        "systemic risk"
+      ],
+      "topics": [
+        "金融市場",
+        "宏觀總體",
+        "原物料/商品"
+      ],
+      "keywords": [
+        "equities",
+        "bonds",
+        "commodities",
+        "foreign exchange",
+        "money markets",
+        "12 economies"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；以 Frontiers 官方 early-view 頁核對作者、接受日期、樣本、方法、結果與 CC BY 授權。出版社頁明示最終排版版本將稍後發布；Crossref 與 OpenAlex 於 2026-09-11 尚未收錄，故引用數不填 0。",
+        "【研究問題與動機】跨股票、債券、商品、外匯與貨幣市場的尾部風險是否具有狀態不對稱？高 TCI 是否也代表各市場的淨傳送／接收角色具有統計顯著性？",
+        "【研究變數】12 個經濟體的股票、債券、商品、外匯及短期銀行間利率／貨幣市場資料；先在各類市場內以 PCA 萃取代表因子。官方摘要未列出全部國家與原始序列名稱。",
+        "【資料／市場／樣本】12 個經濟體、五大金融市場；2008-01-02 至 2024-12-31。摘要未報告資料來源、頻率與有效樣本量。",
+        "【模型與估計】PCA 降維後估計 QVAR connectedness，分位數為 0.05、0.50、0.95；以 bootstrap 對市場層級淨角色與尾部差異作推論。摘要未報告 lag、預測期、滾動窗與替代 PCA 設定。",
+        "【主要結果】中位狀態跨市場 spillovers 偏弱，TCI 約 16%；0.05 下尾升至 87% 以上。0.95 上尾由商品市場主導淨傳送。不過 bootstrap 顯示多數市場的淨角色不顯著異於零；較穩健者僅包括下尾貨幣市場淨吸收與上尾商品市場淨傳送，且兩端 TCI 差異本身未顯著。",
+        "【限制】文章仍是 early view，完整變數、資料與穩健性需待最終版本核對。PCA 提升可估性但可能掩蓋單一國家／資產的異質性；高 TCI 不保證方向性淨角色顯著，亦不提供結構因果解釋。",
+        "【與美智研究的關聯】4/5。重疊：QVAR、極端分位數、跨市場 connectedness 與推論。可借鏡：對淨傳送／接收角色做 bootstrap 顯著性檢查，避免只看網絡色彩或點估計。主要差異：沒有氣候／綠色資產、CPU、TVP-VAR-SV 或 BK。可追蹤引用：高 TCI 與淨方向顯著性必須分開。",
+        "【APA 7】Yu, H., & Li, B. (2026). Tail risk spillover asymmetry across global financial markets: A quantile connectedness approach. Frontiers in Physics, 14. Advance online publication. https://doi.org/10.3389/fphy.2026.1876146"
+      ]
+    },
     {
       "id": "qvar-2026-09-10-polek-1561",
       "title": "Synergistic Dynamics: The Interplay Between Clean Power, Artificial Intelligence, and Global Assets Across Economic Quantiles",
