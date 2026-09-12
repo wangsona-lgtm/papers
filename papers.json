@@ -1,6 +1,6 @@
 {
   "total": 161,
-  "updated": "2026-09-12 20:10:41 +08:00",
+  "updated": "2026-09-12 20:35:13",
   "topics": [
     "AI/科技",
     "其他",
@@ -63,7 +63,45 @@
         "【限制】作者指出樣本止於 2024 年、未涵蓋 NFT、DeFi、CBDC、ESG 等新資產；RAI 之外仍有 CDS、情緒指數等替代代理；滾動 QVAR 未直接建模參數演化，未來可採 TVP-VAR。另須注意高維系統、滾動窗與代理變數選擇可能影響淨角色。",
         "【APA 7】Choi, S. H., Choi, H., & Choi, S.-Y. (2026). Risk aversion, safe-haven assets, and Bitcoin's evolving role in global financial markets: Insights from quantile spillover analysis. AIMS Mathematics, 11(1), 2481–2526. https://doi.org/10.3934/math.2026101",
         "【與美智研究的關聯】3/5。方法上重疊於滾動 QVAR-GFEVD、尾部淨角色與替代不確定性代理穩健性；可借鏡避險角色不可跨分位數外推的論證。主題上偏跨資產避險與 Bitcoin，沒有氣候政策、綠色資產或 BK 頻域分解。"
-      ]
+      ],
+      "viewpoints": [
+        {
+          "claim": "【模型與估計】在 τ=0.10、0.50、0.90 使用滾動視窗 QVAR-GFEVD 估計總體、方向與淨溢出；報告 ADF、Phillips–Perron 與常態性診斷。穩健性包括改變預測期，以及以 VIX 替代基準風險厭惡指數。",
+          "evidence": "【模型與估計】在 τ=0.10、0.50、0.90 使用滾動視窗 QVAR-GFEVD 估計總體、方向與淨溢出；報告 ADF、Phillips–Perron 與常態性診斷。穩健性包括改變預測期，以及以 VIX 替代基準風險厭惡指數。",
+          "confidence": "mid",
+          "source": "數據",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】Bitcoin 在正常狀態為主要淨傳送者，在牛市與 REIT 等高 beta 資產共同強化風險傳導；其下尾傳送力明顯減弱。熊市時美國公債與黃金為主要衝擊吸收者，因此 Bitcoin 的上行分散效益不等於可靠的下檔避險。主要型態對…",
+          "evidence": "【主要結果】Bitcoin 在正常狀態為主要淨傳送者，在牛市與 REIT 等高 beta 資產共同強化風險傳導；其下尾傳送力明顯減弱。熊市時美國公債與黃金為主要衝擊吸收者，因此 Bitcoin 的上行分散效益不等於可靠的下檔避險。主要型態對預測期與恐慌代理替換大致穩健。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【限制】作者指出樣本止於 2024 年、未涵蓋 NFT、DeFi、CBDC、ESG 等新資產；RAI 之外仍有 CDS、情緒指數等替代代理；滾動 QVAR 未直接建模參數演化，未來可採 TVP-VAR。另須注意高維系統、滾動窗與代理變數選擇…",
+          "evidence": "【限制】作者指出樣本止於 2024 年、未涵蓋 NFT、DeFi、CBDC、ESG 等新資產；RAI 之外仍有 CDS、情緒指數等替代代理；滾動 QVAR 未直接建模參數演化，未來可採 TVP-VAR。另須注意高維系統、滾動窗與代理變數選擇可能影響淨角色。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】3/5。方法上重疊於滾動 QVAR-GFEVD、尾部淨角色與替代不確定性代理穩健性；可借鏡避險角色不可跨分位數外推的論證。主題上偏跨資產避險與 Bitcoin，沒有氣候政策、綠色資產或 BK 頻域分解。",
+          "evidence": "【與美智研究的關聯】3/5。方法上重疊於滾動 QVAR-GFEVD、尾部淨角色與替代不確定性代理穩健性；可借鏡避險角色不可跨分位數外推的論證。主題上偏跨資產避險與 Bitcoin，沒有氣候政策、綠色資產或 BK 頻域分解。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "研究限制：作者指出樣本止於 2024 年、未涵蓋 NFT、DeFi、CBDC、ESG 等新資產；RAI 之外仍有 CDS、情緒指數等替代代理；滾動 QVAR 未直接建模參數演化，未來可採 TVP-VAR。另須注意高維系統、滾動窗與代理變數選擇可能影響…",
+          "evidence": "作者指出樣本止於 2024 年、未涵蓋 NFT、DeFi、CBDC、ESG 等新資產；RAI 之外仍有 CDS、情緒指數等替代代理；滾動 QVAR 未直接建模參數演化，未來可採 TVP-VAR。另須注意高維系統、滾動窗與代理變數選擇可能影響淨角色。",
+          "confidence": "low",
+          "source": "研究限制",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    Riskaversionsaf[\"📄 Risk aversion, safe-haven assets, and Bitcoin's ev\"]\n    style Riskaversionsaf fill:#2563eb,color:#fff,font-weight:bold\n    vp0模型與估計在[\"💡 【模型與估計】在 τ=0.10、0.50、0.90 使用滾動視窗 QVAR-GF\"]\n    style vp0模型與估計在 fill:#fef3c7,stroke:#d97706\n    Riskaversionsaf --> vp0模型與估計在\n    vp1主要結果Bitc[\"💡 【主要結果】Bitcoin 在正常狀態為主要淨傳送者，在牛市與 REIT 等高 \"]\n    style vp1主要結果Bitc fill:#fef3c7,stroke:#d97706\n    Riskaversionsaf --> vp1主要結果Bitc\n    vp2限制作者指出樣本[\"💡 【限制】作者指出樣本止於 2024 年、未涵蓋 NFT、DeFi、CBDC、ES\"]\n    style vp2限制作者指出樣本 fill:#fef3c7,stroke:#d97706\n    Riskaversionsaf --> vp2限制作者指出樣本\n    vp3與美智研究的關聯[\"💡 【與美智研究的關聯】3/5。方法上重疊於滾動 QVAR-GFEVD、尾部淨角色與\"]\n    style vp3與美智研究的關聯 fill:#fef3c7,stroke:#d97706\n    Riskaversionsaf --> vp3與美智研究的關聯\n    vp4研究限制作者指出樣[\"💡 研究限制：作者指出樣本止於 2024 年、未涵蓋 NFT、DeFi、CBDC、E\"]\n    style vp4研究限制作者指出樣 fill:#fee2e2,stroke:#dc2626\n    Riskaversionsaf --> vp4研究限制作者指出樣\n    vp0模型與估計在 --- vp1主要結果Bitc\n    vp1主要結果Bitc --- vp2限制作者指出樣本\n    vp2限制作者指出樣本 --- vp3與美智研究的關聯"
     },
     {
       "id": "qvar-2026-09-12-jimf-fintech-attention",
@@ -109,7 +147,52 @@
         "【限制】作者未明列專節限制。可辨識限制包括樣本僅五年、Google Trends 關鍵字代理可能有測量誤差、單一 FinTech ETF 與兩個金融指數限制外部效度；同期 QVAR 淨傳送角色與 Granger 預測方向並不等於結構因果。",
         "【APA 7】Izadin, A. A. I., Loang, O. K., Shaari, M. S., Ridzuan, A. R., & Candra, S. (2026). Reassessing attention to Fintech: Spillover effects on conventional and Islamic financial stocks. Journal of Islamic Monetary Economics and Finance, 12(1), 35–58. https://doi.org/10.21098/jimf.v12i1.3300",
         "【與美智研究的關聯】3/5。方法上與 QVAR-GFEVD、尾部狀態切換及淨傳送／接收者辨識相近，可借鏡以額外預測性檢定限制因果詮釋。主題上偏 FinTech 注意力與伊斯蘭金融，未涵蓋氣候風險、綠色資產或 time-frequency／BK 分解。"
-      ]
+      ],
+      "viewpoints": [
+        {
+          "claim": "】FinTech 注意力是金融市場的領先 驅動",
+          "evidence": "】FinTech 注意力是金融市場的領先驅動",
+          "confidence": "mid",
+          "source": "發現",
+          "connections": []
+        },
+        {
+          "claim": "【模型與估計】QVAR-GFEVD 於 τ=0.05、0.50、0.95 估計 FROM、TO、NET 與調整後 TCI；另以分位數迴歸檢查條件關聯，並用成對 Granger 檢定作預測方向穩健性檢查。",
+          "evidence": "【模型與估計】QVAR-GFEVD 於 τ=0.05、0.50、0.95 估計 FROM、TO、NET 與調整後 TCI；另以分位數迴歸檢查條件關聯，並用成對 Granger 檢定作預測方向穩健性檢查。",
+          "confidence": "mid",
+          "source": "數據",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】TCI 在熊市、正常、牛市為 68.67%、44.81%、69.98%。ATFIN 在下尾與中位為淨接收者（−12.32、−10.78），在上尾轉為淨傳送者（+10.70）；傳統金融股在熊市是主要傳送者，伊斯蘭金融股在牛市成為淨…",
+          "evidence": "【主要結果】TCI 在熊市、正常、牛市為 68.67%、44.81%、69.98%。ATFIN 在下尾與中位為淨接收者（−12.32、−10.78），在上尾轉為淨傳送者（+10.70）；傳統金融股在熊市是主要傳送者，伊斯蘭金融股在牛市成為淨接收者（−9.74）。Granger 結果顯示 FINTS、IFINS、FINS 可預測 ATFIN，但 ATFIN 不預測 FINTS、IFINS 或 FINS。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【限制】作者未明列專節限制。可辨識限制包括樣本僅五年、Google Trends 關鍵字代理可能有測量誤差、單一 FinTech ETF 與兩個金融指數限制外部效度；同期 QVAR 淨傳送角色與 Granger 預測方向並不等於結構因果。",
+          "evidence": "【限制】作者未明列專節限制。可辨識限制包括樣本僅五年、Google Trends 關鍵字代理可能有測量誤差、單一 FinTech ETF 與兩個金融指數限制外部效度；同期 QVAR 淨傳送角色與 Granger 預測方向並不等於結構因果。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】3/5。方法上與 QVAR-GFEVD、尾部狀態切換及淨傳送／接收者辨識相近，可借鏡以額外預測性檢定限制因果詮釋。主題上偏 FinTech 注意力與伊斯蘭金融，未涵蓋氣候風險、綠色資產或 time-frequency／B…",
+          "evidence": "【與美智研究的關聯】3/5。方法上與 QVAR-GFEVD、尾部狀態切換及淨傳送／接收者辨識相近，可借鏡以額外預測性檢定限制因果詮釋。主題上偏 FinTech 注意力與伊斯蘭金融，未涵蓋氣候風險、綠色資產或 time-frequency／BK 分解。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "研究限制：作者未明列專節限制。可辨識限制包括樣本僅五年、Google Trends 關鍵字代理可能有測量誤差、單一 FinTech ETF 與兩個金融指數限制外部效度；同期 QVAR 淨傳送角色與 Granger 預測方向並不等於結構因果。",
+          "evidence": "作者未明列專節限制。可辨識限制包括樣本僅五年、Google Trends 關鍵字代理可能有測量誤差、單一 FinTech ETF 與兩個金融指數限制外部效度；同期 QVAR 淨傳送角色與 Granger 預測方向並不等於結構因果。",
+          "confidence": "low",
+          "source": "研究限制",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    ReassessingAtte[\"📄 Reassessing Attention to Fintech: Spillover Effect\"]\n    style ReassessingAtte fill:#2563eb,color:#fff,font-weight:bold\n    vp0FinTech注[\"💡 】FinTech 注意力是金融市場的領先 驅動\"]\n    style vp0FinTech注 fill:#fef3c7,stroke:#d97706\n    ReassessingAtte --> vp0FinTech注\n    vp1模型與估計QVA[\"💡 【模型與估計】QVAR-GFEVD 於 τ=0.05、0.50、0.95 估計 \"]\n    style vp1模型與估計QVA fill:#fef3c7,stroke:#d97706\n    ReassessingAtte --> vp1模型與估計QVA\n    vp2主要結果TCI[\"💡 【主要結果】TCI 在熊市、正常、牛市為 68.67%、44.81%、69.98\"]\n    style vp2主要結果TCI fill:#fef3c7,stroke:#d97706\n    ReassessingAtte --> vp2主要結果TCI\n    vp3限制作者未明列專[\"💡 【限制】作者未明列專節限制。可辨識限制包括樣本僅五年、Google Trends\"]\n    style vp3限制作者未明列專 fill:#fef3c7,stroke:#d97706\n    ReassessingAtte --> vp3限制作者未明列專\n    vp4與美智研究的關聯[\"💡 【與美智研究的關聯】3/5。方法上與 QVAR-GFEVD、尾部狀態切換及淨傳送\"]\n    style vp4與美智研究的關聯 fill:#fef3c7,stroke:#d97706\n    ReassessingAtte --> vp4與美智研究的關聯\n    vp5研究限制作者未明列[\"💡 研究限制：作者未明列專節限制。可辨識限制包括樣本僅五年、Google Trend\"]\n    style vp5研究限制作者未明列 fill:#fee2e2,stroke:#dc2626\n    ReassessingAtte --> vp5研究限制作者未明列\n    vp0FinTech注 --- vp1模型與估計QVA\n    vp1模型與估計QVA --- vp2主要結果TCI\n    vp2主要結果TCI --- vp3限制作者未明列專"
     },
     {
       "id": "qvar-2026-09-12-ijeep-global-local-energy",
@@ -159,7 +242,38 @@
         "【限制】作者未明列研究限制。可辨識限制包括樣本止於 2022 年、資料依賴 Bloomberg、國家與指數代理有限、未做時間頻率分解，且高 TCI 可能受大型系統與共同市場因子影響；QVAR 連結度反映預測性關聯而非結構因果。",
         "【APA 7】Rehman, M. Z. (2026). Global conventional and clean energy spillovers, uncertainty, and local markets: Evidence from leading oil-exporting and oil-importing countries. International Journal of Energy Economics and Policy, 16(5), 10–25. https://doi.org/10.32479/ijeep.22367",
         "【與美智研究的關聯】4/5。重疊於潔淨／傳統能源、尾部分位溢出與 GPR；可借鏡跨國能源角色比較、尾部與中位 TCI 對照及 OVX／GPRD 的納入。主要差異是未直接使用氣候政策不確定性、TVP-VAR-SV 或 BK 頻域分解，且資料止於 2022 年；可追蹤其 18 變數跨國 QVAR 網路設計。"
-      ]
+      ],
+      "viewpoints": [
+        {
+          "claim": "【主要結果】潔淨能源系統 TCI 為 96.20%、82.71%、96.83%，傳統能源系統為 96.24%、82.07%、96.98%，顯示兩尾明顯高於中位數。全球潔淨／傳統能源、全球能源與加拿大能源多為淨傳送者；GPRD 與沙烏地、中國…",
+          "evidence": "【主要結果】潔淨能源系統 TCI 為 96.20%、82.71%、96.83%，傳統能源系統為 96.24%、82.07%、96.98%，顯示兩尾明顯高於中位數。全球潔淨／傳統能源、全球能源與加拿大能源多為淨傳送者；GPRD 與沙烏地、中國、印度、美國能源多為淨接收者。潔淨能源中位數下，加拿大與俄羅斯能源淨傳送率較低（4.64%、2.73%），潔淨與全球能源傳送較高（44.34%、43.5%）。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【限制】作者未明列研究限制。可辨識限制包括樣本止於 2022 年、資料依賴 Bloomberg、國家與指數代理有限、未做時間頻率分解，且高 TCI 可能受大型系統與共同市場因子影響；QVAR 連結度反映預測性關聯而非結構因果。",
+          "evidence": "【限制】作者未明列研究限制。可辨識限制包括樣本止於 2022 年、資料依賴 Bloomberg、國家與指數代理有限、未做時間頻率分解，且高 TCI 可能受大型系統與共同市場因子影響；QVAR 連結度反映預測性關聯而非結構因果。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】4/5。重疊於潔淨／傳統能源、尾部分位溢出與 GPR；可借鏡跨國能源角色比較、尾部與中位 TCI 對照及 OVX／GPRD 的納入。主要差異是未直接使用氣候政策不確定性、TVP-VAR-SV 或 BK 頻域分解，且資料止…",
+          "evidence": "【與美智研究的關聯】4/5。重疊於潔淨／傳統能源、尾部分位溢出與 GPR；可借鏡跨國能源角色比較、尾部與中位 TCI 對照及 OVX／GPRD 的納入。主要差異是未直接使用氣候政策不確定性、TVP-VAR-SV 或 BK 頻域分解，且資料止於 2022 年；可追蹤其 18 變數跨國 QVAR 網路設計。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "研究限制：作者未明列研究限制。可辨識限制包括樣本止於 2022 年、資料依賴 Bloomberg、國家與指數代理有限、未做時間頻率分解，且高 TCI 可能受大型系統與共同市場因子影響；QVAR 連結度反映預測性關聯而非結構因果。",
+          "evidence": "作者未明列研究限制。可辨識限制包括樣本止於 2022 年、資料依賴 Bloomberg、國家與指數代理有限、未做時間頻率分解，且高 TCI 可能受大型系統與共同市場因子影響；QVAR 連結度反映預測性關聯而非結構因果。",
+          "confidence": "low",
+          "source": "研究限制",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    GlobalConventio[\"📄 Global Conventional and Clean Energy Spillovers, U\"]\n    style GlobalConventio fill:#2563eb,color:#fff,font-weight:bold\n    vp0主要結果潔淨能源[\"💡 【主要結果】潔淨能源系統 TCI 為 96.20%、82.71%、96.83%，\"]\n    style vp0主要結果潔淨能源 fill:#fef3c7,stroke:#d97706\n    GlobalConventio --> vp0主要結果潔淨能源\n    vp1限制作者未明列研[\"💡 【限制】作者未明列研究限制。可辨識限制包括樣本止於 2022 年、資料依賴 Bl\"]\n    style vp1限制作者未明列研 fill:#fef3c7,stroke:#d97706\n    GlobalConventio --> vp1限制作者未明列研\n    vp2與美智研究的關聯[\"💡 【與美智研究的關聯】4/5。重疊於潔淨／傳統能源、尾部分位溢出與 GPR；可借鏡\"]\n    style vp2與美智研究的關聯 fill:#fef3c7,stroke:#d97706\n    GlobalConventio --> vp2與美智研究的關聯\n    vp3研究限制作者未明列[\"💡 研究限制：作者未明列研究限制。可辨識限制包括樣本止於 2022 年、資料依賴 B\"]\n    style vp3研究限制作者未明列 fill:#fee2e2,stroke:#dc2626\n    GlobalConventio --> vp3研究限制作者未明列\n    vp0主要結果潔淨能源 --- vp1限制作者未明列研\n    vp1限制作者未明列研 --- vp2與美智研究的關聯\n    vp2與美智研究的關聯 --- vp3研究限制作者未明列"
     },
     {
       "id": "qvar-2026-09-12-energies-brown-green-climate-risk",
@@ -207,7 +321,31 @@
         "【限制】作者指出氣候風險迴歸只能識別條件預測關聯，不能識別因果；資產僅含六檔能源 ETF，外部效度受限。另可注意 Yahoo Finance 與指數代理的測量限制，以及頻帶切點、200 日滾動窗與樣本終止於 2024 年對結果的影響。",
         "【APA 7】Hamori, S. (2026). Climate risk transmission across brown and green energy equity markets during the energy transition. Energies, 19(17), Article 4095. https://doi.org/10.3390/en19174095",
         "【與美智研究的關聯】5/5。高度重疊於氣候風險、綠色資產、QVAR 與 time-frequency connectedness；可直接借鏡其狀態×期間雙維度設計、TRI／PRI 分拆、因果邊界與頻帶穩健性。主要差異是本文聚焦 ETF 報酬與氣候風險預測關聯，未使用 TVP-VAR-SV，亦未直接納入 CPU、碳價或綠債；可追蹤其 QVAR 頻域分解與氣候風險指數來源。"
-      ]
+      ],
+      "viewpoints": [
+        {
+          "claim": "【主要結果】全樣本 TCI 為 70.26%；XLE、IXC、VDE 為淨傳送者，ICLN、TAN、PBW 為淨接收者。尾部連結度顯著高於中位狀態，下尾的長期成分具有經濟重要性。TRI 創新與下一期短期連結度變化正相關；PRI 與總連結度變…",
+          "evidence": "【主要結果】全樣本 TCI 為 70.26%；XLE、IXC、VDE 為淨傳送者，ICLN、TAN、PBW 為淨接收者。尾部連結度顯著高於中位狀態，下尾的長期成分具有經濟重要性。TRI 創新與下一期短期連結度變化正相關；PRI 與總連結度變化負相關，但對影響值處理較敏感。不得將這些關聯解讀為氣候風險的因果效果。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【限制】作者指出氣候風險迴歸只能識別條件預測關聯，不能識別因果；資產僅含六檔能源 ETF，外部效度受限。另可注意 Yahoo Finance 與指數代理的測量限制，以及頻帶切點、200 日滾動窗與樣本終止於 2024 年對結果的影響。",
+          "evidence": "【限制】作者指出氣候風險迴歸只能識別條件預測關聯，不能識別因果；資產僅含六檔能源 ETF，外部效度受限。另可注意 Yahoo Finance 與指數代理的測量限制，以及頻帶切點、200 日滾動窗與樣本終止於 2024 年對結果的影響。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "研究限制：作者指出氣候風險迴歸只能識別條件預測關聯，不能識別因果；資產僅含六檔能源 ETF，外部效度受限。另可注意 Yahoo Finance 與指數代理的測量限制，以及頻帶切點、200 日滾動窗與樣本終止於 2024 年對結果的影響。",
+          "evidence": "作者指出氣候風險迴歸只能識別條件預測關聯，不能識別因果；資產僅含六檔能源 ETF，外部效度受限。另可注意 Yahoo Finance 與指數代理的測量限制，以及頻帶切點、200 日滾動窗與樣本終止於 2024 年對結果的影響。",
+          "confidence": "low",
+          "source": "研究限制",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    ClimateRiskTran[\"📄 Climate Risk Transmission Across Brown and Green E\"]\n    style ClimateRiskTran fill:#2563eb,color:#fff,font-weight:bold\n    vp0主要結果全樣本[\"💡 【主要結果】全樣本 TCI 為 70.26%；XLE、IXC、VDE 為淨傳送者\"]\n    style vp0主要結果全樣本 fill:#fef3c7,stroke:#d97706\n    ClimateRiskTran --> vp0主要結果全樣本\n    vp1限制作者指出氣候[\"💡 【限制】作者指出氣候風險迴歸只能識別條件預測關聯，不能識別因果；資產僅含六檔能源\"]\n    style vp1限制作者指出氣候 fill:#fef3c7,stroke:#d97706\n    ClimateRiskTran --> vp1限制作者指出氣候\n    vp2研究限制作者指出氣[\"💡 研究限制：作者指出氣候風險迴歸只能識別條件預測關聯，不能識別因果；資產僅含六檔能\"]\n    style vp2研究限制作者指出氣 fill:#fee2e2,stroke:#dc2626\n    ClimateRiskTran --> vp2研究限制作者指出氣\n    vp0主要結果全樣本 --- vp1限制作者指出氣候\n    vp1限制作者指出氣候 --- vp2研究限制作者指出氣"
     },
     {
       "id": "qvar-2026-09-11-retrec-shipping-transition",
@@ -255,7 +393,45 @@
         "【限制】摘要未提供作者完整限制。可辨識限制包括：週資料可能平滑日內／日間尾部衝擊；市場代表性受指數選擇影響；綠色航運關注度與外溢強度的關聯不足以識別政策或注意力的因果效果。",
         "【與美智研究的關聯】5/5。重疊：碳市場尾部衝擊、能源金融市場、分位數時頻 connectedness 與政策階段比較。可借鏡：直接把航運納入碳價傳導網絡，並比較 EU ETS 第四階段與航運納管前後。主要差異：未直接使用 CPU，摘要未確認 TVP-VAR-SV 或 BK 的具體實作。可追蹤引用：碳價尾部衝擊×航運。",
         "【APA 7】Wan, M., Sui, C., & Sun, J. (2026). Green transition and risk connectedness across carbon, shipping, and energy-related commodity markets: A quantile time-frequency analysis. Research in Transportation Economics, 119, 101827. https://doi.org/10.1016/j.retrec.2026.101827"
-      ]
+      ],
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】摘要層級；以出版社／書目摘要核對樣本、方法與主要結果，並以 Crossref、OpenAlex 驗證 DOI、作者、卷期、文章編號、引用及非撤稿狀態。OpenAlex 標示為 closed access，本次未取得合法公開全文，…",
+          "evidence": "【閱讀層級】摘要層級；以出版社／書目摘要核對樣本、方法與主要結果，並以 Crossref、OpenAlex 驗證 DOI、作者、卷期、文章編號、引用及非撤稿狀態。OpenAlex 標示為 closed access，本次未取得合法公開全文，未補寫摘要未報告的細節。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】極端狀態的整體 connectedness 明顯高於中位狀態，且短期傳導持續強於長期。甲醇在整體與短期頻帶是較強淨傳送者；EU 碳市場在下尾較重要，新造船市場在中位至上尾較重要。EU ETS 第四階段及航運納管後，跨市場 spi…",
+          "evidence": "【主要結果】極端狀態的整體 connectedness 明顯高於中位狀態，且短期傳導持續強於長期。甲醇在整體與短期頻帶是較強淨傳送者；EU 碳市場在下尾較重要，新造船市場在中位至上尾較重要。EU ETS 第四階段及航運納管後，跨市場 spillovers 呈上升。綠色航運關注度與關鍵市場的外溢強度呈條件關聯。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【限制】摘要未提供作者完整限制。可辨識限制包括：週資料可能平滑日內／日間尾部衝擊；市場代表性受指數選擇影響；綠色航運關注度與外溢強度的關聯不足以識別政策或注意力的因果效果。",
+          "evidence": "【限制】摘要未提供作者完整限制。可辨識限制包括：週資料可能平滑日內／日間尾部衝擊；市場代表性受指數選擇影響；綠色航運關注度與外溢強度的關聯不足以識別政策或注意力的因果效果。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】5/5。重疊：碳市場尾部衝擊、能源金融市場、分位數時頻 connectedness 與政策階段比較。可借鏡：直接把航運納入碳價傳導網絡，並比較 EU ETS 第四階段與航運納管前後。主要差異：未直接使用 CPU，摘要未確…",
+          "evidence": "【與美智研究的關聯】5/5。重疊：碳市場尾部衝擊、能源金融市場、分位數時頻 connectedness 與政策階段比較。可借鏡：直接把航運納入碳價傳導網絡，並比較 EU ETS 第四階段與航運納管前後。主要差異：未直接使用 CPU，摘要未確認 TVP-VAR-SV 或 BK 的具體實作。可追蹤引用：碳價尾部衝擊×航運。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "研究限制：摘要未提供作者完整限制。可辨識限制包括：週資料可能平滑日內／日間尾部衝擊；市場代表性受指數選擇影響；綠色航運關注度與外溢強度的關聯不足以識別政策或注意力的因果效果。",
+          "evidence": "摘要未提供作者完整限制。可辨識限制包括：週資料可能平滑日內／日間尾部衝擊；市場代表性受指數選擇影響；綠色航運關注度與外溢強度的關聯不足以識別政策或注意力的因果效果。",
+          "confidence": "low",
+          "source": "研究限制",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    Greentransition[\"📄 Green transition and risk connectedness across car\"]\n    style Greentransition fill:#2563eb,color:#fff,font-weight:bold\n    vp0閱讀層級摘要層級[\"💡 【閱讀層級】摘要層級；以出版社／書目摘要核對樣本、方法與主要結果，並以 Cros\"]\n    style vp0閱讀層級摘要層級 fill:#fef3c7,stroke:#d97706\n    Greentransition --> vp0閱讀層級摘要層級\n    vp1主要結果極端狀態[\"💡 【主要結果】極端狀態的整體 connectedness 明顯高於中位狀態，且短期\"]\n    style vp1主要結果極端狀態 fill:#fef3c7,stroke:#d97706\n    Greentransition --> vp1主要結果極端狀態\n    vp2限制摘要未提供作[\"💡 【限制】摘要未提供作者完整限制。可辨識限制包括：週資料可能平滑日內／日間尾部衝擊\"]\n    style vp2限制摘要未提供作 fill:#fef3c7,stroke:#d97706\n    Greentransition --> vp2限制摘要未提供作\n    vp3與美智研究的關聯[\"💡 【與美智研究的關聯】5/5。重疊：碳市場尾部衝擊、能源金融市場、分位數時頻 co\"]\n    style vp3與美智研究的關聯 fill:#fef3c7,stroke:#d97706\n    Greentransition --> vp3與美智研究的關聯\n    vp4研究限制摘要未提供[\"💡 研究限制：摘要未提供作者完整限制。可辨識限制包括：週資料可能平滑日內／日間尾部衝\"]\n    style vp4研究限制摘要未提供 fill:#fee2e2,stroke:#dc2626\n    Greentransition --> vp4研究限制摘要未提供\n    vp0閱讀層級摘要層級 --- vp1主要結果極端狀態\n    vp1主要結果極端狀態 --- vp2限制摘要未提供作\n    vp2限制摘要未提供作 --- vp3與美智研究的關聯"
     },
     {
       "id": "qvar-2026-09-11-energy-uncertainty-clean",
@@ -303,7 +479,59 @@
         "【限制】作者未設獨立限制節；資料聲明指出資料須向通訊作者索取。可辨識限制是僅三個全球月頻指標、203 筆觀測與指數建構依賴，難以分辨國家／資產異質性；QVAR connectedness 與 quantile process 不提供結構因果辨識。",
         "【與美智研究的關聯】5/5。重疊：政策／能源不確定性、潔淨能源、QVAR-GFEVD、尾部風險與動態角色。可借鏡：避免混頻插值，並以完整 quantile-process 熱圖作穩健性補充。主要差異：EPU/EUI 不等於 CPU，未採 TVP-VAR-SV 或 BK 頻率分解，資產網絡也較小。可追蹤引用：EUI×EPU×clean energy 的分位數傳導。",
         "【APA 7】Inglesi-Lotz, R., Venter, A., & Tzeremes, P. (2026). The connectedness between international energy-related uncertainties, economic policy uncertainties, and clean energy markets. Energy Sources, Part B: Economics, Planning, and Policy, 21(1), 2650378. https://doi.org/10.1080/15567249.2026.2650378"
-      ]
+      ],
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】全文精讀；透過期刊 CC BY 4.0 全文頁核對資料、QVAR-GFEVD、分位數歷程穩健性、結果與資料可用性，並以 Crossref 核驗 DOI、完整作者、卷期、文章編號與引用。OpenAlex 於 2026-09-11 …",
+          "evidence": "【閱讀層級】全文精讀；透過期刊 CC BY 4.0 全文頁核對資料、QVAR-GFEVD、分位數歷程穩健性、結果與資料可用性，並以 Crossref 核驗 DOI、完整作者、卷期、文章編號與引用。OpenAlex 於 2026-09-11 尚無可解析紀錄。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】能源轉型所需投資是否受到廣義能源不確定性與經濟政策不確定性的尾部傳導影響？EUI、EPU 與 clean-energy returns 在壓力、正常與繁榮狀態下分別扮演何種風險角色？",
+          "evidence": "【研究問題與動機】能源轉型所需投資是否受到廣義能源不確定性與經濟政策不確定性的尾部傳導影響？EUI、EPU 與 clean-energy returns 在壓力、正常與繁榮狀態下分別扮演何種風險角色？",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【模型與估計】Ando–Greenwood-Nimmo–Shin QVAR connectedness 與 GFEVD，核心比較 q=0.05、0.50、0.95；另以 Chatziantoniou–Gabauer–Stenfors qua…",
+          "evidence": "【模型與估計】Ando–Greenwood-Nimmo–Shin QVAR connectedness 與 GFEVD，核心比較 q=0.05、0.50、0.95；另以 Chatziantoniou–Gabauer–Stenfors quantile-process 熱圖跨完整分位數網格驗證尾部放大與時間變動。全文未集中報告替代樣本期或替代變數的穩健性。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】兩端分位數的 connectedness 均明顯高於中位數，早期 2010 年代與 2020 年附近尤為突出。EPU 多數時期為淨傳送者；EUI 在淨傳送與淨接收間切換；CEI 在極端下行情境主要受 EUI 與 EPU 溢出影響…",
+          "evidence": "【主要結果】兩端分位數的 connectedness 均明顯高於中位數，早期 2010 年代與 2020 年附近尤為突出。EPU 多數時期為淨傳送者；EUI 在淨傳送與淨接收間切換；CEI 在極端下行情境主要受 EUI 與 EPU 溢出影響，但其系統角色會隨時間變化。完整分位數熱圖支持 tail intensification。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【限制】作者未設獨立限制節；資料聲明指出資料須向通訊作者索取。可辨識限制是僅三個全球月頻指標、203 筆觀測與指數建構依賴，難以分辨國家／資產異質性；QVAR connectedness 與 quantile process 不提供結構因果…",
+          "evidence": "【限制】作者未設獨立限制節；資料聲明指出資料須向通訊作者索取。可辨識限制是僅三個全球月頻指標、203 筆觀測與指數建構依賴，難以分辨國家／資產異質性；QVAR connectedness 與 quantile process 不提供結構因果辨識。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】5/5。重疊：政策／能源不確定性、潔淨能源、QVAR-GFEVD、尾部風險與動態角色。可借鏡：避免混頻插值，並以完整 quantile-process 熱圖作穩健性補充。主要差異：EPU/EUI 不等於 CPU，未採 T…",
+          "evidence": "【與美智研究的關聯】5/5。重疊：政策／能源不確定性、潔淨能源、QVAR-GFEVD、尾部風險與動態角色。可借鏡：避免混頻插值，並以完整 quantile-process 熱圖作穩健性補充。主要差異：EPU/EUI 不等於 CPU，未採 TVP-VAR-SV 或 BK 頻率分解，資產網絡也較小。可追蹤引用：EUI×EPU×clean energy 的分位數傳導。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "研究限制：作者未設獨立限制節；資料聲明指出資料須向通訊作者索取。可辨識限制是僅三個全球月頻指標、203 筆觀測與指數建構依賴，難以分辨國家／資產異質性；QVAR connectedness 與 quantile process 不提供結構因果辨識。",
+          "evidence": "作者未設獨立限制節；資料聲明指出資料須向通訊作者索取。可辨識限制是僅三個全球月頻指標、203 筆觀測與指數建構依賴，難以分辨國家／資產異質性；QVAR connectedness 與 quantile process 不提供結構因果辨識。",
+          "confidence": "low",
+          "source": "研究限制",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    Theconnectednes[\"📄 The connectedness between international energy-rel\"]\n    style Theconnectednes fill:#2563eb,color:#fff,font-weight:bold\n    vp0閱讀層級全文精讀[\"💡 【閱讀層級】全文精讀；透過期刊 CC BY 4.0 全文頁核對資料、QVAR-G\"]\n    style vp0閱讀層級全文精讀 fill:#fef3c7,stroke:#d97706\n    Theconnectednes --> vp0閱讀層級全文精讀\n    vp1研究問題與動機能[\"💡 【研究問題與動機】能源轉型所需投資是否受到廣義能源不確定性與經濟政策不確定性的尾\"]\n    style vp1研究問題與動機能 fill:#fef3c7,stroke:#d97706\n    Theconnectednes --> vp1研究問題與動機能\n    vp2模型與估計And[\"💡 【模型與估計】Ando–Greenwood-Nimmo–Shin QVAR co\"]\n    style vp2模型與估計And fill:#fef3c7,stroke:#d97706\n    Theconnectednes --> vp2模型與估計And\n    vp3主要結果兩端分位[\"💡 【主要結果】兩端分位數的 connectedness 均明顯高於中位數，早期 2\"]\n    style vp3主要結果兩端分位 fill:#fef3c7,stroke:#d97706\n    Theconnectednes --> vp3主要結果兩端分位\n    vp4限制作者未設獨立[\"💡 【限制】作者未設獨立限制節；資料聲明指出資料須向通訊作者索取。可辨識限制是僅三個\"]\n    style vp4限制作者未設獨立 fill:#fef3c7,stroke:#d97706\n    Theconnectednes --> vp4限制作者未設獨立\n    vp5與美智研究的關聯[\"💡 【與美智研究的關聯】5/5。重疊：政策／能源不確定性、潔淨能源、QVAR-GFE\"]\n    style vp5與美智研究的關聯 fill:#fef3c7,stroke:#d97706\n    Theconnectednes --> vp5與美智研究的關聯\n    vp6研究限制作者未設獨[\"💡 研究限制：作者未設獨立限制節；資料聲明指出資料須向通訊作者索取。可辨識限制是僅三\"]\n    style vp6研究限制作者未設獨 fill:#fee2e2,stroke:#dc2626\n    Theconnectednes --> vp6研究限制作者未設獨\n    vp0閱讀層級全文精讀 --- vp1研究問題與動機能\n    vp1研究問題與動機能 --- vp2模型與估計And\n    vp2模型與估計And --- vp3主要結果兩端分位"
     },
     {
       "id": "qvar-2026-09-11-ijccsm-transition-finance",
@@ -351,7 +579,38 @@
         "【限制】摘要未提供作者明列限制。可辨識限制是關鍵樣本與估計設定未能由公開摘要驗證；危機對照屬事件關聯，不能單憑 TVP-VAR/QVAR connectedness 推論危機的因果效果。全文可用後應再核對變數、樣本與頻率分解實作。",
         "【與美智研究的關聯】5/5。重疊：氣候風險、能源轉型、綠債／ESG、TVP-VAR、quantile 與 frequency connectedness。可借鏡：同時比較市場狀態與短長期間，並把再生能源視為可能的短期風險傳送者。主要差異：摘要未確認 TVP-VAR-SV、BK 或 CPU 的具體設定。可追蹤引用：短期風險占主導與危機期角色切換。",
         "【APA 7】Mellouli, D. (2026). Dynamic spillovers between climate risk, energy transition, and sustainable finance: Implications for financial markets. International Journal of Climate Change Strategies and Management, 18(2), 1–21. https://doi.org/10.1108/IJCCSM-11-2025-0433"
-      ]
+      ],
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】摘要層級；以 Crossref 的出版社摘要、書目與 CC BY 4.0 授權欄位，以及公開書目頁核對研究問題、方法與結果。出版社全文連結在本次執行觸發機器人驗證，未繞過；OpenAlex 尚無可解析紀錄。",
+          "evidence": "【閱讀層級】摘要層級；以 Crossref 的出版社摘要、書目與 CC BY 4.0 授權欄位，以及公開書目頁核對研究問題、方法與結果。出版社全文連結在本次執行觸發機器人驗證，未繞過；OpenAlex 尚無可解析紀錄。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】跨市場連結高度動態，在 COVID-19 與俄烏戰爭期間升高；1–5 日短期 connectedness 占主導，反映快速衝擊傳播，而 5 日以上連結相對穩定。再生能源市場可能同時扮演轉型資產與短期波動來源；方向性 spillo…",
+          "evidence": "【主要結果】跨市場連結高度動態，在 COVID-19 與俄烏戰爭期間升高；1–5 日短期 connectedness 占主導，反映快速衝擊傳播，而 5 日以上連結相對穩定。再生能源市場可能同時扮演轉型資產與短期波動來源；方向性 spillovers 在頻帶間的一致性被作者視為結果穩健的證據。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【限制】摘要未提供作者明列限制。可辨識限制是關鍵樣本與估計設定未能由公開摘要驗證；危機對照屬事件關聯，不能單憑 TVP-VAR/QVAR connectedness 推論危機的因果效果。全文可用後應再核對變數、樣本與頻率分解實作。",
+          "evidence": "【限制】摘要未提供作者明列限制。可辨識限制是關鍵樣本與估計設定未能由公開摘要驗證；危機對照屬事件關聯，不能單憑 TVP-VAR/QVAR connectedness 推論危機的因果效果。全文可用後應再核對變數、樣本與頻率分解實作。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "研究限制：摘要未提供作者明列限制。可辨識限制是關鍵樣本與估計設定未能由公開摘要驗證；危機對照屬事件關聯，不能單憑 TVP-VAR/QVAR connectedness 推論危機的因果效果。全文可用後應再核對變數、樣本與頻率分解實作。",
+          "evidence": "摘要未提供作者明列限制。可辨識限制是關鍵樣本與估計設定未能由公開摘要驗證；危機對照屬事件關聯，不能單憑 TVP-VAR/QVAR connectedness 推論危機的因果效果。全文可用後應再核對變數、樣本與頻率分解實作。",
+          "confidence": "low",
+          "source": "研究限制",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    Dynamicspillove[\"📄 Dynamic spillovers between climate risk, energy tr\"]\n    style Dynamicspillove fill:#2563eb,color:#fff,font-weight:bold\n    vp0閱讀層級摘要層級[\"💡 【閱讀層級】摘要層級；以 Crossref 的出版社摘要、書目與 CC BY 4\"]\n    style vp0閱讀層級摘要層級 fill:#fef3c7,stroke:#d97706\n    Dynamicspillove --> vp0閱讀層級摘要層級\n    vp1主要結果跨市場連[\"💡 【主要結果】跨市場連結高度動態，在 COVID-19 與俄烏戰爭期間升高；1–5\"]\n    style vp1主要結果跨市場連 fill:#fef3c7,stroke:#d97706\n    Dynamicspillove --> vp1主要結果跨市場連\n    vp2限制摘要未提供作[\"💡 【限制】摘要未提供作者明列限制。可辨識限制是關鍵樣本與估計設定未能由公開摘要驗證\"]\n    style vp2限制摘要未提供作 fill:#fef3c7,stroke:#d97706\n    Dynamicspillove --> vp2限制摘要未提供作\n    vp3研究限制摘要未提供[\"💡 研究限制：摘要未提供作者明列限制。可辨識限制是關鍵樣本與估計設定未能由公開摘要驗\"]\n    style vp3研究限制摘要未提供 fill:#fee2e2,stroke:#dc2626\n    Dynamicspillove --> vp3研究限制摘要未提供\n    vp0閱讀層級摘要層級 --- vp1主要結果跨市場連\n    vp1主要結果跨市場連 --- vp2限制摘要未提供作\n    vp2限制摘要未提供作 --- vp3研究限制摘要未提供"
     },
     {
       "id": "qvar-2026-09-11-green-bonds-global-debt",
@@ -399,7 +658,52 @@
         "【限制】作者未設獨立限制節。可辨識限制包括：四個高度聚合的 S&P 指數無法代表各國主權／公司綠債；SPESG 與 SPCEI 的 Kendall 相關達 0.950，網絡角色可能受高度重疊影響；缺少替代指數與窗口穩健性；connectedness 不能證明綠債會因果降低債務成本或避免紓困。",
         "【與美智研究的關聯】4/5。重疊：綠債／潔淨能源、QVAR-GFEVD、尾部角色翻轉與危機事件。可借鏡：把綠債由淨接收轉為淨傳送的分位數翻轉寫成明確的狀態依存假說，並保留公共債務政策意涵。主要差異：沒有 CPU、TVP-VAR-SV 或 BK 頻率分解。可追蹤引用：greenium 與 safe-haven 不可視為固定特性。",
         "【APA 7】Eş Polat, G. (2026). Green bonds and global debt dynamics within a sustainable debt policy framework: A quantile VAR connectedness analysis. Journal of Management and Economics Research, 24(2), 118–140. https://doi.org/10.11611/yead.1893023"
-      ]
+      ],
+      "viewpoints": [
+        {
+          "claim": "nectedness 不能證明綠債會因果降低債務成本或避免紓困",
+          "evidence": "nectedness 不能證明綠債會因果對債務成本或避免紓困的影響：降低",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "【閱讀層級】全文精讀；以 Dergipark 正式 23 頁 PDF 核對資料、QVAR-GFEVD、圖表、結果與揭露，並以頁面 metadata 與 Crossref 驗證 DOI、作者、卷期頁碼及引用。OpenAlex 於 2026-0…",
+          "evidence": "【閱讀層級】全文精讀；以 Dergipark 正式 23 頁 PDF 核對資料、QVAR-GFEVD、圖表、結果與揭露，並以頁面 metadata 與 Crossref 驗證 DOI、作者、卷期頁碼及引用。OpenAlex 於 2026-09-11 尚無可解析紀錄。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】TCI 在極端分位數顯著高於中位數，並於 2015–2016、2020、2024–2025 達 80%–100%。SPESG 與 SPCEI 多為淨傳送者；SPGBI 在 0.05 壓力狀態多為較小的淨接收節點，在 0.95 轉…",
+          "evidence": "【主要結果】TCI 在極端分位數顯著高於中位數，並於 2015–2016、2020、2024–2025 達 80%–100%。SPESG 與 SPCEI 多為淨傳送者；SPGBI 在 0.05 壓力狀態多為較小的淨接收節點，在 0.95 轉為淨傳送者，0.50 則相對均衡。作者據此主張 greenium／避險角色是狀態依存，而非固定優勢。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【限制】作者未設獨立限制節。可辨識限制包括：四個高度聚合的 S&P 指數無法代表各國主權／公司綠債；SPESG 與 SPCEI 的 Kendall 相關達 0.950，網絡角色可能受高度重疊影響；缺少替代指數與窗口穩健性；connected…",
+          "evidence": "【限制】作者未設獨立限制節。可辨識限制包括：四個高度聚合的 S&P 指數無法代表各國主權／公司綠債；SPESG 與 SPCEI 的 Kendall 相關達 0.950，網絡角色可能受高度重疊影響；缺少替代指數與窗口穩健性；connectedness 不能證明綠債會因果降低債務成本或避免紓困。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】4/5。重疊：綠債／潔淨能源、QVAR-GFEVD、尾部角色翻轉與危機事件。可借鏡：把綠債由淨接收轉為淨傳送的分位數翻轉寫成明確的狀態依存假說，並保留公共債務政策意涵。主要差異：沒有 CPU、TVP-VAR-SV 或 B…",
+          "evidence": "【與美智研究的關聯】4/5。重疊：綠債／潔淨能源、QVAR-GFEVD、尾部角色翻轉與危機事件。可借鏡：把綠債由淨接收轉為淨傳送的分位數翻轉寫成明確的狀態依存假說，並保留公共債務政策意涵。主要差異：沒有 CPU、TVP-VAR-SV 或 BK 頻率分解。可追蹤引用：greenium 與 safe-haven 不可視為固定特性。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "研究限制：作者未設獨立限制節。可辨識限制包括：四個高度聚合的 S&P 指數無法代表各國主權／公司綠債；SPESG 與 SPCEI 的 Kendall 相關達 0.950，網絡角色可能受高度重疊影響；缺少替代指數與窗口穩健性；connectedness…",
+          "evidence": "作者未設獨立限制節。可辨識限制包括：四個高度聚合的 S&P 指數無法代表各國主權／公司綠債；SPESG 與 SPCEI 的 Kendall 相關達 0.950，網絡角色可能受高度重疊影響；缺少替代指數與窗口穩健性；connectedness 不能證明綠債會因果降低債務成本或避免紓困。",
+          "confidence": "low",
+          "source": "研究限制",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    Greenbondsandgl[\"📄 Green bonds and global debt dynamics within a sust\"]\n    style Greenbondsandgl fill:#2563eb,color:#fff,font-weight:bold\n    vp0nectedness[\"💡 nectedness 不能證明綠債會因果降低債務成本或避免紓困\"]\n    style vp0nectedness fill:#fef3c7,stroke:#d97706\n    Greenbondsandgl --> vp0nectedness\n    vp1閱讀層級全文精讀[\"💡 【閱讀層級】全文精讀；以 Dergipark 正式 23 頁 PDF 核對資料、\"]\n    style vp1閱讀層級全文精讀 fill:#fef3c7,stroke:#d97706\n    Greenbondsandgl --> vp1閱讀層級全文精讀\n    vp2主要結果TCI[\"💡 【主要結果】TCI 在極端分位數顯著高於中位數，並於 2015–2016、202\"]\n    style vp2主要結果TCI fill:#fef3c7,stroke:#d97706\n    Greenbondsandgl --> vp2主要結果TCI\n    vp3限制作者未設獨立[\"💡 【限制】作者未設獨立限制節。可辨識限制包括：四個高度聚合的 S&P 指數無法代表\"]\n    style vp3限制作者未設獨立 fill:#fef3c7,stroke:#d97706\n    Greenbondsandgl --> vp3限制作者未設獨立\n    vp4與美智研究的關聯[\"💡 【與美智研究的關聯】4/5。重疊：綠債／潔淨能源、QVAR-GFEVD、尾部角色\"]\n    style vp4與美智研究的關聯 fill:#fef3c7,stroke:#d97706\n    Greenbondsandgl --> vp4與美智研究的關聯\n    vp5研究限制作者未設獨[\"💡 研究限制：作者未設獨立限制節。可辨識限制包括：四個高度聚合的 S&P 指數無法代\"]\n    style vp5研究限制作者未設獨 fill:#fee2e2,stroke:#dc2626\n    Greenbondsandgl --> vp5研究限制作者未設獨\n    性connectedness--x|\"降低\"|債務成本或避免紓困\n    vp0nectedness --- vp1閱讀層級全文精讀\n    vp1閱讀層級全文精讀 --- vp2主要結果TCI\n    vp2主要結果TCI --- vp3限制作者未設獨立"
     },
     {
       "id": "qvar-2026-09-11-stablecoin-designs",
@@ -446,7 +750,52 @@
         "【限制】作者指出主 QVAR 因資料限制未納入 UST、FDUSD、USDe；SVB 合成控制僅三個 donor，統計力有限；樣本涵蓋特定監管與市場結構，外推至其他制度需謹慎。另因預印本尚未同儕審查，2–3 倍資本緩衝建議不宜直接當成政策定論。",
         "【與美智研究的關聯】3/5。重疊：QVAR、尾部淨傳導、危機事件與 clean／dirty crypto 相關研究脈絡。可借鏡：依資產設計機制分組，並以事件層級方法區分共同波動與剩餘 contagion。主要差異：沒有氣候風險、綠色資產或頻率分解。可追蹤引用：穩定機制導致的尾部異質性與因果措辭邊界。",
         "【APA 7】Wu, W., & Liu, C. (2026). Stability anchors and risk amplifiers: Tail spillovers across stablecoin designs [Preprint]. arXiv. https://doi.org/10.48550/arXiv.2602.18820"
-      ]
+      ],
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】全文精讀；以 arXiv 全文核對樣本、QVAR 網絡、脫鉤事件研究、數值結果與作者限制，並以 OpenAlex 驗證題名、作者、ID、引用與非撤稿狀態。屬 2026 年預印本，尚未以期刊正式版本取代。",
+          "evidence": "【閱讀層級】全文精讀；以 arXiv 全文核對樣本、QVAR 網絡、脫鉤事件研究、數值結果與作者限制，並以 OpenAlex 驗證題名、作者、ID、引用與非撤稿狀態。屬 2026 年預印本，尚未以期刊正式版本取代。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【模型與估計】0.05、0.50、0.95 QVAR connectedness 與滾動網絡，分解 FROM／TO／NET；三層 fiat–stablecoin–crypto 網絡；四次事件採 Forbes–Rigobon 異質變異校正相關…",
+          "evidence": "【模型與估計】0.05、0.50、0.95 QVAR connectedness 與滾動網絡，分解 FROM／TO／NET；三層 fiat–stablecoin–crypto 網絡；四次事件採 Forbes–Rigobon 異質變異校正相關，SVB/USDC 另作 synthetic control。作者亦以替代窗口／樣本與危機檢查支撐結果。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】法幣儲備型穩定幣跨分位數淨溢出近零；演算法與加密抵押型在尾部比中位狀態放大約 15–50 個百分點。極端狀態下 DXY 與 BTC 出現繞過穩定幣的直接傳導。Forbes–Rigobon 校正後，演算法型平均相關變化約 +0.0…",
+          "evidence": "【主要結果】法幣儲備型穩定幣跨分位數淨溢出近零；演算法與加密抵押型在尾部比中位狀態放大約 15–50 個百分點。極端狀態下 DXY 與 BTC 出現繞過穩定幣的直接傳導。Forbes–Rigobon 校正後，演算法型平均相關變化約 +0.07，法幣與加密抵押型分別約 −0.10、−0.14；SVB synthetic-control 檢查對 USDC 的額外溢出不顯著（p=0.75）。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【限制】作者指出主 QVAR 因資料限制未納入 UST、FDUSD、USDe；SVB 合成控制僅三個 donor，統計力有限；樣本涵蓋特定監管與市場結構，外推至其他制度需謹慎。另因預印本尚未同儕審查，2–3 倍資本緩衝建議不宜直接當成政策定…",
+          "evidence": "【限制】作者指出主 QVAR 因資料限制未納入 UST、FDUSD、USDe；SVB 合成控制僅三個 donor，統計力有限；樣本涵蓋特定監管與市場結構，外推至其他制度需謹慎。另因預印本尚未同儕審查，2–3 倍資本緩衝建議不宜直接當成政策定論。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】3/5。重疊：QVAR、尾部淨傳導、危機事件與 clean／dirty crypto 相關研究脈絡。可借鏡：依資產設計機制分組，並以事件層級方法區分共同波動與剩餘 contagion。主要差異：沒有氣候風險、綠色資產或頻…",
+          "evidence": "【與美智研究的關聯】3/5。重疊：QVAR、尾部淨傳導、危機事件與 clean／dirty crypto 相關研究脈絡。可借鏡：依資產設計機制分組，並以事件層級方法區分共同波動與剩餘 contagion。主要差異：沒有氣候風險、綠色資產或頻率分解。可追蹤引用：穩定機制導致的尾部異質性與因果措辭邊界。",
+          "confidence": "mid",
+          "source": "檢定結果",
+          "connections": []
+        },
+        {
+          "claim": "研究限制：作者指出主 QVAR 因資料限制未納入 UST、FDUSD、USDe；SVB 合成控制僅三個 donor，統計力有限；樣本涵蓋特定監管與市場結構，外推至其他制度需謹慎。另因預印本尚未同儕審查，2–3 倍資本緩衝建議不宜直接當成政策定論。",
+          "evidence": "作者指出主 QVAR 因資料限制未納入 UST、FDUSD、USDe；SVB 合成控制僅三個 donor，統計力有限；樣本涵蓋特定監管與市場結構，外推至其他制度需謹慎。另因預印本尚未同儕審查，2–3 倍資本緩衝建議不宜直接當成政策定論。",
+          "confidence": "low",
+          "source": "研究限制",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    StabilityAnchor[\"📄 Stability Anchors and Risk Amplifiers: Tail Spillo\"]\n    style StabilityAnchor fill:#2563eb,color:#fff,font-weight:bold\n    vp0閱讀層級全文精讀[\"💡 【閱讀層級】全文精讀；以 arXiv 全文核對樣本、QVAR 網絡、脫鉤事件研究\"]\n    style vp0閱讀層級全文精讀 fill:#fef3c7,stroke:#d97706\n    StabilityAnchor --> vp0閱讀層級全文精讀\n    vp1模型與估計00[\"💡 【模型與估計】0.05、0.50、0.95 QVAR connectedness\"]\n    style vp1模型與估計00 fill:#fef3c7,stroke:#d97706\n    StabilityAnchor --> vp1模型與估計00\n    vp2主要結果法幣儲備[\"💡 【主要結果】法幣儲備型穩定幣跨分位數淨溢出近零；演算法與加密抵押型在尾部比中位狀\"]\n    style vp2主要結果法幣儲備 fill:#fef3c7,stroke:#d97706\n    StabilityAnchor --> vp2主要結果法幣儲備\n    vp3限制作者指出主[\"💡 【限制】作者指出主 QVAR 因資料限制未納入 UST、FDUSD、USDe；S\"]\n    style vp3限制作者指出主 fill:#fef3c7,stroke:#d97706\n    StabilityAnchor --> vp3限制作者指出主\n    vp4與美智研究的關聯[\"💡 【與美智研究的關聯】3/5。重疊：QVAR、尾部淨傳導、危機事件與 clean／\"]\n    style vp4與美智研究的關聯 fill:#fef3c7,stroke:#d97706\n    StabilityAnchor --> vp4與美智研究的關聯\n    vp5研究限制作者指出主[\"💡 研究限制：作者指出主 QVAR 因資料限制未納入 UST、FDUSD、USDe；\"]\n    style vp5研究限制作者指出主 fill:#fee2e2,stroke:#dc2626\n    StabilityAnchor --> vp5研究限制作者指出主\n    vp0閱讀層級全文精讀 --- vp1模型與估計00\n    vp1模型與估計00 --- vp2主要結果法幣儲備\n    vp2主要結果法幣儲備 --- vp3限制作者指出主"
     },
     {
       "id": "qvar-2026-09-11-frontiers-global-tail-risk",
@@ -493,7 +842,38 @@
         "【限制】文章仍是 early view，完整變數、資料與穩健性需待最終版本核對。PCA 提升可估性但可能掩蓋單一國家／資產的異質性；高 TCI 不保證方向性淨角色顯著，亦不提供結構因果解釋。",
         "【與美智研究的關聯】4/5。重疊：QVAR、極端分位數、跨市場 connectedness 與推論。可借鏡：對淨傳送／接收角色做 bootstrap 顯著性檢查，避免只看網絡色彩或點估計。主要差異：沒有氣候／綠色資產、CPU、TVP-VAR-SV 或 BK。可追蹤引用：高 TCI 與淨方向顯著性必須分開。",
         "【APA 7】Yu, H., & Li, B. (2026). Tail risk spillover asymmetry across global financial markets: A quantile connectedness approach. Frontiers in Physics, 14. Advance online publication. https://doi.org/10.3389/fphy.2026.1876146"
-      ]
+      ],
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】摘要層級；以 Frontiers 官方 early-view 頁核對作者、接受日期、樣本、方法、結果與 CC BY 授權。出版社頁明示最終排版版本將稍後發布；Crossref 與 OpenAlex 於 2026-09-11 尚未…",
+          "evidence": "【閱讀層級】摘要層級；以 Frontiers 官方 early-view 頁核對作者、接受日期、樣本、方法、結果與 CC BY 授權。出版社頁明示最終排版版本將稍後發布；Crossref 與 OpenAlex 於 2026-09-11 尚未收錄，故引用數不填 0。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】中位狀態跨市場 spillovers 偏弱，TCI 約 16%；0.05 下尾升至 87% 以上。0.95 上尾由商品市場主導淨傳送。不過 bootstrap 顯示多數市場的淨角色不顯著異於零；較穩健者僅包括下尾貨幣市場淨吸收與…",
+          "evidence": "【主要結果】中位狀態跨市場 spillovers 偏弱，TCI 約 16%；0.05 下尾升至 87% 以上。0.95 上尾由商品市場主導淨傳送。不過 bootstrap 顯示多數市場的淨角色不顯著異於零；較穩健者僅包括下尾貨幣市場淨吸收與上尾商品市場淨傳送，且兩端 TCI 差異本身未顯著。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【限制】文章仍是 early view，完整變數、資料與穩健性需待最終版本核對。PCA 提升可估性但可能掩蓋單一國家／資產的異質性；高 TCI 不保證方向性淨角色顯著，亦不提供結構因果解釋。",
+          "evidence": "【限制】文章仍是 early view，完整變數、資料與穩健性需待最終版本核對。PCA 提升可估性但可能掩蓋單一國家／資產的異質性；高 TCI 不保證方向性淨角色顯著，亦不提供結構因果解釋。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "研究限制：文章仍是 early view，完整變數、資料與穩健性需待最終版本核對。PCA 提升可估性但可能掩蓋單一國家／資產的異質性；高 TCI 不保證方向性淨角色顯著，亦不提供結構因果解釋。",
+          "evidence": "文章仍是 early view，完整變數、資料與穩健性需待最終版本核對。PCA 提升可估性但可能掩蓋單一國家／資產的異質性；高 TCI 不保證方向性淨角色顯著，亦不提供結構因果解釋。",
+          "confidence": "low",
+          "source": "研究限制",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    Tailriskspillov[\"📄 Tail risk spillover asymmetry across global financ\"]\n    style Tailriskspillov fill:#2563eb,color:#fff,font-weight:bold\n    vp0閱讀層級摘要層級[\"💡 【閱讀層級】摘要層級；以 Frontiers 官方 early-view 頁核對\"]\n    style vp0閱讀層級摘要層級 fill:#fef3c7,stroke:#d97706\n    Tailriskspillov --> vp0閱讀層級摘要層級\n    vp1主要結果中位狀態[\"💡 【主要結果】中位狀態跨市場 spillovers 偏弱，TCI 約 16%；0.\"]\n    style vp1主要結果中位狀態 fill:#fef3c7,stroke:#d97706\n    Tailriskspillov --> vp1主要結果中位狀態\n    vp2限制文章仍是e[\"💡 【限制】文章仍是 early view，完整變數、資料與穩健性需待最終版本核對。\"]\n    style vp2限制文章仍是e fill:#fef3c7,stroke:#d97706\n    Tailriskspillov --> vp2限制文章仍是e\n    vp3研究限制文章仍是[\"💡 研究限制：文章仍是 early view，完整變數、資料與穩健性需待最終版本核對\"]\n    style vp3研究限制文章仍是 fill:#fee2e2,stroke:#dc2626\n    Tailriskspillov --> vp3研究限制文章仍是\n    vp0閱讀層級摘要層級 --- vp1主要結果中位狀態\n    vp1主要結果中位狀態 --- vp2限制文章仍是e\n    vp2限制文章仍是e --- vp3研究限制文章仍是"
     },
     {
       "id": "qvar-2026-09-10-polek-1561",
