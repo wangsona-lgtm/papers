@@ -1,6 +1,6 @@
 {
-  "total": 151,
-  "updated": "2026-09-15 20:14:05",
+  "total": 155,
+  "updated": "2026-09-17 06:26:27",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,210 @@
     "金融市場"
   ],
   "papers": [
+    {
+      "id": "qvar-2026-09-17-china-green-assets",
+      "title": "Shock transmission among green financial instruments and major financial assets and commodities in China: A quantile connectedness analysis",
+      "search_date": "2026-09-17",
+      "authors": "Hui Yang; Román Ferrer",
+      "year": "2026",
+      "journal": "Global Finance Journal, 71, Article 101282",
+      "doi": "https://doi.org/10.1016/j.gfj.2026.101282",
+      "citations": "0（OpenAlex，2026-09-17）",
+      "openalex_url": "https://openalex.org/W7160237038",
+      "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S1044028326000505",
+      "reading_level": "摘要層級",
+      "abstract": "以中國市場的綠債、五類潔淨能源股票、傳統金融資產與主要商品建立分位數連結網路。結果顯示，極端下跌與上漲狀態的溢出均明顯升高；核能、風能與太陽能股票持續為主要淨傳送者，而中國綠債、黃金與原油多為淨接收者。研究指出中國國內市場結構主導尾部傳導，投資與監理需採狀態依存配置。",
+      "tags": [
+        "QVAR",
+        "quantile connectedness",
+        "green bonds",
+        "clean energy",
+        "commodities",
+        "China",
+        "tail risk"
+      ],
+      "topics": [
+        "綠債/ESG",
+        "潔淨能源",
+        "原物料/商品",
+        "金融市場"
+      ],
+      "keywords": [
+        "China",
+        "nuclear energy",
+        "wind energy",
+        "solar energy",
+        "gold",
+        "crude oil"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；已核對 ScienceDirect 公開摘要、Crossref 與 OpenAlex。文章為 CC BY，但出版社頁本次回傳 403，未將搜尋索引片段冒充全文；OpenAlex ID W7160237038、被引 0 次、未標示撤稿。",
+        "【研究問題與動機】中國綠債與不同潔淨能源子產業、傳統金融資產及主要商品的衝擊傳導，是否隨市場分位狀態改變？哪些市場在危機與繁榮尾端成為穩定的風險傳送者或接收者？",
+        "【研究變數】中國綠債、五類潔淨能源股票子產業及一組主要傳統金融資產與商品；公開摘要明確點出核能、風能、太陽能、黃金與原油，但未列出其餘資產指數、代碼及報酬轉換細節。",
+        "【資料／市場／樣本】中國金融與商品市場；樣本期間、頻率、資料來源與有效樣本量在可取得摘要中未報告。",
+        "【模型與估計】採 Ando et al.（2022）分位數 connectedness／QVAR-GFEVD 比較下尾、中位與上尾狀態，並以方向、淨額與網路位置識別衝擊傳導；摘要未報告落後期、預測期、滾動窗及穩健性設定。",
+        "【主要結果】極端下跌與極端上漲時系統連結均急升，呈近似對稱的尾部強化。核能、風能與太陽能股票在各狀態為主要淨傳送者；黃金、原油與中國綠債為淨接收者。這些是樣本內預測誤差變異連結，不是結構因果效果。",
+        "【作者提出的限制】公開摘要未列作者限制；資料可用性聲明為依請求提供。",
+        "【其他限制】無法從摘要核驗完整資產清單、樣本窗、資料源與 QVAR 超參數；以潔淨能源產業分類代表環境績效，仍可能混入規模、流動性及產業政策效果。",
+        "【APA 7】Yang, H., & Ferrer, R. (2026). Shock transmission among green financial instruments and major financial assets and commodities in China: A quantile connectedness analysis. Global Finance Journal, 71, Article 101282. https://doi.org/10.1016/j.gfj.2026.101282",
+        "【與美智研究的關聯】4/5。重疊於綠債／潔淨能源的 QVAR 尾部角色與狀態依存風險傳導；可借鏡將潔淨能源拆成技術子產業並檢驗角色是否穩定。主要差異是未納入氣候政策不確定性、TVP-VAR-SV 或 BK 頻率分解。"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-17-green-bond-commodities-china",
+      "title": "A complex network analysis of risk spillover and linkage effects between green bonds and commodities under the characteristics of the Chinese market",
+      "search_date": "2026-09-17",
+      "authors": "Chunyan Jiang; Wanqi Li; Yayun Wang; Runze Ding",
+      "year": "2026",
+      "journal": "International Review of Economics & Finance, 105, Article 104891",
+      "doi": "https://doi.org/10.1016/j.iref.2026.104891",
+      "citations": "1（OpenAlex，2026-09-17）",
+      "openalex_url": "https://openalex.org/W7118123888",
+      "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S1059056026000043",
+      "reading_level": "摘要層級",
+      "abstract": "以 EGARCH、wavelet coherence 與 QVAR-DY 建立中國綠債—商品市場的時間、頻率、均值與尾部整合框架。短期連結反映高頻資訊同步，中期受經濟事件與政策推動，長期則連結宏觀循環與綠色轉型。下尾時綠債主要接收能源與非鐵金屬衝擊；正常狀態較獨立；上尾及長期狀態下可能轉為淨傳送者。",
+      "tags": [
+        "QVAR-DY",
+        "EGARCH",
+        "wavelet coherence",
+        "green bonds",
+        "commodities",
+        "tail risk",
+        "complex network"
+      ],
+      "topics": [
+        "綠債/ESG",
+        "原物料/商品",
+        "潔淨能源",
+        "金融市場"
+      ],
+      "keywords": [
+        "China",
+        "energy commodities",
+        "non-ferrous metals",
+        "time-frequency",
+        "green transformation"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；已核對 ScienceDirect 公開摘要、Crossref 與 OpenAlex。文章為 CC BY，但出版社頁未提供本次可直接核讀的全文；OpenAlex ID W7118123888、被引 1 次、未標示撤稿。",
+        "【研究問題與動機】在中國特有的政策與市場結構下，綠債與商品市場的風險如何跨時間尺度、平均與尾部狀態傳導？綠債的淨角色是否會隨下跌、正常與上漲狀態反轉？",
+        "【研究變數】中國綠債與商品市場，摘要明確指出能源商品及非鐵金屬；其餘商品分類、代理指數、報酬或波動的精確定義未報告。",
+        "【資料／市場／樣本】中國綠債與商品市場；樣本期間、頻率、資料來源及樣本量在公開摘要中未報告。",
+        "【模型與估計】整合 EGARCH 波動建模、wavelet coherence 與 QVAR-DY／GFEVD connectedness，從時間域、頻率域、平均與尾部、靜態與動態多維度分析；摘要未報告分位格點、頻帶、落後期、預測期與滾動窗。",
+        "【主要結果】短期連結主要反映高頻資訊同步，中期受經濟事件與政策驅動，長期連結宏觀循環與綠色轉型。極端下跌時綠債是能源與非鐵金屬衝擊的淨接收者；正常狀態較獨立；極端上漲時風險流入再度增強，且長期可能轉為淨傳送者。結果屬連結度與網路角色，不代表因果。",
+        "【作者提出的限制】公開摘要未列作者限制；資料聲明為依請求提供。",
+        "【其他限制】無法從摘要核驗各商品代理、樣本窗、EGARCH 規格與多方法結果是否一致；時間尺度敘述可能同時反映市場交易制度、流動性及共同宏觀衝擊。",
+        "【APA 7】Jiang, C., Li, W., Wang, Y., & Ding, R. (2026). A complex network analysis of risk spillover and linkage effects between green bonds and commodities under the characteristics of the Chinese market. International Review of Economics & Finance, 105, Article 104891. https://doi.org/10.1016/j.iref.2026.104891",
+        "【與美智研究的關聯】5/5。高度重疊於綠債、能源商品、QVAR-DY 與多尺度尾部角色反轉；可借鏡把短中長頻帶與極端分位交叉解讀。主要差異是未直接使用 CPU、TVP-VAR-SV 或 Baruník–Křehlík，且研究情境限於中國。"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-17-green-finance-risk-preprint",
+      "title": "Dynamic Spillover Connectedness Among Green Finance, Cryptocurrency Markets, and Systemic Risk Indices: A QVAR Network Approach",
+      "search_date": "2026-09-17",
+      "authors": "Thiombiano Dramane; Sabbor Hussain; Johui Chen",
+      "year": "2026",
+      "journal": "SSRN Electronic Journal, Preprint",
+      "doi": "https://doi.org/10.2139/ssrn.7067989",
+      "citations": "0（OpenAlex，2026-09-17）",
+      "openalex_url": "https://openalex.org/W7167603714",
+      "fulltext_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7067989",
+      "reading_level": "摘要層級",
+      "abstract": "以 2017 年 4 月至 2025 年 9 月月資料，將五種綠色金融 ETF、三種節能加密代幣與氣候、地緣政治及市場波動風險指標納入 QVAR 網路。TCI 在各分位約 60%–78%，於 COVID-19 與俄烏戰爭附近升高；VIX 是最穩定的淨傳送者，氣候與地緣政治風險偏接收但會依狀態切換，綠色資產與代幣彼此連結強於外部風險。",
+      "tags": [
+        "QVAR",
+        "quantile connectedness",
+        "climate risk",
+        "geopolitical risk",
+        "VIX",
+        "green finance",
+        "green cryptocurrency",
+        "preprint"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "綠債/ESG",
+        "加密貨幣/數位金融",
+        "地緣政治/國防"
+      ],
+      "keywords": [
+        "ICLN",
+        "CRBN",
+        "SUSA",
+        "ESGU",
+        "GRNB",
+        "ADA",
+        "XRP",
+        "XLM",
+        "CRI",
+        "GPR",
+        "VIX"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；SSRN 頁面本次回傳 403，僅依 Crossref 完整摘要、公開搜尋頁與 OpenAlex 核驗，不將可下載標記視為已讀全文。此項是 2026-07-07 上傳的 31 頁預印本；OpenAlex ID W7167603714、被引 0 次、未標示撤稿。",
+        "【研究問題與動機】綠色金融 ETF 與節能加密代幣，如何與氣候風險、地緣政治風險及市場波動三個可觀察風險管道在不同分位狀態下互相傳導？",
+        "【研究變數】綠色金融 ETF：ICLN、CRBN、SUSA、ESGU、GRNB；節能加密代幣：ADA、XRP、XLM；外部風險：Climate Risk Index、Geopolitical Risk Index、VIX。",
+        "【資料／市場／樣本】全球市場月資料，2017-04 至 2025-09；摘要未報告資料來源、有效月數、價格轉換、共同交易日或缺失值處理。",
+        "【模型與估計】QVAR connectedness，估計動態總連結、淨方向連結及全樣本網路；以替代估計窗進行穩健性檢驗。摘要未報告分位點、VAR 落後期、GFEVD 預測期或動態估計窗。",
+        "【主要結果】TCI 在不同分位約 60%–78%，COVID-19 與俄烏戰爭附近升高。VIX 是最穩定的淨衝擊傳送者；氣候與地緣政治風險偏被動接收，但角色會依制度狀態切換。綠色 ETF 與節能代幣彼此連結較強，整體多為外部風險的淨接收者。以上是 reduced-form connectedness，不是風險指標的因果效果。",
+        "【作者提出的限制】公開摘要未列作者限制；預印本尚未經正式期刊同儕審查。",
+        "【其他限制】月頻約八年半可能不足以穩健估計多變量尾部分位網路；將 ADA、XRP、XLM 稱為節能／綠色代幣未等同完整生命週期碳排驗證，存在綠色分類與漂綠風險。",
+        "【APA 7】Dramane, T., Hussain, S., & Chen, J. (2026). Dynamic spillover connectedness among green finance, cryptocurrency markets, and systemic risk indices: A QVAR network approach [Preprint]. SSRN. https://doi.org/10.2139/ssrn.7067989",
+        "【與美智研究的關聯】5/5。直接連結氣候風險、綠債／潔淨能源 ETF、節能加密資產與 QVAR 尾部網路；可借鏡把 CPU 擴展為 CRI、GPR、VIX 三風險管道並比較淨角色。主要差異是月頻、無 BK 頻率分解與 TVP-VAR-SV，且仍為預印本。"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-17-crypto-stablecoin",
+      "title": "Quantile-based connectedness in the crypto-stablecoin network across market conditions",
+      "search_date": "2026-09-17",
+      "authors": "Hugo Benedetti; Ehsan Nikbakht; Boris Pastén-Henríquez",
+      "year": "2026",
+      "journal": "International Review of Economics & Finance, 106, Article 104912",
+      "doi": "https://doi.org/10.1016/j.iref.2026.104912",
+      "citations": "1（OpenAlex，2026-09-17）",
+      "openalex_url": "https://openalex.org/W7123363700",
+      "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S1059056026000250",
+      "reading_level": "摘要層級",
+      "abstract": "以 2021 年 1 月至 2024 年 11 月日資料，使用 QVAR 比較 BTC、ETH 報酬與五種不同設計穩定幣供給變化。TCI 從中位狀態的 28.13 升至下尾 76.57 與上尾 77.70；BTC、ETH 在下跌尾端由被動角色轉為主要傳送者。Terra-LUNA 崩潰後，正常與下尾連結顯著升高，且多個穩定幣的傳送／接收角色重新排序。",
+      "tags": [
+        "QVAR",
+        "quantile connectedness",
+        "Bitcoin",
+        "Ethereum",
+        "stablecoins",
+        "Terra-LUNA",
+        "systemic risk"
+      ],
+      "topics": [
+        "加密貨幣/數位金融",
+        "金融市場"
+      ],
+      "keywords": [
+        "BTC",
+        "ETH",
+        "USDT",
+        "USDC",
+        "TUSD",
+        "DAI",
+        "FRAX"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；已核對 ScienceDirect 公開摘要與索引段落、DOAJ、Crossref 及 OpenAlex。文章為 CC BY-NC-ND，但出版社頁未提供本次可直接核讀的全文；OpenAlex ID W7123363700、被引 1 次、未標示撤稿。",
+        "【研究問題與動機】BTC、ETH 報酬與不同擔保／治理設計的穩定幣供給，在熊市、正常與牛市狀態下如何互相傳導？Terra-LUNA 崩潰是否改變網路強度與方向角色？",
+        "【研究變數】BTC 與 ETH 的日對數報酬；法幣擔保 USDT、USDC、TUSD、加密資產擔保 DAI、演算法型 FRAX 的供給對數變化。",
+        "【資料／市場／樣本】全球加密市場，日頻，2021-01-01 至 2024-11-22；公開摘要未報告資料供應商、有效觀測數、缺失值與週末對齊方式。",
+        "【模型與估計】Ando et al.（2022）QVAR-GFEVD connectedness，比較 0.05、0.50、0.95 分位；以不同滾動窗檢查敏感性。Terra-LUNA 前後使用 Welch t 檢定與 Wilcoxon signed-rank 檢定比較 TCI 與 NET。",
+        "【主要結果】TCI 由正常狀態 28.13 升至下尾 76.57、上尾 77.70。BTC 與 ETH 在正常期偏被動，極端下跌時成為主要傳送者。穩定幣角色高度異質：下跌期 DAI、USDT 為主要接收者而 TUSD 傳送；上漲期 USDT 成為主要傳送者。Terra 崩潰後正常與下尾連結顯著升高、上尾降低，BTC／ETH 由接收者轉傳送者。結果不建立結構因果。",
+        "【作者提出的限制】作者建議未來納入跨鏈穩定幣活動、DeFi 協議溢出及替代擔保設計；目前範圍限於選定幣種與供給面。",
+        "【其他限制】樣本始於 2021 年且包含單一重大崩潰，事件前後檢定難以排除同期加密市場與總體衝擊；穩定幣供給變動不等同流動性需求或儲備品質。",
+        "【APA 7】Benedetti, H., Nikbakht, E., & Pastén-Henríquez, B. (2026). Quantile-based connectedness in the crypto-stablecoin network across market conditions. International Review of Economics & Finance, 106, Article 104912. https://doi.org/10.1016/j.iref.2026.104912",
+        "【與美智研究的關聯】3/5。方法上直接使用 QVAR 尾部 connectedness、事件前後角色反轉與滾動窗敏感性；可借鏡制度事件的網路重排檢驗。主要差異是沒有氣候／綠色資產或頻率分解，研究核心為加密流動性與穩定幣設計。"
+      ]
+    },
     {
       "id": "qvar-2026-09-15-climate-agriculture-qqc",
       "title": "Dynamic spillovers between climate risks and agricultural commodity markets: New insights into quantile-on-quantile connectedness approach",
@@ -4041,8 +4245,8 @@
       "year": "2026",
       "journal": "Financial Innovation, 12(1), Article 128",
       "doi": "https://doi.org/10.1186/s40854-025-00868-8",
-      "citations": "未取得（OpenAlex 尚未收錄，2026-09-08；出版社頁顯示 3 次）",
-      "openalex_url": "",
+      "citations": "4（OpenAlex，2026-09-17）",
+      "openalex_url": "https://openalex.org/W7164052828",
       "fulltext_url": "https://link.springer.com/article/10.1186/s40854-025-00868-8",
       "reading_level": "全文精讀",
       "abstract": "以 2017–2024 日報酬與 QVAR/GFEVD 檢驗七種節能共識加密貨幣與綠債、潔淨能源及 ESG。TCI 呈 U 型，兩端分位超過 80%；ADA、XLM 等在極端狀態為主要傳送者，綠債與綠色資產多為接收者，危機時分散效益下降。部分綠色加密貨幣的動態避險效果優於傳統綠色資產，但高度依賴市場狀態。",
@@ -4076,7 +4280,7 @@
       ],
       "type": "search",
       "notes": [
-        "【閱讀層級】全文精讀；Springer/Financial Innovation 公開 HTML 為 open access，以 Crossref 核驗 DOI、作者、卷期與文章號。OpenAlex 尚未收錄；出版社頁於 2026-09-08 顯示 3 次引用，僅作補充不冒充 OpenAlex 計數。",
+        "【閱讀層級】全文精讀；Springer/Financial Innovation 公開 HTML 為 open access，以 Crossref 核驗 DOI、作者、卷期與文章號。2026-09-17 重新核驗 OpenAlex：ID W7164052828、被引 4 次、未標示撤稿。",
         "【研究問題與動機】節能共識機制的「綠色」加密貨幣與綠債、潔淨能源及 ESG 是否在正常和極端市場中提供穩定的分散／對沖功能，抑或形成新的尾部傳染來源？",
         "【研究變數】ADA、EOS、NANO、TRX、XLM、XTZ、XRP 七種加密貨幣；S&P Green Bond Index、S&P Global Clean Energy Index、S&P ESG Leaders Index；使用價格的一階對數差分報酬。",
         "【資料／市場／樣本】全球資產；2017-11-09 至 2024-07-31；日報酬。資料來源在已核對正文段落未明確報告；有效樣本量未報告。",
