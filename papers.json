@@ -1,6 +1,6 @@
 {
-  "total": 155,
-  "updated": "2026-09-17 06:26:27",
+  "total": 160,
+  "updated": "2026-09-17 22:17:47",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,245 @@
     "金融市場"
   ],
   "papers": [
+    {
+      "id": "qvar-2026-09-17-climate-carbonvix-wqc",
+      "title": "Climate change, decarbonization investment, decomposed oil shocks, and carbon VIX: Evidence from quantile-on-quantile kernel regularized least squares and wavelets quantile-on-quantile regression",
+      "search_date": "2026-09-17",
+      "authors": "Alanoud Al-Maadid; Mohamed Sami Ben Ali; Kamal Si Mohammed",
+      "year": "2026",
+      "journal": "Energy, 360, Article 141611",
+      "doi": "https://doi.org/10.1016/j.energy.2026.141611",
+      "citations": "1（Crossref；OpenAlex 尚未收錄，2026-09-17）",
+      "openalex_url": "",
+      "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S0360544226017184",
+      "reading_level": "摘要層級",
+      "abstract": "研究以分位數對分位數核正則化最小平方法、wavelet quantile-on-quantile regression、wavelet quantile causality 與分位數共整合，檢驗氣候變遷、脫碳投資、Carbon VIX 與分解後油價衝擊的非對稱及多尺度關係。需求型油價衝擊在高分位對氣候變遷呈顯著正向關聯，供給型能源衝擊亦為正向；碳價不確定性與脫碳投資則在中間分位呈負向關聯。",
+      "tags": [
+        "QQKRLS",
+        "WQQR",
+        "WQC",
+        "quantile cointegration",
+        "Carbon VIX",
+        "decarbonization investment",
+        "oil shocks"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "碳市場/碳交易",
+        "能源市場"
+      ],
+      "keywords": [
+        "climate change",
+        "decarbonization",
+        "carbon price uncertainty",
+        "demand oil shock",
+        "supply oil shock"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；已核對 Crossref、RePEc 公開摘要與 ScienceDirect 文章頁。Crossref 顯示 CC BY 4.0、被引 1 次且無撤稿關聯；OpenAlex 於 2026-09-17 尚未收錄。ScienceDirect 本次回傳 403，未將開放授權等同於已完成全文精讀。",
+        "【研究問題與動機】氣候變遷與分解後油價衝擊、Carbon VIX 及脫碳投資之間是否存在長期、分位數依賴且隨時間尺度改變的關係？平均效果是否掩蓋高低狀態的異質反應？",
+        "【研究變數】氣候變遷指標、脫碳投資、Carbon VIX，以及分解後的油價需求與供給衝擊；可取得摘要未報告各指標的精確建構式、代碼及轉換方式。",
+        "【資料／市場／樣本】涉及全球能源、碳價不確定性與脫碳投資；樣本期間、頻率、資料來源與有效樣本量在可取得摘要中未報告。",
+        "【模型與估計】採 quantile-on-quantile kernel regularized least squares（QQKRLS）、wavelets quantile-on-quantile regression（WQQR）、wavelets quantile causality（WQC）及 quantile cointegration analysis（QCA），同時比較長期均衡、分位數與尺度差異；摘要未報告格點、帶寬與小波設定。",
+        "【主要結果】分位數共整合支持氣候變遷與油價衝擊、Carbon VIX、脫碳投資在中間分位的長期關係。需求衝擊在 0.70–0.95 分位呈顯著正向關聯，供給型能源衝擊亦為正向；碳不確定性與脫碳投資在中間分位為負向。WQC 顯示能源與碳變數在不同分位—頻率區間具有預測方向性，但不應解讀為結構因果。",
+        "【作者提出的限制】公開摘要未列作者限制。",
+        "【其他限制】無法從摘要核驗樣本窗、資料頻率、變數建構、控制變數與穩健性；多種高度彈性的非線性方法並用，需注意調參、多重比較及結果選擇風險。",
+        "【APA 7】Al-Maadid, A., Ben Ali, M. S., & Si Mohammed, K. (2026). Climate change, decarbonization investment, decomposed oil shocks, and carbon VIX: Evidence from quantile-on-quantile kernel regularized least squares and wavelets quantile-on-quantile regression. Energy, 360, Article 141611. https://doi.org/10.1016/j.energy.2026.141611",
+        "【與美智研究的關聯】4/5。重疊於氣候風險、碳價不確定性、能源衝擊、分位數與 time-frequency 分析，WQC 可作為 QVAR/BK 結果的跨尺度方向性補充。主要差異是未採 TVP-VAR-SV、BK 或連結網路，且研究核心不是綠色資產間的 spillover。"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-17-china-cea-commodities",
+      "title": "Quantile Connectedness Between Carbon Emission Allowances and Commodity Futures Markets: Evidence from China",
+      "search_date": "2026-09-17",
+      "authors": "Ziren Zhang; Jing Zhu",
+      "year": "2026",
+      "journal": "Sustainability, 18(13), Article 6793",
+      "doi": "https://doi.org/10.3390/su18136793",
+      "citations": "0（Crossref；OpenAlex 尚未收錄，2026-09-17）",
+      "openalex_url": "",
+      "fulltext_url": "https://www.mdpi.com/2071-1050/18/13/6793",
+      "reading_level": "摘要層級",
+      "abstract": "以 2021 年 7 月至 2026 年 2 月中國全國碳排放配額與 20 類代表性商品期貨日資料，結合 QVAR connectedness、Baruník–Křehlík 頻率分解、wavelet coherence 與 quantile-based correlation。上下尾總連結度均約 92%，顯著高於中位數約 59%，且主要由短期頻帶驅動；碳配額在正常狀態近乎脫離商品系統，在尾部則成為淨接收者。",
+      "tags": [
+        "QVAR",
+        "quantile connectedness",
+        "Baruník–Křehlík",
+        "wavelet coherence",
+        "carbon allowance",
+        "commodity futures",
+        "China"
+      ],
+      "topics": [
+        "碳市場/碳交易",
+        "原物料/商品",
+        "氣候風險/政策"
+      ],
+      "keywords": [
+        "China ETS",
+        "carbon emission allowance",
+        "commodity futures",
+        "tail connectedness",
+        "time-frequency"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；已核對 MDPI／RePEc 公開摘要與 Crossref。Crossref 顯示 CC BY 4.0、被引 0 次且無撤稿關聯；OpenAlex 於 2026-09-17 尚未收錄。MDPI 頁面本次回傳 403，因此未把可下載標記冒充全文精讀。",
+        "【研究問題與動機】中國全國碳排放配額與商品期貨的報酬傳導是否隨市場尾部與投資期限改變？碳市場在正常、下尾與上尾狀態中是衝擊來源還是接收者？",
+        "【研究變數】中國全國碳排放配額（CEA）與 20 類代表性商品期貨報酬；公開摘要未逐一列出所有商品與合約代碼。",
+        "【資料／市場／樣本】中國碳市場與商品期貨市場，日頻，2021-07 至 2026-02；有效交易日數、資料供應商、連續期貨轉倉及缺失值處理未在摘要中報告。",
+        "【模型與估計】結合 QVAR connectedness、Baruník–Křehlík 頻率分解、wavelet coherence 與 quantile-based correlation，以市場分位與頻帶識別總體、方向與跨尺度傳導；摘要未報告 VAR 落後期、預測期、滾動窗與頻帶界線。",
+        "【主要結果】上下尾 TCI 均約 92%，中位狀態約 59%，且尾部連結主要集中短期頻帶。CEA 在正常狀態大致與商品系統脫鉤，在上下尾被納入網路並成為淨接收者；下尾事件較對應外部金融衝擊，上尾較對應國內政策預期；長期尺度上 CEA 傾向領先高排放商品。以上是樣本內連結與領先關係，不是政策因果效果。",
+        "【作者提出的限制】公開摘要未列作者限制。",
+        "【其他限制】樣本從全國碳市場啟動後開始，期間較短且制度仍在演進；未取得全文時無法核驗 20 類商品清單、流動性篩選、政策事件判定及替代視窗穩健性。",
+        "【APA 7】Zhang, Z., & Zhu, J. (2026). Quantile connectedness between carbon emission allowances and commodity futures markets: Evidence from China. Sustainability, 18(13), Article 6793. https://doi.org/10.3390/su18136793",
+        "【與美智研究的關聯】5/5。直接重疊於 QVAR 尾部 spillover、BK 時頻分解、碳市場與政策事件解讀；可借鏡尾部 TCI 對稱但角色與事件脈絡不對稱的寫法。主要差異是核心衝擊不是 CPU，資產集合以中國碳配額與商品期貨為主。"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-17-fintech-blockchain-green-finance",
+      "title": "Dynamic Spillovers Between FinTech, Blockchain, and Green Finance: A Quantile Connectedness Approach",
+      "search_date": "2026-09-17",
+      "authors": "Mehmet Sahiner; Sisi Sung; James Devlin",
+      "year": "2026",
+      "journal": "Business Strategy and the Environment, advance online publication",
+      "doi": "https://doi.org/10.1002/bse.70829",
+      "citations": "3（Crossref；OpenAlex 尚未收錄，2026-09-17）",
+      "openalex_url": "",
+      "fulltext_url": "https://onlinelibrary.wiley.com/doi/10.1002/bse.70829",
+      "reading_level": "全文精讀",
+      "abstract": "以 2018-06-08 至 2024-08-30 的 326 筆週資料，將 FinTech、分散式帳本、企業發展公司、Bitcoin／Ethereum 能源耗用、化石能源、潔淨能源、銅、股票與美債納入 QVAR-GFEVD。系統連結在下尾最高（TCI 85.84%），上尾次之（78.45%），中位明顯降低（30.50%）；FinTech 與股票多為淨傳送者，區塊鏈能源耗用則主要為淨接收者。",
+      "tags": [
+        "QVAR-GFEVD",
+        "FinTech",
+        "blockchain energy use",
+        "green finance",
+        "clean energy",
+        "tail connectedness",
+        "rolling window"
+      ],
+      "topics": [
+        "AI/科技",
+        "加密貨幣/數位金融",
+        "潔淨能源",
+        "綠債/ESG"
+      ],
+      "keywords": [
+        "STOXX Global FinTech",
+        "Bitcoin energy consumption",
+        "Ethereum energy consumption",
+        "S&P Global Clean Energy",
+        "copper"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】全文精讀；Wiley 官方 HTML 可讀，並以 Crossref 核對 DOI、作者、日期與 CC BY 4.0。Crossref 被引 3 次且無撤稿關聯；OpenAlex 於 2026-09-17 尚未收錄。",
+        "【研究問題與動機】FinTech 與區塊鏈活動究竟促進綠色金融，還是把金融波動與能源外部性傳入永續資產？這些角色在危機、正常與繁榮狀態是否改變？",
+        "【研究變數】GFI、KLEDGER、BDCI；Bitcoin 與 Ethereum 能源耗用指數；天然氣、原油、銅、S&P Global Clean Energy、S&P 500 與美國 10 年期公債價格，共 11 個市場／環境指標。",
+        "【資料／市場／樣本】全球市場週資料，2018-06-08 至 2024-08-30，共 326 筆；金融指數來自 Refinitiv Datastream 與 Bloomberg，加密貨幣能源耗用取自 Cambridge Bitcoin Electricity Consumption Index 與相應 Ethereum 監測資料。",
+        "【模型與估計】於 τ=0.05、0.50、0.95 估計 QVAR-GFEVD；BIC 選擇一階落後，基準使用 100 週滾動窗與 20 期預測。穩健性改用 80 週／H=10 及 120 週／H=30，並以 ADF、KPSS 與 1% winsorization 檢查資料特性。",
+        "【主要結果】TCI 在下尾為 85.84%、中位 30.50%、上尾 78.45%，呈明顯 U 型。FinTech 指數與 S&P 500 在各狀態多為淨傳送者；Bitcoin／Ethereum 能源耗用多為被動接收者。Ethereum 轉為 PoS 後仍對投機繁榮敏感，顯示技術轉型未完全切斷金融循環與能源足跡。替代視窗與預測期保持尾部強、中位弱的排序。",
+        "【作者提出的限制】作者明確指出代理變數與樣本期有限，只納入主要指數與截至 2024 年的加密能源用量；未包含綠債、永續不動產等資產及明確實體／轉型氣候風險，QVAR 仍屬 reduced-form。",
+        "【其他限制】週資料與缺值前值填補會平滑短期衝擊；能源耗用指數是估計量而非逐筆實測。資料僅依請求提供，降低完全重現性；connectedness 不等於 FinTech 對環境結果的因果影響。",
+        "【APA 7】Sahiner, M., Sung, S., & Devlin, J. (2026). Dynamic spillovers between FinTech, blockchain, and green finance: A quantile connectedness approach. Business Strategy and the Environment. Advance online publication. https://doi.org/10.1002/bse.70829",
+        "【與美智研究的關聯】4/5。重疊於 QVAR 尾部角色、綠色資產與數位金融／能源外部性；可借鏡完整報告分位數、視窗、預測期與替代設定。主要差異是未納入 CPU、TVP-VAR-SV 或 BK，且綠色金融由潔淨能源與轉型商品代理而非綠債核心網路。"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-17-gpr-greenhouse-gases",
+      "title": "Mapping Geopolitical Drivers of Greenhouse Gas Emissions: A Quantile-on-Quantile Connectedness Analysis",
+      "search_date": "2026-09-17",
+      "authors": "Dina Mangibayeva; Gulmira Yerkulova; Daulen Abdeshov; Raikhan Sutbayeva; Sevdie Alshiqi; Mesut Dogan",
+      "year": "2026",
+      "journal": "Geological Journal, 1–20, advance online publication",
+      "doi": "https://doi.org/10.1002/gj.70263",
+      "citations": "1（Crossref；OpenAlex 尚未收錄，2026-09-17）",
+      "openalex_url": "",
+      "fulltext_url": "https://onlinelibrary.wiley.com/doi/10.1002/gj.70263",
+      "reading_level": "摘要層級",
+      "abstract": "以 2002 年 11 月至 2025 年 3 月的月資料，使用 quantile-on-quantile connectedness 分析 Caldara–Iacoviello 地緣政治風險八個子構面與全球 CO2、CH4 排放的非線性傳導。軍事升級、經濟緊張與貿易中斷在高波動狀態下加劇排放連結；恐怖行動與外交緊張多呈衝擊接收者角色。",
+      "tags": [
+        "QQC",
+        "quantile-on-quantile connectedness",
+        "geopolitical risk",
+        "CO2 emissions",
+        "methane emissions",
+        "tail dependence"
+      ],
+      "topics": [
+        "地緣政治/國防",
+        "氣候風險/政策"
+      ],
+      "keywords": [
+        "war threats",
+        "military tensions",
+        "terrorism",
+        "trade disruptions",
+        "greenhouse gases"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；已核對 Wiley 官方摘要與 Crossref。Crossref 被引 1 次且無撤稿關聯；OpenAlex 於 2026-09-17 尚未收錄。Wiley 頁面未提供足以核驗完整方法與附表的公開全文內容。",
+        "【研究問題與動機】不同類型地緣政治風險如何在不同風險與排放分位下，非對稱地連結 CO2 與 CH4 排放？將總體 GPR 拆為子構面後，哪些風險是主要傳送者？",
+        "【研究變數】Caldara 與 Iacoviello GPR 指數的八個子構面，包括戰爭威脅、恐怖行動、軍事緊張、政治爭端與核風險等，以及全球二氧化碳與甲烷排放。",
+        "【資料／市場／樣本】全球月資料，2002-11 至 2025-03；公開摘要未報告排放資料庫、GPR 子指標代碼、轉換方式與有效樣本量。",
+        "【模型與估計】採 quantile-on-quantile connectedness（QQC）估計不同 GPR 分位與排放分位組合的方向、非對稱及動態依賴；摘要未報告分位格點、滾動窗、預測期或替代模型穩健性。",
+        "【主要結果】軍事升級、經濟緊張與貿易相關中斷在高波動狀態下強化排放傳導，反映能源供應鏈壓力、化石燃料依賴與工業活動；恐怖行動與外交緊張多為衝擊接收者。CO2 與 CH4 對不同風險狀態的反應並不相同。這些結果是條件性連結，不足以識別地緣政治事件對排放的結構因果。",
+        "【作者提出的限制】公開摘要未列作者限制。",
+        "【其他限制】全球彙總排放可能遮蔽國別、產業與能源結構差異；月頻 GPR 新聞指標與排放資料可能存在時序對齊及測量誤差。未取得全文時無法核驗控制變數與替代排放指標。",
+        "【APA 7】Mangibayeva, D., Yerkulova, G., Abdeshov, D., Sutbayeva, R., Alshiqi, S., & Dogan, M. (2026). Mapping geopolitical drivers of greenhouse gas emissions: A quantile-on-quantile connectedness analysis. Geological Journal, 1–20. Advance online publication. https://doi.org/10.1002/gj.70263",
+        "【與美智研究的關聯】4/5。可借鏡把不確定性指數拆成可解釋子構面，並以 QQ connectedness 比較衝擊分位與反應分位；有助於 CPU 子指標異質性設計。主要差異是結果變數為實體排放，不是綠色資產，且未採 TVP-VAR-SV 或 BK。"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-17-energy-electricity-crypto",
+      "title": "Quantile return and volatility spillovers and drivers among energy, electricity, and cryptocurrency markets",
+      "search_date": "2026-09-17",
+      "authors": "Dongming Jiang; Fang Jia; Xiaoyu Han",
+      "year": "2025",
+      "journal": "Energy Economics, 144, Article 108307",
+      "doi": "https://doi.org/10.1016/j.eneco.2025.108307",
+      "citations": "9（OpenAlex，2026-09-17）",
+      "openalex_url": "https://openalex.org/W4407636205",
+      "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S0140988325001306",
+      "reading_level": "摘要層級",
+      "abstract": "以 QVAR 同時考察化石與潔淨能源、電力及潔淨／高耗能加密貨幣的報酬與波動溢出，再以分位數迴歸分析驅動因子。平均與中位狀態連結適中，極端高低分位顯著增強；天然氣、高耗能加密貨幣、生質能、太陽能與燃料電池多為傳送者，原油、潔淨加密貨幣、風能與地熱多為接收者，電力市場則在極端狀態轉為傳送者。",
+      "tags": [
+        "QVAR",
+        "return spillover",
+        "volatility spillover",
+        "cryptocurrency",
+        "electricity",
+        "clean energy",
+        "quantile regression"
+      ],
+      "topics": [
+        "加密貨幣/數位金融",
+        "能源市場",
+        "潔淨能源"
+      ],
+      "keywords": [
+        "clean cryptocurrency",
+        "dirty cryptocurrency",
+        "electricity",
+        "EPU",
+        "Crypto Fear and Greed Index"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；已核對 ScienceDirect 公開摘要、Crossref 與 OpenAlex。OpenAlex ID W4407636205、被引 9 次、非開放取用且未標示撤稿；未繞過付費牆。",
+        "【研究問題與動機】能源、電力與不同能源足跡加密貨幣之間的報酬及波動溢出，是否在極端市場狀態中被低估？經濟政策不確定性與市場情緒等因素如何改變 spillover？",
+        "【研究變數】化石能源與潔淨能源類別、電力市場、潔淨與高耗能加密貨幣；摘要明確提及原油、天然氣、風能、地熱、生質能、太陽能、燃料電池，以及 EPU、Crypto Fear and Greed Index、TERM 與 COVID-19。",
+        "【資料／市場／樣本】跨能源、電力與加密貨幣市場；樣本期間、頻率、資料來源、資產代碼及有效樣本量在可取得摘要中未報告。",
+        "【模型與估計】以 QVAR-DY 分別估計平均、中位與極端分位的報酬／波動 connectedness，並以分位數迴歸檢驗 spillover 驅動因子；摘要未報告分位點、VAR 落後期、預測期、滾動窗與穩健性設定。",
+        "【主要結果】平均與中位分位的溢出屬中度，極端上下尾顯著增強。天然氣、高耗能加密貨幣、生質能、太陽能與燃料電池通常為淨傳送者；原油、潔淨加密貨幣、風能與地熱多為接收者。電力在平均／中位為接收者、在極端狀態轉為傳送者；EPU、CFGI、TERM 與 COVID-19 與 spillover 上升相關。",
+        "【作者提出的限制】公開摘要未列作者限制。",
+        "【其他限制】潔淨／高耗能加密貨幣分類可能隨共識機制與能源組合改變；摘要不足以核驗資產清單、波動估計方式及驅動迴歸的內生性處理。事件與 spillover 的關聯不構成因果證據。",
+        "【APA 7】Jiang, D., Jia, F., & Han, X. (2025). Quantile return and volatility spillovers and drivers among energy, electricity, and cryptocurrency markets. Energy Economics, 144, Article 108307. https://doi.org/10.1016/j.eneco.2025.108307",
+        "【與美智研究的關聯】4/5。重疊於 QVAR 尾部 spillover、能源／潔淨資產與外部不確定性驅動；可借鏡同時區分報酬與波動網路及狀態角色翻轉。主要差異是沒有 CPU、綠債、TVP-VAR-SV 或 BK 頻率分解。"
+      ]
+    },
     {
       "id": "qvar-2026-09-17-china-green-assets",
       "title": "Shock transmission among green financial instruments and major financial assets and commodities in China: A quantile connectedness analysis",
