@@ -1,6 +1,6 @@
 {
-  "total": 164,
-  "updated": "2026-09-19 17:36:26",
+  "total": 168,
+  "updated": "2026-09-19 20:20:51",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,200 @@
     "金融市場"
   ],
   "papers": [
+    {
+      "id": "qvar-2026-09-19-uncertainty-fossil-green-energy",
+      "title": "Quantile-on-quantile connectedness of uncertainty with fossil and green energy markets",
+      "search_date": "2026-09-19",
+      "authors": "Pınar Evrim Mandaci; Efe C. Cagli; Dilvin Taşkin; Birce Tedik Kocakaya",
+      "year": "2025",
+      "journal": "Renewable Energy, 249, Article 123235",
+      "doi": "https://doi.org/10.1016/j.renene.2025.123235",
+      "citations": "19（OpenAlex，2026-09-19）",
+      "openalex_url": "https://openalex.org/W4409638581",
+      "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S0960148125008973",
+      "reading_level": "摘要層級",
+      "abstract": "研究以分位數對分位數連結架構，檢驗氣候政策、經濟政策、地緣政治與傳染病不確定性和綠色／化石能源市場之間的雙向、狀態相依外溢。2004 年 8 月至 2023 年 12 月的結果顯示，反向分位數組合通常具有更強連結；2016 年後氣候政策不確定性與能源市場的連結轉為正向，而經濟與地緣政治不確定性的整體影響更強。",
+      "tags": [
+        "quantile-on-quantile connectedness",
+        "QVAR",
+        "rolling window",
+        "climate policy uncertainty",
+        "green energy",
+        "fossil energy"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "潔淨能源",
+        "能源市場",
+        "地緣政治/國防"
+      ],
+      "keywords": [
+        "climate policy uncertainty",
+        "economic policy uncertainty",
+        "geopolitical risk",
+        "infectious disease uncertainty",
+        "green energy"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；已核對 ScienceDirect、Crossref 與 OpenAlex 書目。OpenAlex W4409638581 顯示 19 次被引且未撤稿；出版社正文存取受限，未繞過存取控制。",
+        "【研究問題與動機】CPU、EPU、GPR 與傳染病不確定性如何在不同分位數下與綠色及化石能源市場雙向連結？平均狀態模型是否會遮蔽極端市場與反向分位數的外溢？",
+        "【研究變數】不確定性端包含 climate policy uncertainty（CPU）、economic policy uncertainty（EPU）、geopolitical risk（GPR）與 infectious disease equity market volatility；能源端包含潔淨能源與化石能源市場指數。可取得摘要未列全部指數代碼。",
+        "【資料／市場／樣本】全球綠色及化石能源市場，期間為 2004-08 至 2023-12。公開片段報告 60 個月滾動視窗，但未明示原始資料頻率、資料庫名稱與有效樣本量。",
+        "【模型與估計】採 Gabauer–Stenfors 分位數對分位數 connectedness，將 QQ regression 與 connectedness 結合；每組能源指數與不確定性指標以雙變量 QVAR 估計，滾動視窗 60 個月、預測期 6、BIC 選擇落後 1 期，並比較同向與反向分位數組合。",
+        "【穩健性檢驗】出版社片段顯示作者另檢查落後期長度；可取得摘要未報告替代落後設定的完整數值與其他敏感度檢驗。",
+        "【主要結果】除 CPU 外，各系統的總連結通常在極端反向分位數達峰值；高 EPU 與低潔淨能源報酬的連結最強，EPU 在各分位數與能源市場多呈反向動態。2016 年後 CPU 與能源市場連結轉為正向，作者將其與巴黎協定後環境連結並列討論；GPR 與 EPU 對能源市場的連結整體強於氣候不確定性，能源市場亦向 CPU 傳遞資訊。這些是連結與方向性外溢，不代表結構因果。",
+        "【作者提出的限制】可取得摘要與片段未列獨立的作者限制。",
+        "【其他限制】雙變量逐對估計可能忽略共同因子與多市場條件關係；摘要未提供指數代碼、原始資料頻率、有效樣本量及完整穩健性結果。2016 年後正向連結與巴黎協定的對照屬事件一致性，不能據此識別政策因果。",
+        "【APA 7】Mandaci, P. E., Cagli, E. C., Taşkin, D., & Tedik Kocakaya, B. (2025). Quantile-on-quantile connectedness of uncertainty with fossil and green energy markets. Renewable Energy, 249, Article 123235. https://doi.org/10.1016/j.renene.2025.123235",
+        "【與美智研究的關聯】5/5。直接重疊 CPU、綠色／化石能源、QVAR 與分位數外溢，且清楚區分同向與反向分位數，可用於設計 CPU×能源市場的尾部網路與雙向傳遞。主要差異是未結合 TVP-VAR-SV、Baruník–Křehlík 頻率分解或更廣的綠色資產組合。"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-19-carbon-energy-gpr-frequency",
+      "title": "Dynamic connectedness among the carbon, financial, energy, and commodity markets and geopolitical uncertainty: A TVP-VAR-DY time-frequency spillover network approach",
+      "search_date": "2026-09-19",
+      "authors": "Jing-Hua Zhang",
+      "year": "2026",
+      "journal": "Energy Reports, 15, Article 109340",
+      "doi": "https://doi.org/10.1016/j.egyr.2026.109340",
+      "citations": "1（Crossref，2026-09-19；OpenAlex 尚未收錄）",
+      "openalex_url": "",
+      "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S2352484726003094",
+      "reading_level": "摘要層級",
+      "abstract": "研究以 TVP-VAR-DY 時頻外溢網路，分析歐盟碳權、股票與債券、傳統及潔淨能源、商品市場和三項不確定性指標的動態連結。公開摘要顯示，總連結約在 60% 至 90% 間變動，2014–2016 年與 COVID-19 期間較高；短期 1–12 個月外溢占主導，碳市場在 2020 年前多為接收者，之後逐步轉為傳遞者。",
+      "tags": [
+        "TVP-VAR-DY",
+        "time-frequency connectedness",
+        "spillover network",
+        "carbon market",
+        "geopolitical risk",
+        "clean energy"
+      ],
+      "topics": [
+        "碳市場/碳交易",
+        "能源市場",
+        "氣候風險/政策",
+        "地緣政治/國防",
+        "金融市場"
+      ],
+      "keywords": [
+        "EU emission allowances",
+        "geopolitical risk",
+        "oil price uncertainty",
+        "clean energy",
+        "frequency spillovers"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；已核對 ScienceDirect 與 Crossref 書目。文章標示開放存取，但本次直接正文請求遭 403，未透過代理繞過；OpenAlex 尚無可解析紀錄，Crossref 報告 1 次被引，未見撤稿關聯。",
+        "【研究問題與動機】碳、金融、能源與商品市場及地緣政治／政策不確定性之間的外溢如何隨時間與投資期限改變？碳市場會在能源轉型政策後由衝擊接收者轉為傳遞者嗎？",
+        "【研究變數】碳市場以 EUA 期貨結算價代表；金融端含 STOXX50、S&P 500、AEX、DAX、CAC40、FTSE100 與美國 3 個月國庫券殖利率；能源端含 Brent、英國天然氣、ARA 動力煤及 S&P Clean Energy；商品端為 S&P GSCI；不確定性端為 GEPU、OPUI 與 GPR。",
+        "【資料／市場／樣本】歐盟碳市場、全球主要股票／債券、能源及商品市場，資料來自 Wind Financial Terminal。可取得摘要與索引片段未報告完整樣本起訖、原始頻率與有效樣本量。",
+        "【模型與估計】以 TVP-VAR-DY 估計時變總體、方向性與淨外溢，再作 time-frequency spillover network 分解；公開摘要明示短期頻帶為 1–12 個月，其他頻帶、落後期、預測期與先驗設定未能核驗。",
+        "【穩健性檢驗】可取得摘要未報告替代模型、替代頻帶、替代指標或敏感度檢驗。",
+        "【主要結果】總連結約在 60%–90% 間變動，2014–2016 年及 COVID-19 期間出現高點。金融與能源市場多為風險傳遞管道；碳市場在 2020 年前多為淨接收者，之後隨 Fit-for-55 與 REPowerEU 時期逐步轉為傳遞者。外溢主要集中於 1–12 個月，長期連結多數衰減，但碳市場對天然氣仍有顯著長期外溢。結果為時變預測連結，不宜解讀為政策因果。",
+        "【作者提出的限制】可取得摘要未列作者限制。",
+        "【其他限制】樣本起訖、資料頻率、估計設定與穩健性未能由摘要核驗；S&P GSCI 含能源成分，與獨立能源指標存在機械性重疊風險；以單一 EUA 代表碳市場也限制對中國或其他 ETS 的外推。",
+        "【APA 7】Zhang, J.-H. (2026). Dynamic connectedness among the carbon, financial, energy, and commodity markets and geopolitical uncertainty: A TVP-VAR-DY time-frequency spillover network approach. Energy Reports, 15, Article 109340. https://doi.org/10.1016/j.egyr.2026.109340",
+        "【與美智研究的關聯】4/5。重疊於碳價、能源、地緣政治風險、TVP-VAR 與 time-frequency spillover，可借鏡頻帶角色轉換及碳市場由接收者轉為傳遞者的分析。主要差異是未使用 QVAR／尾部分位數，且無法確認是否採標準 BK 實作或 TVP-VAR-SV 規格。"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-19-shipping-energy-extreme-quantiles",
+      "title": "Extreme quantile connectedness across shipping freights, agriculture and energy commodities",
+      "search_date": "2026-09-19",
+      "authors": "Sang Hoon Kang; Mobeen Ur Rehman; Neeraj Nautiyal; Noha Alessa; Xuan Vinh Vo",
+      "year": "2026",
+      "journal": "International Review of Economics & Finance, 109, Article 105238",
+      "doi": "https://doi.org/10.1016/j.iref.2026.105238",
+      "citations": "2（Crossref，2026-09-19；OpenAlex 尚未收錄）",
+      "openalex_url": "",
+      "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S1059056026003515",
+      "reading_level": "摘要層級",
+      "abstract": "研究以極端分位數連結與網路分析，檢驗航運運價、農產品與能源商品的報酬外溢。2012 年 11 月至 2022 年 11 月的日資料顯示，航運運價在正常與多頭狀態較常傳遞衝擊，能源市場則在空頭狀態成為主要傳遞來源，突顯航運對跨商品風險的狀態敏感性。",
+      "tags": [
+        "extreme quantile connectedness",
+        "network connectedness",
+        "shipping freight",
+        "energy commodities",
+        "agricultural commodities"
+      ],
+      "topics": [
+        "能源市場",
+        "原物料/商品",
+        "金融市場"
+      ],
+      "keywords": [
+        "shipping freight",
+        "agricultural commodities",
+        "energy commodities",
+        "tail spillovers",
+        "network analysis"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；已核對 ScienceDirect、Crossref、RePEc 與 Keele 機構書目。OpenAlex 尚無可解析紀錄，Crossref 報告 2 次被引且未見撤稿關聯；出版社未提供可直接取得的合法全文。",
+        "【研究問題與動機】航運運價、農產品與能源商品的風險傳遞是否會在極端分位數與不同市場狀態下改變方向？航運市場對跨商品衝擊的敏感性如何反映供應鏈與實體經濟連結？",
+        "【研究變數】航運運價指數、農產品商品報酬與能源商品報酬。可取得摘要未列各指數／期貨合約名稱與價格轉換細節。",
+        "【資料／市場／樣本】全球航運、農產品與能源商品日資料，期間為 2012-11-13 至 2022-11-09；資料來源與有效樣本量未報告。",
+        "【模型與估計】採 extreme quantile connectedness 比較空頭、正常與多頭狀態，並以 network connectedness 描繪市場間方向性。摘要未交代是否為標準 QVAR、分位數格點、落後期、預測期與滾動視窗。",
+        "【穩健性檢驗】公開摘要未報告替代模型、替代分位數、視窗或其他敏感度檢驗。",
+        "【主要結果】航運運價在正常與多頭狀態主要傳遞變化，能源市場在空頭狀態主要傳遞衝擊；網路結果顯示航運對其他商品市場高度敏感。摘要未提供 TCI、方向性外溢或個別市場的數值，因此不補推；這些結果表示狀態相依連結，並非結構因果。",
+        "【作者提出的限制】公開摘要未列作者限制；資料可用性聲明僅稱可應要求提供。",
+        "【其他限制】樣本結束於 2022 年，無法涵蓋其後紅海危機與近期航運中斷；全文不可得使變數清單、估計設定與穩健性無法核驗，亦未直接納入碳價或氣候政策指標。",
+        "【APA 7】Kang, S. H., Rehman, M. U., Nautiyal, N., Alessa, N., & Vo, X. V. (2026). Extreme quantile connectedness across shipping freights, agriculture and energy commodities. International Review of Economics & Finance, 109, Article 105238. https://doi.org/10.1016/j.iref.2026.105238",
+        "【與美智研究的關聯】4/5。重疊於航運、能源、極端分位數與方向性 spillover，可作為「碳價尾部衝擊×航運」研究的市場選擇與狀態角色基準。主要差異是未納入碳價、氣候政策不確定性、TVP-VAR-SV 或 BK 頻率分解。"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-19-motif-risk-spillovers",
+      "title": "A Motif-Based Framework for Decomposing Risk Spillovers",
+      "search_date": "2026-09-19",
+      "authors": "Ying-Hui Shao; Yan-Hong Yang; Yun Zhang",
+      "year": "2026",
+      "journal": "arXiv preprint arXiv:2604.25406",
+      "doi": "https://doi.org/10.48550/arXiv.2604.25406",
+      "citations": "未能取得（OpenAlex 尚未收錄；DataCite 不提供被引數，2026-09-19）",
+      "openalex_url": "",
+      "fulltext_url": "https://arxiv.org/pdf/2604.25406",
+      "reading_level": "全文精讀",
+      "abstract": "本文把延伸 joint QVAR connectedness 與多尺度骨架、方向三節點 motif、彩色 motif 及 orbit-position 結合，將風險外溢由總體指標推進到局部拓樸。以 2010–2025 年 39 種商品與股指期貨日資料為例，尾部分位數總連結接近飽和但局部結構不穩；較寬鬆骨架下的 motif 結構相似度投資組合，在中位數與上尾的風險調整績效優於最小相關與最小連結組合。",
+      "tags": [
+        "joint QVAR",
+        "jQFEVD",
+        "network motifs",
+        "multiscale backbone",
+        "orbit-position diversity",
+        "portfolio optimization"
+      ],
+      "topics": [
+        "方法論",
+        "原物料/商品",
+        "金融市場"
+      ],
+      "keywords": [
+        "risk spillovers",
+        "directed triadic motifs",
+        "colored motifs",
+        "commodity futures",
+        "equity futures"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】全文精讀；核對官方 arXiv v1 PDF 與 DataCite DOI。此文為 2026-04-28 提交的預印本，尚非同儕審查期刊版本；OpenAlex 尚未收錄，未發現撤稿或版本替代紀錄。",
+        "【研究問題與動機】總體 TCI 與節點淨外溢會遮蔽哪些局部傳遞結構？把分位數 connectedness 網路稀疏化後，方向三節點 motif、部門顏色與節點 orbit 位置能否辨識尾部系統影響並改善投資組合？",
+        "【研究變數】39 種期貨日報酬：能源、穀物與油籽、軟性商品、牲畜、貴金屬、工業金屬六類商品，加上 S&P 500、Euro Stoxx 50、FTSE 100、Nikkei 225、ASX 200、Ibovespa 與 CSI 300 七個股指期貨。",
+        "【資料／市場／樣本】全球商品與主要區域股指期貨，日資料期間為 2010-04-16 至 2025-09-05，所有序列對齊共同交易日，來源為 Investing.com；全文未在資料段明列最終有效觀測數。",
+        "【模型與估計】先在 τ=0.05、0.50、0.95 估計 QVAR 與延伸 joint connectedness／jQFEVD，再以 disparity filter 從傳遞者與接收者雙視角萃取多尺度骨架（α=0.05、0.10）；接著檢定 13 種方向三節點 motif、加入 2／4／7 類彩色部門標籤，並以 orbit-position 結構相似矩陣建立 minimum structural similarity portfolio（MSP）。",
+        "【穩健性檢驗】比較傳統 QVAR 與延伸 joint QVAR，並以 200 與 250 日滾動視窗檢查 TCI；主要峰谷與轉折相近，250 日視窗較平滑。骨架門檻 α=0.05 與 0.10 亦作敏感度比較。",
+        "【主要結果】總 TCI 在 τ=0.05 與 0.95 分別為 98.17% 與 98.09%，中位數為 60.30%。中位數網路呈穩定部門核心與互惠 triads，尾部則總連結近飽和但局部骨架不穩、motif z 分數趨近零。尾部 orbit-position 多樣性較高的資產多為淨傳遞者。α=0.10 的 MSP 在三個分位數均有正 Sharpe，並在 τ=0.50 與 0.95 優於 MCP 與 MCoP；這是樣本內投資組合比較，不代表樣本外優勢。",
+        "【作者提出的限制】固定部門標籤不能反映金融化造成的部門邊界變動；逐日 motif 檢定未建模 triad 的跨日形成與消失；尚未檢驗高階／時間 motif、樣本外壓力預測、總體政策節點、較高階矩風險及其他市場的可推廣性。",
+        "【其他限制】預印本尚未同儕審查；資料只來自 Investing.com，缺少交易所級資料核對與交易成本、換月、流動性約束說明。投資組合結果對骨架門檻敏感，且全文未呈現正式樣本外或多重資料庫驗證。",
+        "【APA 7】Shao, Y.-H., Yang, Y.-H., & Zhang, Y. (2026). A motif-based framework for decomposing risk spillovers [Preprint]. arXiv. https://doi.org/10.48550/arXiv.2604.25406",
+        "【與美智研究的關聯】4/5。直接延伸 joint QVAR／jQFEVD，可把美智研究的尾部外溢網路由傳遞者排序提升到局部 triad 與部門橋接機制，亦可作為新的穩健性與投資組合層。主要差異是未納入氣候政策不確定性、TVP-VAR-SV 或 BK 頻率分解，且目前僅為預印本。"
+      ]
+    },
     {
       "id": "qvar-2026-09-19-climate-risk-crypto-classes",
       "title": "Quantile Domain Connectedness Between Climate Risks and Cryptocurrency Classes",
