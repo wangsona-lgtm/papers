@@ -1,6 +1,6 @@
 {
-  "total": 160,
-  "updated": "2026-09-18 20:38:20",
+  "total": 164,
+  "updated": "2026-09-19 17:36:26",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,197 @@
     "金融市場"
   ],
   "papers": [
+    {
+      "id": "qvar-2026-09-19-climate-risk-crypto-classes",
+      "title": "Quantile Domain Connectedness Between Climate Risks and Cryptocurrency Classes",
+      "search_date": "2026-09-19",
+      "authors": "Mosab I. Tabash; Suzan Sameer Issa; Loona Mohammad Shaheen; Mohammed Alnahhal; Zokir Mamadiyarov",
+      "year": "2026",
+      "journal": "Risks, 14(4), Article 93",
+      "doi": "https://doi.org/10.3390/risks14040093",
+      "citations": "0（OUCI，2026-09-19；OpenAlex API 無法核驗）",
+      "openalex_url": "",
+      "fulltext_url": "https://www.mdpi.com/2227-9091/14/4/93",
+      "reading_level": "全文精讀",
+      "abstract": "本研究以分位數向量自我迴歸與廣義預測誤差變異分解，檢驗氣候實體風險、氣候轉型風險與不同類型加密貨幣之間的尾部連結。2020 年 4 月至 2025 年 7 月的日資料顯示，系統連結在上下尾均遠高於中位數；氣候風險在壓力狀態下是重要的外溢來源，而永續型加密貨幣相對較具韌性。",
+      "tags": [
+        "QVAR",
+        "GFEVD",
+        "quantile connectedness",
+        "climate physical risk",
+        "climate transition risk",
+        "sustainable cryptocurrency"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "加密貨幣/數位金融"
+      ],
+      "keywords": [
+        "climate risk",
+        "cryptocurrency classes",
+        "tail spillovers",
+        "sustainable cryptocurrency",
+        "portfolio diversification"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】全文精讀；核對 MDPI 正式全文、RePEc 與 OUCI 書目。OpenAlex 網站遭安全驗證攔截且 API 連線失敗，因此未臆測 OpenAlex ID；未發現撤稿通知。",
+        "【研究問題與動機】氣候實體風險與轉型風險是否會向永續、黃金支持、伊斯蘭合規及能源相關加密貨幣傳遞不對稱尾部衝擊？不同加密貨幣類別能否在氣候壓力狀態下提供避險或分散效果？",
+        "【研究變數】核心衝擊為 climate physical risk（CPR）與 climate transition risk（CTR）指數；資產端涵蓋永續型加密貨幣（Cardano、Stellar、Ripple）及黃金支持、伊斯蘭合規與能源相關加密貨幣。全文對部分幣種的完整分類清單呈現不一致，故不自行補列。",
+        "【資料／市場／樣本】全球加密貨幣市場日資料，期間為 2020-04-01 至 2025-07-01。CPR、CTR 取自 PolicyUncertainty 所發布的 Bua 等人風險指數；幣價資料取自 CoinMarketCap 與 Investing.com。有效樣本量原文未明確報告。",
+        "【模型與估計】在 τ=0.05、0.50、0.95 估計 QVAR，並以 20 日預測期的廣義 FEVD 建構總體、方向性與淨連結指標；另以滾動估計追蹤連結的時變性。",
+        "【穩健性檢驗】以對稱 TVP-VAR 連結作替代估計，作者報告整體動態與主要傳遞者／接收者排序大致一致。",
+        "【主要結果】總連結指數在下尾、中位數與上尾分別為 87.19%、49.50% 與 89.32%。下尾 CPR、CTR 的 TO 外溢為 80.59% 與 83.72%，上尾為 94.22% 與 89.22%，中位數僅 20.63% 與 23.40%。氣候風險在極端狀態下主要向能源、黃金支持與伊斯蘭合規加密資產傳遞衝擊，永續型加密貨幣相對較具韌性；這些是連結與預測誤差分解結果，不代表結構因果。",
+        "【作者提出的限制】作者未在獨立限制段落完整列示限制；文中提醒加密貨幣分類與氣候風險衡量仍可能影響結果的外推性。",
+        "【其他限制】樣本起於疫情期間且僅約五年，危機事件可能主導尾部估計；部分幣種類別與資料同步方式不夠透明，20 日預測期及分位數設定也需要替代規格檢驗。",
+        "【APA 7】Tabash, M. I., Issa, S. S., Shaheen, L. M., Alnahhal, M., & Mamadiyarov, Z. (2026). Quantile domain connectedness between climate risks and cryptocurrency classes. Risks, 14(4), Article 93. https://doi.org/10.3390/risks14040093",
+        "【與美智研究的關聯】5/5。直接重疊氣候實體／轉型風險、綠色資產、QVAR 與尾部 spillover，可用來設計氣候風險×綠色資產的分位數網路與傳遞者判定。主要差異是未結合 TVP-VAR-SV、Baruník–Křehlík 頻率分解或 FRL，且資產端集中於加密貨幣。"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-19-fintech-esg-cleantech-risk",
+      "title": "The predictive effects of Fintech-ESG dynamic interdependence: A global perspective on Cleantech energy transition risk",
+      "search_date": "2026-09-19",
+      "authors": "Martin Enilov; Edna Delantar; Mamata Parhi",
+      "year": "2026",
+      "journal": "Energy Economics, 153, Article 109090",
+      "doi": "https://doi.org/10.1016/j.eneco.2025.109090",
+      "citations": "來源不一致：OUCI 主紀錄 0、交叉索引頁 Crossref 3（2026-09-19；OpenAlex API 無法核驗）",
+      "openalex_url": "",
+      "fulltext_url": "https://eprints.soton.ac.uk/508413/1/1-s2.0-S014098832500920X-main.pdf",
+      "reading_level": "摘要層級",
+      "abstract": "研究從全球視角檢驗 FinTech 部門與已開發／新興市場 ESG 指數的動態分位數連結，並評估該連結對潔淨科技能源轉型風險的預測效果。公開摘要顯示，多數 FinTech 部門是衝擊傳遞者、ESG 指數多為接收者；FinTech–ESG 連結對能源轉型風險具有時變且在低分位更不對稱的預測關係。",
+      "tags": [
+        "QVAR",
+        "quantile connectedness",
+        "rolling window",
+        "quantile Granger causality",
+        "FinTech",
+        "ESG"
+      ],
+      "topics": [
+        "能源市場",
+        "綠債/ESG",
+        "AI/科技"
+      ],
+      "keywords": [
+        "FinTech",
+        "ESG",
+        "cleantech",
+        "energy transition risk",
+        "global markets"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；已核對 ScienceDirect、RePEc、University of Roehampton 與 Southampton 機構典藏書目。機構典藏列有 CC BY 合法 PDF，但本次存取遭機器人防護阻擋，未冒充全文精讀；OpenAlex 無法核驗。",
+        "【研究問題與動機】FinTech 與全球 ESG 市場的分位數連結如何隨事件演變？此跨市場連結是否能預測 cleantech energy transition risk（CETR），且在不同分位數呈現非對稱？",
+        "【研究變數】FinTech 部門指數、全球已開發與新興市場 ESG 指數，以及 CETR。可取得摘要未列全部指數名稱、代碼與 CETR 的精確建構方式。",
+        "【資料／市場／樣本】全球已開發與新興市場日資料，樣本期間為 2018-05-31 至 2024-08-01。可取得摘要未完整報告資料庫名稱與有效樣本量。",
+        "【模型與估計】以 QVAR 連結與 40 日滾動視窗描繪動態網路；可取得片段顯示 BIC 選擇落後 1 期、預測期 H=1，並以 time-varying parameter robust Granger causality 的分位數方法評估 CETR 的預測關係。其餘估計細節未能由摘要核驗。",
+        "【穩健性檢驗】公開摘要只指出採 robust Granger causality 架構，未報告替代視窗、替代指標或其他敏感度檢驗。",
+        "【主要結果】除 distributed ledger 外，多數 FinTech 部門主要為淨衝擊傳遞者，多數 ESG 指數為接收者。2022 年俄烏戰爭期間連結下降但方向大致不變；已開發市場呈異質、新興市場較同質。FinTech–ESG 連結對 CETR 的預測關係隨時間改變，在低分位更不對稱，後期略有回升；Granger 預測性不等同結構因果。",
+        "【作者提出的限制】公開摘要未列作者限制。",
+        "【其他限制】全文未能存取，無法核驗變數定義、完整資料來源、估計方程與穩健性；疫情與俄烏戰爭同時位於短樣本內，事件解讀及滾動視窗結果可能受端點與視窗長度影響。",
+        "【APA 7】Enilov, M., Delantar, E., & Parhi, M. (2026). The predictive effects of Fintech-ESG dynamic interdependence: A global perspective on Cleantech energy transition risk. Energy Economics, 153, Article 109090. https://doi.org/10.1016/j.eneco.2025.109090",
+        "【與美智研究的關聯】4/5。重疊於 QVAR、動態 spillover、ESG／潔淨科技與能源轉型風險，可借鏡把跨市場連結指標作為風險預測變數。主要差異是核心風險為 CETR、未採 TVP-VAR-SV 或 BK 頻率分解，且摘要無法支持更細緻的模型比較。"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-19-green-finance-tech-innovation",
+      "title": "Return and volatility spillovers between green finance and tech innovation: A quantile analysis",
+      "search_date": "2026-09-19",
+      "authors": "Houssem Eddine Belghouthi; Walid Mensi; Khamis Hamed Al-Yahyaee",
+      "year": "2026",
+      "journal": "International Economics, 187, Article 100729",
+      "doi": "https://doi.org/10.1016/j.inteco.2026.100729",
+      "citations": "1（Crossref／OUCI，2026-09-19；OpenAlex API 無法核驗）",
+      "openalex_url": "",
+      "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S2110701726000533",
+      "reading_level": "摘要層級",
+      "abstract": "研究結合動態等相關 GARCH 與分位數連結，分析綠色債券、潔淨能源、ESG 股票與人工智慧、機器人、數位平台、去中心化金融、太空科技及智慧工廠等科技部門的報酬與波動外溢。公開摘要顯示，熊市與極端狀態的連結較強，波動外溢普遍高於報酬外溢，且危機後仍具持續性。",
+      "tags": [
+        "DECO-GARCH",
+        "quantile connectedness",
+        "return spillovers",
+        "volatility spillovers",
+        "green finance",
+        "technology innovation"
+      ],
+      "topics": [
+        "綠債/ESG",
+        "潔淨能源",
+        "AI/科技",
+        "加密貨幣/數位金融"
+      ],
+      "keywords": [
+        "green bonds",
+        "clean energy",
+        "ESG equities",
+        "artificial intelligence",
+        "DeFi"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；已核對 ScienceDirect、RePEc 與 OUCI 書目。未找到可合法直接取得的全文，OpenAlex API 亦無法核驗，故只依公開摘要整理；未發現撤稿通知。",
+        "【研究問題與動機】綠色金融與前沿科技創新資產之間的報酬及波動外溢是否隨市場分位數改變？不同部門在危機與極端市場中扮演穩定的傳遞者或接收者嗎？",
+        "【研究變數】綠色資產包括綠色債券、潔淨能源與 ESG 股票；科技部門包括人工智慧、機器人、數位平台、DeFi、太空科技與智慧工廠／去中心化銀行。摘要未提供全部指數代碼及報酬、波動的精確建構式。",
+        "【資料／市場／樣本】跨市場金融指數；可取得摘要未報告樣本期間、頻率、資料來源、國家範圍及有效樣本量。",
+        "【模型與估計】先以 dynamic equicorrelation GARCH 擷取動態相關或波動資訊，再以分位數 connectedness 分別比較報酬與波動網路。可取得摘要未報告分位數格點、落後期、預測期與滾動視窗設定。",
+        "【穩健性檢驗】公開摘要未報告替代模型、替代視窗或其他穩健性檢驗。",
+        "【主要結果】熊市與極端狀態的連結較高，波動外溢大於報酬外溢，且在危機期間及危機後持續。綠色債券、潔淨能源與太空科技多為淨接收者；DeFi、人工智慧、智慧工廠及 S&P ESG 多為淨傳遞者，但角色會隨事件切換。這些結果描述預測誤差或相關網路，不宜寫成因果。",
+        "【作者提出的限制】公開摘要未列作者限制。",
+        "【其他限制】缺少全文使樣本、估計參數與穩健性無法核驗；跨部門指數可能重疊成分股，且 GARCH 前置估計誤差會傳入 connectedness，淨傳遞者排序也可能對分位數與視窗設定敏感。",
+        "【APA 7】Belghouthi, H. E., Mensi, W., & Al-Yahyaee, K. H. (2026). Return and volatility spillovers between green finance and tech innovation: A quantile analysis. International Economics, 187, Article 100729. https://doi.org/10.1016/j.inteco.2026.100729",
+        "【與美智研究的關聯】4/5。重疊於綠色資產、極端分位數、報酬／波動 spillover 與科技資產網路，可借鏡區分第一矩與第二矩連結。主要差異是未納入氣候政策不確定性、TVP-VAR-SV 或 BK time-frequency 分解。"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-19-renewable-nuclear-fossil-frequency",
+      "title": "Power Shifts in Global Energy Markets? A Time-Varying Quantile Connectedness Analysis of the Interplay Between Renewable, Nuclear, and Fossil Fuel Market Dynamics",
+      "search_date": "2026-09-19",
+      "authors": "Mohammed Amine Mouffok; Omar Mouffok; Youcef Souar; Ousama Ben-Salha",
+      "year": "2026",
+      "journal": "Computational Economics, advance online publication",
+      "doi": "https://doi.org/10.1007/s10614-026-11398-5",
+      "citations": "0（OUCI，2026-09-19；OpenAlex API 無法核驗）",
+      "openalex_url": "",
+      "fulltext_url": "https://link.springer.com/article/10.1007/s10614-026-11398-5",
+      "reading_level": "摘要層級",
+      "abstract": "研究以時變分位數連結與 time-frequency 分解，評估太陽能、風能、生質燃料、地熱、核能及石油、天然氣、煤炭市場的動態外溢。公開摘要顯示，中位數總連結為 28.40%，兩端尾部更高；太陽能、生質燃料與核能在壓力狀態下是主要淨傳遞者，煤炭與天然氣多為接收者，且短期外溢由再生能源與核能主導。",
+      "tags": [
+        "time-varying QVAR",
+        "quantile connectedness",
+        "time-frequency connectedness",
+        "rolling window",
+        "renewable energy",
+        "nuclear energy"
+      ],
+      "topics": [
+        "能源市場",
+        "潔淨能源"
+      ],
+      "keywords": [
+        "renewable energy",
+        "nuclear energy",
+        "fossil fuels",
+        "tail connectedness",
+        "frequency decomposition"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；已核對 Springer DOI、EurekaMag 與 OUCI 書目。未取得可合法直接下載的全文，OpenAlex API 無法核驗，因此未補推摘要未提供的設定；未發現撤稿通知。",
+        "【研究問題與動機】全球再生能源、核能與化石燃料市場的衝擊傳遞是否隨分位數、時間與投資期限改變？能源轉型下哪些部門在平常與壓力狀態分別主導外溢？",
+        "【研究變數】再生能源端包含太陽能、風能、生質燃料與地熱；傳統能源端包含石油、天然氣與煤炭，並納入核能市場。摘要未列各市場代理指數與價格轉換方式。",
+        "【資料／市場／樣本】全球能源金融市場；可取得摘要未報告樣本期間、資料頻率、資料來源與有效樣本量。",
+        "【模型與估計】在 τ=0.05、0.50、0.95 的時變分位數 connectedness 架構下，結合 time-frequency 分解與滾動視窗比較短期及長期外溢。摘要未提供 VAR 落後期、預測期、頻帶切點與視窗長度。",
+        "【穩健性檢驗】公開摘要未報告替代模型、替代頻帶或其他敏感度檢驗。",
+        "【主要結果】中位數總連結指數為 28.40%，上下尾均更高但摘要未給確切尾部數值。太陽能、生質燃料與核能在高壓狀態下主要為淨傳遞者，煤炭與天然氣多為淨接收者，石油較中性；短期外溢由再生能源與核能主導，長期較受部門基本面影響，COVID-19 與俄烏戰爭期間連結升高。",
+        "【作者提出的限制】公開摘要未列作者限制。",
+        "【其他限制】全文不可得，無法核驗樣本起訖、指數代理、頻帶定義與穩健性；事件期解讀屬描述性，能源指數成分與流動性差異也可能影響淨傳遞者排序。",
+        "【APA 7】Mouffok, M. A., Mouffok, O., Souar, Y., & Ben-Salha, O. (2026). Power shifts in global energy markets? A time-varying quantile connectedness analysis of the interplay between renewable, nuclear, and fossil fuel market dynamics. Computational Economics. Advance online publication. https://doi.org/10.1007/s10614-026-11398-5",
+        "【與美智研究的關聯】4/5。重疊於 time-varying QVAR、上下尾 connectedness 與 time-frequency 分解，是串接 QVAR 與 BK 類投資期限分析的直接參考。主要差異是研究對象為能源部門而非氣候政策不確定性×綠色金融，且摘要未能確認是否採 TVP-VAR-SV 或標準 BK 實作。"
+      ]
+    },
     {
       "id": "qvar-2026-09-17-climate-carbonvix-wqc",
       "title": "Climate change, decarbonization investment, decomposed oil shocks, and carbon VIX: Evidence from quantile-on-quantile kernel regularized least squares and wavelets quantile-on-quantile regression",
