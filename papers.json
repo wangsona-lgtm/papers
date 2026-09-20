@@ -1,6 +1,6 @@
 {
-  "total": 168,
-  "updated": "2026-09-19 20:38:52",
+  "total": 173,
+  "updated": "2026-09-20 20:08:13",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,243 @@
     "金融市場"
   ],
   "papers": [
+    {
+      "id": "qvar-2026-09-20-rare-earth-fintech-geopolitical",
+      "title": "The role of rare earth and metallic mineral prices and sovereign inflation-linked bonds in AI-driven fintech industrial development amid the Russia–Ukraine conflict: A dynamic quantile analysis approach",
+      "search_date": "2026-09-20",
+      "authors": "Md. Monirul Islam; Faroque Ahmed; Abdulla Al Mahmud; Muhammad Shahbaz",
+      "year": "2025",
+      "journal": "Financial Innovation, 11(1), Article 140",
+      "doi": "https://doi.org/10.1186/s40854-025-00888-4",
+      "citations": "4（Crossref，2026-09-20；OpenAlex 尚未收錄）",
+      "openalex_url": "",
+      "fulltext_url": "https://link.springer.com/article/10.1186/s40854-025-00888-4",
+      "reading_level": "全文精讀",
+      "abstract": "研究以 2020 年 9 月至 2023 年 9 月的日資料，結合 cross-quantilogram、recursive cross-quantilogram 與 QVAR，檢驗稀土與金屬礦物價格、俄烏地緣政治風險、主權抗通膨債券和 AI 驅動 FinTech 產出之間的尾部依賴與風險傳遞。結果顯示，稀土價格在部分中高分位與長期記憶下壓抑 FinTech 產出；俄烏風險在熊市狀態對 FinTech 產出呈顯著負向關聯，而 QVAR 網路中稀土、金屬與地緣政治風險多為風險傳遞者。",
+      "tags": [
+        "QVAR",
+        "cross-quantilogram",
+        "recursive cross-quantilogram",
+        "rare earth",
+        "geopolitical risk",
+        "FinTech"
+      ],
+      "topics": [
+        "地緣政治/國防",
+        "原物料/商品",
+        "AI/科技",
+        "金融市場"
+      ],
+      "keywords": [
+        "rare earth elements",
+        "metallic minerals",
+        "Russia–Ukraine conflict",
+        "sovereign inflation-linked bonds",
+        "AI-driven fintech"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】全文精讀；已核對 Springer Nature 全文與 Crossref 書目。Crossref 回報 4 次被引；OpenAlex 以 DOI 查詢尚未收錄，故不猜測 ID 或被引數。出版社頁面標示 open access，未繞過任何存取控制。",
+        "【研究問題與動機】俄烏衝突期間，稀土與工業金屬價格、俄羅斯／烏克蘭地緣政治風險和主權抗通膨債券，如何在不同市場狀態與記憶期影響 AI 驅動 FinTech 產出？作者特別關注關鍵礦物供應鏈如何成為數位金融產業的風險傳遞通道。",
+        "【研究變數】稀土進口價格指數（RE，2000=100）、工業金屬生產者價格指數（MP，1988-06=100）、主權抗通膨債券（SB）、俄羅斯與烏克蘭地緣政治風險（RGPR、UGPR），以及涵蓋硬體、軟體與 AIaaS 的 AI 驅動 FinTech 產出指數（FIN）。",
+        "【資料／市場／樣本】全球日資料，2020-09-08 至 2023-09-09。RE 與 MP 來自 Federal Reserve Bank of St. Louis；全文另說明使用可靠的聯準會與全球大數據來源，但 FIN、SB、RGPR、UGPR 的完整資料庫／代碼需依附錄逐項重建。有效樣本量未以單一數字報告。",
+        "【模型與估計】以 CQ 描繪跨分位依賴、RCQ 追蹤滾動式時間變化，再以 QVAR 的 0.05、0.50、0.95 分位建立方向性與尾部風險外溢網路；比較日、週、月與季等記憶結構，並計算相對尾部依賴。",
+        "【穩健性檢驗】QVAR 用來交叉驗證 CQ／RCQ 的方向與尾部結果；另以 Jarque–Bera、ERS 單根、核密度與對稱分位圖確認非正態與定態性，Ljung–Box 統計檢驗 cross-quantilogram 顯著性。",
+        "【主要結果】稀土價格在 FIN 高分位與部分長期記憶下呈負向依賴，但極端分位亦可能出現正向關係；一般金屬價格對 FIN 的直接外溢較弱。抗通膨債券在早期記憶下與 FIN 呈正向關聯。俄烏地緣政治風險在熊市狀態、短長期均壓抑 FIN。QVAR 顯示衝突期 FIN 與 SB 多為淨接收者，RGPR、UGPR、MP 與 RE 多為傳遞者，且 0.95 分位外溢通常高於 0.05。這些是分位依賴與外溢關係，不等同結構因果。",
+        "【作者提出的限制】作者指出 CQ／RCQ 不能建立因果、極端分位可能有小樣本偏誤，QVAR 在高維系統下也有解釋困難；其處理方式是限制核心變數、以多模型交叉核驗並聚焦資料密度足夠的分位數。",
+        "【其他限制】樣本僅涵蓋 2020–2023，難以區分疫情、通膨與戰爭衝擊；FinTech 產出與地緣風險指標的建構誤差可能影響尾部關係。文中部分敘述在 CQ、RCQ、QVAR 與 TVP-VAR 名稱間不完全一致，複製時宜以公式與程式設定為準。",
+        "【APA 7】Islam, M. M., Ahmed, F., Al Mahmud, A., & Shahbaz, M. (2025). The role of rare earth and metallic mineral prices and sovereign inflation-linked bonds in AI-driven fintech industrial development amid the Russia–Ukraine conflict: A dynamic quantile analysis approach. Financial Innovation, 11, Article 140. https://doi.org/10.1186/s40854-025-00888-4",
+        "【與美智研究的關聯】4/5。主題重疊在地緣政治、關鍵礦物、FinTech 與尾部風險；方法上可借鏡 CQ／RCQ 與 QVAR 的多層交叉核驗、相對尾部依賴和淨傳遞者辨識。主要差異是未處理氣候政策不確定性、綠色資產或 Baruník–Křehlík 頻率分解。可追蹤其關鍵礦物供應鏈與抗通膨債券引用。"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-20-epu-china-g7-time-frequency",
+      "title": "The quantile time–frequency connectedness of economic policy uncertainty between China and the G7 countries",
+      "search_date": "2026-09-20",
+      "authors": "Jizhi Zhao; Guangfu Chen; Ying Song",
+      "year": "2025",
+      "journal": "PLOS One, 20(12), e0337444",
+      "doi": "https://doi.org/10.1371/journal.pone.0337444",
+      "citations": "2（Crossref，2026-09-20；OpenAlex 尚未收錄）",
+      "openalex_url": "",
+      "fulltext_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0337444",
+      "reading_level": "全文精讀",
+      "abstract": "研究將 QVAR、GFEVD 與頻譜分解結合，分析 2000 年至 2025 年中國與 G7 經濟政策不確定性在正常及極端狀態、短期及長期的連結。美國在兩個頻段多為淨傳遞者，中國為淨接收者；整體連結主要由短期成分驅動，且在極端分位顯著增強。",
+      "tags": [
+        "QVAR",
+        "quantile time-frequency connectedness",
+        "GFEVD",
+        "frequency decomposition",
+        "economic policy uncertainty"
+      ],
+      "topics": [
+        "宏觀總體",
+        "方法論",
+        "金融市場"
+      ],
+      "keywords": [
+        "economic policy uncertainty",
+        "China",
+        "G7",
+        "tail risk",
+        "frequency domain"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】全文精讀；已核對 PLOS One 開放全文與 Crossref。Crossref 回報 2 次被引；OpenAlex 以 DOI 查詢尚未收錄。PLOS 文章採 CC BY，並提供資料來源連結。",
+        "【研究問題與動機】中國與 G7 的 EPU 外溢在正常與極端狀態、短期與長期有何異質性？哪些經濟體是淨傳遞者或接收者？作者欲避免均值模型與單一頻段掩蓋尾部和週期差異。",
+        "【研究變數】中國、美國、英國、法國、義大利、德國、加拿大與日本的 EPU 指數；中國序列由調整後 SCMP 與 Mainland 指數平滑銜接，模型使用一階差分。",
+        "【資料／市場／樣本】中國與 G7，月資料，2000-01 至 2025-03；來源為 Economic Policy Uncertainty 官方網站及中國 EPU 網站。八個經濟體約 303 個月份，經共同樣本與差分後的有效觀測數以作者程式為準。",
+        "【模型與估計】估計 QVAR(p) 並轉為 QVMA，以 GFEVD 建立 TCI、TO、FROM、NET 與 pairwise 指標，再用頻譜分解拆成短期與長期；分位數為 0.05、0.50、0.95，動態估計採 36 個月滾動窗、落後 1 期、20 步預測期。",
+        "【穩健性檢驗】以 Huang–Luk 中國 EPU 指數取代主序列後重估，主要短長期與總連結走勢一致；另報告 ERS 單根、Jarque–Bera 與 ARCH 檢驗。",
+        "【主要結果】中位數下平均 TCI 為 58.08%，其中短期 55.28%、長期 2.77%；中國為最大淨接收者（NET −9.46%），美國在短長期均為主要傳遞者。動態 TCI 約落在 42%–74%，主要由短期成分推動，極端狀態下連結進一步增強且具有上下尾不對稱。這些是統計外溢，不應解讀為政策因果。",
+        "【作者提出的限制】全文結論未獨立列出限制段；資料選擇受可得性與一致性限制，研究集中於中國與 G7，未納入其他主要新興經濟體或區分不同政策類型。",
+        "【其他限制】36 個月滾動窗在 0.05／0.95 分位的有效尾部觀測很少，可能提高估計不確定性；EPU 新聞指數的建構差異與跨國可比性亦可能影響方向性。模型不含 TVP-VAR-SV，因此參數變動主要由滾動窗近似。",
+        "【APA 7】Zhao, J., Chen, G., & Song, Y. (2025). The quantile time–frequency connectedness of economic policy uncertainty between China and the G7 countries. PLOS One, 20(12), e0337444. https://doi.org/10.1371/journal.pone.0337444",
+        "【與美智研究的關聯】4/5。可直接借鏡 QVAR→GFEVD→頻譜分解、短長期 TCI 及替代不確定性指數穩健性檢驗，適合移植到 CPU×能源／綠色資產。主要差異是 EPU 跨國網路而非 CPU 與資產市場，且沒有 TVP-VAR-SV。"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-20-fx-price-jumps-frequency",
+      "title": "Price jumps in the FX markets using the quantile frequency VAR connectedness framework",
+      "search_date": "2026-09-20",
+      "authors": "George N. Apostolakis; Christos Floros; Konstantinos Gkillas",
+      "year": "2026",
+      "journal": "Journal of Asset Management, 27(2), Article 21",
+      "doi": "https://doi.org/10.1057/s41260-026-00457-z",
+      "citations": "0（OpenAlex，2026-09-20）",
+      "openalex_url": "https://openalex.org/W7152998983",
+      "fulltext_url": "https://link.springer.com/article/10.1057/s41260-026-00457-z",
+      "reading_level": "全文精讀",
+      "abstract": "研究以四組主要匯率逾 20 年的日資料，結合 QVAR 與 Baruník–Křehlík 類型的頻率連結分解，分析價格跳躍在不同分位與持有期的傳遞。整體 TCI 由中位數的 42.43% 上升至 5% 分位的 57.93% 與 95% 分位的 99.52%；極端上尾與危機期間的長期外溢尤其明顯。",
+      "tags": [
+        "QVAR",
+        "quantile frequency connectedness",
+        "Baruník–Křehlík",
+        "price jumps",
+        "foreign exchange"
+      ],
+      "topics": [
+        "金融市場",
+        "宏觀總體",
+        "方法論"
+      ],
+      "keywords": [
+        "FX price jumps",
+        "EUR/USD",
+        "GBP/USD",
+        "USD/CAD",
+        "USD/JPY"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】全文精讀；已核對 Springer Nature 開放全文、Crossref 與 OpenAlex。OpenAlex W7152998983 顯示 0 次被引、未撤稿，並連回正式 DOI。",
+        "【研究問題與動機】主要匯率的價格跳躍如何在不同條件分位與短長期頻段傳遞？危機時的淨傳遞者／接收者角色是否改變？作者強調平均波動模型無法辨識尾部價格跳躍與持續性外溢。",
+        "【研究變數】EUR/USD、GBP/USD、USD/CAD、USD/JPY 四組匯率的日價格跳躍序列；跳躍反映突發總體消息、政策變動與全球衝擊所造成的不連續價格移動。",
+        "【資料／市場／樣本】四組主要外匯市場，日資料、約 20 年。公開正文未在可擷取文字中報告精確起訖日、資料庫與有效樣本量，故不推測。",
+        "【模型與估計】以 QVAR-GFEVD 計算 TCI、TO、FROM、NET 與 NPDC，再依 Baruník–Křehlík／Chatziantoniou 頻率方法拆成短期 1–5 日與長期 5 日以上；比較 0.05、0.50、0.95 分位及動態網路。",
+        "【穩健性檢驗】報告 Elliott–Rothenberg–Stock 單根、Q(20) 與 Q²(20) 加權 portmanteau 檢驗、ARCH 效果及跨分位／頻段一致性；正文未見替代跳躍估計器或不同頻帶切點的完整敏感度表。",
+        "【主要結果】TCI 在 0.50、0.05、0.95 分位分別為 42.43%、57.93%、99.52%；中位數短／長期為 32.28%／10.15%，上尾長期升至 38.31%。EUR/USD 在極端分位多為主要傳遞者，USD/CAD 在長期尾部多為接收者；GFC、歐債危機、Brexit、疫情與俄烏事件附近連結升高。結果顯示關聯與預測誤差分解，不構成事件的結構因果。",
+        "【作者提出的限制】全文未設獨立限制段；研究僅涵蓋四組美元交叉匯率，且價格跳躍與頻帶切分的選擇可能限制外推。",
+        "【其他限制】精確樣本起訖與跳躍建構細節在可擷取正文中不完整；QVAR 分位外溢會受尾部樣本密度影響。固定 1–5 日／5 日以上的切點未必適合所有市場，也未與 TVP-VAR-SV 或替代 jump estimator 系統比較。",
+        "【APA 7】Apostolakis, G. N., Floros, C., & Gkillas, K. (2026). Price jumps in the FX markets using the quantile frequency VAR connectedness framework. Journal of Asset Management, 27, Article 21. https://doi.org/10.1057/s41260-026-00457-z",
+        "【與美智研究的關聯】4/5。雖然應用在匯率跳躍，但 QVAR-GFEVD 加頻率分解、尾部分位與危機角色轉換正是 CPU×綠色資產設計可移植的核心。可借鏡明確頻帶定義、TCI 分解與事件期圖示；主要差異是沒有氣候變數與 TVP-VAR-SV。"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-20-feed-swine-tail-risk",
+      "title": "Asymmetric tail risk spillovers in feed-swine value chains: A time-frequency network approach",
+      "search_date": "2026-09-20",
+      "authors": "Chunyan Jiang; Xiaobing Li; Yayun Wang; Runze Ding",
+      "year": "2026",
+      "journal": "Agricultural and Food Economics, 14(1), Article 42",
+      "doi": "https://doi.org/10.1186/s40100-026-00486-7",
+      "citations": "0（OpenAlex，2026-09-20）",
+      "openalex_url": "https://openalex.org/W7161639713",
+      "fulltext_url": "https://link.springer.com/article/10.1186/s40100-026-00486-7",
+      "reading_level": "全文精讀",
+      "abstract": "研究整合 TVP-VAR-BK 與 QVAR-DY，建立「時間—頻率—尾部」三維架構，分析中國飼料—生豬價值鏈的價格脫鉤與極端風險共振。結果顯示，飼料成本主導短期、產能調整約束中期、國際糧價與總體因素塑造長期；市場下行與危機期間，尾部風險由飼料向生豬端的傳遞更快、更強。",
+      "tags": [
+        "TVP-VAR-BK",
+        "QVAR-DY",
+        "time-frequency-tail",
+        "food inflation",
+        "supply chain"
+      ],
+      "topics": [
+        "原物料/商品",
+        "宏觀總體",
+        "方法論"
+      ],
+      "keywords": [
+        "feed-swine value chain",
+        "international grain prices",
+        "economic policy uncertainty",
+        "tail risk",
+        "China"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】全文精讀；已核對 Springer Nature CC BY 4.0 全文、Crossref 與 OpenAlex。OpenAlex W7161639713 顯示 0 次被引且未撤稿。",
+        "【研究問題與動機】中國飼料—生豬鏈的價格傳遞為何會在疫病、政策與國際糧價衝擊下出現「價格脫鉤」與「風險共振」？不同週期與上下尾的風險來源、樞紐和傳遞方向是否改變？",
+        "【研究變數】食品 CPI（FCPI）、上海銀行間利率（SHIB）、豆粕與玉米價格（DPM、CRP）、豬肉價格（ZRY）、人民幣匯率（JCR）、EPU、FAO 食品價格（FFPI）及豬糧比（ZLB）；價格序列以對數報酬處理。",
+        "【資料／市場／樣本】中國月資料，2010-06 至 2025-07，約 182 個月份；來源含國家統計局、Wind、CSMAR、Cninfo、中國畜牧業協會、SHIBOR、EPU 官方資料庫與 FAO。部分 Wind／CSMAR 資料需授權。",
+        "【模型與估計】TVP-VAR-BK 描繪時間變動並把外溢拆為短、中、長期；QVAR-DY 在 0.05 與 0.95 分位、10 步預測期下建立尾部網路，計算 TCI 與 NET；另以 wavelet coherence 與 time-varying Granger 圖檢視相位和方向。",
+        "【穩健性檢驗】使用 wavelet coherence、追加的 time-varying Granger 關係圖、不同頻段與上下尾網路交叉檢視；落後期以 BIC 選擇。全文未見替代滾動窗或不同 QVAR 預測期的完整敏感度表。",
+        "【主要結果】短期外溢由飼料成本與金融流動性主導；中期受產能重建約束；長期由國際糧價、匯率與政策驅動。FFPI 對國內飼料成本的長期外溢在 2021–2022 全球糧食危機期間增加 152%。EPU 平均為接收者（−13.72），但 2021 年環境政策收緊時短暫轉為傳遞者（2.18）；下行尾部中飼料向生豬端的風險傳遞更強。這些是外溢與時序先行，不等同結構因果。",
+        "【作者提出的限制】作者未設獨立限制段；資料可得性受 Wind／CSMAR 授權限制，模型聚焦中國單一價值鏈，政策建議的國外可移植性有限。",
+        "【其他限制】月資料在 0.05／0.95 尾部的有效觀測有限；文中部分頻段描述與圖表標籤並不完全一致，且出現 2014–2026 的敘述超出聲稱樣本終點 2025-07，應在複製時核對原始程式與圖軸。部分極大中期指標也值得做尺度與數值審查。",
+        "【APA 7】Jiang, C., Li, X., Wang, Y., & Ding, R. (2026). Asymmetric tail risk spillovers in feed-swine value chains: A time-frequency network approach. Agricultural and Food Economics, 14, Article 42. https://doi.org/10.1186/s40100-026-00486-7",
+        "【與美智研究的關聯】4/5。應用主題不同，但 TVP-VAR-BK + QVAR-DY 的「時間—頻率—尾部」整合與 CPU×能源金融市場設計高度同構；可借鏡頻段角色輪替、尾部網路、國際價格與 EPU 交互機制。主要差異是實體食品供應鏈而非綠色資產，且未使用 TVP-VAR-SV。"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-20-green-economy-tourism-energy-shocks",
+      "title": "Co-movement dynamics between the green economy and tourism under energy shocks: A quantile-on-quantile connectedness method",
+      "search_date": "2026-09-20",
+      "authors": "Wang Gao; Jiajia Wei; Hegui Zhang; Hongwei Zhang; Xiaoman Jin",
+      "year": "2026",
+      "journal": "Current Issues in Tourism, advance online publication, 1–27",
+      "doi": "https://doi.org/10.1080/13683500.2026.2683138",
+      "citations": "0（Crossref，2026-09-20；OpenAlex 尚未收錄）",
+      "openalex_url": "",
+      "fulltext_url": "https://www.tandfonline.com/doi/abs/10.1080/13683500.2026.2683138",
+      "reading_level": "摘要層級",
+      "abstract": "研究以 Quantile-on-Quantile Connectedness 與 IV-ARDL／NARDL，分析能源衝擊下綠色經濟與觀光市場的動態共移。兩市場同步擴張或衰退時多為正向共移，走勢分歧時則因資本競逐出現負向共移；能源價格上升透過成本推動強化連結，價格下降則可能形成碳鎖定並削弱連結。",
+      "tags": [
+        "quantile-on-quantile connectedness",
+        "IV-ARDL",
+        "NARDL",
+        "green economy",
+        "energy shocks"
+      ],
+      "topics": [
+        "潔淨能源",
+        "能源市場",
+        "氣候風險/政策"
+      ],
+      "keywords": [
+        "green economy",
+        "tourism",
+        "energy prices",
+        "carbon lock-in",
+        "sector heterogeneity"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；已核對 Taylor & Francis 搜尋頁、Crossref 與 DOI。出版社全文端點回傳 403／需要存取權，未繞過付費牆。Crossref 回報 0 次被引，OpenAlex 尚未收錄。",
+        "【研究問題與動機】能源價格上漲與下跌如何不對稱地調節綠色經濟和觀光市場的跨分位共移？不同子產業在同步景氣與分歧景氣下是否具有不同避險與韌性角色？",
+        "【研究變數】綠色經濟與觀光市場指標、能源價格正負向衝擊，以及綠色基礎設施、政策驅動與成本敏感等子產業。摘要未報告指數代碼、能源基準與變數轉換方式。",
+        "【資料／市場／樣本】國家／市場、資料來源、樣本起訖、頻率與有效樣本量均未在可取得摘要中報告。",
+        "【模型與估計】Quantile-on-Quantile Connectedness 用於分辨兩市場在不同條件分位的正負向共移；IV-ARDL 與 NARDL 用於檢驗能源價格衝擊的不對稱調節。估計視窗、落後期與分位網格未在摘要中報告。",
+        "【穩健性檢驗】摘要僅列 IV-ARDL 與 NARDL 的互補使用，未提供工具變數設定、診斷檢驗、替代能源指標或完整敏感度結果。",
+        "【主要結果】市場同步成長或衰退時呈強正向共移；走勢分歧時出現負向共移，作者歸因於產業間資本重新配置，而波動風險大致受控。能源價格上升透過成本壓力強化市場連結，下降則觸發碳鎖定並削弱連結；綠色基礎設施共移較僵固、政策驅動部門較具韌性、成本敏感部門可作自然避險。摘要結果為關聯與模型解釋，不應延伸為結構因果。",
+        "【作者提出的限制】可取得摘要未報告作者限制。",
+        "【其他限制】缺少國家／市場、樣本、頻率、指數代碼與估計設定，現階段不能判斷識別強度；IV-ARDL 的工具有效性與 NARDL 的長短期不對稱需待全文核對。子產業敘述可能受指數分類與樣本期影響。",
+        "【APA 7】Gao, W., Wei, J., Zhang, H., Zhang, H., & Jin, X. (2026). Co-movement dynamics between the green economy and tourism under energy shocks: A quantile-on-quantile connectedness method. Current Issues in Tourism, 1–27. Advance online publication. https://doi.org/10.1080/13683500.2026.2683138",
+        "【與美智研究的關聯】3/5。重疊於綠色產業、能源衝擊與 QQ connectedness，可借鏡正／負能源價格衝擊及子產業異質性；但摘要未顯示 CPU、QVAR-GFEVD、BK 頻率分解或 TVP-VAR-SV，且資料設定尚待全文確認。"
+      ]
+    },
     {
       "id": "qvar-2026-09-19-uncertainty-fossil-green-energy",
       "title": "Quantile-on-quantile connectedness of uncertainty with fossil and green energy markets",
