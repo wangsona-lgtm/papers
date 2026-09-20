@@ -1,6 +1,6 @@
 {
   "total": 173,
-  "updated": "2026-09-20 20:08:13",
+  "updated": "2026-09-20 20:35:18",
   "topics": [
     "AI/科技",
     "其他",
@@ -65,7 +65,80 @@
         "【其他限制】樣本僅涵蓋 2020–2023，難以區分疫情、通膨與戰爭衝擊；FinTech 產出與地緣風險指標的建構誤差可能影響尾部關係。文中部分敘述在 CQ、RCQ、QVAR 與 TVP-VAR 名稱間不完全一致，複製時宜以公式與程式設定為準。",
         "【APA 7】Islam, M. M., Ahmed, F., Al Mahmud, A., & Shahbaz, M. (2025). The role of rare earth and metallic mineral prices and sovereign inflation-linked bonds in AI-driven fintech industrial development amid the Russia–Ukraine conflict: A dynamic quantile analysis approach. Financial Innovation, 11, Article 140. https://doi.org/10.1186/s40854-025-00888-4",
         "【與美智研究的關聯】4/5。主題重疊在地緣政治、關鍵礦物、FinTech 與尾部風險；方法上可借鏡 CQ／RCQ 與 QVAR 的多層交叉核驗、相對尾部依賴和淨傳遞者辨識。主要差異是未處理氣候政策不確定性、綠色資產或 Baruník–Křehlík 頻率分解。可追蹤其關鍵礦物供應鏈與抗通膨債券引用。"
-      ]
+      ],
+      "viewpoints": [
+        {
+          "claim": "如何在不同市場狀態與記憶期影響 AI驅動FinTech 產出？作者特別關注關鍵礦物供應鏈如何成為數",
+          "evidence": "如何在不同市場狀態與記憶期影響 AI對FinTech 產出？作者特別關注關鍵礦物供應鏈如何成為數的影響：驅動",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "軟體與 AIaaS 的 AI驅動FinTech 產出指數（FIN）",
+          "evidence": "軟體與 AIaaS 的 AI對FinTech 產出指數（FIN）的影響：驅動",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】稀土進口價格指數（RE，2000=100）、工業金屬生產者價格指數（MP，1988-06=100）、主權抗通膨債券（SB）、俄羅斯與烏克蘭地緣政治風險（RGPR、UGPR），以及涵蓋硬體、軟體與 AIaaS 的 AI 驅動 Fi…",
+          "evidence": "【研究變數】稀土進口價格指數（RE，2000=100）、工業金屬生產者價格指數（MP，1988-06=100）、主權抗通膨債券（SB）、俄羅斯與烏克蘭地緣政治風險（RGPR、UGPR），以及涵蓋硬體、軟體與 AIaaS 的 AI 驅動 FinTech 產出指數（FIN）。",
+          "confidence": "mid",
+          "source": "數據",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】QVAR 用來交叉驗證 CQ／RCQ 的方向與尾部結果；另以 Jarque–Bera、ERS 單根、核密度與對稱分位圖確認非正態與定態性，Ljung–Box 統計檢驗 cross-quantilogram 顯著性。",
+          "evidence": "【穩健性檢驗】QVAR 用來交叉驗證 CQ／RCQ 的方向與尾部結果；另以 Jarque–Bera、ERS 單根、核密度與對稱分位圖確認非正態與定態性，Ljung–Box 統計檢驗 cross-quantilogram 顯著性。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】稀土價格在 FIN 高分位與部分長期記憶下呈負向依賴，但極端分位亦可能出現正向關係；一般金屬價格對 FIN 的直接外溢較弱。抗通膨債券在早期記憶下與 FIN 呈正向關聯。俄烏地緣政治風險在熊市狀態、短長期均壓抑 FIN。QVAR…",
+          "evidence": "【主要結果】稀土價格在 FIN 高分位與部分長期記憶下呈負向依賴，但極端分位亦可能出現正向關係；一般金屬價格對 FIN 的直接外溢較弱。抗通膨債券在早期記憶下與 FIN 呈正向關聯。俄烏地緣政治風險在熊市狀態、短長期均壓抑 FIN。QVAR 顯示衝突期 FIN 與 SB 多為淨接收者，RGPR、UGPR、MP 與 RE 多為傳遞者，且 0.95 分位外溢通常高於 0.05。這些是分位依賴與外溢關係，不等同結構因果。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【作者提出的限制】作者指出 CQ／RCQ 不能建立因果、極端分位可能有小樣本偏誤，QVAR 在高維系統下也有解釋困難；其處理方式是限制核心變數、以多模型交叉核驗並聚焦資料密度足夠的分位數。",
+          "evidence": "【作者提出的限制】作者指出 CQ／RCQ 不能建立因果、極端分位可能有小樣本偏誤，QVAR 在高維系統下也有解釋困難；其處理方式是限制核心變數、以多模型交叉核驗並聚焦資料密度足夠的分位數。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【其他限制】樣本僅涵蓋 2020–2023，難以區分疫情、通膨與戰爭衝擊；FinTech 產出與地緣風險指標的建構誤差可能影響尾部關係。文中部分敘述在 CQ、RCQ、QVAR 與 TVP-VAR 名稱間不完全一致，複製時宜以公式與程式設定為…",
+          "evidence": "【其他限制】樣本僅涵蓋 2020–2023，難以區分疫情、通膨與戰爭衝擊；FinTech 產出與地緣風險指標的建構誤差可能影響尾部關係。文中部分敘述在 CQ、RCQ、QVAR 與 TVP-VAR 名稱間不完全一致，複製時宜以公式與程式設定為準。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】4/5。主題重疊在地緣政治、關鍵礦物、FinTech 與尾部風險；方法上可借鏡 CQ／RCQ 與 QVAR 的多層交叉核驗、相對尾部依賴和淨傳遞者辨識。主要差異是未處理氣候政策不確定性、綠色資產或 Baruník–Kře…",
+          "evidence": "【與美智研究的關聯】4/5。主題重疊在地緣政治、關鍵礦物、FinTech 與尾部風險；方法上可借鏡 CQ／RCQ 與 QVAR 的多層交叉核驗、相對尾部依賴和淨傳遞者辨識。主要差異是未處理氣候政策不確定性、綠色資產或 Baruník–Křehlík 頻率分解。可追蹤其關鍵礦物供應鏈與抗通膨債券引用。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "研究限制：作者指出 CQ／RCQ 不能建立因果、極端分位可能有小樣本偏誤，QVAR 在高維系統下也有解釋困難；其處理方式是限制核心變數、以多模型交叉核驗並聚焦資料密度足夠的分位數。",
+          "evidence": "作者指出 CQ／RCQ 不能建立因果、極端分位可能有小樣本偏誤，QVAR 在高維系統下也有解釋困難；其處理方式是限制核心變數、以多模型交叉核驗並聚焦資料密度足夠的分位數。",
+          "confidence": "low",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "研究限制：樣本僅涵蓋 2020–2023，難以區分疫情、通膨與戰爭衝擊；FinTech 產出與地緣風險指標的建構誤差可能影響尾部關係。文中部分敘述在 CQ、RCQ、QVAR 與 TVP-VAR 名稱間不完全一致，複製時宜以公式與程式設定為準。",
+          "evidence": "樣本僅涵蓋 2020–2023，難以區分疫情、通膨與戰爭衝擊；FinTech 產出與地緣風險指標的建構誤差可能影響尾部關係。文中部分敘述在 CQ、RCQ、QVAR 與 TVP-VAR 名稱間不完全一致，複製時宜以公式與程式設定為準。",
+          "confidence": "low",
+          "source": "研究限制",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    Theroleofrareea[\"📄 The role of rare earth and metallic mineral prices\"]\n    style Theroleofrareea fill:#2563eb,color:#fff,font-weight:bold\n    vp0如何在不同市場狀態與[\"💡 如何在不同市場狀態與記憶期影響 AI驅動FinTech 產出？作者特別關注關鍵礦\"]\n    style vp0如何在不同市場狀態與 fill:#fef3c7,stroke:#d97706\n    Theroleofrareea --> vp0如何在不同市場狀態與\n    vp1軟體與AIaaS[\"💡 軟體與 AIaaS 的 AI驅動FinTech 產出指數（FIN）\"]\n    style vp1軟體與AIaaS fill:#fef3c7,stroke:#d97706\n    Theroleofrareea --> vp1軟體與AIaaS\n    vp2研究變數稀土進口[\"💡 【研究變數】稀土進口價格指數（RE，2000=100）、工業金屬生產者價格指數（\"]\n    style vp2研究變數稀土進口 fill:#fef3c7,stroke:#d97706\n    Theroleofrareea --> vp2研究變數稀土進口\n    vp3穩健性檢驗QVA[\"💡 【穩健性檢驗】QVAR 用來交叉驗證 CQ／RCQ 的方向與尾部結果；另以 Ja\"]\n    style vp3穩健性檢驗QVA fill:#fef3c7,stroke:#d97706\n    Theroleofrareea --> vp3穩健性檢驗QVA\n    vp4主要結果稀土價格[\"💡 【主要結果】稀土價格在 FIN 高分位與部分長期記憶下呈負向依賴，但極端分位亦可\"]\n    style vp4主要結果稀土價格 fill:#fef3c7,stroke:#d97706\n    Theroleofrareea --> vp4主要結果稀土價格\n    vp5作者提出的限制作[\"💡 【作者提出的限制】作者指出 CQ／RCQ 不能建立因果、極端分位可能有小樣本偏誤\"]\n    style vp5作者提出的限制作 fill:#fef3c7,stroke:#d97706\n    Theroleofrareea --> vp5作者提出的限制作\n    vp6其他限制樣本僅涵[\"💡 【其他限制】樣本僅涵蓋 2020–2023，難以區分疫情、通膨與戰爭衝擊；Fin\"]\n    style vp6其他限制樣本僅涵 fill:#fef3c7,stroke:#d97706\n    Theroleofrareea --> vp6其他限制樣本僅涵\n    vp7與美智研究的關聯[\"💡 【與美智研究的關聯】4/5。主題重疊在地緣政治、關鍵礦物、FinTech 與尾部\"]\n    style vp7與美智研究的關聯 fill:#fef3c7,stroke:#d97706\n    Theroleofrareea --> vp7與美智研究的關聯\n    vp8研究限制作者指出[\"💡 研究限制：作者指出 CQ／RCQ 不能建立因果、極端分位可能有小樣本偏誤，QVA\"]\n    style vp8研究限制作者指出 fill:#fee2e2,stroke:#dc2626\n    Theroleofrareea --> vp8研究限制作者指出\n    vp9研究限制樣本僅涵蓋[\"💡 研究限制：樣本僅涵蓋 2020–2023，難以區分疫情、通膨與戰爭衝擊；FinT\"]\n    style vp9研究限制樣本僅涵蓋 fill:#fee2e2,stroke:#dc2626\n    Theroleofrareea --> vp9研究限制樣本僅涵蓋\n    如何在不同市場狀態與記憶期影響==>|\"驅動\"|FinTech產出作者特別\n    軟體與AIaaS的AI==>|\"驅動\"|FinTech產出指數FI"
     },
     {
       "id": "qvar-2026-09-20-epu-china-g7-time-frequency",
@@ -112,7 +185,66 @@
         "【其他限制】36 個月滾動窗在 0.05／0.95 分位的有效尾部觀測很少，可能提高估計不確定性；EPU 新聞指數的建構差異與跨國可比性亦可能影響方向性。模型不含 TVP-VAR-SV，因此參數變動主要由滾動窗近似。",
         "【APA 7】Zhao, J., Chen, G., & Song, Y. (2025). The quantile time–frequency connectedness of economic policy uncertainty between China and the G7 countries. PLOS One, 20(12), e0337444. https://doi.org/10.1371/journal.pone.0337444",
         "【與美智研究的關聯】4/5。可直接借鏡 QVAR→GFEVD→頻譜分解、短長期 TCI 及替代不確定性指數穩健性檢驗，適合移植到 CPU×能源／綠色資產。主要差異是 EPU 跨國網路而非 CPU 與資產市場，且沒有 TVP-VAR-SV。"
-      ]
+      ],
+      "viewpoints": [
+        {
+          "claim": "QVAR → GFEVD→",
+          "evidence": "QVAR對GFEVD→的影響",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "可能提高估計不確定性；EPU 新聞指數的建構差異與跨國可比性亦可能影",
+          "evidence": "可能對估計不確定性；EPU 新聞指數的建構差異與跨國可比性亦可能影的影響：提高",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】中國與 G7 的 EPU 外溢在正常與極端狀態、短期與長期有何異質性？哪些經濟體是淨傳遞者或接收者？作者欲避免均值模型與單一頻段掩蓋尾部和週期差異。",
+          "evidence": "【研究問題與動機】中國與 G7 的 EPU 外溢在正常與極端狀態、短期與長期有何異質性？哪些經濟體是淨傳遞者或接收者？作者欲避免均值模型與單一頻段掩蓋尾部和週期差異。",
+          "confidence": "mid",
+          "source": "檢定結果",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】中位數下平均 TCI 為 58.08%，其中短期 55.28%、長期 2.77%；中國為最大淨接收者（NET −9.46%），美國在短長期均為主要傳遞者。動態 TCI 約落在 42%–74%，主要由短期成分推動，極端狀態下連結進…",
+          "evidence": "【主要結果】中位數下平均 TCI 為 58.08%，其中短期 55.28%、長期 2.77%；中國為最大淨接收者（NET −9.46%），美國在短長期均為主要傳遞者。動態 TCI 約落在 42%–74%，主要由短期成分推動，極端狀態下連結進一步增強且具有上下尾不對稱。這些是統計外溢，不應解讀為政策因果。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【作者提出的限制】全文結論未獨立列出限制段；資料選擇受可得性與一致性限制，研究集中於中國與 G7，未納入其他主要新興經濟體或區分不同政策類型。",
+          "evidence": "【作者提出的限制】全文結論未獨立列出限制段；資料選擇受可得性與一致性限制，研究集中於中國與 G7，未納入其他主要新興經濟體或區分不同政策類型。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【其他限制】36 個月滾動窗在 0.05／0.95 分位的有效尾部觀測很少，可能提高估計不確定性；EPU 新聞指數的建構差異與跨國可比性亦可能影響方向性。模型不含 TVP-VAR-SV，因此參數變動主要由滾動窗近似。",
+          "evidence": "【其他限制】36 個月滾動窗在 0.05／0.95 分位的有效尾部觀測很少，可能提高估計不確定性；EPU 新聞指數的建構差異與跨國可比性亦可能影響方向性。模型不含 TVP-VAR-SV，因此參數變動主要由滾動窗近似。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "研究限制：全文結論未獨立列出限制段；資料選擇受可得性與一致性限制，研究集中於中國與 G7，未納入其他主要新興經濟體或區分不同政策類型。",
+          "evidence": "全文結論未獨立列出限制段；資料選擇受可得性與一致性限制，研究集中於中國與 G7，未納入其他主要新興經濟體或區分不同政策類型。",
+          "confidence": "low",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "研究限制：個月滾動窗在 0.05／0.95 分位的有效尾部觀測很少，可能提高估計不確定性；EPU 新聞指數的建構差異與跨國可比性亦可能影響方向性。模型不含 TVP-VAR-SV，因此參數變動主要由滾動窗近似。",
+          "evidence": "個月滾動窗在 0.05／0.95 分位的有效尾部觀測很少，可能提高估計不確定性；EPU 新聞指數的建構差異與跨國可比性亦可能影響方向性。模型不含 TVP-VAR-SV，因此參數變動主要由滾動窗近似。",
+          "confidence": "low",
+          "source": "研究限制",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    Thequantiletime[\"📄 The quantile time–frequency connectedness of econo\"]\n    style Thequantiletime fill:#2563eb,color:#fff,font-weight:bold\n    vp0QVARGFE[\"💡 QVAR → GFEVD→\"]\n    style vp0QVARGFE fill:#fef3c7,stroke:#d97706\n    Thequantiletime --> vp0QVARGFE\n    vp1可能提高估計不確定性[\"💡 可能提高估計不確定性；EPU 新聞指數的建構差異與跨國可比性亦可能影\"]\n    style vp1可能提高估計不確定性 fill:#fef3c7,stroke:#d97706\n    Thequantiletime --> vp1可能提高估計不確定性\n    vp2研究問題與動機中[\"💡 【研究問題與動機】中國與 G7 的 EPU 外溢在正常與極端狀態、短期與長期有何\"]\n    style vp2研究問題與動機中 fill:#fef3c7,stroke:#d97706\n    Thequantiletime --> vp2研究問題與動機中\n    vp3主要結果中位數下[\"💡 【主要結果】中位數下平均 TCI 為 58.08%，其中短期 55.28%、長期\"]\n    style vp3主要結果中位數下 fill:#fef3c7,stroke:#d97706\n    Thequantiletime --> vp3主要結果中位數下\n    vp4作者提出的限制全[\"💡 【作者提出的限制】全文結論未獨立列出限制段；資料選擇受可得性與一致性限制，研究集\"]\n    style vp4作者提出的限制全 fill:#fef3c7,stroke:#d97706\n    Thequantiletime --> vp4作者提出的限制全\n    vp5其他限制36個[\"💡 【其他限制】36 個月滾動窗在 0.05／0.95 分位的有效尾部觀測很少，可能\"]\n    style vp5其他限制36個 fill:#fef3c7,stroke:#d97706\n    Thequantiletime --> vp5其他限制36個\n    vp6研究限制全文結論未[\"💡 研究限制：全文結論未獨立列出限制段；資料選擇受可得性與一致性限制，研究集中於中國\"]\n    style vp6研究限制全文結論未 fill:#fee2e2,stroke:#dc2626\n    Thequantiletime --> vp6研究限制全文結論未\n    vp7研究限制個月滾動窗[\"💡 研究限制：個月滾動窗在 0.05／0.95 分位的有效尾部觀測很少，可能提高估計\"]\n    style vp7研究限制個月滾動窗 fill:#fee2e2,stroke:#dc2626\n    Thequantiletime --> vp7研究限制個月滾動窗\n    QVAR-->|\"GFEVD→\"|GFEVD\n    可能==>|\"提高\"|估計不確定性EPU新聞指數"
     },
     {
       "id": "qvar-2026-09-20-fx-price-jumps-frequency",
@@ -159,7 +291,59 @@
         "【其他限制】精確樣本起訖與跳躍建構細節在可擷取正文中不完整；QVAR 分位外溢會受尾部樣本密度影響。固定 1–5 日／5 日以上的切點未必適合所有市場，也未與 TVP-VAR-SV 或替代 jump estimator 系統比較。",
         "【APA 7】Apostolakis, G. N., Floros, C., & Gkillas, K. (2026). Price jumps in the FX markets using the quantile frequency VAR connectedness framework. Journal of Asset Management, 27, Article 21. https://doi.org/10.1057/s41260-026-00457-z",
         "【與美智研究的關聯】4/5。雖然應用在匯率跳躍，但 QVAR-GFEVD 加頻率分解、尾部分位與危機角色轉換正是 CPU×綠色資產設計可移植的核心。可借鏡明確頻帶定義、TCI 分解與事件期圖示；主要差異是沒有氣候變數與 TVP-VAR-SV。"
-      ]
+      ],
+      "viewpoints": [
+        {
+          "claim": "【研究變數】EUR/USD、GBP/USD、USD/CAD、USD/JPY 四組匯率的日價格跳躍序列；跳躍反映突發總體消息、政策變動與全球衝擊所造成的不連續價格移動。",
+          "evidence": "【研究變數】EUR/USD、GBP/USD、USD/CAD、USD/JPY 四組匯率的日價格跳躍序列；跳躍反映突發總體消息、政策變動與全球衝擊所造成的不連續價格移動。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】TCI 在 0.50、0.05、0.95 分位分別為 42.43%、57.93%、99.52%；中位數短／長期為 32.28%／10.15%，上尾長期升至 38.31%。EUR/USD 在極端分位多為主要傳遞者，USD/CAD …",
+          "evidence": "【主要結果】TCI 在 0.50、0.05、0.95 分位分別為 42.43%、57.93%、99.52%；中位數短／長期為 32.28%／10.15%，上尾長期升至 38.31%。EUR/USD 在極端分位多為主要傳遞者，USD/CAD 在長期尾部多為接收者；GFC、歐債危機、Brexit、疫情與俄烏事件附近連結升高。結果顯示關聯與預測誤差分解，不構成事件的結構因果。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【作者提出的限制】全文未設獨立限制段；研究僅涵蓋四組美元交叉匯率，且價格跳躍與頻帶切分的選擇可能限制外推。",
+          "evidence": "【作者提出的限制】全文未設獨立限制段；研究僅涵蓋四組美元交叉匯率，且價格跳躍與頻帶切分的選擇可能限制外推。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【其他限制】精確樣本起訖與跳躍建構細節在可擷取正文中不完整；QVAR 分位外溢會受尾部樣本密度影響。固定 1–5 日／5 日以上的切點未必適合所有市場，也未與 TVP-VAR-SV 或替代 jump estimator 系統比較。",
+          "evidence": "【其他限制】精確樣本起訖與跳躍建構細節在可擷取正文中不完整；QVAR 分位外溢會受尾部樣本密度影響。固定 1–5 日／5 日以上的切點未必適合所有市場，也未與 TVP-VAR-SV 或替代 jump estimator 系統比較。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】4/5。雖然應用在匯率跳躍，但 QVAR-GFEVD 加頻率分解、尾部分位與危機角色轉換正是 CPU×綠色資產設計可移植的核心。可借鏡明確頻帶定義、TCI 分解與事件期圖示；主要差異是沒有氣候變數與 TVP-VAR-SV…",
+          "evidence": "【與美智研究的關聯】4/5。雖然應用在匯率跳躍，但 QVAR-GFEVD 加頻率分解、尾部分位與危機角色轉換正是 CPU×綠色資產設計可移植的核心。可借鏡明確頻帶定義、TCI 分解與事件期圖示；主要差異是沒有氣候變數與 TVP-VAR-SV。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "研究限制：全文未設獨立限制段；研究僅涵蓋四組美元交叉匯率，且價格跳躍與頻帶切分的選擇可能限制外推。",
+          "evidence": "全文未設獨立限制段；研究僅涵蓋四組美元交叉匯率，且價格跳躍與頻帶切分的選擇可能限制外推。",
+          "confidence": "low",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "研究限制：精確樣本起訖與跳躍建構細節在可擷取正文中不完整；QVAR 分位外溢會受尾部樣本密度影響。固定 1–5 日／5 日以上的切點未必適合所有市場，也未與 TVP-VAR-SV 或替代 jump estimator 系統比較。",
+          "evidence": "精確樣本起訖與跳躍建構細節在可擷取正文中不完整；QVAR 分位外溢會受尾部樣本密度影響。固定 1–5 日／5 日以上的切點未必適合所有市場，也未與 TVP-VAR-SV 或替代 jump estimator 系統比較。",
+          "confidence": "low",
+          "source": "研究限制",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    Pricejumpsinthe[\"📄 Price jumps in the FX markets using the quantile f\"]\n    style Pricejumpsinthe fill:#2563eb,color:#fff,font-weight:bold\n    vp0研究變數EUR[\"💡 【研究變數】EUR/USD、GBP/USD、USD/CAD、USD/JPY 四組\"]\n    style vp0研究變數EUR fill:#fef3c7,stroke:#d97706\n    Pricejumpsinthe --> vp0研究變數EUR\n    vp1主要結果TCI[\"💡 【主要結果】TCI 在 0.50、0.05、0.95 分位分別為 42.43%、\"]\n    style vp1主要結果TCI fill:#fef3c7,stroke:#d97706\n    Pricejumpsinthe --> vp1主要結果TCI\n    vp2作者提出的限制全[\"💡 【作者提出的限制】全文未設獨立限制段；研究僅涵蓋四組美元交叉匯率，且價格跳躍與頻\"]\n    style vp2作者提出的限制全 fill:#fef3c7,stroke:#d97706\n    Pricejumpsinthe --> vp2作者提出的限制全\n    vp3其他限制精確樣本[\"💡 【其他限制】精確樣本起訖與跳躍建構細節在可擷取正文中不完整；QVAR 分位外溢會\"]\n    style vp3其他限制精確樣本 fill:#fef3c7,stroke:#d97706\n    Pricejumpsinthe --> vp3其他限制精確樣本\n    vp4與美智研究的關聯[\"💡 【與美智研究的關聯】4/5。雖然應用在匯率跳躍，但 QVAR-GFEVD 加頻率\"]\n    style vp4與美智研究的關聯 fill:#fef3c7,stroke:#d97706\n    Pricejumpsinthe --> vp4與美智研究的關聯\n    vp5研究限制全文未設獨[\"💡 研究限制：全文未設獨立限制段；研究僅涵蓋四組美元交叉匯率，且價格跳躍與頻帶切分的\"]\n    style vp5研究限制全文未設獨 fill:#fee2e2,stroke:#dc2626\n    Pricejumpsinthe --> vp5研究限制全文未設獨\n    vp6研究限制精確樣本起[\"💡 研究限制：精確樣本起訖與跳躍建構細節在可擷取正文中不完整；QVAR 分位外溢會受\"]\n    style vp6研究限制精確樣本起 fill:#fee2e2,stroke:#dc2626\n    Pricejumpsinthe --> vp6研究限制精確樣本起\n    vp0研究變數EUR --- vp1主要結果TCI\n    vp1主要結果TCI --- vp2作者提出的限制全\n    vp2作者提出的限制全 --- vp3其他限制精確樣本"
     },
     {
       "id": "qvar-2026-09-20-feed-swine-tail-risk",
@@ -206,7 +390,66 @@
         "【其他限制】月資料在 0.05／0.95 尾部的有效觀測有限；文中部分頻段描述與圖表標籤並不完全一致，且出現 2014–2026 的敘述超出聲稱樣本終點 2025-07，應在複製時核對原始程式與圖軸。部分極大中期指標也值得做尺度與數值審查。",
         "【APA 7】Jiang, C., Li, X., Wang, Y., & Ding, R. (2026). Asymmetric tail risk spillovers in feed-swine value chains: A time-frequency network approach. Agricultural and Food Economics, 14, Article 42. https://doi.org/10.1186/s40100-026-00486-7",
         "【與美智研究的關聯】4/5。應用主題不同，但 TVP-VAR-BK + QVAR-DY 的「時間—頻率—尾部」整合與 CPU×能源金融市場設計高度同構；可借鏡頻段角色輪替、尾部網路、國際價格與 EPU 交互機制。主要差異是實體食品供應鏈而非綠色資產，且未使用 TVP-VAR-SV。"
-      ]
+      ],
+      "viewpoints": [
+        {
+          "claim": "匯率與政策 驅動",
+          "evidence": "匯率與政策驅動",
+          "confidence": "mid",
+          "source": "發現",
+          "connections": []
+        },
+        {
+          "claim": "在 2021–2022 全球糧食危機期間增加152%",
+          "evidence": "在 2021–2022 全球糧食危機期間對152%的影響：增加",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】中國飼料—生豬鏈的價格傳遞為何會在疫病、政策與國際糧價衝擊下出現「價格脫鉤」與「風險共振」？不同週期與上下尾的風險來源、樞紐和傳遞方向是否改變？",
+          "evidence": "【研究問題與動機】中國飼料—生豬鏈的價格傳遞為何會在疫病、政策與國際糧價衝擊下出現「價格脫鉤」與「風險共振」？不同週期與上下尾的風險來源、樞紐和傳遞方向是否改變？",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】短期外溢由飼料成本與金融流動性主導；中期受產能重建約束；長期由國際糧價、匯率與政策驅動。FFPI 對國內飼料成本的長期外溢在 2021–2022 全球糧食危機期間增加 152%。EPU 平均為接收者（−13.72），但 2021…",
+          "evidence": "【主要結果】短期外溢由飼料成本與金融流動性主導；中期受產能重建約束；長期由國際糧價、匯率與政策驅動。FFPI 對國內飼料成本的長期外溢在 2021–2022 全球糧食危機期間增加 152%。EPU 平均為接收者（−13.72），但 2021 年環境政策收緊時短暫轉為傳遞者（2.18）；下行尾部中飼料向生豬端的風險傳遞更強。這些是外溢與時序先行，不等同結構因果。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【作者提出的限制】作者未設獨立限制段；資料可得性受 Wind／CSMAR 授權限制，模型聚焦中國單一價值鏈，政策建議的國外可移植性有限。",
+          "evidence": "【作者提出的限制】作者未設獨立限制段；資料可得性受 Wind／CSMAR 授權限制，模型聚焦中國單一價值鏈，政策建議的國外可移植性有限。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【其他限制】月資料在 0.05／0.95 尾部的有效觀測有限；文中部分頻段描述與圖表標籤並不完全一致，且出現 2014–2026 的敘述超出聲稱樣本終點 2025-07，應在複製時核對原始程式與圖軸。部分極大中期指標也值得做尺度與數值審查。",
+          "evidence": "【其他限制】月資料在 0.05／0.95 尾部的有效觀測有限；文中部分頻段描述與圖表標籤並不完全一致，且出現 2014–2026 的敘述超出聲稱樣本終點 2025-07，應在複製時核對原始程式與圖軸。部分極大中期指標也值得做尺度與數值審查。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "研究限制：作者未設獨立限制段；資料可得性受 Wind／CSMAR 授權限制，模型聚焦中國單一價值鏈，政策建議的國外可移植性有限。",
+          "evidence": "作者未設獨立限制段；資料可得性受 Wind／CSMAR 授權限制，模型聚焦中國單一價值鏈，政策建議的國外可移植性有限。",
+          "confidence": "low",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "研究限制：月資料在 0.05／0.95 尾部的有效觀測有限；文中部分頻段描述與圖表標籤並不完全一致，且出現 2014–2026 的敘述超出聲稱樣本終點 2025-07，應在複製時核對原始程式與圖軸。部分極大中期指標也值得做尺度與數值審查。",
+          "evidence": "月資料在 0.05／0.95 尾部的有效觀測有限；文中部分頻段描述與圖表標籤並不完全一致，且出現 2014–2026 的敘述超出聲稱樣本終點 2025-07，應在複製時核對原始程式與圖軸。部分極大中期指標也值得做尺度與數值審查。",
+          "confidence": "low",
+          "source": "研究限制",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    Asymmetrictailr[\"📄 Asymmetric tail risk spillovers in feed-swine valu\"]\n    style Asymmetrictailr fill:#2563eb,color:#fff,font-weight:bold\n    vp0匯率與政策驅動[\"💡 匯率與政策 驅動\"]\n    style vp0匯率與政策驅動 fill:#fef3c7,stroke:#d97706\n    Asymmetrictailr --> vp0匯率與政策驅動\n    vp1在2021202[\"💡 在 2021–2022 全球糧食危機期間增加152%\"]\n    style vp1在2021202 fill:#fef3c7,stroke:#d97706\n    Asymmetrictailr --> vp1在2021202\n    vp2研究問題與動機中[\"💡 【研究問題與動機】中國飼料—生豬鏈的價格傳遞為何會在疫病、政策與國際糧價衝擊下出\"]\n    style vp2研究問題與動機中 fill:#fef3c7,stroke:#d97706\n    Asymmetrictailr --> vp2研究問題與動機中\n    vp3主要結果短期外溢[\"💡 【主要結果】短期外溢由飼料成本與金融流動性主導；中期受產能重建約束；長期由國際糧\"]\n    style vp3主要結果短期外溢 fill:#fef3c7,stroke:#d97706\n    Asymmetrictailr --> vp3主要結果短期外溢\n    vp4作者提出的限制作[\"💡 【作者提出的限制】作者未設獨立限制段；資料可得性受 Wind／CSMAR 授權限\"]\n    style vp4作者提出的限制作 fill:#fef3c7,stroke:#d97706\n    Asymmetrictailr --> vp4作者提出的限制作\n    vp5其他限制月資料在[\"💡 【其他限制】月資料在 0.05／0.95 尾部的有效觀測有限；文中部分頻段描述與\"]\n    style vp5其他限制月資料在 fill:#fef3c7,stroke:#d97706\n    Asymmetrictailr --> vp5其他限制月資料在\n    vp6研究限制作者未設獨[\"💡 研究限制：作者未設獨立限制段；資料可得性受 Wind／CSMAR 授權限制，模型\"]\n    style vp6研究限制作者未設獨 fill:#fee2e2,stroke:#dc2626\n    Asymmetrictailr --> vp6研究限制作者未設獨\n    vp7研究限制月資料在[\"💡 研究限制：月資料在 0.05／0.95 尾部的有效觀測有限；文中部分頻段描述與圖\"]\n    style vp7研究限制月資料在 fill:#fee2e2,stroke:#dc2626\n    Asymmetrictailr --> vp7研究限制月資料在\n    的長期外溢在2021202==>|\"增加\"|152\n    vp0匯率與政策驅動 --- vp1在2021202\n    vp1在2021202 --- vp2研究問題與動機中\n    vp2研究問題與動機中 --- vp3主要結果短期外溢"
     },
     {
       "id": "qvar-2026-09-20-green-economy-tourism-energy-shocks",
@@ -253,7 +496,94 @@
         "【其他限制】缺少國家／市場、樣本、頻率、指數代碼與估計設定，現階段不能判斷識別強度；IV-ARDL 的工具有效性與 NARDL 的長短期不對稱需待全文核對。子產業敘述可能受指數分類與樣本期影響。",
         "【APA 7】Gao, W., Wei, J., Zhang, H., Zhang, H., & Jin, X. (2026). Co-movement dynamics between the green economy and tourism under energy shocks: A quantile-on-quantile connectedness method. Current Issues in Tourism, 1–27. Advance online publication. https://doi.org/10.1080/13683500.2026.2683138",
         "【與美智研究的關聯】3/5。重疊於綠色產業、能源衝擊與 QQ connectedness，可借鏡正／負能源價格衝擊及子產業異質性；但摘要未顯示 CPU、QVAR-GFEVD、BK 頻率分解或 TVP-VAR-SV，且資料設定尚待全文確認。"
-      ]
+      ],
+      "viewpoints": [
+        {
+          "claim": "題與動機】能源價格上漲與下跌如何不對稱地調節綠色經濟和觀光市場的跨分位共移？不同子產業在同步景氣與分歧景",
+          "evidence": "題與動機】能源價格上漲與下跌如何不對稱地對綠色經濟和觀光市場的跨分位共移？不同子產業在同步景氣與分歧景的影響：調節",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "政策驅動與成本敏感等子產業",
+          "evidence": "政策對與成本敏感等子產業的影響：驅動",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "NARDL 用於檢驗能源價格衝擊的不對稱 調節",
+          "evidence": "NARDL 用於檢驗能源價格衝擊的不對稱調節",
+          "confidence": "mid",
+          "source": "發現",
+          "connections": []
+        },
+        {
+          "claim": "政策驅動部門較具韌性",
+          "evidence": "政策對部門較具韌性的影響：驅動",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】能源價格上漲與下跌如何不對稱地調節綠色經濟和觀光市場的跨分位共移？不同子產業在同步景氣與分歧景氣下是否具有不同避險與韌性角色？",
+          "evidence": "【研究問題與動機】能源價格上漲與下跌如何不對稱地調節綠色經濟和觀光市場的跨分位共移？不同子產業在同步景氣與分歧景氣下是否具有不同避險與韌性角色？",
+          "confidence": "mid",
+          "source": "檢定結果",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】綠色經濟與觀光市場指標、能源價格正負向衝擊，以及綠色基礎設施、政策驅動與成本敏感等子產業。摘要未報告指數代碼、能源基準與變數轉換方式。",
+          "evidence": "【研究變數】綠色經濟與觀光市場指標、能源價格正負向衝擊，以及綠色基礎設施、政策驅動與成本敏感等子產業。摘要未報告指數代碼、能源基準與變數轉換方式。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【模型與估計】Quantile-on-Quantile Connectedness 用於分辨兩市場在不同條件分位的正負向共移；IV-ARDL 與 NARDL 用於檢驗能源價格衝擊的不對稱調節。估計視窗、落後期與分位網格未在摘要中報告。",
+          "evidence": "【模型與估計】Quantile-on-Quantile Connectedness 用於分辨兩市場在不同條件分位的正負向共移；IV-ARDL 與 NARDL 用於檢驗能源價格衝擊的不對稱調節。估計視窗、落後期與分位網格未在摘要中報告。",
+          "confidence": "mid",
+          "source": "檢定結果",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】摘要僅列 IV-ARDL 與 NARDL 的互補使用，未提供工具變數設定、診斷檢驗、替代能源指標或完整敏感度結果。",
+          "evidence": "【穩健性檢驗】摘要僅列 IV-ARDL 與 NARDL 的互補使用，未提供工具變數設定、診斷檢驗、替代能源指標或完整敏感度結果。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】市場同步成長或衰退時呈強正向共移；走勢分歧時出現負向共移，作者歸因於產業間資本重新配置，而波動風險大致受控。能源價格上升透過成本壓力強化市場連結，下降則觸發碳鎖定並削弱連結；綠色基礎設施共移較僵固、政策驅動部門較具韌性、成本敏感…",
+          "evidence": "【主要結果】市場同步成長或衰退時呈強正向共移；走勢分歧時出現負向共移，作者歸因於產業間資本重新配置，而波動風險大致受控。能源價格上升透過成本壓力強化市場連結，下降則觸發碳鎖定並削弱連結；綠色基礎設施共移較僵固、政策驅動部門較具韌性、成本敏感部門可作自然避險。摘要結果為關聯與模型解釋，不應延伸為結構因果。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【作者提出的限制】可取得摘要未報告作者限制。",
+          "evidence": "【作者提出的限制】可取得摘要未報告作者限制。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【其他限制】缺少國家／市場、樣本、頻率、指數代碼與估計設定，現階段不能判斷識別強度；IV-ARDL 的工具有效性與 NARDL 的長短期不對稱需待全文核對。子產業敘述可能受指數分類與樣本期影響。",
+          "evidence": "【其他限制】缺少國家／市場、樣本、頻率、指數代碼與估計設定，現階段不能判斷識別強度；IV-ARDL 的工具有效性與 NARDL 的長短期不對稱需待全文核對。子產業敘述可能受指數分類與樣本期影響。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】3/5。重疊於綠色產業、能源衝擊與 QQ connectedness，可借鏡正／負能源價格衝擊及子產業異質性；但摘要未顯示 CPU、QVAR-GFEVD、BK 頻率分解或 TVP-VAR-SV，且資料設定尚待全文確認。",
+          "evidence": "【與美智研究的關聯】3/5。重疊於綠色產業、能源衝擊與 QQ connectedness，可借鏡正／負能源價格衝擊及子產業異質性；但摘要未顯示 CPU、QVAR-GFEVD、BK 頻率分解或 TVP-VAR-SV，且資料設定尚待全文確認。",
+          "confidence": "mid",
+          "source": "檢定結果",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    Comovementdynam[\"📄 Co-movement dynamics between the green economy and\"]\n    style Comovementdynam fill:#2563eb,color:#fff,font-weight:bold\n    vp0題與動機能源價格上[\"💡 題與動機】能源價格上漲與下跌如何不對稱地調節綠色經濟和觀光市場的跨分位共移？不同\"]\n    style vp0題與動機能源價格上 fill:#fef3c7,stroke:#d97706\n    Comovementdynam --> vp0題與動機能源價格上\n    vp1政策驅動與成本敏感等[\"💡 政策驅動與成本敏感等子產業\"]\n    style vp1政策驅動與成本敏感等 fill:#fef3c7,stroke:#d97706\n    Comovementdynam --> vp1政策驅動與成本敏感等\n    vp2NARDL用於檢驗[\"💡 NARDL 用於檢驗能源價格衝擊的不對稱 調節\"]\n    style vp2NARDL用於檢驗 fill:#fef3c7,stroke:#d97706\n    Comovementdynam --> vp2NARDL用於檢驗\n    vp3政策驅動部門較具韌性[\"💡 政策驅動部門較具韌性\"]\n    style vp3政策驅動部門較具韌性 fill:#fef3c7,stroke:#d97706\n    Comovementdynam --> vp3政策驅動部門較具韌性\n    vp4研究問題與動機能[\"💡 【研究問題與動機】能源價格上漲與下跌如何不對稱地調節綠色經濟和觀光市場的跨分位共\"]\n    style vp4研究問題與動機能 fill:#fef3c7,stroke:#d97706\n    Comovementdynam --> vp4研究問題與動機能\n    vp5研究變數綠色經濟[\"💡 【研究變數】綠色經濟與觀光市場指標、能源價格正負向衝擊，以及綠色基礎設施、政策驅\"]\n    style vp5研究變數綠色經濟 fill:#fef3c7,stroke:#d97706\n    Comovementdynam --> vp5研究變數綠色經濟\n    vp6模型與估計Qua[\"💡 【模型與估計】Quantile-on-Quantile Connectednes\"]\n    style vp6模型與估計Qua fill:#fef3c7,stroke:#d97706\n    Comovementdynam --> vp6模型與估計Qua\n    vp7穩健性檢驗摘要僅[\"💡 【穩健性檢驗】摘要僅列 IV-ARDL 與 NARDL 的互補使用，未提供工具變\"]\n    style vp7穩健性檢驗摘要僅 fill:#fef3c7,stroke:#d97706\n    Comovementdynam --> vp7穩健性檢驗摘要僅\n    vp8主要結果市場同步[\"💡 【主要結果】市場同步成長或衰退時呈強正向共移；走勢分歧時出現負向共移，作者歸因於\"]\n    style vp8主要結果市場同步 fill:#fef3c7,stroke:#d97706\n    Comovementdynam --> vp8主要結果市場同步\n    vp9作者提出的限制可[\"💡 【作者提出的限制】可取得摘要未報告作者限制。\"]\n    style vp9作者提出的限制可 fill:#fef3c7,stroke:#d97706\n    Comovementdynam --> vp9作者提出的限制可\n    vp10其他限制缺少國家[\"💡 【其他限制】缺少國家／市場、樣本、頻率、指數代碼與估計設定，現階段不能判斷識別強\"]\n    style vp10其他限制缺少國家 fill:#fef3c7,stroke:#d97706\n    Comovementdynam --> vp10其他限制缺少國家\n    vp11與美智研究的關聯[\"💡 【與美智研究的關聯】3/5。重疊於綠色產業、能源衝擊與 QQ connected\"]\n    style vp11與美智研究的關聯 fill:#fef3c7,stroke:#d97706\n    Comovementdynam --> vp11與美智研究的關聯\n    研究問題與動機能源價格上漲-->|\"調節\"|綠色經濟和觀光市場的跨分位共移\n    note[\"⋯ 還有 12 個觀點\"]"
     },
     {
       "id": "qvar-2026-09-19-uncertainty-fossil-green-energy",
