@@ -1,6 +1,6 @@
 {
-  "total": 173,
-  "updated": "2026-09-20 20:35:18",
+  "total": 176,
+  "updated": "2026-09-21 20:12:37",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,148 @@
     "金融市場"
   ],
   "papers": [
+    {
+      "id": "qvar-2026-09-21-climate-risks-european-stocks",
+      "title": "Do Climate Risks Affect Stock Markets? Quantile Connectedness Analysis for Major European Economies",
+      "search_date": "2026-09-21",
+      "authors": "Deniz Sevinç; Veysel Karagöl",
+      "year": "2026",
+      "journal": "Politická ekonomie, 74(4), 751–781",
+      "doi": "https://doi.org/10.18267/j.polek.1516",
+      "citations": "0（OpenAlex／Crossref，2026-09-21）",
+      "openalex_url": "https://openalex.org/W7123344588",
+      "fulltext_url": "https://polek.vse.cz/doi/10.18267/j.polek.1516.pdf",
+      "reading_level": "全文精讀",
+      "abstract": "研究以 2013 年 4 月至 2023 年 12 月的日資料，將歐洲五大股市與新聞文本建構的實體及轉型氣候風險指數放入動態 QVAR 與 quantile time-frequency connectedness 架構。氣候風險與股市的連結在高波動／危機狀態較強，且主要集中於短期；德國與英國對轉型風險較敏感並較常成為淨傳遞者，義大利與瑞士的連結較平衡。結果是狀態依賴的外溢關係，不構成結構因果。",
+      "tags": [
+        "QVAR",
+        "quantile time-frequency connectedness",
+        "GFEVD",
+        "Baruník–Křehlík",
+        "climate physical risk",
+        "climate transition risk"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "金融市場",
+        "方法論"
+      ],
+      "keywords": [
+        "physical risk index",
+        "transition risk index",
+        "European stock markets",
+        "tail connectedness",
+        "frequency decomposition"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】全文精讀；已核對 Politická ekonomie 正式開放取用 PDF、Crossref 與 OpenAlex。OpenAlex ID 為 W7123344588，OpenAlex 與 Crossref 於 2026-09-21 均回報 0 次被引，且 OpenAlex 標示未撤稿。",
+        "【研究問題與動機】實體與轉型氣候風險對歐洲主要股市的風險連結是否隨市場分位與投資期間改變？作者欲辨識不同國家在危機、一般狀態及短長期中扮演淨傳遞者或接收者的差異。",
+        "【研究變數】氣候風險包括 Physical Risk Index（PRI）與 Transition Risk Index（TRI），兩者為歐洲氣候新聞文本建構的日指數；股市為法國 CAC 40、德國 DAX、義大利 FTSE MIB、瑞士 SMI 與英國 FTSE 100 的日收盤價／報酬。",
+        "【資料／市場／樣本】歐洲五國日資料，2013-04-16 至 2023-12-29；PRI／TRI 取自 Economic Policy Uncertainty 資料庫所收錄的 Bua 等人指數，股價指數取自 Investing.com。原文未以單一數字報告共同樣本量。",
+        "【模型與估計】先估計動態 QVAR 與 GFEVD，計算 TCI、TO、FROM、NET 及 pairwise 指標；再依 Chatziantoniou 等人的 quantile time-frequency 架構把 QVAR-GFEVD 轉入頻域，區分短期與長期。表 3–7 使用 200 日滾動窗、BIC 選定落後 1 期及 100 步預測期。",
+        "【穩健性檢驗】原文以 Jarque–Bera、ERS 單根及 Ljung–Box Q／Q² 檢驗確認非正態、定態與序列相關／異質變異特徵；未另報告替代氣候指數、滾動窗或預測期的正式穩健性表，因此不能把描述性診斷當成完整模型穩健性。",
+        "【主要結果】五個三變量系統的整體 TCI 約為 25.70%–26.75%；短期 TCI 約 21.08%–21.75%，長期約 4.62%–4.99%，顯示外溢以短期為主。危機及高分位時連結增強；DAX 與 FTSE 100 對 TRI 較敏感，結論指出德國與英國較常成為轉型風險的淨傳遞者，而 FTSE MIB 與 SMI 結構較平衡。這些是連結與外溢估計，不等同氣候政策的結構因果效果。",
+        "【作者提出的限制】作者指出 PRI／TRI 受現有資料限制，未來應比較替代資料與風險衡量；QVAR 能呈現狀態敏感性但不足以建立更明確因果，宜加入結構模型或其他計量方法；樣本期間也應延長以辨識長期轉型。",
+        "【其他限制】五個股市各自與 PRI／TRI 組成三變量系統，未建立跨國股票市場共同網路；200 日滾動窗在極端分位下的有效尾部觀測偏少，可能提高估計不確定性。文本型氣候風險指數與跨國交易日對齊亦可能造成測量誤差。",
+        "【APA 7】Sevinç, D., & Karagöl, V. (2026). Do climate risks affect stock markets? Quantile connectedness analysis for major European economies. Politická ekonomie, 74(4), 751–781. https://doi.org/10.18267/j.polek.1516",
+        "【與美智研究的關聯】5/5。主題直接重疊實體／轉型氣候風險、金融資產尾部外溢及短長期分解；方法上可借鏡 QVAR→GFEVD→頻域分解、200 日滾動窗與國別異質性呈現。主要差異是其資產為歐洲一般股指、未納入綠色資產與 TVP-VAR-SV。可追蹤 Bua 等人的 PRI／TRI、Chatziantoniou 等人的 QTF 及 Ando 等人的 QVAR 引用。"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-21-green-finance-shipping-climate-risk",
+      "title": "Quantile time–frequency connectedness between green finance and shipping markets: The role of climate transition and physical risks",
+      "search_date": "2026-09-21",
+      "authors": "Ailing Feng; Yanhui Chen",
+      "year": "2025",
+      "journal": "International Review of Economics & Finance, 104, Article 104704",
+      "doi": "https://doi.org/10.1016/j.iref.2025.104704",
+      "citations": "5（Crossref，2026-09-21；OpenAlex 尚未收錄）",
+      "openalex_url": "",
+      "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S1059056025008676",
+      "reading_level": "摘要層級",
+      "abstract": "研究以分位數—時間頻率連結衡量綠色金融與航運市場的極端風險外溢，並檢驗實體及轉型氣候風險對外溢的時變 Granger 因果。一般狀態下外溢逐漸消退，極端狀態下衝擊傳遞明顯增強且更持久；下行極端時綠色金融主導風險傳遞，上行極端時散裝航運在短期、油輪航運在長期的傳遞作用較強。轉型風險與長期極端外溢相關，實體風險則影響中間狀態的長期外溢。",
+      "tags": [
+        "quantile time-frequency connectedness",
+        "climate risk",
+        "green finance",
+        "shipping markets",
+        "time-varying Granger causality"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "綠債/ESG",
+        "金融市場"
+      ],
+      "keywords": [
+        "green finance",
+        "bulk shipping",
+        "tanker shipping",
+        "transition risk",
+        "physical risk"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；已核對 ScienceDirect／DOAJ 摘要、Crossref 書目與 DOI。Crossref 於 2026-09-21 回報 5 次被引；OpenAlex 以 DOI 查詢尚未收錄。出版社頁標示 open access，但本次 PDF 端點回傳 403，未繞過存取控制。",
+        "【研究問題與動機】綠色金融與航運市場的外溢是否同時受到市場分位與投資期間影響？實體及轉型氣候風險是否對極端外溢具有時變預測關係？",
+        "【研究變數】摘要明示綠色金融市場、散裝航運市場、油輪航運市場、實體氣候風險與轉型氣候風險；各市場使用的確切指數名稱、報酬／波動轉換與單位未在摘要報告。",
+        "【資料／市場／樣本】摘要未報告資料來源、國家／市場涵蓋、樣本起訖、頻率與有效樣本量；不得由題名或相鄰研究推定。",
+        "【模型與估計】摘要明示 quantile time-frequency extreme-risk spillover 與 climate-risk 的 time-varying causality 分析；是否使用特定 QVAR 落後期、滾動窗、GFEVD 預測期及 Baruník–Křehlík 頻帶界線，摘要未報告。",
+        "【穩健性檢驗】摘要未報告替代指數、視窗、預測期、子樣本或其他穩健性檢驗。",
+        "【主要結果】一般狀態下外溢逐漸消退，極端狀態下外部衝擊傳遞急遽增強且更持久；下行極端時綠色金融主導傳遞，上行極端時航運扮演經濟指標，散裝航運偏短期、油輪航運偏長期。摘要稱轉型風險對極端外溢有長期 Granger 因果，實體風險影響中間狀態的長期外溢；此處僅能解讀為預測性 Granger 關係，不是結構因果。",
+        "【作者提出的限制】摘要未報告作者限制；全文不可取得，因此不補寫作者未明示的限制。",
+        "【其他限制】目前只能做摘要層級判讀，缺少市場指數、樣本期間、分位設定、頻帶、估計視窗與數值表；出版社資料可應要求取得，降低即時可複製性。重大事件改變轉型風險關係的敘述亦可能混入同期地緣政治與能源價格共同衝擊。",
+        "【APA 7】Feng, A., & Chen, Y. (2025). Quantile time–frequency connectedness between green finance and shipping markets: The role of climate transition and physical risks. International Review of Economics & Finance, 104, Article 104704. https://doi.org/10.1016/j.iref.2025.104704",
+        "【與美智研究的關聯】5/5。主題幾乎直接對應氣候風險×綠色資產與航運市場，方法重疊分位數、時間頻率外溢及氣候風險 Granger 預測。可借鏡下／上尾由不同市場主導及實體／轉型風險分開檢驗。主要差異是摘要未顯示 TVP-VAR-SV，且研究核心含航運而非完整能源金融資產網路。可追蹤其 QTF、氣候風險與 shipping connectedness 引用。"
+      ]
+    },
+    {
+      "id": "qvar-2026-09-21-spillover-index-inference",
+      "title": "(Quantile) Spillover Indexes: Simulation-Based Evidence, Confidence Intervals and a Decomposition",
+      "search_date": "2026-09-21",
+      "authors": "Giovanni Bonaccolto; Massimiliano Caporin; Syed Jawad Hussain Shahzad",
+      "year": "2026",
+      "journal": "Journal of Financial Econometrics, 24(1), Article nbaf021",
+      "doi": "https://doi.org/10.1093/jjfinec/nbaf021",
+      "citations": "4（Crossref，2026-09-21；OpenAlex 尚未收錄）",
+      "openalex_url": "",
+      "fulltext_url": "https://academic.oup.com/jfec/article/24/1/nbaf021/8363192",
+      "reading_level": "摘要層級",
+      "abstract": "本文以模擬證據指出，若 QVAR／VAR 中保留不顯著係數且未正則化，spillover index 會產生正向偏誤；樣本愈小、模型中真正零係數愈多時，極端分位的高估尤其明顯。作者提出分位數 spillover index 的模擬式信賴區間，並將 spillover 代數分解為動態相依與殘差同期相關兩部分；S&P 100 金融公司實證顯示偏誤具實質規模，且同期成分占主導。",
+      "tags": [
+        "QVAR",
+        "quantile spillover index",
+        "simulation",
+        "confidence intervals",
+        "regularization",
+        "spillover decomposition"
+      ],
+      "topics": [
+        "方法論",
+        "金融市場"
+      ],
+      "keywords": [
+        "Diebold–Yilmaz index",
+        "small-sample bias",
+        "model selection",
+        "residual correlation",
+        "S&P 100 financial firms"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；已核對 Oxford Academic 正式書目、機構典藏摘要與 Crossref。Crossref 於 2026-09-21 回報 4 次被引，OpenAlex 尚未解析 DOI。Crossref 標示 CC BY，但出版社與典藏 PDF 本次均受 403／機器驗證阻擋，未繞過控制。",
+        "【研究問題與動機】QVAR／VAR spillover index 在有限樣本、稀疏動態與殘差同期相關下是否有系統偏誤？如何建立信賴區間，並把動態相依與同期相關對 spillover 的貢獻拆開？",
+        "【研究變數】模擬部分操弄 VAR／QVAR 的動態係數、真正零係數、殘差相關與樣本量；實證部分使用 S&P 100 金融公司資料。摘要未報告公司清單、報酬定義與其他控制變數。",
+        "【資料／市場／樣本】實證市場為 S&P 100 中的金融公司；資料來源、樣本期間、頻率與樣本量在摘要未報告。模擬設計的完整 DGP、重複次數與樣本量組合亦需全文表格確認。",
+        "【模型與估計】以 VAR 與 QVAR 為基準，透過模擬評估 spillover index 的有限樣本偏誤；比較保留不顯著係數、顯著性篩選與正則化，提出模擬式信賴區間，並將指數分解為動態 interdependence 與殘差 contemporaneous interdependence。",
+        "【穩健性檢驗】摘要指出結果亦在傳統 Diebold–Yilmaz spillover index 上成立；官方頁另說明以正則化或 general-to-specific 規格降低失真。完整演算法、名目涵蓋率與替代設定未在摘要層級完整報告。",
+        "【主要結果】未檢驗係數顯著性或未正則化會使 spillover index 正向偏誤；樣本增大時偏誤下降，篩除不顯著係數或正則化可明顯改善，但小樣本仍受第一類錯誤影響。S&P 100 金融公司實證顯示偏誤不僅是模擬現象，分解後同期殘差相關的貢獻占主導。",
+        "【作者提出的限制】官方全文頁可見的未來研究方向包括以 Bayesian 方法建立信賴區間，以及更深入分析市場壓力時期殘差相關如何驅動 spillover index；摘要未另列限制清單。",
+        "【其他限制】目前為摘要層級，不能判定哪種正則化、選模門檻與模擬式信賴區間在各 DGP 下最佳；S&P 100 金融公司案例的外部效度未必可直接延伸到高維氣候—能源—綠色資產網路。",
+        "【APA 7】Bonaccolto, G., Caporin, M., & Shahzad, S. J. H. (2026). (Quantile) spillover indexes: Simulation-based evidence, confidence intervals and a decomposition. Journal of Financial Econometrics, 24(1), Article nbaf021. https://doi.org/10.1093/jjfinec/nbaf021",
+        "【與美智研究的關聯】5/5。雖非氣候主題，卻直接挑戰 QVAR 極端分位 spillover 的估計可靠性：小樣本、零係數與殘差相關可能造成尾部 TCI 高估。美智研究可借鏡係數篩選／正則化、模擬式信賴區間及動態—同期分解，作為 QVAR、BK 與 TVP-VAR-SV 結果的關鍵穩健性補強。主要差異是本文方法驗證與金融公司案例，未做氣候政策不確定性或頻率分解。"
+      ]
+    },
     {
       "id": "qvar-2026-09-20-rare-earth-fintech-geopolitical",
       "title": "The role of rare earth and metallic mineral prices and sovereign inflation-linked bonds in AI-driven fintech industrial development amid the Russia–Ukraine conflict: A dynamic quantile analysis approach",
