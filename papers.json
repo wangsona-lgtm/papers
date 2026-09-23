@@ -1,6 +1,6 @@
 {
-  "total": 203,
-  "updated": "2026-09-23 20:35:19",
+  "total": 204,
+  "updated": "2026-09-24 08:01:00",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,54 @@
     "金融市場"
   ],
   "papers": [
+    {
+      "id": "qvar-2026-09-24-energy-esg-gold-network",
+      "title": "Risk Spillovers Among Conventional Energy, New Energy Subsectors, ESG Assets and Gold: A Quantile Time–Frequency Connectedness Network Approach",
+      "search_date": "2026-09-24",
+      "authors": "Rong Li; Yuhan Li",
+      "year": "2026",
+      "journal": "Preprints.org, Version 1 [Preprint]",
+      "doi": "https://doi.org/10.20944/preprints202609.1975.v1",
+      "citations": "0（Crossref，2026-09-24；OpenAlex 尚未收錄）",
+      "openalex_url": "",
+      "fulltext_url": "https://www.preprints.org/manuscript/202609.1975/v1",
+      "reading_level": "摘要層級",
+      "abstract": "本文以分位數時頻連結度與複雜網路分析，檢視 ESG 指數、煤炭與天然氣股價指數、五個新能源子產業指數、綜合新能源指數與黃金 ETF 在不同市場狀態和投資期限下的風險傳遞。極端狀態的總外溢明顯升高，且短期外溢在各狀態均占主導；俄烏戰爭與長期連結度持續升高同時出現，COVID-19 則主要對應短期波動高峰。煤炭是網路中心節點，光電為新能源子系統的重要傳遞樞紐。",
+      "tags": [
+        "quantile time-frequency connectedness",
+        "complex network",
+        "risk spillovers",
+        "new energy subsectors",
+        "ESG"
+      ],
+      "topics": [
+        "能源市場",
+        "潔淨能源",
+        "綠債/ESG",
+        "地緣政治/國防"
+      ],
+      "keywords": [
+        "coal",
+        "natural gas",
+        "photovoltaics",
+        "wind power",
+        "gold ETF"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；已核對 Preprints.org 公開頁面與 Crossref 正式中繼資料。此為 2026-09-23 發布的 Version 1 預印本，未同儕審查，授權為 CC BY 4.0。Crossref 於 2026-09-24 回報 0 次被引；OpenAlex 以 DOI 查詢尚未收錄。官方全文介面本次觸發 Akamai 安全驗證，未嘗試繞過存取控制。",
+        "【研究問題與動機】傳統能源、新能源子產業、ESG 資產與黃金之間的風險連結，是否會隨市場分位、投資期限和危機事件而改變？不同新能源子產業在風險網路中的傳遞與接收角色為何？",
+        "【研究變數】摘要明示包含 ESG 指數、煤炭與天然氣股價指數、五個新能源子產業指數、綜合新能源指數和黃金 ETF；結果特別點名風電、光電與新能源車。完整指數名稱、報酬轉換和幣別未在可取得摘要報告。",
+        "【資料／市場／樣本】市場涵蓋傳統能源、多個新能源子產業、ESG 資產與黃金；資料來源、國家／市場範圍、樣本起訖、頻率與有效樣本量在可取得摘要中均未報告。",
+        "【模型與估計】使用 quantile time–frequency connectedness 與複雜網路分析，比較正常與極端市場狀態、長短投資期限、淨傳遞／淨接收角色和網路中心性。摘要未明示 QVAR 方程、變異分解形式、分位格點、頻帶邊界、落後期或預測期。",
+        "【穩健性檢驗】可取得摘要區分靜態與動態估計，並比較不同分位與頻帶；但未報告替代指數、視窗、落後期、頻帶或模型的正式穩健性檢驗。",
+        "【主要結果】極端狀態的總外溢急升，短期外溢在各市場狀態均占主導。正常狀態下，風電、光電、天然氣與新能源車為淨傳遞者；光電、風電、天然氣與黃金在多數分位／頻帶的角色較穩定。俄烏戰爭與長期連結度持續升高同時出現，COVID-19 主要對應短期脈衝。煤炭是中心節點，光電是新能源的傳遞樞紐；這些為連結性關聯，不是結構因果效果。",
+        "【作者提出的限制】可取得摘要未列出作者正式限制；未取得可完整閱讀的全文，因此不補寫作者未明示的內容。",
+        "【其他限制】此版本未同儕審查，且摘要未提供樣本期間、頻率、指數來源與具體分位／頻帶設定，無法審核數值可重現性。產業指數可能同時反映市場規模與成分股重疊；危機期事件對應也可能受共同宏觀衝擊影響。",
+        "【APA 7】Li, R., & Li, Y. (2026). Risk spillovers among conventional energy, new energy subsectors, ESG assets and gold: A quantile time–frequency connectedness network approach [Preprint]. Preprints.org. https://doi.org/10.20944/preprints202609.1975.v1",
+        "【與美智研究的關聯】4/5。方法上直接重疊分位數、時頻外溢與網路角色，主題上可補充新能源子產業、ESG、傳統能源與黃金的比較系統。可借鏡子產業層級、中心性與危機的長短期差異；主要差異是未以氣候政策不確定性或氣候風險為核心，且可取得摘要無法確認是否使用 TVP-VAR-SV + BK + QVAR。可追蹤 quantile time–frequency connectedness 與新能源網路節點之引用。"
+      ]
+    },
     {
       "id": "qvar-2026-09-22-lasso-qvar-crypto50",
       "title": "Spillover and predictability of volatility of 50 major cryptocurrencies: Evidence from a LASSO-regularized Quantile VAR",
