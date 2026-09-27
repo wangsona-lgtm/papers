@@ -1,6 +1,6 @@
 {
-  "total": 112,
-  "updated": "2026-09-26 20:30:11",
+  "total": 116,
+  "updated": "2026-09-27 08:11:26",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,203 @@
     "金融市場"
   ],
   "papers": [
+    {
+      "id": "qvar-2026-09-27-china-green-finance-network",
+      "title": "Risk spillover and network connectedness analysis of green financial and related financial markets: evidence from China",
+      "search_date": "2026-09-27",
+      "authors": "Ziwei Huang; Xiaoquan Ding; Yuankui Wang",
+      "year": "2026",
+      "journal": "Humanities and Social Sciences Communications, 13(1), Article 344",
+      "doi": "https://doi.org/10.1057/s41599-026-06706-1",
+      "citations": "3（OpenAlex／Crossref，2026-09-27）",
+      "openalex_url": "https://openalex.org/W7129111702",
+      "fulltext_url": "https://www.nature.com/articles/s41599-026-06706-1",
+      "reading_level": "全文精讀",
+      "abstract": "本文以中國綠色債券、綠色股票與碳市場，以及傳統股票、債券、外匯、貨幣、能源、金屬與農產品市場，分析時域、頻域與網路風險外溢。作者先用 ARMA-GJR-GARCH 估計波動，再結合 TVP-VAR、Diebold–Yilmaz、Baruník–Křehlík 與複雜網路。結果顯示綠債與綠色股票多為淨風險傳遞者，碳市場多為淨接收者；長期外溢高於短中期，危機期連結度明顯上升，綠債為整體網路中心節點。",
+      "tags": [
+        "TVP-VAR",
+        "Baruník–Křehlík",
+        "frequency connectedness",
+        "complex network",
+        "green finance"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "綠債/ESG",
+        "碳市場/碳交易",
+        "能源市場",
+        "金融市場"
+      ],
+      "keywords": [
+        "green bonds",
+        "green stocks",
+        "carbon market",
+        "China",
+        "risk spillover network"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】全文精讀；已核對 Nature／Springer Nature 公開全文、Crossref 與 OpenAlex。OpenAlex ID 為 W7129111702，OpenAlex 與 Crossref 均回報 3 次被引，且 OpenAlex 未標示撤稿（核驗日 2026-09-27）。",
+        "【研究問題與動機】中國政策驅動且分割的綠色金融市場中，綠債、綠色股票與碳市場如何向傳統金融及商品市場傳遞風險？外溢強度是否隨時間與投資期限變化，哪些市場是網路中的系統性節點？",
+        "【研究變數】綠色金融市場：綠色債券、綠色股票、湖北碳排放交易市場；相關市場：傳統股票、傳統債券、外匯、貨幣、能源、金屬及農產品。以日收盤價計算報酬，再以 ARMA(p,q)-GJR-GARCH(1,1) 估計各市場波動。",
+        "【資料／市場／樣本】中國市場；Wind 資料庫與中國證券指數有限公司官網；2014-04-28 至 2024-08-31 的日資料。原文未在可讀正文中明列最終有效樣本量；Wind 資料受授權限制。",
+        "【模型與估計】ARMA(p,q)-GJR-GARCH(1,1)（p、q 於 0–5 間以 AIC 選擇）估計波動；TVP-VAR(1) 結合 DY 時域外溢與 BK 頻域分解，頻帶為短期 0–22 日、中期 22–250 日、長期 250 日以上；另以 NPDC、degree、betweenness 與 closeness centrality 建構加權有向網路。",
+        "【穩健性檢驗】以 200 日滾動固定參數 VAR 比較 TVP-VAR；將湖北碳市場替換為廣東碳市場；另檢查疫情前與疫情後非危機子樣本。替代碳市場得到近似動態外溢型態，支持主要結果並非單一試點市場所驅動。",
+        "【主要結果】時域 TCI 約介於 32.90% 至 89.51%，COVID-19 期間達高點。綠債與綠色股票是主要淨傳遞者，碳市場為淨接收者；綠債—傳統債券及綠色股票—傳統股票之間雙向外溢特別顯著。長期連結度高於短、中期；綠債居網路中心。結果描述預測性外溢與連結，不足以識別結構因果。",
+        "【作者提出的限制】湖北碳市場僅代理尚在發展的全國碳市場，外推性受限；作者建議未來使用更成熟的全國碳市場資料，並以結構轉折等方法更細緻辨識不同危機階段。",
+        "【其他限制】研究僅聚焦中國，政策驅動、市場分割與投資人結構可能限制跨國外推；以 GARCH 型波動與 FEVD 描述的方向性仍依賴模型設定；Wind 資料受授權限制，降低完全重現性。",
+        "【APA 7】Huang, Z., Ding, X., & Wang, Y. (2026). Risk spillover and network connectedness analysis of green financial and related financial markets: Evidence from China. Humanities and Social Sciences Communications, 13, Article 344. https://doi.org/10.1057/s41599-026-06706-1",
+        "【與美智研究的關聯】4/5。主題上涵蓋綠債、綠色股票、碳與能源市場；方法上直接使用 TVP-VAR 與 BK 時頻外溢，可作為美智 TVP-VAR-SV + BK + QVAR 架構的頻域與網路比較基準。可借鏡頻帶設定、替代碳市場與危機子樣本；主要差異是本文未納入氣候政策不確定性、QVAR 或分位數尾部辨識。可追蹤其 TVP-VAR-BK、NPDC 與綠債中心性引用。"
+      ],
+      "pdf": ""
+    },
+    {
+      "id": "qvar-2026-09-27-climate-green-crypto-bk",
+      "title": "Spillover and connectedness dynamics of precious metals, cryptocurrencies and green assets under climate risk",
+      "search_date": "2026-09-27",
+      "authors": "Ifran Khan; Huangbao Gui; Bijia Li; Chin Man Chui; Mrs Faryal",
+      "year": "2026",
+      "journal": "International Review of Economics & Finance, 107, Article 105119",
+      "doi": "https://doi.org/10.1016/j.iref.2026.105119",
+      "citations": "1（OpenAlex／Crossref，2026-09-27）",
+      "openalex_url": "https://openalex.org/W7137066502",
+      "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S1059056026002327",
+      "reading_level": "摘要層級",
+      "abstract": "本文以貴金屬、主要加密貨幣、綠色股票及實體／轉型氣候風險指標，檢視波動外溢的方向與期限結構。摘要顯示整體外溢解釋 40.3% 的市場不確定性，短期外溢 39.15% 高於中期 18.27% 與長期 20.88%；以太幣、比特幣、白銀、XRP、銠與潔淨能源為淨傳遞者，而兩類氣候風險、USDT、黃金、BNB、綠色經濟與白金多為淨接收者。",
+      "tags": [
+        "Diebold–Yilmaz",
+        "Baruník–Křehlík",
+        "climate risk",
+        "cryptocurrency",
+        "green assets"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "綠債/ESG",
+        "加密貨幣/數位金融",
+        "原物料/商品",
+        "金融市場"
+      ],
+      "keywords": [
+        "physical climate risk",
+        "transition climate risk",
+        "precious metals",
+        "cryptocurrencies",
+        "clean energy"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；已核對 ScienceDirect 公開摘要、Crossref 與 OpenAlex。OpenAlex ID 為 W7137066502，兩者均回報 1 次被引，OpenAlex 未標示撤稿且標示 Gold OA（核驗日 2026-09-27）；本環境無法取得可完整讀取的出版商全文。",
+        "【研究問題與動機】實體與轉型氣候風險如何嵌入貴金屬、加密貨幣與綠色資產的波動外溢網路？不同資產在總體與短、中、長期頻帶中分別扮演何種風險傳遞或接收角色？",
+        "【研究變數】五種貴金屬：黃金、白銀、白金、鈀與銠；五種加密貨幣：Bitcoin、Ethereum、Tether、XRP、BNB；兩個綠色股票指數：NASDAQ OMX Green Economy 與 S&P Global Clean Energy；兩個文本型氣候風險指標：實體風險 PRI 與轉型風險 TRI。",
+        "【資料／市場／樣本】日資料，2018-01 至 2023-12；跨全球商品、加密貨幣、綠色股票與氣候風險指標。可取得摘要未報告個別資料供應商、交易日對齊規則與有效樣本量。",
+        "【模型與估計】使用 Diebold–Yilmaz 時域連結度與 Baruník–Křehlík 頻域分解，估計波動外溢、方向性與淨傳遞／接收角色；摘要未明示 VAR 階數、滾動視窗、預測期及頻帶切點。",
+        "【穩健性檢驗】可取得摘要未報告替代視窗、落後期、指數或模型的正式穩健性檢驗；僅能確認作者同時比較總體與短、中、長期頻帶。",
+        "【主要結果】總外溢解釋 40.3% 的系統不確定性；短期 39.15% 高於中期 18.27% 與長期 20.88%。Ethereum、Bitcoin、白銀、XRP、銠與 clean energy 為淨傳遞者；鈀、TRI、PRI、USDT、黃金、BNB、green economy 與白金為淨接收者。摘要稱 TRI 較反映廣泛市場變動、PRI 經較專門渠道傳遞；這些是模型連結性而非結構因果。",
+        "【作者提出的限制】可取得摘要未列出作者正式限制，因此不補寫全文未提供的內容。",
+        "【其他限制】模型未採 QVAR，不能直接比較尾端分位狀態；摘要層級缺少資料來源、估計細節與穩健性表格；同時放入多類資產可能受共同危機與市場交易時段差異影響。",
+        "【APA 7】Khan, I., Gui, H., Li, B., Chui, C. M., & Faryal, M. (2026). Spillover and connectedness dynamics of precious metals, cryptocurrencies and green assets under climate risk. International Review of Economics & Finance, 107, Article 105119. https://doi.org/10.1016/j.iref.2026.105119",
+        "【與美智研究的關聯】4/5。主題直接重疊氣候風險×綠色資產，並加入潔淨能源、加密貨幣與貴金屬；BK 頻域分解可作為美智 QVAR／FRL 研究的平均狀態基準。可借鏡 PRI／TRI 分拆與資產角色比較；主要差異是本文未使用 CPU、QVAR 或 TVP-VAR-SV。可追蹤 climate risk、green assets、cryptocurrency 與 BK connectedness 的引用。"
+      ],
+      "pdf": ""
+    },
+    {
+      "id": "qvar-2026-09-27-energy-link-prediction",
+      "title": "Systemic Financial Risk Spillover Between Traditional-Energy and New-Energy Markets: A Quantile Time–Frequency Network with Link Prediction",
+      "search_date": "2026-09-27",
+      "authors": "Wenxuan Jin; Di Yuan; Peilin Wang; Sufang Li",
+      "year": "2026",
+      "journal": "International Journal of Financial Studies, 14(9), Article 242",
+      "doi": "https://doi.org/10.3390/ijfs14090242",
+      "citations": "0（OpenAlex／Crossref，2026-09-27）",
+      "openalex_url": "https://openalex.org/W7212083094",
+      "fulltext_url": "https://www.mdpi.com/2227-7072/14/9/242",
+      "reading_level": "摘要層級",
+      "abstract": "本文以三種原油期貨、兩種天然氣期貨與五個中國新能源產業指數，結合分位數時頻連結度及樣本外驗證的連結預測，分析已實現與潛在的風險網路。結果顯示連結度具有時間變動與分位不對稱，平均系統連結主要由短期頻帶構成，危機期明顯升高。INE 原油與兩種天然氣期貨多為淨接收者，WTI 與 Brent 為淨傳遞者；期限拉長後，太陽能由淨接收者轉為淨傳遞者，並在預測網路中最可能啟動新的短期外溢連結。",
+      "tags": [
+        "QVAR",
+        "quantile time-frequency connectedness",
+        "link prediction",
+        "energy transition",
+        "network analysis"
+      ],
+      "topics": [
+        "能源市場",
+        "潔淨能源",
+        "方法論",
+        "金融市場"
+      ],
+      "keywords": [
+        "crude-oil futures",
+        "natural-gas futures",
+        "new-energy stocks",
+        "solar sector",
+        "systemic risk"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；已核對 RePEc／出版商公開摘要、Crossref 與 OpenAlex。OpenAlex ID 為 W7212083094，OpenAlex 與 Crossref 均回報 0 次被引且未標示撤稿（核驗日 2026-09-27）。出版商 PDF 入口回傳 Access Denied，未繞過存取控制。",
+        "【研究問題與動機】傳統能源期貨與中國新能源產業之間的系統性風險網路，如何隨市場分位、時間與投資期限改變？除已實現外溢外，能否以樣本外連結預測辨識可能新生成的傳遞路徑？",
+        "【研究變數】三種原油期貨（摘要明示 INE、WTI、Brent）、兩種天然氣期貨，以及五個中國新能源產業指數；結果特別點名太陽能產業。其餘新能源指數與天然氣合約完整名稱在可取得摘要未報告。",
+        "【資料／市場／樣本】涵蓋全球／中國傳統能源期貨與中國新能源股票產業；資料來源、樣本起訖、頻率及有效樣本量在可取得摘要中未報告。",
+        "【模型與估計】quantile time–frequency connectedness framework、網路分析與具樣本外驗證的 link-prediction model；比較不同分位與短長期限的 TCI、淨方向性及潛在新增網路邊。可取得摘要未明示 QVAR 階數、分位格點、預測期與頻帶切點。",
+        "【穩健性檢驗】摘要明示連結預測經樣本外驗證，這是對未來網路邊預測的效度檢查；未報告替代視窗、頻帶、落後期或資產代理的其他穩健性檢驗。",
+        "【主要結果】短期頻帶占平均整體連結度的大部分，危機期系統連結明顯升高。INE 原油與兩個天然氣期貨為淨接收者，WTI 與 Brent 持續為淨傳遞者，Brent 在極端市場特別突出。太陽能隨期限延長由接收者轉為傳遞者，且在預測網路中最可能啟動新短期外溢連結；此為模型預測傾向，不是因果效果。",
+        "【作者提出的限制】可取得摘要未列出作者正式限制，故不推定全文未公開的限制內容。",
+        "【其他限制】摘要層級無法核對樣本期、資產指數、分位／頻帶設定與連結預測演算法細節；能源期貨與產業股指可能同時受宏觀及政策衝擊；預測網路不等同實際未來因果傳染。",
+        "【APA 7】Jin, W., Yuan, D., Wang, P., & Li, S. (2026). Systemic financial risk spillover between traditional-energy and new-energy markets: A quantile time–frequency network with link prediction. International Journal of Financial Studies, 14(9), Article 242. https://doi.org/10.3390/ijfs14090242",
+        "【與美智研究的關聯】4/5。方法上直接重疊 QVAR、時頻分解、方向性外溢與網路分析，並加入樣本外連結預測；主題可補強傳統能源—新能源尾端風險。可借鏡期限相依角色轉換與預測網路；主要差異是未以 CPU／氣候風險或綠債為核心，也未確認 TVP-VAR-SV。可追蹤 quantile time-frequency network 與 link prediction 的方法引用。"
+      ],
+      "pdf": ""
+    },
+    {
+      "id": "qvar-2026-09-27-salience-financial-institutions",
+      "title": "Salience-based quantile interconnectedness in the higher-order moments of China’s financial institutions",
+      "search_date": "2026-09-27",
+      "authors": "Fengyuan Liu",
+      "year": "2026",
+      "journal": "Portuguese Economic Journal, 25(3), 363–386",
+      "doi": "https://doi.org/10.1007/s10258-026-00294-3",
+      "citations": "0（OpenAlex／Crossref，2026-09-27）",
+      "openalex_url": "https://openalex.org/W7171638895",
+      "fulltext_url": "https://link.springer.com/article/10.1007/s10258-026-00294-3",
+      "reading_level": "摘要層級",
+      "abstract": "本文以十一年高頻資料，研究顯著性思維如何影響中國金融機構報酬高階矩的分位數連結。結果顯示連結結構在熊市、正常與牛市狀態差異甚大，極端狀態下顯著增強；證券部門在多數狀態為主要淨外溢傳遞者，但當指標由峰度逐步轉向報酬時，其主導程度下降。高階矩連結度亦隨時間變動，並在股市動盪、中美貿易戰與 COVID-19 等事件期間急升。",
+      "tags": [
+        "quantile connectedness",
+        "higher-order moments",
+        "salience theory",
+        "financial institutions",
+        "systemic risk"
+      ],
+      "topics": [
+        "金融市場",
+        "行為金融",
+        "方法論"
+      ],
+      "keywords": [
+        "salience",
+        "return",
+        "volatility",
+        "skewness",
+        "kurtosis"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；已核對 RePEc／Springer 出版資料、Crossref 與 OpenAlex。OpenAlex ID 為 W7171638895，OpenAlex 與 Crossref 均回報 0 次被引且未標示撤稿（核驗日 2026-09-27）；出版商全文受訂閱限制。",
+        "【研究問題與動機】投資人顯著性思維是否會改變中國金融機構在報酬與高階矩風險上的連結結構？不同熊市、正常與牛市狀態，以及不同矩階，會否產生不同的系統性傳遞者？",
+        "【研究變數】中國金融機構的報酬與高階矩風險，摘要明示比較由峰度到報酬的矩階，並以顯著性理論值建構分位數連結；證券部門為主要結果焦點。其他金融機構分組與指標定義未在可取得摘要報告。",
+        "【資料／市場／樣本】中國金融機構，十一年高頻資料；確切起訖日期、盤中頻率、資料來源、機構數與觀測量在可取得摘要未報告。",
+        "【模型與估計】salience-based quantile interconnectedness，跨熊市、正常與牛市狀態比較報酬及高階矩的連結和淨外溢角色。可取得摘要未提供 QVAR 方程、FEVD、分位格點、落後期或視窗設定。",
+        "【穩健性檢驗】可取得摘要未報告替代顯著性指標、抽樣頻率、估計視窗或模型的正式穩健性檢驗。",
+        "【主要結果】極端市場狀態的相互連結顯著強於正常狀態。證券部門在多數狀態是主要淨傳遞者，但其主導性由峰度往報酬指標逐步減弱，顯示網路結構依矩階而變；連結度在中國股市動盪、中美貿易戰與 COVID-19 期間上升。這些事件對應與模型方向性不構成結構因果證明。",
+        "【作者提出的限制】可取得摘要未列出作者正式限制，故不補寫全文未公開的內容。",
+        "【其他限制】摘要缺少完整金融機構清單、資料頻率、估計細節與穩健性結果；單一國家金融體系限制外推；顯著性指標、矩估計誤差及共同宏觀衝擊可能影響網路結果。",
+        "【APA 7】Liu, F. (2026). Salience-based quantile interconnectedness in the higher-order moments of China’s financial institutions. Portuguese Economic Journal, 25(3), 363–386. https://doi.org/10.1007/s10258-026-00294-3",
+        "【與美智研究的關聯】3/5。方法上可補充分位數連結與高階矩／行為機制，但主題不含氣候政策不確定性、綠色資產或時頻 BK。可借鏡把報酬、波動、偏態與峰度分層比較，以及極端事件網路監測；主要差異是研究對象為中國金融機構。可追蹤 higher-order moments 與 salience-based quantile connectedness 的引用。"
+      ],
+      "pdf": ""
+    },
     {
       "title": "Differential impact of multiple risks on green and conventional bond markets: Evidence from multifractal analysis",
       "authors": "Shi, Fengyuan; Guo, Yaoqi",
