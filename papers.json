@@ -1,6 +1,6 @@
 {
-  "total": 116,
-  "updated": "2026-09-27 20:32:30",
+  "total": 118,
+  "updated": "2026-09-28 07:32:20",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,107 @@
     "金融市場"
   ],
   "papers": [
+    {
+      "id": "qvar-2026-09-28-carbon-efficient-indices",
+      "title": "Examining Carbon Efficient Stock Indices Using the Quantile Connectedness Approach",
+      "search_date": "2026-09-28",
+      "authors": "Özge Dinç Cavlak",
+      "year": "2026",
+      "journal": "Maliye ve Finans Yazıları, 41(125), 277–298",
+      "doi": "https://doi.org/10.33203/mfy.1836044",
+      "citations": "0（Crossref；OpenAlex 尚未收錄，2026-09-28）",
+      "openalex_url": "",
+      "fulltext_url": "https://dergipark.org.tr/tr/download/article-file/5478367",
+      "reading_level": "全文精讀",
+      "abstract": "本文以六組 S&P 碳效率股票指數，檢驗已開發、新興、亞太、歐洲、拉丁美洲與北美市場在不同報酬分位數下的連通性。QVAR-GFEVD 結果顯示，尾部市場的總連通性高於中位數：τ=0.05、0.50、0.95 的 TCI 分別為 83.27%、74.73% 與 83.07%。市場的淨傳遞／接收角色也會隨分位數與時間改變，說明碳效率股票在極端狀態下的分散效果下降。",
+      "tags": [
+        "QVAR",
+        "GFEVD",
+        "quantile connectedness",
+        "rolling window",
+        "carbon-efficient equities"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "綠債/ESG",
+        "金融市場"
+      ],
+      "keywords": [
+        "carbon efficiency",
+        "sustainable finance",
+        "tail connectedness",
+        "S&P climate indices",
+        "portfolio diversification"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】全文精讀；已核對期刊頁面、合法公開 PDF、Crossref 與 OpenAlex DOI 查詢。Crossref 回報 0 次被引；OpenAlex 於 2026-09-28 尚未解析此 DOI，因此不臆造 OpenAlex ID 或撤稿狀態。PDF 與期刊頁面均顯示 CC BY-NC 4.0。",
+        "【研究問題與動機】不同地區的碳效率股票指數在正常、下跌與上漲市場中如何傳遞報酬衝擊？尾部連通性是否高於中位數，因而削弱碳效率投資的跨市場分散利益？",
+        "【研究變數】六組美元計價的 S&P LargeMidCap Carbon Efficient 指數日報酬：已開發市場（DEV）、新興市場（EM）、亞太（AP）、歐洲（EUR）、拉丁美洲（LA）與北美（NA）。碳效率指數提高低單位營收溫室氣體排放企業的權重、降低高排放企業權重。",
+        "【資料／市場／樣本】S&P Dow Jones Indices；2015-11-01 至 2025-11-21 日資料，涵蓋六個全球／區域市場。作者以 Python 對齊跨市場交易日並用對數差計算報酬；最終有效樣本量未報告。",
+        "【模型與估計】QVAR(p) 轉為 QVMA(∞)，再以 H 步 GFEVD 計算 TO、FROM、NET 與 TCI；分位數 τ=0.05、0.50、0.95，預測期 20 日，動態估計採 200 日滾動視窗，並以網路圖呈現淨方向性連通。",
+        "【穩健性檢驗】全文報告 ERS 單根檢定、Jarque–Bera 與加權 Portmanteau Q(20)／Q²(20) 等資料診斷；但未另報告替代視窗、預測期、模型、指數定義或子樣本的穩健性檢驗，故不能把前述診斷視為完整穩健性證據。",
+        "【主要結果】TCI 在 τ=0.05、0.50、0.95 分別為 83.27%、74.73%、83.07%，兩端尾部均高於正常狀態。τ=0.05 時 AP、EUR、NA 為淨傳遞者，DEV、EM、LA 為淨接收者；τ=0.95 時 AP、EUR、NA 仍為淨傳遞者，其他市場為淨接收者。τ=0.50 時 DEV、EUR、NA 為淨傳遞者，AP 的淨接收程度最大。這些是預測性連通性，不能解讀為結構因果。",
+        "【作者提出的限制】作者指出研究僅涵蓋碳效率股票指數；未來應加入綠債、ESG 股票及其他綠色、永續與氣候金融工具，以更完整評估避險、分散與永續投資促進效果。",
+        "【其他限制】只有六組 S&P 指數且皆以美元計價，可能混入匯率與共同全球因子；樣本量未報告；未提供替代模型與參數敏感度；地區指數高度聚合，不能辨識產業或企業層級的傳導機制。",
+        "【APA 7】Dinç Cavlak, Ö. (2026). Karbon verimli hisse senedi endekslerinin kantil bağlantılılık yaklaşımıyla incelenmesi [Examining carbon efficient stock indices using the quantile connectedness approach]. Maliye ve Finans Yazıları, 41(125), 277–298. https://doi.org/10.33203/mfy.1836044",
+        "【與美智研究的關聯】4/5。主題上直接處理低碳資產與尾部連通性；方法上使用 QVAR-GFEVD，可作為美智氣候政策不確定性 × 綠色資產研究的橫斷區域基準。可借鏡 τ=0.05／0.50／0.95、20 日預測期與 200 日視窗設定；主要差異是本文沒有 CPU、TVP-VAR-SV、BK 頻域分解或氣候風險衝擊變數。可追蹤碳效率指數定義、尾部 TCI 與地區角色轉換。"
+      ],
+      "pdf": "",
+      "viewpoints": [],
+      "diagram": ""
+    },
+    {
+      "id": "qvar-2026-09-28-climate-etf-quantile-interplay",
+      "title": "Quantile interplay between climate-aligned ETFs and traditional assets",
+      "search_date": "2026-09-28",
+      "authors": "Rim Khoury; Oguzhan Ozcelebi; Mariem Brahim; Zhuhua Jiang; Seong-Min Yoon",
+      "year": "2026",
+      "journal": "SSRN Electronic Journal (preprint; revised May 6, 2026)",
+      "doi": "https://doi.org/10.2139/ssrn.6415464",
+      "citations": "0（OpenAlex／Crossref，2026-09-28）",
+      "openalex_url": "https://openalex.org/W7135426494",
+      "fulltext_url": "https://ssrn.com/abstract=6415464",
+      "reading_level": "摘要層級",
+      "abstract": "本文以 2011–2025 年週資料，分析潔淨能源、水利基礎設施、自然資源與環境解決方案等四類氣候型 ETF，和股票、政府債券、黃金及原油之間的非線性連結。摘要指出連通性具有明顯的分位數與投資期限異質性；在壓力狀態下，氣候型 ETF 會由淨衝擊接收者轉為傳遞者，傳統避險資產的分散利益則僅在部分狀態有效。",
+      "tags": [
+        "wavelet quantile correlation",
+        "quantile-on-quantile Granger causality",
+        "quantile-on-quantile connectedness",
+        "time-frequency",
+        "climate ETFs"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "綠債/ESG",
+        "潔淨能源",
+        "金融市場"
+      ],
+      "keywords": [
+        "climate-aligned ETFs",
+        "clean energy",
+        "water infrastructure",
+        "safe havens",
+        "low-carbon transition"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；已核對 SSRN／Crossref、OpenAlex W7135426494（0 次被引、未標撤稿）與作者／DOI／版本資訊。SSRN 全文端點本次回傳 403，未繞過存取控制，因此以下只保留摘要明示內容。",
+        "【研究問題與動機】四類氣候型 ETF 與傳統資產之間的關係，是否隨雙方市場狀態與投資期限改變？氣候型 ETF 在壓力情境中仍能分散風險，或反而成為系統性衝擊傳遞者？",
+        "【研究變數】四類氣候型 ETF：潔淨能源、水利基礎設施、自然資源、環境解決方案；傳統資產：股票市場、政府債券、黃金與原油。摘要未列具體指數／ETF 代碼與報酬定義。",
+        "【資料／市場／樣本】2011–2025 年週資料；摘要未報告資料供應商、國家或市場範圍、精確起訖日與最終樣本量。",
+        "【模型與估計】Wavelet Quantile Correlation、Quantile-on-Quantile Granger Causality 與 Quantile-on-Quantile Connectedness，用於同時刻畫分配不對稱、時頻依賴與動態外溢。摘要未提供分位數格點、頻帶、滾動視窗或估計細節。",
+        "【穩健性檢驗】摘要未報告；因未取得全文，不推定作者使用了哪些替代資產、視窗、頻帶或模型檢查。",
+        "【主要結果】摘要指出氣候型 ETF 具有順循環特徵，跨資產連通性在極端分位數明顯上升；壓力狀態下由淨接收者轉為淨傳遞者。傳統避險資產僅提供部分且狀態依賴的分散效果，原油對不同 ETF 部門與投資期限呈現不對稱影響；尾部整體連通性最高。這些結果屬連通性與可預測關係，不等同結構因果。",
+        "【作者提出的限制】摘要未報告作者自述限制；須取得全文後才能核對完整限制、資料定義與識別邊界。",
+        "【其他限制】目前是預印本且僅能做摘要層級判讀；週資料可能平滑短期衝擊；ETF 分類與傳統資產基準的選擇可能影響角色判定；未見分位數、頻帶與穩健性細節。",
+        "【APA 7】Khoury, R., Ozcelebi, O., Brahim, M., Jiang, Z., & Yoon, S.-M. (2026). Quantile interplay between climate-aligned ETFs and traditional assets [Preprint]. SSRN. https://doi.org/10.2139/ssrn.6415464",
+        "【與美智研究的關聯】5/5。主題是氣候型資產 × 傳統資產，方法同時涵蓋 quantile-on-quantile 與 time-frequency，與美智的氣候風險 × 綠色資產 QVAR／頻域研究直接重疊。可借鏡四類氣候 ETF 的資產分組、週資料與避險資產對照；主要差異是本文未在摘要中納入氣候政策不確定性、TVP-VAR-SV 或 BK 分解。可追蹤其 QQGC、QQ connectedness、尾部角色反轉與原油期限異質性。"
+      ],
+      "pdf": "",
+      "viewpoints": [],
+      "diagram": ""
+    },
     {
       "id": "qvar-2026-09-27-china-green-finance-network",
       "title": "Risk spillover and network connectedness analysis of green financial and related financial markets: evidence from China",
