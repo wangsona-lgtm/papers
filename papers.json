@@ -1,6 +1,6 @@
 {
-  "total": 118,
-  "updated": "2026-09-28 20:34:23",
+  "total": 122,
+  "updated": "2026-09-29 04:18:00",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,210 @@
     "金融市場"
   ],
   "papers": [
+    {
+      "id": "qvar-2026-09-29-green-conventional-crypto-qqvar",
+      "title": "Asymmetric risk spillovers between green and conventional cryptocurrencies: Evidence from a quantile-on-quantile VAR with geopolitical and financial risks",
+      "search_date": "2026-09-29",
+      "authors": "Hayfa Kazouz; Mohamed Yousfi",
+      "year": "2026",
+      "journal": "Development and Sustainability in Economics and Finance, 9, Article 100110",
+      "doi": "https://doi.org/10.1016/j.dsef.2025.100110",
+      "citations": "3（OpenAlex／Crossref，2026-09-29）",
+      "openalex_url": "https://openalex.org/W7117367477",
+      "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S2950524025000708",
+      "reading_level": "摘要層級",
+      "abstract": "本文以分位數對分位數 VAR 檢驗節能型（Proof of Stake）與高耗能型（Proof of Work）加密貨幣，如何在地緣政治風險與金融壓力下傳遞風險。2021 年 9 月至 2025 年 7 月的日資料顯示，金融壓力期間加密貨幣網路幾乎完全連結；Bitcoin 與 Ethereum 是主要波動來源，Power Ledger 在多頭狀態下成為顯著風險傳遞者，重大地緣政治事件則會暫時改變傳導路徑。",
+      "tags": [
+        "QQVAR",
+        "quantile-on-quantile connectedness",
+        "green cryptocurrency",
+        "geopolitical risk",
+        "financial stress"
+      ],
+      "topics": [
+        "加密貨幣/數位金融",
+        "金融市場",
+        "地緣政治/國防",
+        "潔淨能源"
+      ],
+      "keywords": [
+        "Proof of Stake",
+        "Proof of Work",
+        "tail spillovers",
+        "financial stress index",
+        "green crypto assets"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；已核對 ScienceDirect 公開摘要、DOI CSL/Crossref 書目與 OpenAlex。OpenAlex ID 為 W7117367477，OpenAlex 與 Crossref 均回報 3 次被引，OpenAlex 未標示撤稿（核驗日 2026-09-29）。全文受訂閱限制，未繞過存取控制。",
+        "【研究問題與動機】節能型與高耗能型加密貨幣在不同市場狀態下如何互相傳遞風險？金融壓力與地緣政治衝擊是否改變尾部連結強度、主要傳遞者與 contagion 路徑？",
+        "【研究變數】節能型（PoS）與高耗能型（PoW）加密貨幣報酬，外加地緣政治風險指數與金融壓力指數。公開摘要明列 Bitcoin、Ethereum 與 Power Ledger，但未提供完整幣種清單及各變數精確定義。",
+        "【資料／市場／樣本】全球加密貨幣市場；2021 年 9 月至 2025 年 7 月的日資料。公開摘要未報告資料供應商、完整交易日篩選規則與最終樣本量。",
+        "【模型與估計】分位數對分位數 VAR（QQVAR）與分位數連結度，用以比較不同來源分位數衝擊對不同目標分位數的傳遞；摘要另報告時間動態與回饋效應，但未揭露落後期、預測期、滾動視窗或估計細節。",
+        "【穩健性檢驗】公開摘要未報告替代模型、替代指標、視窗／預測期敏感度或子樣本檢驗，因此不能推定已完成特定穩健性程序。",
+        "【主要結果】金融壓力期間連結度接近完全連結；Bitcoin 與 Ethereum 為中心波動來源，Power Ledger 在多頭狀態下是顯著風險傳遞者。市場內生回饋是主要 contagion 驅動因素，但地緣政治危機會暫時改變主要傳導路徑。這些結果是預測性連結，不等同結構因果。",
+        "【作者提出的限制】可取得的摘要未列出作者自述限制；不得由摘要外推正文中的限制討論。",
+        "【其他限制】綠色／傳統加密貨幣分類可能隨共識機制與能源結構改變；樣本始於 2021 年，涵蓋週期有限；摘要未提供完整變數、參數與穩健性資訊；QQVAR 的方向性仍受模型設定與共同衝擊影響。",
+        "【APA 7】Kazouz, H., & Yousfi, M. (2026). Asymmetric risk spillovers between green and conventional cryptocurrencies: Evidence from a quantile-on-quantile VAR with geopolitical and financial risks. Development and Sustainability in Economics and Finance, 9, Article 100110. https://doi.org/10.1016/j.dsef.2025.100110",
+        "【與美智研究的關聯】4/5。主題上連結綠色加密貨幣、地緣政治與金融壓力，方法上以 QQVAR 描述跨分位數尾部傳導，可補充美智 time-frequency QVAR／FRL 對市場狀態的刻畫。可借鏡 PoS／PoW 分組與外部風險納入方式；主要差異是本文未使用氣候政策不確定性、TVP-VAR-SV 或 BK 頻域分解。可追蹤 W7117367477、QQVAR 與 green crypto 分類。"
+      ],
+      "pdf": "",
+      "viewpoints": [],
+      "diagram": ""
+    },
+    {
+      "id": "qvar-2026-09-29-brazil-energy-tvp-qvar-frequency",
+      "title": "Asymmetric market connectedness and systemic risk: A novel quantile and time-frequency evidence from brazilian energy firms",
+      "search_date": "2026-09-29",
+      "authors": "Ran Wu; Ming Li; Shenglin Ma; Hongjun Zeng",
+      "year": "2026",
+      "journal": "Renewable Energy, 260, Article 125162",
+      "doi": "https://doi.org/10.1016/j.renene.2025.125162",
+      "citations": "9（OpenAlex／Crossref，2026-09-29）",
+      "openalex_url": "https://openalex.org/W7117551022",
+      "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S0960148125028265",
+      "reading_level": "摘要層級",
+      "abstract": "本文以 13 家巴西主要能源上市公司為對象，建構 TVP-QVAR 頻域連結與網路拓撲。2021–2024 年間，極端下跌狀態的 TCI 為 87.34%，高於正常狀態 84.13% 與極端上漲狀態 73.69%；長期頻帶主導整體傳導，而短期連結在下跌尾部更為波動。X3R 與 PETRORECONCAVO 為持續淨傳遞者，COSAN 則是主要淨接收者。",
+      "tags": [
+        "TVP-QVAR",
+        "frequency connectedness",
+        "quantile connectedness",
+        "network topology",
+        "Brazilian energy firms"
+      ],
+      "topics": [
+        "能源市場",
+        "潔淨能源",
+        "金融市場"
+      ],
+      "keywords": [
+        "systemic risk",
+        "Brazil",
+        "energy equities",
+        "tail connectedness",
+        "long-horizon spillovers"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；已核對 RePEc／IDEAS 公開摘要、Crossref 與 OpenAlex。OpenAlex ID 為 W7117551022，兩者均回報 9 次被引，OpenAlex 未標示撤稿（核驗日 2026-09-29）。出版社全文受訂閱限制。",
+        "【研究問題與動機】巴西能源上市公司之間的系統風險連結是否隨報酬分位數、時間與投資期限改變？哪些公司在下跌尾部成為關鍵傳遞者或脆弱接收者？",
+        "【研究變數】13 家巴西主要能源上市公司的市場報酬／風險序列；公開摘要點名 X3R、PETRORECONCAVO 與 COSAN，但未提供完整公司名單與變數建構公式。",
+        "【資料／市場／樣本】巴西能源股票市場，樣本期 2021–2024 年。公開摘要未報告資料來源、精確起訖日、頻率與最終樣本量。",
+        "【模型與估計】時間變動參數分位數 VAR（TVP-QVAR）結合頻域連結度與網路拓撲，分析不同市場狀態及長短期風險傳導；摘要未報告頻帶界線、落後期、預測期或先驗設定。",
+        "【穩健性檢驗】公開摘要未提供替代視窗、預測期、頻帶、公司樣本或模型的穩健性檢驗，故不臆測正文中的程序。",
+        "【主要結果】TCI 在極端下跌、正常與極端上漲狀態分別為 87.34%、84.13% 與 73.69%，顯示下跌尾部的系統風險放大最強。長期頻帶主導傳導，短期頻帶在下跌狀態波動更大；X3R 與 PETRORECONCAVO 持續為淨傳遞者，COSAN 為主要淨接收者。連結度是預測性風險網路，不構成因果辨識。",
+        "【作者提出的限制】可取得摘要未列作者自述限制；不得把研究建議當成已報告限制。",
+        "【其他限制】只涵蓋單一新興市場與 13 家企業，樣本期短且可能受共同油價、匯率與政策衝擊驅動；摘要缺少資料頻率、公司清單與估計細節；企業連結不必然代表實體能源供應鏈因果傳導。",
+        "【APA 7】Wu, R., Li, M., Ma, S., & Zeng, H. (2026). Asymmetric market connectedness and systemic risk: A novel quantile and time-frequency evidence from Brazilian energy firms. Renewable Energy, 260, Article 125162. https://doi.org/10.1016/j.renene.2025.125162",
+        "【與美智研究的關聯】4/5。方法上直接結合 TVP-QVAR、分位數與頻域連結，是美智 TVP-VAR-SV + BK + QVAR 架構的重要企業層級對照；可借鏡下跌尾部與長短期傳導的聯合報告。主要差異是本文聚焦巴西能源股，未引入氣候政策不確定性、綠色資產或明示 BK／SV。可追蹤 W7117551022、TVP-QVAR frequency connectedness 與巴西能源公司網路。"
+      ],
+      "pdf": "",
+      "viewpoints": [],
+      "diagram": ""
+    },
+    {
+      "id": "qvar-2026-09-29-sustainable-digital-higher-moments",
+      "title": "Risk Propagation and System Resilience in Sustainable–Digital Finance: A Time–Frequency Higher-Order Moment Analysis of Green Finance, Green Cryptocurrency, and Non-Green Cryptocurrency Markets",
+      "search_date": "2026-09-29",
+      "authors": "Junda Wu; Jian Yao; Jiajing Sun",
+      "year": "2026",
+      "journal": "Systems, 14(6), Article 628",
+      "doi": "https://doi.org/10.3390/systems14060628",
+      "citations": "3（OpenAlex／Crossref，2026-09-29）",
+      "openalex_url": "https://openalex.org/W7163321694",
+      "fulltext_url": "https://www.mdpi.com/2079-8954/14/6/628",
+      "reading_level": "全文精讀",
+      "abstract": "本文把潔淨能源、綠債與 ESG 指數，以及綠色和傳統加密貨幣視為永續—數位金融系統，先以 GARCHSK 估計條件波動、偏態與峰態，再用 TVP-VAR、Diebold–Yilmaz 與 Baruník–Křehlík 分析時頻連結。靜態總連結度在波動、偏態、峰態分別為 75.87、65.11、77.94；波動與峰態主要由長期頻帶主導，綠色金融資產多為淨接收者，多種加密貨幣則傳遞波動或尾部風險。",
+      "tags": [
+        "GARCHSK",
+        "TVP-VAR",
+        "Baruník–Křehlík",
+        "higher-order moments",
+        "green cryptocurrency"
+      ],
+      "topics": [
+        "綠債/ESG",
+        "潔淨能源",
+        "加密貨幣/數位金融",
+        "金融市場"
+      ],
+      "keywords": [
+        "sustainable digital finance",
+        "volatility",
+        "skewness",
+        "kurtosis",
+        "system resilience"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】全文精讀；已透過 MDPI 公開全文與匿名 Jina Reader 核對方法、資料、結果、穩健性、限制及資料可用性，並交叉核對 Crossref 與 OpenAlex。OpenAlex ID 為 W7163321694，兩者均回報 3 次被引且 OpenAlex 未標示撤稿（核驗日 2026-09-29）。",
+        "【研究問題與動機】綠色金融、綠色加密貨幣與傳統加密貨幣在波動、偏態與峰態三種風險狀態下如何傳遞衝擊？傳導集中於短期反應或長期依賴，哪些資產是淨傳遞者／接收者，危機與 Ethereum Merge 是否改變系統結構？",
+        "【研究變數】綠色金融：S&P Global Clean Energy Transition（CE）、S&P Dow Jones Green Bond（GB）、Dow Jones Best-in-Class World（ESG）；綠色加密貨幣：ADA、EOS、IOTA、XLM、XTZ；傳統組：BNB、BTC、ETH、LTC、XRP。對各日報酬估計條件波動、偏態與峰態。",
+        "【資料／市場／樣本】S&P Global 與 CoinMarketCap；價格期 2019-09-24 至 2025-05-26，對齊後日報酬期自 2019-09-25 起，共 1,468 筆，涵蓋 COVID-19、2021 crypto bull run、2022 crypto winter、Ethereum Merge 與後續復甦。",
+        "【模型與估計】GARCHSK 過濾條件波動、偏態、峰態；TVP-VAR(1) 的 DY/GFEVD 時域連結；再依 BK 頻域分解為 1–5 交易日短期與 5 日以上長期，計算 TSI、TO、FROM、NET、NPDS。作者把連結結構視為韌性診斷而非獨立韌性指數或結構因果。",
+        "【穩健性檢驗】將短期頻帶由 1–5 日改為 1–22 日（月度界線）；另以 2022-09-15 Ethereum Merge 分割波動連結子樣本（Merge 前 771、後 697 筆）。波動與峰態仍以長期成分為主；總波動連結由 78.78 降至 68.17，但核心期限結論不變。",
+        "【主要結果】靜態 TSI：波動 75.87、偏態 65.11、峰態 77.94。波動長期 67.59、短期 8.28；峰態長期 62.32、短期 15.62；偏態短／長期約 32.56／32.55。GB 與 ESG 在波動 NET 為 −31.70、−17.57；所有綠色金融資產在偏態為淨接收者。ADA、BNB 等傳遞波動，XLM、XRP 對峰態傳遞突出。這些是 FEVD 連結角色，不是結構因果或實際損失。",
+        "【作者提出的限制】綠色幣分類依文獻且非碳足跡稽核，未反映環境特徵隨時間改變；模型為縮減式，不能識別結構因果或所有共同衝擊；韌性未與 CoVaR、MES、SRISK、違約或實際損失比較；樣本始於 2019；GARCHSK 受受限非線性估計影響。",
+        "【其他限制】ETH 固定列入傳統組雖以 Merge 子樣本補強，仍無法完整處理逐日能源結構變化；S&P 與 CoinMarketCap 的對齊可能犧牲週末 crypto 資訊；頻帶與 GARCHSK 規格仍有模型依賴，且 13 資產未涵蓋更廣泛碳市場與氣候風險因子。",
+        "【APA 7】Wu, J., Yao, J., & Sun, J. (2026). Risk propagation and system resilience in sustainable–digital finance: A time–frequency higher-order moment analysis of green finance, green cryptocurrency, and non-green cryptocurrency markets. Systems, 14(6), Article 628. https://doi.org/10.3390/systems14060628",
+        "【與美智研究的關聯】4/5。主題上同時含潔淨能源、綠債、ESG 與綠／非綠加密貨幣；方法上直接使用 TVP-VAR、DY、BK 時頻分解與高階動差，可補強美智研究對尾部風險來源的設計。可借鏡 5 日／22 日頻帶敏感度與事件前後子樣本；主要差異是本文不是 QVAR，也未納入氣候政策不確定性或 TVP-VAR-SV。可追蹤 W7163321694、GARCHSK-BK 與 green crypto classification。"
+      ],
+      "pdf": "",
+      "viewpoints": [],
+      "diagram": ""
+    },
+    {
+      "id": "qvar-2026-09-29-precious-metals-qnq-uncertainty",
+      "title": "Extreme market conditions and uncertainty spillovers in precious metals: evidence from a quantile-on-quantile connectedness framework",
+      "search_date": "2026-09-29",
+      "authors": "Ali Akgül; Burcu Yürük",
+      "year": "2026",
+      "journal": "Future Business Journal, 12, Article 266",
+      "doi": "https://doi.org/10.1186/s43093-026-00972-w",
+      "citations": "0（OpenAlex／Crossref，2026-09-29）",
+      "openalex_url": "https://openalex.org/W7204270902",
+      "fulltext_url": "https://link.springer.com/article/10.1186/s43093-026-00972-w",
+      "reading_level": "全文精讀",
+      "abstract": "本文以 QnQ connectedness 檢驗 VIX、OVX、GPR 與黃金、白銀、白金在不同分位數的風險傳遞。2007–2025 年日資料顯示，正常狀態連結較弱，極端狀態明顯升高；最強 VIX／OVX 連結出現在不確定性 0.95 分位與金屬報酬 0.05 分位，而 GPR 的最強連結出現在 0.05–0.05。VIX、OVX 與 GPR 在極端狀態多為淨風險傳遞者，危機期的連結更趨對稱。",
+      "tags": [
+        "QnQ connectedness",
+        "QVAR",
+        "GFEVD",
+        "geopolitical risk",
+        "precious metals"
+      ],
+      "topics": [
+        "原物料/商品",
+        "地緣政治/國防",
+        "金融市場",
+        "宏觀總體"
+      ],
+      "keywords": [
+        "VIX",
+        "OVX",
+        "GPR",
+        "gold",
+        "silver",
+        "platinum"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】全文精讀；已核對 Springer Nature CC BY 4.0 公開全文、Crossref 與 OpenAlex。OpenAlex ID 為 W7204270902，兩者均回報 0 次被引，OpenAlex 未標示撤稿（核驗日 2026-09-29）。",
+        "【研究問題與動機】VIX、OVX 與 GPR 對黃金、白銀、白金的傳遞是否隨雙方各自分位數改變？極端狀態下的不確定性是否成為淨風險傳遞者，危機期的正向／反向連結是否更對稱？",
+        "【研究變數】VIX（股票波動）、OVX（油價波動）、GPR（地緣政治風險）及黃金、白銀、白金現貨價格；價格轉換為 100×對數報酬。",
+        "【資料／市場／樣本】Investing database 提供 VIX、OVX 與貴金屬現貨，Economic Policy Uncertainty database 提供 GPR；2007-05-11 至 2025-10-27 日資料。原文未在可讀表格文字中明列最終樣本量。",
+        "【模型與估計】以 QVAR/QVMA 與 GFEVD 建構 QnQ connectedness，比較 τ=0.05、0.275、0.50、0.725、0.95 的跨分位數傳導；BIC 選二階落後，20 步預測期、200 日滾動視窗，計算 TCI、TO、FROM、NET 及正向／反向連結。",
+        "【穩健性檢驗】改用 250 日視窗、1 階落後與 10 步預測期；主要連結結論保持一致。另以 OFR Financial Stress Index 取代原不確定性代理，極端金融壓力仍呈強烈不對稱傳導，且危機期連結更對稱。",
+        "【主要結果】正常狀態的整體連結較弱，極端狀態顯著升高；VIX／OVX 的最強連結為其 0.95 分位對金屬報酬 0.05 分位，GPR 最強連結則在 0.05–0.05。VIX、OVX 與 GPR 在極端分位多為淨風險傳遞者；2008 GFC、2014–2016 油價崩跌、2018 美中貿易戰、COVID-19 及 2022 後地緣事件期間，多組關係轉為較對稱。結果不是結構因果。",
+        "【作者提出的限制】只納入 VIX、OVX、GPR 與金、銀、白金，排除其他不確定性與金屬；QnQ 計算成本高，二維分位數結果較難解讀。作者建議加入經濟政策不確定性與氣候風險指數。",
+        "【其他限制】Investing 資料庫的可重現性與時區／交易日對齊需進一步說明；現貨金屬同時受美元、利率與實體需求影響，FEVD 方向性可能反映共同因子；滾動視窗與離散分位數仍可能平滑短暫衝擊。",
+        "【APA 7】Akgül, A., & Yürük, B. (2026). Extreme market conditions and uncertainty spillovers in precious metals: Evidence from a quantile-on-quantile connectedness framework. Future Business Journal, 12, Article 266. https://doi.org/10.1186/s43093-026-00972-w",
+        "【與美智研究的關聯】3/5。方法上 QnQ 能補足單一 QVAR 只看相同分位數的限制，GPR／OVX 也可作 CPU 之外的外部不確定性比較；可借鏡 5×5 分位數矩陣、替代 FSI 與參數敏感度。主要差異是本文聚焦貴金屬且沒有氣候政策不確定性、綠色資產、TVP-VAR-SV 或 BK 頻域分解。可追蹤 W7204270902 與 Gabauer–Stenfors QnQ connectedness。"
+      ],
+      "pdf": "",
+      "viewpoints": [],
+      "diagram": ""
+    },
     {
       "title": "Volatility and co-movement between ESG and non-ESG futures and uncertainty indices: Evidence from wavelet coherence and GARCH models",
       "authors": "Mosionek-Schweda, Magdalena; Chylińska, Marta",
