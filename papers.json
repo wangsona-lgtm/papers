@@ -1,6 +1,6 @@
 {
-  "total": 122,
-  "updated": "2026-09-29 04:18:00",
+  "total": 124,
+  "updated": "2026-09-29 20:32:00",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,108 @@
     "金融市場"
   ],
   "papers": [
+    {
+      "id": "qvar-2026-09-29-us-cpu-macro-financial-tvp-qvar",
+      "title": "Climate policy uncertainty, sustainable finance and macro-financial interconnectedness",
+      "search_date": "2026-09-29",
+      "authors": "Pushpa Negi; Som Nath Paul; Komal Khatter; Anand Jaiswal; Ihor Rekunenko",
+      "year": "2026",
+      "journal": "Cogent Economics & Finance, 14(1), Article 2691503",
+      "doi": "https://doi.org/10.1080/23322039.2026.2691503",
+      "citations": "0（Crossref，2026-09-29；OpenAlex ID 已核對）",
+      "openalex_url": "https://openalex.org/W7165544736",
+      "fulltext_url": "https://www.tandfonline.com/doi/full/10.1080/23322039.2026.2691503",
+      "reading_level": "全文精讀",
+      "abstract": "本文以美國 2006 年 12 月至 2025 年 4 月月資料，聯合使用 TVP-VAR 與 QVAR，檢驗氣候政策不確定性（CPU）、工業產出、通膨、貨幣政策、傳統／潔淨能源及金融市場的動態與尾部連結。平均狀態下，能源價格與聯邦基金利率是主要衝擊傳遞者，CPU 與工業產出多為接收者；極端狀態的總連結明顯升高，且 CPU 在多頭狀態轉為對金融市場與潔淨能源資產的重要傳遞者。",
+      "tags": [
+        "TVP-VAR",
+        "QVAR",
+        "GFEVD",
+        "climate policy uncertainty",
+        "macro-financial connectedness"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "宏觀總體",
+        "能源市場",
+        "潔淨能源",
+        "金融市場"
+      ],
+      "keywords": [
+        "climate transition risk",
+        "industrial production",
+        "monetary policy",
+        "NASDAQ CELS",
+        "tail spillovers"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】全文精讀；已透過 Taylor & Francis 公開全文核對書目、資料、方法、結果、穩健性、限制與資料聲明。DOI 與 Crossref 出版資訊一致，Crossref 顯示 0 次被引；OpenAlex 對應 W7165544736，未見撤稿或撤稿通知（核驗日 2026-09-29）。",
+        "【研究問題與動機】CPU 是否在美國工業、總體、傳統／潔淨能源與金融市場之間形成隨時間與市場狀態改變的風險傳遞？CPU 在空頭、正常與多頭狀態下，是衝擊接收者還是傳遞者？",
+        "【研究變數】IPI（製造、採礦與公用事業的工業產出）、新聞式 CPU 指數、CPI、有效聯邦基金利率、WTI、Henry Hub 天然氣價格（RNGWHHD）、NASDAQ Clean Edge Green Energy Index（CELS）、S&P 500 與美國 10 年期公債殖利率。除 CPU 保留水準外，其餘序列取對數後一階差分。",
+        "【資料／市場／樣本】美國，2006-12 至 2025-04 的月資料；起點受 CELS 可得性限制。原文未明列最終樣本量，也未在資料章節逐項清楚列出所有供應商，因此樣本量填「未報告」。",
+        "【模型與估計】TVP-VAR 以貝葉斯方法與 Kalman filter 估計時間變動係數／波動；GFEVD 計算 TCI、TO、FROM 與 NET。QVAR 在 τ=0.05、0.50、0.95 分別代表空頭、正常與多頭狀態，BIC 選落後期（圖表註記 lag=1），使用 100 期滾動視窗與 10 步預測期。",
+        "【穩健性檢驗】作者以 TVP-VAR 的平均時變連結與 QVAR 的分位數連結交叉比較，兩種模型都支持能源／貨幣政策的主要傳遞角色與 CPU 的狀態依賴性。正文未實際報告替代視窗、替代預測期、替代 CPU 指標或跨國樣本，因此穩健性主要是模型間一致性，而非完整參數敏感度。",
+        "【主要結果】TVP-VAR 顯示 2008 金融危機、COVID-19 與近期地緣政治／總體衝擊期間 TCI 上升。QVAR 的 TCI 在 τ=0.05 接近 88%，τ=0.50 約 24%–45%，τ=0.95 約 82%–86%。WTI 與 FFR 在空頭與正常狀態多為淨傳遞者；CPU 在空頭多為接收者、正常狀態接近中性或溫和傳遞，多頭時成為對金融市場、工業產出與潔淨能源的重要傳遞者。這些結果為預測性連結，不是結構因果。",
+        "【作者提出的限制】只研究美國，對不同制度與監管環境的外推有限；變數集合有所選擇，替代代理與更高頻資料可能提供不同資訊。作者建議延伸至跨國、產業別、替代 CPU／轉型風險指標，以及 CPU 與地緣政治／科技不確定性的交互作用。",
+        "【其他限制】月資料可能平滑短期政策與市場衝擊；100 期視窗約涵蓋多年，會犧牲局部事件解析度。資料可用性聲明稱資料來自 Scopus 與 Web of Science，與正文所描述的市場／總體時間序列來源不完全相符，重現時需向作者確認原始下載來源與版本；縮減式 FEVD 亦無法識別結構因果。",
+        "【APA 7】Negi, P., Paul, S. N., Khatter, K., Jaiswal, A., & Rekunenko, I. (2026). Climate policy uncertainty, sustainable finance and macro-financial interconnectedness. Cogent Economics & Finance, 14(1), Article 2691503. https://doi.org/10.1080/23322039.2026.2691503",
+        "【與美智研究的關聯】5/5。主題直接對應 CPU、能源、潔淨能源與金融市場，方法同時使用 TVP-VAR、QVAR 與 GFEVD，是美智「CPU quantile spillovers（TVP-VAR-SV + BK + QVAR）」的高度直接對照。可借鏡總體／貨幣政策變數配置與 CPU 在不同狀態下的角色轉換；主要差異是本文沒有 SV、BK 頻域分解或 time-frequency QVAR。可追蹤 W7165544736、CPU–CELS 連結及 100 期視窗設定。"
+      ],
+      "pdf": "",
+      "viewpoints": [],
+      "diagram": ""
+    },
+    {
+      "id": "qvar-2026-09-29-china-governance-green-innovation-factor-purged",
+      "title": "Governance-led risk transmission in the policy-innovation-energy nexus: Evidence from China (2015–2024)",
+      "search_date": "2026-09-29",
+      "authors": "Ke Peng; Muhammad Munir; Yubin Li; Mariem Mejri",
+      "year": "2026",
+      "journal": "Cogent Economics & Finance, 14(1), Article 2670057",
+      "doi": "https://doi.org/10.1080/23322039.2026.2670057",
+      "citations": "0（Crossref，2026-09-29；OpenAlex 尚未可靠解析）",
+      "openalex_url": "",
+      "fulltext_url": "https://www.tandfonline.com/doi/full/10.1080/23322039.2026.2670057",
+      "reading_level": "全文精讀",
+      "abstract": "本文以 2015 年 1 月至 2024 年 7 月日資料，檢驗中國六類環境治理股票指數、綠色研發與全球潔淨能源之間的尾部風險傳導。研究先用滾動 PCA 去除共同市場因子，再以 QVAR–GFEVD 建構分位數網路。尾部連結高於中位數；大氣治理與固廢處理在下跌尾部傳遞風險，整體環境治理在正常狀態居核心，水與污水處理在上漲尾部較重要。綠色創新由接收者轉為多頭傳遞者，全球潔淨能源也不具穩定避險角色。",
+      "tags": [
+        "factor-purged QVAR",
+        "GFEVD",
+        "rolling PCA",
+        "quantile connectedness",
+        "green innovation"
+      ],
+      "topics": [
+        "潔淨能源",
+        "綠債/ESG",
+        "金融市場"
+      ],
+      "keywords": [
+        "environmental governance",
+        "policy-innovation-energy nexus",
+        "S&P Global Clean Energy",
+        "systemic risk",
+        "China"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】全文精讀；已透過 Taylor & Francis 開放全文核對方法、資料、結果、附錄穩健性、限制與資料可用性。DOI 與 Crossref／出版商書目一致，Crossref 顯示 0 次被引；本輪未能可靠解析 OpenAlex ID，故不臆造連結，亦未見撤稿標示（核驗日 2026-09-29）。",
+        "【研究問題與動機】中國環境治理股是否在極端市場狀態下向綠色創新與全球潔淨能源傳遞系統風險？不同治理子產業、綠色研發與潔淨能源的傳遞者／接收者角色是否會跨分位數轉換，正常時期的分散效果是否在尾部崩解？",
+        "【研究變數】六個申萬環境治理指數：整體環境治理（ENV-G）、大氣治理（ATM-G）、水與污水處理（W&WT）、綜合環境治理（INTEG-EG）、固體廢棄物處理（SWT）、環保設備 II（EPD-II）；另含綠色電力研發指數（GP-R&D）與 S&P Global Clean Energy Index（S&P-GCEI）。皆轉為日對數報酬。",
+        "【資料／市場／樣本】Wind Database；中國環境治理／綠色創新與全球潔淨能源市場，2015-01 至 2024-07 日資料。原文未明列最終交易日觀察數，因此樣本量填「未報告」。",
+        "【模型與估計】先用滾動 PCA 去除第一共同主成分，取得部門特有殘差；再分別於 τ=0.10、0.50、0.90 估計 QVAR，BIC 選 lag（通常 1–2），以 GFEVD（H=10）計算 TCI、TO、FROM、NET 與網路，並用 250 日滾動視窗描繪時變連結。方法衡量預測性／Granger 式傳導，不主張結構因果。",
+        "【穩健性檢驗】替代尾部分位數 τ=0.05／0.95、預測期 H=5／12／20、去除 1 或 2 個共同因子、PCA 視窗 50／100／250 日、替代落後期，以及 COVID-19 前、COVID-19 與俄烏戰爭後子樣本。附錄在 τ=0.05、0.50、0.95 的 TCI 分別為 87.47%、82.69%、87.46%，主要尾部放大與角色轉換結論一致。",
+        "【主要結果】尾部總連結高於中位數，代表極端狀態的分散效益下降。ATM-G 與 SWT 在下跌尾部是重要傳遞者，ENV-G 在中位數主導，ATM-G 與 W&WT 在上漲尾部較強；GP-R&D 在下跌與正常狀態主要接收衝擊、在上漲尾部轉為傳遞者。S&P-GCEI 在下跌尾部傳遞、正常狀態接收、上漲尾部輕度傳遞，因此不能視為固定避險資產。",
+        "【作者提出的限制】QVAR–GFEVD 只能辨識預測性連結，不能證明結構因果；樣本只涵蓋股票型指數；共同因子去除仍可能依因子數與結構而異；中國結果未必能外推至美國、歐盟或其他新興市場。作者建議加入綠債、碳市場、再生能源商品、CPU 與公司財務資料。",
+        "【其他限制】Wind 資料需註冊且版本重現性受限；各指數成分股數差異大，可能使治理子產業的連結度受市場廣度影響；PCA 去因子是 Ando 類概念的可行近似，不等同完整分位數因子模型；未納入匯率、油價或全球風險等外生節點。",
+        "【APA 7】Peng, K., Munir, M., Li, Y., & Mejri, M. (2026). Governance-led risk transmission in the policy-innovation-energy nexus: Evidence from China (2015–2024). Cogent Economics & Finance, 14(1), Article 2670057. https://doi.org/10.1080/23322039.2026.2670057",
+        "【與美智研究的關聯】4/5。主題涵蓋環境治理、綠色創新與全球潔淨能源，方法以 factor-purged QVAR–GFEVD 刻畫尾部網路，可補強美智 time-frequency QVAR／FRL 對共同因子與部門特有衝擊的處理。可借鏡 PCA 去因子、子產業拆分與多重視窗／預測期敏感度；主要差異是本文沒有 CPU、TVP-VAR-SV 或 BK 頻域分解。可追蹤 factor-purged QVAR、GP-R&D 與治理子產業角色轉換。"
+      ],
+      "pdf": "",
+      "viewpoints": [],
+      "diagram": ""
+    },
     {
       "id": "qvar-2026-09-29-green-conventional-crypto-qqvar",
       "title": "Asymmetric risk spillovers between green and conventional cryptocurrencies: Evidence from a quantile-on-quantile VAR with geopolitical and financial risks",
