@@ -1,6 +1,6 @@
 {
-  "total": 124,
-  "updated": "2026-09-29 20:33:28",
+  "total": 112,
+  "updated": "2026-09-30 20:30:11",
   "topics": [
     "AI/科技",
     "其他",
@@ -19,666 +19,29 @@
   ],
   "papers": [
     {
-      "id": "qvar-2026-09-29-us-cpu-macro-financial-tvp-qvar",
-      "title": "Climate policy uncertainty, sustainable finance and macro-financial interconnectedness",
-      "search_date": "2026-09-29",
-      "authors": "Pushpa Negi; Som Nath Paul; Komal Khatter; Anand Jaiswal; Ihor Rekunenko",
-      "year": "2026",
-      "journal": "Cogent Economics & Finance, 14(1), Article 2691503",
-      "doi": "https://doi.org/10.1080/23322039.2026.2691503",
-      "citations": "0（Crossref，2026-09-29；OpenAlex ID 已核對）",
-      "openalex_url": "https://openalex.org/W7165544736",
-      "fulltext_url": "https://www.tandfonline.com/doi/full/10.1080/23322039.2026.2691503",
-      "reading_level": "全文精讀",
-      "abstract": "本文以美國 2006 年 12 月至 2025 年 4 月月資料，聯合使用 TVP-VAR 與 QVAR，檢驗氣候政策不確定性（CPU）、工業產出、通膨、貨幣政策、傳統／潔淨能源及金融市場的動態與尾部連結。平均狀態下，能源價格與聯邦基金利率是主要衝擊傳遞者，CPU 與工業產出多為接收者；極端狀態的總連結明顯升高，且 CPU 在多頭狀態轉為對金融市場與潔淨能源資產的重要傳遞者。",
+      "title": "Differential impact of multiple risks on green and conventional bond markets: Evidence from multifractal analysis",
+      "authors": "Shi, Fengyuan; Guo, Yaoqi",
+      "year": "2025",
+      "journal": "Research in International Business and Finance, 77, 102932",
+      "doi": "https://doi.org/10.1016/j.ribaf.2025.102932",
+      "date": "2026-07-11",
       "tags": [
-        "TVP-VAR",
-        "QVAR",
-        "GFEVD",
-        "climate policy uncertainty",
-        "macro-financial connectedness"
-      ],
-      "topics": [
-        "氣候風險/政策",
-        "宏觀總體",
-        "能源市場",
-        "潔淨能源",
-        "金融市場"
-      ],
-      "keywords": [
-        "climate transition risk",
-        "industrial production",
-        "monetary policy",
-        "NASDAQ CELS",
-        "tail spillovers"
-      ],
-      "type": "search",
-      "notes": [
-        "【閱讀層級】全文精讀；已透過 Taylor & Francis 公開全文核對書目、資料、方法、結果、穩健性、限制與資料聲明。DOI 與 Crossref 出版資訊一致，Crossref 顯示 0 次被引；OpenAlex 對應 W7165544736，未見撤稿或撤稿通知（核驗日 2026-09-29）。",
-        "【研究問題與動機】CPU 是否在美國工業、總體、傳統／潔淨能源與金融市場之間形成隨時間與市場狀態改變的風險傳遞？CPU 在空頭、正常與多頭狀態下，是衝擊接收者還是傳遞者？",
-        "【研究變數】IPI（製造、採礦與公用事業的工業產出）、新聞式 CPU 指數、CPI、有效聯邦基金利率、WTI、Henry Hub 天然氣價格（RNGWHHD）、NASDAQ Clean Edge Green Energy Index（CELS）、S&P 500 與美國 10 年期公債殖利率。除 CPU 保留水準外，其餘序列取對數後一階差分。",
-        "【資料／市場／樣本】美國，2006-12 至 2025-04 的月資料；起點受 CELS 可得性限制。原文未明列最終樣本量，也未在資料章節逐項清楚列出所有供應商，因此樣本量填「未報告」。",
-        "【模型與估計】TVP-VAR 以貝葉斯方法與 Kalman filter 估計時間變動係數／波動；GFEVD 計算 TCI、TO、FROM 與 NET。QVAR 在 τ=0.05、0.50、0.95 分別代表空頭、正常與多頭狀態，BIC 選落後期（圖表註記 lag=1），使用 100 期滾動視窗與 10 步預測期。",
-        "【穩健性檢驗】作者以 TVP-VAR 的平均時變連結與 QVAR 的分位數連結交叉比較，兩種模型都支持能源／貨幣政策的主要傳遞角色與 CPU 的狀態依賴性。正文未實際報告替代視窗、替代預測期、替代 CPU 指標或跨國樣本，因此穩健性主要是模型間一致性，而非完整參數敏感度。",
-        "【主要結果】TVP-VAR 顯示 2008 金融危機、COVID-19 與近期地緣政治／總體衝擊期間 TCI 上升。QVAR 的 TCI 在 τ=0.05 接近 88%，τ=0.50 約 24%–45%，τ=0.95 約 82%–86%。WTI 與 FFR 在空頭與正常狀態多為淨傳遞者；CPU 在空頭多為接收者、正常狀態接近中性或溫和傳遞，多頭時成為對金融市場、工業產出與潔淨能源的重要傳遞者。這些結果為預測性連結，不是結構因果。",
-        "【作者提出的限制】只研究美國，對不同制度與監管環境的外推有限；變數集合有所選擇，替代代理與更高頻資料可能提供不同資訊。作者建議延伸至跨國、產業別、替代 CPU／轉型風險指標，以及 CPU 與地緣政治／科技不確定性的交互作用。",
-        "【其他限制】月資料可能平滑短期政策與市場衝擊；100 期視窗約涵蓋多年，會犧牲局部事件解析度。資料可用性聲明稱資料來自 Scopus 與 Web of Science，與正文所描述的市場／總體時間序列來源不完全相符，重現時需向作者確認原始下載來源與版本；縮減式 FEVD 亦無法識別結構因果。",
-        "【APA 7】Negi, P., Paul, S. N., Khatter, K., Jaiswal, A., & Rekunenko, I. (2026). Climate policy uncertainty, sustainable finance and macro-financial interconnectedness. Cogent Economics & Finance, 14(1), Article 2691503. https://doi.org/10.1080/23322039.2026.2691503",
-        "【與美智研究的關聯】5/5。主題直接對應 CPU、能源、潔淨能源與金融市場，方法同時使用 TVP-VAR、QVAR 與 GFEVD，是美智「CPU quantile spillovers（TVP-VAR-SV + BK + QVAR）」的高度直接對照。可借鏡總體／貨幣政策變數配置與 CPU 在不同狀態下的角色轉換；主要差異是本文沒有 SV、BK 頻域分解或 time-frequency QVAR。可追蹤 W7165544736、CPU–CELS 連結及 100 期視窗設定。"
-      ],
-      "pdf": "",
-      "viewpoints": [
-        {
-          "claim": "【閱讀層級】全文精讀；已透過 Taylor & Francis 公開全文核對書目、資料、方法、結果、穩健性、限制與資料聲明。DOI 與 Crossref 出版資訊一致，Crossref 顯示 0 次被引；OpenAlex 對應 W71655…",
-          "evidence": "【閱讀層級】全文精讀；已透過 Taylor & Francis 公開全文核對書目、資料、方法、結果、穩健性、限制與資料聲明。DOI 與 Crossref 出版資訊一致，Crossref 顯示 0 次被引；OpenAlex 對應 W7165544736，未見撤稿或撤稿通知（核驗日 2026-09-29）。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【資料／市場／樣本】美國，2006-12 至 2025-04 的月資料；起點受 CELS 可得性限制。原文未明列最終樣本量，也未在資料章節逐項清楚列出所有供應商，因此樣本量填「未報告」。",
-          "evidence": "【資料／市場／樣本】美國，2006-12 至 2025-04 的月資料；起點受 CELS 可得性限制。原文未明列最終樣本量，也未在資料章節逐項清楚列出所有供應商，因此樣本量填「未報告」。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【模型與估計】TVP-VAR 以貝葉斯方法與 Kalman filter 估計時間變動係數／波動；GFEVD 計算 TCI、TO、FROM 與 NET。QVAR 在 τ=0.05、0.50、0.95 分別代表空頭、正常與多頭狀態，BIC 選…",
-          "evidence": "【模型與估計】TVP-VAR 以貝葉斯方法與 Kalman filter 估計時間變動係數／波動；GFEVD 計算 TCI、TO、FROM 與 NET。QVAR 在 τ=0.05、0.50、0.95 分別代表空頭、正常與多頭狀態，BIC 選落後期（圖表註記 lag=1），使用 100 期滾動視窗與 10 步預測期。",
-          "confidence": "mid",
-          "source": "數據",
-          "connections": []
-        },
-        {
-          "claim": "【穩健性檢驗】作者以 TVP-VAR 的平均時變連結與 QVAR 的分位數連結交叉比較，兩種模型都支持能源／貨幣政策的主要傳遞角色與 CPU 的狀態依賴性。正文未實際報告替代視窗、替代預測期、替代 CPU 指標或跨國樣本，因此穩健性主要是模…",
-          "evidence": "【穩健性檢驗】作者以 TVP-VAR 的平均時變連結與 QVAR 的分位數連結交叉比較，兩種模型都支持能源／貨幣政策的主要傳遞角色與 CPU 的狀態依賴性。正文未實際報告替代視窗、替代預測期、替代 CPU 指標或跨國樣本，因此穩健性主要是模型間一致性，而非完整參數敏感度。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【主要結果】TVP-VAR 顯示 2008 金融危機、COVID-19 與近期地緣政治／總體衝擊期間 TCI 上升。QVAR 的 TCI 在 τ=0.05 接近 88%，τ=0.50 約 24%–45%，τ=0.95 約 82%–86%。W…",
-          "evidence": "【主要結果】TVP-VAR 顯示 2008 金融危機、COVID-19 與近期地緣政治／總體衝擊期間 TCI 上升。QVAR 的 TCI 在 τ=0.05 接近 88%，τ=0.50 約 24%–45%，τ=0.95 約 82%–86%。WTI 與 FFR 在空頭與正常狀態多為淨傳遞者；CPU 在空頭多為接收者、正常狀態接近中性或溫和傳遞，多頭時成為對金融市場、工業產出與潔淨能源的重要傳遞者。這些結果為預測性連結，不是結構因果。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【作者提出的限制】只研究美國，對不同制度與監管環境的外推有限；變數集合有所選擇，替代代理與更高頻資料可能提供不同資訊。作者建議延伸至跨國、產業別、替代 CPU／轉型風險指標，以及 CPU 與地緣政治／科技不確定性的交互作用。",
-          "evidence": "【作者提出的限制】只研究美國，對不同制度與監管環境的外推有限；變數集合有所選擇，替代代理與更高頻資料可能提供不同資訊。作者建議延伸至跨國、產業別、替代 CPU／轉型風險指標，以及 CPU 與地緣政治／科技不確定性的交互作用。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【其他限制】月資料可能平滑短期政策與市場衝擊；100 期視窗約涵蓋多年，會犧牲局部事件解析度。資料可用性聲明稱資料來自 Scopus 與 Web of Science，與正文所描述的市場／總體時間序列來源不完全相符，重現時需向作者確認原始下…",
-          "evidence": "【其他限制】月資料可能平滑短期政策與市場衝擊；100 期視窗約涵蓋多年，會犧牲局部事件解析度。資料可用性聲明稱資料來自 Scopus 與 Web of Science，與正文所描述的市場／總體時間序列來源不完全相符，重現時需向作者確認原始下載來源與版本；縮減式 FEVD 亦無法識別結構因果。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【與美智研究的關聯】5/5。主題直接對應 CPU、能源、潔淨能源與金融市場，方法同時使用 TVP-VAR、QVAR 與 GFEVD，是美智「CPU quantile spillovers（TVP-VAR-SV + BK + QVAR）」的高…",
-          "evidence": "【與美智研究的關聯】5/5。主題直接對應 CPU、能源、潔淨能源與金融市場，方法同時使用 TVP-VAR、QVAR 與 GFEVD，是美智「CPU quantile spillovers（TVP-VAR-SV + BK + QVAR）」的高度直接對照。可借鏡總體／貨幣政策變數配置與 CPU 在不同狀態下的角色轉換；主要差異是本文沒有 SV、BK 頻域分解或 time-frequency QVAR。可追蹤 W7165544736、CPU–CELS 連結及 100 期視窗設定。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "研究限制：只研究美國，對不同制度與監管環境的外推有限；變數集合有所選擇，替代代理與更高頻資料可能提供不同資訊。作者建議延伸至跨國、產業別、替代 CPU／轉型風險指標，以及 CPU 與地緣政治／科技不確定性的交互作用。",
-          "evidence": "只研究美國，對不同制度與監管環境的外推有限；變數集合有所選擇，替代代理與更高頻資料可能提供不同資訊。作者建議延伸至跨國、產業別、替代 CPU／轉型風險指標，以及 CPU 與地緣政治／科技不確定性的交互作用。",
-          "confidence": "low",
-          "source": "研究限制",
-          "connections": []
-        },
-        {
-          "claim": "研究限制：月資料可能平滑短期政策與市場衝擊；100 期視窗約涵蓋多年，會犧牲局部事件解析度。資料可用性聲明稱資料來自 Scopus 與 Web of Science，與正文所描述的市場／總體時間序列來源不完全相符，重現時需向作者確認原始下載來源與版本…",
-          "evidence": "月資料可能平滑短期政策與市場衝擊；100 期視窗約涵蓋多年，會犧牲局部事件解析度。資料可用性聲明稱資料來自 Scopus 與 Web of Science，與正文所描述的市場／總體時間序列來源不完全相符，重現時需向作者確認原始下載來源與版本；縮減式 FEVD 亦無法識別結構因果。",
-          "confidence": "low",
-          "source": "研究限制",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    Climatepolicyun[\"📄 Climate policy uncertainty, sustainable finance an\"]\n    style Climatepolicyun fill:#2563eb,color:#fff,font-weight:bold\n    vp0閱讀層級全文精讀[\"💡 【閱讀層級】全文精讀；已透過 Taylor & Francis 公開全文核對書目\"]\n    style vp0閱讀層級全文精讀 fill:#fef3c7,stroke:#d97706\n    Climatepolicyun --> vp0閱讀層級全文精讀\n    vp1資料市場樣本[\"💡 【資料／市場／樣本】美國，2006-12 至 2025-04 的月資料；起點受 \"]\n    style vp1資料市場樣本 fill:#fef3c7,stroke:#d97706\n    Climatepolicyun --> vp1資料市場樣本\n    vp2模型與估計TVP[\"💡 【模型與估計】TVP-VAR 以貝葉斯方法與 Kalman filter 估計時\"]\n    style vp2模型與估計TVP fill:#fef3c7,stroke:#d97706\n    Climatepolicyun --> vp2模型與估計TVP\n    vp3穩健性檢驗作者以[\"💡 【穩健性檢驗】作者以 TVP-VAR 的平均時變連結與 QVAR 的分位數連結交\"]\n    style vp3穩健性檢驗作者以 fill:#fef3c7,stroke:#d97706\n    Climatepolicyun --> vp3穩健性檢驗作者以\n    vp4主要結果TVP[\"💡 【主要結果】TVP-VAR 顯示 2008 金融危機、COVID-19 與近期地\"]\n    style vp4主要結果TVP fill:#fef3c7,stroke:#d97706\n    Climatepolicyun --> vp4主要結果TVP\n    vp5作者提出的限制只[\"💡 【作者提出的限制】只研究美國，對不同制度與監管環境的外推有限；變數集合有所選擇，\"]\n    style vp5作者提出的限制只 fill:#fef3c7,stroke:#d97706\n    Climatepolicyun --> vp5作者提出的限制只\n    vp6其他限制月資料可[\"💡 【其他限制】月資料可能平滑短期政策與市場衝擊；100 期視窗約涵蓋多年，會犧牲局\"]\n    style vp6其他限制月資料可 fill:#fef3c7,stroke:#d97706\n    Climatepolicyun --> vp6其他限制月資料可\n    vp7與美智研究的關聯[\"💡 【與美智研究的關聯】5/5。主題直接對應 CPU、能源、潔淨能源與金融市場，方法\"]\n    style vp7與美智研究的關聯 fill:#fef3c7,stroke:#d97706\n    Climatepolicyun --> vp7與美智研究的關聯\n    vp8研究限制只研究美國[\"💡 研究限制：只研究美國，對不同制度與監管環境的外推有限；變數集合有所選擇，替代代理\"]\n    style vp8研究限制只研究美國 fill:#fee2e2,stroke:#dc2626\n    Climatepolicyun --> vp8研究限制只研究美國\n    vp9研究限制月資料可能[\"💡 研究限制：月資料可能平滑短期政策與市場衝擊；100 期視窗約涵蓋多年，會犧牲局部\"]\n    style vp9研究限制月資料可能 fill:#fee2e2,stroke:#dc2626\n    Climatepolicyun --> vp9研究限制月資料可能\n    vp0閱讀層級全文精讀 --- vp1資料市場樣本\n    vp1資料市場樣本 --- vp2模型與估計TVP\n    vp2模型與估計TVP --- vp3穩健性檢驗作者以"
-    },
-    {
-      "id": "qvar-2026-09-29-china-governance-green-innovation-factor-purged",
-      "title": "Governance-led risk transmission in the policy-innovation-energy nexus: Evidence from China (2015–2024)",
-      "search_date": "2026-09-29",
-      "authors": "Ke Peng; Muhammad Munir; Yubin Li; Mariem Mejri",
-      "year": "2026",
-      "journal": "Cogent Economics & Finance, 14(1), Article 2670057",
-      "doi": "https://doi.org/10.1080/23322039.2026.2670057",
-      "citations": "0（Crossref，2026-09-29；OpenAlex 尚未可靠解析）",
-      "openalex_url": "",
-      "fulltext_url": "https://www.tandfonline.com/doi/full/10.1080/23322039.2026.2670057",
-      "reading_level": "全文精讀",
-      "abstract": "本文以 2015 年 1 月至 2024 年 7 月日資料，檢驗中國六類環境治理股票指數、綠色研發與全球潔淨能源之間的尾部風險傳導。研究先用滾動 PCA 去除共同市場因子，再以 QVAR–GFEVD 建構分位數網路。尾部連結高於中位數；大氣治理與固廢處理在下跌尾部傳遞風險，整體環境治理在正常狀態居核心，水與污水處理在上漲尾部較重要。綠色創新由接收者轉為多頭傳遞者，全球潔淨能源也不具穩定避險角色。",
-      "tags": [
-        "factor-purged QVAR",
-        "GFEVD",
-        "rolling PCA",
-        "quantile connectedness",
-        "green innovation"
-      ],
-      "topics": [
-        "潔淨能源",
-        "綠債/ESG",
-        "金融市場"
-      ],
-      "keywords": [
-        "environmental governance",
-        "policy-innovation-energy nexus",
-        "S&P Global Clean Energy",
-        "systemic risk",
-        "China"
-      ],
-      "type": "search",
-      "notes": [
-        "【閱讀層級】全文精讀；已透過 Taylor & Francis 開放全文核對方法、資料、結果、附錄穩健性、限制與資料可用性。DOI 與 Crossref／出版商書目一致，Crossref 顯示 0 次被引；本輪未能可靠解析 OpenAlex ID，故不臆造連結，亦未見撤稿標示（核驗日 2026-09-29）。",
-        "【研究問題與動機】中國環境治理股是否在極端市場狀態下向綠色創新與全球潔淨能源傳遞系統風險？不同治理子產業、綠色研發與潔淨能源的傳遞者／接收者角色是否會跨分位數轉換，正常時期的分散效果是否在尾部崩解？",
-        "【研究變數】六個申萬環境治理指數：整體環境治理（ENV-G）、大氣治理（ATM-G）、水與污水處理（W&WT）、綜合環境治理（INTEG-EG）、固體廢棄物處理（SWT）、環保設備 II（EPD-II）；另含綠色電力研發指數（GP-R&D）與 S&P Global Clean Energy Index（S&P-GCEI）。皆轉為日對數報酬。",
-        "【資料／市場／樣本】Wind Database；中國環境治理／綠色創新與全球潔淨能源市場，2015-01 至 2024-07 日資料。原文未明列最終交易日觀察數，因此樣本量填「未報告」。",
-        "【模型與估計】先用滾動 PCA 去除第一共同主成分，取得部門特有殘差；再分別於 τ=0.10、0.50、0.90 估計 QVAR，BIC 選 lag（通常 1–2），以 GFEVD（H=10）計算 TCI、TO、FROM、NET 與網路，並用 250 日滾動視窗描繪時變連結。方法衡量預測性／Granger 式傳導，不主張結構因果。",
-        "【穩健性檢驗】替代尾部分位數 τ=0.05／0.95、預測期 H=5／12／20、去除 1 或 2 個共同因子、PCA 視窗 50／100／250 日、替代落後期，以及 COVID-19 前、COVID-19 與俄烏戰爭後子樣本。附錄在 τ=0.05、0.50、0.95 的 TCI 分別為 87.47%、82.69%、87.46%，主要尾部放大與角色轉換結論一致。",
-        "【主要結果】尾部總連結高於中位數，代表極端狀態的分散效益下降。ATM-G 與 SWT 在下跌尾部是重要傳遞者，ENV-G 在中位數主導，ATM-G 與 W&WT 在上漲尾部較強；GP-R&D 在下跌與正常狀態主要接收衝擊、在上漲尾部轉為傳遞者。S&P-GCEI 在下跌尾部傳遞、正常狀態接收、上漲尾部輕度傳遞，因此不能視為固定避險資產。",
-        "【作者提出的限制】QVAR–GFEVD 只能辨識預測性連結，不能證明結構因果；樣本只涵蓋股票型指數；共同因子去除仍可能依因子數與結構而異；中國結果未必能外推至美國、歐盟或其他新興市場。作者建議加入綠債、碳市場、再生能源商品、CPU 與公司財務資料。",
-        "【其他限制】Wind 資料需註冊且版本重現性受限；各指數成分股數差異大，可能使治理子產業的連結度受市場廣度影響；PCA 去因子是 Ando 類概念的可行近似，不等同完整分位數因子模型；未納入匯率、油價或全球風險等外生節點。",
-        "【APA 7】Peng, K., Munir, M., Li, Y., & Mejri, M. (2026). Governance-led risk transmission in the policy-innovation-energy nexus: Evidence from China (2015–2024). Cogent Economics & Finance, 14(1), Article 2670057. https://doi.org/10.1080/23322039.2026.2670057",
-        "【與美智研究的關聯】4/5。主題涵蓋環境治理、綠色創新與全球潔淨能源，方法以 factor-purged QVAR–GFEVD 刻畫尾部網路，可補強美智 time-frequency QVAR／FRL 對共同因子與部門特有衝擊的處理。可借鏡 PCA 去因子、子產業拆分與多重視窗／預測期敏感度；主要差異是本文沒有 CPU、TVP-VAR-SV 或 BK 頻域分解。可追蹤 factor-purged QVAR、GP-R&D 與治理子產業角色轉換。"
-      ],
-      "pdf": "",
-      "viewpoints": [
-        {
-          "claim": "【閱讀層級】全文精讀；已透過 Taylor & Francis 開放全文核對方法、資料、結果、附錄穩健性、限制與資料可用性。DOI 與 Crossref／出版商書目一致，Crossref 顯示 0 次被引；本輪未能可靠解析 OpenAlex…",
-          "evidence": "【閱讀層級】全文精讀；已透過 Taylor & Francis 開放全文核對方法、資料、結果、附錄穩健性、限制與資料可用性。DOI 與 Crossref／出版商書目一致，Crossref 顯示 0 次被引；本輪未能可靠解析 OpenAlex ID，故不臆造連結，亦未見撤稿標示（核驗日 2026-09-29）。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【模型與估計】先用滾動 PCA 去除第一共同主成分，取得部門特有殘差；再分別於 τ=0.10、0.50、0.90 估計 QVAR，BIC 選 lag（通常 1–2），以 GFEVD（H=10）計算 TCI、TO、FROM、NET 與網路，並…",
-          "evidence": "【模型與估計】先用滾動 PCA 去除第一共同主成分，取得部門特有殘差；再分別於 τ=0.10、0.50、0.90 估計 QVAR，BIC 選 lag（通常 1–2），以 GFEVD（H=10）計算 TCI、TO、FROM、NET 與網路，並用 250 日滾動視窗描繪時變連結。方法衡量預測性／Granger 式傳導，不主張結構因果。",
-          "confidence": "mid",
-          "source": "數據",
-          "connections": []
-        },
-        {
-          "claim": "【穩健性檢驗】替代尾部分位數 τ=0.05／0.95、預測期 H=5／12／20、去除 1 或 2 個共同因子、PCA 視窗 50／100／250 日、替代落後期，以及 COVID-19 前、COVID-19 與俄烏戰爭後子樣本。附錄在 τ…",
-          "evidence": "【穩健性檢驗】替代尾部分位數 τ=0.05／0.95、預測期 H=5／12／20、去除 1 或 2 個共同因子、PCA 視窗 50／100／250 日、替代落後期，以及 COVID-19 前、COVID-19 與俄烏戰爭後子樣本。附錄在 τ=0.05、0.50、0.95 的 TCI 分別為 87.47%、82.69%、87.46%，主要尾部放大與角色轉換結論一致。",
-          "confidence": "mid",
-          "source": "數據",
-          "connections": []
-        },
-        {
-          "claim": "【主要結果】尾部總連結高於中位數，代表極端狀態的分散效益下降。ATM-G 與 SWT 在下跌尾部是重要傳遞者，ENV-G 在中位數主導，ATM-G 與 W&WT 在上漲尾部較強；GP-R&D 在下跌與正常狀態主要接收衝擊、在上漲尾部轉為傳遞…",
-          "evidence": "【主要結果】尾部總連結高於中位數，代表極端狀態的分散效益下降。ATM-G 與 SWT 在下跌尾部是重要傳遞者，ENV-G 在中位數主導，ATM-G 與 W&WT 在上漲尾部較強；GP-R&D 在下跌與正常狀態主要接收衝擊、在上漲尾部轉為傳遞者。S&P-GCEI 在下跌尾部傳遞、正常狀態接收、上漲尾部輕度傳遞，因此不能視為固定避險資產。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【作者提出的限制】QVAR–GFEVD 只能辨識預測性連結，不能證明結構因果；樣本只涵蓋股票型指數；共同因子去除仍可能依因子數與結構而異；中國結果未必能外推至美國、歐盟或其他新興市場。作者建議加入綠債、碳市場、再生能源商品、CPU 與公司財…",
-          "evidence": "【作者提出的限制】QVAR–GFEVD 只能辨識預測性連結，不能證明結構因果；樣本只涵蓋股票型指數；共同因子去除仍可能依因子數與結構而異；中國結果未必能外推至美國、歐盟或其他新興市場。作者建議加入綠債、碳市場、再生能源商品、CPU 與公司財務資料。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【其他限制】Wind 資料需註冊且版本重現性受限；各指數成分股數差異大，可能使治理子產業的連結度受市場廣度影響；PCA 去因子是 Ando 類概念的可行近似，不等同完整分位數因子模型；未納入匯率、油價或全球風險等外生節點。",
-          "evidence": "【其他限制】Wind 資料需註冊且版本重現性受限；各指數成分股數差異大，可能使治理子產業的連結度受市場廣度影響；PCA 去因子是 Ando 類概念的可行近似，不等同完整分位數因子模型；未納入匯率、油價或全球風險等外生節點。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "研究限制：QVAR–GFEVD 只能辨識預測性連結，不能證明結構因果；樣本只涵蓋股票型指數；共同因子去除仍可能依因子數與結構而異；中國結果未必能外推至美國、歐盟或其他新興市場。作者建議加入綠債、碳市場、再生能源商品、CPU 與公司財務資料。",
-          "evidence": "QVAR–GFEVD 只能辨識預測性連結，不能證明結構因果；樣本只涵蓋股票型指數；共同因子去除仍可能依因子數與結構而異；中國結果未必能外推至美國、歐盟或其他新興市場。作者建議加入綠債、碳市場、再生能源商品、CPU 與公司財務資料。",
-          "confidence": "low",
-          "source": "研究限制",
-          "connections": []
-        },
-        {
-          "claim": "研究限制：Wind 資料需註冊且版本重現性受限；各指數成分股數差異大，可能使治理子產業的連結度受市場廣度影響；PCA 去因子是 Ando 類概念的可行近似，不等同完整分位數因子模型；未納入匯率、油價或全球風險等外生節點。",
-          "evidence": "Wind 資料需註冊且版本重現性受限；各指數成分股數差異大，可能使治理子產業的連結度受市場廣度影響；PCA 去因子是 Ando 類概念的可行近似，不等同完整分位數因子模型；未納入匯率、油價或全球風險等外生節點。",
-          "confidence": "low",
-          "source": "研究限制",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    Governanceledri[\"📄 Governance-led risk transmission in the policy-inn\"]\n    style Governanceledri fill:#2563eb,color:#fff,font-weight:bold\n    vp0閱讀層級全文精讀[\"💡 【閱讀層級】全文精讀；已透過 Taylor & Francis 開放全文核對方法\"]\n    style vp0閱讀層級全文精讀 fill:#fef3c7,stroke:#d97706\n    Governanceledri --> vp0閱讀層級全文精讀\n    vp1模型與估計先用滾[\"💡 【模型與估計】先用滾動 PCA 去除第一共同主成分，取得部門特有殘差；再分別於 \"]\n    style vp1模型與估計先用滾 fill:#fef3c7,stroke:#d97706\n    Governanceledri --> vp1模型與估計先用滾\n    vp2穩健性檢驗替代尾[\"💡 【穩健性檢驗】替代尾部分位數 τ=0.05／0.95、預測期 H=5／12／20\"]\n    style vp2穩健性檢驗替代尾 fill:#fef3c7,stroke:#d97706\n    Governanceledri --> vp2穩健性檢驗替代尾\n    vp3主要結果尾部總連[\"💡 【主要結果】尾部總連結高於中位數，代表極端狀態的分散效益下降。ATM-G 與 S\"]\n    style vp3主要結果尾部總連 fill:#fef3c7,stroke:#d97706\n    Governanceledri --> vp3主要結果尾部總連\n    vp4作者提出的限制Q[\"💡 【作者提出的限制】QVAR–GFEVD 只能辨識預測性連結，不能證明結構因果；樣\"]\n    style vp4作者提出的限制Q fill:#fef3c7,stroke:#d97706\n    Governanceledri --> vp4作者提出的限制Q\n    vp5其他限制Wind[\"💡 【其他限制】Wind 資料需註冊且版本重現性受限；各指數成分股數差異大，可能使治\"]\n    style vp5其他限制Wind fill:#fef3c7,stroke:#d97706\n    Governanceledri --> vp5其他限制Wind\n    vp6研究限制QVAR[\"💡 研究限制：QVAR–GFEVD 只能辨識預測性連結，不能證明結構因果；樣本只涵蓋\"]\n    style vp6研究限制QVAR fill:#fee2e2,stroke:#dc2626\n    Governanceledri --> vp6研究限制QVAR\n    vp7研究限制Wind[\"💡 研究限制：Wind 資料需註冊且版本重現性受限；各指數成分股數差異大，可能使治理\"]\n    style vp7研究限制Wind fill:#fee2e2,stroke:#dc2626\n    Governanceledri --> vp7研究限制Wind\n    vp0閱讀層級全文精讀 --- vp1模型與估計先用滾\n    vp1模型與估計先用滾 --- vp2穩健性檢驗替代尾\n    vp2穩健性檢驗替代尾 --- vp3主要結果尾部總連"
-    },
-    {
-      "id": "qvar-2026-09-29-green-conventional-crypto-qqvar",
-      "title": "Asymmetric risk spillovers between green and conventional cryptocurrencies: Evidence from a quantile-on-quantile VAR with geopolitical and financial risks",
-      "search_date": "2026-09-29",
-      "authors": "Hayfa Kazouz; Mohamed Yousfi",
-      "year": "2026",
-      "journal": "Development and Sustainability in Economics and Finance, 9, Article 100110",
-      "doi": "https://doi.org/10.1016/j.dsef.2025.100110",
-      "citations": "3（OpenAlex／Crossref，2026-09-29）",
-      "openalex_url": "https://openalex.org/W7117367477",
-      "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S2950524025000708",
-      "reading_level": "摘要層級",
-      "abstract": "本文以分位數對分位數 VAR 檢驗節能型（Proof of Stake）與高耗能型（Proof of Work）加密貨幣，如何在地緣政治風險與金融壓力下傳遞風險。2021 年 9 月至 2025 年 7 月的日資料顯示，金融壓力期間加密貨幣網路幾乎完全連結；Bitcoin 與 Ethereum 是主要波動來源，Power Ledger 在多頭狀態下成為顯著風險傳遞者，重大地緣政治事件則會暫時改變傳導路徑。",
-      "tags": [
-        "QQVAR",
-        "quantile-on-quantile connectedness",
-        "green cryptocurrency",
-        "geopolitical risk",
-        "financial stress"
-      ],
-      "topics": [
-        "加密貨幣/數位金融",
-        "金融市場",
-        "地緣政治/國防",
-        "潔淨能源"
-      ],
-      "keywords": [
-        "Proof of Stake",
-        "Proof of Work",
-        "tail spillovers",
-        "financial stress index",
-        "green crypto assets"
-      ],
-      "type": "search",
-      "notes": [
-        "【閱讀層級】摘要層級；已核對 ScienceDirect 公開摘要、DOI CSL/Crossref 書目與 OpenAlex。OpenAlex ID 為 W7117367477，OpenAlex 與 Crossref 均回報 3 次被引，OpenAlex 未標示撤稿（核驗日 2026-09-29）。全文受訂閱限制，未繞過存取控制。",
-        "【研究問題與動機】節能型與高耗能型加密貨幣在不同市場狀態下如何互相傳遞風險？金融壓力與地緣政治衝擊是否改變尾部連結強度、主要傳遞者與 contagion 路徑？",
-        "【研究變數】節能型（PoS）與高耗能型（PoW）加密貨幣報酬，外加地緣政治風險指數與金融壓力指數。公開摘要明列 Bitcoin、Ethereum 與 Power Ledger，但未提供完整幣種清單及各變數精確定義。",
-        "【資料／市場／樣本】全球加密貨幣市場；2021 年 9 月至 2025 年 7 月的日資料。公開摘要未報告資料供應商、完整交易日篩選規則與最終樣本量。",
-        "【模型與估計】分位數對分位數 VAR（QQVAR）與分位數連結度，用以比較不同來源分位數衝擊對不同目標分位數的傳遞；摘要另報告時間動態與回饋效應，但未揭露落後期、預測期、滾動視窗或估計細節。",
-        "【穩健性檢驗】公開摘要未報告替代模型、替代指標、視窗／預測期敏感度或子樣本檢驗，因此不能推定已完成特定穩健性程序。",
-        "【主要結果】金融壓力期間連結度接近完全連結；Bitcoin 與 Ethereum 為中心波動來源，Power Ledger 在多頭狀態下是顯著風險傳遞者。市場內生回饋是主要 contagion 驅動因素，但地緣政治危機會暫時改變主要傳導路徑。這些結果是預測性連結，不等同結構因果。",
-        "【作者提出的限制】可取得的摘要未列出作者自述限制；不得由摘要外推正文中的限制討論。",
-        "【其他限制】綠色／傳統加密貨幣分類可能隨共識機制與能源結構改變；樣本始於 2021 年，涵蓋週期有限；摘要未提供完整變數、參數與穩健性資訊；QQVAR 的方向性仍受模型設定與共同衝擊影響。",
-        "【APA 7】Kazouz, H., & Yousfi, M. (2026). Asymmetric risk spillovers between green and conventional cryptocurrencies: Evidence from a quantile-on-quantile VAR with geopolitical and financial risks. Development and Sustainability in Economics and Finance, 9, Article 100110. https://doi.org/10.1016/j.dsef.2025.100110",
-        "【與美智研究的關聯】4/5。主題上連結綠色加密貨幣、地緣政治與金融壓力，方法上以 QQVAR 描述跨分位數尾部傳導，可補充美智 time-frequency QVAR／FRL 對市場狀態的刻畫。可借鏡 PoS／PoW 分組與外部風險納入方式；主要差異是本文未使用氣候政策不確定性、TVP-VAR-SV 或 BK 頻域分解。可追蹤 W7117367477、QQVAR 與 green crypto 分類。"
-      ],
-      "pdf": "",
-      "viewpoints": [
-        {
-          "claim": "市場內生回饋是主要 contagion驅動因素",
-          "evidence": "市場內生回饋是主要 contagion對因素的影響：驅動",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "【閱讀層級】摘要層級；已核對 ScienceDirect 公開摘要、DOI CSL/Crossref 書目與 OpenAlex。OpenAlex ID 為 W7117367477，OpenAlex 與 Crossref 均回報 3 次被引，…",
-          "evidence": "【閱讀層級】摘要層級；已核對 ScienceDirect 公開摘要、DOI CSL/Crossref 書目與 OpenAlex。OpenAlex ID 為 W7117367477，OpenAlex 與 Crossref 均回報 3 次被引，OpenAlex 未標示撤稿（核驗日 2026-09-29）。全文受訂閱限制，未繞過存取控制。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【主要結果】金融壓力期間連結度接近完全連結；Bitcoin 與 Ethereum 為中心波動來源，Power Ledger 在多頭狀態下是顯著風險傳遞者。市場內生回饋是主要 contagion 驅動因素，但地緣政治危機會暫時改變主要傳導路徑…",
-          "evidence": "【主要結果】金融壓力期間連結度接近完全連結；Bitcoin 與 Ethereum 為中心波動來源，Power Ledger 在多頭狀態下是顯著風險傳遞者。市場內生回饋是主要 contagion 驅動因素，但地緣政治危機會暫時改變主要傳導路徑。這些結果是預測性連結，不等同結構因果。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【作者提出的限制】可取得的摘要未列出作者自述限制；不得由摘要外推正文中的限制討論。",
-          "evidence": "【作者提出的限制】可取得的摘要未列出作者自述限制；不得由摘要外推正文中的限制討論。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【其他限制】綠色／傳統加密貨幣分類可能隨共識機制與能源結構改變；樣本始於 2021 年，涵蓋週期有限；摘要未提供完整變數、參數與穩健性資訊；QQVAR 的方向性仍受模型設定與共同衝擊影響。",
-          "evidence": "【其他限制】綠色／傳統加密貨幣分類可能隨共識機制與能源結構改變；樣本始於 2021 年，涵蓋週期有限；摘要未提供完整變數、參數與穩健性資訊；QQVAR 的方向性仍受模型設定與共同衝擊影響。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【與美智研究的關聯】4/5。主題上連結綠色加密貨幣、地緣政治與金融壓力，方法上以 QQVAR 描述跨分位數尾部傳導，可補充美智 time-frequency QVAR／FRL 對市場狀態的刻畫。可借鏡 PoS／PoW 分組與外部風險納入方式…",
-          "evidence": "【與美智研究的關聯】4/5。主題上連結綠色加密貨幣、地緣政治與金融壓力，方法上以 QQVAR 描述跨分位數尾部傳導，可補充美智 time-frequency QVAR／FRL 對市場狀態的刻畫。可借鏡 PoS／PoW 分組與外部風險納入方式；主要差異是本文未使用氣候政策不確定性、TVP-VAR-SV 或 BK 頻域分解。可追蹤 W7117367477、QQVAR 與 green crypto 分類。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "研究限制：可取得的摘要未列出作者自述限制；不得由摘要外推正文中的限制討論。",
-          "evidence": "可取得的摘要未列出作者自述限制；不得由摘要外推正文中的限制討論。",
-          "confidence": "low",
-          "source": "研究限制",
-          "connections": []
-        },
-        {
-          "claim": "研究限制：綠色／傳統加密貨幣分類可能隨共識機制與能源結構改變；樣本始於 2021 年，涵蓋週期有限；摘要未提供完整變數、參數與穩健性資訊；QQVAR 的方向性仍受模型設定與共同衝擊影響。",
-          "evidence": "綠色／傳統加密貨幣分類可能隨共識機制與能源結構改變；樣本始於 2021 年，涵蓋週期有限；摘要未提供完整變數、參數與穩健性資訊；QQVAR 的方向性仍受模型設定與共同衝擊影響。",
-          "confidence": "low",
-          "source": "研究限制",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    Asymmetricrisks[\"📄 Asymmetric risk spillovers between green and conve\"]\n    style Asymmetricrisks fill:#2563eb,color:#fff,font-weight:bold\n    vp0市場內生回饋是主要[\"💡 市場內生回饋是主要 contagion驅動因素\"]\n    style vp0市場內生回饋是主要 fill:#fef3c7,stroke:#d97706\n    Asymmetricrisks --> vp0市場內生回饋是主要\n    vp1閱讀層級摘要層級[\"💡 【閱讀層級】摘要層級；已核對 ScienceDirect 公開摘要、DOI CS\"]\n    style vp1閱讀層級摘要層級 fill:#fef3c7,stroke:#d97706\n    Asymmetricrisks --> vp1閱讀層級摘要層級\n    vp2主要結果金融壓力[\"💡 【主要結果】金融壓力期間連結度接近完全連結；Bitcoin 與 Ethereum\"]\n    style vp2主要結果金融壓力 fill:#fef3c7,stroke:#d97706\n    Asymmetricrisks --> vp2主要結果金融壓力\n    vp3作者提出的限制可[\"💡 【作者提出的限制】可取得的摘要未列出作者自述限制；不得由摘要外推正文中的限制討論\"]\n    style vp3作者提出的限制可 fill:#fef3c7,stroke:#d97706\n    Asymmetricrisks --> vp3作者提出的限制可\n    vp4其他限制綠色傳[\"💡 【其他限制】綠色／傳統加密貨幣分類可能隨共識機制與能源結構改變；樣本始於 202\"]\n    style vp4其他限制綠色傳 fill:#fef3c7,stroke:#d97706\n    Asymmetricrisks --> vp4其他限制綠色傳\n    vp5與美智研究的關聯[\"💡 【與美智研究的關聯】4/5。主題上連結綠色加密貨幣、地緣政治與金融壓力，方法上以\"]\n    style vp5與美智研究的關聯 fill:#fef3c7,stroke:#d97706\n    Asymmetricrisks --> vp5與美智研究的關聯\n    vp6研究限制可取得的摘[\"💡 研究限制：可取得的摘要未列出作者自述限制；不得由摘要外推正文中的限制討論。\"]\n    style vp6研究限制可取得的摘 fill:#fee2e2,stroke:#dc2626\n    Asymmetricrisks --> vp6研究限制可取得的摘\n    vp7研究限制綠色傳統[\"💡 研究限制：綠色／傳統加密貨幣分類可能隨共識機制與能源結構改變；樣本始於 2021\"]\n    style vp7研究限制綠色傳統 fill:#fee2e2,stroke:#dc2626\n    Asymmetricrisks --> vp7研究限制綠色傳統\n    市場內生回饋是主要conta==>|\"驅動\"|因素\n    vp0市場內生回饋是主要 --- vp1閱讀層級摘要層級\n    vp1閱讀層級摘要層級 --- vp2主要結果金融壓力\n    vp2主要結果金融壓力 --- vp3作者提出的限制可"
-    },
-    {
-      "id": "qvar-2026-09-29-brazil-energy-tvp-qvar-frequency",
-      "title": "Asymmetric market connectedness and systemic risk: A novel quantile and time-frequency evidence from brazilian energy firms",
-      "search_date": "2026-09-29",
-      "authors": "Ran Wu; Ming Li; Shenglin Ma; Hongjun Zeng",
-      "year": "2026",
-      "journal": "Renewable Energy, 260, Article 125162",
-      "doi": "https://doi.org/10.1016/j.renene.2025.125162",
-      "citations": "9（OpenAlex／Crossref，2026-09-29）",
-      "openalex_url": "https://openalex.org/W7117551022",
-      "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S0960148125028265",
-      "reading_level": "摘要層級",
-      "abstract": "本文以 13 家巴西主要能源上市公司為對象，建構 TVP-QVAR 頻域連結與網路拓撲。2021–2024 年間，極端下跌狀態的 TCI 為 87.34%，高於正常狀態 84.13% 與極端上漲狀態 73.69%；長期頻帶主導整體傳導，而短期連結在下跌尾部更為波動。X3R 與 PETRORECONCAVO 為持續淨傳遞者，COSAN 則是主要淨接收者。",
-      "tags": [
-        "TVP-QVAR",
-        "frequency connectedness",
-        "quantile connectedness",
-        "network topology",
-        "Brazilian energy firms"
-      ],
-      "topics": [
-        "能源市場",
-        "潔淨能源",
-        "金融市場"
-      ],
-      "keywords": [
-        "systemic risk",
-        "Brazil",
-        "energy equities",
-        "tail connectedness",
-        "long-horizon spillovers"
-      ],
-      "type": "search",
-      "notes": [
-        "【閱讀層級】摘要層級；已核對 RePEc／IDEAS 公開摘要、Crossref 與 OpenAlex。OpenAlex ID 為 W7117551022，兩者均回報 9 次被引，OpenAlex 未標示撤稿（核驗日 2026-09-29）。出版社全文受訂閱限制。",
-        "【研究問題與動機】巴西能源上市公司之間的系統風險連結是否隨報酬分位數、時間與投資期限改變？哪些公司在下跌尾部成為關鍵傳遞者或脆弱接收者？",
-        "【研究變數】13 家巴西主要能源上市公司的市場報酬／風險序列；公開摘要點名 X3R、PETRORECONCAVO 與 COSAN，但未提供完整公司名單與變數建構公式。",
-        "【資料／市場／樣本】巴西能源股票市場，樣本期 2021–2024 年。公開摘要未報告資料來源、精確起訖日、頻率與最終樣本量。",
-        "【模型與估計】時間變動參數分位數 VAR（TVP-QVAR）結合頻域連結度與網路拓撲，分析不同市場狀態及長短期風險傳導；摘要未報告頻帶界線、落後期、預測期或先驗設定。",
-        "【穩健性檢驗】公開摘要未提供替代視窗、預測期、頻帶、公司樣本或模型的穩健性檢驗，故不臆測正文中的程序。",
-        "【主要結果】TCI 在極端下跌、正常與極端上漲狀態分別為 87.34%、84.13% 與 73.69%，顯示下跌尾部的系統風險放大最強。長期頻帶主導傳導，短期頻帶在下跌狀態波動更大；X3R 與 PETRORECONCAVO 持續為淨傳遞者，COSAN 為主要淨接收者。連結度是預測性風險網路，不構成因果辨識。",
-        "【作者提出的限制】可取得摘要未列作者自述限制；不得把研究建議當成已報告限制。",
-        "【其他限制】只涵蓋單一新興市場與 13 家企業，樣本期短且可能受共同油價、匯率與政策衝擊驅動；摘要缺少資料頻率、公司清單與估計細節；企業連結不必然代表實體能源供應鏈因果傳導。",
-        "【APA 7】Wu, R., Li, M., Ma, S., & Zeng, H. (2026). Asymmetric market connectedness and systemic risk: A novel quantile and time-frequency evidence from Brazilian energy firms. Renewable Energy, 260, Article 125162. https://doi.org/10.1016/j.renene.2025.125162",
-        "【與美智研究的關聯】4/5。方法上直接結合 TVP-QVAR、分位數與頻域連結，是美智 TVP-VAR-SV + BK + QVAR 架構的重要企業層級對照；可借鏡下跌尾部與長短期傳導的聯合報告。主要差異是本文聚焦巴西能源股，未引入氣候政策不確定性、綠色資產或明示 BK／SV。可追蹤 W7117551022、TVP-QVAR frequency connectedness 與巴西能源公司網路。"
-      ],
-      "pdf": "",
-      "viewpoints": [
-        {
-          "claim": "匯率與政策衝擊驅動；摘要缺少資料頻率",
-          "evidence": "匯率與政策衝擊對；摘要缺少資料頻率的影響：驅動",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "【閱讀層級】摘要層級；已核對 RePEc／IDEAS 公開摘要、Crossref 與 OpenAlex。OpenAlex ID 為 W7117551022，兩者均回報 9 次被引，OpenAlex 未標示撤稿（核驗日 2026-09-29）…",
-          "evidence": "【閱讀層級】摘要層級；已核對 RePEc／IDEAS 公開摘要、Crossref 與 OpenAlex。OpenAlex ID 為 W7117551022，兩者均回報 9 次被引，OpenAlex 未標示撤稿（核驗日 2026-09-29）。出版社全文受訂閱限制。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【主要結果】TCI 在極端下跌、正常與極端上漲狀態分別為 87.34%、84.13% 與 73.69%，顯示下跌尾部的系統風險放大最強。長期頻帶主導傳導，短期頻帶在下跌狀態波動更大；X3R 與 PETRORECONCAVO 持續為淨傳遞者，…",
-          "evidence": "【主要結果】TCI 在極端下跌、正常與極端上漲狀態分別為 87.34%、84.13% 與 73.69%，顯示下跌尾部的系統風險放大最強。長期頻帶主導傳導，短期頻帶在下跌狀態波動更大；X3R 與 PETRORECONCAVO 持續為淨傳遞者，COSAN 為主要淨接收者。連結度是預測性風險網路，不構成因果辨識。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【作者提出的限制】可取得摘要未列作者自述限制；不得把研究建議當成已報告限制。",
-          "evidence": "【作者提出的限制】可取得摘要未列作者自述限制；不得把研究建議當成已報告限制。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【其他限制】只涵蓋單一新興市場與 13 家企業，樣本期短且可能受共同油價、匯率與政策衝擊驅動；摘要缺少資料頻率、公司清單與估計細節；企業連結不必然代表實體能源供應鏈因果傳導。",
-          "evidence": "【其他限制】只涵蓋單一新興市場與 13 家企業，樣本期短且可能受共同油價、匯率與政策衝擊驅動；摘要缺少資料頻率、公司清單與估計細節；企業連結不必然代表實體能源供應鏈因果傳導。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【與美智研究的關聯】4/5。方法上直接結合 TVP-QVAR、分位數與頻域連結，是美智 TVP-VAR-SV + BK + QVAR 架構的重要企業層級對照；可借鏡下跌尾部與長短期傳導的聯合報告。主要差異是本文聚焦巴西能源股，未引入氣候政策…",
-          "evidence": "【與美智研究的關聯】4/5。方法上直接結合 TVP-QVAR、分位數與頻域連結，是美智 TVP-VAR-SV + BK + QVAR 架構的重要企業層級對照；可借鏡下跌尾部與長短期傳導的聯合報告。主要差異是本文聚焦巴西能源股，未引入氣候政策不確定性、綠色資產或明示 BK／SV。可追蹤 W7117551022、TVP-QVAR frequency connectedness 與巴西能源公司網路。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "研究限制：可取得摘要未列作者自述限制；不得把研究建議當成已報告限制。",
-          "evidence": "可取得摘要未列作者自述限制；不得把研究建議當成已報告限制。",
-          "confidence": "low",
-          "source": "研究限制",
-          "connections": []
-        },
-        {
-          "claim": "研究限制：只涵蓋單一新興市場與 13 家企業，樣本期短且可能受共同油價、匯率與政策衝擊驅動；摘要缺少資料頻率、公司清單與估計細節；企業連結不必然代表實體能源供應鏈因果傳導。",
-          "evidence": "只涵蓋單一新興市場與 13 家企業，樣本期短且可能受共同油價、匯率與政策衝擊驅動；摘要缺少資料頻率、公司清單與估計細節；企業連結不必然代表實體能源供應鏈因果傳導。",
-          "confidence": "low",
-          "source": "研究限制",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    Asymmetricmarke[\"📄 Asymmetric market connectedness and systemic risk:\"]\n    style Asymmetricmarke fill:#2563eb,color:#fff,font-weight:bold\n    vp0匯率與政策衝擊驅動[\"💡 匯率與政策衝擊驅動；摘要缺少資料頻率\"]\n    style vp0匯率與政策衝擊驅動 fill:#fef3c7,stroke:#d97706\n    Asymmetricmarke --> vp0匯率與政策衝擊驅動\n    vp1閱讀層級摘要層級[\"💡 【閱讀層級】摘要層級；已核對 RePEc／IDEAS 公開摘要、Crossref\"]\n    style vp1閱讀層級摘要層級 fill:#fef3c7,stroke:#d97706\n    Asymmetricmarke --> vp1閱讀層級摘要層級\n    vp2主要結果TCI[\"💡 【主要結果】TCI 在極端下跌、正常與極端上漲狀態分別為 87.34%、84.1\"]\n    style vp2主要結果TCI fill:#fef3c7,stroke:#d97706\n    Asymmetricmarke --> vp2主要結果TCI\n    vp3作者提出的限制可[\"💡 【作者提出的限制】可取得摘要未列作者自述限制；不得把研究建議當成已報告限制。\"]\n    style vp3作者提出的限制可 fill:#fef3c7,stroke:#d97706\n    Asymmetricmarke --> vp3作者提出的限制可\n    vp4其他限制只涵蓋單[\"💡 【其他限制】只涵蓋單一新興市場與 13 家企業，樣本期短且可能受共同油價、匯率與\"]\n    style vp4其他限制只涵蓋單 fill:#fef3c7,stroke:#d97706\n    Asymmetricmarke --> vp4其他限制只涵蓋單\n    vp5與美智研究的關聯[\"💡 【與美智研究的關聯】4/5。方法上直接結合 TVP-QVAR、分位數與頻域連結，\"]\n    style vp5與美智研究的關聯 fill:#fef3c7,stroke:#d97706\n    Asymmetricmarke --> vp5與美智研究的關聯\n    vp6研究限制可取得摘要[\"💡 研究限制：可取得摘要未列作者自述限制；不得把研究建議當成已報告限制。\"]\n    style vp6研究限制可取得摘要 fill:#fee2e2,stroke:#dc2626\n    Asymmetricmarke --> vp6研究限制可取得摘要\n    vp7研究限制只涵蓋單一[\"💡 研究限制：只涵蓋單一新興市場與 13 家企業，樣本期短且可能受共同油價、匯率與政\"]\n    style vp7研究限制只涵蓋單一 fill:#fee2e2,stroke:#dc2626\n    Asymmetricmarke --> vp7研究限制只涵蓋單一\n    匯率與政策衝擊==>|\"驅動\"|摘要缺少資料頻率\n    vp0匯率與政策衝擊驅動 --- vp1閱讀層級摘要層級\n    vp1閱讀層級摘要層級 --- vp2主要結果TCI\n    vp2主要結果TCI --- vp3作者提出的限制可"
-    },
-    {
-      "id": "qvar-2026-09-29-sustainable-digital-higher-moments",
-      "title": "Risk Propagation and System Resilience in Sustainable–Digital Finance: A Time–Frequency Higher-Order Moment Analysis of Green Finance, Green Cryptocurrency, and Non-Green Cryptocurrency Markets",
-      "search_date": "2026-09-29",
-      "authors": "Junda Wu; Jian Yao; Jiajing Sun",
-      "year": "2026",
-      "journal": "Systems, 14(6), Article 628",
-      "doi": "https://doi.org/10.3390/systems14060628",
-      "citations": "3（OpenAlex／Crossref，2026-09-29）",
-      "openalex_url": "https://openalex.org/W7163321694",
-      "fulltext_url": "https://www.mdpi.com/2079-8954/14/6/628",
-      "reading_level": "全文精讀",
-      "abstract": "本文把潔淨能源、綠債與 ESG 指數，以及綠色和傳統加密貨幣視為永續—數位金融系統，先以 GARCHSK 估計條件波動、偏態與峰態，再用 TVP-VAR、Diebold–Yilmaz 與 Baruník–Křehlík 分析時頻連結。靜態總連結度在波動、偏態、峰態分別為 75.87、65.11、77.94；波動與峰態主要由長期頻帶主導，綠色金融資產多為淨接收者，多種加密貨幣則傳遞波動或尾部風險。",
-      "tags": [
-        "GARCHSK",
-        "TVP-VAR",
-        "Baruník–Křehlík",
-        "higher-order moments",
-        "green cryptocurrency"
+        "MF-ADCCA",
+        "MF-DCCA",
+        "multifractal",
+        "green bonds",
+        "uncertainty"
       ],
       "topics": [
         "綠債/ESG",
-        "潔淨能源",
-        "加密貨幣/數位金融",
-        "金融市場"
-      ],
-      "keywords": [
-        "sustainable digital finance",
-        "volatility",
-        "skewness",
-        "kurtosis",
-        "system resilience"
-      ],
-      "type": "search",
-      "notes": [
-        "【閱讀層級】全文精讀；已透過 MDPI 公開全文與匿名 Jina Reader 核對方法、資料、結果、穩健性、限制及資料可用性，並交叉核對 Crossref 與 OpenAlex。OpenAlex ID 為 W7163321694，兩者均回報 3 次被引且 OpenAlex 未標示撤稿（核驗日 2026-09-29）。",
-        "【研究問題與動機】綠色金融、綠色加密貨幣與傳統加密貨幣在波動、偏態與峰態三種風險狀態下如何傳遞衝擊？傳導集中於短期反應或長期依賴，哪些資產是淨傳遞者／接收者，危機與 Ethereum Merge 是否改變系統結構？",
-        "【研究變數】綠色金融：S&P Global Clean Energy Transition（CE）、S&P Dow Jones Green Bond（GB）、Dow Jones Best-in-Class World（ESG）；綠色加密貨幣：ADA、EOS、IOTA、XLM、XTZ；傳統組：BNB、BTC、ETH、LTC、XRP。對各日報酬估計條件波動、偏態與峰態。",
-        "【資料／市場／樣本】S&P Global 與 CoinMarketCap；價格期 2019-09-24 至 2025-05-26，對齊後日報酬期自 2019-09-25 起，共 1,468 筆，涵蓋 COVID-19、2021 crypto bull run、2022 crypto winter、Ethereum Merge 與後續復甦。",
-        "【模型與估計】GARCHSK 過濾條件波動、偏態、峰態；TVP-VAR(1) 的 DY/GFEVD 時域連結；再依 BK 頻域分解為 1–5 交易日短期與 5 日以上長期，計算 TSI、TO、FROM、NET、NPDS。作者把連結結構視為韌性診斷而非獨立韌性指數或結構因果。",
-        "【穩健性檢驗】將短期頻帶由 1–5 日改為 1–22 日（月度界線）；另以 2022-09-15 Ethereum Merge 分割波動連結子樣本（Merge 前 771、後 697 筆）。波動與峰態仍以長期成分為主；總波動連結由 78.78 降至 68.17，但核心期限結論不變。",
-        "【主要結果】靜態 TSI：波動 75.87、偏態 65.11、峰態 77.94。波動長期 67.59、短期 8.28；峰態長期 62.32、短期 15.62；偏態短／長期約 32.56／32.55。GB 與 ESG 在波動 NET 為 −31.70、−17.57；所有綠色金融資產在偏態為淨接收者。ADA、BNB 等傳遞波動，XLM、XRP 對峰態傳遞突出。這些是 FEVD 連結角色，不是結構因果或實際損失。",
-        "【作者提出的限制】綠色幣分類依文獻且非碳足跡稽核，未反映環境特徵隨時間改變；模型為縮減式，不能識別結構因果或所有共同衝擊；韌性未與 CoVaR、MES、SRISK、違約或實際損失比較；樣本始於 2019；GARCHSK 受受限非線性估計影響。",
-        "【其他限制】ETH 固定列入傳統組雖以 Merge 子樣本補強，仍無法完整處理逐日能源結構變化；S&P 與 CoinMarketCap 的對齊可能犧牲週末 crypto 資訊；頻帶與 GARCHSK 規格仍有模型依賴，且 13 資產未涵蓋更廣泛碳市場與氣候風險因子。",
-        "【APA 7】Wu, J., Yao, J., & Sun, J. (2026). Risk propagation and system resilience in sustainable–digital finance: A time–frequency higher-order moment analysis of green finance, green cryptocurrency, and non-green cryptocurrency markets. Systems, 14(6), Article 628. https://doi.org/10.3390/systems14060628",
-        "【與美智研究的關聯】4/5。主題上同時含潔淨能源、綠債、ESG 與綠／非綠加密貨幣；方法上直接使用 TVP-VAR、DY、BK 時頻分解與高階動差，可補強美智研究對尾部風險來源的設計。可借鏡 5 日／22 日頻帶敏感度與事件前後子樣本；主要差異是本文不是 QVAR，也未納入氣候政策不確定性或 TVP-VAR-SV。可追蹤 W7163321694、GARCHSK-BK 與 green crypto classification。"
-      ],
-      "pdf": "",
-      "viewpoints": [
-        {
-          "claim": "【閱讀層級】全文精讀；已透過 MDPI 公開全文與匿名 Jina Reader 核對方法、資料、結果、穩健性、限制及資料可用性，並交叉核對 Crossref 與 OpenAlex。OpenAlex ID 為 W7163321694，兩者均回…",
-          "evidence": "【閱讀層級】全文精讀；已透過 MDPI 公開全文與匿名 Jina Reader 核對方法、資料、結果、穩健性、限制及資料可用性，並交叉核對 Crossref 與 OpenAlex。OpenAlex ID 為 W7163321694，兩者均回報 3 次被引且 OpenAlex 未標示撤稿（核驗日 2026-09-29）。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【穩健性檢驗】將短期頻帶由 1–5 日改為 1–22 日（月度界線）；另以 2022-09-15 Ethereum Merge 分割波動連結子樣本（Merge 前 771、後 697 筆）。波動與峰態仍以長期成分為主；總波動連結由 78.7…",
-          "evidence": "【穩健性檢驗】將短期頻帶由 1–5 日改為 1–22 日（月度界線）；另以 2022-09-15 Ethereum Merge 分割波動連結子樣本（Merge 前 771、後 697 筆）。波動與峰態仍以長期成分為主；總波動連結由 78.78 降至 68.17，但核心期限結論不變。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【主要結果】靜態 TSI：波動 75.87、偏態 65.11、峰態 77.94。波動長期 67.59、短期 8.28；峰態長期 62.32、短期 15.62；偏態短／長期約 32.56／32.55。GB 與 ESG 在波動 NET 為 −3…",
-          "evidence": "【主要結果】靜態 TSI：波動 75.87、偏態 65.11、峰態 77.94。波動長期 67.59、短期 8.28；峰態長期 62.32、短期 15.62；偏態短／長期約 32.56／32.55。GB 與 ESG 在波動 NET 為 −31.70、−17.57；所有綠色金融資產在偏態為淨接收者。ADA、BNB 等傳遞波動，XLM、XRP 對峰態傳遞突出。這些是 FEVD 連結角色，不是結構因果或實際損失。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【作者提出的限制】綠色幣分類依文獻且非碳足跡稽核，未反映環境特徵隨時間改變；模型為縮減式，不能識別結構因果或所有共同衝擊；韌性未與 CoVaR、MES、SRISK、違約或實際損失比較；樣本始於 2019；GARCHSK 受受限非線性估計影響…",
-          "evidence": "【作者提出的限制】綠色幣分類依文獻且非碳足跡稽核，未反映環境特徵隨時間改變；模型為縮減式，不能識別結構因果或所有共同衝擊；韌性未與 CoVaR、MES、SRISK、違約或實際損失比較；樣本始於 2019；GARCHSK 受受限非線性估計影響。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【其他限制】ETH 固定列入傳統組雖以 Merge 子樣本補強，仍無法完整處理逐日能源結構變化；S&P 與 CoinMarketCap 的對齊可能犧牲週末 crypto 資訊；頻帶與 GARCHSK 規格仍有模型依賴，且 13 資產未涵蓋更…",
-          "evidence": "【其他限制】ETH 固定列入傳統組雖以 Merge 子樣本補強，仍無法完整處理逐日能源結構變化；S&P 與 CoinMarketCap 的對齊可能犧牲週末 crypto 資訊；頻帶與 GARCHSK 規格仍有模型依賴，且 13 資產未涵蓋更廣泛碳市場與氣候風險因子。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【與美智研究的關聯】4/5。主題上同時含潔淨能源、綠債、ESG 與綠／非綠加密貨幣；方法上直接使用 TVP-VAR、DY、BK 時頻分解與高階動差，可補強美智研究對尾部風險來源的設計。可借鏡 5 日／22 日頻帶敏感度與事件前後子樣本；主要…",
-          "evidence": "【與美智研究的關聯】4/5。主題上同時含潔淨能源、綠債、ESG 與綠／非綠加密貨幣；方法上直接使用 TVP-VAR、DY、BK 時頻分解與高階動差，可補強美智研究對尾部風險來源的設計。可借鏡 5 日／22 日頻帶敏感度與事件前後子樣本；主要差異是本文不是 QVAR，也未納入氣候政策不確定性或 TVP-VAR-SV。可追蹤 W7163321694、GARCHSK-BK 與 green crypto classification。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "研究限制：綠色幣分類依文獻且非碳足跡稽核，未反映環境特徵隨時間改變；模型為縮減式，不能識別結構因果或所有共同衝擊；韌性未與 CoVaR、MES、SRISK、違約或實際損失比較；樣本始於 2019；GARCHSK 受受限非線性估計影響。",
-          "evidence": "綠色幣分類依文獻且非碳足跡稽核，未反映環境特徵隨時間改變；模型為縮減式，不能識別結構因果或所有共同衝擊；韌性未與 CoVaR、MES、SRISK、違約或實際損失比較；樣本始於 2019；GARCHSK 受受限非線性估計影響。",
-          "confidence": "low",
-          "source": "研究限制",
-          "connections": []
-        },
-        {
-          "claim": "研究限制：ETH 固定列入傳統組雖以 Merge 子樣本補強，仍無法完整處理逐日能源結構變化；S&P 與 CoinMarketCap 的對齊可能犧牲週末 crypto 資訊；頻帶與 GARCHSK 規格仍有模型依賴，且 13 資產未涵蓋更廣泛碳市場與…",
-          "evidence": "ETH 固定列入傳統組雖以 Merge 子樣本補強，仍無法完整處理逐日能源結構變化；S&P 與 CoinMarketCap 的對齊可能犧牲週末 crypto 資訊；頻帶與 GARCHSK 規格仍有模型依賴，且 13 資產未涵蓋更廣泛碳市場與氣候風險因子。",
-          "confidence": "low",
-          "source": "研究限制",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    RiskPropagation[\"📄 Risk Propagation and System Resilience in Sustaina\"]\n    style RiskPropagation fill:#2563eb,color:#fff,font-weight:bold\n    vp0閱讀層級全文精讀[\"💡 【閱讀層級】全文精讀；已透過 MDPI 公開全文與匿名 Jina Reader \"]\n    style vp0閱讀層級全文精讀 fill:#fef3c7,stroke:#d97706\n    RiskPropagation --> vp0閱讀層級全文精讀\n    vp1穩健性檢驗將短期[\"💡 【穩健性檢驗】將短期頻帶由 1–5 日改為 1–22 日（月度界線）；另以 20\"]\n    style vp1穩健性檢驗將短期 fill:#fef3c7,stroke:#d97706\n    RiskPropagation --> vp1穩健性檢驗將短期\n    vp2主要結果靜態T[\"💡 【主要結果】靜態 TSI：波動 75.87、偏態 65.11、峰態 77.94。\"]\n    style vp2主要結果靜態T fill:#fef3c7,stroke:#d97706\n    RiskPropagation --> vp2主要結果靜態T\n    vp3作者提出的限制綠[\"💡 【作者提出的限制】綠色幣分類依文獻且非碳足跡稽核，未反映環境特徵隨時間改變；模型\"]\n    style vp3作者提出的限制綠 fill:#fef3c7,stroke:#d97706\n    RiskPropagation --> vp3作者提出的限制綠\n    vp4其他限制ETH[\"💡 【其他限制】ETH 固定列入傳統組雖以 Merge 子樣本補強，仍無法完整處理逐\"]\n    style vp4其他限制ETH fill:#fef3c7,stroke:#d97706\n    RiskPropagation --> vp4其他限制ETH\n    vp5與美智研究的關聯[\"💡 【與美智研究的關聯】4/5。主題上同時含潔淨能源、綠債、ESG 與綠／非綠加密貨\"]\n    style vp5與美智研究的關聯 fill:#fef3c7,stroke:#d97706\n    RiskPropagation --> vp5與美智研究的關聯\n    vp6研究限制綠色幣分類[\"💡 研究限制：綠色幣分類依文獻且非碳足跡稽核，未反映環境特徵隨時間改變；模型為縮減式\"]\n    style vp6研究限制綠色幣分類 fill:#fee2e2,stroke:#dc2626\n    RiskPropagation --> vp6研究限制綠色幣分類\n    vp7研究限制ETH固[\"💡 研究限制：ETH 固定列入傳統組雖以 Merge 子樣本補強，仍無法完整處理逐日\"]\n    style vp7研究限制ETH固 fill:#fee2e2,stroke:#dc2626\n    RiskPropagation --> vp7研究限制ETH固\n    vp0閱讀層級全文精讀 --- vp1穩健性檢驗將短期\n    vp1穩健性檢驗將短期 --- vp2主要結果靜態T\n    vp2主要結果靜態T --- vp3作者提出的限制綠"
-    },
-    {
-      "id": "qvar-2026-09-29-precious-metals-qnq-uncertainty",
-      "title": "Extreme market conditions and uncertainty spillovers in precious metals: evidence from a quantile-on-quantile connectedness framework",
-      "search_date": "2026-09-29",
-      "authors": "Ali Akgül; Burcu Yürük",
-      "year": "2026",
-      "journal": "Future Business Journal, 12, Article 266",
-      "doi": "https://doi.org/10.1186/s43093-026-00972-w",
-      "citations": "0（OpenAlex／Crossref，2026-09-29）",
-      "openalex_url": "https://openalex.org/W7204270902",
-      "fulltext_url": "https://link.springer.com/article/10.1186/s43093-026-00972-w",
-      "reading_level": "全文精讀",
-      "abstract": "本文以 QnQ connectedness 檢驗 VIX、OVX、GPR 與黃金、白銀、白金在不同分位數的風險傳遞。2007–2025 年日資料顯示，正常狀態連結較弱，極端狀態明顯升高；最強 VIX／OVX 連結出現在不確定性 0.95 分位與金屬報酬 0.05 分位，而 GPR 的最強連結出現在 0.05–0.05。VIX、OVX 與 GPR 在極端狀態多為淨風險傳遞者，危機期的連結更趨對稱。",
-      "tags": [
-        "QnQ connectedness",
-        "QVAR",
-        "GFEVD",
-        "geopolitical risk",
-        "precious metals"
-      ],
-      "topics": [
-        "原物料/商品",
-        "地緣政治/國防",
-        "金融市場",
+        "方法論",
         "宏觀總體"
       ],
-      "keywords": [
-        "VIX",
-        "OVX",
-        "GPR",
-        "gold",
-        "silver",
-        "platinum"
-      ],
-      "type": "search",
-      "notes": [
-        "【閱讀層級】全文精讀；已核對 Springer Nature CC BY 4.0 公開全文、Crossref 與 OpenAlex。OpenAlex ID 為 W7204270902，兩者均回報 0 次被引，OpenAlex 未標示撤稿（核驗日 2026-09-29）。",
-        "【研究問題與動機】VIX、OVX 與 GPR 對黃金、白銀、白金的傳遞是否隨雙方各自分位數改變？極端狀態下的不確定性是否成為淨風險傳遞者，危機期的正向／反向連結是否更對稱？",
-        "【研究變數】VIX（股票波動）、OVX（油價波動）、GPR（地緣政治風險）及黃金、白銀、白金現貨價格；價格轉換為 100×對數報酬。",
-        "【資料／市場／樣本】Investing database 提供 VIX、OVX 與貴金屬現貨，Economic Policy Uncertainty database 提供 GPR；2007-05-11 至 2025-10-27 日資料。原文未在可讀表格文字中明列最終樣本量。",
-        "【模型與估計】以 QVAR/QVMA 與 GFEVD 建構 QnQ connectedness，比較 τ=0.05、0.275、0.50、0.725、0.95 的跨分位數傳導；BIC 選二階落後，20 步預測期、200 日滾動視窗，計算 TCI、TO、FROM、NET 及正向／反向連結。",
-        "【穩健性檢驗】改用 250 日視窗、1 階落後與 10 步預測期；主要連結結論保持一致。另以 OFR Financial Stress Index 取代原不確定性代理，極端金融壓力仍呈強烈不對稱傳導，且危機期連結更對稱。",
-        "【主要結果】正常狀態的整體連結較弱，極端狀態顯著升高；VIX／OVX 的最強連結為其 0.95 分位對金屬報酬 0.05 分位，GPR 最強連結則在 0.05–0.05。VIX、OVX 與 GPR 在極端分位多為淨風險傳遞者；2008 GFC、2014–2016 油價崩跌、2018 美中貿易戰、COVID-19 及 2022 後地緣事件期間，多組關係轉為較對稱。結果不是結構因果。",
-        "【作者提出的限制】只納入 VIX、OVX、GPR 與金、銀、白金，排除其他不確定性與金屬；QnQ 計算成本高，二維分位數結果較難解讀。作者建議加入經濟政策不確定性與氣候風險指數。",
-        "【其他限制】Investing 資料庫的可重現性與時區／交易日對齊需進一步說明；現貨金屬同時受美元、利率與實體需求影響，FEVD 方向性可能反映共同因子；滾動視窗與離散分位數仍可能平滑短暫衝擊。",
-        "【APA 7】Akgül, A., & Yürük, B. (2026). Extreme market conditions and uncertainty spillovers in precious metals: Evidence from a quantile-on-quantile connectedness framework. Future Business Journal, 12, Article 266. https://doi.org/10.1186/s43093-026-00972-w",
-        "【與美智研究的關聯】3/5。方法上 QnQ 能補足單一 QVAR 只看相同分位數的限制，GPR／OVX 也可作 CPU 之外的外部不確定性比較；可借鏡 5×5 分位數矩陣、替代 FSI 與參數敏感度。主要差異是本文聚焦貴金屬且沒有氣候政策不確定性、綠色資產、TVP-VAR-SV 或 BK 頻域分解。可追蹤 W7204270902 與 Gabauer–Stenfors QnQ connectedness。"
-      ],
-      "pdf": "",
-      "viewpoints": [
-        {
-          "claim": "極端狀態顯著升高；VIX／OVX 的最強連結為其 0.95 分位對金屬報酬",
-          "evidence": "極端狀態對；VIX／OVX 的最強連結為其 0.95 分位對金屬報酬的影響：顯著升高",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "【模型與估計】以 QVAR/QVMA 與 GFEVD 建構 QnQ connectedness，比較 τ=0.05、0.275、0.50、0.725、0.95 的跨分位數傳導；BIC 選二階落後，20 步預測期、200 日滾動視窗，計算 T…",
-          "evidence": "【模型與估計】以 QVAR/QVMA 與 GFEVD 建構 QnQ connectedness，比較 τ=0.05、0.275、0.50、0.725、0.95 的跨分位數傳導；BIC 選二階落後，20 步預測期、200 日滾動視窗，計算 TCI、TO、FROM、NET 及正向／反向連結。",
-          "confidence": "mid",
-          "source": "數據",
-          "connections": []
-        },
-        {
-          "claim": "【主要結果】正常狀態的整體連結較弱，極端狀態顯著升高；VIX／OVX 的最強連結為其 0.95 分位對金屬報酬 0.05 分位，GPR 最強連結則在 0.05–0.05。VIX、OVX 與 GPR 在極端分位多為淨風險傳遞者；2008 GF…",
-          "evidence": "【主要結果】正常狀態的整體連結較弱，極端狀態顯著升高；VIX／OVX 的最強連結為其 0.95 分位對金屬報酬 0.05 分位，GPR 最強連結則在 0.05–0.05。VIX、OVX 與 GPR 在極端分位多為淨風險傳遞者；2008 GFC、2014–2016 油價崩跌、2018 美中貿易戰、COVID-19 及 2022 後地緣事件期間，多組關係轉為較對稱。結果不是結構因果。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【作者提出的限制】只納入 VIX、OVX、GPR 與金、銀、白金，排除其他不確定性與金屬；QnQ 計算成本高，二維分位數結果較難解讀。作者建議加入經濟政策不確定性與氣候風險指數。",
-          "evidence": "【作者提出的限制】只納入 VIX、OVX、GPR 與金、銀、白金，排除其他不確定性與金屬；QnQ 計算成本高，二維分位數結果較難解讀。作者建議加入經濟政策不確定性與氣候風險指數。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【其他限制】Investing 資料庫的可重現性與時區／交易日對齊需進一步說明；現貨金屬同時受美元、利率與實體需求影響，FEVD 方向性可能反映共同因子；滾動視窗與離散分位數仍可能平滑短暫衝擊。",
-          "evidence": "【其他限制】Investing 資料庫的可重現性與時區／交易日對齊需進一步說明；現貨金屬同時受美元、利率與實體需求影響，FEVD 方向性可能反映共同因子；滾動視窗與離散分位數仍可能平滑短暫衝擊。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【與美智研究的關聯】3/5。方法上 QnQ 能補足單一 QVAR 只看相同分位數的限制，GPR／OVX 也可作 CPU 之外的外部不確定性比較；可借鏡 5×5 分位數矩陣、替代 FSI 與參數敏感度。主要差異是本文聚焦貴金屬且沒有氣候政策不…",
-          "evidence": "【與美智研究的關聯】3/5。方法上 QnQ 能補足單一 QVAR 只看相同分位數的限制，GPR／OVX 也可作 CPU 之外的外部不確定性比較；可借鏡 5×5 分位數矩陣、替代 FSI 與參數敏感度。主要差異是本文聚焦貴金屬且沒有氣候政策不確定性、綠色資產、TVP-VAR-SV 或 BK 頻域分解。可追蹤 W7204270902 與 Gabauer–Stenfors QnQ connectedness。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "研究限制：只納入 VIX、OVX、GPR 與金、銀、白金，排除其他不確定性與金屬；QnQ 計算成本高，二維分位數結果較難解讀。作者建議加入經濟政策不確定性與氣候風險指數。",
-          "evidence": "只納入 VIX、OVX、GPR 與金、銀、白金，排除其他不確定性與金屬；QnQ 計算成本高，二維分位數結果較難解讀。作者建議加入經濟政策不確定性與氣候風險指數。",
-          "confidence": "low",
-          "source": "研究限制",
-          "connections": []
-        },
-        {
-          "claim": "研究限制：Investing 資料庫的可重現性與時區／交易日對齊需進一步說明；現貨金屬同時受美元、利率與實體需求影響，FEVD 方向性可能反映共同因子；滾動視窗與離散分位數仍可能平滑短暫衝擊。",
-          "evidence": "Investing 資料庫的可重現性與時區／交易日對齊需進一步說明；現貨金屬同時受美元、利率與實體需求影響，FEVD 方向性可能反映共同因子；滾動視窗與離散分位數仍可能平滑短暫衝擊。",
-          "confidence": "low",
-          "source": "研究限制",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    Extrememarketco[\"📄 Extreme market conditions and uncertainty spillove\"]\n    style Extrememarketco fill:#2563eb,color:#fff,font-weight:bold\n    vp0極端狀態顯著升高V[\"💡 極端狀態顯著升高；VIX／OVX 的最強連結為其 0.95 分位對金屬報酬\"]\n    style vp0極端狀態顯著升高V fill:#fef3c7,stroke:#d97706\n    Extrememarketco --> vp0極端狀態顯著升高V\n    vp1模型與估計以Q[\"💡 【模型與估計】以 QVAR/QVMA 與 GFEVD 建構 QnQ connec\"]\n    style vp1模型與估計以Q fill:#fef3c7,stroke:#d97706\n    Extrememarketco --> vp1模型與估計以Q\n    vp2主要結果正常狀態[\"💡 【主要結果】正常狀態的整體連結較弱，極端狀態顯著升高；VIX／OVX 的最強連結\"]\n    style vp2主要結果正常狀態 fill:#fef3c7,stroke:#d97706\n    Extrememarketco --> vp2主要結果正常狀態\n    vp3作者提出的限制只[\"💡 【作者提出的限制】只納入 VIX、OVX、GPR 與金、銀、白金，排除其他不確定\"]\n    style vp3作者提出的限制只 fill:#fef3c7,stroke:#d97706\n    Extrememarketco --> vp3作者提出的限制只\n    vp4其他限制Inve[\"💡 【其他限制】Investing 資料庫的可重現性與時區／交易日對齊需進一步說明；\"]\n    style vp4其他限制Inve fill:#fef3c7,stroke:#d97706\n    Extrememarketco --> vp4其他限制Inve\n    vp5與美智研究的關聯[\"💡 【與美智研究的關聯】3/5。方法上 QnQ 能補足單一 QVAR 只看相同分位數\"]\n    style vp5與美智研究的關聯 fill:#fef3c7,stroke:#d97706\n    Extrememarketco --> vp5與美智研究的關聯\n    vp6研究限制只納入V[\"💡 研究限制：只納入 VIX、OVX、GPR 與金、銀、白金，排除其他不確定性與金屬\"]\n    style vp6研究限制只納入V fill:#fee2e2,stroke:#dc2626\n    Extrememarketco --> vp6研究限制只納入V\n    vp7研究限制Inves[\"💡 研究限制：Investing 資料庫的可重現性與時區／交易日對齊需進一步說明；現\"]\n    style vp7研究限制Inves fill:#fee2e2,stroke:#dc2626\n    Extrememarketco --> vp7研究限制Inves\n    極端狀態==>|\"顯著升高\"|VIXOVX的最強連結為\n    vp0極端狀態顯著升高V --- vp1模型與估計以Q\n    vp1模型與估計以Q --- vp2主要結果正常狀態\n    vp2主要結果正常狀態 --- vp3作者提出的限制只"
+      "pdf": "pdfs/Shi_Guo_2025_RIBAF_multifractal_bonds.pdf",
+      "notes": "## 📋 Summary\n從 multifractal 視角探討 EPU、GPR、VIX、OVX 四種不確定性對綠色債券與傳統債券市場的差異化影響。使用 MF-ADCCA（不對稱多重分形去趨勢互相關分析）與 risk-conduction MF-DCCA，樣本 2016-07-05 至 2023-02-27 共 1,568 筆日資料。\n\n## 🔑 Variables\n- **不確定性指標**: EPU（經濟政策不確定性）、GPR（地緣政治風險）、VIX（市場波動）、OVX（原油波動）\n- **債券市場**: SPGB（S&P 綠色債券指數）、SPCB（S&P 傳統債券指數）\n\n## 📊 Data Sources\n- EPU/GPR: policyuncertainty.com\n- VIX/OVX: investing.com\n- SPGB/SPCB: spglobal.com\n\n## 🛠️ Methodology\n- MF-ADCCA: 不對稱多重分形去趨勢互相關分析（Cao et al., 2014）\n- MF-DCCA with risk conduction: 基於風險傳導的多重分形去趨勢互相關分析（Cao et al., 2017; Cao & Zhou, 2019）\n- 穩健性: Legendre 變換取得 multifractal spectrum\n\n## 🎯 Key Findings\n1. **不確定性與債券市場間的 multifractal 相關性存在異質性**，取決於不確定性領域、債券類型、時間序列趨勢和波動大小\n2. **大型波動是 multifractal 的主要來源**；小型波動下相關性較弱\n3. **債券市場必須關注經濟與地緣政治領域的風險**（EPU/GPR 上升→債券價格下跌，antipersistent），而在市場與能源領域可規避風險（VIX/OVX 上升→資金逃往債券，persistent）\n4. **綠色債券普遍比傳統債券更具風險規避能力**：在不確定性上升時（向上趨勢），綠債的 antipersistence 較弱（下跌幅度較小）\n5. 風險傳導方向：VIX→債券市場（短期），EPU←→債券市場（長期雙向），GPR 主要受債券市場傳導\n\n## 📐 RIBAF 寫作特徵\n- Section 2 不叫 Literature Review，而是 \"The relationship between uncertainties and bond markets\"（主題式回顧）\n- Introduction 最後一段給出 paper structure 導航\n- Discussion (Section 5) 獨立於 Conclusion (Section 6)\n- Discussion 回答「為什麼」：Why do green bonds differ? Why do different uncertainties have diverse relationships?\n- 少用 \"we\"，多用 \"this study\"、\"the results reveal\"\n- 圖表極豐富：Fig 1-16，Table 1-4\n\n## 💡 投稿參考價值\n這篇是綠債×不確定性投稿 RIBAF 的經典模板。如果你的文章用 QVAR/TVP-VAR 分析多重風險對綠債/傳統債券的影響，這篇的架構可以直接借鏡，特別是 Section 2 主題式回顧 + Section 5 獨立 Discussion 的結構。",
+      "type": "upload",
+      "id": "upload-2026-07-11-7740",
+      "diagram": "graph TD\n    Differentialimp[\"📄 Differential impact of multiple risks on green and\"]\n    style Differentialimp fill:#2563eb,color:#fff,font-weight:bold"
     },
     {
       "title": "Volatility and co-movement between ESG and non-ESG futures and uncertainty indices: Evidence from wavelet coherence and GARCH models",
@@ -704,33 +67,8 @@
       "pdf": "pdfs/MosionekSchweda_Chylinska_2026_RIBAF_ESG_futures.pdf",
       "notes": "## 📋 Summary\n使用 wavelet coherence 與 GARCH 模型分析 ESG 期貨與傳統指數期貨的波動性及與不確定性指標（VIX、GPR、EPU）的共動關係。樣本 2021-01-02 至 2025-05-23 共 1,145 筆日資料。特別關注 COVID-19 後期、烏克蘭戰爭及 2025 年美國關稅衝擊（Liberation Day）等事件。\n\n## 🔑 Variables\n- **ESG 期貨**: FSEG（STOXX Europe 600 ESG-X）、FSSX（EURO STOXX 50 ESG）、ESG（E-mini S&P 500 ESG）\n- **傳統期貨**: FXXP（STOXX 600）、STTX（EURO STOXX 50）、ES（E-mini S&P 500）\n- **不確定性指標**: VIX（CBOE 波動率）、GPR（地緣政治風險）、EPU（經濟政策不確定性）\n\n## 📊 Data Sources\n- LSEG Workspace（通過 University of Gdańsk 合作協議）\n- GPR: matteoiacoviello.com/gpr.htm\n- EPU: FRED\n\n## 🛠️ Methodology\n- Wavelet coherence（Morlet + Paul 兩種 mother wavelet 穩健性檢驗）\n- Univariate GARCH（波動聚類與持續性）\n- GARCH-X（加入 ΔVIX 為外生變數）\n- Rolling Spearman correlation（30/60/120 天窗口）\n- Decile-based correlation（分位數條件相關）\n\n## 🎯 Key Findings\n1. **H1 ✓**: ESG 與非 ESG 期貨高度正相關（Spearman ρ=0.91-0.996），但對不確定性衝擊的反應不同\n2. **H2 ✓**: VIX 對期貨報酬的影響最強且最一致；GPR 和 EPU 的影響較弱且不穩定\n3. **H3 部分支持**: ESG 期貨的波動持續性略低於傳統期貨（GARCH β 係數差異），顯示相對韌性，但並非 safe haven\n4. **H4 ✓**: 烏克蘭戰爭（2022）和 2025 美國關稅衝擊（4 月 Liberation Day）顯著增加波動性；2025 關稅事件是樣本期內波動最大的事件\n5. ESG 期貨不應被歸類為 safe haven，但提供差異化的波動動態\n\n## 🏛️ 事件驅動分析\n- **2022 烏克蘭戰爭**: 2021 年底至 2023 年中波動升高，與通膨飆升及美歐連續升息相關\n- **2025/4/2 Liberation Day**: Trump 簽署 10% 基礎關稅 + 對歐盟 20%、中國 34% 的對等關稅；ESG 和 ES 期貨波動在 4/10-11 達到樣本期間最高點\n\n## 📐 RIBAF 寫作特徵（與 Shi & Guo 差異）\n- Data 獨立成 Section 3（Shi 是把 data 放 Section 4.1）\n- 明確提出 4 組假設 H1-H4，並在 Conclusion 逐一驗證\n- Conclusion 極長：發現摘要→假設驗證→貢獻（First/Second/Third/Fourth）→政策意涵→限制→未來研究\n- 使用 \"our paper\"、\"we\"（比 Shi 更個人化）\n- 引用 2025 年即時事件，證明 RIBAF 接受時效性強的事件分析\n- Limitations 寫得誠實：wavelet 不證明因果、2025 關稅為短期事件、建議未來用 DCC-MGARCH\n\n## 💡 投稿參考價值\n這篇證明 RIBAF 接受 explicit hypotheses + 事件驅動框架 + 多方法穩健性檢驗。如果你的文章有明確的假設檢定 + 用 TVP-VAR 捕捉時變關係 + QVAR 做分位數條件分析，可以同時借鏡兩篇的優點：Shi 的主題式文獻回顧 + Mosionek-Schweda 的假設結構和事件分析。",
       "type": "upload",
-      "id": "upload-2026-07-11-9134",
+      "id": "upload-2026-07-11-5070",
       "diagram": "graph TD\n    Volatilityandco[\"📄 Volatility and co-movement between ESG and non-ESG\"]\n    style Volatilityandco fill:#2563eb,color:#fff,font-weight:bold"
-    },
-    {
-      "title": "Differential impact of multiple risks on green and conventional bond markets: Evidence from multifractal analysis",
-      "authors": "Shi, Fengyuan; Guo, Yaoqi",
-      "year": "2025",
-      "journal": "Research in International Business and Finance, 77, 102932",
-      "doi": "https://doi.org/10.1016/j.ribaf.2025.102932",
-      "date": "2026-07-11",
-      "tags": [
-        "MF-ADCCA",
-        "MF-DCCA",
-        "multifractal",
-        "green bonds",
-        "uncertainty"
-      ],
-      "topics": [
-        "綠債/ESG",
-        "方法論",
-        "宏觀總體"
-      ],
-      "pdf": "pdfs/Shi_Guo_2025_RIBAF_multifractal_bonds.pdf",
-      "notes": "## 📋 Summary\n從 multifractal 視角探討 EPU、GPR、VIX、OVX 四種不確定性對綠色債券與傳統債券市場的差異化影響。使用 MF-ADCCA（不對稱多重分形去趨勢互相關分析）與 risk-conduction MF-DCCA，樣本 2016-07-05 至 2023-02-27 共 1,568 筆日資料。\n\n## 🔑 Variables\n- **不確定性指標**: EPU（經濟政策不確定性）、GPR（地緣政治風險）、VIX（市場波動）、OVX（原油波動）\n- **債券市場**: SPGB（S&P 綠色債券指數）、SPCB（S&P 傳統債券指數）\n\n## 📊 Data Sources\n- EPU/GPR: policyuncertainty.com\n- VIX/OVX: investing.com\n- SPGB/SPCB: spglobal.com\n\n## 🛠️ Methodology\n- MF-ADCCA: 不對稱多重分形去趨勢互相關分析（Cao et al., 2014）\n- MF-DCCA with risk conduction: 基於風險傳導的多重分形去趨勢互相關分析（Cao et al., 2017; Cao & Zhou, 2019）\n- 穩健性: Legendre 變換取得 multifractal spectrum\n\n## 🎯 Key Findings\n1. **不確定性與債券市場間的 multifractal 相關性存在異質性**，取決於不確定性領域、債券類型、時間序列趨勢和波動大小\n2. **大型波動是 multifractal 的主要來源**；小型波動下相關性較弱\n3. **債券市場必須關注經濟與地緣政治領域的風險**（EPU/GPR 上升→債券價格下跌，antipersistent），而在市場與能源領域可規避風險（VIX/OVX 上升→資金逃往債券，persistent）\n4. **綠色債券普遍比傳統債券更具風險規避能力**：在不確定性上升時（向上趨勢），綠債的 antipersistence 較弱（下跌幅度較小）\n5. 風險傳導方向：VIX→債券市場（短期），EPU←→債券市場（長期雙向），GPR 主要受債券市場傳導\n\n## 📐 RIBAF 寫作特徵\n- Section 2 不叫 Literature Review，而是 \"The relationship between uncertainties and bond markets\"（主題式回顧）\n- Introduction 最後一段給出 paper structure 導航\n- Discussion (Section 5) 獨立於 Conclusion (Section 6)\n- Discussion 回答「為什麼」：Why do green bonds differ? Why do different uncertainties have diverse relationships?\n- 少用 \"we\"，多用 \"this study\"、\"the results reveal\"\n- 圖表極豐富：Fig 1-16，Table 1-4\n\n## 💡 投稿參考價值\n這篇是綠債×不確定性投稿 RIBAF 的經典模板。如果你的文章用 QVAR/TVP-VAR 分析多重風險對綠債/傳統債券的影響，這篇的架構可以直接借鏡，特別是 Section 2 主題式回顧 + Section 5 獨立 Discussion 的結構。",
-      "type": "upload",
-      "id": "upload-2026-07-11-1776",
-      "diagram": "graph TD\n    Differentialimp[\"📄 Differential impact of multiple risks on green and\"]\n    style Differentialimp fill:#2563eb,color:#fff,font-weight:bold"
     },
     {
       "id": "bf-2026-07-07-9",
@@ -1676,129 +1014,144 @@
         "來源：Mayer et al. arXiv 全文、Jiang et al. MDPI 全文、Wiley/Elsevier 頁面"
       ],
       "type": "upload",
-      "id": "upload-2026-07-06-6272",
+      "id": "upload-2026-07-06-8663",
       "diagram": "graph TD\n    精讀筆記方法論核心5篇高引用[\"📄 精讀筆記：方法論核心 5 篇 + 高引用實證 5 篇\"]\n    style 精讀筆記方法論核心5篇高引用 fill:#2563eb,color:#fff,font-weight:bold"
     },
     {
-      "title": "Impact of Geopolitical Risk and Economic Globalization on Turkey's Environmental Sustainability: Novel Quantile-on-quantile KRLS Method",
-      "authors": "Awan, A., Jahanger, A., Emran Hossain, M., Meo, M.S. & Yusoff, N.Y.b.M.",
+      "title": "Financial development and renewable energy consumption: a novel view under the moderating role of institutional quality across APEC economies",
+      "authors": "Chowdhury, M.A.S., An, M. & Hedvicakova, M.",
       "year": "2026",
-      "journal": "Politická ekonomie, 74(3), 490–514",
-      "doi": "10.18267/j.polek.1505",
+      "journal": "Humanities and Social Sciences Communications (Nature), Article in Press",
+      "doi": "10.1057/s41599-026-07998-z",
       "date": "2026-06-30",
       "tags": [
-        "QQKRLS",
-        "quantile-on-quantile",
-        "geopolitical risk",
-        "globalization",
-        "Turkey",
-        "energy"
+        "panel",
+        "quantile regression",
+        "IQ",
+        "APEC",
+        "moderation",
+        "REC",
+        "SDG"
       ],
       "topics": [
-        "碳市場/碳交易",
-        "能源市場",
-        "地緣政治/國防",
-        "方法論"
+        "潔淨能源",
+        "氣候風險/政策",
+        "金融市場",
+        "宏觀總體"
       ],
-      "pdf": "uploads/Awan_Geopolitical_Globalization_Turkey_CO2_2026.pdf",
+      "pdf": "uploads/Chowdhury_FD_IQ_REC_APEC_2026.pdf",
       "notes": [
-        "樣本：土耳其，1970–2019，年資料頻率轉換為季資料（quadratic match-sum），約200 obs",
-        "資料庫：WB (CO₂/GDPPC/NRR/REN), KOF (EGI), GPRH (GPRI)",
-        "方法：QQKRLS (Quantile-on-Quantile Kernel-based Regularized Least Squares) + QQR 穩健性",
+        "樣本：12 APEC 經濟體 (澳、中、香港、日、韓、馬、墨、菲、星、泰、美、越)，2002–2021，240 obs",
+        "資料庫：World Development Indicators (WB)",
+        "方法：固定效果 + Panel Quantile Regression (Q.25/Q.50/Q.75/Q.95) + SYS-GMM/MMQR/Driscoll-Kraay 穩健性",
         "---",
-        "【DV】CO₂ = ln(人均CO₂排放，噸/人)",
-        "【IV】EGI=經濟全球化指數(KOF), GPRI=地緣政治風險指數, NRR=自然資源租金%GDP, GDPPC=人均GDP, REN=再生能源%最終能源",
+        "【變數】DV=REC(再生能源消費%總最終能源), IV=FD1(國內信貸%GDP)+FD2(股票交易%GDP), Moderator=IQ(PCA合成6項WGI指標), Controls=EI(能源密集度), TO(貿易開放度), TI(技術創新)",
         "---",
-        "【EGI→CO₂】低分位(0.05-0.35)弱正相關，中分位(0.40-0.65)正相關轉強，高分位又轉弱 → 全球化在中度排放水準時環境成本最明顯",
-        "【GDPPC→CO₂】整體強正相關(低-高分位CO₂×中-高分位GDPPC) → 經濟成長=排碳增加",
-        "【GPRI→CO₂】整體正相關，中高分位(0.40-0.80)最強 → 地緣緊張排擠環保優先序",
-        "【NRR→CO₂】整體負相關(低-高分位NRR×中低分位CO₂)，僅極低分位正相關 → 土耳其自然資源(森林碳匯)有助減排",
-        "【REN→CO₂】複雜：低CO₂分位強負相關，中分位轉弱甚至轉正，高分位負相關再現 → 再生能源在低排放階段最有效",
+        "【H1】FD→REC: Q.50係數−0.5386*(p<0.10), FE係數−0.5466***(p<0.01) → FD對REC為負向顯著，金融體系偏向傳統能源投資",
+        "【H2】FD×IQ→REC: APEC交互項係數+0.7815***(p<0.01)，高所得組+0.7899***(p<0.01)，中高所得組+0.1242*(p<0.10) → IQ正向調節FD-REC關係",
         "---",
-        "【前提檢定】JB常態檢定全拒絕(H0=常態), BDS非線性檢定全顯著(p<0.01), 參數穩定性Max-F/Exp-F/Ave-F通過",
-        "【穩健性】QQR 非參數雙變量分位數-on-分位數迴歸 → 結果與QQKRLS一致",
+        "【IQ直接】IQ→REC: 係數不顯著，IQ無直接顯著影響",
+        "【EI】EI→REC: FE係數−0.5531**(p<0.05)，能源密集度越高REC越低",
+        "【TO】TO→REC: 係數正值但不顯著，貿易開放度單獨不直接促REC",
+        "【TI】TI→REC: FE係數−0.3353***(p<0.01)，技術創新反而抑制REC(與再生能源目標脫鉤)",
         "---",
-        "【貢獻】1)首次在土耳其用QQKRLS研究EGI×GPRI對CO₂非線性效果；2)QQKRLS優勢：捕捉非線性+正則化防止過擬合+機器學習適應力",
+        "【診斷】CSD顯著, HS異質斜率, LLC/IPS單根I(0), Pedroni共整合(pp<0.05), Granger因果全顯著(無內生性), Hausman FE=23.12***(p<0.001), VIF<3",
         "---",
-        "【政策意涵】1)貿易協定納入環境條款+高碳進口課稅+低碳進口獎勵；2)提升制度品質紓緩地緣風險對環境的負面影響；3)推廣再生能源R&D+公私合作+補貼稅制；4)經濟成長不應減產，應轉向低碳生產路徑",
+        "【理論】Energy Transition Theory + Institutional Theory 雙支柱",
         "---",
-        "【限制】僅土耳其單國、結果不可外推、年轉季資料可能有測量誤差"
+        "【政策意涵】1)金融資源需重新導向綠色金融(綠債、補貼、稅務優惠)；2)強化制度品質(透明+監管效率+問責)吸引再生能源投資；3)高EI經濟體須投資能效技術；4)利用貿易開放降低綠色技術關稅壁壘；5)技術創新須對齊再生能源目標",
+        "---",
+        "【限制】僅12國、未納碳價與政治風險、未考慮非線性與門檻效應、IQ多維度未拆解"
       ],
       "type": "upload",
-      "id": "upload-2026-06-30-970",
+      "id": "upload-2026-06-30-8661",
       "viewpoints": [
         {
-          "claim": "EGI → CO",
-          "evidence": "EGI對CO的影響",
+          "claim": "FD → REC",
+          "evidence": "FD對REC的影響",
           "confidence": "mid",
           "source": "變數關係",
           "connections": []
         },
         {
-          "claim": "GDPPC → CO",
-          "evidence": "GDPPC對CO的影響",
+          "claim": "IQ → REC",
+          "evidence": "IQ對REC的影響",
           "confidence": "mid",
           "source": "變數關係",
           "connections": []
         },
         {
-          "claim": "GPRI → CO",
-          "evidence": "GPRI對CO的影響",
+          "claim": "EI → REC",
+          "evidence": "EI對REC的影響",
           "confidence": "mid",
           "source": "變數關係",
           "connections": []
         },
         {
-          "claim": "-高分位GDPPC) → 經濟成長=排碳 增加",
-          "evidence": "-高分位GDPPC) → 經濟成長=排碳增加",
+          "claim": "1242*(p<0.10) → IQ正向調節FD-REC關係",
+          "evidence": "1242*(p<0.10) → IQ正向對FD-REC關係的影響：調節",
           "confidence": "mid",
-          "source": "發現",
+          "source": "變數關係",
           "connections": []
         },
         {
-          "claim": "【貢獻】1)首次在土耳其用QQKRLS研究EGI×GPRI對CO₂非線性效果；2)QQKRLS優勢：捕捉非線性+正則化防止過擬合+機器學習適應力",
-          "evidence": "【貢獻】1)首次在土耳其用QQKRLS研究EGI×GPRI對CO₂非線性效果；2)QQKRLS優勢：捕捉非線性+正則化防止過擬合+機器學習適應力",
+          "claim": "技術創新反而抑制REC(與再生能源目標脫鉤)",
+          "evidence": "技術創新反而對REC(與再生能源目標脫鉤)的影響：抑制",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "I經濟體須投資能效技術；4)利用貿易開放降低綠色技術關稅壁壘；5)技術創新須對齊再生能源目標",
+          "evidence": "I經濟體須投資能效技術；4)利用貿易開放對綠色技術關稅壁壘；5)技術創新須對齊再生能源目標的影響：降低",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "【診斷】CSD顯著, HS異質斜率, LLC/IPS單根I(0), Pedroni共整合(pp<0.05), Granger因果全顯著(無內生性), Hausman FE=23.12***(p<0.001), VIF<3",
+          "evidence": "【診斷】CSD顯著, HS異質斜率, LLC/IPS單根I(0), Pedroni共整合(pp<0.05), Granger因果全顯著(無內生性), Hausman FE=23.12***(p<0.001), VIF<3",
+          "confidence": "mid",
+          "source": "檢定結果",
+          "connections": []
+        },
+        {
+          "claim": "【政策意涵】1)金融資源需重新導向綠色金融(綠債、補貼、稅務優惠)；2)強化制度品質(透明+監管效率+問責)吸引再生能源投資；3)高EI經濟體須投資能效技術；4)利用貿易開放降低綠色技術關稅壁壘；5)技術創新須對齊再生能源目標",
+          "evidence": "【政策意涵】1)金融資源需重新導向綠色金融(綠債、補貼、稅務優惠)；2)強化制度品質(透明+監管效率+問責)吸引再生能源投資；3)高EI經濟體須投資能效技術；4)利用貿易開放降低綠色技術關稅壁壘；5)技術創新須對齊再生能源目標",
           "confidence": "mid",
           "source": "陳述",
           "connections": []
         },
         {
-          "claim": "【政策意涵】1)貿易協定納入環境條款+高碳進口課稅+低碳進口獎勵；2)提升制度品質紓緩地緣風險對環境的負面影響；3)推廣再生能源R&D+公私合作+補貼稅制；4)經濟成長不應減產，應轉向低碳生產路徑",
-          "evidence": "【政策意涵】1)貿易協定納入環境條款+高碳進口課稅+低碳進口獎勵；2)提升制度品質紓緩地緣風險對環境的負面影響；3)推廣再生能源R&D+公私合作+補貼稅制；4)經濟成長不應減產，應轉向低碳生產路徑",
+          "claim": "【限制】僅12國、未納碳價與政治風險、未考慮非線性與門檻效應、IQ多維度未拆解",
+          "evidence": "【限制】僅12國、未納碳價與政治風險、未考慮非線性與門檻效應、IQ多維度未拆解",
           "confidence": "mid",
           "source": "陳述",
           "connections": []
         },
         {
-          "claim": "【限制】僅土耳其單國、結果不可外推、年轉季資料可能有測量誤差",
-          "evidence": "【限制】僅土耳其單國、結果不可外推、年轉季資料可能有測量誤差",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "首次在土耳其用QQKRLS研究EGI×GPRI對CO₂非線性效果；2)QQKRLS優勢：捕捉非線性+正則化防止過擬合+機器學習適應力",
-          "evidence": "首次在土耳其用QQKRLS研究EGI×GPRI對CO₂非線性效果；2)QQKRLS優勢：捕捉非線性+正則化防止過擬合+機器學習適應力",
+          "claim": "H1：FD→REC: Q.50係數−0.5386*(p<0.10), FE係數−0.5466***(p<0.01) → FD對REC為負向顯著，金融體系偏向傳統能源投資",
+          "evidence": "FD→REC: Q.50係數−0.5386*(p<0.10), FE係數−0.5466***(p<0.01) → FD對REC為負向顯著，金融體系偏向傳統能源投資",
           "confidence": "high",
-          "source": "研究貢獻",
+          "source": "假設檢定",
           "connections": []
         },
         {
-          "claim": "政策建議：貿易協定納入環境條款+高碳進口課稅+低碳進口獎勵；2)提升制度品質紓緩地緣風險對環境的負面影響；3)推廣再生能源R&D+公私合作+補貼稅制；4)經濟成長不應減產，應轉向低碳生產路徑",
-          "evidence": "貿易協定納入環境條款+高碳進口課稅+低碳進口獎勵；2)提升制度品質紓緩地緣風險對環境的負面影響；3)推廣再生能源R&D+公私合作+補貼稅制；4)經濟成長不應減產，應轉向低碳生產路徑",
+          "claim": "H2：FD×IQ→REC: APEC交互項係數+0.7815***(p<0.01)，高所得組+0.7899***(p<0.01)，中高所得組+0.1242*(p<0.10) → IQ正向調節FD-REC關係",
+          "evidence": "FD×IQ→REC: APEC交互項係數+0.7815***(p<0.01)，高所得組+0.7899***(p<0.01)，中高所得組+0.1242*(p<0.10) → IQ正向調節FD-REC關係",
+          "confidence": "high",
+          "source": "假設檢定",
+          "connections": []
+        },
+        {
+          "claim": "政策建議：金融資源需重新導向綠色金融(綠債、補貼、稅務優惠)；2)強化制度品質(透明+監管效率+問責)吸引再生能源投資；3)高EI經濟體須投資能效技術；4)利用貿易開放降低綠色技術關稅壁壘；5)技術創新須對齊再生能源目標",
+          "evidence": "金融資源需重新導向綠色金融(綠債、補貼、稅務優惠)；2)強化制度品質(透明+監管效率+問責)吸引再生能源投資；3)高EI經濟體須投資能效技術；4)利用貿易開放降低綠色技術關稅壁壘；5)技術創新須對齊再生能源目標",
           "confidence": "mid",
           "source": "政策意涵",
           "connections": []
-        },
-        {
-          "claim": "研究限制：僅土耳其單國、結果不可外推、年轉季資料可能有測量誤差",
-          "evidence": "僅土耳其單國、結果不可外推、年轉季資料可能有測量誤差",
-          "confidence": "low",
-          "source": "研究限制",
-          "connections": []
         }
       ],
-      "diagram": "graph TD\n    ImpactofGeopoli[\"📄 Impact of Geopolitical Risk and Economic Globaliza\"]\n    style ImpactofGeopoli fill:#2563eb,color:#fff,font-weight:bold\n    vp0EGICO[\"💡 EGI → CO\"]\n    style vp0EGICO fill:#fef3c7,stroke:#d97706\n    ImpactofGeopoli --> vp0EGICO\n    vp1GDPPCCO[\"💡 GDPPC → CO\"]\n    style vp1GDPPCCO fill:#fef3c7,stroke:#d97706\n    ImpactofGeopoli --> vp1GDPPCCO\n    vp2GPRICO[\"💡 GPRI → CO\"]\n    style vp2GPRICO fill:#fef3c7,stroke:#d97706\n    ImpactofGeopoli --> vp2GPRICO\n    vp3高分位GDPPC[\"💡 -高分位GDPPC) → 經濟成長=排碳 增加\"]\n    style vp3高分位GDPPC fill:#fef3c7,stroke:#d97706\n    ImpactofGeopoli --> vp3高分位GDPPC\n    vp4貢獻1首次在土[\"💡 【貢獻】1)首次在土耳其用QQKRLS研究EGI×GPRI對CO₂非線性效果；2\"]\n    style vp4貢獻1首次在土 fill:#fef3c7,stroke:#d97706\n    ImpactofGeopoli --> vp4貢獻1首次在土\n    vp5政策意涵1貿易[\"💡 【政策意涵】1)貿易協定納入環境條款+高碳進口課稅+低碳進口獎勵；2)提升制度品\"]\n    style vp5政策意涵1貿易 fill:#fef3c7,stroke:#d97706\n    ImpactofGeopoli --> vp5政策意涵1貿易\n    vp6限制僅土耳其單國[\"💡 【限制】僅土耳其單國、結果不可外推、年轉季資料可能有測量誤差\"]\n    style vp6限制僅土耳其單國 fill:#fef3c7,stroke:#d97706\n    ImpactofGeopoli --> vp6限制僅土耳其單國\n    vp7首次在土耳其用QQK[\"💡 首次在土耳其用QQKRLS研究EGI×GPRI對CO₂非線性效果；2)QQKRL\"]\n    style vp7首次在土耳其用QQK fill:#dbeafe,stroke:#2563eb\n    ImpactofGeopoli --> vp7首次在土耳其用QQK\n    vp8政策建議貿易協定納[\"💡 政策建議：貿易協定納入環境條款+高碳進口課稅+低碳進口獎勵；2)提升制度品質紓緩\"]\n    style vp8政策建議貿易協定納 fill:#fef3c7,stroke:#d97706\n    ImpactofGeopoli --> vp8政策建議貿易協定納\n    vp9研究限制僅土耳其單[\"💡 研究限制：僅土耳其單國、結果不可外推、年轉季資料可能有測量誤差\"]\n    style vp9研究限制僅土耳其單 fill:#fee2e2,stroke:#dc2626\n    ImpactofGeopoli --> vp9研究限制僅土耳其單\n    EGI-->|\"CO\"|CO\n    GDPPC-->|\"CO\"|CO1\n    GPRI-->|\"CO\"|CO2\n    NRR-->|\"CO\"|CO3\n    REN-->|\"CO\"|CO4"
+      "diagram": "graph TD\n    Financialdevelo[\"📄 Financial development and renewable energy consump\"]\n    style Financialdevelo fill:#2563eb,color:#fff,font-weight:bold\n    vp0FDREC[\"💡 FD → REC\"]\n    style vp0FDREC fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp0FDREC\n    vp1IQREC[\"💡 IQ → REC\"]\n    style vp1IQREC fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp1IQREC\n    vp2EIREC[\"💡 EI → REC\"]\n    style vp2EIREC fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp2EIREC\n    vp31242p0[\"💡 1242*(p<0.10) → IQ正向調節FD-REC關係\"]\n    style vp31242p0 fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp31242p0\n    vp4技術創新反而抑制RE[\"💡 技術創新反而抑制REC(與再生能源目標脫鉤)\"]\n    style vp4技術創新反而抑制RE fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp4技術創新反而抑制RE\n    vp5I經濟體須投資能效技[\"💡 I經濟體須投資能效技術；4)利用貿易開放降低綠色技術關稅壁壘；5)技術創新須對齊\"]\n    style vp5I經濟體須投資能效技 fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp5I經濟體須投資能效技\n    vp6診斷CSD顯著[\"💡 【診斷】CSD顯著, HS異質斜率, LLC/IPS單根I(0), Pedron\"]\n    style vp6診斷CSD顯著 fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp6診斷CSD顯著\n    vp7政策意涵1金融[\"💡 【政策意涵】1)金融資源需重新導向綠色金融(綠債、補貼、稅務優惠)；2)強化制度\"]\n    style vp7政策意涵1金融 fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp7政策意涵1金融\n    vp8限制僅12國未[\"💡 【限制】僅12國、未納碳價與政治風險、未考慮非線性與門檻效應、IQ多維度未拆解\"]\n    style vp8限制僅12國未 fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp8限制僅12國未\n    vp9H1FDREC[\"💡 H1：FD→REC: Q.50係數−0.5386*(p<0.10), FE係數−\"]\n    style vp9H1FDREC fill:#dbeafe,stroke:#2563eb\n    Financialdevelo --> vp9H1FDREC\n    vp10H2FDIQR[\"💡 H2：FD×IQ→REC: APEC交互項係數+0.7815***(p<0.01\"]\n    style vp10H2FDIQR fill:#dbeafe,stroke:#2563eb\n    Financialdevelo --> vp10H2FDIQR\n    vp11政策建議金融資源需[\"💡 政策建議：金融資源需重新導向綠色金融(綠債、補貼、稅務優惠)；2)強化制度品質(\"]\n    style vp11政策建議金融資源需 fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp11政策建議金融資源需\n    FD-->|\"REC\"|REC\n    note[\"⋯ 還有 12 個觀點\"]"
     },
     {
       "title": "The Mediating Role of Globalization in the Nexus Between CO₂ Emissions, GHGs, and Economic Growth",
@@ -1840,7 +1193,7 @@
         "【限制】僅G20不可外推；Baron&Kenny檢定力較低；年資料無法捕捉短期動態；未控制各國環境法規差異"
       ],
       "type": "upload",
-      "id": "upload-2026-06-30-955",
+      "id": "upload-2026-06-30-3799",
       "viewpoints": [
         {
           "claim": "GHGE → EG",
@@ -1981,7 +1334,7 @@
         "【限制】僅OECD、專利指標未必反映技術擴散與採用、消費基礎排放有量測誤差"
       ],
       "type": "upload",
-      "id": "upload-2026-06-30-7415",
+      "id": "upload-2026-06-30-1292",
       "viewpoints": [
         {
           "claim": "LPAT → CO2gap",
@@ -2064,218 +1417,125 @@
       "diagram": "graph TD\n    Greeninnovation[\"📄 Green innovation and the CO₂ emissions gap: New ev\"]\n    style Greeninnovation fill:#2563eb,color:#fff,font-weight:bold\n    vp0LPATCO2[\"💡 LPAT → CO2gap\"]\n    style vp0LPATCO2 fill:#fef3c7,stroke:#d97706\n    Greeninnovation --> vp0LPATCO2\n    vp1GINOCO2[\"💡 GINO → CO2gap\"]\n    style vp1GINOCO2 fill:#fef3c7,stroke:#d97706\n    Greeninnovation --> vp1GINOCO2\n    vp200166p[\"💡 0.0166**(p<0.05) 城市化降低碳不平等（集聚效率效益）\"]\n    style vp200166p fill:#fef3c7,stroke:#d97706\n    Greeninnovation --> vp200166p\n    vp3排與公平3城市化[\"💡 排與公平；3)城市化建設低碳基礎設施有助降低不平等；4)僅靠一般性R&D補貼無法\"]\n    style vp3排與公平3城市化 fill:#fef3c7,stroke:#d97706\n    Greeninnovation --> vp3排與公平3城市化\n    vp4限制僅OECD[\"💡 【限制】僅OECD、專利指標未必反映技術擴散與採用、消費基礎排放有量測誤差\"]\n    style vp4限制僅OECD fill:#fef3c7,stroke:#d97706\n    Greeninnovation --> vp4限制僅OECD\n    vp5H1LPATCO[\"💡 H1：LPAT→CO2gap: 係數不顯著，創新規模與碳不平等無系統性關聯 ✅ \"]\n    style vp5H1LPATCO fill:#dbeafe,stroke:#2563eb\n    Greeninnovation --> vp5H1LPATCO\n    vp6H2GINOCO[\"💡 H2：GINO→CO2gap: PB係數−0.0051~−0.0063**(p<\"]\n    style vp6H2GINOCO fill:#dbeafe,stroke:#2563eb\n    Greeninnovation --> vp6H2GINOCO\n    vp7GINO環境相[\"💡 GINO = 環境相關技術占國內發明專利比率(%) → 創新方向；LPAT = \"]\n    style vp7GINO環境相 fill:#dbeafe,stroke:#2563eb\n    Greeninnovation --> vp7GINO環境相\n    vp8GINOCO2ga[\"💡 GINO→CO2gap: PB係數−0.0051~−0.0063**(p<0.0\"]\n    style vp8GINOCO2ga fill:#dbeafe,stroke:#2563eb\n    Greeninnovation --> vp8GINOCO2ga\n    vp9政策建議創新方向比[\"💡 政策建議：創新方向比規模重要 → 碳定價+綠色產業政策引導R&D；2)綠色專利補\"]\n    style vp9政策建議創新方向比 fill:#fef3c7,stroke:#d97706\n    Greeninnovation --> vp9政策建議創新方向比\n    vp10研究限制僅OECD[\"💡 研究限制：僅OECD、專利指標未必反映技術擴散與採用、消費基礎排放有量測誤差\"]\n    style vp10研究限制僅OECD fill:#fee2e2,stroke:#dc2626\n    Greeninnovation --> vp10研究限制僅OECD\n    LPAT-->|\"CO2gap\"|CO2gap\n    GINO-->|\"CO2gap\"|CO2gap1\n    15200166p--x|\"降低\"|碳不平等集聚效率效益\n    貼可兼顧減排與公平3城市化--x|\"降低\"|不平等4僅靠一般性RD補"
     },
     {
-      "title": "Financial development and renewable energy consumption: a novel view under the moderating role of institutional quality across APEC economies",
-      "authors": "Chowdhury, M.A.S., An, M. & Hedvicakova, M.",
+      "title": "Impact of Geopolitical Risk and Economic Globalization on Turkey's Environmental Sustainability: Novel Quantile-on-quantile KRLS Method",
+      "authors": "Awan, A., Jahanger, A., Emran Hossain, M., Meo, M.S. & Yusoff, N.Y.b.M.",
       "year": "2026",
-      "journal": "Humanities and Social Sciences Communications (Nature), Article in Press",
-      "doi": "10.1057/s41599-026-07998-z",
+      "journal": "Politická ekonomie, 74(3), 490–514",
+      "doi": "10.18267/j.polek.1505",
       "date": "2026-06-30",
       "tags": [
-        "panel",
-        "quantile regression",
-        "IQ",
-        "APEC",
-        "moderation",
-        "REC",
-        "SDG"
+        "QQKRLS",
+        "quantile-on-quantile",
+        "geopolitical risk",
+        "globalization",
+        "Turkey",
+        "energy"
       ],
       "topics": [
-        "潔淨能源",
-        "氣候風險/政策",
-        "金融市場",
-        "宏觀總體"
+        "碳市場/碳交易",
+        "能源市場",
+        "地緣政治/國防",
+        "方法論"
       ],
-      "pdf": "uploads/Chowdhury_FD_IQ_REC_APEC_2026.pdf",
+      "pdf": "uploads/Awan_Geopolitical_Globalization_Turkey_CO2_2026.pdf",
       "notes": [
-        "樣本：12 APEC 經濟體 (澳、中、香港、日、韓、馬、墨、菲、星、泰、美、越)，2002–2021，240 obs",
-        "資料庫：World Development Indicators (WB)",
-        "方法：固定效果 + Panel Quantile Regression (Q.25/Q.50/Q.75/Q.95) + SYS-GMM/MMQR/Driscoll-Kraay 穩健性",
+        "樣本：土耳其，1970–2019，年資料頻率轉換為季資料（quadratic match-sum），約200 obs",
+        "資料庫：WB (CO₂/GDPPC/NRR/REN), KOF (EGI), GPRH (GPRI)",
+        "方法：QQKRLS (Quantile-on-Quantile Kernel-based Regularized Least Squares) + QQR 穩健性",
         "---",
-        "【變數】DV=REC(再生能源消費%總最終能源), IV=FD1(國內信貸%GDP)+FD2(股票交易%GDP), Moderator=IQ(PCA合成6項WGI指標), Controls=EI(能源密集度), TO(貿易開放度), TI(技術創新)",
+        "【DV】CO₂ = ln(人均CO₂排放，噸/人)",
+        "【IV】EGI=經濟全球化指數(KOF), GPRI=地緣政治風險指數, NRR=自然資源租金%GDP, GDPPC=人均GDP, REN=再生能源%最終能源",
         "---",
-        "【H1】FD→REC: Q.50係數−0.5386*(p<0.10), FE係數−0.5466***(p<0.01) → FD對REC為負向顯著，金融體系偏向傳統能源投資",
-        "【H2】FD×IQ→REC: APEC交互項係數+0.7815***(p<0.01)，高所得組+0.7899***(p<0.01)，中高所得組+0.1242*(p<0.10) → IQ正向調節FD-REC關係",
+        "【EGI→CO₂】低分位(0.05-0.35)弱正相關，中分位(0.40-0.65)正相關轉強，高分位又轉弱 → 全球化在中度排放水準時環境成本最明顯",
+        "【GDPPC→CO₂】整體強正相關(低-高分位CO₂×中-高分位GDPPC) → 經濟成長=排碳增加",
+        "【GPRI→CO₂】整體正相關，中高分位(0.40-0.80)最強 → 地緣緊張排擠環保優先序",
+        "【NRR→CO₂】整體負相關(低-高分位NRR×中低分位CO₂)，僅極低分位正相關 → 土耳其自然資源(森林碳匯)有助減排",
+        "【REN→CO₂】複雜：低CO₂分位強負相關，中分位轉弱甚至轉正，高分位負相關再現 → 再生能源在低排放階段最有效",
         "---",
-        "【IQ直接】IQ→REC: 係數不顯著，IQ無直接顯著影響",
-        "【EI】EI→REC: FE係數−0.5531**(p<0.05)，能源密集度越高REC越低",
-        "【TO】TO→REC: 係數正值但不顯著，貿易開放度單獨不直接促REC",
-        "【TI】TI→REC: FE係數−0.3353***(p<0.01)，技術創新反而抑制REC(與再生能源目標脫鉤)",
+        "【前提檢定】JB常態檢定全拒絕(H0=常態), BDS非線性檢定全顯著(p<0.01), 參數穩定性Max-F/Exp-F/Ave-F通過",
+        "【穩健性】QQR 非參數雙變量分位數-on-分位數迴歸 → 結果與QQKRLS一致",
         "---",
-        "【診斷】CSD顯著, HS異質斜率, LLC/IPS單根I(0), Pedroni共整合(pp<0.05), Granger因果全顯著(無內生性), Hausman FE=23.12***(p<0.001), VIF<3",
+        "【貢獻】1)首次在土耳其用QQKRLS研究EGI×GPRI對CO₂非線性效果；2)QQKRLS優勢：捕捉非線性+正則化防止過擬合+機器學習適應力",
         "---",
-        "【理論】Energy Transition Theory + Institutional Theory 雙支柱",
+        "【政策意涵】1)貿易協定納入環境條款+高碳進口課稅+低碳進口獎勵；2)提升制度品質紓緩地緣風險對環境的負面影響；3)推廣再生能源R&D+公私合作+補貼稅制；4)經濟成長不應減產，應轉向低碳生產路徑",
         "---",
-        "【政策意涵】1)金融資源需重新導向綠色金融(綠債、補貼、稅務優惠)；2)強化制度品質(透明+監管效率+問責)吸引再生能源投資；3)高EI經濟體須投資能效技術；4)利用貿易開放降低綠色技術關稅壁壘；5)技術創新須對齊再生能源目標",
-        "---",
-        "【限制】僅12國、未納碳價與政治風險、未考慮非線性與門檻效應、IQ多維度未拆解"
+        "【限制】僅土耳其單國、結果不可外推、年轉季資料可能有測量誤差"
       ],
       "type": "upload",
-      "id": "upload-2026-06-30-1046",
+      "id": "upload-2026-06-30-1014",
       "viewpoints": [
         {
-          "claim": "FD → REC",
-          "evidence": "FD對REC的影響",
+          "claim": "EGI → CO",
+          "evidence": "EGI對CO的影響",
           "confidence": "mid",
           "source": "變數關係",
           "connections": []
         },
         {
-          "claim": "IQ → REC",
-          "evidence": "IQ對REC的影響",
+          "claim": "GDPPC → CO",
+          "evidence": "GDPPC對CO的影響",
           "confidence": "mid",
           "source": "變數關係",
           "connections": []
         },
         {
-          "claim": "EI → REC",
-          "evidence": "EI對REC的影響",
+          "claim": "GPRI → CO",
+          "evidence": "GPRI對CO的影響",
           "confidence": "mid",
           "source": "變數關係",
           "connections": []
         },
         {
-          "claim": "1242*(p<0.10) → IQ正向調節FD-REC關係",
-          "evidence": "1242*(p<0.10) → IQ正向對FD-REC關係的影響：調節",
+          "claim": "-高分位GDPPC) → 經濟成長=排碳 增加",
+          "evidence": "-高分位GDPPC) → 經濟成長=排碳增加",
           "confidence": "mid",
-          "source": "變數關係",
+          "source": "發現",
           "connections": []
         },
         {
-          "claim": "技術創新反而抑制REC(與再生能源目標脫鉤)",
-          "evidence": "技術創新反而對REC(與再生能源目標脫鉤)的影響：抑制",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "I經濟體須投資能效技術；4)利用貿易開放降低綠色技術關稅壁壘；5)技術創新須對齊再生能源目標",
-          "evidence": "I經濟體須投資能效技術；4)利用貿易開放對綠色技術關稅壁壘；5)技術創新須對齊再生能源目標的影響：降低",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "【診斷】CSD顯著, HS異質斜率, LLC/IPS單根I(0), Pedroni共整合(pp<0.05), Granger因果全顯著(無內生性), Hausman FE=23.12***(p<0.001), VIF<3",
-          "evidence": "【診斷】CSD顯著, HS異質斜率, LLC/IPS單根I(0), Pedroni共整合(pp<0.05), Granger因果全顯著(無內生性), Hausman FE=23.12***(p<0.001), VIF<3",
-          "confidence": "mid",
-          "source": "檢定結果",
-          "connections": []
-        },
-        {
-          "claim": "【政策意涵】1)金融資源需重新導向綠色金融(綠債、補貼、稅務優惠)；2)強化制度品質(透明+監管效率+問責)吸引再生能源投資；3)高EI經濟體須投資能效技術；4)利用貿易開放降低綠色技術關稅壁壘；5)技術創新須對齊再生能源目標",
-          "evidence": "【政策意涵】1)金融資源需重新導向綠色金融(綠債、補貼、稅務優惠)；2)強化制度品質(透明+監管效率+問責)吸引再生能源投資；3)高EI經濟體須投資能效技術；4)利用貿易開放降低綠色技術關稅壁壘；5)技術創新須對齊再生能源目標",
+          "claim": "【貢獻】1)首次在土耳其用QQKRLS研究EGI×GPRI對CO₂非線性效果；2)QQKRLS優勢：捕捉非線性+正則化防止過擬合+機器學習適應力",
+          "evidence": "【貢獻】1)首次在土耳其用QQKRLS研究EGI×GPRI對CO₂非線性效果；2)QQKRLS優勢：捕捉非線性+正則化防止過擬合+機器學習適應力",
           "confidence": "mid",
           "source": "陳述",
           "connections": []
         },
         {
-          "claim": "【限制】僅12國、未納碳價與政治風險、未考慮非線性與門檻效應、IQ多維度未拆解",
-          "evidence": "【限制】僅12國、未納碳價與政治風險、未考慮非線性與門檻效應、IQ多維度未拆解",
+          "claim": "【政策意涵】1)貿易協定納入環境條款+高碳進口課稅+低碳進口獎勵；2)提升制度品質紓緩地緣風險對環境的負面影響；3)推廣再生能源R&D+公私合作+補貼稅制；4)經濟成長不應減產，應轉向低碳生產路徑",
+          "evidence": "【政策意涵】1)貿易協定納入環境條款+高碳進口課稅+低碳進口獎勵；2)提升制度品質紓緩地緣風險對環境的負面影響；3)推廣再生能源R&D+公私合作+補貼稅制；4)經濟成長不應減產，應轉向低碳生產路徑",
           "confidence": "mid",
           "source": "陳述",
           "connections": []
         },
         {
-          "claim": "H1：FD→REC: Q.50係數−0.5386*(p<0.10), FE係數−0.5466***(p<0.01) → FD對REC為負向顯著，金融體系偏向傳統能源投資",
-          "evidence": "FD→REC: Q.50係數−0.5386*(p<0.10), FE係數−0.5466***(p<0.01) → FD對REC為負向顯著，金融體系偏向傳統能源投資",
-          "confidence": "high",
-          "source": "假設檢定",
+          "claim": "【限制】僅土耳其單國、結果不可外推、年轉季資料可能有測量誤差",
+          "evidence": "【限制】僅土耳其單國、結果不可外推、年轉季資料可能有測量誤差",
+          "confidence": "mid",
+          "source": "陳述",
           "connections": []
         },
         {
-          "claim": "H2：FD×IQ→REC: APEC交互項係數+0.7815***(p<0.01)，高所得組+0.7899***(p<0.01)，中高所得組+0.1242*(p<0.10) → IQ正向調節FD-REC關係",
-          "evidence": "FD×IQ→REC: APEC交互項係數+0.7815***(p<0.01)，高所得組+0.7899***(p<0.01)，中高所得組+0.1242*(p<0.10) → IQ正向調節FD-REC關係",
+          "claim": "首次在土耳其用QQKRLS研究EGI×GPRI對CO₂非線性效果；2)QQKRLS優勢：捕捉非線性+正則化防止過擬合+機器學習適應力",
+          "evidence": "首次在土耳其用QQKRLS研究EGI×GPRI對CO₂非線性效果；2)QQKRLS優勢：捕捉非線性+正則化防止過擬合+機器學習適應力",
           "confidence": "high",
-          "source": "假設檢定",
+          "source": "研究貢獻",
           "connections": []
         },
         {
-          "claim": "政策建議：金融資源需重新導向綠色金融(綠債、補貼、稅務優惠)；2)強化制度品質(透明+監管效率+問責)吸引再生能源投資；3)高EI經濟體須投資能效技術；4)利用貿易開放降低綠色技術關稅壁壘；5)技術創新須對齊再生能源目標",
-          "evidence": "金融資源需重新導向綠色金融(綠債、補貼、稅務優惠)；2)強化制度品質(透明+監管效率+問責)吸引再生能源投資；3)高EI經濟體須投資能效技術；4)利用貿易開放降低綠色技術關稅壁壘；5)技術創新須對齊再生能源目標",
+          "claim": "政策建議：貿易協定納入環境條款+高碳進口課稅+低碳進口獎勵；2)提升制度品質紓緩地緣風險對環境的負面影響；3)推廣再生能源R&D+公私合作+補貼稅制；4)經濟成長不應減產，應轉向低碳生產路徑",
+          "evidence": "貿易協定納入環境條款+高碳進口課稅+低碳進口獎勵；2)提升制度品質紓緩地緣風險對環境的負面影響；3)推廣再生能源R&D+公私合作+補貼稅制；4)經濟成長不應減產，應轉向低碳生產路徑",
           "confidence": "mid",
           "source": "政策意涵",
           "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    Financialdevelo[\"📄 Financial development and renewable energy consump\"]\n    style Financialdevelo fill:#2563eb,color:#fff,font-weight:bold\n    vp0FDREC[\"💡 FD → REC\"]\n    style vp0FDREC fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp0FDREC\n    vp1IQREC[\"💡 IQ → REC\"]\n    style vp1IQREC fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp1IQREC\n    vp2EIREC[\"💡 EI → REC\"]\n    style vp2EIREC fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp2EIREC\n    vp31242p0[\"💡 1242*(p<0.10) → IQ正向調節FD-REC關係\"]\n    style vp31242p0 fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp31242p0\n    vp4技術創新反而抑制RE[\"💡 技術創新反而抑制REC(與再生能源目標脫鉤)\"]\n    style vp4技術創新反而抑制RE fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp4技術創新反而抑制RE\n    vp5I經濟體須投資能效技[\"💡 I經濟體須投資能效技術；4)利用貿易開放降低綠色技術關稅壁壘；5)技術創新須對齊\"]\n    style vp5I經濟體須投資能效技 fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp5I經濟體須投資能效技\n    vp6診斷CSD顯著[\"💡 【診斷】CSD顯著, HS異質斜率, LLC/IPS單根I(0), Pedron\"]\n    style vp6診斷CSD顯著 fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp6診斷CSD顯著\n    vp7政策意涵1金融[\"💡 【政策意涵】1)金融資源需重新導向綠色金融(綠債、補貼、稅務優惠)；2)強化制度\"]\n    style vp7政策意涵1金融 fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp7政策意涵1金融\n    vp8限制僅12國未[\"💡 【限制】僅12國、未納碳價與政治風險、未考慮非線性與門檻效應、IQ多維度未拆解\"]\n    style vp8限制僅12國未 fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp8限制僅12國未\n    vp9H1FDREC[\"💡 H1：FD→REC: Q.50係數−0.5386*(p<0.10), FE係數−\"]\n    style vp9H1FDREC fill:#dbeafe,stroke:#2563eb\n    Financialdevelo --> vp9H1FDREC\n    vp10H2FDIQR[\"💡 H2：FD×IQ→REC: APEC交互項係數+0.7815***(p<0.01\"]\n    style vp10H2FDIQR fill:#dbeafe,stroke:#2563eb\n    Financialdevelo --> vp10H2FDIQR\n    vp11政策建議金融資源需[\"💡 政策建議：金融資源需重新導向綠色金融(綠債、補貼、稅務優惠)；2)強化制度品質(\"]\n    style vp11政策建議金融資源需 fill:#fef3c7,stroke:#d97706\n    Financialdevelo --> vp11政策建議金融資源需\n    FD-->|\"REC\"|REC\n    note[\"⋯ 還有 12 個觀點\"]"
-    },
-    {
-      "title": "Reinforcement Learning for Risk-Sensitive Investment Management: a Free Energy--Entropy Duality Approach",
-      "authors": "Sebastien Lleo, Wolfgang Runggaldier",
-      "year": "2026",
-      "journal": "arXiv:2606.20903 [q-fin.PM]",
-      "doi": "",
-      "date": "2026-06-23",
-      "tags": [
-        "RL",
-        "continuous-time"
-      ],
-      "topics": [
-        "金融市場",
-        "AI/科技"
-      ],
-      "pdf": "uploads/RL_Risk_Sensitive_Investment_Lleo_2026.pdf",
-      "notes": [
-        "free energy-entropy duality → risk-sensitive 資產配置改寫為 stochastic differential game",
-        "continuous-time q-learning actor-critic 求解",
-        "fractional Kelly decomposition 的經濟解釋",
-        "美股實證: portfolio actor 學習精確度高",
-        "arXiv q-fin new 2026-06"
-      ],
-      "type": "upload",
-      "id": "upload-2026-06-23-8146",
-      "viewpoints": [
-        {
-          "claim": "entropy duality → risk-sensitive",
-          "evidence": "entropy duality對risk-sensitive的影響",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    ReinforcementLe[\"📄 Reinforcement Learning for Risk-Sensitive Investme\"]\n    style ReinforcementLe fill:#2563eb,color:#fff,font-weight:bold\n    vp0entropydu[\"💡 entropy duality → risk-sensitive\"]\n    style vp0entropydu fill:#fef3c7,stroke:#d97706\n    ReinforcementLe --> vp0entropydu\n    entropyduality-->|\"risk-sensitive\"|risksensitive"
-    },
-    {
-      "title": "The Mathematics of Modeling the Future",
-      "authors": "Miquel Noguer i Alonso",
-      "year": "2026",
-      "journal": "arXiv:2606.20977 [q-fin.MF]",
-      "doi": "",
-      "date": "2026-06-23",
-      "tags": [
-        "方法論"
-      ],
-      "topics": [
-        "方法論",
-        "AI/科技"
-      ],
-      "pdf": "uploads/Mathematics_of_Modeling_Future_Noguer_2026.pdf",
-      "notes": [
-        "從 filtration、conditional expectation、Markov kernel 到 Kolmogorov equations 的統一數學框架",
-        "提出 forecasting calculus：tower property → semigroup law, Ito's formula → backward equation",
-        "Wasserstein gradient flow + Fisher-Rao 幾何下的密度演化",
-        "附 Gaussian OU / CIR 過程的顯式範例",
-        "arXiv q-fin new 2026-06"
-      ],
-      "type": "upload",
-      "id": "upload-2026-06-23-636",
-      "viewpoints": [
-        {
-          "claim": "tower property → semigroup law",
-          "evidence": "tower property對semigroup law的影響",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
         },
         {
-          "claim": "s formula → backward equation\nWasserstein",
-          "evidence": "s formula對backward equation\nWasserstein的影響",
-          "confidence": "mid",
-          "source": "變數關係",
+          "claim": "研究限制：僅土耳其單國、結果不可外推、年轉季資料可能有測量誤差",
+          "evidence": "僅土耳其單國、結果不可外推、年轉季資料可能有測量誤差",
+          "confidence": "low",
+          "source": "研究限制",
           "connections": []
         }
       ],
-      "diagram": "graph TD\n    TheMathematicso[\"📄 The Mathematics of Modeling the Future\"]\n    style TheMathematicso fill:#2563eb,color:#fff,font-weight:bold\n    vp0towerprop[\"💡 tower property → semigroup law\"]\n    style vp0towerprop fill:#fef3c7,stroke:#d97706\n    TheMathematicso --> vp0towerprop\n    vp1sformula[\"💡 s formula → backward equation\nWasserstei\"]\n    style vp1sformula fill:#fef3c7,stroke:#d97706\n    TheMathematicso --> vp1sformula\n    towerproperty-->|\"semigroup law\"|semigrouplaw\n    sformula-->|\"backward equation\nWa\"|backwardequati"
+      "diagram": "graph TD\n    ImpactofGeopoli[\"📄 Impact of Geopolitical Risk and Economic Globaliza\"]\n    style ImpactofGeopoli fill:#2563eb,color:#fff,font-weight:bold\n    vp0EGICO[\"💡 EGI → CO\"]\n    style vp0EGICO fill:#fef3c7,stroke:#d97706\n    ImpactofGeopoli --> vp0EGICO\n    vp1GDPPCCO[\"💡 GDPPC → CO\"]\n    style vp1GDPPCCO fill:#fef3c7,stroke:#d97706\n    ImpactofGeopoli --> vp1GDPPCCO\n    vp2GPRICO[\"💡 GPRI → CO\"]\n    style vp2GPRICO fill:#fef3c7,stroke:#d97706\n    ImpactofGeopoli --> vp2GPRICO\n    vp3高分位GDPPC[\"💡 -高分位GDPPC) → 經濟成長=排碳 增加\"]\n    style vp3高分位GDPPC fill:#fef3c7,stroke:#d97706\n    ImpactofGeopoli --> vp3高分位GDPPC\n    vp4貢獻1首次在土[\"💡 【貢獻】1)首次在土耳其用QQKRLS研究EGI×GPRI對CO₂非線性效果；2\"]\n    style vp4貢獻1首次在土 fill:#fef3c7,stroke:#d97706\n    ImpactofGeopoli --> vp4貢獻1首次在土\n    vp5政策意涵1貿易[\"💡 【政策意涵】1)貿易協定納入環境條款+高碳進口課稅+低碳進口獎勵；2)提升制度品\"]\n    style vp5政策意涵1貿易 fill:#fef3c7,stroke:#d97706\n    ImpactofGeopoli --> vp5政策意涵1貿易\n    vp6限制僅土耳其單國[\"💡 【限制】僅土耳其單國、結果不可外推、年轉季資料可能有測量誤差\"]\n    style vp6限制僅土耳其單國 fill:#fef3c7,stroke:#d97706\n    ImpactofGeopoli --> vp6限制僅土耳其單國\n    vp7首次在土耳其用QQK[\"💡 首次在土耳其用QQKRLS研究EGI×GPRI對CO₂非線性效果；2)QQKRL\"]\n    style vp7首次在土耳其用QQK fill:#dbeafe,stroke:#2563eb\n    ImpactofGeopoli --> vp7首次在土耳其用QQK\n    vp8政策建議貿易協定納[\"💡 政策建議：貿易協定納入環境條款+高碳進口課稅+低碳進口獎勵；2)提升制度品質紓緩\"]\n    style vp8政策建議貿易協定納 fill:#fef3c7,stroke:#d97706\n    ImpactofGeopoli --> vp8政策建議貿易協定納\n    vp9研究限制僅土耳其單[\"💡 研究限制：僅土耳其單國、結果不可外推、年轉季資料可能有測量誤差\"]\n    style vp9研究限制僅土耳其單 fill:#fee2e2,stroke:#dc2626\n    ImpactofGeopoli --> vp9研究限制僅土耳其單\n    EGI-->|\"CO\"|CO\n    GDPPC-->|\"CO\"|CO1\n    GPRI-->|\"CO\"|CO2\n    NRR-->|\"CO\"|CO3\n    REN-->|\"CO\"|CO4"
     },
     {
       "title": "Revisiting Trade-sign Long-memory and Square-root Law Price Impact",
@@ -2301,7 +1561,7 @@
         "arXiv q-fin new 2026-06"
       ],
       "type": "upload",
-      "id": "upload-2026-06-23-1465",
+      "id": "upload-2026-06-23-4003",
       "viewpoints": [
         {
           "claim": "order → concave impact trajectory\narXi",
@@ -2314,57 +1574,135 @@
       "diagram": "graph TD\n    RevisitingTrade[\"📄 Revisiting Trade-sign Long-memory and Square-root \"]\n    style RevisitingTrade fill:#2563eb,color:#fff,font-weight:bold\n    vp0orderco[\"💡 order → concave impact trajectory\narXi\"]\n    style vp0orderco fill:#fef3c7,stroke:#d97706\n    RevisitingTrade --> vp0orderco\n    order-->|\"concave impact traje\"|concaveimpact"
     },
     {
-      "title": "The interplay of financial development, oil prices, and CO2 emissions in shaping renewable energy consumption in emerging nations: An evidence from panel quantile regression",
-      "authors": "Arsh, Liaqat, Batool & Khan",
-      "year": "2025",
-      "journal": "Vol. 3 No. 4 (2025)",
+      "title": "The Mathematics of Modeling the Future",
+      "authors": "Miquel Noguer i Alonso",
+      "year": "2026",
+      "journal": "arXiv:2606.20977 [q-fin.MF]",
       "doi": "",
-      "date": "2026-06-16",
+      "date": "2026-06-23",
       "tags": [
-        "PQR",
-        "MMQR",
-        "FMOLS",
-        "quantile",
-        "REC"
+        "方法論"
       ],
       "topics": [
-        "潔淨能源",
-        "能源市場",
-        "金融市場"
+        "方法論",
+        "AI/科技"
       ],
-      "pdf": "uploads/Arsh_FD_Oil_REC_Quantile_2025.pdf",
+      "pdf": "uploads/Mathematics_of_Modeling_Future_Noguer_2026.pdf",
       "notes": [
-        "22 emerging economies, 2005-2021",
-        "PQR(Powell 2016) + MMQR(Machado & Silva 2019) 雙重分位數",
-        "FD→REC+, Oil price 不對稱(低分位- 高分位+)",
-        "FDI→REC+, CO2→REC-(高分位)"
+        "從 filtration、conditional expectation、Markov kernel 到 Kolmogorov equations 的統一數學框架",
+        "提出 forecasting calculus：tower property → semigroup law, Ito's formula → backward equation",
+        "Wasserstein gradient flow + Fisher-Rao 幾何下的密度演化",
+        "附 Gaussian OU / CIR 過程的顯式範例",
+        "arXiv q-fin new 2026-06"
       ],
       "type": "upload",
-      "id": "upload-2026-06-16-9292",
+      "id": "upload-2026-06-23-3618",
       "viewpoints": [
         {
-          "claim": "FD → REC+",
-          "evidence": "FD對REC+的影響",
+          "claim": "tower property → semigroup law",
+          "evidence": "tower property對semigroup law的影響",
           "confidence": "mid",
           "source": "變數關係",
           "connections": []
         },
         {
-          "claim": "FDI → REC+",
-          "evidence": "FDI對REC+的影響",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "CO2 → REC-",
-          "evidence": "CO2對REC-的影響",
+          "claim": "s formula → backward equation\nWasserstein",
+          "evidence": "s formula對backward equation\nWasserstein的影響",
           "confidence": "mid",
           "source": "變數關係",
           "connections": []
         }
       ],
-      "diagram": "graph TD\n    Theinterplayoff[\"📄 The interplay of financial development, oil prices\"]\n    style Theinterplayoff fill:#2563eb,color:#fff,font-weight:bold\n    vp0FDREC[\"💡 FD → REC+\"]\n    style vp0FDREC fill:#fef3c7,stroke:#d97706\n    Theinterplayoff --> vp0FDREC\n    vp1FDIREC[\"💡 FDI → REC+\"]\n    style vp1FDIREC fill:#fef3c7,stroke:#d97706\n    Theinterplayoff --> vp1FDIREC\n    vp2CO2REC[\"💡 CO2 → REC-\"]\n    style vp2CO2REC fill:#fef3c7,stroke:#d97706\n    Theinterplayoff --> vp2CO2REC\n    FD-->|\"REC+\"|REC\n    FDI-->|\"REC+\"|REC1\n    CO2-->|\"REC-\"|REC2"
+      "diagram": "graph TD\n    TheMathematicso[\"📄 The Mathematics of Modeling the Future\"]\n    style TheMathematicso fill:#2563eb,color:#fff,font-weight:bold\n    vp0towerprop[\"💡 tower property → semigroup law\"]\n    style vp0towerprop fill:#fef3c7,stroke:#d97706\n    TheMathematicso --> vp0towerprop\n    vp1sformula[\"💡 s formula → backward equation\nWasserstei\"]\n    style vp1sformula fill:#fef3c7,stroke:#d97706\n    TheMathematicso --> vp1sformula\n    towerproperty-->|\"semigroup law\"|semigrouplaw\n    sformula-->|\"backward equation\nWa\"|backwardequati"
+    },
+    {
+      "title": "Reinforcement Learning for Risk-Sensitive Investment Management: a Free Energy--Entropy Duality Approach",
+      "authors": "Sebastien Lleo, Wolfgang Runggaldier",
+      "year": "2026",
+      "journal": "arXiv:2606.20903 [q-fin.PM]",
+      "doi": "",
+      "date": "2026-06-23",
+      "tags": [
+        "RL",
+        "continuous-time"
+      ],
+      "topics": [
+        "金融市場",
+        "AI/科技"
+      ],
+      "pdf": "uploads/RL_Risk_Sensitive_Investment_Lleo_2026.pdf",
+      "notes": [
+        "free energy-entropy duality → risk-sensitive 資產配置改寫為 stochastic differential game",
+        "continuous-time q-learning actor-critic 求解",
+        "fractional Kelly decomposition 的經濟解釋",
+        "美股實證: portfolio actor 學習精確度高",
+        "arXiv q-fin new 2026-06"
+      ],
+      "type": "upload",
+      "id": "upload-2026-06-23-1418",
+      "viewpoints": [
+        {
+          "claim": "entropy duality → risk-sensitive",
+          "evidence": "entropy duality對risk-sensitive的影響",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    ReinforcementLe[\"📄 Reinforcement Learning for Risk-Sensitive Investme\"]\n    style ReinforcementLe fill:#2563eb,color:#fff,font-weight:bold\n    vp0entropydu[\"💡 entropy duality → risk-sensitive\"]\n    style vp0entropydu fill:#fef3c7,stroke:#d97706\n    ReinforcementLe --> vp0entropydu\n    entropyduality-->|\"risk-sensitive\"|risksensitive"
+    },
+    {
+      "title": "Sustainable energy transition toward a zero-carbon future in major Global South economies: Roles of green innovation, institutions, and geopolitical risk",
+      "authors": "Caglar, Naimoglu & Demirdag",
+      "year": "2026",
+      "journal": "Energy for Sustainable Development, 93, 102050",
+      "doi": "10.1016/j.esd.2026.102050",
+      "date": "2026-06-16",
+      "tags": [
+        "panel",
+        "SDG-7",
+        "GRI",
+        "GEO",
+        "Porter Hypothesis"
+      ],
+      "topics": [
+        "潔淨能源",
+        "氣候風險/政策",
+        "宏觀總體"
+      ],
+      "pdf": "uploads/Caglar_GlobalSouth_ENT_2026.pdf",
+      "notes": [
+        "Panel: Brazil, China, India, Indonesia, Thailand (2002-2023)",
+        "Porter Hypothesis(強版本)延伸—地緣穩定為創新驅動環境轉型之前提",
+        "GRI→ENT正向, RQ強化此過程, GEO抑制",
+        "SDG-7 進展取決於技術能力+制度韌性"
+      ],
+      "type": "upload",
+      "id": "upload-2026-06-16-8531",
+      "viewpoints": [
+        {
+          "claim": "GRI → ENT",
+          "evidence": "GRI對ENT的影響",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "hesis(強版本)延伸—地緣穩定為創新驅動環境轉型之前提",
+          "evidence": "hesis(強版本)延伸—地緣穩定為創新對環境轉型之前提的影響：驅動",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "→ENT正向, RQ強化此過程, GEO 抑制",
+          "evidence": "→ENT正向, RQ強化此過程, GEO抑制",
+          "confidence": "mid",
+          "source": "發現",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    Sustainableener[\"📄 Sustainable energy transition toward a zero-carbon\"]\n    style Sustainableener fill:#2563eb,color:#fff,font-weight:bold\n    vp0GRIENT[\"💡 GRI → ENT\"]\n    style vp0GRIENT fill:#fef3c7,stroke:#d97706\n    Sustainableener --> vp0GRIENT\n    vp1hesis強版本[\"💡 hesis(強版本)延伸—地緣穩定為創新驅動環境轉型之前提\"]\n    style vp1hesis強版本 fill:#fef3c7,stroke:#d97706\n    Sustainableener --> vp1hesis強版本\n    vp2ENT正向RQ[\"💡 →ENT正向, RQ強化此過程, GEO 抑制\"]\n    style vp2ENT正向RQ fill:#fef3c7,stroke:#d97706\n    Sustainableener --> vp2ENT正向RQ\n    GRI-->|\"ENT\"|ENT\n    Hypothesis強版本==>|\"驅動\"|環境轉型之前提"
     },
     {
       "title": "Assessing the effects of green innovation, renewable energy, and environmental policy stringency on ecological and material footprints in G7 economies",
@@ -2393,7 +1731,7 @@
         "首篇聯合分析EF+MF驅動因子於G7"
       ],
       "type": "upload",
-      "id": "upload-2026-06-16-5038",
+      "id": "upload-2026-06-16-5887",
       "viewpoints": [
         {
           "claim": "ARDL\nGDP → EF↑ MF↑（正向）",
@@ -2427,57 +1765,57 @@
       "diagram": "graph TD\n    Assessingtheeff[\"📄 Assessing the effects of green innovation, renewab\"]\n    style Assessingtheeff fill:#2563eb,color:#fff,font-weight:bold\n    vp0ARDLGDP[\"💡 ARDL\nGDP → EF↑ MF↑（正向）\"]\n    style vp0ARDLGDP fill:#fef3c7,stroke:#d97706\n    Assessingtheeff --> vp0ARDLGDP\n    vp1EPSEF[\"💡 EPS → EF↓（負向）\"]\n    style vp1EPSEF fill:#fef3c7,stroke:#d97706\n    Assessingtheeff --> vp1EPSEF\n    vp2REEFG[\"💡 RE → EF↓\nGI→MF↑（正向）\"]\n    style vp2REEFG fill:#fef3c7,stroke:#d97706\n    Assessingtheeff --> vp2REEFG\n    vp3首篇聯合分析EFM[\"💡 首篇聯合分析EF+MF驅動因子於G7\"]\n    style vp3首篇聯合分析EFM fill:#fef3c7,stroke:#d97706\n    Assessingtheeff --> vp3首篇聯合分析EFM\n    ARDLGDP==>|\"EF↑ MF↑\"|EFMF\n    EPS--x|\"EF↓\"|EF\n    RE--x|\"EF↓\nGI→MF↑\"|EFGIMF\n    首篇聯合分析EFMF==>|\"驅動\"|因子於G7"
     },
     {
-      "title": "Sustainable energy transition toward a zero-carbon future in major Global South economies: Roles of green innovation, institutions, and geopolitical risk",
-      "authors": "Caglar, Naimoglu & Demirdag",
-      "year": "2026",
-      "journal": "Energy for Sustainable Development, 93, 102050",
-      "doi": "10.1016/j.esd.2026.102050",
+      "title": "The interplay of financial development, oil prices, and CO2 emissions in shaping renewable energy consumption in emerging nations: An evidence from panel quantile regression",
+      "authors": "Arsh, Liaqat, Batool & Khan",
+      "year": "2025",
+      "journal": "Vol. 3 No. 4 (2025)",
+      "doi": "",
       "date": "2026-06-16",
       "tags": [
-        "panel",
-        "SDG-7",
-        "GRI",
-        "GEO",
-        "Porter Hypothesis"
+        "PQR",
+        "MMQR",
+        "FMOLS",
+        "quantile",
+        "REC"
       ],
       "topics": [
         "潔淨能源",
-        "氣候風險/政策",
-        "宏觀總體"
+        "能源市場",
+        "金融市場"
       ],
-      "pdf": "uploads/Caglar_GlobalSouth_ENT_2026.pdf",
+      "pdf": "uploads/Arsh_FD_Oil_REC_Quantile_2025.pdf",
       "notes": [
-        "Panel: Brazil, China, India, Indonesia, Thailand (2002-2023)",
-        "Porter Hypothesis(強版本)延伸—地緣穩定為創新驅動環境轉型之前提",
-        "GRI→ENT正向, RQ強化此過程, GEO抑制",
-        "SDG-7 進展取決於技術能力+制度韌性"
+        "22 emerging economies, 2005-2021",
+        "PQR(Powell 2016) + MMQR(Machado & Silva 2019) 雙重分位數",
+        "FD→REC+, Oil price 不對稱(低分位- 高分位+)",
+        "FDI→REC+, CO2→REC-(高分位)"
       ],
       "type": "upload",
-      "id": "upload-2026-06-16-3098",
+      "id": "upload-2026-06-16-4484",
       "viewpoints": [
         {
-          "claim": "GRI → ENT",
-          "evidence": "GRI對ENT的影響",
+          "claim": "FD → REC+",
+          "evidence": "FD對REC+的影響",
           "confidence": "mid",
           "source": "變數關係",
           "connections": []
         },
         {
-          "claim": "hesis(強版本)延伸—地緣穩定為創新驅動環境轉型之前提",
-          "evidence": "hesis(強版本)延伸—地緣穩定為創新對環境轉型之前提的影響：驅動",
+          "claim": "FDI → REC+",
+          "evidence": "FDI對REC+的影響",
           "confidence": "mid",
           "source": "變數關係",
           "connections": []
         },
         {
-          "claim": "→ENT正向, RQ強化此過程, GEO 抑制",
-          "evidence": "→ENT正向, RQ強化此過程, GEO抑制",
+          "claim": "CO2 → REC-",
+          "evidence": "CO2對REC-的影響",
           "confidence": "mid",
-          "source": "發現",
+          "source": "變數關係",
           "connections": []
         }
       ],
-      "diagram": "graph TD\n    Sustainableener[\"📄 Sustainable energy transition toward a zero-carbon\"]\n    style Sustainableener fill:#2563eb,color:#fff,font-weight:bold\n    vp0GRIENT[\"💡 GRI → ENT\"]\n    style vp0GRIENT fill:#fef3c7,stroke:#d97706\n    Sustainableener --> vp0GRIENT\n    vp1hesis強版本[\"💡 hesis(強版本)延伸—地緣穩定為創新驅動環境轉型之前提\"]\n    style vp1hesis強版本 fill:#fef3c7,stroke:#d97706\n    Sustainableener --> vp1hesis強版本\n    vp2ENT正向RQ[\"💡 →ENT正向, RQ強化此過程, GEO 抑制\"]\n    style vp2ENT正向RQ fill:#fef3c7,stroke:#d97706\n    Sustainableener --> vp2ENT正向RQ\n    GRI-->|\"ENT\"|ENT\n    Hypothesis強版本==>|\"驅動\"|環境轉型之前提"
+      "diagram": "graph TD\n    Theinterplayoff[\"📄 The interplay of financial development, oil prices\"]\n    style Theinterplayoff fill:#2563eb,color:#fff,font-weight:bold\n    vp0FDREC[\"💡 FD → REC+\"]\n    style vp0FDREC fill:#fef3c7,stroke:#d97706\n    Theinterplayoff --> vp0FDREC\n    vp1FDIREC[\"💡 FDI → REC+\"]\n    style vp1FDIREC fill:#fef3c7,stroke:#d97706\n    Theinterplayoff --> vp1FDIREC\n    vp2CO2REC[\"💡 CO2 → REC-\"]\n    style vp2CO2REC fill:#fef3c7,stroke:#d97706\n    Theinterplayoff --> vp2CO2REC\n    FD-->|\"REC+\"|REC\n    FDI-->|\"REC+\"|REC1\n    CO2-->|\"REC-\"|REC2"
     },
     {
       "title": "The nexus between climate policy uncertainty and load capacity factor in China with the moderating role of financial development",
@@ -2505,7 +1843,7 @@
         "FD 在不確定時期可透過三渠道維持綠色投資"
       ],
       "type": "upload",
-      "id": "upload-2026-06-16-1022",
+      "id": "upload-2026-06-16-4475",
       "viewpoints": [
         {
           "claim": "FD 和 CPU 各自降低環境品質",
@@ -2550,7 +1888,7 @@
         "Peer Review 版本，DOI 暫為 xxxxx"
       ],
       "type": "upload",
-      "id": "upload-2026-06-12-9877",
+      "id": "upload-2026-06-12-1166",
       "viewpoints": [
         {
           "claim": "COVID 期間溢散 顯著升高",
@@ -6057,78 +5395,157 @@
       "diagram": "graph TD\n    地緣政治關鍵稀土國防股[\"📄 地緣政治 × 關鍵稀土 × 國防股 — Nonlinear QVAR\"]\n    style 地緣政治關鍵稀土國防股 fill:#2563eb,color:#fff,font-weight:bold\n    vp0研究方法QVAR[\"💡 研究方法：QVAR (Quantile Vector Autoregressio\"]\n    style vp0研究方法QVAR fill:#fef3c7,stroke:#d97706\n    地緣政治關鍵稀土國防股 --> vp0研究方法QVAR\n    vp1研究主題地緣政治[\"💡 研究主題：地緣政治/國防、原物料/商品\"]\n    style vp1研究主題地緣政治 fill:#fef3c7,stroke:#d97706\n    地緣政治關鍵稀土國防股 --> vp1研究主題地緣政治\n    vp2主要變數原油價格[\"💡 主要變數：原油價格 / Oil Price、股價 / Stock Price、地\"]\n    style vp2主要變數原油價格 fill:#fef3c7,stroke:#d97706\n    地緣政治關鍵稀土國防股 --> vp2主要變數原油價格\n    vp3Thisstudy[\"💡 This study examines the nonlinear inform\"]\n    style vp3Thisstudy fill:#fef3c7,stroke:#d97706\n    地緣政治關鍵稀土國防股 --> vp3Thisstudy\n    vp0研究方法QVAR --- vp1研究主題地緣政治\n    vp1研究主題地緣政治 --- vp2主要變數原油價格\n    vp2主要變數原油價格 --- vp3Thisstudy"
     },
     {
-      "title": "Climate Policy Uncertainty and Load Capacity Factor in China",
-      "authors": "Özbek, Şahin & Bayar",
+      "title": "Toward Carbon Neutrality in Vietnam: Analyzing the Role of Renewable Energy Consumption and Economic Growth Using Wavelet Coherence and Quantile-on-Quantile Approaches",
+      "authors": "Thuy Bui Minh",
       "year": "2026",
-      "journal": "Discover Sustainability (Springer)",
-      "doi": "10.1007/s43621-026-03409-0",
+      "journal": "International Journal of Energy Research (Wiley)",
+      "doi": "10.1155/er/5633215",
+      "date": "2026-06-05",
+      "tags": [
+        "QQGC"
+      ],
+      "topics": [
+        "潔淨能源",
+        "碳市場/碳交易"
+      ],
+      "pdf": "uploads/Vietnam_Carbon_Neutrality_QQR.pdf",
+      "notes": [
+        "方法：Wavelet Coherence + QQR（分量對分量迴歸）",
+        "年資料 1985-2023，越南案例",
+        "再生能源提升在中高分量下降低 CO₂",
+        "GDP 成長在不同分量下對 CO₂ 效果不一致"
+      ],
+      "type": "upload",
+      "id": "upload-2026-06-05-9817",
+      "viewpoints": [
+        {
+          "claim": "再生能源提升在中高分量下降低CO₂",
+          "evidence": "再生能源提升在中高分量下對CO₂的影響：降低",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "研究方法：Wavelet Coherence + QQR（分量對分量迴歸）",
+          "evidence": "Wavelet Coherence + QQR（分量對分量迴歸）",
+          "confidence": "mid",
+          "source": "方法",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    TowardCarbonNeu[\"📄 Toward Carbon Neutrality in Vietnam: Analyzing the\"]\n    style TowardCarbonNeu fill:#2563eb,color:#fff,font-weight:bold\n    vp0再生能源提升在中高分[\"💡 再生能源提升在中高分量下降低CO₂\"]\n    style vp0再生能源提升在中高分 fill:#fef3c7,stroke:#d97706\n    TowardCarbonNeu --> vp0再生能源提升在中高分\n    vp1研究方法Wavel[\"💡 研究方法：Wavelet Coherence + QQR（分量對分量迴歸）\"]\n    style vp1研究方法Wavel fill:#fef3c7,stroke:#d97706\n    TowardCarbonNeu --> vp1研究方法Wavel\n    再生能源提升在中高分量下--x|\"降低\"|CO\n    vp0再生能源提升在中高分 --- vp1研究方法Wavel"
+    },
+    {
+      "title": "jQIRF / jQFEVD — 聯合分量脈衝響應函數 & 聯合分量預測誤差變異數分解（方法論文）",
+      "authors": "Thomas F. P. Wiesen, Paul M. Beaumont",
+      "year": "2023",
+      "journal": "Empirical Economics",
+      "doi": "10.1007/s00181-023-02496-6",
+      "date": "2026-06-05",
+      "tags": [
+        "jQIRF",
+        "jQFEVD"
+      ],
+      "topics": [
+        "方法論"
+      ],
+      "pdf": "",
+      "notes": [
+        "jIRF：所有變數同時受相關衝擊的聯合反應路徑",
+        "jFEVD：所有變數同時衝擊對預測誤差的聯合貢獻",
+        "延伸應用於中國航空股波動（Transport Research 2024）"
+      ],
+      "type": "upload",
+      "id": "upload-2026-06-05-8882",
+      "viewpoints": [
+        {
+          "claim": "jFEVD：所有變數同時衝擊對預測誤差的聯合貢獻",
+          "evidence": "jFEVD：所有變數同時衝擊對預測誤差的聯合貢獻",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    jQIRFjQFEVD聯合分[\"📄 jQIRF / jQFEVD — 聯合分量脈衝響應函數 & 聯合分量預測誤差變異數分解（方法論文）\"]\n    style jQIRFjQFEVD聯合分 fill:#2563eb,color:#fff,font-weight:bold\n    vp0jFEVD所有變數[\"💡 jFEVD：所有變數同時衝擊對預測誤差的聯合貢獻\"]\n    style vp0jFEVD所有變數 fill:#fef3c7,stroke:#d97706\n    jQIRFjQFEVD聯合分 --> vp0jFEVD所有變數"
+    },
+    {
+      "title": "Renewable Energy, Institutional Quality & EKC Dynamics in Developing Countries",
+      "authors": "Sumba",
+      "year": "2026",
+      "journal": "International Review of Economics and Finance (Elsevier), 109, 105445",
+      "doi": "10.1016/j.iref.2026.105445",
+      "date": "2026-06-05",
+      "tags": [],
+      "topics": [
+        "潔淨能源",
+        "宏觀總體"
+      ],
+      "pdf": "uploads/Sumba_Renewable_Energy_EKC_Developing_Countries.pdf",
+      "notes": [
+        "動態面板門檻模型 (DPT)+ 工具變數",
+        "EKC 假說在發展中國家成立",
+        "再生能源可加速 EKC 轉折",
+        "制度品質調節 EKC 形狀和轉折點"
+      ],
+      "type": "upload",
+      "id": "upload-2026-06-05-856",
+      "viewpoints": [
+        {
+          "claim": "制度品質調節EKC 形狀和轉折點",
+          "evidence": "制度品質對EKC 形狀和轉折點的影響：調節",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "制度品質調節 EKC 形狀和轉折點",
+          "evidence": "制度品質調節 EKC 形狀和轉折點",
+          "confidence": "mid",
+          "source": "檢定結果",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    RenewableEnergy[\"📄 Renewable Energy, Institutional Quality & EKC Dyna\"]\n    style RenewableEnergy fill:#2563eb,color:#fff,font-weight:bold\n    vp0制度品質調節EKC[\"💡 制度品質調節EKC 形狀和轉折點\"]\n    style vp0制度品質調節EKC fill:#fef3c7,stroke:#d97706\n    RenewableEnergy --> vp0制度品質調節EKC\n    vp1制度品質調節EKC[\"💡 制度品質調節 EKC 形狀和轉折點\"]\n    style vp1制度品質調節EKC fill:#fef3c7,stroke:#d97706\n    RenewableEnergy --> vp1制度品質調節EKC\n    制度品質-->|\"調節\"|EKC形狀和轉折點\n    vp0制度品質調節EKC --- vp1制度品質調節EKC"
+    },
+    {
+      "title": "Climate Policy Uncertainty and Renewable Energy Consumption in China",
+      "authors": "Zheng, Wang, Moldovan, Mihit & Nicolescu",
+      "year": "2026",
+      "journal": "Sustainability (MDPI), 18, 5460",
+      "doi": "10.3390/su18115460",
       "date": "2026-06-05",
       "tags": [
         "QARDL"
       ],
       "topics": [
         "氣候風險/政策",
-        "綠債/ESG"
+        "潔淨能源"
       ],
-      "pdf": "uploads/China_CPU_Load_Capacity_Factor.pdf",
+      "pdf": "uploads/China_CPU_Renewable_Energy.pdf",
       "notes": [
-        "核心發現：金融發展×CPU 交互項係數顯著為正",
-        "FD 在高 CPU 時期扮演緩衝機制（綠色融資、風險分擔）",
-        "使用 FMOLS（主估計）+ DOLS（穩健性）",
-        "A-ARDL 共整合檢定 + Fourier KPSS 結構斷點單根檢定"
+        "CPU→REC 有 Granger 因果（雙向時變不對稱）",
+        "使用滾窗 Granger 因果檢定 + 雙向因果分析",
+        "控制 EPU（經濟政策不確定性）、原油價格"
       ],
       "type": "upload",
-      "id": "upload-2026-06-05-7648",
+      "id": "upload-2026-06-05-8495",
       "viewpoints": [
         {
-          "claim": "核心發現：金融發展×CPU 交互項係數顯著為正",
-          "evidence": "核心發現：金融發展×CPU 交互項係數顯著為正",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    ClimatePolicyUn[\"📄 Climate Policy Uncertainty and Load Capacity Facto\"]\n    style ClimatePolicyUn fill:#2563eb,color:#fff,font-weight:bold\n    vp0核心發現金融發展[\"💡 核心發現：金融發展×CPU 交互項係數顯著為正\"]\n    style vp0核心發現金融發展 fill:#fef3c7,stroke:#d97706\n    ClimatePolicyUn --> vp0核心發現金融發展"
-    },
-    {
-      "title": "Energy Consumption, Economic Growth, and CO₂ Emissions in GCC Countries: Panel Evidence and the EKC",
-      "authors": "Ben Salah, Arouri, Klibi & Smaoui",
-      "year": "2026",
-      "journal": "Sustainability (MDPI), 18, 5196",
-      "doi": "10.3390/su18105196",
-      "date": "2026-06-05",
-      "tags": [],
-      "topics": [
-        "碳市場/碳交易",
-        "能源市場",
-        "宏觀總體"
-      ],
-      "pdf": "uploads/GCC_Energy_CO2_EKC.pdf",
-      "notes": [
-        "使用 STIRPAT + 固定效果 panel 模型",
-        "EKC 假說在海灣六國成立",
-        "能源消費是 CO₂ 排放最大驅動因子",
-        "建議 GCC 國家加速再生能源轉型"
-      ],
-      "type": "upload",
-      "id": "upload-2026-06-05-5607",
-      "viewpoints": [
-        {
-          "claim": "能源消費是 CO₂ 排放最大驅動因子",
-          "evidence": "能源消費是 CO₂ 排放最大對因子的影響：驅動",
+          "claim": "CPU → REC",
+          "evidence": "CPU對REC的影響",
           "confidence": "mid",
           "source": "變數關係",
           "connections": []
         },
         {
-          "claim": "建議 GCC 國家加速再生能源轉型",
-          "evidence": "建議 GCC 國家加速再生能源轉型",
+          "claim": "控制 EPU（經濟政策不確定性）、原油價格",
+          "evidence": "控制 EPU（經濟政策不確定性）、原油價格",
           "confidence": "mid",
           "source": "陳述",
           "connections": []
         }
       ],
-      "diagram": "graph TD\n    EnergyConsumpti[\"📄 Energy Consumption, Economic Growth, and CO₂ Emiss\"]\n    style EnergyConsumpti fill:#2563eb,color:#fff,font-weight:bold\n    vp0能源消費是CO[\"💡 能源消費是 CO₂ 排放最大驅動因子\"]\n    style vp0能源消費是CO fill:#fef3c7,stroke:#d97706\n    EnergyConsumpti --> vp0能源消費是CO\n    vp1建議GCC國家加[\"💡 建議 GCC 國家加速再生能源轉型\"]\n    style vp1建議GCC國家加 fill:#fef3c7,stroke:#d97706\n    EnergyConsumpti --> vp1建議GCC國家加\n    能源消費是CO排放最大==>|\"驅動\"|因子\n    vp0能源消費是CO --- vp1建議GCC國家加"
+      "diagram": "graph TD\n    ClimatePolicyUn[\"📄 Climate Policy Uncertainty and Renewable Energy Co\"]\n    style ClimatePolicyUn fill:#2563eb,color:#fff,font-weight:bold\n    vp0CPUREC[\"💡 CPU → REC\"]\n    style vp0CPUREC fill:#fef3c7,stroke:#d97706\n    ClimatePolicyUn --> vp0CPUREC\n    vp1控制EPU經濟政[\"💡 控制 EPU（經濟政策不確定性）、原油價格\"]\n    style vp1控制EPU經濟政 fill:#fef3c7,stroke:#d97706\n    ClimatePolicyUn --> vp1控制EPU經濟政\n    CPU-->|\"REC\"|REC\n    vp0CPUREC --- vp1控制EPU經濟政"
     },
     {
       "title": "Does China's CETS Enhance ESG Performance in Construction Enterprises?",
@@ -6151,7 +5568,7 @@
         "異質性：僅國有企業與東部地區顯著"
       ],
       "type": "upload",
-      "id": "upload-2026-06-05-4254",
+      "id": "upload-2026-06-05-410",
       "viewpoints": [
         {
           "claim": "CETS 使營造企業 ESG 分數提高約 0.30 分",
@@ -6185,798 +5602,78 @@
       "diagram": "graph TD\n    DoesChinasCETSE[\"📄 Does China's CETS Enhance ESG Performance in Const\"]\n    style DoesChinasCETSE fill:#2563eb,color:#fff,font-weight:bold\n    vp0CETS使營造企業[\"💡 CETS 使營造企業 ESG 分數提高約 0.30 分\"]\n    style vp0CETS使營造企業 fill:#fef3c7,stroke:#d97706\n    DoesChinasCETSE --> vp0CETS使營造企業\n    vp1政府補貼正向調節政策[\"💡 政府補貼正向調節政策效果\"]\n    style vp1政府補貼正向調節政策 fill:#fef3c7,stroke:#d97706\n    DoesChinasCETSE --> vp1政府補貼正向調節政策\n    vp2綠色技術創新中介效果[\"💡 綠色技術創新中介效果 5.9%（部分中介）\"]\n    style vp2綠色技術創新中介效果 fill:#fef3c7,stroke:#d97706\n    DoesChinasCETSE --> vp2綠色技術創新中介效果\n    vp3異質性僅國有企業與[\"💡 異質性：僅國有企業與東部地區顯著\"]\n    style vp3異質性僅國有企業與 fill:#fef3c7,stroke:#d97706\n    DoesChinasCETSE --> vp3異質性僅國有企業與\n    CETS使營造企業ESG==>|\"提高\"|約030分\n    政府補貼正向-->|\"調節\"|政策效果"
     },
     {
-      "title": "Climate Policy Uncertainty and Renewable Energy Consumption in China",
-      "authors": "Zheng, Wang, Moldovan, Mihit & Nicolescu",
+      "title": "Energy Consumption, Economic Growth, and CO₂ Emissions in GCC Countries: Panel Evidence and the EKC",
+      "authors": "Ben Salah, Arouri, Klibi & Smaoui",
       "year": "2026",
-      "journal": "Sustainability (MDPI), 18, 5460",
-      "doi": "10.3390/su18115460",
+      "journal": "Sustainability (MDPI), 18, 5196",
+      "doi": "10.3390/su18105196",
+      "date": "2026-06-05",
+      "tags": [],
+      "topics": [
+        "碳市場/碳交易",
+        "能源市場",
+        "宏觀總體"
+      ],
+      "pdf": "uploads/GCC_Energy_CO2_EKC.pdf",
+      "notes": [
+        "使用 STIRPAT + 固定效果 panel 模型",
+        "EKC 假說在海灣六國成立",
+        "能源消費是 CO₂ 排放最大驅動因子",
+        "建議 GCC 國家加速再生能源轉型"
+      ],
+      "type": "upload",
+      "id": "upload-2026-06-05-4043",
+      "viewpoints": [
+        {
+          "claim": "能源消費是 CO₂ 排放最大驅動因子",
+          "evidence": "能源消費是 CO₂ 排放最大對因子的影響：驅動",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "建議 GCC 國家加速再生能源轉型",
+          "evidence": "建議 GCC 國家加速再生能源轉型",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    EnergyConsumpti[\"📄 Energy Consumption, Economic Growth, and CO₂ Emiss\"]\n    style EnergyConsumpti fill:#2563eb,color:#fff,font-weight:bold\n    vp0能源消費是CO[\"💡 能源消費是 CO₂ 排放最大驅動因子\"]\n    style vp0能源消費是CO fill:#fef3c7,stroke:#d97706\n    EnergyConsumpti --> vp0能源消費是CO\n    vp1建議GCC國家加[\"💡 建議 GCC 國家加速再生能源轉型\"]\n    style vp1建議GCC國家加 fill:#fef3c7,stroke:#d97706\n    EnergyConsumpti --> vp1建議GCC國家加\n    能源消費是CO排放最大==>|\"驅動\"|因子\n    vp0能源消費是CO --- vp1建議GCC國家加"
+    },
+    {
+      "title": "Climate Policy Uncertainty and Load Capacity Factor in China",
+      "authors": "Özbek, Şahin & Bayar",
+      "year": "2026",
+      "journal": "Discover Sustainability (Springer)",
+      "doi": "10.1007/s43621-026-03409-0",
       "date": "2026-06-05",
       "tags": [
         "QARDL"
       ],
       "topics": [
         "氣候風險/政策",
-        "潔淨能源"
+        "綠債/ESG"
       ],
-      "pdf": "uploads/China_CPU_Renewable_Energy.pdf",
+      "pdf": "uploads/China_CPU_Load_Capacity_Factor.pdf",
       "notes": [
-        "CPU→REC 有 Granger 因果（雙向時變不對稱）",
-        "使用滾窗 Granger 因果檢定 + 雙向因果分析",
-        "控制 EPU（經濟政策不確定性）、原油價格"
+        "核心發現：金融發展×CPU 交互項係數顯著為正",
+        "FD 在高 CPU 時期扮演緩衝機制（綠色融資、風險分擔）",
+        "使用 FMOLS（主估計）+ DOLS（穩健性）",
+        "A-ARDL 共整合檢定 + Fourier KPSS 結構斷點單根檢定"
       ],
       "type": "upload",
-      "id": "upload-2026-06-05-4201",
+      "id": "upload-2026-06-05-1952",
       "viewpoints": [
         {
-          "claim": "CPU → REC",
-          "evidence": "CPU對REC的影響",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "控制 EPU（經濟政策不確定性）、原油價格",
-          "evidence": "控制 EPU（經濟政策不確定性）、原油價格",
+          "claim": "核心發現：金融發展×CPU 交互項係數顯著為正",
+          "evidence": "核心發現：金融發展×CPU 交互項係數顯著為正",
           "confidence": "mid",
           "source": "陳述",
           "connections": []
         }
       ],
-      "diagram": "graph TD\n    ClimatePolicyUn[\"📄 Climate Policy Uncertainty and Renewable Energy Co\"]\n    style ClimatePolicyUn fill:#2563eb,color:#fff,font-weight:bold\n    vp0CPUREC[\"💡 CPU → REC\"]\n    style vp0CPUREC fill:#fef3c7,stroke:#d97706\n    ClimatePolicyUn --> vp0CPUREC\n    vp1控制EPU經濟政[\"💡 控制 EPU（經濟政策不確定性）、原油價格\"]\n    style vp1控制EPU經濟政 fill:#fef3c7,stroke:#d97706\n    ClimatePolicyUn --> vp1控制EPU經濟政\n    CPU-->|\"REC\"|REC\n    vp0CPUREC --- vp1控制EPU經濟政"
-    },
-    {
-      "title": "jQIRF / jQFEVD — 聯合分量脈衝響應函數 & 聯合分量預測誤差變異數分解（方法論文）",
-      "authors": "Thomas F. P. Wiesen, Paul M. Beaumont",
-      "year": "2023",
-      "journal": "Empirical Economics",
-      "doi": "10.1007/s00181-023-02496-6",
-      "date": "2026-06-05",
-      "tags": [
-        "jQIRF",
-        "jQFEVD"
-      ],
-      "topics": [
-        "方法論"
-      ],
-      "pdf": "",
-      "notes": [
-        "jIRF：所有變數同時受相關衝擊的聯合反應路徑",
-        "jFEVD：所有變數同時衝擊對預測誤差的聯合貢獻",
-        "延伸應用於中國航空股波動（Transport Research 2024）"
-      ],
-      "type": "upload",
-      "id": "upload-2026-06-05-2833",
-      "viewpoints": [
-        {
-          "claim": "jFEVD：所有變數同時衝擊對預測誤差的聯合貢獻",
-          "evidence": "jFEVD：所有變數同時衝擊對預測誤差的聯合貢獻",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    jQIRFjQFEVD聯合分[\"📄 jQIRF / jQFEVD — 聯合分量脈衝響應函數 & 聯合分量預測誤差變異數分解（方法論文）\"]\n    style jQIRFjQFEVD聯合分 fill:#2563eb,color:#fff,font-weight:bold\n    vp0jFEVD所有變數[\"💡 jFEVD：所有變數同時衝擊對預測誤差的聯合貢獻\"]\n    style vp0jFEVD所有變數 fill:#fef3c7,stroke:#d97706\n    jQIRFjQFEVD聯合分 --> vp0jFEVD所有變數"
-    },
-    {
-      "title": "Toward Carbon Neutrality in Vietnam: Analyzing the Role of Renewable Energy Consumption and Economic Growth Using Wavelet Coherence and Quantile-on-Quantile Approaches",
-      "authors": "Thuy Bui Minh",
-      "year": "2026",
-      "journal": "International Journal of Energy Research (Wiley)",
-      "doi": "10.1155/er/5633215",
-      "date": "2026-06-05",
-      "tags": [
-        "QQGC"
-      ],
-      "topics": [
-        "潔淨能源",
-        "碳市場/碳交易"
-      ],
-      "pdf": "uploads/Vietnam_Carbon_Neutrality_QQR.pdf",
-      "notes": [
-        "方法：Wavelet Coherence + QQR（分量對分量迴歸）",
-        "年資料 1985-2023，越南案例",
-        "再生能源提升在中高分量下降低 CO₂",
-        "GDP 成長在不同分量下對 CO₂ 效果不一致"
-      ],
-      "type": "upload",
-      "id": "upload-2026-06-05-2456",
-      "viewpoints": [
-        {
-          "claim": "再生能源提升在中高分量下降低CO₂",
-          "evidence": "再生能源提升在中高分量下對CO₂的影響：降低",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "研究方法：Wavelet Coherence + QQR（分量對分量迴歸）",
-          "evidence": "Wavelet Coherence + QQR（分量對分量迴歸）",
-          "confidence": "mid",
-          "source": "方法",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    TowardCarbonNeu[\"📄 Toward Carbon Neutrality in Vietnam: Analyzing the\"]\n    style TowardCarbonNeu fill:#2563eb,color:#fff,font-weight:bold\n    vp0再生能源提升在中高分[\"💡 再生能源提升在中高分量下降低CO₂\"]\n    style vp0再生能源提升在中高分 fill:#fef3c7,stroke:#d97706\n    TowardCarbonNeu --> vp0再生能源提升在中高分\n    vp1研究方法Wavel[\"💡 研究方法：Wavelet Coherence + QQR（分量對分量迴歸）\"]\n    style vp1研究方法Wavel fill:#fef3c7,stroke:#d97706\n    TowardCarbonNeu --> vp1研究方法Wavel\n    再生能源提升在中高分量下--x|\"降低\"|CO\n    vp0再生能源提升在中高分 --- vp1研究方法Wavel"
-    },
-    {
-      "title": "Renewable Energy, Institutional Quality & EKC Dynamics in Developing Countries",
-      "authors": "Sumba",
-      "year": "2026",
-      "journal": "International Review of Economics and Finance (Elsevier), 109, 105445",
-      "doi": "10.1016/j.iref.2026.105445",
-      "date": "2026-06-05",
-      "tags": [],
-      "topics": [
-        "潔淨能源",
-        "宏觀總體"
-      ],
-      "pdf": "uploads/Sumba_Renewable_Energy_EKC_Developing_Countries.pdf",
-      "notes": [
-        "動態面板門檻模型 (DPT)+ 工具變數",
-        "EKC 假說在發展中國家成立",
-        "再生能源可加速 EKC 轉折",
-        "制度品質調節 EKC 形狀和轉折點"
-      ],
-      "type": "upload",
-      "id": "upload-2026-06-05-1216",
-      "viewpoints": [
-        {
-          "claim": "制度品質調節EKC 形狀和轉折點",
-          "evidence": "制度品質對EKC 形狀和轉折點的影響：調節",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "制度品質調節 EKC 形狀和轉折點",
-          "evidence": "制度品質調節 EKC 形狀和轉折點",
-          "confidence": "mid",
-          "source": "檢定結果",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    RenewableEnergy[\"📄 Renewable Energy, Institutional Quality & EKC Dyna\"]\n    style RenewableEnergy fill:#2563eb,color:#fff,font-weight:bold\n    vp0制度品質調節EKC[\"💡 制度品質調節EKC 形狀和轉折點\"]\n    style vp0制度品質調節EKC fill:#fef3c7,stroke:#d97706\n    RenewableEnergy --> vp0制度品質調節EKC\n    vp1制度品質調節EKC[\"💡 制度品質調節 EKC 形狀和轉折點\"]\n    style vp1制度品質調節EKC fill:#fef3c7,stroke:#d97706\n    RenewableEnergy --> vp1制度品質調節EKC\n    制度品質-->|\"調節\"|EKC形狀和轉折點\n    vp0制度品質調節EKC --- vp1制度品質調節EKC"
-    },
-    {
-      "id": "qvar-2026-09-28-carbon-efficient-indices",
-      "title": "Examining Carbon Efficient Stock Indices Using the Quantile Connectedness Approach",
-      "search_date": "2026-09-28",
-      "authors": "Özge Dinç Cavlak",
-      "year": "2026",
-      "journal": "Maliye ve Finans Yazıları, 41(125), 277–298",
-      "doi": "https://doi.org/10.33203/mfy.1836044",
-      "citations": "0（Crossref；OpenAlex 尚未收錄，2026-09-28）",
-      "openalex_url": "",
-      "fulltext_url": "https://dergipark.org.tr/tr/download/article-file/5478367",
-      "reading_level": "全文精讀",
-      "abstract": "本文以六組 S&P 碳效率股票指數，檢驗已開發、新興、亞太、歐洲、拉丁美洲與北美市場在不同報酬分位數下的連通性。QVAR-GFEVD 結果顯示，尾部市場的總連通性高於中位數：τ=0.05、0.50、0.95 的 TCI 分別為 83.27%、74.73% 與 83.07%。市場的淨傳遞／接收角色也會隨分位數與時間改變，說明碳效率股票在極端狀態下的分散效果下降。",
-      "tags": [
-        "QVAR",
-        "GFEVD",
-        "quantile connectedness",
-        "rolling window",
-        "carbon-efficient equities"
-      ],
-      "topics": [
-        "氣候風險/政策",
-        "綠債/ESG",
-        "金融市場"
-      ],
-      "keywords": [
-        "carbon efficiency",
-        "sustainable finance",
-        "tail connectedness",
-        "S&P climate indices",
-        "portfolio diversification"
-      ],
-      "type": "search",
-      "notes": [
-        "【閱讀層級】全文精讀；已核對期刊頁面、合法公開 PDF、Crossref 與 OpenAlex DOI 查詢。Crossref 回報 0 次被引；OpenAlex 於 2026-09-28 尚未解析此 DOI，因此不臆造 OpenAlex ID 或撤稿狀態。PDF 與期刊頁面均顯示 CC BY-NC 4.0。",
-        "【研究問題與動機】不同地區的碳效率股票指數在正常、下跌與上漲市場中如何傳遞報酬衝擊？尾部連通性是否高於中位數，因而削弱碳效率投資的跨市場分散利益？",
-        "【研究變數】六組美元計價的 S&P LargeMidCap Carbon Efficient 指數日報酬：已開發市場（DEV）、新興市場（EM）、亞太（AP）、歐洲（EUR）、拉丁美洲（LA）與北美（NA）。碳效率指數提高低單位營收溫室氣體排放企業的權重、降低高排放企業權重。",
-        "【資料／市場／樣本】S&P Dow Jones Indices；2015-11-01 至 2025-11-21 日資料，涵蓋六個全球／區域市場。作者以 Python 對齊跨市場交易日並用對數差計算報酬；最終有效樣本量未報告。",
-        "【模型與估計】QVAR(p) 轉為 QVMA(∞)，再以 H 步 GFEVD 計算 TO、FROM、NET 與 TCI；分位數 τ=0.05、0.50、0.95，預測期 20 日，動態估計採 200 日滾動視窗，並以網路圖呈現淨方向性連通。",
-        "【穩健性檢驗】全文報告 ERS 單根檢定、Jarque–Bera 與加權 Portmanteau Q(20)／Q²(20) 等資料診斷；但未另報告替代視窗、預測期、模型、指數定義或子樣本的穩健性檢驗，故不能把前述診斷視為完整穩健性證據。",
-        "【主要結果】TCI 在 τ=0.05、0.50、0.95 分別為 83.27%、74.73%、83.07%，兩端尾部均高於正常狀態。τ=0.05 時 AP、EUR、NA 為淨傳遞者，DEV、EM、LA 為淨接收者；τ=0.95 時 AP、EUR、NA 仍為淨傳遞者，其他市場為淨接收者。τ=0.50 時 DEV、EUR、NA 為淨傳遞者，AP 的淨接收程度最大。這些是預測性連通性，不能解讀為結構因果。",
-        "【作者提出的限制】作者指出研究僅涵蓋碳效率股票指數；未來應加入綠債、ESG 股票及其他綠色、永續與氣候金融工具，以更完整評估避險、分散與永續投資促進效果。",
-        "【其他限制】只有六組 S&P 指數且皆以美元計價，可能混入匯率與共同全球因子；樣本量未報告；未提供替代模型與參數敏感度；地區指數高度聚合，不能辨識產業或企業層級的傳導機制。",
-        "【APA 7】Dinç Cavlak, Ö. (2026). Karbon verimli hisse senedi endekslerinin kantil bağlantılılık yaklaşımıyla incelenmesi [Examining carbon efficient stock indices using the quantile connectedness approach]. Maliye ve Finans Yazıları, 41(125), 277–298. https://doi.org/10.33203/mfy.1836044",
-        "【與美智研究的關聯】4/5。主題上直接處理低碳資產與尾部連通性；方法上使用 QVAR-GFEVD，可作為美智氣候政策不確定性 × 綠色資產研究的橫斷區域基準。可借鏡 τ=0.05／0.50／0.95、20 日預測期與 200 日視窗設定；主要差異是本文沒有 CPU、TVP-VAR-SV、BK 頻域分解或氣候風險衝擊變數。可追蹤碳效率指數定義、尾部 TCI 與地區角色轉換。"
-      ],
-      "pdf": "",
-      "viewpoints": [
-        {
-          "claim": "碳效率指數提高低單位營收溫室氣體排放企業的權重",
-          "evidence": "碳效率指數對低單位營收溫室氣體排放企業的權重的影響：提高",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "分散與永續投資促進效果",
-          "evidence": "分散與永續投資對效果的影響：促進",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "【模型與估計】QVAR(p) 轉為 QVMA(∞)，再以 H 步 GFEVD 計算 TO、FROM、NET 與 TCI；分位數 τ=0.05、0.50、0.95，預測期 20 日，動態估計採 200 日滾動視窗，並以網路圖呈現淨方向性連通。",
-          "evidence": "【模型與估計】QVAR(p) 轉為 QVMA(∞)，再以 H 步 GFEVD 計算 TO、FROM、NET 與 TCI；分位數 τ=0.05、0.50、0.95，預測期 20 日，動態估計採 200 日滾動視窗，並以網路圖呈現淨方向性連通。",
-          "confidence": "mid",
-          "source": "數據",
-          "connections": []
-        },
-        {
-          "claim": "【主要結果】TCI 在 τ=0.05、0.50、0.95 分別為 83.27%、74.73%、83.07%，兩端尾部均高於正常狀態。τ=0.05 時 AP、EUR、NA 為淨傳遞者，DEV、EM、LA 為淨接收者；τ=0.95 時 AP、E…",
-          "evidence": "【主要結果】TCI 在 τ=0.05、0.50、0.95 分別為 83.27%、74.73%、83.07%，兩端尾部均高於正常狀態。τ=0.05 時 AP、EUR、NA 為淨傳遞者，DEV、EM、LA 為淨接收者；τ=0.95 時 AP、EUR、NA 仍為淨傳遞者，其他市場為淨接收者。τ=0.50 時 DEV、EUR、NA 為淨傳遞者，AP 的淨接收程度最大。這些是預測性連通性，不能解讀為結構因果。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【作者提出的限制】作者指出研究僅涵蓋碳效率股票指數；未來應加入綠債、ESG 股票及其他綠色、永續與氣候金融工具，以更完整評估避險、分散與永續投資促進效果。",
-          "evidence": "【作者提出的限制】作者指出研究僅涵蓋碳效率股票指數；未來應加入綠債、ESG 股票及其他綠色、永續與氣候金融工具，以更完整評估避險、分散與永續投資促進效果。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【其他限制】只有六組 S&P 指數且皆以美元計價，可能混入匯率與共同全球因子；樣本量未報告；未提供替代模型與參數敏感度；地區指數高度聚合，不能辨識產業或企業層級的傳導機制。",
-          "evidence": "【其他限制】只有六組 S&P 指數且皆以美元計價，可能混入匯率與共同全球因子；樣本量未報告；未提供替代模型與參數敏感度；地區指數高度聚合，不能辨識產業或企業層級的傳導機制。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【與美智研究的關聯】4/5。主題上直接處理低碳資產與尾部連通性；方法上使用 QVAR-GFEVD，可作為美智氣候政策不確定性 × 綠色資產研究的橫斷區域基準。可借鏡 τ=0.05／0.50／0.95、20 日預測期與 200 日視窗設定；主…",
-          "evidence": "【與美智研究的關聯】4/5。主題上直接處理低碳資產與尾部連通性；方法上使用 QVAR-GFEVD，可作為美智氣候政策不確定性 × 綠色資產研究的橫斷區域基準。可借鏡 τ=0.05／0.50／0.95、20 日預測期與 200 日視窗設定；主要差異是本文沒有 CPU、TVP-VAR-SV、BK 頻域分解或氣候風險衝擊變數。可追蹤碳效率指數定義、尾部 TCI 與地區角色轉換。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "研究限制：作者指出研究僅涵蓋碳效率股票指數；未來應加入綠債、ESG 股票及其他綠色、永續與氣候金融工具，以更完整評估避險、分散與永續投資促進效果。",
-          "evidence": "作者指出研究僅涵蓋碳效率股票指數；未來應加入綠債、ESG 股票及其他綠色、永續與氣候金融工具，以更完整評估避險、分散與永續投資促進效果。",
-          "confidence": "low",
-          "source": "研究限制",
-          "connections": []
-        },
-        {
-          "claim": "研究限制：只有六組 S&P 指數且皆以美元計價，可能混入匯率與共同全球因子；樣本量未報告；未提供替代模型與參數敏感度；地區指數高度聚合，不能辨識產業或企業層級的傳導機制。",
-          "evidence": "只有六組 S&P 指數且皆以美元計價，可能混入匯率與共同全球因子；樣本量未報告；未提供替代模型與參數敏感度；地區指數高度聚合，不能辨識產業或企業層級的傳導機制。",
-          "confidence": "low",
-          "source": "研究限制",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    ExaminingCarbon[\"📄 Examining Carbon Efficient Stock Indices Using the\"]\n    style ExaminingCarbon fill:#2563eb,color:#fff,font-weight:bold\n    vp0碳效率指數提高低單位[\"💡 碳效率指數提高低單位營收溫室氣體排放企業的權重\"]\n    style vp0碳效率指數提高低單位 fill:#fef3c7,stroke:#d97706\n    ExaminingCarbon --> vp0碳效率指數提高低單位\n    vp1分散與永續投資促進效[\"💡 分散與永續投資促進效果\"]\n    style vp1分散與永續投資促進效 fill:#fef3c7,stroke:#d97706\n    ExaminingCarbon --> vp1分散與永續投資促進效\n    vp2模型與估計QVA[\"💡 【模型與估計】QVAR(p) 轉為 QVMA(∞)，再以 H 步 GFEVD 計\"]\n    style vp2模型與估計QVA fill:#fef3c7,stroke:#d97706\n    ExaminingCarbon --> vp2模型與估計QVA\n    vp3主要結果TCI[\"💡 【主要結果】TCI 在 τ=0.05、0.50、0.95 分別為 83.27%、\"]\n    style vp3主要結果TCI fill:#fef3c7,stroke:#d97706\n    ExaminingCarbon --> vp3主要結果TCI\n    vp4作者提出的限制作[\"💡 【作者提出的限制】作者指出研究僅涵蓋碳效率股票指數；未來應加入綠債、ESG 股票\"]\n    style vp4作者提出的限制作 fill:#fef3c7,stroke:#d97706\n    ExaminingCarbon --> vp4作者提出的限制作\n    vp5其他限制只有六組[\"💡 【其他限制】只有六組 S&P 指數且皆以美元計價，可能混入匯率與共同全球因子；樣\"]\n    style vp5其他限制只有六組 fill:#fef3c7,stroke:#d97706\n    ExaminingCarbon --> vp5其他限制只有六組\n    vp6與美智研究的關聯[\"💡 【與美智研究的關聯】4/5。主題上直接處理低碳資產與尾部連通性；方法上使用 QV\"]\n    style vp6與美智研究的關聯 fill:#fef3c7,stroke:#d97706\n    ExaminingCarbon --> vp6與美智研究的關聯\n    vp7研究限制作者指出研[\"💡 研究限制：作者指出研究僅涵蓋碳效率股票指數；未來應加入綠債、ESG 股票及其他綠\"]\n    style vp7研究限制作者指出研 fill:#fee2e2,stroke:#dc2626\n    ExaminingCarbon --> vp7研究限制作者指出研\n    vp8研究限制只有六組[\"💡 研究限制：只有六組 S&P 指數且皆以美元計價，可能混入匯率與共同全球因子；樣本\"]\n    style vp8研究限制只有六組 fill:#fee2e2,stroke:#dc2626\n    ExaminingCarbon --> vp8研究限制只有六組\n    碳效率指數==>|\"提高\"|低單位營收溫室氣體排放企業的權\n    分散與永續投資==>|\"促進\"|效果"
-    },
-    {
-      "id": "qvar-2026-09-28-climate-etf-quantile-interplay",
-      "title": "Quantile interplay between climate-aligned ETFs and traditional assets",
-      "search_date": "2026-09-28",
-      "authors": "Rim Khoury; Oguzhan Ozcelebi; Mariem Brahim; Zhuhua Jiang; Seong-Min Yoon",
-      "year": "2026",
-      "journal": "SSRN Electronic Journal (preprint; revised May 6, 2026)",
-      "doi": "https://doi.org/10.2139/ssrn.6415464",
-      "citations": "0（OpenAlex／Crossref，2026-09-28）",
-      "openalex_url": "https://openalex.org/W7135426494",
-      "fulltext_url": "https://ssrn.com/abstract=6415464",
-      "reading_level": "摘要層級",
-      "abstract": "本文以 2011–2025 年週資料，分析潔淨能源、水利基礎設施、自然資源與環境解決方案等四類氣候型 ETF，和股票、政府債券、黃金及原油之間的非線性連結。摘要指出連通性具有明顯的分位數與投資期限異質性；在壓力狀態下，氣候型 ETF 會由淨衝擊接收者轉為傳遞者，傳統避險資產的分散利益則僅在部分狀態有效。",
-      "tags": [
-        "wavelet quantile correlation",
-        "quantile-on-quantile Granger causality",
-        "quantile-on-quantile connectedness",
-        "time-frequency",
-        "climate ETFs"
-      ],
-      "topics": [
-        "氣候風險/政策",
-        "綠債/ESG",
-        "潔淨能源",
-        "金融市場"
-      ],
-      "keywords": [
-        "climate-aligned ETFs",
-        "clean energy",
-        "water infrastructure",
-        "safe havens",
-        "low-carbon transition"
-      ],
-      "type": "search",
-      "notes": [
-        "【閱讀層級】摘要層級；已核對 SSRN／Crossref、OpenAlex W7135426494（0 次被引、未標撤稿）與作者／DOI／版本資訊。SSRN 全文端點本次回傳 403，未繞過存取控制，因此以下只保留摘要明示內容。",
-        "【研究問題與動機】四類氣候型 ETF 與傳統資產之間的關係，是否隨雙方市場狀態與投資期限改變？氣候型 ETF 在壓力情境中仍能分散風險，或反而成為系統性衝擊傳遞者？",
-        "【研究變數】四類氣候型 ETF：潔淨能源、水利基礎設施、自然資源、環境解決方案；傳統資產：股票市場、政府債券、黃金與原油。摘要未列具體指數／ETF 代碼與報酬定義。",
-        "【資料／市場／樣本】2011–2025 年週資料；摘要未報告資料供應商、國家或市場範圍、精確起訖日與最終樣本量。",
-        "【模型與估計】Wavelet Quantile Correlation、Quantile-on-Quantile Granger Causality 與 Quantile-on-Quantile Connectedness，用於同時刻畫分配不對稱、時頻依賴與動態外溢。摘要未提供分位數格點、頻帶、滾動視窗或估計細節。",
-        "【穩健性檢驗】摘要未報告；因未取得全文，不推定作者使用了哪些替代資產、視窗、頻帶或模型檢查。",
-        "【主要結果】摘要指出氣候型 ETF 具有順循環特徵，跨資產連通性在極端分位數明顯上升；壓力狀態下由淨接收者轉為淨傳遞者。傳統避險資產僅提供部分且狀態依賴的分散效果，原油對不同 ETF 部門與投資期限呈現不對稱影響；尾部整體連通性最高。這些結果屬連通性與可預測關係，不等同結構因果。",
-        "【作者提出的限制】摘要未報告作者自述限制；須取得全文後才能核對完整限制、資料定義與識別邊界。",
-        "【其他限制】目前是預印本且僅能做摘要層級判讀；週資料可能平滑短期衝擊；ETF 分類與傳統資產基準的選擇可能影響角色判定；未見分位數、頻帶與穩健性細節。",
-        "【APA 7】Khoury, R., Ozcelebi, O., Brahim, M., Jiang, Z., & Yoon, S.-M. (2026). Quantile interplay between climate-aligned ETFs and traditional assets [Preprint]. SSRN. https://doi.org/10.2139/ssrn.6415464",
-        "【與美智研究的關聯】5/5。主題是氣候型資產 × 傳統資產，方法同時涵蓋 quantile-on-quantile 與 time-frequency，與美智的氣候風險 × 綠色資產 QVAR／頻域研究直接重疊。可借鏡四類氣候 ETF 的資產分組、週資料與避險資產對照；主要差異是本文未在摘要中納入氣候政策不確定性、TVP-VAR-SV 或 BK 分解。可追蹤其 QQGC、QQ connectedness、尾部角色反轉與原油期限異質性。"
-      ],
-      "pdf": "",
-      "viewpoints": [
-        {
-          "claim": "【主要結果】摘要指出氣候型 ETF 具有順循環特徵，跨資產連通性在極端分位數明顯上升；壓力狀態下由淨接收者轉為淨傳遞者。傳統避險資產僅提供部分且狀態依賴的分散效果，原油對不同 ETF 部門與投資期限呈現不對稱影響；尾部整體連通性最高。這些結…",
-          "evidence": "【主要結果】摘要指出氣候型 ETF 具有順循環特徵，跨資產連通性在極端分位數明顯上升；壓力狀態下由淨接收者轉為淨傳遞者。傳統避險資產僅提供部分且狀態依賴的分散效果，原油對不同 ETF 部門與投資期限呈現不對稱影響；尾部整體連通性最高。這些結果屬連通性與可預測關係，不等同結構因果。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【作者提出的限制】摘要未報告作者自述限制；須取得全文後才能核對完整限制、資料定義與識別邊界。",
-          "evidence": "【作者提出的限制】摘要未報告作者自述限制；須取得全文後才能核對完整限制、資料定義與識別邊界。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【其他限制】目前是預印本且僅能做摘要層級判讀；週資料可能平滑短期衝擊；ETF 分類與傳統資產基準的選擇可能影響角色判定；未見分位數、頻帶與穩健性細節。",
-          "evidence": "【其他限制】目前是預印本且僅能做摘要層級判讀；週資料可能平滑短期衝擊；ETF 分類與傳統資產基準的選擇可能影響角色判定；未見分位數、頻帶與穩健性細節。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【與美智研究的關聯】5/5。主題是氣候型資產 × 傳統資產，方法同時涵蓋 quantile-on-quantile 與 time-frequency，與美智的氣候風險 × 綠色資產 QVAR／頻域研究直接重疊。可借鏡四類氣候 ETF 的資產…",
-          "evidence": "【與美智研究的關聯】5/5。主題是氣候型資產 × 傳統資產，方法同時涵蓋 quantile-on-quantile 與 time-frequency，與美智的氣候風險 × 綠色資產 QVAR／頻域研究直接重疊。可借鏡四類氣候 ETF 的資產分組、週資料與避險資產對照；主要差異是本文未在摘要中納入氣候政策不確定性、TVP-VAR-SV 或 BK 分解。可追蹤其 QQGC、QQ connectedness、尾部角色反轉與原油期限異質性。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "研究限制：摘要未報告作者自述限制；須取得全文後才能核對完整限制、資料定義與識別邊界。",
-          "evidence": "摘要未報告作者自述限制；須取得全文後才能核對完整限制、資料定義與識別邊界。",
-          "confidence": "low",
-          "source": "研究限制",
-          "connections": []
-        },
-        {
-          "claim": "研究限制：目前是預印本且僅能做摘要層級判讀；週資料可能平滑短期衝擊；ETF 分類與傳統資產基準的選擇可能影響角色判定；未見分位數、頻帶與穩健性細節。",
-          "evidence": "目前是預印本且僅能做摘要層級判讀；週資料可能平滑短期衝擊；ETF 分類與傳統資產基準的選擇可能影響角色判定；未見分位數、頻帶與穩健性細節。",
-          "confidence": "low",
-          "source": "研究限制",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    Quantileinterpl[\"📄 Quantile interplay between climate-aligned ETFs an\"]\n    style Quantileinterpl fill:#2563eb,color:#fff,font-weight:bold\n    vp0主要結果摘要指出[\"💡 【主要結果】摘要指出氣候型 ETF 具有順循環特徵，跨資產連通性在極端分位數明顯\"]\n    style vp0主要結果摘要指出 fill:#fef3c7,stroke:#d97706\n    Quantileinterpl --> vp0主要結果摘要指出\n    vp1作者提出的限制摘[\"💡 【作者提出的限制】摘要未報告作者自述限制；須取得全文後才能核對完整限制、資料定義\"]\n    style vp1作者提出的限制摘 fill:#fef3c7,stroke:#d97706\n    Quantileinterpl --> vp1作者提出的限制摘\n    vp2其他限制目前是預[\"💡 【其他限制】目前是預印本且僅能做摘要層級判讀；週資料可能平滑短期衝擊；ETF 分\"]\n    style vp2其他限制目前是預 fill:#fef3c7,stroke:#d97706\n    Quantileinterpl --> vp2其他限制目前是預\n    vp3與美智研究的關聯[\"💡 【與美智研究的關聯】5/5。主題是氣候型資產 × 傳統資產，方法同時涵蓋 qua\"]\n    style vp3與美智研究的關聯 fill:#fef3c7,stroke:#d97706\n    Quantileinterpl --> vp3與美智研究的關聯\n    vp4研究限制摘要未報告[\"💡 研究限制：摘要未報告作者自述限制；須取得全文後才能核對完整限制、資料定義與識別邊\"]\n    style vp4研究限制摘要未報告 fill:#fee2e2,stroke:#dc2626\n    Quantileinterpl --> vp4研究限制摘要未報告\n    vp5研究限制目前是預印[\"💡 研究限制：目前是預印本且僅能做摘要層級判讀；週資料可能平滑短期衝擊；ETF 分類\"]\n    style vp5研究限制目前是預印 fill:#fee2e2,stroke:#dc2626\n    Quantileinterpl --> vp5研究限制目前是預印\n    vp0主要結果摘要指出 --- vp1作者提出的限制摘\n    vp1作者提出的限制摘 --- vp2其他限制目前是預\n    vp2其他限制目前是預 --- vp3與美智研究的關聯"
-    },
-    {
-      "id": "qvar-2026-09-27-china-green-finance-network",
-      "title": "Risk spillover and network connectedness analysis of green financial and related financial markets: evidence from China",
-      "search_date": "2026-09-27",
-      "authors": "Ziwei Huang; Xiaoquan Ding; Yuankui Wang",
-      "year": "2026",
-      "journal": "Humanities and Social Sciences Communications, 13(1), Article 344",
-      "doi": "https://doi.org/10.1057/s41599-026-06706-1",
-      "citations": "3（OpenAlex／Crossref，2026-09-27）",
-      "openalex_url": "https://openalex.org/W7129111702",
-      "fulltext_url": "https://www.nature.com/articles/s41599-026-06706-1",
-      "reading_level": "全文精讀",
-      "abstract": "本文以中國綠色債券、綠色股票與碳市場，以及傳統股票、債券、外匯、貨幣、能源、金屬與農產品市場，分析時域、頻域與網路風險外溢。作者先用 ARMA-GJR-GARCH 估計波動，再結合 TVP-VAR、Diebold–Yilmaz、Baruník–Křehlík 與複雜網路。結果顯示綠債與綠色股票多為淨風險傳遞者，碳市場多為淨接收者；長期外溢高於短中期，危機期連結度明顯上升，綠債為整體網路中心節點。",
-      "tags": [
-        "TVP-VAR",
-        "Baruník–Křehlík",
-        "frequency connectedness",
-        "complex network",
-        "green finance"
-      ],
-      "topics": [
-        "氣候風險/政策",
-        "綠債/ESG",
-        "碳市場/碳交易",
-        "能源市場",
-        "金融市場"
-      ],
-      "keywords": [
-        "green bonds",
-        "green stocks",
-        "carbon market",
-        "China",
-        "risk spillover network"
-      ],
-      "type": "search",
-      "notes": [
-        "【閱讀層級】全文精讀；已核對 Nature／Springer Nature 公開全文、Crossref 與 OpenAlex。OpenAlex ID 為 W7129111702，OpenAlex 與 Crossref 均回報 3 次被引，且 OpenAlex 未標示撤稿（核驗日 2026-09-27）。",
-        "【研究問題與動機】中國政策驅動且分割的綠色金融市場中，綠債、綠色股票與碳市場如何向傳統金融及商品市場傳遞風險？外溢強度是否隨時間與投資期限變化，哪些市場是網路中的系統性節點？",
-        "【研究變數】綠色金融市場：綠色債券、綠色股票、湖北碳排放交易市場；相關市場：傳統股票、傳統債券、外匯、貨幣、能源、金屬及農產品。以日收盤價計算報酬，再以 ARMA(p,q)-GJR-GARCH(1,1) 估計各市場波動。",
-        "【資料／市場／樣本】中國市場；Wind 資料庫與中國證券指數有限公司官網；2014-04-28 至 2024-08-31 的日資料。原文未在可讀正文中明列最終有效樣本量；Wind 資料受授權限制。",
-        "【模型與估計】ARMA(p,q)-GJR-GARCH(1,1)（p、q 於 0–5 間以 AIC 選擇）估計波動；TVP-VAR(1) 結合 DY 時域外溢與 BK 頻域分解，頻帶為短期 0–22 日、中期 22–250 日、長期 250 日以上；另以 NPDC、degree、betweenness 與 closeness centrality 建構加權有向網路。",
-        "【穩健性檢驗】以 200 日滾動固定參數 VAR 比較 TVP-VAR；將湖北碳市場替換為廣東碳市場；另檢查疫情前與疫情後非危機子樣本。替代碳市場得到近似動態外溢型態，支持主要結果並非單一試點市場所驅動。",
-        "【主要結果】時域 TCI 約介於 32.90% 至 89.51%，COVID-19 期間達高點。綠債與綠色股票是主要淨傳遞者，碳市場為淨接收者；綠債—傳統債券及綠色股票—傳統股票之間雙向外溢特別顯著。長期連結度高於短、中期；綠債居網路中心。結果描述預測性外溢與連結，不足以識別結構因果。",
-        "【作者提出的限制】湖北碳市場僅代理尚在發展的全國碳市場，外推性受限；作者建議未來使用更成熟的全國碳市場資料，並以結構轉折等方法更細緻辨識不同危機階段。",
-        "【其他限制】研究僅聚焦中國，政策驅動、市場分割與投資人結構可能限制跨國外推；以 GARCH 型波動與 FEVD 描述的方向性仍依賴模型設定；Wind 資料受授權限制，降低完全重現性。",
-        "【APA 7】Huang, Z., Ding, X., & Wang, Y. (2026). Risk spillover and network connectedness analysis of green financial and related financial markets: Evidence from China. Humanities and Social Sciences Communications, 13, Article 344. https://doi.org/10.1057/s41599-026-06706-1",
-        "【與美智研究的關聯】4/5。主題上涵蓋綠債、綠色股票、碳與能源市場；方法上直接使用 TVP-VAR 與 BK 時頻外溢，可作為美智 TVP-VAR-SV + BK + QVAR 架構的頻域與網路比較基準。可借鏡頻帶設定、替代碳市場與危機子樣本；主要差異是本文未納入氣候政策不確定性、QVAR 或分位數尾部辨識。可追蹤其 TVP-VAR-BK、NPDC 與綠債中心性引用。"
-      ],
-      "pdf": "",
-      "viewpoints": [
-        {
-          "claim": "【研究問題與動機】中國政策驅動且分割的綠色金融市場中",
-          "evidence": "【研究問題與動機】中國政策對且分割的綠色金融市場中的影響：驅動",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "支持主要結果並非單一試點市場所 驅動",
-          "evidence": "支持主要結果並非單一試點市場所驅動",
-          "confidence": "mid",
-          "source": "發現",
-          "connections": []
-        },
-        {
-          "claim": "政策 驅動",
-          "evidence": "政策驅動",
-          "confidence": "mid",
-          "source": "發現",
-          "connections": []
-        },
-        {
-          "claim": "【研究問題與動機】中國政策驅動且分割的綠色金融市場中，綠債、綠色股票與碳市場如何向傳統金融及商品市場傳遞風險？外溢強度是否隨時間與投資期限變化，哪些市場是網路中的系統性節點？",
-          "evidence": "【研究問題與動機】中國政策驅動且分割的綠色金融市場中，綠債、綠色股票與碳市場如何向傳統金融及商品市場傳遞風險？外溢強度是否隨時間與投資期限變化，哪些市場是網路中的系統性節點？",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【資料／市場／樣本】中國市場；Wind 資料庫與中國證券指數有限公司官網；2014-04-28 至 2024-08-31 的日資料。原文未在可讀正文中明列最終有效樣本量；Wind 資料受授權限制。",
-          "evidence": "【資料／市場／樣本】中國市場；Wind 資料庫與中國證券指數有限公司官網；2014-04-28 至 2024-08-31 的日資料。原文未在可讀正文中明列最終有效樣本量；Wind 資料受授權限制。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【穩健性檢驗】以 200 日滾動固定參數 VAR 比較 TVP-VAR；將湖北碳市場替換為廣東碳市場；另檢查疫情前與疫情後非危機子樣本。替代碳市場得到近似動態外溢型態，支持主要結果並非單一試點市場所驅動。",
-          "evidence": "【穩健性檢驗】以 200 日滾動固定參數 VAR 比較 TVP-VAR；將湖北碳市場替換為廣東碳市場；另檢查疫情前與疫情後非危機子樣本。替代碳市場得到近似動態外溢型態，支持主要結果並非單一試點市場所驅動。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【主要結果】時域 TCI 約介於 32.90% 至 89.51%，COVID-19 期間達高點。綠債與綠色股票是主要淨傳遞者，碳市場為淨接收者；綠債—傳統債券及綠色股票—傳統股票之間雙向外溢特別顯著。長期連結度高於短、中期；綠債居網路中心。…",
-          "evidence": "【主要結果】時域 TCI 約介於 32.90% 至 89.51%，COVID-19 期間達高點。綠債與綠色股票是主要淨傳遞者，碳市場為淨接收者；綠債—傳統債券及綠色股票—傳統股票之間雙向外溢特別顯著。長期連結度高於短、中期；綠債居網路中心。結果描述預測性外溢與連結，不足以識別結構因果。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【作者提出的限制】湖北碳市場僅代理尚在發展的全國碳市場，外推性受限；作者建議未來使用更成熟的全國碳市場資料，並以結構轉折等方法更細緻辨識不同危機階段。",
-          "evidence": "【作者提出的限制】湖北碳市場僅代理尚在發展的全國碳市場，外推性受限；作者建議未來使用更成熟的全國碳市場資料，並以結構轉折等方法更細緻辨識不同危機階段。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【其他限制】研究僅聚焦中國，政策驅動、市場分割與投資人結構可能限制跨國外推；以 GARCH 型波動與 FEVD 描述的方向性仍依賴模型設定；Wind 資料受授權限制，降低完全重現性。",
-          "evidence": "【其他限制】研究僅聚焦中國，政策驅動、市場分割與投資人結構可能限制跨國外推；以 GARCH 型波動與 FEVD 描述的方向性仍依賴模型設定；Wind 資料受授權限制，降低完全重現性。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【與美智研究的關聯】4/5。主題上涵蓋綠債、綠色股票、碳與能源市場；方法上直接使用 TVP-VAR 與 BK 時頻外溢，可作為美智 TVP-VAR-SV + BK + QVAR 架構的頻域與網路比較基準。可借鏡頻帶設定、替代碳市場與危機子樣…",
-          "evidence": "【與美智研究的關聯】4/5。主題上涵蓋綠債、綠色股票、碳與能源市場；方法上直接使用 TVP-VAR 與 BK 時頻外溢，可作為美智 TVP-VAR-SV + BK + QVAR 架構的頻域與網路比較基準。可借鏡頻帶設定、替代碳市場與危機子樣本；主要差異是本文未納入氣候政策不確定性、QVAR 或分位數尾部辨識。可追蹤其 TVP-VAR-BK、NPDC 與綠債中心性引用。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "研究限制：湖北碳市場僅代理尚在發展的全國碳市場，外推性受限；作者建議未來使用更成熟的全國碳市場資料，並以結構轉折等方法更細緻辨識不同危機階段。",
-          "evidence": "湖北碳市場僅代理尚在發展的全國碳市場，外推性受限；作者建議未來使用更成熟的全國碳市場資料，並以結構轉折等方法更細緻辨識不同危機階段。",
-          "confidence": "low",
-          "source": "研究限制",
-          "connections": []
-        },
-        {
-          "claim": "研究限制：研究僅聚焦中國，政策驅動、市場分割與投資人結構可能限制跨國外推；以 GARCH 型波動與 FEVD 描述的方向性仍依賴模型設定；Wind 資料受授權限制，降低完全重現性。",
-          "evidence": "研究僅聚焦中國，政策驅動、市場分割與投資人結構可能限制跨國外推；以 GARCH 型波動與 FEVD 描述的方向性仍依賴模型設定；Wind 資料受授權限制，降低完全重現性。",
-          "confidence": "low",
-          "source": "研究限制",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    Riskspilloveran[\"📄 Risk spillover and network connectedness analysis \"]\n    style Riskspilloveran fill:#2563eb,color:#fff,font-weight:bold\n    vp0研究問題與動機中[\"💡 【研究問題與動機】中國政策驅動且分割的綠色金融市場中\"]\n    style vp0研究問題與動機中 fill:#fef3c7,stroke:#d97706\n    Riskspilloveran --> vp0研究問題與動機中\n    vp1支持主要結果並非單一[\"💡 支持主要結果並非單一試點市場所 驅動\"]\n    style vp1支持主要結果並非單一 fill:#fef3c7,stroke:#d97706\n    Riskspilloveran --> vp1支持主要結果並非單一\n    vp2政策驅動[\"💡 政策 驅動\"]\n    style vp2政策驅動 fill:#fef3c7,stroke:#d97706\n    Riskspilloveran --> vp2政策驅動\n    vp3研究問題與動機中[\"💡 【研究問題與動機】中國政策驅動且分割的綠色金融市場中，綠債、綠色股票與碳市場如何\"]\n    style vp3研究問題與動機中 fill:#fef3c7,stroke:#d97706\n    Riskspilloveran --> vp3研究問題與動機中\n    vp4資料市場樣本[\"💡 【資料／市場／樣本】中國市場；Wind 資料庫與中國證券指數有限公司官網；201\"]\n    style vp4資料市場樣本 fill:#fef3c7,stroke:#d97706\n    Riskspilloveran --> vp4資料市場樣本\n    vp5穩健性檢驗以2[\"💡 【穩健性檢驗】以 200 日滾動固定參數 VAR 比較 TVP-VAR；將湖北碳\"]\n    style vp5穩健性檢驗以2 fill:#fef3c7,stroke:#d97706\n    Riskspilloveran --> vp5穩健性檢驗以2\n    vp6主要結果時域T[\"💡 【主要結果】時域 TCI 約介於 32.90% 至 89.51%，COVID-1\"]\n    style vp6主要結果時域T fill:#fef3c7,stroke:#d97706\n    Riskspilloveran --> vp6主要結果時域T\n    vp7作者提出的限制湖[\"💡 【作者提出的限制】湖北碳市場僅代理尚在發展的全國碳市場，外推性受限；作者建議未來\"]\n    style vp7作者提出的限制湖 fill:#fef3c7,stroke:#d97706\n    Riskspilloveran --> vp7作者提出的限制湖\n    vp8其他限制研究僅聚[\"💡 【其他限制】研究僅聚焦中國，政策驅動、市場分割與投資人結構可能限制跨國外推；以 \"]\n    style vp8其他限制研究僅聚 fill:#fef3c7,stroke:#d97706\n    Riskspilloveran --> vp8其他限制研究僅聚\n    vp9與美智研究的關聯[\"💡 【與美智研究的關聯】4/5。主題上涵蓋綠債、綠色股票、碳與能源市場；方法上直接使\"]\n    style vp9與美智研究的關聯 fill:#fef3c7,stroke:#d97706\n    Riskspilloveran --> vp9與美智研究的關聯\n    vp10研究限制湖北碳市場[\"💡 研究限制：湖北碳市場僅代理尚在發展的全國碳市場，外推性受限；作者建議未來使用更成\"]\n    style vp10研究限制湖北碳市場 fill:#fee2e2,stroke:#dc2626\n    Riskspilloveran --> vp10研究限制湖北碳市場\n    vp11研究限制研究僅聚焦[\"💡 研究限制：研究僅聚焦中國，政策驅動、市場分割與投資人結構可能限制跨國外推；以 G\"]\n    style vp11研究限制研究僅聚焦 fill:#fee2e2,stroke:#dc2626\n    Riskspilloveran --> vp11研究限制研究僅聚焦\n    研究問題與動機中國政策==>|\"驅動\"|且分割的綠色金融市場中\n    note[\"⋯ 還有 12 個觀點\"]"
-    },
-    {
-      "id": "qvar-2026-09-27-climate-green-crypto-bk",
-      "title": "Spillover and connectedness dynamics of precious metals, cryptocurrencies and green assets under climate risk",
-      "search_date": "2026-09-27",
-      "authors": "Ifran Khan; Huangbao Gui; Bijia Li; Chin Man Chui; Mrs Faryal",
-      "year": "2026",
-      "journal": "International Review of Economics & Finance, 107, Article 105119",
-      "doi": "https://doi.org/10.1016/j.iref.2026.105119",
-      "citations": "1（OpenAlex／Crossref，2026-09-27）",
-      "openalex_url": "https://openalex.org/W7137066502",
-      "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S1059056026002327",
-      "reading_level": "摘要層級",
-      "abstract": "本文以貴金屬、主要加密貨幣、綠色股票及實體／轉型氣候風險指標，檢視波動外溢的方向與期限結構。摘要顯示整體外溢解釋 40.3% 的市場不確定性，短期外溢 39.15% 高於中期 18.27% 與長期 20.88%；以太幣、比特幣、白銀、XRP、銠與潔淨能源為淨傳遞者，而兩類氣候風險、USDT、黃金、BNB、綠色經濟與白金多為淨接收者。",
-      "tags": [
-        "Diebold–Yilmaz",
-        "Baruník–Křehlík",
-        "climate risk",
-        "cryptocurrency",
-        "green assets"
-      ],
-      "topics": [
-        "氣候風險/政策",
-        "綠債/ESG",
-        "加密貨幣/數位金融",
-        "原物料/商品",
-        "金融市場"
-      ],
-      "keywords": [
-        "physical climate risk",
-        "transition climate risk",
-        "precious metals",
-        "cryptocurrencies",
-        "clean energy"
-      ],
-      "type": "search",
-      "notes": [
-        "【閱讀層級】摘要層級；已核對 ScienceDirect 公開摘要、Crossref 與 OpenAlex。OpenAlex ID 為 W7137066502，兩者均回報 1 次被引，OpenAlex 未標示撤稿且標示 Gold OA（核驗日 2026-09-27）；本環境無法取得可完整讀取的出版商全文。",
-        "【研究問題與動機】實體與轉型氣候風險如何嵌入貴金屬、加密貨幣與綠色資產的波動外溢網路？不同資產在總體與短、中、長期頻帶中分別扮演何種風險傳遞或接收角色？",
-        "【研究變數】五種貴金屬：黃金、白銀、白金、鈀與銠；五種加密貨幣：Bitcoin、Ethereum、Tether、XRP、BNB；兩個綠色股票指數：NASDAQ OMX Green Economy 與 S&P Global Clean Energy；兩個文本型氣候風險指標：實體風險 PRI 與轉型風險 TRI。",
-        "【資料／市場／樣本】日資料，2018-01 至 2023-12；跨全球商品、加密貨幣、綠色股票與氣候風險指標。可取得摘要未報告個別資料供應商、交易日對齊規則與有效樣本量。",
-        "【模型與估計】使用 Diebold–Yilmaz 時域連結度與 Baruník–Křehlík 頻域分解，估計波動外溢、方向性與淨傳遞／接收角色；摘要未明示 VAR 階數、滾動視窗、預測期及頻帶切點。",
-        "【穩健性檢驗】可取得摘要未報告替代視窗、落後期、指數或模型的正式穩健性檢驗；僅能確認作者同時比較總體與短、中、長期頻帶。",
-        "【主要結果】總外溢解釋 40.3% 的系統不確定性；短期 39.15% 高於中期 18.27% 與長期 20.88%。Ethereum、Bitcoin、白銀、XRP、銠與 clean energy 為淨傳遞者；鈀、TRI、PRI、USDT、黃金、BNB、green economy 與白金為淨接收者。摘要稱 TRI 較反映廣泛市場變動、PRI 經較專門渠道傳遞；這些是模型連結性而非結構因果。",
-        "【作者提出的限制】可取得摘要未列出作者正式限制，因此不補寫全文未提供的內容。",
-        "【其他限制】模型未採 QVAR，不能直接比較尾端分位狀態；摘要層級缺少資料來源、估計細節與穩健性表格；同時放入多類資產可能受共同危機與市場交易時段差異影響。",
-        "【APA 7】Khan, I., Gui, H., Li, B., Chui, C. M., & Faryal, M. (2026). Spillover and connectedness dynamics of precious metals, cryptocurrencies and green assets under climate risk. International Review of Economics & Finance, 107, Article 105119. https://doi.org/10.1016/j.iref.2026.105119",
-        "【與美智研究的關聯】4/5。主題直接重疊氣候風險×綠色資產，並加入潔淨能源、加密貨幣與貴金屬；BK 頻域分解可作為美智 QVAR／FRL 研究的平均狀態基準。可借鏡 PRI／TRI 分拆與資產角色比較；主要差異是本文未使用 CPU、QVAR 或 TVP-VAR-SV。可追蹤 climate risk、green assets、cryptocurrency 與 BK connectedness 的引用。"
-      ],
-      "pdf": "",
-      "viewpoints": [
-        {
-          "claim": "【主要結果】總外溢解釋 40.3% 的系統不確定性；短期 39.15% 高於中期 18.27% 與長期 20.88%。Ethereum、Bitcoin、白銀、XRP、銠與 clean energy 為淨傳遞者；鈀、TRI、PRI、USDT、…",
-          "evidence": "【主要結果】總外溢解釋 40.3% 的系統不確定性；短期 39.15% 高於中期 18.27% 與長期 20.88%。Ethereum、Bitcoin、白銀、XRP、銠與 clean energy 為淨傳遞者；鈀、TRI、PRI、USDT、黃金、BNB、green economy 與白金為淨接收者。摘要稱 TRI 較反映廣泛市場變動、PRI 經較專門渠道傳遞；這些是模型連結性而非結構因果。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【作者提出的限制】可取得摘要未列出作者正式限制，因此不補寫全文未提供的內容。",
-          "evidence": "【作者提出的限制】可取得摘要未列出作者正式限制，因此不補寫全文未提供的內容。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【其他限制】模型未採 QVAR，不能直接比較尾端分位狀態；摘要層級缺少資料來源、估計細節與穩健性表格；同時放入多類資產可能受共同危機與市場交易時段差異影響。",
-          "evidence": "【其他限制】模型未採 QVAR，不能直接比較尾端分位狀態；摘要層級缺少資料來源、估計細節與穩健性表格；同時放入多類資產可能受共同危機與市場交易時段差異影響。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "研究限制：可取得摘要未列出作者正式限制，因此不補寫全文未提供的內容。",
-          "evidence": "可取得摘要未列出作者正式限制，因此不補寫全文未提供的內容。",
-          "confidence": "low",
-          "source": "研究限制",
-          "connections": []
-        },
-        {
-          "claim": "研究限制：模型未採 QVAR，不能直接比較尾端分位狀態；摘要層級缺少資料來源、估計細節與穩健性表格；同時放入多類資產可能受共同危機與市場交易時段差異影響。",
-          "evidence": "模型未採 QVAR，不能直接比較尾端分位狀態；摘要層級缺少資料來源、估計細節與穩健性表格；同時放入多類資產可能受共同危機與市場交易時段差異影響。",
-          "confidence": "low",
-          "source": "研究限制",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    Spilloverandcon[\"📄 Spillover and connectedness dynamics of precious m\"]\n    style Spilloverandcon fill:#2563eb,color:#fff,font-weight:bold\n    vp0主要結果總外溢解[\"💡 【主要結果】總外溢解釋 40.3% 的系統不確定性；短期 39.15% 高於中期\"]\n    style vp0主要結果總外溢解 fill:#fef3c7,stroke:#d97706\n    Spilloverandcon --> vp0主要結果總外溢解\n    vp1作者提出的限制可[\"💡 【作者提出的限制】可取得摘要未列出作者正式限制，因此不補寫全文未提供的內容。\"]\n    style vp1作者提出的限制可 fill:#fef3c7,stroke:#d97706\n    Spilloverandcon --> vp1作者提出的限制可\n    vp2其他限制模型未採[\"💡 【其他限制】模型未採 QVAR，不能直接比較尾端分位狀態；摘要層級缺少資料來源、\"]\n    style vp2其他限制模型未採 fill:#fef3c7,stroke:#d97706\n    Spilloverandcon --> vp2其他限制模型未採\n    vp3研究限制可取得摘要[\"💡 研究限制：可取得摘要未列出作者正式限制，因此不補寫全文未提供的內容。\"]\n    style vp3研究限制可取得摘要 fill:#fee2e2,stroke:#dc2626\n    Spilloverandcon --> vp3研究限制可取得摘要\n    vp4研究限制模型未採[\"💡 研究限制：模型未採 QVAR，不能直接比較尾端分位狀態；摘要層級缺少資料來源、估\"]\n    style vp4研究限制模型未採 fill:#fee2e2,stroke:#dc2626\n    Spilloverandcon --> vp4研究限制模型未採\n    vp0主要結果總外溢解 --- vp1作者提出的限制可\n    vp1作者提出的限制可 --- vp2其他限制模型未採\n    vp2其他限制模型未採 --- vp3研究限制可取得摘要"
-    },
-    {
-      "id": "qvar-2026-09-27-energy-link-prediction",
-      "title": "Systemic Financial Risk Spillover Between Traditional-Energy and New-Energy Markets: A Quantile Time–Frequency Network with Link Prediction",
-      "search_date": "2026-09-27",
-      "authors": "Wenxuan Jin; Di Yuan; Peilin Wang; Sufang Li",
-      "year": "2026",
-      "journal": "International Journal of Financial Studies, 14(9), Article 242",
-      "doi": "https://doi.org/10.3390/ijfs14090242",
-      "citations": "0（OpenAlex／Crossref，2026-09-27）",
-      "openalex_url": "https://openalex.org/W7212083094",
-      "fulltext_url": "https://www.mdpi.com/2227-7072/14/9/242",
-      "reading_level": "摘要層級",
-      "abstract": "本文以三種原油期貨、兩種天然氣期貨與五個中國新能源產業指數，結合分位數時頻連結度及樣本外驗證的連結預測，分析已實現與潛在的風險網路。結果顯示連結度具有時間變動與分位不對稱，平均系統連結主要由短期頻帶構成，危機期明顯升高。INE 原油與兩種天然氣期貨多為淨接收者，WTI 與 Brent 為淨傳遞者；期限拉長後，太陽能由淨接收者轉為淨傳遞者，並在預測網路中最可能啟動新的短期外溢連結。",
-      "tags": [
-        "QVAR",
-        "quantile time-frequency connectedness",
-        "link prediction",
-        "energy transition",
-        "network analysis"
-      ],
-      "topics": [
-        "能源市場",
-        "潔淨能源",
-        "方法論",
-        "金融市場"
-      ],
-      "keywords": [
-        "crude-oil futures",
-        "natural-gas futures",
-        "new-energy stocks",
-        "solar sector",
-        "systemic risk"
-      ],
-      "type": "search",
-      "notes": [
-        "【閱讀層級】摘要層級；已核對 RePEc／出版商公開摘要、Crossref 與 OpenAlex。OpenAlex ID 為 W7212083094，OpenAlex 與 Crossref 均回報 0 次被引且未標示撤稿（核驗日 2026-09-27）。出版商 PDF 入口回傳 Access Denied，未繞過存取控制。",
-        "【研究問題與動機】傳統能源期貨與中國新能源產業之間的系統性風險網路，如何隨市場分位、時間與投資期限改變？除已實現外溢外，能否以樣本外連結預測辨識可能新生成的傳遞路徑？",
-        "【研究變數】三種原油期貨（摘要明示 INE、WTI、Brent）、兩種天然氣期貨，以及五個中國新能源產業指數；結果特別點名太陽能產業。其餘新能源指數與天然氣合約完整名稱在可取得摘要未報告。",
-        "【資料／市場／樣本】涵蓋全球／中國傳統能源期貨與中國新能源股票產業；資料來源、樣本起訖、頻率及有效樣本量在可取得摘要中未報告。",
-        "【模型與估計】quantile time–frequency connectedness framework、網路分析與具樣本外驗證的 link-prediction model；比較不同分位與短長期限的 TCI、淨方向性及潛在新增網路邊。可取得摘要未明示 QVAR 階數、分位格點、預測期與頻帶切點。",
-        "【穩健性檢驗】摘要明示連結預測經樣本外驗證，這是對未來網路邊預測的效度檢查；未報告替代視窗、頻帶、落後期或資產代理的其他穩健性檢驗。",
-        "【主要結果】短期頻帶占平均整體連結度的大部分，危機期系統連結明顯升高。INE 原油與兩個天然氣期貨為淨接收者，WTI 與 Brent 持續為淨傳遞者，Brent 在極端市場特別突出。太陽能隨期限延長由接收者轉為傳遞者，且在預測網路中最可能啟動新短期外溢連結；此為模型預測傾向，不是因果效果。",
-        "【作者提出的限制】可取得摘要未列出作者正式限制，故不推定全文未公開的限制內容。",
-        "【其他限制】摘要層級無法核對樣本期、資產指數、分位／頻帶設定與連結預測演算法細節；能源期貨與產業股指可能同時受宏觀及政策衝擊；預測網路不等同實際未來因果傳染。",
-        "【APA 7】Jin, W., Yuan, D., Wang, P., & Li, S. (2026). Systemic financial risk spillover between traditional-energy and new-energy markets: A quantile time–frequency network with link prediction. International Journal of Financial Studies, 14(9), Article 242. https://doi.org/10.3390/ijfs14090242",
-        "【與美智研究的關聯】4/5。方法上直接重疊 QVAR、時頻分解、方向性外溢與網路分析，並加入樣本外連結預測；主題可補強傳統能源—新能源尾端風險。可借鏡期限相依角色轉換與預測網路；主要差異是未以 CPU／氣候風險或綠債為核心，也未確認 TVP-VAR-SV。可追蹤 quantile time-frequency network 與 link prediction 的方法引用。"
-      ],
-      "pdf": "",
-      "viewpoints": [
-        {
-          "claim": "【研究變數】三種原油期貨（摘要明示 INE、WTI、Brent）、兩種天然氣期貨，以及五個中國新能源產業指數；結果特別點名太陽能產業。其餘新能源指數與天然氣合約完整名稱在可取得摘要未報告。",
-          "evidence": "【研究變數】三種原油期貨（摘要明示 INE、WTI、Brent）、兩種天然氣期貨，以及五個中國新能源產業指數；結果特別點名太陽能產業。其餘新能源指數與天然氣合約完整名稱在可取得摘要未報告。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【主要結果】短期頻帶占平均整體連結度的大部分，危機期系統連結明顯升高。INE 原油與兩個天然氣期貨為淨接收者，WTI 與 Brent 持續為淨傳遞者，Brent 在極端市場特別突出。太陽能隨期限延長由接收者轉為傳遞者，且在預測網路中最可能啟…",
-          "evidence": "【主要結果】短期頻帶占平均整體連結度的大部分，危機期系統連結明顯升高。INE 原油與兩個天然氣期貨為淨接收者，WTI 與 Brent 持續為淨傳遞者，Brent 在極端市場特別突出。太陽能隨期限延長由接收者轉為傳遞者，且在預測網路中最可能啟動新短期外溢連結；此為模型預測傾向，不是因果效果。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【作者提出的限制】可取得摘要未列出作者正式限制，故不推定全文未公開的限制內容。",
-          "evidence": "【作者提出的限制】可取得摘要未列出作者正式限制，故不推定全文未公開的限制內容。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【其他限制】摘要層級無法核對樣本期、資產指數、分位／頻帶設定與連結預測演算法細節；能源期貨與產業股指可能同時受宏觀及政策衝擊；預測網路不等同實際未來因果傳染。",
-          "evidence": "【其他限制】摘要層級無法核對樣本期、資產指數、分位／頻帶設定與連結預測演算法細節；能源期貨與產業股指可能同時受宏觀及政策衝擊；預測網路不等同實際未來因果傳染。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【與美智研究的關聯】4/5。方法上直接重疊 QVAR、時頻分解、方向性外溢與網路分析，並加入樣本外連結預測；主題可補強傳統能源—新能源尾端風險。可借鏡期限相依角色轉換與預測網路；主要差異是未以 CPU／氣候風險或綠債為核心，也未確認 TVP…",
-          "evidence": "【與美智研究的關聯】4/5。方法上直接重疊 QVAR、時頻分解、方向性外溢與網路分析，並加入樣本外連結預測；主題可補強傳統能源—新能源尾端風險。可借鏡期限相依角色轉換與預測網路；主要差異是未以 CPU／氣候風險或綠債為核心，也未確認 TVP-VAR-SV。可追蹤 quantile time-frequency network 與 link prediction 的方法引用。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "研究限制：可取得摘要未列出作者正式限制，故不推定全文未公開的限制內容。",
-          "evidence": "可取得摘要未列出作者正式限制，故不推定全文未公開的限制內容。",
-          "confidence": "low",
-          "source": "研究限制",
-          "connections": []
-        },
-        {
-          "claim": "研究限制：摘要層級無法核對樣本期、資產指數、分位／頻帶設定與連結預測演算法細節；能源期貨與產業股指可能同時受宏觀及政策衝擊；預測網路不等同實際未來因果傳染。",
-          "evidence": "摘要層級無法核對樣本期、資產指數、分位／頻帶設定與連結預測演算法細節；能源期貨與產業股指可能同時受宏觀及政策衝擊；預測網路不等同實際未來因果傳染。",
-          "confidence": "low",
-          "source": "研究限制",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    SystemicFinanci[\"📄 Systemic Financial Risk Spillover Between Traditio\"]\n    style SystemicFinanci fill:#2563eb,color:#fff,font-weight:bold\n    vp0研究變數三種原油[\"💡 【研究變數】三種原油期貨（摘要明示 INE、WTI、Brent）、兩種天然氣期貨\"]\n    style vp0研究變數三種原油 fill:#fef3c7,stroke:#d97706\n    SystemicFinanci --> vp0研究變數三種原油\n    vp1主要結果短期頻帶[\"💡 【主要結果】短期頻帶占平均整體連結度的大部分，危機期系統連結明顯升高。INE 原\"]\n    style vp1主要結果短期頻帶 fill:#fef3c7,stroke:#d97706\n    SystemicFinanci --> vp1主要結果短期頻帶\n    vp2作者提出的限制可[\"💡 【作者提出的限制】可取得摘要未列出作者正式限制，故不推定全文未公開的限制內容。\"]\n    style vp2作者提出的限制可 fill:#fef3c7,stroke:#d97706\n    SystemicFinanci --> vp2作者提出的限制可\n    vp3其他限制摘要層級[\"💡 【其他限制】摘要層級無法核對樣本期、資產指數、分位／頻帶設定與連結預測演算法細節\"]\n    style vp3其他限制摘要層級 fill:#fef3c7,stroke:#d97706\n    SystemicFinanci --> vp3其他限制摘要層級\n    vp4與美智研究的關聯[\"💡 【與美智研究的關聯】4/5。方法上直接重疊 QVAR、時頻分解、方向性外溢與網路\"]\n    style vp4與美智研究的關聯 fill:#fef3c7,stroke:#d97706\n    SystemicFinanci --> vp4與美智研究的關聯\n    vp5研究限制可取得摘要[\"💡 研究限制：可取得摘要未列出作者正式限制，故不推定全文未公開的限制內容。\"]\n    style vp5研究限制可取得摘要 fill:#fee2e2,stroke:#dc2626\n    SystemicFinanci --> vp5研究限制可取得摘要\n    vp6研究限制摘要層級無[\"💡 研究限制：摘要層級無法核對樣本期、資產指數、分位／頻帶設定與連結預測演算法細節；\"]\n    style vp6研究限制摘要層級無 fill:#fee2e2,stroke:#dc2626\n    SystemicFinanci --> vp6研究限制摘要層級無\n    vp0研究變數三種原油 --- vp1主要結果短期頻帶\n    vp1主要結果短期頻帶 --- vp2作者提出的限制可\n    vp2作者提出的限制可 --- vp3其他限制摘要層級"
-    },
-    {
-      "id": "qvar-2026-09-27-salience-financial-institutions",
-      "title": "Salience-based quantile interconnectedness in the higher-order moments of China’s financial institutions",
-      "search_date": "2026-09-27",
-      "authors": "Fengyuan Liu",
-      "year": "2026",
-      "journal": "Portuguese Economic Journal, 25(3), 363–386",
-      "doi": "https://doi.org/10.1007/s10258-026-00294-3",
-      "citations": "0（OpenAlex／Crossref，2026-09-27）",
-      "openalex_url": "https://openalex.org/W7171638895",
-      "fulltext_url": "https://link.springer.com/article/10.1007/s10258-026-00294-3",
-      "reading_level": "摘要層級",
-      "abstract": "本文以十一年高頻資料，研究顯著性思維如何影響中國金融機構報酬高階矩的分位數連結。結果顯示連結結構在熊市、正常與牛市狀態差異甚大，極端狀態下顯著增強；證券部門在多數狀態為主要淨外溢傳遞者，但當指標由峰度逐步轉向報酬時，其主導程度下降。高階矩連結度亦隨時間變動，並在股市動盪、中美貿易戰與 COVID-19 等事件期間急升。",
-      "tags": [
-        "quantile connectedness",
-        "higher-order moments",
-        "salience theory",
-        "financial institutions",
-        "systemic risk"
-      ],
-      "topics": [
-        "金融市場",
-        "行為金融",
-        "方法論"
-      ],
-      "keywords": [
-        "salience",
-        "return",
-        "volatility",
-        "skewness",
-        "kurtosis"
-      ],
-      "type": "search",
-      "notes": [
-        "【閱讀層級】摘要層級；已核對 RePEc／Springer 出版資料、Crossref 與 OpenAlex。OpenAlex ID 為 W7171638895，OpenAlex 與 Crossref 均回報 0 次被引且未標示撤稿（核驗日 2026-09-27）；出版商全文受訂閱限制。",
-        "【研究問題與動機】投資人顯著性思維是否會改變中國金融機構在報酬與高階矩風險上的連結結構？不同熊市、正常與牛市狀態，以及不同矩階，會否產生不同的系統性傳遞者？",
-        "【研究變數】中國金融機構的報酬與高階矩風險，摘要明示比較由峰度到報酬的矩階，並以顯著性理論值建構分位數連結；證券部門為主要結果焦點。其他金融機構分組與指標定義未在可取得摘要報告。",
-        "【資料／市場／樣本】中國金融機構，十一年高頻資料；確切起訖日期、盤中頻率、資料來源、機構數與觀測量在可取得摘要未報告。",
-        "【模型與估計】salience-based quantile interconnectedness，跨熊市、正常與牛市狀態比較報酬及高階矩的連結和淨外溢角色。可取得摘要未提供 QVAR 方程、FEVD、分位格點、落後期或視窗設定。",
-        "【穩健性檢驗】可取得摘要未報告替代顯著性指標、抽樣頻率、估計視窗或模型的正式穩健性檢驗。",
-        "【主要結果】極端市場狀態的相互連結顯著強於正常狀態。證券部門在多數狀態是主要淨傳遞者，但其主導性由峰度往報酬指標逐步減弱，顯示網路結構依矩階而變；連結度在中國股市動盪、中美貿易戰與 COVID-19 期間上升。這些事件對應與模型方向性不構成結構因果證明。",
-        "【作者提出的限制】可取得摘要未列出作者正式限制，故不補寫全文未公開的內容。",
-        "【其他限制】摘要缺少完整金融機構清單、資料頻率、估計細節與穩健性結果；單一國家金融體系限制外推；顯著性指標、矩估計誤差及共同宏觀衝擊可能影響網路結果。",
-        "【APA 7】Liu, F. (2026). Salience-based quantile interconnectedness in the higher-order moments of China’s financial institutions. Portuguese Economic Journal, 25(3), 363–386. https://doi.org/10.1007/s10258-026-00294-3",
-        "【與美智研究的關聯】3/5。方法上可補充分位數連結與高階矩／行為機制，但主題不含氣候政策不確定性、綠色資產或時頻 BK。可借鏡把報酬、波動、偏態與峰度分層比較，以及極端事件網路監測；主要差異是研究對象為中國金融機構。可追蹤 higher-order moments 與 salience-based quantile connectedness 的引用。"
-      ],
-      "pdf": "",
-      "viewpoints": [
-        {
-          "claim": "【閱讀層級】摘要層級；已核對 RePEc／Springer 出版資料、Crossref 與 OpenAlex。OpenAlex ID 為 W7171638895，OpenAlex 與 Crossref 均回報 0 次被引且未標示撤稿（核驗日…",
-          "evidence": "【閱讀層級】摘要層級；已核對 RePEc／Springer 出版資料、Crossref 與 OpenAlex。OpenAlex ID 為 W7171638895，OpenAlex 與 Crossref 均回報 0 次被引且未標示撤稿（核驗日 2026-09-27）；出版商全文受訂閱限制。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【研究變數】中國金融機構的報酬與高階矩風險，摘要明示比較由峰度到報酬的矩階，並以顯著性理論值建構分位數連結；證券部門為主要結果焦點。其他金融機構分組與指標定義未在可取得摘要報告。",
-          "evidence": "【研究變數】中國金融機構的報酬與高階矩風險，摘要明示比較由峰度到報酬的矩階，並以顯著性理論值建構分位數連結；證券部門為主要結果焦點。其他金融機構分組與指標定義未在可取得摘要報告。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【主要結果】極端市場狀態的相互連結顯著強於正常狀態。證券部門在多數狀態是主要淨傳遞者，但其主導性由峰度往報酬指標逐步減弱，顯示網路結構依矩階而變；連結度在中國股市動盪、中美貿易戰與 COVID-19 期間上升。這些事件對應與模型方向性不構成…",
-          "evidence": "【主要結果】極端市場狀態的相互連結顯著強於正常狀態。證券部門在多數狀態是主要淨傳遞者，但其主導性由峰度往報酬指標逐步減弱，顯示網路結構依矩階而變；連結度在中國股市動盪、中美貿易戰與 COVID-19 期間上升。這些事件對應與模型方向性不構成結構因果證明。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【作者提出的限制】可取得摘要未列出作者正式限制，故不補寫全文未公開的內容。",
-          "evidence": "【作者提出的限制】可取得摘要未列出作者正式限制，故不補寫全文未公開的內容。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【其他限制】摘要缺少完整金融機構清單、資料頻率、估計細節與穩健性結果；單一國家金融體系限制外推；顯著性指標、矩估計誤差及共同宏觀衝擊可能影響網路結果。",
-          "evidence": "【其他限制】摘要缺少完整金融機構清單、資料頻率、估計細節與穩健性結果；單一國家金融體系限制外推；顯著性指標、矩估計誤差及共同宏觀衝擊可能影響網路結果。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【與美智研究的關聯】3/5。方法上可補充分位數連結與高階矩／行為機制，但主題不含氣候政策不確定性、綠色資產或時頻 BK。可借鏡把報酬、波動、偏態與峰度分層比較，以及極端事件網路監測；主要差異是研究對象為中國金融機構。可追蹤 higher-o…",
-          "evidence": "【與美智研究的關聯】3/5。方法上可補充分位數連結與高階矩／行為機制，但主題不含氣候政策不確定性、綠色資產或時頻 BK。可借鏡把報酬、波動、偏態與峰度分層比較，以及極端事件網路監測；主要差異是研究對象為中國金融機構。可追蹤 higher-order moments 與 salience-based quantile connectedness 的引用。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "研究限制：可取得摘要未列出作者正式限制，故不補寫全文未公開的內容。",
-          "evidence": "可取得摘要未列出作者正式限制，故不補寫全文未公開的內容。",
-          "confidence": "low",
-          "source": "研究限制",
-          "connections": []
-        },
-        {
-          "claim": "研究限制：摘要缺少完整金融機構清單、資料頻率、估計細節與穩健性結果；單一國家金融體系限制外推；顯著性指標、矩估計誤差及共同宏觀衝擊可能影響網路結果。",
-          "evidence": "摘要缺少完整金融機構清單、資料頻率、估計細節與穩健性結果；單一國家金融體系限制外推；顯著性指標、矩估計誤差及共同宏觀衝擊可能影響網路結果。",
-          "confidence": "low",
-          "source": "研究限制",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    Saliencebasedqu[\"📄 Salience-based quantile interconnectedness in the \"]\n    style Saliencebasedqu fill:#2563eb,color:#fff,font-weight:bold\n    vp0閱讀層級摘要層級[\"💡 【閱讀層級】摘要層級；已核對 RePEc／Springer 出版資料、Cross\"]\n    style vp0閱讀層級摘要層級 fill:#fef3c7,stroke:#d97706\n    Saliencebasedqu --> vp0閱讀層級摘要層級\n    vp1研究變數中國金融[\"💡 【研究變數】中國金融機構的報酬與高階矩風險，摘要明示比較由峰度到報酬的矩階，並以\"]\n    style vp1研究變數中國金融 fill:#fef3c7,stroke:#d97706\n    Saliencebasedqu --> vp1研究變數中國金融\n    vp2主要結果極端市場[\"💡 【主要結果】極端市場狀態的相互連結顯著強於正常狀態。證券部門在多數狀態是主要淨傳\"]\n    style vp2主要結果極端市場 fill:#fef3c7,stroke:#d97706\n    Saliencebasedqu --> vp2主要結果極端市場\n    vp3作者提出的限制可[\"💡 【作者提出的限制】可取得摘要未列出作者正式限制，故不補寫全文未公開的內容。\"]\n    style vp3作者提出的限制可 fill:#fef3c7,stroke:#d97706\n    Saliencebasedqu --> vp3作者提出的限制可\n    vp4其他限制摘要缺少[\"💡 【其他限制】摘要缺少完整金融機構清單、資料頻率、估計細節與穩健性結果；單一國家金\"]\n    style vp4其他限制摘要缺少 fill:#fef3c7,stroke:#d97706\n    Saliencebasedqu --> vp4其他限制摘要缺少\n    vp5與美智研究的關聯[\"💡 【與美智研究的關聯】3/5。方法上可補充分位數連結與高階矩／行為機制，但主題不含\"]\n    style vp5與美智研究的關聯 fill:#fef3c7,stroke:#d97706\n    Saliencebasedqu --> vp5與美智研究的關聯\n    vp6研究限制可取得摘要[\"💡 研究限制：可取得摘要未列出作者正式限制，故不補寫全文未公開的內容。\"]\n    style vp6研究限制可取得摘要 fill:#fee2e2,stroke:#dc2626\n    Saliencebasedqu --> vp6研究限制可取得摘要\n    vp7研究限制摘要缺少完[\"💡 研究限制：摘要缺少完整金融機構清單、資料頻率、估計細節與穩健性結果；單一國家金融\"]\n    style vp7研究限制摘要缺少完 fill:#fee2e2,stroke:#dc2626\n    Saliencebasedqu --> vp7研究限制摘要缺少完\n    vp0閱讀層級摘要層級 --- vp1研究變數中國金融\n    vp1研究變數中國金融 --- vp2主要結果極端市場\n    vp2主要結果極端市場 --- vp3作者提出的限制可"
+      "diagram": "graph TD\n    ClimatePolicyUn[\"📄 Climate Policy Uncertainty and Load Capacity Facto\"]\n    style ClimatePolicyUn fill:#2563eb,color:#fff,font-weight:bold\n    vp0核心發現金融發展[\"💡 核心發現：金融發展×CPU 交互項係數顯著為正\"]\n    style vp0核心發現金融發展 fill:#fef3c7,stroke:#d97706\n    ClimatePolicyUn --> vp0核心發現金融發展"
     }
   ]
 }
