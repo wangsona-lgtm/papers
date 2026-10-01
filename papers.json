@@ -1,6 +1,6 @@
 {
   "total": 112,
-  "updated": "2026-09-30 20:30:11",
+  "updated": "2026-10-01 20:30:21",
   "topics": [
     "AI/科技",
     "其他",
@@ -40,7 +40,7 @@
       "pdf": "pdfs/Shi_Guo_2025_RIBAF_multifractal_bonds.pdf",
       "notes": "## 📋 Summary\n從 multifractal 視角探討 EPU、GPR、VIX、OVX 四種不確定性對綠色債券與傳統債券市場的差異化影響。使用 MF-ADCCA（不對稱多重分形去趨勢互相關分析）與 risk-conduction MF-DCCA，樣本 2016-07-05 至 2023-02-27 共 1,568 筆日資料。\n\n## 🔑 Variables\n- **不確定性指標**: EPU（經濟政策不確定性）、GPR（地緣政治風險）、VIX（市場波動）、OVX（原油波動）\n- **債券市場**: SPGB（S&P 綠色債券指數）、SPCB（S&P 傳統債券指數）\n\n## 📊 Data Sources\n- EPU/GPR: policyuncertainty.com\n- VIX/OVX: investing.com\n- SPGB/SPCB: spglobal.com\n\n## 🛠️ Methodology\n- MF-ADCCA: 不對稱多重分形去趨勢互相關分析（Cao et al., 2014）\n- MF-DCCA with risk conduction: 基於風險傳導的多重分形去趨勢互相關分析（Cao et al., 2017; Cao & Zhou, 2019）\n- 穩健性: Legendre 變換取得 multifractal spectrum\n\n## 🎯 Key Findings\n1. **不確定性與債券市場間的 multifractal 相關性存在異質性**，取決於不確定性領域、債券類型、時間序列趨勢和波動大小\n2. **大型波動是 multifractal 的主要來源**；小型波動下相關性較弱\n3. **債券市場必須關注經濟與地緣政治領域的風險**（EPU/GPR 上升→債券價格下跌，antipersistent），而在市場與能源領域可規避風險（VIX/OVX 上升→資金逃往債券，persistent）\n4. **綠色債券普遍比傳統債券更具風險規避能力**：在不確定性上升時（向上趨勢），綠債的 antipersistence 較弱（下跌幅度較小）\n5. 風險傳導方向：VIX→債券市場（短期），EPU←→債券市場（長期雙向），GPR 主要受債券市場傳導\n\n## 📐 RIBAF 寫作特徵\n- Section 2 不叫 Literature Review，而是 \"The relationship between uncertainties and bond markets\"（主題式回顧）\n- Introduction 最後一段給出 paper structure 導航\n- Discussion (Section 5) 獨立於 Conclusion (Section 6)\n- Discussion 回答「為什麼」：Why do green bonds differ? Why do different uncertainties have diverse relationships?\n- 少用 \"we\"，多用 \"this study\"、\"the results reveal\"\n- 圖表極豐富：Fig 1-16，Table 1-4\n\n## 💡 投稿參考價值\n這篇是綠債×不確定性投稿 RIBAF 的經典模板。如果你的文章用 QVAR/TVP-VAR 分析多重風險對綠債/傳統債券的影響，這篇的架構可以直接借鏡，特別是 Section 2 主題式回顧 + Section 5 獨立 Discussion 的結構。",
       "type": "upload",
-      "id": "upload-2026-07-11-7740",
+      "id": "upload-2026-07-11-722",
       "diagram": "graph TD\n    Differentialimp[\"📄 Differential impact of multiple risks on green and\"]\n    style Differentialimp fill:#2563eb,color:#fff,font-weight:bold"
     },
     {
@@ -67,7 +67,7 @@
       "pdf": "pdfs/MosionekSchweda_Chylinska_2026_RIBAF_ESG_futures.pdf",
       "notes": "## 📋 Summary\n使用 wavelet coherence 與 GARCH 模型分析 ESG 期貨與傳統指數期貨的波動性及與不確定性指標（VIX、GPR、EPU）的共動關係。樣本 2021-01-02 至 2025-05-23 共 1,145 筆日資料。特別關注 COVID-19 後期、烏克蘭戰爭及 2025 年美國關稅衝擊（Liberation Day）等事件。\n\n## 🔑 Variables\n- **ESG 期貨**: FSEG（STOXX Europe 600 ESG-X）、FSSX（EURO STOXX 50 ESG）、ESG（E-mini S&P 500 ESG）\n- **傳統期貨**: FXXP（STOXX 600）、STTX（EURO STOXX 50）、ES（E-mini S&P 500）\n- **不確定性指標**: VIX（CBOE 波動率）、GPR（地緣政治風險）、EPU（經濟政策不確定性）\n\n## 📊 Data Sources\n- LSEG Workspace（通過 University of Gdańsk 合作協議）\n- GPR: matteoiacoviello.com/gpr.htm\n- EPU: FRED\n\n## 🛠️ Methodology\n- Wavelet coherence（Morlet + Paul 兩種 mother wavelet 穩健性檢驗）\n- Univariate GARCH（波動聚類與持續性）\n- GARCH-X（加入 ΔVIX 為外生變數）\n- Rolling Spearman correlation（30/60/120 天窗口）\n- Decile-based correlation（分位數條件相關）\n\n## 🎯 Key Findings\n1. **H1 ✓**: ESG 與非 ESG 期貨高度正相關（Spearman ρ=0.91-0.996），但對不確定性衝擊的反應不同\n2. **H2 ✓**: VIX 對期貨報酬的影響最強且最一致；GPR 和 EPU 的影響較弱且不穩定\n3. **H3 部分支持**: ESG 期貨的波動持續性略低於傳統期貨（GARCH β 係數差異），顯示相對韌性，但並非 safe haven\n4. **H4 ✓**: 烏克蘭戰爭（2022）和 2025 美國關稅衝擊（4 月 Liberation Day）顯著增加波動性；2025 關稅事件是樣本期內波動最大的事件\n5. ESG 期貨不應被歸類為 safe haven，但提供差異化的波動動態\n\n## 🏛️ 事件驅動分析\n- **2022 烏克蘭戰爭**: 2021 年底至 2023 年中波動升高，與通膨飆升及美歐連續升息相關\n- **2025/4/2 Liberation Day**: Trump 簽署 10% 基礎關稅 + 對歐盟 20%、中國 34% 的對等關稅；ESG 和 ES 期貨波動在 4/10-11 達到樣本期間最高點\n\n## 📐 RIBAF 寫作特徵（與 Shi & Guo 差異）\n- Data 獨立成 Section 3（Shi 是把 data 放 Section 4.1）\n- 明確提出 4 組假設 H1-H4，並在 Conclusion 逐一驗證\n- Conclusion 極長：發現摘要→假設驗證→貢獻（First/Second/Third/Fourth）→政策意涵→限制→未來研究\n- 使用 \"our paper\"、\"we\"（比 Shi 更個人化）\n- 引用 2025 年即時事件，證明 RIBAF 接受時效性強的事件分析\n- Limitations 寫得誠實：wavelet 不證明因果、2025 關稅為短期事件、建議未來用 DCC-MGARCH\n\n## 💡 投稿參考價值\n這篇證明 RIBAF 接受 explicit hypotheses + 事件驅動框架 + 多方法穩健性檢驗。如果你的文章有明確的假設檢定 + 用 TVP-VAR 捕捉時變關係 + QVAR 做分位數條件分析，可以同時借鏡兩篇的優點：Shi 的主題式文獻回顧 + Mosionek-Schweda 的假設結構和事件分析。",
       "type": "upload",
-      "id": "upload-2026-07-11-5070",
+      "id": "upload-2026-07-11-2270",
       "diagram": "graph TD\n    Volatilityandco[\"📄 Volatility and co-movement between ESG and non-ESG\"]\n    style Volatilityandco fill:#2563eb,color:#fff,font-weight:bold"
     },
     {
@@ -1014,7 +1014,7 @@
         "來源：Mayer et al. arXiv 全文、Jiang et al. MDPI 全文、Wiley/Elsevier 頁面"
       ],
       "type": "upload",
-      "id": "upload-2026-07-06-8663",
+      "id": "upload-2026-07-06-8599",
       "diagram": "graph TD\n    精讀筆記方法論核心5篇高引用[\"📄 精讀筆記：方法論核心 5 篇 + 高引用實證 5 篇\"]\n    style 精讀筆記方法論核心5篇高引用 fill:#2563eb,color:#fff,font-weight:bold"
     },
     {
@@ -1064,7 +1064,7 @@
         "【限制】僅12國、未納碳價與政治風險、未考慮非線性與門檻效應、IQ多維度未拆解"
       ],
       "type": "upload",
-      "id": "upload-2026-06-30-8661",
+      "id": "upload-2026-06-30-8251",
       "viewpoints": [
         {
           "claim": "FD → REC",
@@ -1193,7 +1193,7 @@
         "【限制】僅G20不可外推；Baron&Kenny檢定力較低；年資料無法捕捉短期動態；未控制各國環境法規差異"
       ],
       "type": "upload",
-      "id": "upload-2026-06-30-3799",
+      "id": "upload-2026-06-30-7182",
       "viewpoints": [
         {
           "claim": "GHGE → EG",
@@ -1334,7 +1334,7 @@
         "【限制】僅OECD、專利指標未必反映技術擴散與採用、消費基礎排放有量測誤差"
       ],
       "type": "upload",
-      "id": "upload-2026-06-30-1292",
+      "id": "upload-2026-06-30-715",
       "viewpoints": [
         {
           "claim": "LPAT → CO2gap",
@@ -1462,7 +1462,7 @@
         "【限制】僅土耳其單國、結果不可外推、年轉季資料可能有測量誤差"
       ],
       "type": "upload",
-      "id": "upload-2026-06-30-1014",
+      "id": "upload-2026-06-30-2158",
       "viewpoints": [
         {
           "claim": "EGI → CO",
@@ -1561,7 +1561,7 @@
         "arXiv q-fin new 2026-06"
       ],
       "type": "upload",
-      "id": "upload-2026-06-23-4003",
+      "id": "upload-2026-06-23-8977",
       "viewpoints": [
         {
           "claim": "order → concave impact trajectory\narXi",
@@ -1596,7 +1596,7 @@
         "arXiv q-fin new 2026-06"
       ],
       "type": "upload",
-      "id": "upload-2026-06-23-3618",
+      "id": "upload-2026-06-23-3581",
       "viewpoints": [
         {
           "claim": "tower property → semigroup law",
@@ -1639,7 +1639,7 @@
         "arXiv q-fin new 2026-06"
       ],
       "type": "upload",
-      "id": "upload-2026-06-23-1418",
+      "id": "upload-2026-06-23-1694",
       "viewpoints": [
         {
           "claim": "entropy duality → risk-sensitive",
@@ -1650,6 +1650,104 @@
         }
       ],
       "diagram": "graph TD\n    ReinforcementLe[\"📄 Reinforcement Learning for Risk-Sensitive Investme\"]\n    style ReinforcementLe fill:#2563eb,color:#fff,font-weight:bold\n    vp0entropydu[\"💡 entropy duality → risk-sensitive\"]\n    style vp0entropydu fill:#fef3c7,stroke:#d97706\n    ReinforcementLe --> vp0entropydu\n    entropyduality-->|\"risk-sensitive\"|risksensitive"
+    },
+    {
+      "title": "The interplay of financial development, oil prices, and CO2 emissions in shaping renewable energy consumption in emerging nations: An evidence from panel quantile regression",
+      "authors": "Arsh, Liaqat, Batool & Khan",
+      "year": "2025",
+      "journal": "Vol. 3 No. 4 (2025)",
+      "doi": "",
+      "date": "2026-06-16",
+      "tags": [
+        "PQR",
+        "MMQR",
+        "FMOLS",
+        "quantile",
+        "REC"
+      ],
+      "topics": [
+        "潔淨能源",
+        "能源市場",
+        "金融市場"
+      ],
+      "pdf": "uploads/Arsh_FD_Oil_REC_Quantile_2025.pdf",
+      "notes": [
+        "22 emerging economies, 2005-2021",
+        "PQR(Powell 2016) + MMQR(Machado & Silva 2019) 雙重分位數",
+        "FD→REC+, Oil price 不對稱(低分位- 高分位+)",
+        "FDI→REC+, CO2→REC-(高分位)"
+      ],
+      "type": "upload",
+      "id": "upload-2026-06-16-5577",
+      "viewpoints": [
+        {
+          "claim": "FD → REC+",
+          "evidence": "FD對REC+的影響",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "FDI → REC+",
+          "evidence": "FDI對REC+的影響",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "CO2 → REC-",
+          "evidence": "CO2對REC-的影響",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    Theinterplayoff[\"📄 The interplay of financial development, oil prices\"]\n    style Theinterplayoff fill:#2563eb,color:#fff,font-weight:bold\n    vp0FDREC[\"💡 FD → REC+\"]\n    style vp0FDREC fill:#fef3c7,stroke:#d97706\n    Theinterplayoff --> vp0FDREC\n    vp1FDIREC[\"💡 FDI → REC+\"]\n    style vp1FDIREC fill:#fef3c7,stroke:#d97706\n    Theinterplayoff --> vp1FDIREC\n    vp2CO2REC[\"💡 CO2 → REC-\"]\n    style vp2CO2REC fill:#fef3c7,stroke:#d97706\n    Theinterplayoff --> vp2CO2REC\n    FD-->|\"REC+\"|REC\n    FDI-->|\"REC+\"|REC1\n    CO2-->|\"REC-\"|REC2"
+    },
+    {
+      "title": "The nexus between climate policy uncertainty and load capacity factor in China with the moderating role of financial development",
+      "authors": "Özbek, Şahin & Bayar",
+      "year": "2026",
+      "journal": "Discover Sustainability",
+      "doi": "10.1007/s43621-026-03409-0",
+      "date": "2026-06-16",
+      "tags": [
+        "A-ARDL",
+        "FMOLS",
+        "DOLS",
+        "LCF",
+        "CPU"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "碳市場/碳交易"
+      ],
+      "pdf": "uploads/CPU_LCF_China_Ozbek_2026.pdf",
+      "notes": [
+        "A-ARDL + FMOLS + DOLS 三種方法互補驗證",
+        "1990-2021, 中國",
+        "FD 和 CPU 各自降低環境品質，但交互項 FD×CPU 改善環境品質",
+        "FD 在不確定時期可透過三渠道維持綠色投資"
+      ],
+      "type": "upload",
+      "id": "upload-2026-06-16-3171",
+      "viewpoints": [
+        {
+          "claim": "FD 和 CPU 各自降低環境品質",
+          "evidence": "FD 和 CPU 各自對環境品質的影響：降低",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "但交互項 FD×CPU改善環境品質",
+          "evidence": "但交互項 FD×CPU對環境品質的影響：改善",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    Thenexusbetween[\"📄 The nexus between climate policy uncertainty and l\"]\n    style Thenexusbetween fill:#2563eb,color:#fff,font-weight:bold\n    vp0FD和CPU各[\"💡 FD 和 CPU 各自降低環境品質\"]\n    style vp0FD和CPU各 fill:#fef3c7,stroke:#d97706\n    Thenexusbetween --> vp0FD和CPU各\n    vp1但交互項FDCP[\"💡 但交互項 FD×CPU改善環境品質\"]\n    style vp1但交互項FDCP fill:#fef3c7,stroke:#d97706\n    Thenexusbetween --> vp1但交互項FDCP\n    FD和CPU各自--x|\"降低\"|環境品質\n    但交互項FDCPU==>|\"改善\"|環境品質1"
     },
     {
       "title": "Sustainable energy transition toward a zero-carbon future in major Global South economies: Roles of green innovation, institutions, and geopolitical risk",
@@ -1678,7 +1776,7 @@
         "SDG-7 進展取決於技術能力+制度韌性"
       ],
       "type": "upload",
-      "id": "upload-2026-06-16-8531",
+      "id": "upload-2026-06-16-2274",
       "viewpoints": [
         {
           "claim": "GRI → ENT",
@@ -1731,7 +1829,7 @@
         "首篇聯合分析EF+MF驅動因子於G7"
       ],
       "type": "upload",
-      "id": "upload-2026-06-16-5887",
+      "id": "upload-2026-06-16-1597",
       "viewpoints": [
         {
           "claim": "ARDL\nGDP → EF↑ MF↑（正向）",
@@ -1765,104 +1863,6 @@
       "diagram": "graph TD\n    Assessingtheeff[\"📄 Assessing the effects of green innovation, renewab\"]\n    style Assessingtheeff fill:#2563eb,color:#fff,font-weight:bold\n    vp0ARDLGDP[\"💡 ARDL\nGDP → EF↑ MF↑（正向）\"]\n    style vp0ARDLGDP fill:#fef3c7,stroke:#d97706\n    Assessingtheeff --> vp0ARDLGDP\n    vp1EPSEF[\"💡 EPS → EF↓（負向）\"]\n    style vp1EPSEF fill:#fef3c7,stroke:#d97706\n    Assessingtheeff --> vp1EPSEF\n    vp2REEFG[\"💡 RE → EF↓\nGI→MF↑（正向）\"]\n    style vp2REEFG fill:#fef3c7,stroke:#d97706\n    Assessingtheeff --> vp2REEFG\n    vp3首篇聯合分析EFM[\"💡 首篇聯合分析EF+MF驅動因子於G7\"]\n    style vp3首篇聯合分析EFM fill:#fef3c7,stroke:#d97706\n    Assessingtheeff --> vp3首篇聯合分析EFM\n    ARDLGDP==>|\"EF↑ MF↑\"|EFMF\n    EPS--x|\"EF↓\"|EF\n    RE--x|\"EF↓\nGI→MF↑\"|EFGIMF\n    首篇聯合分析EFMF==>|\"驅動\"|因子於G7"
     },
     {
-      "title": "The interplay of financial development, oil prices, and CO2 emissions in shaping renewable energy consumption in emerging nations: An evidence from panel quantile regression",
-      "authors": "Arsh, Liaqat, Batool & Khan",
-      "year": "2025",
-      "journal": "Vol. 3 No. 4 (2025)",
-      "doi": "",
-      "date": "2026-06-16",
-      "tags": [
-        "PQR",
-        "MMQR",
-        "FMOLS",
-        "quantile",
-        "REC"
-      ],
-      "topics": [
-        "潔淨能源",
-        "能源市場",
-        "金融市場"
-      ],
-      "pdf": "uploads/Arsh_FD_Oil_REC_Quantile_2025.pdf",
-      "notes": [
-        "22 emerging economies, 2005-2021",
-        "PQR(Powell 2016) + MMQR(Machado & Silva 2019) 雙重分位數",
-        "FD→REC+, Oil price 不對稱(低分位- 高分位+)",
-        "FDI→REC+, CO2→REC-(高分位)"
-      ],
-      "type": "upload",
-      "id": "upload-2026-06-16-4484",
-      "viewpoints": [
-        {
-          "claim": "FD → REC+",
-          "evidence": "FD對REC+的影響",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "FDI → REC+",
-          "evidence": "FDI對REC+的影響",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "CO2 → REC-",
-          "evidence": "CO2對REC-的影響",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    Theinterplayoff[\"📄 The interplay of financial development, oil prices\"]\n    style Theinterplayoff fill:#2563eb,color:#fff,font-weight:bold\n    vp0FDREC[\"💡 FD → REC+\"]\n    style vp0FDREC fill:#fef3c7,stroke:#d97706\n    Theinterplayoff --> vp0FDREC\n    vp1FDIREC[\"💡 FDI → REC+\"]\n    style vp1FDIREC fill:#fef3c7,stroke:#d97706\n    Theinterplayoff --> vp1FDIREC\n    vp2CO2REC[\"💡 CO2 → REC-\"]\n    style vp2CO2REC fill:#fef3c7,stroke:#d97706\n    Theinterplayoff --> vp2CO2REC\n    FD-->|\"REC+\"|REC\n    FDI-->|\"REC+\"|REC1\n    CO2-->|\"REC-\"|REC2"
-    },
-    {
-      "title": "The nexus between climate policy uncertainty and load capacity factor in China with the moderating role of financial development",
-      "authors": "Özbek, Şahin & Bayar",
-      "year": "2026",
-      "journal": "Discover Sustainability",
-      "doi": "10.1007/s43621-026-03409-0",
-      "date": "2026-06-16",
-      "tags": [
-        "A-ARDL",
-        "FMOLS",
-        "DOLS",
-        "LCF",
-        "CPU"
-      ],
-      "topics": [
-        "氣候風險/政策",
-        "碳市場/碳交易"
-      ],
-      "pdf": "uploads/CPU_LCF_China_Ozbek_2026.pdf",
-      "notes": [
-        "A-ARDL + FMOLS + DOLS 三種方法互補驗證",
-        "1990-2021, 中國",
-        "FD 和 CPU 各自降低環境品質，但交互項 FD×CPU 改善環境品質",
-        "FD 在不確定時期可透過三渠道維持綠色投資"
-      ],
-      "type": "upload",
-      "id": "upload-2026-06-16-4475",
-      "viewpoints": [
-        {
-          "claim": "FD 和 CPU 各自降低環境品質",
-          "evidence": "FD 和 CPU 各自對環境品質的影響：降低",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "但交互項 FD×CPU改善環境品質",
-          "evidence": "但交互項 FD×CPU對環境品質的影響：改善",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    Thenexusbetween[\"📄 The nexus between climate policy uncertainty and l\"]\n    style Thenexusbetween fill:#2563eb,color:#fff,font-weight:bold\n    vp0FD和CPU各[\"💡 FD 和 CPU 各自降低環境品質\"]\n    style vp0FD和CPU各 fill:#fef3c7,stroke:#d97706\n    Thenexusbetween --> vp0FD和CPU各\n    vp1但交互項FDCP[\"💡 但交互項 FD×CPU改善環境品質\"]\n    style vp1但交互項FDCP fill:#fef3c7,stroke:#d97706\n    Thenexusbetween --> vp1但交互項FDCP\n    FD和CPU各自--x|\"降低\"|環境品質\n    但交互項FDCPU==>|\"改善\"|環境品質1"
-    },
-    {
       "title": "Spillover across varying Regional and Economic Realities: Evaluating the Hedging potential of Demographic Traits",
       "authors": "(待確認作者名 — 稿件 Economies #4380754)",
       "year": "2026",
@@ -1888,7 +1888,7 @@
         "Peer Review 版本，DOI 暫為 xxxxx"
       ],
       "type": "upload",
-      "id": "upload-2026-06-12-1166",
+      "id": "upload-2026-06-12-4509",
       "viewpoints": [
         {
           "claim": "COVID 期間溢散 顯著升高",
@@ -5395,78 +5395,44 @@
       "diagram": "graph TD\n    地緣政治關鍵稀土國防股[\"📄 地緣政治 × 關鍵稀土 × 國防股 — Nonlinear QVAR\"]\n    style 地緣政治關鍵稀土國防股 fill:#2563eb,color:#fff,font-weight:bold\n    vp0研究方法QVAR[\"💡 研究方法：QVAR (Quantile Vector Autoregressio\"]\n    style vp0研究方法QVAR fill:#fef3c7,stroke:#d97706\n    地緣政治關鍵稀土國防股 --> vp0研究方法QVAR\n    vp1研究主題地緣政治[\"💡 研究主題：地緣政治/國防、原物料/商品\"]\n    style vp1研究主題地緣政治 fill:#fef3c7,stroke:#d97706\n    地緣政治關鍵稀土國防股 --> vp1研究主題地緣政治\n    vp2主要變數原油價格[\"💡 主要變數：原油價格 / Oil Price、股價 / Stock Price、地\"]\n    style vp2主要變數原油價格 fill:#fef3c7,stroke:#d97706\n    地緣政治關鍵稀土國防股 --> vp2主要變數原油價格\n    vp3Thisstudy[\"💡 This study examines the nonlinear inform\"]\n    style vp3Thisstudy fill:#fef3c7,stroke:#d97706\n    地緣政治關鍵稀土國防股 --> vp3Thisstudy\n    vp0研究方法QVAR --- vp1研究主題地緣政治\n    vp1研究主題地緣政治 --- vp2主要變數原油價格\n    vp2主要變數原油價格 --- vp3Thisstudy"
     },
     {
-      "title": "Toward Carbon Neutrality in Vietnam: Analyzing the Role of Renewable Energy Consumption and Economic Growth Using Wavelet Coherence and Quantile-on-Quantile Approaches",
-      "authors": "Thuy Bui Minh",
+      "title": "Energy Consumption, Economic Growth, and CO₂ Emissions in GCC Countries: Panel Evidence and the EKC",
+      "authors": "Ben Salah, Arouri, Klibi & Smaoui",
       "year": "2026",
-      "journal": "International Journal of Energy Research (Wiley)",
-      "doi": "10.1155/er/5633215",
+      "journal": "Sustainability (MDPI), 18, 5196",
+      "doi": "10.3390/su18105196",
       "date": "2026-06-05",
-      "tags": [
-        "QQGC"
-      ],
+      "tags": [],
       "topics": [
-        "潔淨能源",
-        "碳市場/碳交易"
+        "碳市場/碳交易",
+        "能源市場",
+        "宏觀總體"
       ],
-      "pdf": "uploads/Vietnam_Carbon_Neutrality_QQR.pdf",
+      "pdf": "uploads/GCC_Energy_CO2_EKC.pdf",
       "notes": [
-        "方法：Wavelet Coherence + QQR（分量對分量迴歸）",
-        "年資料 1985-2023，越南案例",
-        "再生能源提升在中高分量下降低 CO₂",
-        "GDP 成長在不同分量下對 CO₂ 效果不一致"
+        "使用 STIRPAT + 固定效果 panel 模型",
+        "EKC 假說在海灣六國成立",
+        "能源消費是 CO₂ 排放最大驅動因子",
+        "建議 GCC 國家加速再生能源轉型"
       ],
       "type": "upload",
-      "id": "upload-2026-06-05-9817",
+      "id": "upload-2026-06-05-7122",
       "viewpoints": [
         {
-          "claim": "再生能源提升在中高分量下降低CO₂",
-          "evidence": "再生能源提升在中高分量下對CO₂的影響：降低",
+          "claim": "能源消費是 CO₂ 排放最大驅動因子",
+          "evidence": "能源消費是 CO₂ 排放最大對因子的影響：驅動",
           "confidence": "mid",
           "source": "變數關係",
           "connections": []
         },
         {
-          "claim": "研究方法：Wavelet Coherence + QQR（分量對分量迴歸）",
-          "evidence": "Wavelet Coherence + QQR（分量對分量迴歸）",
-          "confidence": "mid",
-          "source": "方法",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    TowardCarbonNeu[\"📄 Toward Carbon Neutrality in Vietnam: Analyzing the\"]\n    style TowardCarbonNeu fill:#2563eb,color:#fff,font-weight:bold\n    vp0再生能源提升在中高分[\"💡 再生能源提升在中高分量下降低CO₂\"]\n    style vp0再生能源提升在中高分 fill:#fef3c7,stroke:#d97706\n    TowardCarbonNeu --> vp0再生能源提升在中高分\n    vp1研究方法Wavel[\"💡 研究方法：Wavelet Coherence + QQR（分量對分量迴歸）\"]\n    style vp1研究方法Wavel fill:#fef3c7,stroke:#d97706\n    TowardCarbonNeu --> vp1研究方法Wavel\n    再生能源提升在中高分量下--x|\"降低\"|CO\n    vp0再生能源提升在中高分 --- vp1研究方法Wavel"
-    },
-    {
-      "title": "jQIRF / jQFEVD — 聯合分量脈衝響應函數 & 聯合分量預測誤差變異數分解（方法論文）",
-      "authors": "Thomas F. P. Wiesen, Paul M. Beaumont",
-      "year": "2023",
-      "journal": "Empirical Economics",
-      "doi": "10.1007/s00181-023-02496-6",
-      "date": "2026-06-05",
-      "tags": [
-        "jQIRF",
-        "jQFEVD"
-      ],
-      "topics": [
-        "方法論"
-      ],
-      "pdf": "",
-      "notes": [
-        "jIRF：所有變數同時受相關衝擊的聯合反應路徑",
-        "jFEVD：所有變數同時衝擊對預測誤差的聯合貢獻",
-        "延伸應用於中國航空股波動（Transport Research 2024）"
-      ],
-      "type": "upload",
-      "id": "upload-2026-06-05-8882",
-      "viewpoints": [
-        {
-          "claim": "jFEVD：所有變數同時衝擊對預測誤差的聯合貢獻",
-          "evidence": "jFEVD：所有變數同時衝擊對預測誤差的聯合貢獻",
+          "claim": "建議 GCC 國家加速再生能源轉型",
+          "evidence": "建議 GCC 國家加速再生能源轉型",
           "confidence": "mid",
           "source": "陳述",
           "connections": []
         }
       ],
-      "diagram": "graph TD\n    jQIRFjQFEVD聯合分[\"📄 jQIRF / jQFEVD — 聯合分量脈衝響應函數 & 聯合分量預測誤差變異數分解（方法論文）\"]\n    style jQIRFjQFEVD聯合分 fill:#2563eb,color:#fff,font-weight:bold\n    vp0jFEVD所有變數[\"💡 jFEVD：所有變數同時衝擊對預測誤差的聯合貢獻\"]\n    style vp0jFEVD所有變數 fill:#fef3c7,stroke:#d97706\n    jQIRFjQFEVD聯合分 --> vp0jFEVD所有變數"
+      "diagram": "graph TD\n    EnergyConsumpti[\"📄 Energy Consumption, Economic Growth, and CO₂ Emiss\"]\n    style EnergyConsumpti fill:#2563eb,color:#fff,font-weight:bold\n    vp0能源消費是CO[\"💡 能源消費是 CO₂ 排放最大驅動因子\"]\n    style vp0能源消費是CO fill:#fef3c7,stroke:#d97706\n    EnergyConsumpti --> vp0能源消費是CO\n    vp1建議GCC國家加[\"💡 建議 GCC 國家加速再生能源轉型\"]\n    style vp1建議GCC國家加 fill:#fef3c7,stroke:#d97706\n    EnergyConsumpti --> vp1建議GCC國家加\n    能源消費是CO排放最大==>|\"驅動\"|因子\n    vp0能源消費是CO --- vp1建議GCC國家加"
     },
     {
       "title": "Renewable Energy, Institutional Quality & EKC Dynamics in Developing Countries",
@@ -5488,7 +5454,7 @@
         "制度品質調節 EKC 形狀和轉折點"
       ],
       "type": "upload",
-      "id": "upload-2026-06-05-856",
+      "id": "upload-2026-06-05-6498",
       "viewpoints": [
         {
           "claim": "制度品質調節EKC 形狀和轉折點",
@@ -5528,7 +5494,7 @@
         "控制 EPU（經濟政策不確定性）、原油價格"
       ],
       "type": "upload",
-      "id": "upload-2026-06-05-8495",
+      "id": "upload-2026-06-05-6433",
       "viewpoints": [
         {
           "claim": "CPU → REC",
@@ -5546,6 +5512,39 @@
         }
       ],
       "diagram": "graph TD\n    ClimatePolicyUn[\"📄 Climate Policy Uncertainty and Renewable Energy Co\"]\n    style ClimatePolicyUn fill:#2563eb,color:#fff,font-weight:bold\n    vp0CPUREC[\"💡 CPU → REC\"]\n    style vp0CPUREC fill:#fef3c7,stroke:#d97706\n    ClimatePolicyUn --> vp0CPUREC\n    vp1控制EPU經濟政[\"💡 控制 EPU（經濟政策不確定性）、原油價格\"]\n    style vp1控制EPU經濟政 fill:#fef3c7,stroke:#d97706\n    ClimatePolicyUn --> vp1控制EPU經濟政\n    CPU-->|\"REC\"|REC\n    vp0CPUREC --- vp1控制EPU經濟政"
+    },
+    {
+      "title": "jQIRF / jQFEVD — 聯合分量脈衝響應函數 & 聯合分量預測誤差變異數分解（方法論文）",
+      "authors": "Thomas F. P. Wiesen, Paul M. Beaumont",
+      "year": "2023",
+      "journal": "Empirical Economics",
+      "doi": "10.1007/s00181-023-02496-6",
+      "date": "2026-06-05",
+      "tags": [
+        "jQIRF",
+        "jQFEVD"
+      ],
+      "topics": [
+        "方法論"
+      ],
+      "pdf": "",
+      "notes": [
+        "jIRF：所有變數同時受相關衝擊的聯合反應路徑",
+        "jFEVD：所有變數同時衝擊對預測誤差的聯合貢獻",
+        "延伸應用於中國航空股波動（Transport Research 2024）"
+      ],
+      "type": "upload",
+      "id": "upload-2026-06-05-4482",
+      "viewpoints": [
+        {
+          "claim": "jFEVD：所有變數同時衝擊對預測誤差的聯合貢獻",
+          "evidence": "jFEVD：所有變數同時衝擊對預測誤差的聯合貢獻",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    jQIRFjQFEVD聯合分[\"📄 jQIRF / jQFEVD — 聯合分量脈衝響應函數 & 聯合分量預測誤差變異數分解（方法論文）\"]\n    style jQIRFjQFEVD聯合分 fill:#2563eb,color:#fff,font-weight:bold\n    vp0jFEVD所有變數[\"💡 jFEVD：所有變數同時衝擊對預測誤差的聯合貢獻\"]\n    style vp0jFEVD所有變數 fill:#fef3c7,stroke:#d97706\n    jQIRFjQFEVD聯合分 --> vp0jFEVD所有變數"
     },
     {
       "title": "Does China's CETS Enhance ESG Performance in Construction Enterprises?",
@@ -5568,7 +5567,7 @@
         "異質性：僅國有企業與東部地區顯著"
       ],
       "type": "upload",
-      "id": "upload-2026-06-05-410",
+      "id": "upload-2026-06-05-4007",
       "viewpoints": [
         {
           "claim": "CETS 使營造企業 ESG 分數提高約 0.30 分",
@@ -5602,46 +5601,6 @@
       "diagram": "graph TD\n    DoesChinasCETSE[\"📄 Does China's CETS Enhance ESG Performance in Const\"]\n    style DoesChinasCETSE fill:#2563eb,color:#fff,font-weight:bold\n    vp0CETS使營造企業[\"💡 CETS 使營造企業 ESG 分數提高約 0.30 分\"]\n    style vp0CETS使營造企業 fill:#fef3c7,stroke:#d97706\n    DoesChinasCETSE --> vp0CETS使營造企業\n    vp1政府補貼正向調節政策[\"💡 政府補貼正向調節政策效果\"]\n    style vp1政府補貼正向調節政策 fill:#fef3c7,stroke:#d97706\n    DoesChinasCETSE --> vp1政府補貼正向調節政策\n    vp2綠色技術創新中介效果[\"💡 綠色技術創新中介效果 5.9%（部分中介）\"]\n    style vp2綠色技術創新中介效果 fill:#fef3c7,stroke:#d97706\n    DoesChinasCETSE --> vp2綠色技術創新中介效果\n    vp3異質性僅國有企業與[\"💡 異質性：僅國有企業與東部地區顯著\"]\n    style vp3異質性僅國有企業與 fill:#fef3c7,stroke:#d97706\n    DoesChinasCETSE --> vp3異質性僅國有企業與\n    CETS使營造企業ESG==>|\"提高\"|約030分\n    政府補貼正向-->|\"調節\"|政策效果"
     },
     {
-      "title": "Energy Consumption, Economic Growth, and CO₂ Emissions in GCC Countries: Panel Evidence and the EKC",
-      "authors": "Ben Salah, Arouri, Klibi & Smaoui",
-      "year": "2026",
-      "journal": "Sustainability (MDPI), 18, 5196",
-      "doi": "10.3390/su18105196",
-      "date": "2026-06-05",
-      "tags": [],
-      "topics": [
-        "碳市場/碳交易",
-        "能源市場",
-        "宏觀總體"
-      ],
-      "pdf": "uploads/GCC_Energy_CO2_EKC.pdf",
-      "notes": [
-        "使用 STIRPAT + 固定效果 panel 模型",
-        "EKC 假說在海灣六國成立",
-        "能源消費是 CO₂ 排放最大驅動因子",
-        "建議 GCC 國家加速再生能源轉型"
-      ],
-      "type": "upload",
-      "id": "upload-2026-06-05-4043",
-      "viewpoints": [
-        {
-          "claim": "能源消費是 CO₂ 排放最大驅動因子",
-          "evidence": "能源消費是 CO₂ 排放最大對因子的影響：驅動",
-          "confidence": "mid",
-          "source": "變數關係",
-          "connections": []
-        },
-        {
-          "claim": "建議 GCC 國家加速再生能源轉型",
-          "evidence": "建議 GCC 國家加速再生能源轉型",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    EnergyConsumpti[\"📄 Energy Consumption, Economic Growth, and CO₂ Emiss\"]\n    style EnergyConsumpti fill:#2563eb,color:#fff,font-weight:bold\n    vp0能源消費是CO[\"💡 能源消費是 CO₂ 排放最大驅動因子\"]\n    style vp0能源消費是CO fill:#fef3c7,stroke:#d97706\n    EnergyConsumpti --> vp0能源消費是CO\n    vp1建議GCC國家加[\"💡 建議 GCC 國家加速再生能源轉型\"]\n    style vp1建議GCC國家加 fill:#fef3c7,stroke:#d97706\n    EnergyConsumpti --> vp1建議GCC國家加\n    能源消費是CO排放最大==>|\"驅動\"|因子\n    vp0能源消費是CO --- vp1建議GCC國家加"
-    },
-    {
       "title": "Climate Policy Uncertainty and Load Capacity Factor in China",
       "authors": "Özbek, Şahin & Bayar",
       "year": "2026",
@@ -5663,7 +5622,7 @@
         "A-ARDL 共整合檢定 + Fourier KPSS 結構斷點單根檢定"
       ],
       "type": "upload",
-      "id": "upload-2026-06-05-1952",
+      "id": "upload-2026-06-05-368",
       "viewpoints": [
         {
           "claim": "核心發現：金融發展×CPU 交互項係數顯著為正",
@@ -5674,6 +5633,47 @@
         }
       ],
       "diagram": "graph TD\n    ClimatePolicyUn[\"📄 Climate Policy Uncertainty and Load Capacity Facto\"]\n    style ClimatePolicyUn fill:#2563eb,color:#fff,font-weight:bold\n    vp0核心發現金融發展[\"💡 核心發現：金融發展×CPU 交互項係數顯著為正\"]\n    style vp0核心發現金融發展 fill:#fef3c7,stroke:#d97706\n    ClimatePolicyUn --> vp0核心發現金融發展"
+    },
+    {
+      "title": "Toward Carbon Neutrality in Vietnam: Analyzing the Role of Renewable Energy Consumption and Economic Growth Using Wavelet Coherence and Quantile-on-Quantile Approaches",
+      "authors": "Thuy Bui Minh",
+      "year": "2026",
+      "journal": "International Journal of Energy Research (Wiley)",
+      "doi": "10.1155/er/5633215",
+      "date": "2026-06-05",
+      "tags": [
+        "QQGC"
+      ],
+      "topics": [
+        "潔淨能源",
+        "碳市場/碳交易"
+      ],
+      "pdf": "uploads/Vietnam_Carbon_Neutrality_QQR.pdf",
+      "notes": [
+        "方法：Wavelet Coherence + QQR（分量對分量迴歸）",
+        "年資料 1985-2023，越南案例",
+        "再生能源提升在中高分量下降低 CO₂",
+        "GDP 成長在不同分量下對 CO₂ 效果不一致"
+      ],
+      "type": "upload",
+      "id": "upload-2026-06-05-2578",
+      "viewpoints": [
+        {
+          "claim": "再生能源提升在中高分量下降低CO₂",
+          "evidence": "再生能源提升在中高分量下對CO₂的影響：降低",
+          "confidence": "mid",
+          "source": "變數關係",
+          "connections": []
+        },
+        {
+          "claim": "研究方法：Wavelet Coherence + QQR（分量對分量迴歸）",
+          "evidence": "Wavelet Coherence + QQR（分量對分量迴歸）",
+          "confidence": "mid",
+          "source": "方法",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    TowardCarbonNeu[\"📄 Toward Carbon Neutrality in Vietnam: Analyzing the\"]\n    style TowardCarbonNeu fill:#2563eb,color:#fff,font-weight:bold\n    vp0再生能源提升在中高分[\"💡 再生能源提升在中高分量下降低CO₂\"]\n    style vp0再生能源提升在中高分 fill:#fef3c7,stroke:#d97706\n    TowardCarbonNeu --> vp0再生能源提升在中高分\n    vp1研究方法Wavel[\"💡 研究方法：Wavelet Coherence + QQR（分量對分量迴歸）\"]\n    style vp1研究方法Wavel fill:#fef3c7,stroke:#d97706\n    TowardCarbonNeu --> vp1研究方法Wavel\n    再生能源提升在中高分量下--x|\"降低\"|CO\n    vp0再生能源提升在中高分 --- vp1研究方法Wavel"
     }
   ]
 }
