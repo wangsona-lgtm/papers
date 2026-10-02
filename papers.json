@@ -1,6 +1,6 @@
 {
   "total": 113,
-  "updated": "2026-10-02 17:00:00",
+  "updated": "2026-10-02 20:31:58",
   "topics": [
     "AI/科技",
     "其他",
@@ -31,9 +31,27 @@
       "fulltext_url": "https://link.springer.com/article/10.1007/s43621-026-03592-0",
       "reading_level": "全文精讀",
       "abstract": "本文以因素淨化的 Quantile VAR 連結度，檢驗六類中國環境治理股、綠色電力研發與 S&P Global Clean Energy Index 的尾部風險傳遞。2015 年 1 月至 2024 年 7 月日資料顯示，總連結度在尾部通常高於中位數；下尾主要由大氣治理與固體廢物處理傳送衝擊，中位數由綜合環境治理主導，上尾則水與水處理等部門轉為傳送者。綠色創新與全球潔淨能源多為承接者，壓力期的分散效果減弱。",
-      "tags": ["factor-purged QVAR", "QVAR-GFEVD", "quantile connectedness", "tail risk", "environmental governance", "green innovation"],
-      "topics": ["氣候風險/政策", "潔淨能源", "AI/科技", "金融市場"],
-      "keywords": ["China environmental governance equities", "green power R&D", "S&P Global Clean Energy Index", "tail risk", "portfolio diversification"],
+      "tags": [
+        "factor-purged QVAR",
+        "QVAR-GFEVD",
+        "quantile connectedness",
+        "tail risk",
+        "environmental governance",
+        "green innovation"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "潔淨能源",
+        "AI/科技",
+        "金融市場"
+      ],
+      "keywords": [
+        "China environmental governance equities",
+        "green power R&D",
+        "S&P Global Clean Energy Index",
+        "tail risk",
+        "portfolio diversification"
+      ],
       "type": "search",
       "notes": [
         "【閱讀層級】全文精讀；於 2026-10-02 以出版社合法開放 HTML 全文核對。文章標示 Open Access（CC BY-NC-ND 4.0）；未下載或繞過任何限制。DOI、完整作者、卷號與文章編號已由出版社頁面核驗。OpenAlex 以 DOI 查詢未回傳可核驗紀錄，故不填寫或臆估被引次數。",
@@ -47,7 +65,73 @@
         "【其他限制】中國治理產業指數與全球指數的交易時區、共同全球因子及指數成分變動仍可能影響方向性估計；250 日固定窗與三個分位格點也可能影響動態結果。即使採因子淨化，結果不宜推論具體環境政策的處置效果。",
         "【APA 7】Peng, K., Munir, M., Li, Y., & Mejri, M. (2026). Quantile connectedness analysis of tail risk spillovers between Chinese environmental governance and global alternative energy markets. Discover Sustainability, 7, Article 1615. https://doi.org/10.1007/s43621-026-03592-0",
         "【與美智研究的關聯】4/5。重疊主題為綠色政策／治理、綠色創新與潔淨能源尾部連結；重疊方法為 QVAR、QFEVD、滾動連結度與尾部網路。可借鏡先淨化共同因子、將政策端拆為子產業節點及以 COVID 子樣本壓力測試。主要差異是未直接納入氣候政策不確定性、綠債、TVP-VAR-SV 或 Baruník–Křehlík 頻率分解。可追蹤 Ando 等人的 factor-purged QVAR 與政策—創新—能源傳導文獻。"
-      ]
+      ],
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】全文精讀；於 2026-10-02 以出版社合法開放 HTML 全文核對。文章標示 Open Access（CC BY-NC-ND 4.0）；未下載或繞過任何限制。DOI、完整作者、卷號與文章編號已由出版社頁面核驗。OpenAl…",
+          "evidence": "【閱讀層級】全文精讀；於 2026-10-02 以出版社合法開放 HTML 全文核對。文章標示 Open Access（CC BY-NC-ND 4.0）；未下載或繞過任何限制。DOI、完整作者、卷號與文章編號已由出版社頁面核驗。OpenAlex 以 DOI 查詢未回傳可核驗紀錄，故不填寫或臆估被引次數。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】中國環境治理股是否在不同市場狀態向綠色創新與全球替代能源市場傳遞系統風險？該政策—創新—能源鏈的方向、強度與傳送者角色是否具有尾部異質性？",
+          "evidence": "【研究問題與動機】中國環境治理股是否在不同市場狀態向綠色創新與全球替代能源市場傳遞系統風險？該政策—創新—能源鏈的方向、強度與傳送者角色是否具有尾部異質性？",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【模型與估計】以共同因子淨化後的 QVAR 與廣義預測誤差變異分解衡量 TO、FROM、NET 與 TCI；分位數為 τ=0.10、0.50、0.90，動態估計採 250 日滾動窗。作者明確說明此設計衡量狀態相依的預測誤差連結，不建立結構因…",
+          "evidence": "【模型與估計】以共同因子淨化後的 QVAR 與廣義預測誤差變異分解衡量 TO、FROM、NET 與 TCI；分位數為 τ=0.10、0.50、0.90，動態估計採 250 日滾動窗。作者明確說明此設計衡量狀態相依的預測誤差連結，不建立結構因果。",
+          "confidence": "mid",
+          "source": "數據",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】全樣本下尾連結度通常高於中位數；ATM-G 與 SWT 在下尾是主要傳送者，ENV-G 在中位數為中心傳送者，W&WT 在上尾轉為傳送者。GP-R&D 在 τ=0.10、0.50 為淨接收者（文中報告 −2.07、−12.25）…",
+          "evidence": "【主要結果】全樣本下尾連結度通常高於中位數；ATM-G 與 SWT 在下尾是主要傳送者，ENV-G 在中位數為中心傳送者，W&WT 在上尾轉為傳送者。GP-R&D 在 τ=0.10、0.50 為淨接收者（文中報告 −2.07、−12.25），τ=0.90 轉為輕微傳送者（+1.56）。COVID 子樣本整體 TCI 約為 87.47、87.35、87.51（τ=0.10、0.50、0.90），角色仍隨狀態翻轉；以上為連結性關聯，非結構因果。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【作者提出的限制】作者未設獨立限制段落；結論明確限於量測狀態相依的風險傳遞，而非辨識政策衝擊的因果效果。",
+          "evidence": "【作者提出的限制】作者未設獨立限制段落；結論明確限於量測狀態相依的風險傳遞，而非辨識政策衝擊的因果效果。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【其他限制】中國治理產業指數與全球指數的交易時區、共同全球因子及指數成分變動仍可能影響方向性估計；250 日固定窗與三個分位格點也可能影響動態結果。即使採因子淨化，結果不宜推論具體環境政策的處置效果。",
+          "evidence": "【其他限制】中國治理產業指數與全球指數的交易時區、共同全球因子及指數成分變動仍可能影響方向性估計；250 日固定窗與三個分位格點也可能影響動態結果。即使採因子淨化，結果不宜推論具體環境政策的處置效果。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】4/5。重疊主題為綠色政策／治理、綠色創新與潔淨能源尾部連結；重疊方法為 QVAR、QFEVD、滾動連結度與尾部網路。可借鏡先淨化共同因子、將政策端拆為子產業節點及以 COVID 子樣本壓力測試。主要差異是未直接納入氣候…",
+          "evidence": "【與美智研究的關聯】4/5。重疊主題為綠色政策／治理、綠色創新與潔淨能源尾部連結；重疊方法為 QVAR、QFEVD、滾動連結度與尾部網路。可借鏡先淨化共同因子、將政策端拆為子產業節點及以 COVID 子樣本壓力測試。主要差異是未直接納入氣候政策不確定性、綠債、TVP-VAR-SV 或 Baruník–Křehlík 頻率分解。可追蹤 Ando 等人的 factor-purged QVAR 與政策—創新—能源傳導文獻。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "研究限制：作者未設獨立限制段落；結論明確限於量測狀態相依的風險傳遞，而非辨識政策衝擊的因果效果。",
+          "evidence": "作者未設獨立限制段落；結論明確限於量測狀態相依的風險傳遞，而非辨識政策衝擊的因果效果。",
+          "confidence": "low",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "研究限制：中國治理產業指數與全球指數的交易時區、共同全球因子及指數成分變動仍可能影響方向性估計；250 日固定窗與三個分位格點也可能影響動態結果。即使採因子淨化，結果不宜推論具體環境政策的處置效果。",
+          "evidence": "中國治理產業指數與全球指數的交易時區、共同全球因子及指數成分變動仍可能影響方向性估計；250 日固定窗與三個分位格點也可能影響動態結果。即使採因子淨化，結果不宜推論具體環境政策的處置效果。",
+          "confidence": "low",
+          "source": "研究限制",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    Quantileconnect[\"📄 Quantile connectedness analysis of tail risk spill\"]\n    style Quantileconnect fill:#2563eb,color:#fff,font-weight:bold\n    vp0閱讀層級全文精讀[\"💡 【閱讀層級】全文精讀；於 2026-10-02 以出版社合法開放 HTML 全文\"]\n    style vp0閱讀層級全文精讀 fill:#fef3c7,stroke:#d97706\n    Quantileconnect --> vp0閱讀層級全文精讀\n    vp1研究問題與動機中[\"💡 【研究問題與動機】中國環境治理股是否在不同市場狀態向綠色創新與全球替代能源市場傳\"]\n    style vp1研究問題與動機中 fill:#fef3c7,stroke:#d97706\n    Quantileconnect --> vp1研究問題與動機中\n    vp2模型與估計以共同[\"💡 【模型與估計】以共同因子淨化後的 QVAR 與廣義預測誤差變異分解衡量 TO、F\"]\n    style vp2模型與估計以共同 fill:#fef3c7,stroke:#d97706\n    Quantileconnect --> vp2模型與估計以共同\n    vp3主要結果全樣本下[\"💡 【主要結果】全樣本下尾連結度通常高於中位數；ATM-G 與 SWT 在下尾是主要\"]\n    style vp3主要結果全樣本下 fill:#fef3c7,stroke:#d97706\n    Quantileconnect --> vp3主要結果全樣本下\n    vp4作者提出的限制作[\"💡 【作者提出的限制】作者未設獨立限制段落；結論明確限於量測狀態相依的風險傳遞，而非\"]\n    style vp4作者提出的限制作 fill:#fef3c7,stroke:#d97706\n    Quantileconnect --> vp4作者提出的限制作\n    vp5其他限制中國治理[\"💡 【其他限制】中國治理產業指數與全球指數的交易時區、共同全球因子及指數成分變動仍可\"]\n    style vp5其他限制中國治理 fill:#fef3c7,stroke:#d97706\n    Quantileconnect --> vp5其他限制中國治理\n    vp6與美智研究的關聯[\"💡 【與美智研究的關聯】4/5。重疊主題為綠色政策／治理、綠色創新與潔淨能源尾部連結\"]\n    style vp6與美智研究的關聯 fill:#fef3c7,stroke:#d97706\n    Quantileconnect --> vp6與美智研究的關聯\n    vp7研究限制作者未設獨[\"💡 研究限制：作者未設獨立限制段落；結論明確限於量測狀態相依的風險傳遞，而非辨識政策\"]\n    style vp7研究限制作者未設獨 fill:#fee2e2,stroke:#dc2626\n    Quantileconnect --> vp7研究限制作者未設獨\n    vp8研究限制中國治理產[\"💡 研究限制：中國治理產業指數與全球指數的交易時區、共同全球因子及指數成分變動仍可能\"]\n    style vp8研究限制中國治理產 fill:#fee2e2,stroke:#dc2626\n    Quantileconnect --> vp8研究限制中國治理產\n    vp0閱讀層級全文精讀 --- vp1研究問題與動機中\n    vp1研究問題與動機中 --- vp2模型與估計以共同\n    vp2模型與估計以共同 --- vp3主要結果全樣本下"
     },
     {
       "title": "Differential impact of multiple risks on green and conventional bond markets: Evidence from multifractal analysis",
