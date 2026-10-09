@@ -1,6 +1,6 @@
 {
-  "total": 112,
-  "updated": "2026-10-08 20:30:11",
+  "total": 115,
+  "updated": "2026-10-09 17:15:44",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,154 @@
     "金融市場"
   ],
   "papers": [
+    {
+      "id": "qvar-2026-10-09-cpu-global-climate-risk-energy",
+      "title": "Spillover effect of climate policy uncertainty, global climate risk and energy price index in major countries based on quantile VAR",
+      "search_date": "2026-10-09",
+      "authors": "Zhiyang Liu; Yaoshu Xie",
+      "year": "2026",
+      "journal": "International Review of Economics & Finance, 105, Article 104871",
+      "doi": "https://doi.org/10.1016/j.iref.2025.104871",
+      "citations": "3 次（Crossref，2026-10-09）；OpenAlex DOI 查詢未回傳可核驗紀錄",
+      "openalex_url": "",
+      "fulltext_url": "",
+      "reading_level": "摘要層級",
+      "abstract": "本文將主要國家的氣候政策不確定性、全球氣候風險與能源價格納入 QVAR 架構，從時間與頻率面向比較不同分位數的外溢。摘要指出，中國氣候政策不確定性的整體外溢較突出；低分位短期中全球氣候風險的外溢較高，長期則中國、美國與英國的氣候政策不確定性呈現淨外溢角色。結果描述的是狀態相依的連結性，並非政策效果的因果識別。",
+      "tags": [
+        "QVAR",
+        "quantile connectedness",
+        "frequency decomposition",
+        "climate policy uncertainty",
+        "global climate risk",
+        "energy prices"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "潔淨能源",
+        "能源市場",
+        "金融市場"
+      ],
+      "keywords": [
+        "climate policy uncertainty",
+        "global climate risk",
+        "energy price index",
+        "China",
+        "United States",
+        "United Kingdom"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；於 2026-10-09 以 IDEAS/RePEc 的出版社索引頁與 Crossref DOI 中介資料核對書目和摘要。ScienceDirect 指示需訂閱，故未取得全文、未推論摘要以外的設計細節。OpenAlex DOI 查詢未回傳可核驗紀錄。",
+        "【研究問題與動機】主要國家的氣候政策不確定性、全球氣候風險與能源價格之間，是否在熊市、常態與牛市及不同投資期間出現不對稱外溢？",
+        "【研究變數】主要經濟體的氣候政策不確定性、全球氣候風險與能源價格指數；摘要未完整列出各國、指數名稱與轉換方式。",
+        "【資料／市場／樣本】跨國政策不確定性、全球氣候風險與能源市場；樣本期間、頻率、資料供應者與有效樣本數在可取得摘要中未報告。",
+        "【模型與估計】QVAR 比較條件分位數下的預測誤差連結，並以時間域和頻率域檢視短期與長期外溢；摘要未報告分位格點、落後期、預測期、頻帶與滾動窗。",
+        "【穩健性檢驗】可取得摘要未報告獨立穩健性設計；因此不將不同時間／頻率結果誤列為穩健性檢驗。",
+        "【主要結果】摘要報告中國 CPU 的整體外溢較顯著；低分位短期全球氣候風險外溢較高，而長期中國、美國與英國 CPU 呈明顯淨外溢；高分位短期中氣候風險為明顯淨外溢者、其中中國 CPU 影響最突出。以上為連結度結果，非因果效果。",
+        "【作者提出的限制】可取得摘要未列出作者限制；全文受訂閱限制，無法確認作者是否在內文提出額外限制。",
+        "【其他限制】跨國政策指標的可比性、全球共同衝擊及頻率分解的參數選擇都可能影響方向性結果；沒有結構識別時，不宜將外溢解釋為一國政策造成另一市場變動。",
+        "【APA 7】Liu, Z., & Xie, Y. (2026). Spillover effect of climate policy uncertainty, global climate risk and energy price index in major countries based on quantile VAR. International Review of Economics & Finance, 105, Article 104871. https://doi.org/10.1016/j.iref.2025.104871",
+        "【與美智研究的關聯】5/5。直接重疊氣候政策不確定性、氣候風險、能源金融市場、QVAR 與時頻連結度。可借鏡跨國 CPU 的分位數短長期比較與淨外溢敘事；主要差異是可取得資訊未顯示 TVP-VAR-SV、Baruník–Křehlík 的明確實作、綠色資產或 FRL。可追蹤其引用的 Chatziantoniou et al. (2021) 與 He et al. (2025)。"
+      ]
+    },
+    {
+      "id": "qvar-2026-10-09-physical-transition-risk-green-assets",
+      "title": "Assessing the Impact of Physical and Transition Climate Risks on Clean Energy and Green Bond Markets: A Quantile-on-Quantile Connectedness Analysis",
+      "search_date": "2026-10-09",
+      "authors": "Faycal Chiad",
+      "year": "2026",
+      "journal": "Energy RESEARCH LETTERS, 7 (Early View)",
+      "doi": "https://doi.org/10.46557/001c.156409",
+      "citations": "2 次（Crossref，2026-10-09）；OpenAlex DOI 查詢未回傳可核驗紀錄",
+      "openalex_url": "",
+      "fulltext_url": "https://erl.scholasticahq.com/article/156409-assessing-the-impact-of-physical-and-transition-climate-risks-on-clean-energy-and-green-bond-markets-a-quantile-on-quantile-connectedness-analysis",
+      "reading_level": "全文精讀",
+      "abstract": "本文以量化對量化連結度檢視美國實體氣候風險（天然災害）與轉型風險（氣候政策不確定性）對潔淨能源及綠色債券的影響。2015–2023 年資料顯示關係具有市場別與分位數異質性；作者摘要指出，綠色資產對轉型風險的避險表現較佳。",
+      "tags": [
+        "quantile-on-quantile connectedness",
+        "QVAR",
+        "QFEVD",
+        "climate physical risk",
+        "climate policy uncertainty",
+        "green bonds"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "潔淨能源",
+        "綠債/ESG",
+        "金融市場"
+      ],
+      "keywords": [
+        "S&P Global Clean Energy Index",
+        "S&P Green Bond Index",
+        "natural disasters",
+        "climate policy uncertainty",
+        "United States"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】全文精讀；於 2026-10-09 閱讀期刊合法公開 HTML 與其公開 PDF。書目由期刊頁與 Crossref 核對；OpenAlex DOI 查詢未回傳可核驗紀錄。",
+        "【研究問題與動機】實體氣候風險與轉型風險如何在不同分位數下影響美國潔淨能源與綠色債券，兩種綠色資產是否具有不同的風險緩衝能力？",
+        "【研究變數】潔淨能源為 S&P Global Clean Energy Index；綠債為 S&P Green Bond Index；實體風險為美國天然災害財務損失（ND）；轉型風險為 Gavriilidis (2021) 氣候政策不確定性（CPU）指數。價格指數以報酬建模。",
+        "【資料／市場／樣本】美國市場資料，2015-01-02 至 2023-06-09；潔淨能源與綠債取自 S&P，ND 取自 CRED，CPU 採既有指數。全文未清楚報告最終有效觀測數。",
+        "【模型與估計】採 Gabauer 與 Stenfors (2024) 的 quantile-on-quantile connectedness，在多個條件分位數下估計 QVAR 與廣義預測誤差變異分解，以辨識直接與反向分位關係；全文將 QVAR 寫為條件分位數的向量自迴歸。",
+        "【穩健性檢驗】全文以平均動態總連結度、淨連結度，以及直接／間接相關的動態連結度圖交叉檢視；未見替代資料、替代窗長或不同落後期的系統性敏感度測試。",
+        "【主要結果】作者指出實體與轉型風險對兩類綠色資產的關係具有分位數與市場異質性，並在摘要中稱綠色資產對轉型風險的避險表現較佳。本文未將該關係解讀為氣候風險的結構因果效果。",
+        "【作者提出的限制】全文未見獨立限制段落；研究結論限於美國兩個指數、兩種風險代理與樣本期間。",
+        "【其他限制】天然災害損失與金融市場資料可能有時點／頻率對齊問題；兩個指數未涵蓋所有綠色資產，QQC 描述狀態相依連結，不能取代政策或災害衝擊的因果識別。",
+        "【APA 7】Chiad, F. (2026). Assessing the impact of physical and transition climate risks on clean energy and green bond markets: A quantile-on-quantile connectedness analysis. Energy RESEARCH LETTERS, 7 (Early View). https://doi.org/10.46557/001c.156409",
+        "【與美智研究的關聯】5/5。直接對應實體／轉型氣候風險×潔淨能源／綠債，且以 QQC／QVAR 與 QFEVD 描繪尾部關係。可借鏡風險代理的拆分、直接／反向分位連結和避險詮釋；主要差異為未採 TVP-VAR-SV、Baruník–Křehlík 分頻或 FRL，且只限美國。可追蹤 Gabauer 與 Stenfors (2024) 的 QQC 方法。"
+      ]
+    },
+    {
+      "id": "qvar-2026-10-09-climate-risk-esg-sentiment-clean-energy",
+      "title": "Do climate risk and ESG sentiment predict clean energy performance? Evidence from quantile-on-quantile analysis",
+      "search_date": "2026-10-09",
+      "authors": "Nader Naifar",
+      "year": "2026",
+      "journal": "Research in International Business and Finance, 84, Article 103327",
+      "doi": "https://doi.org/10.1016/j.ribaf.2026.103327",
+      "citations": "4 次（Crossref／OpenAlex，2026-10-09）",
+      "openalex_url": "https://openalex.org/W7125506556",
+      "fulltext_url": "",
+      "reading_level": "摘要層級",
+      "abstract": "本文以單變量與多變量 quantile-on-quantile regression、quantile-on-quantile Granger causality 與 quantile-on-quantile connectedness，檢驗氣候風險、ESG 動能、氣候政策不確定性與投資人注意力對潔淨能源報酬的狀態相依預測。摘要指出，ESG 動能在多頭或低迷後復甦階段的預測力較強，而 CPU 在悲觀和亢奮狀態都呈較強的非線性影響與連結。",
+      "tags": [
+        "quantile-on-quantile regression",
+        "MQQR",
+        "QQGC",
+        "QQC",
+        "climate policy uncertainty",
+        "ESG sentiment"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "潔淨能源",
+        "綠債/ESG",
+        "金融市場"
+      ],
+      "keywords": [
+        "climate risk",
+        "ESG momentum",
+        "investor attention",
+        "clean energy performance",
+        "climate policy uncertainty"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；於 2026-10-09 以 IDEAS/RePEc 的出版社索引頁、Crossref 與 OpenAlex 核對書目與摘要。ScienceDirect 顯示全文需訂閱，故未取得全文、未推論摘要未列出的樣本與參數。",
+        "【研究問題與動機】氣候風險、ESG 情緒、CPU 與投資人注意力能否預測潔淨能源報酬？它們的效果與交互作用是否會隨市場狀態改變？",
+        "【研究變數】潔淨能源市場表現、氣候風險、ESG 動能、CPU 與投資人注意力；可取得摘要未說明各代理變數的資料提供者、指數代碼與轉換。",
+        "【資料／市場／樣本】摘要報告樣本為 2015-05 至 2025-03；市場範圍、資料來源、頻率與有效樣本數未報告。",
+        "【模型與估計】使用單變量 QQR、多變量 MQQR、QQGC 與 QQC，辨識跨分位的預測、因果檢定與連結；摘要未報告分位網格、帶寬、落後期、顯著性處理或樣本外設定。",
+        "【穩健性檢驗】摘要稱 QQGC 與 QQC 用來驗證動態交互關係；由於未取得全文，不能確認是否另有替代樣本或模型的穩健性測試。",
+        "【主要結果】摘要指出 ESG 動能在多頭或下跌後復甦階段最具狀態相依預測力；CPU 在悲觀與亢奮狀態有最強的非線性影響和連結；注意力在極端情緒下具放大角色，而 MQQR 顯示各訊號的交互作用可相互增強或抵銷。這些是條件關聯／預測結果，不等同因果效應。",
+        "【作者提出的限制】可取得摘要未列出作者限制，訂閱限制使其餘設計、限制與資料細節待全文核驗。",
+        "【其他限制】多個情緒與不確定性代理可能共同反映未觀測市場壓力；在未見完整識別策略與模型診斷前，不能把 QQGC 的結果解釋為政策或氣候風險的處置因果效果。",
+        "【APA 7】Naifar, N. (2026). Do climate risk and ESG sentiment predict clean energy performance? Evidence from quantile-on-quantile analysis. Research in International Business and Finance, 84, Article 103327. https://doi.org/10.1016/j.ribaf.2026.103327",
+        "【與美智研究的關聯】4/5。重疊 CPU、氣候風險、ESG 與潔淨能源，方法涵蓋 QQGC／QQC，可補強從預測到連結度的分位詮釋；主要差異是沒有多市場 TVP-VAR-SV、Baruník–Křehlík 分頻或 FRL。可追蹤其引用的 Chatziantoniou et al. (2021) 與 Gabauer、Stenfors (2024)。"
+      ]
+    },
     {
       "title": "Volatility and co-movement between ESG and non-ESG futures and uncertainty indices: Evidence from wavelet coherence and GARCH models",
       "authors": "Mosionek-Schweda, Magdalena; Chylińska, Marta",
