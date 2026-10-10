@@ -1,6 +1,6 @@
 {
-  "total": 115,
-  "updated": "2026-10-09 20:33:58",
+  "total": 119,
+  "updated": "2026-10-10 18:21:43",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,465 @@
     "金融市場"
   ],
   "papers": [
+    {
+      "id": "qvar-2026-10-10-ai-geopolitical-esg-qqc",
+      "title": "Tail-driven interdependence: quantile-on-quantile connectedness among AI-driven economic uncertainty, geopolitical risk, and ESG sustainability shocks",
+      "search_date": "2026-10-10",
+      "authors": "Ayberk Şeker",
+      "year": "2026",
+      "journal": "Economic Change and Restructuring, 59(5), Article 123",
+      "doi": "https://doi.org/10.1007/s10644-026-10071-z",
+      "citations": "0 次（OpenAlex，2026-10-10）",
+      "openalex_url": "https://openalex.org/W7212218750",
+      "fulltext_url": "",
+      "reading_level": "摘要層級",
+      "abstract": "本文以月資料檢視人工智慧經濟不確定性（AIEU）、地緣政治風險（GPR）與 ESG 永續不確定性（ESGUI）的非線性、狀態相依連結。摘要指出尾部分位的外溢明顯高於中位數，三個指標會在高波動期交替成為淨傳送者與淨接收者；短期較受共同全球衝擊影響，中長期則結構性不確定性更重要。",
+      "tags": [
+        "quantile-on-quantile connectedness",
+        "QQC",
+        "geopolitical risk",
+        "ESG uncertainty",
+        "wavelet coherence",
+        "bootstrap"
+      ],
+      "topics": [
+        "地緣政治",
+        "氣候風險/政策",
+        "綠債/ESG",
+        "金融市場"
+      ],
+      "keywords": [
+        "AI economic uncertainty",
+        "geopolitical risk",
+        "ESG sustainability uncertainty",
+        "tail risk",
+        "wavelet coherence"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；於 2026-10-10 以 Springer 正式出版頁、IDEAS/RePEc 與 OpenAlex 核對。Springer 明示為訂閱內容，未繞過付費牆，故只使用摘要與公開書目資訊。OpenAlex 顯示 W7212218750、0 次被引、is_retracted=false。",
+        "【研究問題與動機】AI 經濟不確定性、地緣政治風險與 ESG 永續不確定性之間的風險傳遞，是否隨分位數與時間尺度改變？極端狀態下三者的傳送／接收角色是否重新配置？",
+        "【研究變數】AIEU、GPR 與 ESGUI 三項月度不確定性指標；可取得摘要未報告各指標的計算細節、轉換與資料供應者。",
+        "【資料／市場／樣本】全球不確定性指標；月資料，2015-01 至 2025-06。依期間推算約 126 個月份，但原摘要未報告清理後有效樣本數，故樣本量記為未報告。",
+        "【模型與估計】Quantile-on-Quantile Connectedness（QQC）比較不同衝擊與反應分位組合；另以 wavelet transform coherence、partial wavelet coherence 與 bootstrap 檢查時頻關係與連結架構。摘要未報告分位格點、滾動窗、落後期或預測期。",
+        "【穩健性檢驗】摘要明示採 wavelet coherence、partial wavelet coherence 與 bootstrap；bootstrap 顯示中央分位的連結架構具持續性，且未改變尾部衝擊方向與強度的主要判斷。",
+        "【主要結果】摘要顯示尾部外溢明顯高於中位數；AIEU、GPR 與 ESGUI 在高波動期交替成為淨傳送者與淨接收者。共同全球衝擊在短期較顯著，結構性不確定性在中長期較重要。這些是狀態相依連結，不等同結構因果效果。",
+        "【作者提出的限制】可取得摘要未列作者限制；全文受訂閱限制，無法核對資料建構、參數敏感度與限制段落。",
+        "【其他限制】只有三項月度指標且樣本較短，可能混合共同全球因子；QQC 與 wavelet 描述分布與尺度相依關聯，無法單獨識別 AI、地緣政治或 ESG 不確定性的因果衝擊。",
+        "【APA 7】Şeker, A. (2026). Tail-driven interdependence: Quantile-on-quantile connectedness among AI-driven economic uncertainty, geopolitical risk, and ESG sustainability shocks. Economic Change and Restructuring, 59(5), Article 123. https://doi.org/10.1007/s10644-026-10071-z",
+        "【與美智研究的關聯】4/5。重疊地緣政治／ESG 不確定性、尾部分位連結與時頻異質性，可借鏡 QQ 衝擊—反應狀態矩陣及 wavelet／bootstrap 的補充驗證；主要差異是未納入氣候政策不確定性、能源或綠色資產，也未採 TVP-VAR-SV、BK 分頻或 FRL。可追蹤 Gabauer 與 Stenfors (2024) 的 QQC 方法。"
+      ],
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】摘要層級；於 2026-10-10 以 Springer 正式出版頁、IDEAS/RePEc 與 OpenAlex 核對。Springer 明示為訂閱內容，未繞過付費牆，故只使用摘要與公開書目資訊。OpenAlex 顯示 W7212218750、0 次被引、is_retracted=false。",
+          "evidence": "【閱讀層級】摘要層級；於 2026-10-10 以 Springer 正式出版頁、IDEAS/RePEc 與 OpenAlex 核對。Springer 明示為訂閱內容，未繞過付費牆，故只使用摘要與公開書目資訊。OpenAlex 顯示 W7212218750、0 次被引、is_retracted=false。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】AI 經濟不確定性、地緣政治風險與 ESG 永續不確定性之間的風險傳遞，是否隨分位數與時間尺度改變？極端狀態下三者的傳送／接收角色是否重新配置？",
+          "evidence": "【研究問題與動機】AI 經濟不確定性、地緣政治風險與 ESG 永續不確定性之間的風險傳遞，是否隨分位數與時間尺度改變？極端狀態下三者的傳送／接收角色是否重新配置？",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】AIEU、GPR 與 ESGUI 三項月度不確定性指標；可取得摘要未報告各指標的計算細節、轉換與資料供應者。",
+          "evidence": "【研究變數】AIEU、GPR 與 ESGUI 三項月度不確定性指標；可取得摘要未報告各指標的計算細節、轉換與資料供應者。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】全球不確定性指標；月資料，2015-01 至 2025-06。依期間推算約 126 個月份，但原摘要未報告清理後有效樣本數，故樣本量記為未報告。",
+          "evidence": "【資料／市場／樣本】全球不確定性指標；月資料，2015-01 至 2025-06。依期間推算約 126 個月份，但原摘要未報告清理後有效樣本數，故樣本量記為未報告。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】摘要明示採 wavelet coherence、partial wavelet coherence 與 bootstrap；bootstrap 顯示中央分位的連結架構具持續性，且未改變尾部衝擊方向與強度的主要判斷。",
+          "evidence": "【穩健性檢驗】摘要明示採 wavelet coherence、partial wavelet coherence 與 bootstrap；bootstrap 顯示中央分位的連結架構具持續性，且未改變尾部衝擊方向與強度的主要判斷。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】摘要顯示尾部外溢明顯高於中位數；AIEU、GPR 與 ESGUI 在高波動期交替成為淨傳送者與淨接收者。共同全球衝擊在短期較顯著，結構性不確定性在中長期較重要。這些是狀態相依連結，不等同結構因果效果。",
+          "evidence": "【主要結果】摘要顯示尾部外溢明顯高於中位數；AIEU、GPR 與 ESGUI 在高波動期交替成為淨傳送者與淨接收者。共同全球衝擊在短期較顯著，結構性不確定性在中長期較重要。這些是狀態相依連結，不等同結構因果效果。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【作者提出的限制】可取得摘要未列作者限制；全文受訂閱限制，無法核對資料建構、參數敏感度與限制段落。",
+          "evidence": "【作者提出的限制】可取得摘要未列作者限制；全文受訂閱限制，無法核對資料建構、參數敏感度與限制段落。",
+          "confidence": "low",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【其他限制】只有三項月度指標且樣本較短，可能混合共同全球因子；QQC 與 wavelet 描述分布與尺度相依關聯，無法單獨識別 AI、地緣政治或 ESG 不確定性的因果衝擊。",
+          "evidence": "【其他限制】只有三項月度指標且樣本較短，可能混合共同全球因子；QQC 與 wavelet 描述分布與尺度相依關聯，無法單獨識別 AI、地緣政治或 ESG 不確定性的因果衝擊。",
+          "confidence": "low",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】4/5。重疊地緣政治／ESG 不確定性、尾部分位連結與時頻異質性，可借鏡 QQ 衝擊—反應狀態矩陣及 wavelet／bootstrap 的補充驗證；主要差異是未納入氣候政策不確定性、能源或綠色資產，也未採 TVP-VAR-SV、BK 分頻或 FRL。可追蹤 Gabauer 與 Stenfors (2024) 的 QQC 方法。",
+          "evidence": "【與美智研究的關聯】4/5。重疊地緣政治／ESG 不確定性、尾部分位連結與時頻異質性，可借鏡 QQ 衝擊—反應狀態矩陣及 wavelet／bootstrap 的補充驗證；主要差異是未納入氣候政策不確定性、能源或綠色資產，也未採 TVP-VAR-SV、BK 分頻或 FRL。可追蹤 Gabauer 與 Stenfors (2024) 的 QQC 方法。",
+          "confidence": "low",
+          "source": "陳述",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    qvar20261010aigeopolitic[\"📄 Tail-driven interdependence: quantile-on-quantile connecte\"]\n    style qvar20261010aigeopolitic fill:#2563eb,color:#fff,font-weight:bold\n    n0[\"💡 【閱讀層級】摘要層級；於 2026-10-10 以 Springer 正式出版頁、IDEAS/RePEc 與 \"]\n    qvar20261010aigeopolitic --> n0\n    n1[\"💡 【研究問題與動機】AI 經濟不確定性、地緣政治風險與 ESG 永續不確定性之間的風險傳遞，是否隨分位數與時間尺\"]\n    qvar20261010aigeopolitic --> n1\n    n2[\"💡 【研究變數】AIEU、GPR 與 ESGUI 三項月度不確定性指標；可取得摘要未報告各指標的計算細節、轉換與資\"]\n    qvar20261010aigeopolitic --> n2\n    n3[\"💡 【資料／市場／樣本】全球不確定性指標；月資料，2015-01 至 2025-06。依期間推算約 126 個月份\"]\n    qvar20261010aigeopolitic --> n3"
+    },
+    {
+      "id": "qvar-2026-10-10-ai-fintech-blue-economy",
+      "title": "Quantile–Frequency Connectedness Among Artificial Intelligence, FinTech, and Blue Economy Markets",
+      "search_date": "2026-10-10",
+      "authors": "Imen Jellouli",
+      "year": "2026",
+      "journal": "International Journal of Financial Studies, 14(2), Article 32",
+      "doi": "https://doi.org/10.3390/ijfs14020032",
+      "citations": "0 次（OpenAlex，2026-10-10）",
+      "openalex_url": "https://openalex.org/W7127426356",
+      "fulltext_url": "https://www.mdpi.com/2227-7072/14/2/32",
+      "reading_level": "全文精讀",
+      "abstract": "本文以 quantile–frequency connectedness 比較 AI、FinTech、藍色經濟 ETF 與全球股市的狀態／期限相依外溢。中位、下尾與上尾 TCI 分別為 55.92、73.30、74.06，短期外溢約占四分之三；AI／機器人指數多為主要傳送者，藍色金融工具多為條件式接收者，但 OCEN 在上尾可轉為傳送者。",
+      "tags": [
+        "QVAR",
+        "QFEVD",
+        "Baruník–Křehlík",
+        "quantile-frequency connectedness",
+        "FinTech",
+        "blue finance"
+      ],
+      "topics": [
+        "能源/環境永續",
+        "綠債/ESG",
+        "金融市場"
+      ],
+      "keywords": [
+        "KFTX",
+        "NQROBO",
+        "BJLE",
+        "OCEN",
+        "MSCI World",
+        "STOXX Global ESG Leaders"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】全文精讀；於 2026-10-10 閱讀 MDPI 合法 CC BY 官方 HTML 全文，並以 OpenAlex 核對書目、開放狀態與撤稿狀態。OpenAlex 顯示 W7127426356、0 次被引、is_retracted=false。",
+        "【研究問題與動機】AI／FinTech 的快速資訊與流動性循環，如何與長期環境承諾驅動的藍色金融資產互動？藍色金融是吸收數位創新衝擊的穩定器，還是會在特定市場狀態同步放大風險？",
+        "【研究變數】FinTech 為 KBW NASDAQ Financial Technology Index（KFTX）；AI 為 NASDAQ CTA AI & Robotics Index（NQROBO）；藍色金融為 BJLE 與 OCEN 兩檔 ETF；MSCI World 為全球基準，STOXX Global ESG Leaders 為穩健性基準。皆以日收盤價轉對數報酬。",
+        "【資料／市場／樣本】Refinitiv Datastream 日資料，2021-10-22 至 2025-02-21，涵蓋美國 FinTech、全球 AI／機器人、兩檔藍色主題 ETF 與全球股市。原文未報告資料清理後有效樣本數。",
+        "【模型與估計】採 Chatziantoniou et al. (2022) 的 quantile–frequency connectedness：QVAR、Koop–Pesaran–Shin GFEVD 與 Baruník–Křehlík 頻域分解；比較 τ=.05/.50/.95、短期 1–5 日與長期 5 日以上，動態基準滾動窗為 200 日。",
+        "【穩健性檢驗】替換為 75、100、150 日滾動窗後 TCI、淨連結與成對方向大致一致；另加入 STOXX Global ESG Leaders，以區分藍色金融特有外溢與一般 ESG 共振。",
+        "【主要結果】TCI 由中位數 55.92 升至下尾 73.30、上尾 74.06，兩端約高 18 點；短期外溢約占四分之三。NQROBO 多為主要淨傳送者，KFTX 在壓力期可由接收者轉為傳送者；BJLE 多為淨接收者，OCEN 在上尾會較順循環並轉為傳送者。這些為連結度與共同變動，不是因果效果。",
+        "【作者提出的限制】作者指出未充分處理部門異質性、行為不對稱與政策衝擊；後疫情與地緣政治主導的短樣本可能無法代表長期結構循環，並建議納入更細的藍色金融工具、碳市場、政策不確定性與氣候金融指標。",
+        "【其他限制】藍色 ETF 與 MSCI／ESG 指數都含大型股，連結可能部分源於持股重疊與共同市場因子；只有兩檔藍色 ETF，且研究未做結構因果識別。作者的部分事件敘事應視為關聯性解釋。",
+        "【APA 7】Jellouli, I. (2026). Quantile–frequency connectedness among artificial intelligence, FinTech, and blue economy markets. International Journal of Financial Studies, 14(2), Article 32. https://doi.org/10.3390/ijfs14020032",
+        "【與美智研究的關聯】5/5。直接使用 QVAR／GFEVD、BK 頻域分解與短長期尾部比較，並把永續主題資產與數位創新市場置於同一網路。可借鏡 TCI 數值報告、200 日基準與多窗穩健性；主要差異是研究藍色金融而非 CPU／氣候風險，且未用 TVP-VAR-SV 或 FRL。可追蹤 Chatziantoniou et al. (2022)。"
+      ],
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】全文精讀；於 2026-10-10 閱讀 MDPI 合法 CC BY 官方 HTML 全文，並以 OpenAlex 核對書目、開放狀態與撤稿狀態。OpenAlex 顯示 W7127426356、0 次被引、is_retracted=false。",
+          "evidence": "【閱讀層級】全文精讀；於 2026-10-10 閱讀 MDPI 合法 CC BY 官方 HTML 全文，並以 OpenAlex 核對書目、開放狀態與撤稿狀態。OpenAlex 顯示 W7127426356、0 次被引、is_retracted=false。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】AI／FinTech 的快速資訊與流動性循環，如何與長期環境承諾驅動的藍色金融資產互動？藍色金融是吸收數位創新衝擊的穩定器，還是會在特定市場狀態同步放大風險？",
+          "evidence": "【研究問題與動機】AI／FinTech 的快速資訊與流動性循環，如何與長期環境承諾驅動的藍色金融資產互動？藍色金融是吸收數位創新衝擊的穩定器，還是會在特定市場狀態同步放大風險？",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】FinTech 為 KBW NASDAQ Financial Technology Index（KFTX）；AI 為 NASDAQ CTA AI & Robotics Index（NQROBO）；藍色金融為 BJLE 與 OCEN 兩檔 ETF；MSCI World 為全球基準，STOXX Global ESG Leaders 為穩健性基準。皆以…",
+          "evidence": "【研究變數】FinTech 為 KBW NASDAQ Financial Technology Index（KFTX）；AI 為 NASDAQ CTA AI & Robotics Index（NQROBO）；藍色金融為 BJLE 與 OCEN 兩檔 ETF；MSCI World 為全球基準，STOXX Global ESG Leaders 為穩健性基準。皆以日收盤價轉對數報酬。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】Refinitiv Datastream 日資料，2021-10-22 至 2025-02-21，涵蓋美國 FinTech、全球 AI／機器人、兩檔藍色主題 ETF 與全球股市。原文未報告資料清理後有效樣本數。",
+          "evidence": "【資料／市場／樣本】Refinitiv Datastream 日資料，2021-10-22 至 2025-02-21，涵蓋美國 FinTech、全球 AI／機器人、兩檔藍色主題 ETF 與全球股市。原文未報告資料清理後有效樣本數。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】替換為 75、100、150 日滾動窗後 TCI、淨連結與成對方向大致一致；另加入 STOXX Global ESG Leaders，以區分藍色金融特有外溢與一般 ESG 共振。",
+          "evidence": "【穩健性檢驗】替換為 75、100、150 日滾動窗後 TCI、淨連結與成對方向大致一致；另加入 STOXX Global ESG Leaders，以區分藍色金融特有外溢與一般 ESG 共振。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】TCI 由中位數 55.92 升至下尾 73.30、上尾 74.06，兩端約高 18 點；短期外溢約占四分之三。NQROBO 多為主要淨傳送者，KFTX 在壓力期可由接收者轉為傳送者；BJLE 多為淨接收者，OCEN 在上尾會較順循環並轉為傳送者。這些為連結度與共同變動，不是因果效果。",
+          "evidence": "【主要結果】TCI 由中位數 55.92 升至下尾 73.30、上尾 74.06，兩端約高 18 點；短期外溢約占四分之三。NQROBO 多為主要淨傳送者，KFTX 在壓力期可由接收者轉為傳送者；BJLE 多為淨接收者，OCEN 在上尾會較順循環並轉為傳送者。這些為連結度與共同變動，不是因果效果。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【作者提出的限制】作者指出未充分處理部門異質性、行為不對稱與政策衝擊；後疫情與地緣政治主導的短樣本可能無法代表長期結構循環，並建議納入更細的藍色金融工具、碳市場、政策不確定性與氣候金融指標。",
+          "evidence": "【作者提出的限制】作者指出未充分處理部門異質性、行為不對稱與政策衝擊；後疫情與地緣政治主導的短樣本可能無法代表長期結構循環，並建議納入更細的藍色金融工具、碳市場、政策不確定性與氣候金融指標。",
+          "confidence": "low",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【其他限制】藍色 ETF 與 MSCI／ESG 指數都含大型股，連結可能部分源於持股重疊與共同市場因子；只有兩檔藍色 ETF，且研究未做結構因果識別。作者的部分事件敘事應視為關聯性解釋。",
+          "evidence": "【其他限制】藍色 ETF 與 MSCI／ESG 指數都含大型股，連結可能部分源於持股重疊與共同市場因子；只有兩檔藍色 ETF，且研究未做結構因果識別。作者的部分事件敘事應視為關聯性解釋。",
+          "confidence": "low",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】5/5。直接使用 QVAR／GFEVD、BK 頻域分解與短長期尾部比較，並把永續主題資產與數位創新市場置於同一網路。可借鏡 TCI 數值報告、200 日基準與多窗穩健性；主要差異是研究藍色金融而非 CPU／氣候風險，且未用 TVP-VAR-SV 或 FRL。可追蹤 Chatziantoniou et al. (2022)。",
+          "evidence": "【與美智研究的關聯】5/5。直接使用 QVAR／GFEVD、BK 頻域分解與短長期尾部比較，並把永續主題資產與數位創新市場置於同一網路。可借鏡 TCI 數值報告、200 日基準與多窗穩健性；主要差異是研究藍色金融而非 CPU／氣候風險，且未用 TVP-VAR-SV 或 FRL。可追蹤 Chatziantoniou et al. (2022)。",
+          "confidence": "low",
+          "source": "陳述",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    qvar20261010aifintechblu[\"📄 Quantile–Frequency Connectedness Among Artificial Intellig\"]\n    style qvar20261010aifintechblu fill:#2563eb,color:#fff,font-weight:bold\n    n0[\"💡 【閱讀層級】全文精讀；於 2026-10-10 閱讀 MDPI 合法 CC BY 官方 HTML 全文，並以 \"]\n    qvar20261010aifintechblu --> n0\n    n1[\"💡 【研究問題與動機】AI／FinTech 的快速資訊與流動性循環，如何與長期環境承諾驅動的藍色金融資產互動？藍色\"]\n    qvar20261010aifintechblu --> n1\n    n2[\"💡 【研究變數】FinTech 為 KBW NASDAQ Financial Technology Index（K\"]\n    qvar20261010aifintechblu --> n2\n    n3[\"💡 【資料／市場／樣本】Refinitiv Datastream 日資料，2021-10-22 至 2025-02\"]\n    qvar20261010aifintechblu --> n3"
+    },
+    {
+      "id": "qvar-2026-10-10-carbon-commodity-tail-risk",
+      "title": "Tail-Risk Spillovers in Strategic Commodity and Carbon Markets: Evidence for Natural Resource Risk Management",
+      "search_date": "2026-10-10",
+      "authors": "Nader Naifar",
+      "year": "2026",
+      "journal": "Resources, 15(4), Article 53",
+      "doi": "https://doi.org/10.3390/resources15040053",
+      "citations": "2 次（OpenAlex，2026-10-10）",
+      "openalex_url": "https://openalex.org/W7143428623",
+      "fulltext_url": "https://www.mdpi.com/2079-9276/15/4/53",
+      "reading_level": "全文精讀",
+      "abstract": "本文以 11 個金屬、能源、農產與碳期貨的週資料，先用 GARCH 建構波動，再以 rolling QQ-QVAR／GFEVD 繪製跨衝擊—反應分位的尾部連結。上尾對上尾的 TCI 最高達 99.5；COVID-19 與俄烏戰爭期外溢明顯升高，碳期貨也從周邊接收者轉為較整合、偶爾具系統性的節點。",
+      "tags": [
+        "quantile-on-quantile connectedness",
+        "QQ-QVAR",
+        "GFEVD",
+        "GARCH",
+        "carbon futures",
+        "commodity spillovers"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "能源/環境永續",
+        "地緣政治",
+        "金融市場"
+      ],
+      "keywords": [
+        "carbon emissions futures",
+        "WTI",
+        "natural gas",
+        "heating oil",
+        "gold",
+        "agricultural commodities"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】全文精讀；於 2026-10-10 閱讀 MDPI 合法 CC BY 官方 HTML 全文，並以 OpenAlex 核對。OpenAlex 顯示 W7143428623、2 次被引、is_retracted=false。",
+        "【研究問題與動機】金屬、能源、農產與碳市場的波動外溢，如何跨正常、下尾與上尾狀態改變？哪些資產在危機期轉換淨傳送／接收角色，碳價格是否逐漸成為跨部門風險節點？",
+        "【研究變數】11 個期貨：銅、銀、金、WTI、燃油、天然氣、汽油、糖、咖啡、玉米與碳排放期貨；價格轉週報酬，基準波動為 Gaussian GARCH(1,1) 條件標準差。",
+        "【資料／市場／樣本】Investing.com 週資料，2010-01-03 至 2025-04-27，涵蓋全球金屬、化石能源、農產與 ICE 碳排放期貨代理 CFI2H6。原文未報告最終有效週數；研究明示 11 個市場。",
+        "【模型與估計】rolling QQ-QVAR／GFEVD；落後期 p=1。匹配分位 τ=.05/.50/.95 用 F=10；5×5 衝擊—反應網格 {.05,.275,.50,.725,.95} 用 F=20，採 bias-corrected connectedness；動態圖使用 106 週窗。",
+        "【穩健性檢驗】包括 realized volatility、Student-t sGARCH、Student-t GJR-GARCH、排除 DXY／美國 10 年債殖利率／VIX 共通因素、EU ETS EUA 替代碳價代理，以及雙週／月頻率敏感度；主要時點與方向性大致保留。",
+        "【主要結果】跨分位 TCI 在上尾衝擊與上尾反應時最高達 99.5；動態上尾連結幾乎維持近 100%，下尾則在 COVID-19 與俄烏戰爭明顯跳升。燃油、金與天然氣常是重要傳送者；碳期貨由周邊接收者轉為較整合節點，2022 年後在部分上尾狀態成為傳送者。這些是模型連結度，非政策因果效果。",
+        "【作者提出的限制】作者承認週資料會平滑極短期外溢，碳期貨的流動性與轉倉慣例會影響度量，農產只含玉米、糖與咖啡；建議納入小麥／黃豆、鋰／鈷、替代波動模型、政策不確定性與結構轉折檢定。",
+        "【其他限制】Investing.com 的合約連續序列與碳代理仍可能有資料供應商／轉倉偏誤；極高上尾 TCI 可能對共同波動縮放、窗長與偏誤校正敏感。雖有多組穩健性，研究仍是描述性網路，事件比較不能識別戰爭或政策的因果效果。",
+        "【APA 7】Naifar, N. (2026). Tail-risk spillovers in strategic commodity and carbon markets: Evidence for natural resource risk management. Resources, 15(4), Article 53. https://doi.org/10.3390/resources15040053",
+        "【與美智研究的關聯】5/5。高度重疊碳價尾部衝擊、能源金融市場、QQ-QVAR／GFEVD 與危機時變連結，且提供完整的跨分位網格與多層穩健性模板。可借鏡碳價代理替換、共通因子殘差化與頻率敏感度；主要差異是未直接納入 CPU、綠色資產、TVP-VAR-SV、BK 頻域或 FRL。"
+      ],
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】全文精讀；於 2026-10-10 閱讀 MDPI 合法 CC BY 官方 HTML 全文，並以 OpenAlex 核對。OpenAlex 顯示 W7143428623、2 次被引、is_retracted=false。",
+          "evidence": "【閱讀層級】全文精讀；於 2026-10-10 閱讀 MDPI 合法 CC BY 官方 HTML 全文，並以 OpenAlex 核對。OpenAlex 顯示 W7143428623、2 次被引、is_retracted=false。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】金屬、能源、農產與碳市場的波動外溢，如何跨正常、下尾與上尾狀態改變？哪些資產在危機期轉換淨傳送／接收角色，碳價格是否逐漸成為跨部門風險節點？",
+          "evidence": "【研究問題與動機】金屬、能源、農產與碳市場的波動外溢，如何跨正常、下尾與上尾狀態改變？哪些資產在危機期轉換淨傳送／接收角色，碳價格是否逐漸成為跨部門風險節點？",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】11 個期貨：銅、銀、金、WTI、燃油、天然氣、汽油、糖、咖啡、玉米與碳排放期貨；價格轉週報酬，基準波動為 Gaussian GARCH(1,1) 條件標準差。",
+          "evidence": "【研究變數】11 個期貨：銅、銀、金、WTI、燃油、天然氣、汽油、糖、咖啡、玉米與碳排放期貨；價格轉週報酬，基準波動為 Gaussian GARCH(1,1) 條件標準差。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】Investing.com 週資料，2010-01-03 至 2025-04-27，涵蓋全球金屬、化石能源、農產與 ICE 碳排放期貨代理 CFI2H6。原文未報告最終有效週數；研究明示 11 個市場。",
+          "evidence": "【資料／市場／樣本】Investing.com 週資料，2010-01-03 至 2025-04-27，涵蓋全球金屬、化石能源、農產與 ICE 碳排放期貨代理 CFI2H6。原文未報告最終有效週數；研究明示 11 個市場。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】包括 realized volatility、Student-t sGARCH、Student-t GJR-GARCH、排除 DXY／美國 10 年債殖利率／VIX 共通因素、EU ETS EUA 替代碳價代理，以及雙週／月頻率敏感度；主要時點與方向性大致保留。",
+          "evidence": "【穩健性檢驗】包括 realized volatility、Student-t sGARCH、Student-t GJR-GARCH、排除 DXY／美國 10 年債殖利率／VIX 共通因素、EU ETS EUA 替代碳價代理，以及雙週／月頻率敏感度；主要時點與方向性大致保留。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】跨分位 TCI 在上尾衝擊與上尾反應時最高達 99.5；動態上尾連結幾乎維持近 100%，下尾則在 COVID-19 與俄烏戰爭明顯跳升。燃油、金與天然氣常是重要傳送者；碳期貨由周邊接收者轉為較整合節點，2022 年後在部分上尾狀態成為傳送者。這些是模型連結度，非政策因果效果。",
+          "evidence": "【主要結果】跨分位 TCI 在上尾衝擊與上尾反應時最高達 99.5；動態上尾連結幾乎維持近 100%，下尾則在 COVID-19 與俄烏戰爭明顯跳升。燃油、金與天然氣常是重要傳送者；碳期貨由周邊接收者轉為較整合節點，2022 年後在部分上尾狀態成為傳送者。這些是模型連結度，非政策因果效果。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【作者提出的限制】作者承認週資料會平滑極短期外溢，碳期貨的流動性與轉倉慣例會影響度量，農產只含玉米、糖與咖啡；建議納入小麥／黃豆、鋰／鈷、替代波動模型、政策不確定性與結構轉折檢定。",
+          "evidence": "【作者提出的限制】作者承認週資料會平滑極短期外溢，碳期貨的流動性與轉倉慣例會影響度量，農產只含玉米、糖與咖啡；建議納入小麥／黃豆、鋰／鈷、替代波動模型、政策不確定性與結構轉折檢定。",
+          "confidence": "low",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【其他限制】Investing.com 的合約連續序列與碳代理仍可能有資料供應商／轉倉偏誤；極高上尾 TCI 可能對共同波動縮放、窗長與偏誤校正敏感。雖有多組穩健性，研究仍是描述性網路，事件比較不能識別戰爭或政策的因果效果。",
+          "evidence": "【其他限制】Investing.com 的合約連續序列與碳代理仍可能有資料供應商／轉倉偏誤；極高上尾 TCI 可能對共同波動縮放、窗長與偏誤校正敏感。雖有多組穩健性，研究仍是描述性網路，事件比較不能識別戰爭或政策的因果效果。",
+          "confidence": "low",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】5/5。高度重疊碳價尾部衝擊、能源金融市場、QQ-QVAR／GFEVD 與危機時變連結，且提供完整的跨分位網格與多層穩健性模板。可借鏡碳價代理替換、共通因子殘差化與頻率敏感度；主要差異是未直接納入 CPU、綠色資產、TVP-VAR-SV、BK 頻域或 FRL。",
+          "evidence": "【與美智研究的關聯】5/5。高度重疊碳價尾部衝擊、能源金融市場、QQ-QVAR／GFEVD 與危機時變連結，且提供完整的跨分位網格與多層穩健性模板。可借鏡碳價代理替換、共通因子殘差化與頻率敏感度；主要差異是未直接納入 CPU、綠色資產、TVP-VAR-SV、BK 頻域或 FRL。",
+          "confidence": "low",
+          "source": "陳述",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    qvar20261010carboncommod[\"📄 Tail-Risk Spillovers in Strategic Commodity and Carbon Mar\"]\n    style qvar20261010carboncommod fill:#2563eb,color:#fff,font-weight:bold\n    n0[\"💡 【閱讀層級】全文精讀；於 2026-10-10 閱讀 MDPI 合法 CC BY 官方 HTML 全文，並以 \"]\n    qvar20261010carboncommod --> n0\n    n1[\"💡 【研究問題與動機】金屬、能源、農產與碳市場的波動外溢，如何跨正常、下尾與上尾狀態改變？哪些資產在危機期轉換淨傳\"]\n    qvar20261010carboncommod --> n1\n    n2[\"💡 【研究變數】11 個期貨：銅、銀、金、WTI、燃油、天然氣、汽油、糖、咖啡、玉米與碳排放期貨；價格轉週報酬，基\"]\n    qvar20261010carboncommod --> n2\n    n3[\"💡 【資料／市場／樣本】Investing.com 週資料，2010-01-03 至 2025-04-27，涵蓋全\"]\n    qvar20261010carboncommod --> n3"
+    },
+    {
+      "id": "qvar-2026-10-10-ai-sin-industries",
+      "title": "Quantile-time-frequency connectedness between AI and sin industries",
+      "search_date": "2026-10-10",
+      "authors": "Barbara Čeryová; Peter Árendáš",
+      "year": "2026",
+      "journal": "Finance Research Letters, 111, Article 110662",
+      "doi": "https://doi.org/10.1016/j.frl.2026.110662",
+      "citations": "0 次（OpenAlex，2026-10-10）",
+      "openalex_url": "https://openalex.org/W7204523275",
+      "fulltext_url": "",
+      "reading_level": "摘要層級",
+      "abstract": "本文以全球 S&P AI 與爭議／棕色產業指數，使用 quantile-time-frequency connectedness 分析 2018–2026 年的狀態及期限相依外溢。摘要與公開段落指出整體連結度中等、短期動態居主；AI 平均為輕度淨傳送者，但會由短期接收者轉為長期傳送者，且與賭場／博彩及航太國防的雙向外溢最強。",
+      "tags": [
+        "quantile-time-frequency connectedness",
+        "QVAR",
+        "frequency decomposition",
+        "artificial intelligence",
+        "sin stocks",
+        "defense stocks"
+      ],
+      "topics": [
+        "金融市場",
+        "地緣政治"
+      ],
+      "keywords": [
+        "S&P Kensho AI",
+        "aerospace and defense",
+        "casinos and gaming",
+        "coal and fuels",
+        "tobacco"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；於 2026-10-10 以 ScienceDirect 出版商頁與 OpenAlex 核對。出版商搜尋結果公開摘要及部分方法／結果文字，但未取得完整可合法全文，故不標示全文精讀。OpenAlex 顯示 W7204523275、0 次被引、is_retracted=false。",
+        "【研究問題與動機】AI 股票與傳統爭議／棕色產業之間的風險傳遞，是否會隨產業、市場狀態與短長期投資期間改變？AI 是否在不同期限反轉其淨角色？",
+        "【研究變數】AI 以 S&P Kensho Global Artificial Intelligence Enablers Index 代理；爭議產業含賭場／博彩、航太國防、煤炭／燃料、菸草等 S&P 全球產業指數。公開內容未完整列出所有產業與價格轉換。",
+        "【資料／市場／樣本】全球日收盤價，2018-06-01 至 2026-05-31；資料來源與最終有效樣本量在可取得內容中未報告。",
+        "【模型與估計】採 Chatziantoniou et al. (2022) 的 quantile-time-frequency connectedness，比較時間、分位數與短長期外溢；可取得內容未揭露完整分位格點、頻帶、落後期、預測期與滾動窗。",
+        "【穩健性檢驗】可取得摘要與公開段落未報告替代指數、窗長、頻帶或模型的獨立穩健性檢驗。",
+        "【主要結果】整體連結度中等且短期動態居主；AI 平均為輕度淨傳送者，但由短期淨接收轉為更強的長期傳送者。AI 與賭場／博彩及航太國防的雙向外溢最強、與菸草最弱；危機期外溢升高，但主要由正常至中等市場狀態塑造。這些是連結度而非因果效果。",
+        "【作者提出的限制】可取得摘要未列作者限制；全文不可合法取得，無法核對作者是否提出資料、指數涵蓋與模型限制。",
+        "【其他限制】產業指數的共同大型股／市場因子、AI 與國防成分重疊及樣本末期的 AI 熱潮可能驅動共變；未見結構識別與完整穩健性時，不宜把 AI 視為爭議產業波動的原因。",
+        "【APA 7】Čeryová, B., & Árendáš, P. (2026). Quantile-time-frequency connectedness between AI and sin industries. Finance Research Letters, 111, Article 110662. https://doi.org/10.1016/j.frl.2026.110662",
+        "【與美智研究的關聯】4/5。方法上直接重疊分位數×時頻連結與短長期淨角色反轉，可借鏡產業分組及 AI／國防的雙向外溢敘事；主要差異是研究 AI 與爭議產業，未含 CPU、氣候風險、綠色資產、TVP-VAR-SV 或 FRL。可追蹤 Chatziantoniou et al. (2022)。"
+      ],
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】摘要層級；於 2026-10-10 以 ScienceDirect 出版商頁與 OpenAlex 核對。出版商搜尋結果公開摘要及部分方法／結果文字，但未取得完整可合法全文，故不標示全文精讀。OpenAlex 顯示 W7204523275、0 次被引、is_retracted=false。",
+          "evidence": "【閱讀層級】摘要層級；於 2026-10-10 以 ScienceDirect 出版商頁與 OpenAlex 核對。出版商搜尋結果公開摘要及部分方法／結果文字，但未取得完整可合法全文，故不標示全文精讀。OpenAlex 顯示 W7204523275、0 次被引、is_retracted=false。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】AI 股票與傳統爭議／棕色產業之間的風險傳遞，是否會隨產業、市場狀態與短長期投資期間改變？AI 是否在不同期限反轉其淨角色？",
+          "evidence": "【研究問題與動機】AI 股票與傳統爭議／棕色產業之間的風險傳遞，是否會隨產業、市場狀態與短長期投資期間改變？AI 是否在不同期限反轉其淨角色？",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】AI 以 S&P Kensho Global Artificial Intelligence Enablers Index 代理；爭議產業含賭場／博彩、航太國防、煤炭／燃料、菸草等 S&P 全球產業指數。公開內容未完整列出所有產業與價格轉換。",
+          "evidence": "【研究變數】AI 以 S&P Kensho Global Artificial Intelligence Enablers Index 代理；爭議產業含賭場／博彩、航太國防、煤炭／燃料、菸草等 S&P 全球產業指數。公開內容未完整列出所有產業與價格轉換。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】全球日收盤價，2018-06-01 至 2026-05-31；資料來源與最終有效樣本量在可取得內容中未報告。",
+          "evidence": "【資料／市場／樣本】全球日收盤價，2018-06-01 至 2026-05-31；資料來源與最終有效樣本量在可取得內容中未報告。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】可取得摘要與公開段落未報告替代指數、窗長、頻帶或模型的獨立穩健性檢驗。",
+          "evidence": "【穩健性檢驗】可取得摘要與公開段落未報告替代指數、窗長、頻帶或模型的獨立穩健性檢驗。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】整體連結度中等且短期動態居主；AI 平均為輕度淨傳送者，但由短期淨接收轉為更強的長期傳送者。AI 與賭場／博彩及航太國防的雙向外溢最強、與菸草最弱；危機期外溢升高，但主要由正常至中等市場狀態塑造。這些是連結度而非因果效果。",
+          "evidence": "【主要結果】整體連結度中等且短期動態居主；AI 平均為輕度淨傳送者，但由短期淨接收轉為更強的長期傳送者。AI 與賭場／博彩及航太國防的雙向外溢最強、與菸草最弱；危機期外溢升高，但主要由正常至中等市場狀態塑造。這些是連結度而非因果效果。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【作者提出的限制】可取得摘要未列作者限制；全文不可合法取得，無法核對作者是否提出資料、指數涵蓋與模型限制。",
+          "evidence": "【作者提出的限制】可取得摘要未列作者限制；全文不可合法取得，無法核對作者是否提出資料、指數涵蓋與模型限制。",
+          "confidence": "low",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【其他限制】產業指數的共同大型股／市場因子、AI 與國防成分重疊及樣本末期的 AI 熱潮可能驅動共變；未見結構識別與完整穩健性時，不宜把 AI 視為爭議產業波動的原因。",
+          "evidence": "【其他限制】產業指數的共同大型股／市場因子、AI 與國防成分重疊及樣本末期的 AI 熱潮可能驅動共變；未見結構識別與完整穩健性時，不宜把 AI 視為爭議產業波動的原因。",
+          "confidence": "low",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】4/5。方法上直接重疊分位數×時頻連結與短長期淨角色反轉，可借鏡產業分組及 AI／國防的雙向外溢敘事；主要差異是研究 AI 與爭議產業，未含 CPU、氣候風險、綠色資產、TVP-VAR-SV 或 FRL。可追蹤 Chatziantoniou et al. (2022)。",
+          "evidence": "【與美智研究的關聯】4/5。方法上直接重疊分位數×時頻連結與短長期淨角色反轉，可借鏡產業分組及 AI／國防的雙向外溢敘事；主要差異是研究 AI 與爭議產業，未含 CPU、氣候風險、綠色資產、TVP-VAR-SV 或 FRL。可追蹤 Chatziantoniou et al. (2022)。",
+          "confidence": "low",
+          "source": "陳述",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    qvar20261010aisinindustr[\"📄 Quantile-time-frequency connectedness between AI and sin i\"]\n    style qvar20261010aisinindustr fill:#2563eb,color:#fff,font-weight:bold\n    n0[\"💡 【閱讀層級】摘要層級；於 2026-10-10 以 ScienceDirect 出版商頁與 OpenAlex \"]\n    qvar20261010aisinindustr --> n0\n    n1[\"💡 【研究問題與動機】AI 股票與傳統爭議／棕色產業之間的風險傳遞，是否會隨產業、市場狀態與短長期投資期間改變？A\"]\n    qvar20261010aisinindustr --> n1\n    n2[\"💡 【研究變數】AI 以 S&P Kensho Global Artificial Intelligence En\"]\n    qvar20261010aisinindustr --> n2\n    n3[\"💡 【資料／市場／樣本】全球日收盤價，2018-06-01 至 2026-05-31；資料來源與最終有效樣本量在可\"]\n    qvar20261010aisinindustr --> n3"
+    },
     {
       "id": "qvar-2026-10-09-physical-transition-risk-green-assets",
       "title": "Assessing the Impact of Physical and Transition Climate Risks on Clean Energy and Green Bond Markets: A Quantile-on-Quantile Connectedness Analysis",
@@ -4587,46 +5046,113 @@
       "search_date": "2026-06-10",
       "authors": "Kwame Ofori Asomaning; Hamayoon Shah; Frederick Boamah; Emmanuel Uche; Anis Mnif",
       "year": "2026",
-      "journal": "Resources Policy",
-      "doi": "//doi.org/10.1016/j.resourpol.2026.105916",
-      "citations": "0",
-      "openalex_url": "//openalex.org/W7147035673",
-      "abstract": "",
+      "journal": "Resources Policy, 116, Article 105916",
+      "doi": "https://doi.org/10.1016/j.resourpol.2026.105916",
+      "citations": "0 次（OpenAlex，2026-10-10）",
+      "openalex_url": "https://openalex.org/W7147035673",
+      "fulltext_url": "",
+      "reading_level": "摘要層級",
+      "abstract": "本文整合轉移熵、CEEMDAN 變數落後架構與 time-frequency QVAR，分析地緣政治風險、關鍵稀土礦物及國防股的非線性外溢。摘要指出極端分位的連結度較高，國防部門在上尾與系統壓力期偏向淨衝擊傳送者；短期外溢占優勢，但地緣政治與總體因素在壓力期仍留下較持久的長期影響。",
       "tags": [
-        "QVAR"
+        "time-frequency QVAR",
+        "transfer entropy",
+        "CEEMDAN",
+        "geopolitical risk",
+        "rare earth minerals",
+        "defense stocks"
       ],
       "topics": [
-        "地緣政治/國防",
-        "原物料/商品"
+        "地緣政治",
+        "金融市場",
+        "能源市場"
+      ],
+      "keywords": [
+        "critical rare earth minerals",
+        "defense equities",
+        "geopolitical risk",
+        "TVQVAR",
+        "nonlinear spillovers"
       ],
       "type": "search",
       "notes": [
-        "作者：Kwame Ofori Asomaning; Hamayoon Shah; Frederick Boamah; Emmanuel Uche; Anis Mnif",
-        "年份：2026",
-        "期刊：Resources Policy",
-        "主題：地緣政治/國防、原物料/商品",
-        "方法：QVAR (Quantile Vector Autoregression) + VAR (Vector Autoregression)",
-        "---",
-        "DOI：//doi.org/10.1016/j.resourpol.2026.105916",
-        "被引次數：0"
+        "【閱讀層級】摘要層級；於 2026-10-10 以 ScienceDirect 出版商索引、IDEAS/RePEc 與 OpenAlex 核對。未取得可合法閱讀全文，故不推論摘要未揭露的樣本與估計設定。OpenAlex 顯示 W7147035673、0 次被引、is_retracted=false。",
+        "【研究問題與動機】地緣政治風險是否透過關鍵稀土礦物市場影響國防股？資訊方向、傳遞強度、分位數與投資期間是否呈現非線性和狀態相依變化？",
+        "【研究變數】地緣政治風險、關鍵稀土礦物與國防部門股票；公開摘要提到 NASDAQ Aerospace and Defense Index，但未完整列出全部稀土代理、總體變數及轉換方式。",
+        "【資料／市場／樣本】全球地緣政治、稀土與國防股市場；可取得摘要未報告樣本期間、資料頻率、資料來源與有效樣本量。",
+        "【模型與估計】整合 Transfer Entropy、CEEMDAN-based Variable Lag 與 time-frequency Quantile VAR，以分辨非線性資訊流、不同分位數及短長期連結；摘要未揭露分位點、頻帶、落後期與滾動窗。",
+        "【穩健性檢驗】可取得摘要未報告獨立穩健性測試；轉移熵與 QVAR 分別回答方向與連結結構，但不能自動視為彼此的穩健性驗證。",
+        "【主要結果】摘要報告極端狀態的外溢較強、平靜期較弱且不對稱；國防部門在上尾與系統壓力下為重要淨傳送者。短期外溢居主，但 GPR 與總體因素在壓力期有較持久長期效果。結果屬資訊與連結方向，不宜寫成結構因果。",
+        "【作者提出的限制】可取得摘要未列作者限制，且全文不可合法取得，無法核對完整資料選擇、參數敏感度與內文限制。",
+        "【其他限制】稀土指標與國防股可能共同受戰爭、美元、產業政策與供應鏈消息驅動；混合多步驟分解與連結模型會增加調參敏感度，需以替代指數、頻帶與樣本窗檢查。",
+        "【APA 7】Asomaning, K. O., Shah, H., Boamah, F., Uche, E., & Mnif, A. (2026). Nonlinear information spillovers between geopolitical risk, critical rare earth minerals, and defense stocks: A transfer entropy and time-frequency QVAR approach. Resources Policy, 116, Article 105916. https://doi.org/10.1016/j.resourpol.2026.105916",
+        "【與美智研究的關聯】4/5。方法上直接重疊 time-frequency QVAR 與極端分位傳遞，亦提供地緣政治×戰略礦物×國防股的跨市場設計。可借鏡先用轉移熵定位方向、再做分位時頻網路；主要差異是沒有氣候政策不確定性、綠色資產、TVP-VAR-SV 或明確 BK／FRL 架構。"
       ],
       "viewpoints": [
         {
-          "claim": "研究方法：QVAR (Quantile Vector Autoregression) + VAR (Vector Autoregression)",
-          "evidence": "QVAR (Quantile Vector Autoregression) + VAR (Vector Autoregression)",
+          "claim": "【閱讀層級】摘要層級；於 2026-10-10 以 ScienceDirect 出版商索引、IDEAS/RePEc 與 OpenAlex 核對。未取得可合法閱讀全文，故不推論摘要未揭露的樣本與估計設定。OpenAlex 顯示 W7147035673、0 次被引、is_retracted=false。",
+          "evidence": "【閱讀層級】摘要層級；於 2026-10-10 以 ScienceDirect 出版商索引、IDEAS/RePEc 與 OpenAlex 核對。未取得可合法閱讀全文，故不推論摘要未揭露的樣本與估計設定。OpenAlex 顯示 W7147035673、0 次被引、is_retracted=false。",
           "confidence": "mid",
-          "source": "方法",
+          "source": "陳述",
           "connections": []
         },
         {
-          "claim": "研究主題：地緣政治/國防、原物料/商品",
-          "evidence": "地緣政治/國防、原物料/商品",
+          "claim": "【研究問題與動機】地緣政治風險是否透過關鍵稀土礦物市場影響國防股？資訊方向、傳遞強度、分位數與投資期間是否呈現非線性和狀態相依變化？",
+          "evidence": "【研究問題與動機】地緣政治風險是否透過關鍵稀土礦物市場影響國防股？資訊方向、傳遞強度、分位數與投資期間是否呈現非線性和狀態相依變化？",
           "confidence": "mid",
-          "source": "主題",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】地緣政治風險、關鍵稀土礦物與國防部門股票；公開摘要提到 NASDAQ Aerospace and Defense Index，但未完整列出全部稀土代理、總體變數及轉換方式。",
+          "evidence": "【研究變數】地緣政治風險、關鍵稀土礦物與國防部門股票；公開摘要提到 NASDAQ Aerospace and Defense Index，但未完整列出全部稀土代理、總體變數及轉換方式。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】全球地緣政治、稀土與國防股市場；可取得摘要未報告樣本期間、資料頻率、資料來源與有效樣本量。",
+          "evidence": "【資料／市場／樣本】全球地緣政治、稀土與國防股市場；可取得摘要未報告樣本期間、資料頻率、資料來源與有效樣本量。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】可取得摘要未報告獨立穩健性測試；轉移熵與 QVAR 分別回答方向與連結結構，但不能自動視為彼此的穩健性驗證。",
+          "evidence": "【穩健性檢驗】可取得摘要未報告獨立穩健性測試；轉移熵與 QVAR 分別回答方向與連結結構，但不能自動視為彼此的穩健性驗證。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】摘要報告極端狀態的外溢較強、平靜期較弱且不對稱；國防部門在上尾與系統壓力下為重要淨傳送者。短期外溢居主，但 GPR 與總體因素在壓力期有較持久長期效果。結果屬資訊與連結方向，不宜寫成結構因果。",
+          "evidence": "【主要結果】摘要報告極端狀態的外溢較強、平靜期較弱且不對稱；國防部門在上尾與系統壓力下為重要淨傳送者。短期外溢居主，但 GPR 與總體因素在壓力期有較持久長期效果。結果屬資訊與連結方向，不宜寫成結構因果。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【作者提出的限制】可取得摘要未列作者限制，且全文不可合法取得，無法核對完整資料選擇、參數敏感度與內文限制。",
+          "evidence": "【作者提出的限制】可取得摘要未列作者限制，且全文不可合法取得，無法核對完整資料選擇、參數敏感度與內文限制。",
+          "confidence": "low",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【其他限制】稀土指標與國防股可能共同受戰爭、美元、產業政策與供應鏈消息驅動；混合多步驟分解與連結模型會增加調參敏感度，需以替代指數、頻帶與樣本窗檢查。",
+          "evidence": "【其他限制】稀土指標與國防股可能共同受戰爭、美元、產業政策與供應鏈消息驅動；混合多步驟分解與連結模型會增加調參敏感度，需以替代指數、頻帶與樣本窗檢查。",
+          "confidence": "low",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】4/5。方法上直接重疊 time-frequency QVAR 與極端分位傳遞，亦提供地緣政治×戰略礦物×國防股的跨市場設計。可借鏡先用轉移熵定位方向、再做分位時頻網路；主要差異是沒有氣候政策不確定性、綠色資產、TVP-VAR-SV 或明確 BK／FRL 架構。",
+          "evidence": "【與美智研究的關聯】4/5。方法上直接重疊 time-frequency QVAR 與極端分位傳遞，亦提供地緣政治×戰略礦物×國防股的跨市場設計。可借鏡先用轉移熵定位方向、再做分位時頻網路；主要差異是沒有氣候政策不確定性、綠色資產、TVP-VAR-SV 或明確 BK／FRL 架構。",
+          "confidence": "low",
+          "source": "陳述",
           "connections": []
         }
       ],
-      "diagram": "graph TD\n    Nonlinearinform[\"📄 Nonlinear information spillovers between geopoliti\"]\n    style Nonlinearinform fill:#2563eb,color:#fff,font-weight:bold\n    vp0研究方法QVAR[\"💡 研究方法：QVAR (Quantile Vector Autoregressio\"]\n    style vp0研究方法QVAR fill:#fef3c7,stroke:#d97706\n    Nonlinearinform --> vp0研究方法QVAR\n    vp1研究主題地緣政治[\"💡 研究主題：地緣政治/國防、原物料/商品\"]\n    style vp1研究主題地緣政治 fill:#fef3c7,stroke:#d97706\n    Nonlinearinform --> vp1研究主題地緣政治\n    vp0研究方法QVAR --- vp1研究主題地緣政治"
+      "diagram": "graph TD\n    qvar20261010rareearthdef[\"📄 Nonlinear information spillovers between geopolitical risk\"]\n    style qvar20261010rareearthdef fill:#2563eb,color:#fff,font-weight:bold\n    n0[\"💡 【閱讀層級】摘要層級；於 2026-10-10 以 ScienceDirect 出版商索引、IDEAS/ReP\"]\n    qvar20261010rareearthdef --> n0\n    n1[\"💡 【研究問題與動機】地緣政治風險是否透過關鍵稀土礦物市場影響國防股？資訊方向、傳遞強度、分位數與投資期間是否呈現\"]\n    qvar20261010rareearthdef --> n1\n    n2[\"💡 【研究變數】地緣政治風險、關鍵稀土礦物與國防部門股票；公開摘要提到 NASDAQ Aerospace and \"]\n    qvar20261010rareearthdef --> n2\n    n3[\"💡 【資料／市場／樣本】全球地緣政治、稀土與國防股市場；可取得摘要未報告樣本期間、資料頻率、資料來源與有效樣本量。\"]\n    qvar20261010rareearthdef --> n3"
     },
     {
       "id": "2026-06-07-9",
