@@ -1,6 +1,6 @@
 {
-  "total": 119,
-  "updated": "2026-10-10 18:25:33",
+  "total": 122,
+  "updated": "2026-10-10 20:09:59",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,350 @@
     "金融市場"
   ],
   "papers": [
+    {
+      "id": "qvar-2026-10-10-tvp-qqvar-heterogeneous-states",
+      "title": "Dynamic Connectedness across Heterogeneous Market States: A TVP Quantile-on-Quantile VAR Approach",
+      "search_date": "2026-10-10",
+      "authors": "Juan Manuel Candelo-Viáfara; Juan Esteban Orrego-Reyes",
+      "year": "2026",
+      "journal": "SSRN Working Paper, 32 pages",
+      "doi": "https://doi.org/10.2139/ssrn.7434976",
+      "citations": "0 次（OpenAlex，2026-10-10）",
+      "openalex_url": "https://openalex.org/W7211933208",
+      "fulltext_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7434976",
+      "reading_level": "摘要層級",
+      "abstract": "本文提出時變參數分位數對分位數向量自迴歸（TVP-QQVAR）連結度架構，使衝擊分位與反應分位之間的關係可隨時間連續變動，並以 Monte Carlo 與不同視窗長度的滾動 QQVAR 比較。模擬結果顯示 TVP-QQVAR 的參數復原誤差較低；應用於 S&P 500 報酬與油價—天然氣相對表現後，中央狀態連結較弱，尾部狀態則可超過 50%，最高達 70.2%。",
+      "tags": [
+        "TVP-QQVAR",
+        "quantile-on-quantile connectedness",
+        "time-varying parameters",
+        "Monte Carlo",
+        "rolling-window comparison"
+      ],
+      "topics": [
+        "方法論",
+        "能源市場",
+        "金融市場"
+      ],
+      "keywords": [
+        "heterogeneous market states",
+        "S&P 500",
+        "oil-gas divergence",
+        "cross-quantile connectedness",
+        "parameter recovery"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；於 2026-10-10 以 SSRN 公開頁、Crossref 與 OpenAlex 核對。SSRN 顯示 32 頁、2026-09-08 上傳；本次直接 PDF 請求回傳 403，未繞過存取控制，故不冒充全文精讀。OpenAlex 顯示 W7211933208、0 次被引、is_retracted=false。",
+        "【研究問題與動機】滾動窗 QQVAR 以固定視窗近似時間變動，可能犧牲局部資訊且對視窗選擇敏感；本文詢問能否以 TVP-QQVAR 同時保留衝擊分位×反應分位的異質結構與連續時間變動。",
+        "【研究變數】方法模擬關注時變分位係數的參數復原誤差；實證使用 S&P 500 報酬，以及油價—天然氣相對表現的有號差（signed Oil–Gas Return Differential）與絕對差（Absolute Oil–Gas Return Difference）。",
+        "【資料／市場／樣本】實證涵蓋美國股票與原油、天然氣市場；可取得摘要未報告資料來源、樣本期間、頻率與有效樣本量，故均記為未報告。",
+        "【模型與估計】提出 TVP-QQVAR connectedness，使每組衝擊分位與反應分位的係數隨時間演化；以 Monte Carlo 比較不同視窗長度的 rolling QQVAR，並將估計連結度用於股市與油氣價差。摘要未報告狀態方程、先驗／濾波細節、落後期與預測期。",
+        "【穩健性檢驗】摘要明示以 Monte Carlo 對照 rolling QQVAR，視窗由 100 增至 300 時，TVP-QQVAR 的較低參數復原誤差仍持續；其餘敏感度與實證穩健性檢查未報告。",
+        "【主要結果】TVP-QQVAR 在模擬中較 rolling QQVAR 有較低參數復原誤差。實證中央市場狀態的連結度偏弱，極端分布狀態明顯升高，多個組合超過 50%；當 S&P 500 處於不利狀態且油氣分歧擴大時最高達 70.2%。正向與反向分位組合的重要性會隨時間交替，屬狀態相依連結而非結構因果識別。",
+        "【作者提出的限制】可取得摘要未列作者限制；因 PDF 本次無法合法讀取，無法核對限制段、演算法細節與完整模擬設計。",
+        "【其他限制】目前為 SSRN 預印本，尚未經期刊同儕審查；摘要未提供可重現程式、資料期間或估計超參數。單一股市與油氣價差應用不足以證明方法對更高維氣候金融網絡的普遍表現。",
+        "【APA 7】Candelo-Viáfara, J. M., & Orrego-Reyes, J. E. (2026). Dynamic connectedness across heterogeneous market states: A TVP quantile-on-quantile VAR approach [Preprint]. SSRN. https://doi.org/10.2139/ssrn.7434976",
+        "【與美智研究的關聯】5/5。直接重疊分位連結與時間變動，可作為氣候政策不確定性×能源／綠色資產研究中 rolling QVAR 或靜態 QQVAR 的方法替代；最值得借鏡的是 Monte Carlo 參數復原評估與衝擊分位×反應分位的連續時變矩陣。主要差異是本文未納入氣候風險、綠色資產、隨機波動（SV）或 Baruník–Křehlík 頻率分解。可追蹤其後續期刊版本與程式碼釋出。"
+      ],
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】摘要層級；於 2026-10-10 以 SSRN 公開頁、Crossref 與 OpenAlex 核對。SSRN 顯示 32 頁、2026-09-08 上傳；本次直接 PDF 請求回傳 403，未繞過存取控制，故不冒充全文精讀。OpenAlex 顯示 W7211933208、0 次被引、is_retracted=false。",
+          "evidence": "【閱讀層級】摘要層級；於 2026-10-10 以 SSRN 公開頁、Crossref 與 OpenAlex 核對。SSRN 顯示 32 頁、2026-09-08 上傳；本次直接 PDF 請求回傳 403，未繞過存取控制，故不冒充全文精讀。OpenAlex 顯示 W7211933208、0 次被引、is_retracted=false。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】滾動窗 QQVAR 以固定視窗近似時間變動，可能犧牲局部資訊且對視窗選擇敏感；本文詢問能否以 TVP-QQVAR 同時保留衝擊分位×反應分位的異質結構與連續時間變動。",
+          "evidence": "【研究問題與動機】滾動窗 QQVAR 以固定視窗近似時間變動，可能犧牲局部資訊且對視窗選擇敏感；本文詢問能否以 TVP-QQVAR 同時保留衝擊分位×反應分位的異質結構與連續時間變動。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】方法模擬關注時變分位係數的參數復原誤差；實證使用 S&P 500 報酬，以及油價—天然氣相對表現的有號差（signed Oil–Gas Return Differential）與絕對差（Absolute Oil–Gas Return Difference）。",
+          "evidence": "【研究變數】方法模擬關注時變分位係數的參數復原誤差；實證使用 S&P 500 報酬，以及油價—天然氣相對表現的有號差（signed Oil–Gas Return Differential）與絕對差（Absolute Oil–Gas Return Difference）。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】實證涵蓋美國股票與原油、天然氣市場；可取得摘要未報告資料來源、樣本期間、頻率與有效樣本量，故均記為未報告。",
+          "evidence": "【資料／市場／樣本】實證涵蓋美國股票與原油、天然氣市場；可取得摘要未報告資料來源、樣本期間、頻率與有效樣本量，故均記為未報告。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】摘要明示以 Monte Carlo 對照 rolling QQVAR，視窗由 100 增至 300 時，TVP-QQVAR 的較低參數復原誤差仍持續；其餘敏感度與實證穩健性檢查未報告。",
+          "evidence": "【穩健性檢驗】摘要明示以 Monte Carlo 對照 rolling QQVAR，視窗由 100 增至 300 時，TVP-QQVAR 的較低參數復原誤差仍持續；其餘敏感度與實證穩健性檢查未報告。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】TVP-QQVAR 在模擬中較 rolling QQVAR 有較低參數復原誤差。實證中央市場狀態的連結度偏弱，極端分布狀態明顯升高，多個組合超過 50%；當 S&P 500 處於不利狀態且油氣分歧擴大時最高達 70.2%。正向與反向分位組合的重要性會隨時間交替，屬狀態相依連結而非結構因果識別。",
+          "evidence": "【主要結果】TVP-QQVAR 在模擬中較 rolling QQVAR 有較低參數復原誤差。實證中央市場狀態的連結度偏弱，極端分布狀態明顯升高，多個組合超過 50%；當 S&P 500 處於不利狀態且油氣分歧擴大時最高達 70.2%。正向與反向分位組合的重要性會隨時間交替，屬狀態相依連結而非結構因果識別。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【作者提出的限制】可取得摘要未列作者限制；因 PDF 本次無法合法讀取，無法核對限制段、演算法細節與完整模擬設計。",
+          "evidence": "【作者提出的限制】可取得摘要未列作者限制；因 PDF 本次無法合法讀取，無法核對限制段、演算法細節與完整模擬設計。",
+          "confidence": "mid",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【其他限制】目前為 SSRN 預印本，尚未經期刊同儕審查；摘要未提供可重現程式、資料期間或估計超參數。單一股市與油氣價差應用不足以證明方法對更高維氣候金融網絡的普遍表現。",
+          "evidence": "【其他限制】目前為 SSRN 預印本，尚未經期刊同儕審查；摘要未提供可重現程式、資料期間或估計超參數。單一股市與油氣價差應用不足以證明方法對更高維氣候金融網絡的普遍表現。",
+          "confidence": "low",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】5/5。直接重疊分位連結與時間變動，可作為氣候政策不確定性×能源／綠色資產研究中 rolling QVAR 或靜態 QQVAR 的方法替代；最值得借鏡的是 Monte Carlo 參數復原評估與衝擊分位×反應分位的連續時變矩陣。主要差異是本文未納入氣候風險、綠色資產、隨機波動（SV）或 Baruník–Křehlík 頻率分解。可追蹤其後續期刊版本與程式碼釋出。",
+          "evidence": "【與美智研究的關聯】5/5。直接重疊分位連結與時間變動，可作為氣候政策不確定性×能源／綠色資產研究中 rolling QVAR 或靜態 QQVAR 的方法替代；最值得借鏡的是 Monte Carlo 參數復原評估與衝擊分位×反應分位的連續時變矩陣。主要差異是本文未納入氣候風險、綠色資產、隨機波動（SV）或 Baruník–Křehlík 頻率分解。可追蹤其後續期刊版本與程式碼釋出。",
+          "confidence": "low",
+          "source": "陳述",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    qvar20261010tvpqqvarheterogeneoussta[\"📄 Dynamic Connectedness across Heterogeneous Market States: A \"]\n    style qvar20261010tvpqqvarheterogeneoussta fill:#2563eb,color:#fff,font-weight:bold\n    n0[\"💡 【閱讀層級】摘要層級；於 2026-10-10 以 SSRN 公開頁、Crossref 與 OpenAlex 核對。SSRN 顯示 32 頁、202\"]\n    qvar20261010tvpqqvarheterogeneoussta --> n0\n    n1[\"💡 【研究問題與動機】滾動窗 QQVAR 以固定視窗近似時間變動，可能犧牲局部資訊且對視窗選擇敏感；本文詢問能否以 TVP-QQVAR 同時保留衝擊分位\"]\n    qvar20261010tvpqqvarheterogeneoussta --> n1\n    n2[\"💡 【研究變數】方法模擬關注時變分位係數的參數復原誤差；實證使用 S&P 500 報酬，以及油價—天然氣相對表現的有號差（signed Oil–Gas \"]\n    qvar20261010tvpqqvarheterogeneoussta --> n2\n    n3[\"💡 【資料／市場／樣本】實證涵蓋美國股票與原油、天然氣市場；可取得摘要未報告資料來源、樣本期間、頻率與有效樣本量，故均記為未報告。\"]\n    qvar20261010tvpqqvarheterogeneoussta --> n3"
+    },
+    {
+      "id": "qvar-2026-10-10-sustainable-finance-sme-fintech-energy-innovation",
+      "title": "Tail-driven asymmetries in sustainable finance: SMEs, ESG, and energy innovation under market stress",
+      "search_date": "2026-10-10",
+      "authors": "Amine Lahiani; Salma Mefteh-Wali; Nada Mselmi",
+      "year": "2026",
+      "journal": "Technological Forecasting and Social Change, 233, Article 124855",
+      "doi": "https://doi.org/10.1016/j.techfore.2026.124855",
+      "citations": "0 次（OpenAlex，2026-10-10）",
+      "openalex_url": "https://openalex.org/W7204176784",
+      "fulltext_url": "",
+      "reading_level": "摘要層級",
+      "abstract": "本文以 QVAR 檢視歐洲中小企業表現、ESG、FinTech、能源創新與永續指數之間的狀態相依連結。公開摘要顯示 ESG 與 SME 指數在熊市、常態及牛市皆為淨衝擊傳送者，永續與 FinTech 指數為淨接收者；能源創新指數在波動狀態通常傳送衝擊，但在常態狀態可轉為淨接收者，整體淨傳遞會隨時間與分位數改變。",
+      "tags": [
+        "QVAR",
+        "quantile connectedness",
+        "FinTech",
+        "ESG",
+        "energy innovation",
+        "SME"
+      ],
+      "topics": [
+        "潔淨能源",
+        "綠債/ESG",
+        "金融市場",
+        "AI/科技"
+      ],
+      "keywords": [
+        "sustainable finance",
+        "European SMEs",
+        "FinTech innovation",
+        "energy innovation",
+        "tail risk"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；於 2026-10-10 以 Elsevier 出版頁、Crossref、IDEAS/RePEc、作者機構頁與 OpenAlex 核對。OpenAlex 顯示 W7204176784、0 次被引、is_retracted=false，並標為 closed；未繞過訂閱存取。",
+        "【研究問題與動機】SME 表現、ESG、FinTech、永續與能源創新是否構成同一個狀態相依的永續轉型風險網絡？不同市場狀態下，哪些構面傳送或吸收衝擊？",
+        "【研究變數】歐洲 SME 表現、ESG、FinTech、永續與能源創新等五個報酬指數；公開摘要／可見文字未報告確切指數名稱、代碼、幣別與報酬轉換。",
+        "【資料／市場／樣本】歐洲金融與永續轉型相關市場；公開摘要提到五個報酬序列，並討論 2020 年初與 2024 年末波動，但未報告完整樣本期間、資料來源、頻率與有效樣本量，故記為未報告。",
+        "【模型與估計】以 Quantile Vector Autoregression（QVAR）連結度分析熊市、常態與牛市的傳送／接收角色及其動態變化；可取得摘要未報告分位值、滾動窗、落後期、預測期與 GFEVD 正規化方式。",
+        "【穩健性檢驗】可取得摘要與公開可見文字未報告替代分位、視窗、代理變數或其他穩健性檢驗，故記為未報告。",
+        "【主要結果】ESG 與 SME 指數在各市場狀態皆為淨傳送者；永續與 FinTech 指數為淨接收者。能源創新指數在熊市與牛市傳送衝擊，但常態市場可轉為淨接收者；淨衝擊傳遞同時具有時間變動與分位依賴。這些結果描述風險傳遞位置，不等同因果效果。",
+        "【作者提出的限制】可取得摘要未列作者限制；全文受訂閱限制，無法核對限制段與資料、估計細節。",
+        "【其他限制】五類指數可能共同受市場、利率與地緣政治因子驅動；若未淨化共同因子，QVAR 淨角色可能混合共同暴露。資料與參數細節未公開於摘要，也限制重現與跨市場外推。",
+        "【APA 7】Lahiani, A., Mefteh-Wali, S., & Mselmi, N. (2026). Tail-driven asymmetries in sustainable finance: SMEs, ESG, and energy innovation under market stress. Technological Forecasting and Social Change, 233, Article 124855. https://doi.org/10.1016/j.techfore.2026.124855",
+        "【與美智研究的關聯】4/5。重疊 QVAR、ESG／FinTech／能源創新與尾部風險網絡，可借鏡把金融科技與創新指數納入綠色資產系統並比較分位角色翻轉。主要差異是未直接使用氣候政策不確定性、TVP-VAR-SV、BK 分頻或 FRL，也未呈現跨頻率傳遞。可追蹤其指數定義與共同因子處理。"
+      ],
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】摘要層級；於 2026-10-10 以 Elsevier 出版頁、Crossref、IDEAS/RePEc、作者機構頁與 OpenAlex 核對。OpenAlex 顯示 W7204176784、0 次被引、is_retracted=false，並標為 closed；未繞過訂閱存取。",
+          "evidence": "【閱讀層級】摘要層級；於 2026-10-10 以 Elsevier 出版頁、Crossref、IDEAS/RePEc、作者機構頁與 OpenAlex 核對。OpenAlex 顯示 W7204176784、0 次被引、is_retracted=false，並標為 closed；未繞過訂閱存取。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】SME 表現、ESG、FinTech、永續與能源創新是否構成同一個狀態相依的永續轉型風險網絡？不同市場狀態下，哪些構面傳送或吸收衝擊？",
+          "evidence": "【研究問題與動機】SME 表現、ESG、FinTech、永續與能源創新是否構成同一個狀態相依的永續轉型風險網絡？不同市場狀態下，哪些構面傳送或吸收衝擊？",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】歐洲 SME 表現、ESG、FinTech、永續與能源創新等五個報酬指數；公開摘要／可見文字未報告確切指數名稱、代碼、幣別與報酬轉換。",
+          "evidence": "【研究變數】歐洲 SME 表現、ESG、FinTech、永續與能源創新等五個報酬指數；公開摘要／可見文字未報告確切指數名稱、代碼、幣別與報酬轉換。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】歐洲金融與永續轉型相關市場；公開摘要提到五個報酬序列，並討論 2020 年初與 2024 年末波動，但未報告完整樣本期間、資料來源、頻率與有效樣本量，故記為未報告。",
+          "evidence": "【資料／市場／樣本】歐洲金融與永續轉型相關市場；公開摘要提到五個報酬序列，並討論 2020 年初與 2024 年末波動，但未報告完整樣本期間、資料來源、頻率與有效樣本量，故記為未報告。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】可取得摘要與公開可見文字未報告替代分位、視窗、代理變數或其他穩健性檢驗，故記為未報告。",
+          "evidence": "【穩健性檢驗】可取得摘要與公開可見文字未報告替代分位、視窗、代理變數或其他穩健性檢驗，故記為未報告。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】ESG 與 SME 指數在各市場狀態皆為淨傳送者；永續與 FinTech 指數為淨接收者。能源創新指數在熊市與牛市傳送衝擊，但常態市場可轉為淨接收者；淨衝擊傳遞同時具有時間變動與分位依賴。這些結果描述風險傳遞位置，不等同因果效果。",
+          "evidence": "【主要結果】ESG 與 SME 指數在各市場狀態皆為淨傳送者；永續與 FinTech 指數為淨接收者。能源創新指數在熊市與牛市傳送衝擊，但常態市場可轉為淨接收者；淨衝擊傳遞同時具有時間變動與分位依賴。這些結果描述風險傳遞位置，不等同因果效果。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【作者提出的限制】可取得摘要未列作者限制；全文受訂閱限制，無法核對限制段與資料、估計細節。",
+          "evidence": "【作者提出的限制】可取得摘要未列作者限制；全文受訂閱限制，無法核對限制段與資料、估計細節。",
+          "confidence": "mid",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【其他限制】五類指數可能共同受市場、利率與地緣政治因子驅動；若未淨化共同因子，QVAR 淨角色可能混合共同暴露。資料與參數細節未公開於摘要，也限制重現與跨市場外推。",
+          "evidence": "【其他限制】五類指數可能共同受市場、利率與地緣政治因子驅動；若未淨化共同因子，QVAR 淨角色可能混合共同暴露。資料與參數細節未公開於摘要，也限制重現與跨市場外推。",
+          "confidence": "low",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】4/5。重疊 QVAR、ESG／FinTech／能源創新與尾部風險網絡，可借鏡把金融科技與創新指數納入綠色資產系統並比較分位角色翻轉。主要差異是未直接使用氣候政策不確定性、TVP-VAR-SV、BK 分頻或 FRL，也未呈現跨頻率傳遞。可追蹤其指數定義與共同因子處理。",
+          "evidence": "【與美智研究的關聯】4/5。重疊 QVAR、ESG／FinTech／能源創新與尾部風險網絡，可借鏡把金融科技與創新指數納入綠色資產系統並比較分位角色翻轉。主要差異是未直接使用氣候政策不確定性、TVP-VAR-SV、BK 分頻或 FRL，也未呈現跨頻率傳遞。可追蹤其指數定義與共同因子處理。",
+          "confidence": "low",
+          "source": "陳述",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    qvar20261010sustainablefinancesmefin[\"📄 Tail-driven asymmetries in sustainable finance: SMEs, ESG, a\"]\n    style qvar20261010sustainablefinancesmefin fill:#2563eb,color:#fff,font-weight:bold\n    n0[\"💡 【閱讀層級】摘要層級；於 2026-10-10 以 Elsevier 出版頁、Crossref、IDEAS/RePEc、作者機構頁與 OpenAle\"]\n    qvar20261010sustainablefinancesmefin --> n0\n    n1[\"💡 【研究問題與動機】SME 表現、ESG、FinTech、永續與能源創新是否構成同一個狀態相依的永續轉型風險網絡？不同市場狀態下，哪些構面傳送或吸收衝\"]\n    qvar20261010sustainablefinancesmefin --> n1\n    n2[\"💡 【研究變數】歐洲 SME 表現、ESG、FinTech、永續與能源創新等五個報酬指數；公開摘要／可見文字未報告確切指數名稱、代碼、幣別與報酬轉換。\"]\n    qvar20261010sustainablefinancesmefin --> n2\n    n3[\"💡 【資料／市場／樣本】歐洲金融與永續轉型相關市場；公開摘要提到五個報酬序列，並討論 2020 年初與 2024 年末波動，但未報告完整樣本期間、資料來\"]\n    qvar20261010sustainablefinancesmefin --> n3"
+    },
+    {
+      "id": "qvar-2026-10-10-bigtech-strategic-commodities",
+      "title": "Dynamic return and volatility connectedness between U.S. BigTech and strategic commodity markets: A quantile vector autoregression approach",
+      "search_date": "2026-10-10",
+      "authors": "Shiqi Zhang; Muhammad Naeem; Alexander Boateng; Hao Ji",
+      "year": "2026",
+      "journal": "Finance Research Open, 2(4), Article 100167",
+      "doi": "https://doi.org/10.1016/j.finr.2026.100167",
+      "citations": "0 次（Crossref，2026-10-10；OpenAlex 尚無可核對紀錄）",
+      "openalex_url": "",
+      "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S3050700626000782",
+      "reading_level": "摘要層級",
+      "abstract": "本文建立美國十大 BigTech 市值加權指數，並以 QVAR 比較其與 Brent 原油、黃金、白銀、天然氣、銅及市值加權農產品指數的報酬與波動連結。2,899 筆日資料顯示尾部連結高於中位數，波動系統的差異尤其明顯；BigTech 在報酬面略為淨接收者，卻在上尾波動面成為強淨傳送者。",
+      "tags": [
+        "QVAR",
+        "return connectedness",
+        "volatility connectedness",
+        "BigTech",
+        "strategic commodities",
+        "tail dependence"
+      ],
+      "topics": [
+        "AI/科技",
+        "原物料/商品",
+        "能源市場",
+        "金融市場"
+      ],
+      "keywords": [
+        "U.S. BigTech",
+        "Brent crude oil",
+        "natural gas",
+        "silver",
+        "agricultural index",
+        "hedging"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；於 2026-10-10 以 Elsevier／ScienceDirect 正式頁與 Crossref 核對。出版頁標示 Open Access、CC BY-NC-ND 4.0，但本次可取得內容僅足以核對摘要、重點與書目，因此仍標摘要層級。Crossref 為 0 次被引；OpenAlex 尚無可核對紀錄，未虛填 ID 或 0 次。",
+        "【研究問題與動機】美國 BigTech 與全球戰略商品的報酬及波動外溢是否在常態與極端市場狀態下不同？哪些商品可對沖科技部門的尾部風險？",
+        "【研究變數】美國十大科技公司之市值加權 BigTech 指數；Brent 原油、黃金、白銀、天然氣、銅，以及市值加權農產品指數。分別研究第一動差報酬與第二動差波動。",
+        "【資料／市場／樣本】美國大型科技股與全球商品市場；2015-01-06 至 2026-07-23，共 2,899 筆日觀察。公開摘要未報告各原始資料供應者與缺值處理。",
+        "【模型與估計】以 QVAR connectedness 分別估計報酬與波動網絡，報告 corrected total connectedness、方向性與淨外溢及成對連結；可取得摘要未報告精確分位值、落後期、預測期與波動建構方式。",
+        "【穩健性檢驗】可取得摘要與公開重點未報告替代分位、指數權重、視窗、波動代理或其他穩健性檢驗，故記為未報告。",
+        "【主要結果】報酬 corrected TCI 在中位數為 23.857%，下尾 24.564%、上尾 25.419%；波動 corrected TCI 分別為 16.174%、21.642% 與 20.586%。BigTech 報酬淨外溢為 −1.280，屬輕微接收者，但上尾波動淨外溢達 +16.329。白銀在兩系統中位數皆為主要傳送者（+7.052、+7.146）；天然氣與 BigTech 報酬的成對連結 0.444，農產品與 BigTech 波動為 1.914，為摘要所指最佳對沖者。結果屬預測誤差外溢，不應解讀為因果衝擊。",
+        "【作者提出的限制】可取得摘要未列作者限制；全文雖標示開放取用，但本次未取得足以完整核對限制段的正文。",
+        "【其他限制】BigTech 聚合指數會隱藏個別公司差異，市值權重也可能使結果受超大型公司主導；商品與科技股可能共同回應利率、美元與景氣消息。樣本延伸至 2026-07，對最新事件的估計可能較敏感。",
+        "【APA 7】Zhang, S., Naeem, M., Boateng, A., & Ji, H. (2026). Dynamic return and volatility connectedness between U.S. BigTech and strategic commodity markets: A quantile vector autoregression approach. Finance Research Open, 2(4), Article 100167. https://doi.org/10.1016/j.finr.2026.100167",
+        "【與美智研究的關聯】3/5。方法上重疊 QVAR、尾部外溢與傳送／接收角色，可借鏡把報酬與波動分開建網及保留 TCI／淨外溢數值。主題僅間接涉及能源與商品，未納入氣候政策、綠色資產、TVP-VAR-SV、BK 頻率分解或 FRL，故關聯低於氣候金融文獻。"
+      ],
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】摘要層級；於 2026-10-10 以 Elsevier／ScienceDirect 正式頁與 Crossref 核對。出版頁標示 Open Access、CC BY-NC-ND 4.0，但本次可取得內容僅足以核對摘要、重點與書目，因此仍標摘要層級。Crossref 為 0 次被引；OpenAlex 尚無可核對紀錄，未虛填 ID 或 0 次。",
+          "evidence": "【閱讀層級】摘要層級；於 2026-10-10 以 Elsevier／ScienceDirect 正式頁與 Crossref 核對。出版頁標示 Open Access、CC BY-NC-ND 4.0，但本次可取得內容僅足以核對摘要、重點與書目，因此仍標摘要層級。Crossref 為 0 次被引；OpenAlex 尚無可核對紀錄，未虛填 ID 或 0 次。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】美國 BigTech 與全球戰略商品的報酬及波動外溢是否在常態與極端市場狀態下不同？哪些商品可對沖科技部門的尾部風險？",
+          "evidence": "【研究問題與動機】美國 BigTech 與全球戰略商品的報酬及波動外溢是否在常態與極端市場狀態下不同？哪些商品可對沖科技部門的尾部風險？",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】美國十大科技公司之市值加權 BigTech 指數；Brent 原油、黃金、白銀、天然氣、銅，以及市值加權農產品指數。分別研究第一動差報酬與第二動差波動。",
+          "evidence": "【研究變數】美國十大科技公司之市值加權 BigTech 指數；Brent 原油、黃金、白銀、天然氣、銅，以及市值加權農產品指數。分別研究第一動差報酬與第二動差波動。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】美國大型科技股與全球商品市場；2015-01-06 至 2026-07-23，共 2,899 筆日觀察。公開摘要未報告各原始資料供應者與缺值處理。",
+          "evidence": "【資料／市場／樣本】美國大型科技股與全球商品市場；2015-01-06 至 2026-07-23，共 2,899 筆日觀察。公開摘要未報告各原始資料供應者與缺值處理。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】可取得摘要與公開重點未報告替代分位、指數權重、視窗、波動代理或其他穩健性檢驗，故記為未報告。",
+          "evidence": "【穩健性檢驗】可取得摘要與公開重點未報告替代分位、指數權重、視窗、波動代理或其他穩健性檢驗，故記為未報告。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】報酬 corrected TCI 在中位數為 23.857%，下尾 24.564%、上尾 25.419%；波動 corrected TCI 分別為 16.174%、21.642% 與 20.586%。BigTech 報酬淨外溢為 −1.280，屬輕微接收者，但上尾波動淨外溢達 +16.329。白銀在兩系統中位數皆為主要傳送者（+7.052、+7.146）；天然氣與 BigTech 報酬的成對連結 0.444，農產品與 BigTech 波動為 1.914，為摘要所指最佳對沖者。結果屬預測誤差外溢，不應解讀為因果衝擊。",
+          "evidence": "【主要結果】報酬 corrected TCI 在中位數為 23.857%，下尾 24.564%、上尾 25.419%；波動 corrected TCI 分別為 16.174%、21.642% 與 20.586%。BigTech 報酬淨外溢為 −1.280，屬輕微接收者，但上尾波動淨外溢達 +16.329。白銀在兩系統中位數皆為主要傳送者（+7.052、+7.146）；天然氣與 BigTech 報酬的成對連結 0.444，農產品與 BigTech 波動為 1.914，為摘要所指最佳對沖者。結果屬預測誤差外溢，不應解讀為因果衝擊。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【作者提出的限制】可取得摘要未列作者限制；全文雖標示開放取用，但本次未取得足以完整核對限制段的正文。",
+          "evidence": "【作者提出的限制】可取得摘要未列作者限制；全文雖標示開放取用，但本次未取得足以完整核對限制段的正文。",
+          "confidence": "mid",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【其他限制】BigTech 聚合指數會隱藏個別公司差異，市值權重也可能使結果受超大型公司主導；商品與科技股可能共同回應利率、美元與景氣消息。樣本延伸至 2026-07，對最新事件的估計可能較敏感。",
+          "evidence": "【其他限制】BigTech 聚合指數會隱藏個別公司差異，市值權重也可能使結果受超大型公司主導；商品與科技股可能共同回應利率、美元與景氣消息。樣本延伸至 2026-07，對最新事件的估計可能較敏感。",
+          "confidence": "low",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】3/5。方法上重疊 QVAR、尾部外溢與傳送／接收角色，可借鏡把報酬與波動分開建網及保留 TCI／淨外溢數值。主題僅間接涉及能源與商品，未納入氣候政策、綠色資產、TVP-VAR-SV、BK 頻率分解或 FRL，故關聯低於氣候金融文獻。",
+          "evidence": "【與美智研究的關聯】3/5。方法上重疊 QVAR、尾部外溢與傳送／接收角色，可借鏡把報酬與波動分開建網及保留 TCI／淨外溢數值。主題僅間接涉及能源與商品，未納入氣候政策、綠色資產、TVP-VAR-SV、BK 頻率分解或 FRL，故關聯低於氣候金融文獻。",
+          "confidence": "low",
+          "source": "陳述",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    qvar20261010bigtechstrategiccommodit[\"📄 Dynamic return and volatility connectedness between U.S. Big\"]\n    style qvar20261010bigtechstrategiccommodit fill:#2563eb,color:#fff,font-weight:bold\n    n0[\"💡 【閱讀層級】摘要層級；於 2026-10-10 以 Elsevier／ScienceDirect 正式頁與 Crossref 核對。出版頁標示 Op\"]\n    qvar20261010bigtechstrategiccommodit --> n0\n    n1[\"💡 【研究問題與動機】美國 BigTech 與全球戰略商品的報酬及波動外溢是否在常態與極端市場狀態下不同？哪些商品可對沖科技部門的尾部風險？\"]\n    qvar20261010bigtechstrategiccommodit --> n1\n    n2[\"💡 【研究變數】美國十大科技公司之市值加權 BigTech 指數；Brent 原油、黃金、白銀、天然氣、銅，以及市值加權農產品指數。分別研究第一動差報酬\"]\n    qvar20261010bigtechstrategiccommodit --> n2\n    n3[\"💡 【資料／市場／樣本】美國大型科技股與全球商品市場；2015-01-06 至 2026-07-23，共 2,899 筆日觀察。公開摘要未報告各原始資料\"]\n    qvar20261010bigtechstrategiccommodit --> n3"
+    },
     {
       "id": "qvar-2026-10-10-ai-geopolitical-esg-qqc",
       "title": "Tail-driven interdependence: quantile-on-quantile connectedness among AI-driven economic uncertainty, geopolitical risk, and ESG sustainability shocks",
