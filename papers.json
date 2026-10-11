@@ -1,6 +1,6 @@
 {
-  "total": 122,
-  "updated": "2026-10-10 20:09:59",
+  "total": 125,
+  "updated": "2026-10-11 20:12:09",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,348 @@
     "金融市場"
   ],
   "papers": [
+    {
+      "id": "qvar-2026-10-11-clean-energy-4ir-return-volatility-networks",
+      "title": "Return and volatility network asymmetries between clean energy and fourth industrial revolution markets",
+      "search_date": "2026-10-11",
+      "authors": "Muhammed Benli; Halil Altıntaş",
+      "year": "2026",
+      "journal": "SN Business & Economics, 6(10), Article 430, 1–40",
+      "doi": "https://doi.org/10.1007/s43546-026-01461-6",
+      "citations": "0 次（OpenAlex，2026-10-11）",
+      "openalex_url": "https://openalex.org/W7216448579",
+      "fulltext_url": "https://avesis.erciyes.edu.tr/publication/details/f2097d9d-f52d-419a-897f-b977d3de7c73/oai/document.pdf",
+      "reading_level": "全文精讀",
+      "abstract": "本文比較潔淨能源與第四次工業革命（4IR）資產的報酬與條件波動網路，結合 QVAR、GFEVD、200 日滾動窗、網路拓撲與成對 stationary bootstrap。2,818 筆日資料顯示報酬連結在兩端分位都約 86%，但波動連結由下尾 55.38% 升至上尾 85.29%；潔淨能源工具為穩健淨傳送者，3D 列印部門在上尾波動時最明顯地吸收衝擊。",
+      "tags": [
+        "QVAR",
+        "GFEVD",
+        "return connectedness",
+        "volatility connectedness",
+        "network topology",
+        "stationary bootstrap"
+      ],
+      "topics": [
+        "潔淨能源",
+        "AI/科技",
+        "金融市場"
+      ],
+      "keywords": [
+        "clean energy",
+        "fourth industrial revolution",
+        "conditional volatility",
+        "tail asymmetry",
+        "rolling connectedness"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】全文精讀；於 2026-10-11 以 Springer 正式書目、Crossref、OpenAlex 與 Erciyes University AVESIS 機構庫合法 PDF 核對。OpenAlex 顯示 W7216448579、0 次被引、is_retracted=false；Crossref 無 update-to／updated-by 撤稿或更正關聯。",
+        "【研究問題與動機】潔淨能源與第四次工業革命資產是否在報酬衝擊與條件波動衝擊下形成相同的連結網路？即使總連結度相近，雙邊邊線、集中度與淨傳送／接收角色是否仍可能不同？",
+        "【研究變數】十個可投資代理：潔淨能源 PBD、ICLN；先進運算 GOOGL、INTC；AI／自動化／機器人 TRMB、DE；3D 列印 DDD、SSYS；生技 XBI、NBI。分析日對數報酬，以及以 Student-t ARMA(1,1)-sGARCH(1,1) 估得的條件標準差。",
+        "【資料／市場／樣本】Yahoo Finance 調整收盤價；美國交易的 ETF、指數與公司股票。價格自 2015-06-01 至 2026-08-14，報酬自 2015-06-02 起，共 2,818 個共同交易日。作者以日期交集對齊，不前填、不插值，且檢查缺值與重複日期。",
+        "【模型與估計】平均基準為標準 VAR；QVAR 估計 τ=0.05、0.50、0.95，另以 τ=0.01 至 0.99 的格點繪製分位數—時間表面。BIC 選 p=1，GFEVD 預測期 H=10，動態分析用 200 日滾動窗；報酬與波動網路共享日期、分位、落後期與預測期，並比較 TCI、TO、FROM、NET、強邊占比、部門內傳遞、邊線相似與矩陣距離。",
+        "【穩健性檢驗】999 次成對 stationary bootstrap（預期區塊長度 50 日）與 95% 百分位信賴區間；替代設定包括 H=20、250 日視窗、波動 p=3、Gaussian-GARCH 波動及報酬 0.5%／99.5% winsorization。作者另報告平穩性、Ljung–Box、BDS 非線性診斷與多項網路集中度／相似度指標。",
+        "【主要結果】平均與中位數報酬 TCI 分別為 63.98% 與 63.82%，但 τ=0.05、0.95 升至 85.95%、86.01%，呈兩尾近對稱的 U 形。波動 TCI 則由下尾 55.38% 大幅升至上尾 85.29%，上尾比下尾高近 30 個百分點。PBD、ICLN 是持續且經 bootstrap 支持的淨傳送者；DDD 等窄型 4IR 暴露多為接收者。τ=0.05 時報酬 TCI 高於波動 TCI 30.57 個百分點，95% 信賴區間排除 0；τ=0.95 時兩者總強度收斂，但強邊重疊與拓撲仍不同。這些是預測性連結，不是結構因果。",
+        "【作者提出的限制】4IR 以可投資代理而非純技術因子衡量，Alphabet、Intel、Trimble、Deere 含廣泛營運暴露；日頻 GARCH 波動不是高頻 realized volatility；QVAR-GFEVD 只識別預測與關聯，事件對照不構成因果；共同日期樣本排除較早歷史，尾端分位有效資訊較少，τ=0.01／0.99 只宜視為描述性延伸。",
+        "【其他限制】研究未納入氣候政策不確定性、物理／轉型風險、能源價格或利率作為外生節點，因此潔淨能源的淨傳送角色可能混合共同折現率與主題資金流。全為美國交易工具，也限制對亞洲、歐洲綠色資產與碳市場的外推。",
+        "【APA 7】Benli, M., & Altıntaş, H. (2026). Return and volatility network asymmetries between clean energy and fourth industrial revolution markets. SN Business & Economics, 6(10), Article 430, 1–40. https://doi.org/10.1007/s43546-026-01461-6",
+        "【與美智研究的關聯】4/5。重疊 QVAR、GFEVD、尾部連結、動態滾動網路與潔淨能源；最可借鏡的是在相同樣本與參數下分開比較報酬與波動網路，並以成對 bootstrap 檢驗 TCI 與拓撲差異。主要差異是沒有 CPU、TVP-VAR-SV、BK 分頻或 FRL，也未建構氣候風險節點；可追蹤其網路集中度、邊線相似與 return-versus-volatility 設計。"
+      ],
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】全文精讀；於 2026-10-11 以 Springer 正式書目、Crossref、OpenAlex 與 Erciyes University AVESIS 機構庫合法 PDF 核對。OpenAlex 顯示 W7216448579、0 次被引、is_retracted=false；Crossref 無 update-to／updated-by 撤稿或更正關聯。",
+          "evidence": "【閱讀層級】全文精讀；於 2026-10-11 以 Springer 正式書目、Crossref、OpenAlex 與 Erciyes University AVESIS 機構庫合法 PDF 核對。OpenAlex 顯示 W7216448579、0 次被引、is_retracted=false；Crossref 無 update-to／updated-by 撤稿或更正關聯。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】潔淨能源與第四次工業革命資產是否在報酬衝擊與條件波動衝擊下形成相同的連結網路？即使總連結度相近，雙邊邊線、集中度與淨傳送／接收角色是否仍可能不同？",
+          "evidence": "【研究問題與動機】潔淨能源與第四次工業革命資產是否在報酬衝擊與條件波動衝擊下形成相同的連結網路？即使總連結度相近，雙邊邊線、集中度與淨傳送／接收角色是否仍可能不同？",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】十個可投資代理：潔淨能源 PBD、ICLN；先進運算 GOOGL、INTC；AI／自動化／機器人 TRMB、DE；3D 列印 DDD、SSYS；生技 XBI、NBI。分析日對數報酬，以及以 Student-t ARMA(1,1)-sGARCH(1,1) 估得的條件標準差。",
+          "evidence": "【研究變數】十個可投資代理：潔淨能源 PBD、ICLN；先進運算 GOOGL、INTC；AI／自動化／機器人 TRMB、DE；3D 列印 DDD、SSYS；生技 XBI、NBI。分析日對數報酬，以及以 Student-t ARMA(1,1)-sGARCH(1,1) 估得的條件標準差。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】Yahoo Finance 調整收盤價；美國交易的 ETF、指數與公司股票。價格自 2015-06-01 至 2026-08-14，報酬自 2015-06-02 起，共 2,818 個共同交易日。作者以日期交集對齊，不前填、不插值，且檢查缺值與重複日期。",
+          "evidence": "【資料／市場／樣本】Yahoo Finance 調整收盤價；美國交易的 ETF、指數與公司股票。價格自 2015-06-01 至 2026-08-14，報酬自 2015-06-02 起，共 2,818 個共同交易日。作者以日期交集對齊，不前填、不插值，且檢查缺值與重複日期。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】999 次成對 stationary bootstrap（預期區塊長度 50 日）與 95% 百分位信賴區間；替代設定包括 H=20、250 日視窗、波動 p=3、Gaussian-GARCH 波動及報酬 0.5%／99.5% winsorization。作者另報告平穩性、Ljung–Box、BDS 非線性診斷與多項網路集中度／相似度指標。",
+          "evidence": "【穩健性檢驗】999 次成對 stationary bootstrap（預期區塊長度 50 日）與 95% 百分位信賴區間；替代設定包括 H=20、250 日視窗、波動 p=3、Gaussian-GARCH 波動及報酬 0.5%／99.5% winsorization。作者另報告平穩性、Ljung–Box、BDS 非線性診斷與多項網路集中度／相似度指標。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】平均與中位數報酬 TCI 分別為 63.98% 與 63.82%，但 τ=0.05、0.95 升至 85.95%、86.01%，呈兩尾近對稱的 U 形。波動 TCI 則由下尾 55.38% 大幅升至上尾 85.29%，上尾比下尾高近 30 個百分點。PBD、ICLN 是持續且經 bootstrap 支持的淨傳送者；DDD 等窄型 4IR 暴露多為接收者。τ=0.05 時報酬 TCI 高於波動 TCI 30.57 個百分點，95% 信賴區間排除 0；τ=0.95 時兩者總強度收斂，但強邊重疊與拓撲仍不同。這些是預測性連結，不是結構因果。",
+          "evidence": "【主要結果】平均與中位數報酬 TCI 分別為 63.98% 與 63.82%，但 τ=0.05、0.95 升至 85.95%、86.01%，呈兩尾近對稱的 U 形。波動 TCI 則由下尾 55.38% 大幅升至上尾 85.29%，上尾比下尾高近 30 個百分點。PBD、ICLN 是持續且經 bootstrap 支持的淨傳送者；DDD 等窄型 4IR 暴露多為接收者。τ=0.05 時報酬 TCI 高於波動 TCI 30.57 個百分點，95% 信賴區間排除 0；τ=0.95 時兩者總強度收斂，但強邊重疊與拓撲仍不同。這些是預測性連結，不是結構因果。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【作者提出的限制】4IR 以可投資代理而非純技術因子衡量，Alphabet、Intel、Trimble、Deere 含廣泛營運暴露；日頻 GARCH 波動不是高頻 realized volatility；QVAR-GFEVD 只識別預測與關聯，事件對照不構成因果；共同日期樣本排除較早歷史，尾端分位有效資訊較少，τ=0.01／0.99 只宜視為描述性延伸。",
+          "evidence": "【作者提出的限制】4IR 以可投資代理而非純技術因子衡量，Alphabet、Intel、Trimble、Deere 含廣泛營運暴露；日頻 GARCH 波動不是高頻 realized volatility；QVAR-GFEVD 只識別預測與關聯，事件對照不構成因果；共同日期樣本排除較早歷史，尾端分位有效資訊較少，τ=0.01／0.99 只宜視為描述性延伸。",
+          "confidence": "mid",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【其他限制】研究未納入氣候政策不確定性、物理／轉型風險、能源價格或利率作為外生節點，因此潔淨能源的淨傳送角色可能混合共同折現率與主題資金流。全為美國交易工具，也限制對亞洲、歐洲綠色資產與碳市場的外推。",
+          "evidence": "【其他限制】研究未納入氣候政策不確定性、物理／轉型風險、能源價格或利率作為外生節點，因此潔淨能源的淨傳送角色可能混合共同折現率與主題資金流。全為美國交易工具，也限制對亞洲、歐洲綠色資產與碳市場的外推。",
+          "confidence": "low",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】4/5。重疊 QVAR、GFEVD、尾部連結、動態滾動網路與潔淨能源；最可借鏡的是在相同樣本與參數下分開比較報酬與波動網路，並以成對 bootstrap 檢驗 TCI 與拓撲差異。主要差異是沒有 CPU、TVP-VAR-SV、BK 分頻或 FRL，也未建構氣候風險節點；可追蹤其網路集中度、邊線相似與 return-versus-volatility 設計。",
+          "evidence": "【與美智研究的關聯】4/5。重疊 QVAR、GFEVD、尾部連結、動態滾動網路與潔淨能源；最可借鏡的是在相同樣本與參數下分開比較報酬與波動網路，並以成對 bootstrap 檢驗 TCI 與拓撲差異。主要差異是沒有 CPU、TVP-VAR-SV、BK 分頻或 FRL，也未建構氣候風險節點；可追蹤其網路集中度、邊線相似與 return-versus-volatility 設計。",
+          "confidence": "low",
+          "source": "陳述",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    qvar20261011cleanenergy4irreturnvolati[\"📄 Return and volatility network asymmetries between clean energy and fourth industrial revol\"]\n    style qvar20261011cleanenergy4irreturnvolati fill:#2563eb,color:#fff,font-weight:bold\n    n0[\"💡 【閱讀層級】全文精讀；於 2026-10-11 以 Springer 正式書目、Crossref、OpenAlex 與 Erciyes University AVESIS 機構庫合\"]\n    qvar20261011cleanenergy4irreturnvolati --> n0\n    n1[\"💡 【研究問題與動機】潔淨能源與第四次工業革命資產是否在報酬衝擊與條件波動衝擊下形成相同的連結網路？即使總連結度相近，雙邊邊線、集中度與淨傳送／接收角色是否仍可能不同？\"]\n    qvar20261011cleanenergy4irreturnvolati --> n1\n    n2[\"💡 【研究變數】十個可投資代理：潔淨能源 PBD、ICLN；先進運算 GOOGL、INTC；AI／自動化／機器人 TRMB、DE；3D 列印 DDD、SSYS；生技 XBI、NBI。分\"]\n    qvar20261011cleanenergy4irreturnvolati --> n2\n    n3[\"💡 【資料／市場／樣本】Yahoo Finance 調整收盤價；美國交易的 ETF、指數與公司股票。價格自 2015-06-01 至 2026-08-14，報酬自 2015-06-02\"]\n    qvar20261011cleanenergy4irreturnvolati --> n3"
+    },
+    {
+      "id": "qvar-2026-10-11-energy-futures-derivative-tokens",
+      "title": "Navigating energy market uncertainty: Return transmission and portfolio implications of energy futures and derivative tokens",
+      "search_date": "2026-10-11",
+      "authors": "Muzammal Ilyas Sindhu; Brahim Gaies; Muhammad Naveed; Jean-Michel Sahut",
+      "year": "2026",
+      "journal": "Research in International Business and Finance, 86, Article 103362",
+      "doi": "https://doi.org/10.1016/j.ribaf.2026.103362",
+      "citations": "0 次（OpenAlex，2026-10-11）",
+      "openalex_url": "https://openalex.org/W7133224382",
+      "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S0275531926000899",
+      "reading_level": "摘要層級",
+      "abstract": "本文以 QVAR 分析傳統與再生能源市場、能源期貨及衍生代幣的狀態相依報酬連結與投資組合涵義。公開摘要顯示下尾與上尾的傳遞均高於中位數；傳統與再生能源為淨傳送者，能源期貨與衍生代幣為淨接收者。兩類工具皆可提供分散或避險，但傳統能源期貨的配置表現優於衍生代幣。",
+      "tags": [
+        "QVAR",
+        "return connectedness",
+        "energy futures",
+        "derivative tokens",
+        "portfolio analysis",
+        "tail risk"
+      ],
+      "topics": [
+        "能源市場",
+        "潔淨能源",
+        "加密貨幣/數位金融",
+        "金融市場"
+      ],
+      "keywords": [
+        "energy uncertainty",
+        "renewable energy",
+        "tokenized derivatives",
+        "hedging",
+        "portfolio diversification"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；於 2026-10-11 以 Elsevier／ScienceDirect 正式頁、Crossref 與 OpenAlex 核對。OpenAlex 顯示 W7133224382、0 次被引、is_retracted=false、closed，且沒有公開全文；未繞過訂閱控制。Crossref 無 update-to／updated-by 關聯。",
+        "【研究問題與動機】在能源不確定性下，傳統能源、再生能源、能源期貨與鏈上衍生代幣的報酬衝擊如何隨分位數改變？期貨與代幣能否提供有效分散或避險，哪一類工具更適合資產配置？",
+        "【研究變數】傳統能源市場、再生能源市場、能源期貨與能源衍生代幣的報酬；可取得摘要未列確切指數／資產名稱、代碼、幣別與報酬轉換，故記為未報告。",
+        "【資料／市場／樣本】全球能源與數位資產相關市場；可取得摘要未報告資料來源、國家配置、完整樣本期間、頻率與樣本量，故均記為未報告。",
+        "【模型與估計】以 Quantile VAR 衡量不同市場狀態的方向性報酬連結，並加入投資組合／避險績效比較；可取得摘要未報告分位值、落後期、預測期、滾動窗、GFEVD 正規化及組合目標函數。",
+        "【穩健性檢驗】可取得摘要與公開重點未報告替代分位、替代資產、視窗、交易成本或樣本外檢驗，故記為未報告。",
+        "【主要結果】下尾與上尾的系統傳遞強於中位數，顯示報酬外溢具非對稱尾部放大。傳統與再生能源市場為淨衝擊傳送者，能源期貨與衍生代幣為淨接收者。兩類接收工具都可用於避險與分散，但摘要指出傳統能源期貨比衍生代幣更具配置優勢。這些淨角色來自 QVAR 連結度，不宜寫成因果效果。",
+        "【作者提出的限制】可取得摘要未列作者限制；全文受訂閱限制，無法核對限制段、完整資產清單、資料期間、估計參數與投資組合評估設計。",
+        "【其他限制】若代幣樣本期短、流動性較低或面臨交易所特有風險，期貨優於代幣的結論可能混合市場成熟度與交易成本差異。摘要亦未說明能源期貨與代幣是否涵蓋相同風險因子，也未證明避險表現可延伸至樣本外。",
+        "【APA 7】Sindhu, M. I., Gaies, B., Naveed, M., & Sahut, J.-M. (2026). Navigating energy market uncertainty: Return transmission and portfolio implications of energy futures and derivative tokens. Research in International Business and Finance, 86, Article 103362. https://doi.org/10.1016/j.ribaf.2026.103362",
+        "【與美智研究的關聯】3/5。重疊 QVAR、能源轉型資產與尾部傳送／接收角色，可作為加入 tokenized energy exposures 或比較傳統金融工具與數位衍生工具的延伸文獻。主要差異是沒有氣候風險／CPU、綠債、TVP-VAR-SV、BK 頻率分解或 FRL；可追蹤完整資產定義與樣本外避險績效。"
+      ],
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】摘要層級；於 2026-10-11 以 Elsevier／ScienceDirect 正式頁、Crossref 與 OpenAlex 核對。OpenAlex 顯示 W7133224382、0 次被引、is_retracted=false、closed，且沒有公開全文；未繞過訂閱控制。Crossref 無 update-to／updated-by 關聯。",
+          "evidence": "【閱讀層級】摘要層級；於 2026-10-11 以 Elsevier／ScienceDirect 正式頁、Crossref 與 OpenAlex 核對。OpenAlex 顯示 W7133224382、0 次被引、is_retracted=false、closed，且沒有公開全文；未繞過訂閱控制。Crossref 無 update-to／updated-by 關聯。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】在能源不確定性下，傳統能源、再生能源、能源期貨與鏈上衍生代幣的報酬衝擊如何隨分位數改變？期貨與代幣能否提供有效分散或避險，哪一類工具更適合資產配置？",
+          "evidence": "【研究問題與動機】在能源不確定性下，傳統能源、再生能源、能源期貨與鏈上衍生代幣的報酬衝擊如何隨分位數改變？期貨與代幣能否提供有效分散或避險，哪一類工具更適合資產配置？",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】傳統能源市場、再生能源市場、能源期貨與能源衍生代幣的報酬；可取得摘要未列確切指數／資產名稱、代碼、幣別與報酬轉換，故記為未報告。",
+          "evidence": "【研究變數】傳統能源市場、再生能源市場、能源期貨與能源衍生代幣的報酬；可取得摘要未列確切指數／資產名稱、代碼、幣別與報酬轉換，故記為未報告。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】全球能源與數位資產相關市場；可取得摘要未報告資料來源、國家配置、完整樣本期間、頻率與樣本量，故均記為未報告。",
+          "evidence": "【資料／市場／樣本】全球能源與數位資產相關市場；可取得摘要未報告資料來源、國家配置、完整樣本期間、頻率與樣本量，故均記為未報告。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】可取得摘要與公開重點未報告替代分位、替代資產、視窗、交易成本或樣本外檢驗，故記為未報告。",
+          "evidence": "【穩健性檢驗】可取得摘要與公開重點未報告替代分位、替代資產、視窗、交易成本或樣本外檢驗，故記為未報告。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】下尾與上尾的系統傳遞強於中位數，顯示報酬外溢具非對稱尾部放大。傳統與再生能源市場為淨衝擊傳送者，能源期貨與衍生代幣為淨接收者。兩類接收工具都可用於避險與分散，但摘要指出傳統能源期貨比衍生代幣更具配置優勢。這些淨角色來自 QVAR 連結度，不宜寫成因果效果。",
+          "evidence": "【主要結果】下尾與上尾的系統傳遞強於中位數，顯示報酬外溢具非對稱尾部放大。傳統與再生能源市場為淨衝擊傳送者，能源期貨與衍生代幣為淨接收者。兩類接收工具都可用於避險與分散，但摘要指出傳統能源期貨比衍生代幣更具配置優勢。這些淨角色來自 QVAR 連結度，不宜寫成因果效果。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【作者提出的限制】可取得摘要未列作者限制；全文受訂閱限制，無法核對限制段、完整資產清單、資料期間、估計參數與投資組合評估設計。",
+          "evidence": "【作者提出的限制】可取得摘要未列作者限制；全文受訂閱限制，無法核對限制段、完整資產清單、資料期間、估計參數與投資組合評估設計。",
+          "confidence": "mid",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【其他限制】若代幣樣本期短、流動性較低或面臨交易所特有風險，期貨優於代幣的結論可能混合市場成熟度與交易成本差異。摘要亦未說明能源期貨與代幣是否涵蓋相同風險因子，也未證明避險表現可延伸至樣本外。",
+          "evidence": "【其他限制】若代幣樣本期短、流動性較低或面臨交易所特有風險，期貨優於代幣的結論可能混合市場成熟度與交易成本差異。摘要亦未說明能源期貨與代幣是否涵蓋相同風險因子，也未證明避險表現可延伸至樣本外。",
+          "confidence": "low",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】3/5。重疊 QVAR、能源轉型資產與尾部傳送／接收角色，可作為加入 tokenized energy exposures 或比較傳統金融工具與數位衍生工具的延伸文獻。主要差異是沒有氣候風險／CPU、綠債、TVP-VAR-SV、BK 頻率分解或 FRL；可追蹤完整資產定義與樣本外避險績效。",
+          "evidence": "【與美智研究的關聯】3/5。重疊 QVAR、能源轉型資產與尾部傳送／接收角色，可作為加入 tokenized energy exposures 或比較傳統金融工具與數位衍生工具的延伸文獻。主要差異是沒有氣候風險／CPU、綠債、TVP-VAR-SV、BK 頻率分解或 FRL；可追蹤完整資產定義與樣本外避險績效。",
+          "confidence": "low",
+          "source": "陳述",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    qvar20261011energyfuturesderivativetok[\"📄 Navigating energy market uncertainty: Return transmission and portfolio implications of en\"]\n    style qvar20261011energyfuturesderivativetok fill:#2563eb,color:#fff,font-weight:bold\n    n0[\"💡 【閱讀層級】摘要層級；於 2026-10-11 以 Elsevier／ScienceDirect 正式頁、Crossref 與 OpenAlex 核對。OpenAlex 顯示 W7\"]\n    qvar20261011energyfuturesderivativetok --> n0\n    n1[\"💡 【研究問題與動機】在能源不確定性下，傳統能源、再生能源、能源期貨與鏈上衍生代幣的報酬衝擊如何隨分位數改變？期貨與代幣能否提供有效分散或避險，哪一類工具更適合資產配置？\"]\n    qvar20261011energyfuturesderivativetok --> n1\n    n2[\"💡 【研究變數】傳統能源市場、再生能源市場、能源期貨與能源衍生代幣的報酬；可取得摘要未列確切指數／資產名稱、代碼、幣別與報酬轉換，故記為未報告。\"]\n    qvar20261011energyfuturesderivativetok --> n2\n    n3[\"💡 【資料／市場／樣本】全球能源與數位資產相關市場；可取得摘要未報告資料來源、國家配置、完整樣本期間、頻率與樣本量，故均記為未報告。\"]\n    qvar20261011energyfuturesderivativetok --> n3"
+    },
+    {
+      "id": "qvar-2026-10-11-climate-risk-gateway-hub",
+      "title": "Climate risk spillovers from Hong Kong and Singapore: A gateway–hub perspective",
+      "search_date": "2026-10-11",
+      "authors": "Wenwen Zhang; Man Chong Un; Xuepeng Qian",
+      "year": "2026",
+      "journal": "Journal of Asian Economics, 105, Article 102224",
+      "doi": "https://doi.org/10.1016/j.asieco.2026.102224",
+      "citations": "0 次（OpenAlex，2026-10-11）",
+      "openalex_url": "https://openalex.org/W7169622785",
+      "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S1049007826001119",
+      "reading_level": "摘要層級",
+      "abstract": "本文將香港視為連結經濟腹地的 gateway、將新加坡視為匯聚全球資本與氣候情緒的 hub，使用分位數—時間頻率連結度與聯立方程，分析氣候轉型風險向拉丁美洲、中東及東南亞的傳遞。公開摘要與出版頁顯示，gateway 主要透過高頻貿易衝擊傳播轉型限制，hub 則透過低頻資本重配為高度金融化經濟提供系統性對沖；重疊區域存在投資人繞過冗餘代理的「information look-through」效果。",
+      "tags": [
+        "quantile time-frequency connectedness",
+        "climate-transition risk",
+        "simultaneous equations",
+        "gateway-hub network",
+        "cross-border spillovers"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "宏觀總體",
+        "金融市場"
+      ],
+      "keywords": [
+        "Hong Kong",
+        "Singapore",
+        "emerging markets",
+        "carbon exposure",
+        "operational carbon intensity"
+      ],
+      "type": "search",
+      "notes": [
+        "【閱讀層級】摘要層級；於 2026-10-11 以 Elsevier／ScienceDirect 正式頁、Crossref、IDEAS/RePEc 與 OpenAlex 核對。出版頁提供摘要、研究設計與樣本期片段，但未能合法取得完整全文，故不標全文精讀。OpenAlex 顯示 W7169622785、0 次被引、is_retracted=false、closed；Crossref 無撤稿或更正關聯。",
+        "【研究問題與動機】國際金融中心並非同質的氣候風險管道：與實體經濟腹地緊密連結的 gateway，和匯聚全球資訊與資本配置的 hub，是否會以不同頻率與機制向新興市場傳遞氣候轉型風險？",
+        "【研究變數】香港與新加坡作為兩類金融中心節點；目標區域為拉丁美洲、中東與東南亞。氣候風險採絕對碳暴露與相對營運碳強度雙指標，並控制獲利因子、全球商品衝擊與在地景氣循環。可見頁面未列全部市場指數名稱。",
+        "【資料／市場／樣本】整合公司層級環境指標與市場層級金融變數的縱貫資料；香港、新加坡及三個新興市場區域，樣本 2006-01 至 2023-12。可見頁面未報告資料供應者、頻率、公司／市場數與有效樣本量，故記為未報告。",
+        "【模型與估計】使用 quantile time-frequency connectedness 分解不同分位與頻率的跨境外溢，再以聯立方程識別 gateway 貿易暴露、hub 全球資本重配與 information look-through 等傳遞通道；可見內容未報告確切分位、頻帶切點、落後期、預測期與識別限制。",
+        "【穩健性檢驗】摘要指出主要非對稱傳遞在加入獲利因子、全球商品衝擊與在地景氣循環控制後仍成立；其他替代風險指標、樣本切分、頻帶或工具變數檢驗未在可取得內容中報告。",
+        "【主要結果】香港式 gateway 主要把經濟腹地的轉型限制透過高頻貿易衝擊傳向依賴該腹地的區域；新加坡式 hub 則透過低頻資本重配，對高度金融化、化石燃料依賴的經濟呈現系統性避險功能。在兩者影響重疊處，投資人會略過資訊稀釋的 gateway 代理，改以較獨立的 hub 訊號定價內生環境暴露。作者將兩案例視為建議性證據，並未聲稱建立普遍分類。",
+        "【作者提出的限制】摘要明確指出證據只來自香港與新加坡兩個亞洲金融中心，因此兩案例比較僅提供建議性證據，而不是可直接普遍化的金融中心分類。",
+        "【其他限制】未取得完整全文，無法核對聯立方程的工具變數／排除限制、頻帶定義及所有資料來源。gateway 與 hub 的制度差異也可能與法規、產業結構、美元資金條件等共同變動；若識別未充分隔離，頻率差異仍可能混合未觀察異質性。",
+        "【APA 7】Zhang, W., Un, M. C., & Qian, X. (2026). Climate risk spillovers from Hong Kong and Singapore: A gateway–hub perspective. Journal of Asian Economics, 105, Article 102224. https://doi.org/10.1016/j.asieco.2026.102224",
+        "【與美智研究的關聯】5/5。主題直接重疊氣候轉型風險、跨市場 spillover、分位數與時間頻率分解；最可借鏡的是把市場角色由單純淨傳送／接收擴展為 gateway 與 hub 的制度性傳遞機制，並以絕對碳暴露／相對碳強度雙指標測試。主要差異是未明示 QVAR、TVP-VAR-SV 或 BK 實作，也未聚焦綠債／潔淨能源；可追蹤其頻帶、聯立方程識別與區域依賴分組。"
+      ],
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】摘要層級；於 2026-10-11 以 Elsevier／ScienceDirect 正式頁、Crossref、IDEAS/RePEc 與 OpenAlex 核對。出版頁提供摘要、研究設計與樣本期片段，但未能合法取得完整全文，故不標全文精讀。OpenAlex 顯示 W7169622785、0 次被引、is_retracted=false、closed；Crossref 無撤稿或更正關聯。",
+          "evidence": "【閱讀層級】摘要層級；於 2026-10-11 以 Elsevier／ScienceDirect 正式頁、Crossref、IDEAS/RePEc 與 OpenAlex 核對。出版頁提供摘要、研究設計與樣本期片段，但未能合法取得完整全文，故不標全文精讀。OpenAlex 顯示 W7169622785、0 次被引、is_retracted=false、closed；Crossref 無撤稿或更正關聯。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】國際金融中心並非同質的氣候風險管道：與實體經濟腹地緊密連結的 gateway，和匯聚全球資訊與資本配置的 hub，是否會以不同頻率與機制向新興市場傳遞氣候轉型風險？",
+          "evidence": "【研究問題與動機】國際金融中心並非同質的氣候風險管道：與實體經濟腹地緊密連結的 gateway，和匯聚全球資訊與資本配置的 hub，是否會以不同頻率與機制向新興市場傳遞氣候轉型風險？",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】香港與新加坡作為兩類金融中心節點；目標區域為拉丁美洲、中東與東南亞。氣候風險採絕對碳暴露與相對營運碳強度雙指標，並控制獲利因子、全球商品衝擊與在地景氣循環。可見頁面未列全部市場指數名稱。",
+          "evidence": "【研究變數】香港與新加坡作為兩類金融中心節點；目標區域為拉丁美洲、中東與東南亞。氣候風險採絕對碳暴露與相對營運碳強度雙指標，並控制獲利因子、全球商品衝擊與在地景氣循環。可見頁面未列全部市場指數名稱。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】整合公司層級環境指標與市場層級金融變數的縱貫資料；香港、新加坡及三個新興市場區域，樣本 2006-01 至 2023-12。可見頁面未報告資料供應者、頻率、公司／市場數與有效樣本量，故記為未報告。",
+          "evidence": "【資料／市場／樣本】整合公司層級環境指標與市場層級金融變數的縱貫資料；香港、新加坡及三個新興市場區域，樣本 2006-01 至 2023-12。可見頁面未報告資料供應者、頻率、公司／市場數與有效樣本量，故記為未報告。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】摘要指出主要非對稱傳遞在加入獲利因子、全球商品衝擊與在地景氣循環控制後仍成立；其他替代風險指標、樣本切分、頻帶或工具變數檢驗未在可取得內容中報告。",
+          "evidence": "【穩健性檢驗】摘要指出主要非對稱傳遞在加入獲利因子、全球商品衝擊與在地景氣循環控制後仍成立；其他替代風險指標、樣本切分、頻帶或工具變數檢驗未在可取得內容中報告。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】香港式 gateway 主要把經濟腹地的轉型限制透過高頻貿易衝擊傳向依賴該腹地的區域；新加坡式 hub 則透過低頻資本重配，對高度金融化、化石燃料依賴的經濟呈現系統性避險功能。在兩者影響重疊處，投資人會略過資訊稀釋的 gateway 代理，改以較獨立的 hub 訊號定價內生環境暴露。作者將兩案例視為建議性證據，並未聲稱建立普遍分類。",
+          "evidence": "【主要結果】香港式 gateway 主要把經濟腹地的轉型限制透過高頻貿易衝擊傳向依賴該腹地的區域；新加坡式 hub 則透過低頻資本重配，對高度金融化、化石燃料依賴的經濟呈現系統性避險功能。在兩者影響重疊處，投資人會略過資訊稀釋的 gateway 代理，改以較獨立的 hub 訊號定價內生環境暴露。作者將兩案例視為建議性證據，並未聲稱建立普遍分類。",
+          "confidence": "mid",
+          "source": "陳述",
+          "connections": []
+        },
+        {
+          "claim": "【作者提出的限制】摘要明確指出證據只來自香港與新加坡兩個亞洲金融中心，因此兩案例比較僅提供建議性證據，而不是可直接普遍化的金融中心分類。",
+          "evidence": "【作者提出的限制】摘要明確指出證據只來自香港與新加坡兩個亞洲金融中心，因此兩案例比較僅提供建議性證據，而不是可直接普遍化的金融中心分類。",
+          "confidence": "mid",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【其他限制】未取得完整全文，無法核對聯立方程的工具變數／排除限制、頻帶定義及所有資料來源。gateway 與 hub 的制度差異也可能與法規、產業結構、美元資金條件等共同變動；若識別未充分隔離，頻率差異仍可能混合未觀察異質性。",
+          "evidence": "【其他限制】未取得完整全文，無法核對聯立方程的工具變數／排除限制、頻帶定義及所有資料來源。gateway 與 hub 的制度差異也可能與法規、產業結構、美元資金條件等共同變動；若識別未充分隔離，頻率差異仍可能混合未觀察異質性。",
+          "confidence": "low",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】5/5。主題直接重疊氣候轉型風險、跨市場 spillover、分位數與時間頻率分解；最可借鏡的是把市場角色由單純淨傳送／接收擴展為 gateway 與 hub 的制度性傳遞機制，並以絕對碳暴露／相對碳強度雙指標測試。主要差異是未明示 QVAR、TVP-VAR-SV 或 BK 實作，也未聚焦綠債／潔淨能源；可追蹤其頻帶、聯立方程識別與區域依賴分組。",
+          "evidence": "【與美智研究的關聯】5/5。主題直接重疊氣候轉型風險、跨市場 spillover、分位數與時間頻率分解；最可借鏡的是把市場角色由單純淨傳送／接收擴展為 gateway 與 hub 的制度性傳遞機制，並以絕對碳暴露／相對碳強度雙指標測試。主要差異是未明示 QVAR、TVP-VAR-SV 或 BK 實作，也未聚焦綠債／潔淨能源；可追蹤其頻帶、聯立方程識別與區域依賴分組。",
+          "confidence": "low",
+          "source": "陳述",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    qvar20261011climateriskgatewayhub[\"📄 Climate risk spillovers from Hong Kong and Singapore: A gateway–hub perspective\"]\n    style qvar20261011climateriskgatewayhub fill:#2563eb,color:#fff,font-weight:bold\n    n0[\"💡 【閱讀層級】摘要層級；於 2026-10-11 以 Elsevier／ScienceDirect 正式頁、Crossref、IDEAS/RePEc 與 OpenAlex 核對。出版\"]\n    qvar20261011climateriskgatewayhub --> n0\n    n1[\"💡 【研究問題與動機】國際金融中心並非同質的氣候風險管道：與實體經濟腹地緊密連結的 gateway，和匯聚全球資訊與資本配置的 hub，是否會以不同頻率與機制向新興市場傳遞氣候轉型風險\"]\n    qvar20261011climateriskgatewayhub --> n1\n    n2[\"💡 【研究變數】香港與新加坡作為兩類金融中心節點；目標區域為拉丁美洲、中東與東南亞。氣候風險採絕對碳暴露與相對營運碳強度雙指標，並控制獲利因子、全球商品衝擊與在地景氣循環。可見頁面未列\"]\n    qvar20261011climateriskgatewayhub --> n2\n    n3[\"💡 【資料／市場／樣本】整合公司層級環境指標與市場層級金融變數的縱貫資料；香港、新加坡及三個新興市場區域，樣本 2006-01 至 2023-12。可見頁面未報告資料供應者、頻率、公司\"]\n    qvar20261011climateriskgatewayhub --> n3"
+    },
     {
       "id": "qvar-2026-10-10-tvp-qqvar-heterogeneous-states",
       "title": "Dynamic Connectedness across Heterogeneous Market States: A TVP Quantile-on-Quantile VAR Approach",
