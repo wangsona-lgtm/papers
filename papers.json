@@ -1,6 +1,6 @@
 {
-  "total": 163,
-  "updated": "2026-10-14 20:05:49",
+  "total": 160,
+  "updated": "2026-10-14 20:12:54",
   "topics": [
     "AI/科技",
     "其他",
@@ -763,49 +763,6 @@
         }
       ],
       "diagram": "graph TD\n    QuantileAsymmet[\"📄 Quantile Asymmetric Effects of AI Knowledge Assets\"]\n    style QuantileAsymmet fill:#2563eb,color:#fff,font-weight:bold\n    vp0研究方法QARDL[\"💡 研究方法：QARDL (Quantile Autoregressive Dist\"]\n    style vp0研究方法QARDL fill:#fef3c7,stroke:#d97706\n    QuantileAsymmet --> vp0研究方法QARDL\n    vp1研究主題宏觀總體[\"💡 研究主題：宏觀總體\"]\n    style vp1研究主題宏觀總體 fill:#fef3c7,stroke:#d97706\n    QuantileAsymmet --> vp1研究主題宏觀總體\n    vp0研究方法QARDL --- vp1研究主題宏觀總體"
-    },
-    {
-      "id": "qvar-2026-10-13-W7203940686",
-      "title": "Retraction notice to \"A step towards environmental mitigation… A QARDL approach\" [Sci. Total Environ. 778 (2021) 146209]",
-      "search_date": "2026-10-13",
-      "authors": "",
-      "year": "2026",
-      "journal": "",
-      "doi": "10.1016/j.scitotenv.2026.182238",
-      "citations": "",
-      "openalex_url": "https://openalex.org/W7203940686",
-      "abstract": "",
-      "tags": [
-        "QARDL"
-      ],
-      "topics": [
-        "其他"
-      ],
-      "type": "search",
-      "notes": [
-        "年份：2026",
-        "主題：其他",
-        "方法：QARDL (Quantile Autoregressive Distributed Lag) + ARDL (Autoregressive Distributed Lag)",
-        "---",
-        "DOI：10.1016/j.scitotenv.2026.182238"
-      ],
-      "viewpoints": [
-        {
-          "claim": "研究方法：QARDL (Quantile Autoregressive Distributed Lag) + ARDL (Autoregressive Distribut",
-          "evidence": "QARDL (Quantile Autoregressive Distributed Lag) + ARDL (Autoregressive Distributed Lag)",
-          "confidence": "mid",
-          "source": "方法",
-          "connections": []
-        },
-        {
-          "claim": "研究主題：其他",
-          "evidence": "其他",
-          "confidence": "mid",
-          "source": "主題",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    Retractionnotic[\"📄 Retraction notice to \"A step towards environmental\"]\n    style Retractionnotic fill:#2563eb,color:#fff,font-weight:bold\n    vp0研究方法QARDL[\"💡 研究方法：QARDL (Quantile Autoregressive Dist\"]\n    style vp0研究方法QARDL fill:#fef3c7,stroke:#d97706\n    Retractionnotic --> vp0研究方法QARDL\n    vp1研究主題其他[\"💡 研究主題：其他\"]\n    style vp1研究主題其他 fill:#fef3c7,stroke:#d97706\n    Retractionnotic --> vp1研究主題其他\n    vp0研究方法QARDL --- vp1研究主題其他"
     },
     {
       "id": "qvar-2026-10-13-W7203441699",
@@ -2152,49 +2109,6 @@
         }
       ],
       "diagram": "graph TD\n    ExploringFintec[\"📄 Exploring Fintech, Energy and Environmental Sustai\"]\n    style ExploringFintec fill:#2563eb,color:#fff,font-weight:bold\n    vp0研究方法QARDL[\"💡 研究方法：QARDL (Quantile Autoregressive Dist\"]\n    style vp0研究方法QARDL fill:#fef3c7,stroke:#d97706\n    ExploringFintec --> vp0研究方法QARDL\n    vp1研究主題加密貨幣[\"💡 研究主題：加密貨幣/數位金融\"]\n    style vp1研究主題加密貨幣 fill:#fef3c7,stroke:#d97706\n    ExploringFintec --> vp1研究主題加密貨幣\n    vp0研究方法QARDL --- vp1研究主題加密貨幣"
-    },
-    {
-      "id": "qvar-2026-09-03-[W7203940686](https://openalex.org/W7203940686)",
-      "title": "Retraction notice to \"A step towards environmental mitigation: Do tourism, renewable energy and institutions really matter? A QARDL approach\" [Sci. Total Environ. 778 (2021) 146209]",
-      "search_date": "2026-09-03",
-      "authors": "",
-      "year": "2026",
-      "journal": "",
-      "doi": "[10.1016/j.scitotenv.2026.182238](https://doi.org/10.1016/j.scitotenv.2026.182238)",
-      "citations": "",
-      "openalex_url": "",
-      "abstract": "",
-      "tags": [
-        "QARDL"
-      ],
-      "topics": [
-        "潔淨能源"
-      ],
-      "type": "search",
-      "notes": [
-        "年份：2026",
-        "主題：潔淨能源",
-        "方法：QARDL (Quantile Autoregressive Distributed Lag) + ARDL (Autoregressive Distributed Lag)",
-        "---",
-        "DOI：[10.1016/j.scitotenv.2026.182238](https://doi.org/10.1016/j.scitotenv.2026.182238)"
-      ],
-      "viewpoints": [
-        {
-          "claim": "研究方法：QARDL (Quantile Autoregressive Distributed Lag) + ARDL (Autoregressive Distribut",
-          "evidence": "QARDL (Quantile Autoregressive Distributed Lag) + ARDL (Autoregressive Distributed Lag)",
-          "confidence": "mid",
-          "source": "方法",
-          "connections": []
-        },
-        {
-          "claim": "研究主題：潔淨能源",
-          "evidence": "潔淨能源",
-          "confidence": "mid",
-          "source": "主題",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    Retractionnotic[\"📄 Retraction notice to \"A step towards environmental\"]\n    style Retractionnotic fill:#2563eb,color:#fff,font-weight:bold\n    vp0研究方法QARDL[\"💡 研究方法：QARDL (Quantile Autoregressive Dist\"]\n    style vp0研究方法QARDL fill:#fef3c7,stroke:#d97706\n    Retractionnotic --> vp0研究方法QARDL\n    vp1研究主題潔淨能源[\"💡 研究主題：潔淨能源\"]\n    style vp1研究主題潔淨能源 fill:#fef3c7,stroke:#d97706\n    Retractionnotic --> vp1研究主題潔淨能源\n    vp0研究方法QARDL --- vp1研究主題潔淨能源"
     },
     {
       "id": "qvar-2026-09-03-[W7203441699](https://openalex.org/W7203441699)",
@@ -6101,52 +6015,6 @@
         }
       ],
       "diagram": "graph TD\n    QuantileSpillov[\"📄 Quantile Spillover and Portfolio Shielding: Analyz\"]\n    style QuantileSpillov fill:#2563eb,color:#fff,font-weight:bold\n    vp0摘要使用[\"💡 【摘要】-  使用 QVAR 分析全球 ESG 股票與大宗商品之間的分位數連結度\"]\n    style vp0摘要使用 fill:#fef3c7,stroke:#d97706\n    QuantileSpillov --> vp0摘要使用\n    vp1發現極端分位數下報[\"💡 發現：極端分位數下報酬外溢較高\"]\n    style vp1發現極端分位數下報 fill:#fef3c7,stroke:#d97706\n    QuantileSpillov --> vp1發現極端分位數下報\n    vp2研究方法QVAR[\"💡 研究方法：QVAR 用於分析 全球 ESG 股票與大宗商品之間的分位數連結度\"]\n    style vp2研究方法QVAR fill:#fef3c7,stroke:#d97706\n    QuantileSpillov --> vp2研究方法QVAR\n    vp0摘要使用 --- vp1發現極端分位數下報\n    vp1發現極端分位數下報 --- vp2研究方法QVAR"
-    },
-    {
-      "id": "2026-06-10-39",
-      "title": "Retraction notice to \"Evaluating the role of financial globalization and oil consumption on ecological quality: A new perspective from quantile-on-quantile granger causality\"",
-      "search_date": "2026-06-10",
-      "authors": "Tomiwa Sunday Adebayo; Oktay Özkan",
-      "year": "2026",
-      "journal": "Heliyon",
-      "doi": "//doi.org/10.1016/j.heliyon.2026.e44647",
-      "citations": "0",
-      "openalex_url": "//openalex.org/W7131673598",
-      "abstract": "",
-      "tags": [
-        "QVAR"
-      ],
-      "topics": [
-        "方法論"
-      ],
-      "type": "search",
-      "notes": [
-        "作者：Tomiwa Sunday Adebayo; Oktay Özkan",
-        "年份：2026",
-        "期刊：Heliyon",
-        "主題：方法論",
-        "方法：QVAR (Quantile Vector Autoregression) + VAR (Vector Autoregression)",
-        "---",
-        "DOI：//doi.org/10.1016/j.heliyon.2026.e44647",
-        "被引次數：0"
-      ],
-      "viewpoints": [
-        {
-          "claim": "研究方法：QVAR (Quantile Vector Autoregression) + VAR (Vector Autoregression)",
-          "evidence": "QVAR (Quantile Vector Autoregression) + VAR (Vector Autoregression)",
-          "confidence": "mid",
-          "source": "方法",
-          "connections": []
-        },
-        {
-          "claim": "研究主題：方法論",
-          "evidence": "方法論",
-          "confidence": "mid",
-          "source": "主題",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    Retractionnotic[\"📄 Retraction notice to \"Evaluating the role of finan\"]\n    style Retractionnotic fill:#2563eb,color:#fff,font-weight:bold\n    vp0研究方法QVAR[\"💡 研究方法：QVAR (Quantile Vector Autoregressio\"]\n    style vp0研究方法QVAR fill:#fef3c7,stroke:#d97706\n    Retractionnotic --> vp0研究方法QVAR\n    vp1研究主題方法論[\"💡 研究主題：方法論\"]\n    style vp1研究主題方法論 fill:#fef3c7,stroke:#d97706\n    Retractionnotic --> vp1研究主題方法論\n    vp0研究方法QVAR --- vp1研究主題方法論"
     },
     {
       "id": "2026-06-10-38",
