@@ -1,6 +1,6 @@
 {
-  "total": 151,
-  "updated": "2026-10-15 20:35:10",
+  "total": 153,
+  "updated": "2026-10-16 20:03:28",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,232 @@
     "金融市場"
   ],
   "papers": [
+    {
+      "id": "qvar-2026-10-16-cpu-greenbond-wqqr",
+      "title": "Heterogeneous multi-scale quantile effects of climate policy uncertainty on green bond returns",
+      "search_date": "2026-10-16",
+      "authors": "Aslan Aydoğdu",
+      "year": "2026",
+      "journal": "Business & Management Studies: An International Journal, 14(1), 500–517",
+      "doi": "https://doi.org/10.15295/bmij.v14i1.2728",
+      "citations": "0 次（Crossref；OpenAlex 尚無可核驗紀錄，2026-10-16）",
+      "openalex_url": "",
+      "fulltext_url": "https://www.bmij.org/index.php/1/article/view/2728",
+      "reading_level": "全文精讀",
+      "abstract": "本文以 2015 年 6 月至 2025 年 6 月的月資料，研究新聞型氣候政策不確定性（CPU）與 S&P Green Bond Index 報酬的分位與多尺度關係。作者以 MODWT 將資料分為 2–4、4–8、8–16 個月，結合 wavelet quantile-on-quantile regression（WQQR）與 wavelet quantile-on-quantile Granger causality（WQQGC）。短期低報酬區中 CPU 對綠債報酬為負，高 CPU 分位時效果轉正；中期高 CPU 分位多為正；長期幾乎所有分位組合均呈顯著正向關聯。結果支持 CPU 對綠債報酬具有時間尺度與市場狀態異質性，但 Granger 結果應解讀為可預測性而非結構因果。",
+      "tags": [
+        "WQQR",
+        "WQQGC",
+        "MODWT",
+        "quantile-on-quantile regression",
+        "wavelet analysis"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "綠債/ESG",
+        "金融市場"
+      ],
+      "keywords": [
+        "climate policy uncertainty",
+        "green bond returns",
+        "S&P Green Bond Index",
+        "time-frequency",
+        "Granger causality"
+      ],
+      "notes": [
+        "【閱讀層級】全文精讀；2026-10-16 讀取出版社合法開放的 18 頁英文 PDF，並以出版頁與 Crossref 核驗。Crossref 被引 0 次；OpenAlex DOI 查詢尚無可核驗紀錄，因此不填造 OpenAlex ID 或被引數。",
+        "【研究問題與動機】氣候政策不確定性如何在不同投資期限與綠債報酬狀態下影響全球綠債市場？既有研究多使用平均效果或單一尺度，無法同時辨識分位異質性與短、中、長期傳導。",
+        "【研究變數】自變數為 Gavriilidis（2021）新聞型 Climate Policy Uncertainty Index，分析時取自然對數；依變數為 S&P Green Bond Index 的自然對數一階差分報酬，用來代表全球綠債市場表現。",
+        "【資料／市場／樣本】全球市場；2015 年 6 月至 2025 年 6 月，月頻。CPU 來自 policyuncertainty.com，綠債指數來自 Refinitiv Eikon。原文未明確列實際樣本量；若月份完整且無缺漏，期間對應 121 期。",
+        "【模型與估計】先使用 QADF、QPP 與 Wavelet Quantile Zivot–Andrews 檢驗，再以 MODWT 分解 D1=2–4 個月、D2=4–8 個月、D3=8–16 個月；WQQR 評估 CPU 分位對綠債分位的尺度依賴效果。WQQGC 使用 0.05、0.10、…、0.95 分位，並以 AIC 為各分位序列組合選擇落後期。",
+        "【穩健性檢驗】BDS 檢驗支持非線性；QADF、QPP、WQZA 檢查平穩性與結構變化；作者另以 Wavelet Quantile Regression 與平均 WQQR 比較，短期為負、中長期轉正的型態一致。",
+        "【主要結果】短期在 CPU 與綠債報酬均位於 0.10–0.30 時呈顯著負向；CPU 升至 0.80–0.90 時效果轉正，尤其對低報酬尾部。中期 CPU 0.20–0.60 的效果較弱且混合，0.80–0.90 對多數綠債分位為正。長期幾乎所有 0.10–0.90 分位組合均為顯著正向。WQQGC 顯示短期極端 CPU 可預測綠債下尾，中期集中於高 CPU 與中高綠債分位，長期則在低尾與高尾皆有持續可預測性。",
+        "【作者提出的限制】研究只納入 CPU 與綠債，未涵蓋其他傳導管道或永續金融工具；月資料可能漏掉高頻調整與短期波動衝擊；WQQR／WQQGC 以外的替代計量方法仍可提供不同觀點。作者建議後續擴展到不同資產、區域、高頻資料與績效狀態。",
+        "【其他限制】研究是單一全球綠債指數的雙變量設計，未控制利率、信用利差、流動性或美元等共同因子；Granger causality 只能支持條件可預測性，不能等同結構因果。原文敘述 CPU 標準差為負值，但圖 1 顯示 0.470，應視為文字排版錯誤。",
+        "【APA 7】Aydoğdu, A. (2026). Heterogeneous multi-scale quantile effects of climate policy uncertainty on green bond returns. Business & Management Studies: An International Journal, 14(1), 500–517. https://doi.org/10.15295/bmij.v14i1.2728",
+        "【與美智研究的關聯】5/5。主題直接重疊 CPU × 綠債，方法同時處理分位與時間尺度；可借鏡 2–4／4–8／8–16 個月頻帶、WQQGC 分位可預測性圖與 WQR/AWQQR 穩健性。主要差異是本文為雙變量 wavelet QQR，未使用 TVP-VAR-SV、BK 或多資產 QVAR 網路；可追蹤其 CPU 與綠債指標選擇、長期正向結果及利率／流動性遺漏問題。"
+      ],
+      "type": "search",
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】全文精讀；合法開放 PDF 已逐頁核對，Crossref 被引 0 次，OpenAlex 暫無紀錄。",
+          "evidence": "出版社 18 頁 PDF、出版頁與 Crossref DOI 紀錄。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】CPU 對綠債的影響同時依賴市場分位與投資期限。",
+          "evidence": "導論將平均效果與單一尺度列為缺口，並以短中長尺度及完整分位面回應。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】CPU 為新聞型全球指標，綠債以 S&P Green Bond Index 對數報酬衡量。",
+          "evidence": "資料章明列變數來源與轉換。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】樣本為 2015/06–2025/06 月資料；實際 N 未明確報告。",
+          "evidence": "資料章報告期間、頻率、Refinitiv Eikon 與 policyuncertainty.com。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】WQR 與平均 WQQR 均支持短期負、中長期正的主要型態。",
+          "evidence": "圖 6 與 robustness check 段落。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】CPU 效果由短期的狀態依賴正負混合，轉為長期跨分位的普遍正向。",
+          "evidence": "圖 5 WQQR、圖 7 WQQGC 與結論。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【作者提出的限制】雙變量、月頻與單一方法族限制外推與高頻解讀。",
+          "evidence": "結論限制段明示。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【其他限制】WQQGC 不識別結構因果，且利率、流動性等共同因子未納入。",
+          "evidence": "依模型識別能力與雙變量規格所作的審慎評估。",
+          "confidence": "mid",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】5/5：直接提供 CPU × 綠債的 quantile × time-scale 參照。",
+          "evidence": "主題、變數與 WQQR/WQQGC 設計高度重疊；差異在未使用 TVP-VAR-SV、BK 或 QVAR 網路。",
+          "confidence": "high",
+          "source": "綜合判斷",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    cpuGB[\"📄 CPU × 綠債多尺度分位效果\"]\n    style cpuGB fill:#16a34a,color:#fff,font-weight:bold\n    n0[\"💡 WQQR：短中長期 × 分位面\"]\n    cpuGB --> n0\n    n1[\"💡 短期下尾負向、高 CPU 轉正\"]\n    cpuGB --> n1\n    n2[\"💡 長期跨分位正向\"]\n    cpuGB --> n2\n    n3[\"🔗 與美智研究關聯 5/5\"]\n    cpuGB --> n3"
+    },
+    {
+      "id": "qvar-2026-10-16-bond-sentiment-greenbond-qvar",
+      "title": "Do global bond market sentiments transmit to green bonds? Evidence from a quantile connectedness framework",
+      "search_date": "2026-10-16",
+      "authors": "Rishman Jot Kaur Chahal; Hemant Bidasaria; Hera Asif Khan; Wasim Ahmad",
+      "year": "2026",
+      "journal": "Journal of Behavioral and Experimental Finance, 49, Article 101151",
+      "doi": "https://doi.org/10.1016/j.jbef.2026.101151",
+      "citations": "0 次（Crossref 與 OpenAlex，2026-10-16）",
+      "openalex_url": "https://openalex.org/W7126070459",
+      "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S2214635026000134",
+      "reading_level": "摘要層級",
+      "abstract": "本文以 2015 年 4 月至 2023 年 3 月的日資料，研究加拿大、中國、德國、日本、英國與美國債券市場情緒和全球綠債報酬之間的 QVAR 連結。公開摘要顯示連結具有分位不對稱：綠債在正常與空頭市場是淨傳遞者，在多頭市場轉為淨接收者；美國與中國為主要情緒衝擊傳遞者，日本為主要接收者。把綠債納入傳統債券投組，相較未避險投組可降低 27.74% 風險。由於出版社全文受限，本筆不延伸推斷摘要／公開片段未提供的分位設定、預測期或交易成本。",
+      "tags": [
+        "QVAR",
+        "quantile connectedness",
+        "bond market sentiment",
+        "hedging effectiveness",
+        "portfolio diversification"
+      ],
+      "topics": [
+        "綠債/ESG",
+        "行為金融",
+        "金融市場"
+      ],
+      "keywords": [
+        "global green bond returns",
+        "bond market sentiment",
+        "bearish and bullish markets",
+        "MSCI Bloomberg Barclays Green Bond Index",
+        "S&P Green Bond Index"
+      ],
+      "notes": [
+        "【閱讀層級】摘要層級；2026-10-16 以 ScienceDirect 公開摘要與章節片段、Crossref、OpenAlex 核驗。出版社全文受存取限制，未繞過付費牆。Crossref 與 OpenAlex 均為 0 次被引；OpenAlex W7126070459，is_retracted=false。",
+        "【研究問題與動機】六個主要經濟體的債券市場情緒如何在正常、空頭與多頭狀態下彼此傳遞，並影響全球綠債？將綠債加入傳統債券投組是否可改善分散與避險效果？",
+        "【研究變數】加拿大、中國、德國、日本、英國與美國的債券市場情緒指標；全球綠債報酬主要以 MSCI Bloomberg Barclays Green Bond Index 衡量，傳統債券指數報酬供投組比較；替代綠債代理為 S&P Green Bond Index。公開內容未完整揭露情緒指標的建構細節。",
+        "【資料／市場／樣本】六個主要債券市場與全球綠債市場；2015 年 4 月至 2023 年 3 月，日頻。出版社公開片段明列期間與指數，但未報告實際觀測值數量及所有資料供應商。",
+        "【模型與估計】採 Ando et al.（2022）QVAR connectedness，分別分析正常、空頭與多頭分位的總連結、方向性連結與淨傳遞角色，再把綠債與傳統債券組成投組衡量避險效果。可取得內容未報告精確分位值、VAR 落後期、GFEVD 預測期或滾動窗。",
+        "【穩健性檢驗】以 S&P Green Bond Index 取代主要 MSCI Bloomberg Barclays Green Bond Index；公開片段指出結論型態相近，替代代理在中位數的 TCI 為 19.20%。因未讀全文，無法確認其他穩健性規格。",
+        "【主要結果】連結在分位間不對稱；綠債於正常與空頭市場為淨衝擊傳遞者，多頭市場轉為淨接收者。美國與中國債券情緒為主要淨傳遞者，日本在各市場階段為主要淨接收者。綠債加入傳統債券投組後，相較未避險投組可降低 27.74% 風險。",
+        "【作者提出的限制】可取得摘要與公開章節片段未列作者限制；全文受限，不能代作者補寫。",
+        "【其他限制】樣本僅涵蓋六國且止於 2023 年 3 月，未包括近年的快速升降息與後續綠債市場發展；情緒指標建構、交易成本與再平衡頻率在公開內容中不完整。QVAR connectedness 描述狀態依賴傳遞，不等同情緒衝擊的結構因果識別。",
+        "【APA 7】Chahal, R. J. K., Bidasaria, H., Khan, H. A., & Ahmad, W. (2026). Do global bond market sentiments transmit to green bonds? Evidence from a quantile connectedness framework. Journal of Behavioral and Experimental Finance, 49, Article 101151. https://doi.org/10.1016/j.jbef.2026.101151",
+        "【與美智研究的關聯】4/5。重疊綠債、QVAR、尾部狀態、方向性連結與投組應用；可借鏡把行為金融情緒放入綠債 QVAR，並報告市場狀態下淨角色轉換與 27.74% 避險改善。主要差異是未含 CPU／氣候風險、頻率分解或 TVP-VAR-SV；可追蹤債券情緒指標構造與綠債代理穩健性。"
+      ],
+      "type": "search",
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】摘要層級；全文受限，Crossref/OpenAlex 均為 0 次被引且未撤稿。",
+          "evidence": "ScienceDirect 公開摘要／章節片段、Crossref 與 OpenAlex W7126070459。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】全球債券情緒與綠債的傳遞角色是否依市場狀態改變？",
+          "evidence": "公開摘要明列正常、空頭與多頭分位比較及投組目的。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】六國債券情緒、全球綠債報酬與傳統債券報酬。",
+          "evidence": "出版社摘要與 data section snippet。",
+          "confidence": "mid",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】2015/04–2023/03 日資料；實際 N 未報告。",
+          "evidence": "出版社 data section snippet。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】替代 S&P Green Bond Index 後型態相近，中位數 TCI 19.20%。",
+          "evidence": "出版社 alternative proxy snippet。",
+          "confidence": "mid",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】綠債在正常／空頭為淨傳遞者，多頭轉為淨接收者；投組風險下降 27.74%。",
+          "evidence": "出版社公開摘要。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【作者提出的限制】公開內容未報告作者限制。",
+          "evidence": "可取得摘要與片段沒有完整限制段。",
+          "confidence": "mid",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【其他限制】六國樣本、期間止於 2023 年，且 QVAR 不提供結構因果識別。",
+          "evidence": "依公開樣本界線與方法識別能力作審慎評估。",
+          "confidence": "mid",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】4/5：綠債 QVAR、尾部淨角色與投組應用可直接借鏡。",
+          "evidence": "主題與 QVAR connectedness 重疊；但沒有 CPU 或頻率分解。",
+          "confidence": "high",
+          "source": "綜合判斷",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    bondSent[\"📄 全球債券情緒 × 綠債\"]\n    style bondSent fill:#7c3aed,color:#fff,font-weight:bold\n    n0[\"💡 六國債券情緒 QVAR\"]\n    bondSent --> n0\n    n1[\"💡 綠債淨角色隨市場狀態翻轉\"]\n    bondSent --> n1\n    n2[\"💡 投組風險降低 27.74%\"]\n    bondSent --> n2\n    n3[\"🔗 與美智研究關聯 4/5\"]\n    bondSent --> n3"
+    },
     {
       "id": "qvar-2026-10-15-oman-safe-havens-qqfc",
       "title": "When safe havens fail: Time-scale dependent hedging dynamics in commodity-dependent emerging markets",
