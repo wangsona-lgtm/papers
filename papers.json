@@ -1,6 +1,6 @@
 {
-  "total": 153,
-  "updated": "2026-10-16 20:03:28",
+  "total": 155,
+  "updated": "2026-10-17 20:04:15",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,233 @@
     "金融市場"
   ],
   "papers": [
+    {
+      "id": "qvar-2026-10-17-climate-higher-moments-multilayer",
+      "title": "Measuring Climate Risk Spillovers for Sustainable Finance: A Quantile Time-Frequency Multilayer Network Analysis of Carbon, Energy, and Metals Markets",
+      "search_date": "2026-10-17",
+      "authors": "Yuqin Zhou; Zixuan Luo; Shan Wu",
+      "year": "2026",
+      "journal": "Sustainability, 18(20), 10355",
+      "doi": "https://doi.org/10.3390/su182010355",
+      "citations": "0 次（Crossref 與 OpenAlex，2026-10-17）",
+      "openalex_url": "https://openalex.org/W7221569164",
+      "fulltext_url": "https://www.mdpi.com/2071-1050/18/20/10355",
+      "reading_level": "摘要層級",
+      "abstract": "本文研究氣候實體風險、氣候轉型風險與碳、能源及金屬期貨市場之間的分位數與時間頻率風險傳導，並將報酬、波動、偏態與峰態整合為多層網路。樣本使用 2015 年 7 月 1 日至 2023 年 12 月 29 日的日資料；先以 GJRSK 擷取高階動差風險，再以 Quantile Time-Frequency（QVAR-BK）架構區分尾部／中位市場狀態與短長期傳導。摘要顯示高階動差溢出明顯但低於報酬與波動溢出；報酬、偏態與峰態以短期傳導為主，波動則較集中於長期。氣候風險多數時間是衝擊接收者，但在長期市場下跌狀態會轉為傳送者。",
+      "tags": [
+        "QVAR-BK",
+        "quantile time-frequency connectedness",
+        "GJRSK",
+        "multilayer network",
+        "higher-moment risk"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "碳市場/碳交易",
+        "能源市場",
+        "原物料/商品"
+      ],
+      "keywords": [
+        "climate physical risk",
+        "climate transition risk",
+        "carbon market",
+        "energy futures",
+        "metals",
+        "higher moments"
+      ],
+      "notes": [
+        "【閱讀層級】摘要層級；2026-10-17 以 Crossref、OpenAlex 與 MDPI 公開頁面索引核驗書目與摘要。出版社全文頁在本次環境遭存取限制，因此未把搜尋索引中的段落視為完整精讀。Crossref 與 OpenAlex 被引均為 0，OpenAlex W7221569164，is_retracted=false。",
+        "【研究問題與動機】氣候實體與轉型風險如何跨越碳、能源與金屬市場，並在報酬、波動、偏態與峰態等不同風險層、分位狀態及投資期限中傳導？研究動機是既有文獻通常只處理單一風險動差、分位或頻率維度。",
+        "【研究變數】氣候面向包含 Climate Physical Risk Index 與 Climate Transition Risk Index；市場面向包含碳、傳統／潔淨能源與金屬期貨結算價格。由 GJRSK 模型擷取報酬、波動、偏態與峰態風險。摘要未完整列出所有期貨品項與代碼。",
+        "【資料／市場／樣本】全球碳、能源與金屬期貨市場；2015-07-01 至 2023-12-29，日頻。摘要未報告資料供應商、缺漏處理與最終樣本量。",
+        "【模型與估計】先以 GJRSK 建立高階動差風險，再採 Quantile Time-Frequency／QVAR-BK 架構比較條件分位與短長期溢出，最後將四種風險層整合為多層複雜網路並衡量拓樸特徵。摘要未報告 VAR 落後期、預測期、頻帶界線與滾動視窗等估計設定。",
+        "【穩健性檢驗】摘要未報告替代分位、視窗、頻帶、模型或變數代理的穩健性檢驗；在取得全文前，不推定表格與附錄中是否另有檢查。",
+        "【主要結果】高階動差風險溢出顯著，但幅度低於報酬與波動溢出；報酬、偏態與峰態的傳導主要集中於短期，波動溢出則集中於長期。氣候風險通常是接收者，但在長期市場下跌狀態轉為傳送者；多層網路結構隨風險層與條件分位明顯改變。以上均為摘要明示結果，不延伸為因果結論。",
+        "【作者提出的限制】公開摘要未報告作者明列的研究限制；待合法取得全文後再核對限制與未來研究段落。",
+        "【其他限制】樣本止於 2023 年底，無法涵蓋後續政策與市場事件；高階動差由模型估計，結果可能依 GJRSK 規格、頻帶切分與分位選擇而變。連結度分析辨識的是條件傳導與預測誤差分解，不足以主張結構因果。",
+        "【APA 7】Zhou, Y., Luo, Z., & Wu, S. (2026). Measuring climate risk spillovers for sustainable finance: A quantile time-frequency multilayer network analysis of carbon, energy, and metals markets. Sustainability, 18(20), 10355. https://doi.org/10.3390/su182010355",
+        "【與美智研究的關聯】5/5。主題直接重疊氣候風險、碳與能源金融市場，方法亦結合 QVAR 與 Baruník–Křehlík 頻率分解；可借鏡實體／轉型風險雙指標、報酬至高階動差的多層網路與長期下尾角色翻轉。主要差異是本文不以 CPU 為核心，也未使用 TVP-VAR-SV；可追蹤其頻帶設定、網路層間指標與氣候風險由接收者轉為傳送者的條件。"
+      ],
+      "type": "search",
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】摘要層級；書目、摘要、被引與撤稿狀態已由 Crossref、OpenAlex 與出版頁核驗。",
+          "evidence": "Crossref DOI 紀錄、OpenAlex W7221569164 與 MDPI 公開文章頁。",
+          "confidence": "high",
+          "source": "摘要／書目",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】研究同時處理氣候風險、四種風險動差、條件分位與時間頻率。",
+          "evidence": "摘要明示研究架構與多層網路目的。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】氣候實體／轉型風險與碳、能源、金屬期貨構成分析系統。",
+          "evidence": "摘要列出風險指標與市場群組。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】日資料期間為 2015-07-01 至 2023-12-29；最終 N 未報告。",
+          "evidence": "Crossref 收錄摘要。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【模型與估計】GJRSK 後接 QVAR-BK，並建立四層風險網路。",
+          "evidence": "摘要與公開文章索引的方法敘述。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】報酬／偏態／峰態偏短期，波動偏長期；氣候風險在長期下跌狀態轉為傳送者。",
+          "evidence": "摘要明示結果。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【限制】摘要未報告穩健性與作者限制，不能補寫為全文證據。",
+          "evidence": "本次可取得內容範圍。",
+          "confidence": "high",
+          "source": "證據邊界",
+          "connections": []
+        },
+        {
+          "claim": "【其他限制】連結度不能識別結構因果，結果可能依高階動差與頻帶規格而變。",
+          "evidence": "依方法辨識能力作出的審慎評估。",
+          "confidence": "mid",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】5/5：可直接對照氣候風險 × QVAR-BK 與長期下尾傳導。",
+          "evidence": "主題與 QVAR／頻率分解高度重疊，差異在 CPU 與 TVP-VAR-SV 未納入。",
+          "confidence": "high",
+          "source": "綜合判斷",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    climateHM[\"📄 氣候風險 × 高階動差多層網路\"]\n    style climateHM fill:#16a34a,color:#fff,font-weight:bold\n    n0[\"💡 GJRSK：報酬／波動／偏態／峰態\"]\n    climateHM --> n0\n    n1[\"💡 QVAR-BK：尾部 × 短長期\"]\n    climateHM --> n1\n    n2[\"💡 長期下跌時氣候風險轉為傳送者\"]\n    climateHM --> n2\n    n3[\"🔗 與美智研究關聯 5/5\"]\n    climateHM --> n3"
+    },
+    {
+      "id": "qvar-2026-10-17-inflation-policy-uncertainty-fqqc",
+      "title": "Inflation and Policy Uncertainty: A Frequency Quantile on Quantile Connectedness Analysis",
+      "search_date": "2026-10-17",
+      "authors": "José Aguilar",
+      "year": "2026",
+      "journal": "SSRN Electronic Journal (preprint)",
+      "doi": "https://doi.org/10.2139/ssrn.7556694",
+      "citations": "0 次（Crossref 與 OpenAlex，2026-10-17）",
+      "openalex_url": "https://openalex.org/W7218983625",
+      "fulltext_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7556694",
+      "reading_level": "摘要層級",
+      "abstract": "本文以 1985–2026 年美國月資料，使用 frequency quantile-on-quantile connectedness 分析整體通膨與經濟、貨幣及貿易政策不確定性之雙向傳導。摘要顯示方向依期限改變：短期由政策不確定性向通膨傳送衝擊，長期則反轉為通膨向政策不確定性傳送；三種不確定性指標皆呈此型態。連結度集中在聯合分布尾部，在通膨中位附近接近零，而貿易政策不確定性的傳導尤其集中於其上尾。",
+      "tags": [
+        "frequency quantile-on-quantile connectedness",
+        "quantile connectedness",
+        "frequency connectedness",
+        "policy uncertainty",
+        "inflation"
+      ],
+      "topics": [
+        "宏觀總體",
+        "方法論"
+      ],
+      "keywords": [
+        "headline inflation",
+        "economic policy uncertainty",
+        "monetary policy uncertainty",
+        "trade policy uncertainty",
+        "United States"
+      ],
+      "notes": [
+        "【閱讀層級】摘要層級；Crossref、OpenAlex 與 SSRN 公開摘要已核驗。SSRN 全文端點在本次環境回傳 403，OpenAlex 內容下載需 API key，因此未標示全文精讀。Crossref 與 OpenAlex 被引均為 0；OpenAlex W7218983625，is_retracted=false。",
+        "【研究問題與動機】政策不確定性推升通膨，還是通膨反過來改變政策不確定性？研究以分位對分位與頻率維度檢視方向是否隨尾部狀態及期限而反轉。",
+        "【研究變數】整體通膨，以及經濟政策不確定性（EPU）、貨幣政策不確定性（MPU）與貿易政策不確定性（TPU）。摘要未報告各指標的精確來源、轉換或季調方式。",
+        "【資料／市場／樣本】美國；1985–2026，月頻。摘要未提供起訖月份、資料來源、缺漏處理與最終樣本量。",
+        "【模型與估計】採 frequency quantile-on-quantile connectedness，在聯合分布不同位置比較短期與長期的雙向傳導。摘要未交代基礎模型方程、分位網格、頻帶界線、落後期與信賴區間。",
+        "【穩健性檢驗】摘要未報告替代通膨指標、分位、頻帶或樣本切割等穩健性檢驗；未取得全文前不作推定。",
+        "【主要結果】短期由 EPU、MPU 與 TPU 向通膨淨傳送；長期方向反轉，通膨成為淨傳送者。連結度集中在聯合分布尾部，通膨中位附近接近零；TPU 相關傳導集中在其上尾。這些是方向與連結度結果，不應寫成政策不確定性造成通膨的結構因果。",
+        "【作者提出的限制】公開摘要未報告作者明列的限制；待合法取得全文後再核對。",
+        "【其他限制】本文是 9 頁 SSRN 預印本，尚未等同同儕審查期刊版本；樣本延伸到 2026，但摘要未說明資料可得終點。方法描述與穩健性細節不足，且連結度不能排除共同宏觀衝擊或反向預期管道。",
+        "【APA 7】Aguilar, J. (2026). Inflation and policy uncertainty: A frequency quantile on quantile connectedness analysis [Preprint]. SSRN. https://doi.org/10.2139/ssrn.7556694",
+        "【與美智研究的關聯】4/5。主題不是氣候或綠色資產，但方法直接展示政策不確定性、分位對分位與頻率分解如何辨識短長期方向反轉；可借鏡於 CPU × 能源／金融市場的 FRL 設計與尾部解讀。主要差異是雙變量宏觀傳導，未建立 TVP-VAR-SV 或多資產 QVAR 網路。"
+      ],
+      "type": "search",
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】摘要層級；SSRN 全文未能在本次環境合法讀取。",
+          "evidence": "Crossref、OpenAlex 與 SSRN 公開摘要；全文端點 403。",
+          "confidence": "high",
+          "source": "摘要／書目",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】檢驗通膨與三類政策不確定性的傳導方向是否隨期限與尾部狀態改變。",
+          "evidence": "摘要研究問題。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】整體通膨對 EPU、MPU 與 TPU。",
+          "evidence": "摘要明列四項變數。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】美國 1985–2026 月資料；精確月份與 N 未報告。",
+          "evidence": "摘要。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【模型與估計】使用頻率分位對分位連結度，區分短期與長期。",
+          "evidence": "題名、關鍵字與摘要。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】短期政策不確定性向通膨傳送，長期方向反轉；連結度集中於尾部。",
+          "evidence": "摘要明示結果。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【限制】摘要未提供穩健性、分位網格與頻帶細節。",
+          "evidence": "本次可取得內容範圍。",
+          "confidence": "high",
+          "source": "證據邊界",
+          "connections": []
+        },
+        {
+          "claim": "【其他限制】預印本結果不能直接寫成結構因果，亦可能受共同宏觀衝擊影響。",
+          "evidence": "依版本狀態與方法辨識能力作出的審慎評估。",
+          "confidence": "mid",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】4/5：頻率 × 分位對分位與政策不確定性的方向反轉可直接移植比較。",
+          "evidence": "方法與政策不確定性高度重疊，市場主題不同。",
+          "confidence": "high",
+          "source": "綜合判斷",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    inflPU[\"📄 通膨 × 政策不確定性\"]\n    style inflPU fill:#7c3aed,color:#fff,font-weight:bold\n    n0[\"💡 Frequency quantile-on-quantile connectedness\"]\n    inflPU --> n0\n    n1[\"💡 短期：政策不確定性 → 通膨\"]\n    inflPU --> n1\n    n2[\"💡 長期：通膨 → 政策不確定性\"]\n    inflPU --> n2\n    n3[\"🔗 與美智研究關聯 4/5\"]\n    inflPU --> n3"
+    },
     {
       "id": "qvar-2026-10-16-cpu-greenbond-wqqr",
       "title": "Heterogeneous multi-scale quantile effects of climate policy uncertainty on green bond returns",
