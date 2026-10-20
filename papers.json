@@ -1,6 +1,6 @@
 {
-  "total": 155,
-  "updated": "2026-10-17 20:30:19",
+  "total": 156,
+  "updated": "2026-10-20 19:58:48",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,121 @@
     "金融市場"
   ],
   "papers": [
+    {
+      "id": "qvar-2026-10-19-gcc-geopolitical-risk-energy-gold",
+      "title": "Geopolitical risk spillovers among GCC stock markets, non-renewable energy, and gold: evidence from a quantile connectedness approach",
+      "search_date": "2026-10-19",
+      "authors": "Nidhal Mgadmi; Fekria Belhouichet; Ștefan Cristian Gherghina; Wajdi Moussa; Rym Regaieg; Nejib Hachicha",
+      "year": "2026",
+      "journal": "Portuguese Economic Journal, advance online publication",
+      "doi": "https://doi.org/10.1007/s10258-026-00299-y",
+      "citations": "0 次（Crossref；OpenAlex 尚無可核驗紀錄，2026-10-19）",
+      "openalex_url": "",
+      "fulltext_url": "https://link.springer.com/content/pdf/10.1007/s10258-026-00299-y.pdf",
+      "reading_level": "全文精讀",
+      "abstract": "本文以 2022 年 1 月 2 日至 2024 年 2 月 27 日的日資料，研究地緣政治風險、六個海灣合作委員會（GCC）股市、WTI 原油、天然氣與黃金之間的分位數連結。作者在第 5、50、95 分位估計一階 QVAR、10 日 GFEVD 與 200 日滾動連結度，並比較 LOCF 連續日曆與僅保留所有市場共同開市日兩種對齊方式。靜態 TCI 由中位數的 72.35% 升至下尾 82.99% 與上尾 79.97%；地緣政治風險在兩種日曆的市場下跌狀態皆為主要淨傳送者，沙烏地 TASI 的淨傳送角色最穩定，黃金則多為淨接收者。原油角色會隨交易日對齊而反轉，顯示資產角色判定對日曆處理敏感。",
+      "tags": [
+        "QVAR",
+        "quantile connectedness",
+        "GFEVD",
+        "rolling-window connectedness",
+        "calendar-alignment robustness"
+      ],
+      "topics": [
+        "地緣政治/國防",
+        "能源市場",
+        "原物料/商品",
+        "金融市場"
+      ],
+      "keywords": [
+        "geopolitical risk",
+        "GCC stock markets",
+        "WTI crude oil",
+        "natural gas",
+        "gold",
+        "tail spillovers"
+      ],
+      "notes": [
+        "【閱讀層級】全文精讀；2026-10-19 讀取 Springer 合法開放的 29 頁版本全文，並以出版頁與 Crossref 核驗書目。Crossref 被引 0 次且無 update-to／updated-by 關係；OpenAlex DOI 直接查詢與篩選查詢均尚無可核驗紀錄，因此不填造 OpenAlex ID 或被引數。",
+        "【研究問題與動機】地緣政治風險如何在正常、下跌與上漲市場狀態中，跨 GCC 股市、非再生能源與黃金傳導？研究動機是 GCC 經濟高度依賴油氣，而平均數 VAR 容易低估危機尾部的非線性與不對稱風險傳播。",
+        "【研究變數】六個 GCC 股價指數為沙烏地 TASI、卡達 QASI、阿布達比 ADXI、阿曼 MSM-30、巴林 BASI 與科威特 FTDKUWI；商品為 WTI 連續近月原油、天然氣連續近月期貨與黃金連續近月期貨；地緣政治風險使用 Caldara–Iacoviello 日頻 GPR Index。市場價格轉為連續複利對數報酬並乘以 100。",
+        "【資料／市場／樣本】GCC 六國股市、全球能源期貨、黃金與日頻 GPR；期間 2022-01-02 至 2024-02-27。市場價格取自 Investing.com，GPR 取自作者資料庫。LOCF 連續日曆有 787 日、差分後 785 筆報酬；All-Markets-Open 共同開市樣本有 377 日、差分後 376 筆報酬。",
+        "【模型與估計】估計 QVAR(1) 於 τ=0.05、0.50、0.95，以 H=10 日 GFEVD 建構 TO、FROM、NET、TCI 與 NPDC；動態連結度使用 200 日滾動視窗。主規格以 LOCF 對齊異步交易日，並以僅保留十個市場皆開市日期的樣本重估。作者先以 ADF、PP 與 Perron 結構斷點檢驗檢查平穩性。",
+        "【穩健性檢驗】除 All-Markets-Open 對照外，作者以固定種子零均值 Gaussian jitter（σ=10^-6）及 10^-8 至 10^-4 的五種尺度、獨立種子進行 15 組擾動規格。下尾與上尾 TCI 均維持 82.99% 與 79.97%；30 個變數×分位角色中，兩種日曆有 22 個一致（73.33%），但少數接近零的中位角色仍會改變。",
+        "【主要結果】靜態 TCI 為中位 72.35%、下尾 82.99%、上尾 79.97%，顯示兩側尾部的系統連結均高於常態。TASI 在所有日曆與分位均為淨傳送者；GPR 在兩種日曆的下尾均為主要淨傳送者，且多數規格在上尾也傳送。黃金多為淨接收者。原油在 LOCF 下尾為重要傳送者，但在共同開市樣本轉為接收者，因此不能把其角色寫成無條件結論。",
+        "【作者提出的限制】模型在各分位仍使用線性近似，不能區分直接與間接傳導；未納入利率、全球流動性等廣泛宏觀金融變數；2022–2024 的短樣本使極端尾部觀察數有限。作者建議延長樣本、加入頻域或 partial connectedness、納入更多宏觀變數並做跨區域比較。",
+        "【其他限制】LOCF 會製造非交易日零報酬，雖已以共同開市樣本與 jitter 稽核，但個別資產的淨角色仍有日曆敏感性；200 日視窗在 785 筆主樣本中可用動態觀察有限。連結度衡量預測誤差傳導而非結構因果；黃金為淨接收者也不能直接推出避險或安全港性質。",
+        "【APA 7】Mgadmi, N., Belhouichet, F., Gherghina, Ș. C., Moussa, W., Regaieg, R., & Hachicha, N. (2026). Geopolitical risk spillovers among GCC stock markets, non-renewable energy, and gold: Evidence from a quantile connectedness approach. Portuguese Economic Journal. Advance online publication. https://doi.org/10.1007/s10258-026-00299-y",
+        "【與美智研究的關聯】4/5。主題重疊政策／地緣政治不確定性、能源與金融市場的尾部溢出，方法可直接作為 QVAR-GFEVD 與滾動網路的對照；最可借鏡的是異步交易日的 LOCF／共同開市雙規格與角色敏感性揭露。主要差異是本文未納入氣候政策不確定性、綠色資產、TVP-VAR-SV 或 BK 頻率分解；可追蹤其 200 日視窗、10 日預測期與日曆對齊穩健性。"
+      ],
+      "type": "search",
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】全文精讀；Springer 29 頁開放全文與 Crossref 書目已核對。",
+          "evidence": "Springer PDF、出版頁與 Crossref DOI 紀錄；OpenAlex 尚未索引。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】辨識 GPR 在 GCC 股市、能源與黃金網路中的尾部傳導角色。",
+          "evidence": "導論與研究假說明示平均模型不足及 GCC 油氣依賴背景。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】六個 GCC 股指、WTI、天然氣、黃金與 Caldara–Iacoviello GPR 組成十變數系統。",
+          "evidence": "資料章逐項定義變數與來源。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】2022-01-02 至 2024-02-27 日資料；主樣本 785 筆報酬，共同開市樣本 376 筆。",
+          "evidence": "樣本與資料章報告兩種日曆的觀察數。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【模型與估計】QVAR(1)、τ=.05/.50/.95、H=10 與 200 日滾動視窗。",
+          "evidence": "方法章明列落後期、分位、GFEVD 預測期與視窗長度。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】尾部 TCI 對 jitter 穩定，但少數個別資產角色對交易日對齊敏感。",
+          "evidence": "15 組擾動規格與 LOCF／共同開市比較。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】TCI 由中位 72.35% 升至下尾 82.99% 與上尾 79.97%；GPR 在下尾為主要傳送者。",
+          "evidence": "靜態連結度表、網路圖與結論。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【限制】短樣本、分位內線性近似、未區分直接／間接管道且缺少廣泛宏觀變數。",
+          "evidence": "作者限制段；另依日曆敏感性與 connectedness 識別能力補充。",
+          "confidence": "high",
+          "source": "全文／研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】4/5：提供不確定性×能源金融 QVAR 與日曆對齊穩健性範本。",
+          "evidence": "主題與 QVAR-GFEVD 重疊；差異在無 CPU、綠色資產、TVP-VAR-SV 與 BK。",
+          "confidence": "high",
+          "source": "綜合判斷",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    gccGPR[\"📄 GCC 地緣政治風險尾部溢出\"]\n    style gccGPR fill:#dc2626,color:#fff,font-weight:bold\n    n0[\"💡 QVAR-GFEVD：τ=.05/.50/.95\"]\n    gccGPR --> n0\n    n1[\"💡 尾部 TCI 顯著高於中位\"]\n    gccGPR --> n1\n    n2[\"💡 GPR 下尾傳送；原油角色具日曆敏感性\"]\n    gccGPR --> n2\n    n3[\"🔗 與美智研究關聯 4/5\"]\n    gccGPR --> n3"
+    },
     {
       "id": "qvar-2026-10-17-inflation-policy-uncertainty-fqqc",
       "title": "Inflation and Policy Uncertainty: A Frequency Quantile on Quantile Connectedness Analysis",
