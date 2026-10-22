@@ -1,6 +1,6 @@
 {
-  "total": 156,
-  "updated": "2026-10-20 19:58:48",
+  "total": 158,
+  "updated": "2026-10-22 20:08:47",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,239 @@
     "金融市場"
   ],
   "papers": [
+    {
+      "id": "qvar-2026-10-22-sustainable-assets-tail-connectedness",
+      "title": "Tail-Dependent Connectedness Across Carbon, Water, Clean-Energy, Green-Bond, and ESG Markets",
+      "search_date": "2026-10-22",
+      "authors": "Tanattrin Bunnag",
+      "year": "2026",
+      "journal": "Sustainability, 18(20), Article 10634",
+      "doi": "https://doi.org/10.3390/su182010634",
+      "citations": "0 次（Crossref 與 OpenAlex，2026-10-22）",
+      "openalex_url": "https://openalex.org/W7223008564",
+      "fulltext_url": "https://www.preprints.org/manuscript/202609.2688",
+      "reading_level": "全文精讀",
+      "abstract": "本文以碳權、水資產、潔淨能源、綠債與 ESG 股票五類永續金融市場，檢驗報酬連結是否隨分位數、市場壓力與利率狀態改變。作者使用 2020 年 3 月 16 日至 2025 年 12 月 31 日共 1,440 筆同步日報酬，估計 QVAR(1)–GFEVD、500 筆滾動視窗與定態拔靴信賴區間。全樣本 TCI 在五個分位僅介於 33.90% 至 34.16%，但滾動上尾 TCI 平均高於中位數 0.672 個百分點，95% 信賴區間為 0.372 至 0.961；下尾差異則未顯著。水資產 ETF 為最穩定淨傳送者，綠債 ETF 為主要淨接收者。高 VIX 視窗的平均 TCI 反而較低，顯示條件報酬尾端與可觀察市場壓力不是同一種狀態。",
+      "tags": [
+        "QVAR",
+        "GFEVD",
+        "quantile connectedness",
+        "stationary bootstrap",
+        "rolling-window connectedness",
+        "portfolio allocation"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "碳市場/碳交易",
+        "潔淨能源",
+        "綠債/ESG",
+        "金融市場"
+      ],
+      "keywords": [
+        "EU emissions allowances",
+        "water ETF",
+        "clean energy",
+        "green bonds",
+        "ESG",
+        "tail dependence"
+      ],
+      "notes": [
+        "【閱讀層級】全文精讀；以 2026-10-20 正式出版的 MDPI 書目與 DOI 核驗，並完整閱讀作者於 Preprints.org 依 CC BY 4.0 公開的全文版本。Crossref 與 OpenAlex 被引均為 0；OpenAlex W7223008564，is_retracted=false。",
+        "【研究問題與動機】碳權、水資產、潔淨能源、綠債與 ESG 股票在條件報酬尾端是否呈現更強、不同方向的衝擊傳導？VIX 與長債殖利率所代表的外部壓力狀態，是否等同於 QVAR 的尾端狀態？作者也檢驗連結資訊能否改善樣本外尾部風險控制。",
+        "【研究變數】內生網路含 EUA 歐盟碳排放權價格、Invesco S&P Global Water ETF（CGW）、S&P Global Clean Energy Index（CLEAN）、iShares USD Green Bond ETF（BGRN）與 S&P 500 ESG Index（SPESG）。VIX 與美國 10 年期公債殖利率只用於外部狀態分類，不納入 QVAR。",
+        "【資料／市場／樣本】資料來自 Investing.com；跨歐盟與美國的全球永續金融代理變數，日頻。同步水準樣本為 2020-03-16 至 2025-12-31，共 1,441 筆，形成 1,440 筆百分比對數報酬。作者取所有變數共同交易日、不前向填補，以降低非同步交易與人工零報酬。",
+        "【模型與估計】在 τ=0.05、0.25、0.50、0.75、0.95 估計未懲罰 QVAR(1)，以 H=10 的 generalized FEVD 計算 FROM、TO、NET 與 TCI。動態分析使用 500 筆滾動視窗、每次前進 5 筆，共 189 個端點；滾動尾端與中位數差異以平均區塊長度 10、2,000 次定態拔靴建立 95% 區間。",
+        "【穩健性檢驗】比較 H=5、10、20，TCI 幾乎不變；全樣本譜半徑介於 0.064 至 0.195，滾動模型皆檢查穩定且無需縮放。另比較 VIX／美債殖利率高低狀態、不同視窗長度、完整網路與群聚分解，並做嚴格計時的樣本外配置及交易成本調整。",
+        "【主要結果】全樣本 TCI 為 33.90%–34.16%，各分位差距很小；滾動上尾相對中位數平均增加 0.672 個百分點（95% CI [0.372, 0.961]），下尾增加 0.395 個百分點但區間含零。CGW 在各分位為最強淨傳送者，BGRN 為主要淨接收者。高 VIX 視窗的 TCI 反而較低，主因跨群聚連結減弱。State-QVAR 配置將等權年化波動由 13.22% 降至 5.91%、最大回撤由 21.39% 降至 13.22%，但實現報酬亦較低。",
+        "【作者提出的限制】共同樣本受 SPESG 起始日限制，無法估計相同工具的疫情前基準；ETF／指數只是可投資代理，成分調整、幣別與註冊地可能影響結果；共同交易日仍不能完全排除跨區域收盤時間差。作者建議更換基準、擴大資產與較長樣本驗證。",
+        "【其他限制】只有五個永續資產節點，VIX 與利率被外生分類，未建模其回饋；連結度是預測誤差占比而非結構因果。作者只一人且正式期刊文章與可讀全文來自相鄰版本，雖題名、方法與結果一致，引用時仍應以正式 DOI 為準並留意後續版本修訂。",
+        "【APA 7】Bunnag, T. (2026). Tail-dependent connectedness across carbon, water, clean-energy, green-bond, and ESG markets. Sustainability, 18(20), Article 10634. https://doi.org/10.3390/su182010634",
+        "【與美智研究的關聯】5/5。主題直接重疊碳市場、潔淨能源、綠債與 ESG 的尾部溢出，QVAR–GFEVD、滾動網路與狀態分類可直接作為氣候政策不確定性 × 綠色資產研究的比較設計。最可借鏡的是對尾端差異提供依賴結構感知的信賴區間，避免僅憑 TCI 排名宣稱尾部放大。主要差異是本文未納入 CPU、TVP-VAR-SV 或 BK 頻率分解。"
+      ],
+      "type": "search",
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】全文精讀；正式 DOI、Crossref、OpenAlex與 CC BY 全文均已核對。",
+          "evidence": "MDPI 正式書目、OpenAlex W7223008564、Preprints.org CC BY 4.0 全文。",
+          "confidence": "high",
+          "source": "全文／書目",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】區分條件報酬尾端、VIX 壓力與利率狀態的永續資產傳導。",
+          "evidence": "研究問題與兩層概念框架明確區分內生網路和外部狀態。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】EUA、CGW、CLEAN、BGRN、SPESG 為網路節點；VIX 與 US10Y 為狀態分類。",
+          "evidence": "資料與變數表。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】2020-03-16 至 2025-12-31，共 1,440 筆同步日報酬。",
+          "evidence": "資料稽核與樣本章。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【模型與估計】QVAR(1)–GFEVD、五個分位、H=10、500 筆滾動視窗與定態拔靴。",
+          "evidence": "方法章與公式。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】H=5/10/20、模型穩定、外部狀態、視窗長度與樣本外配置均有檢查。",
+          "evidence": "附錄 A、方法與樣本外評估。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】上尾相對中位數的滾動 TCI 差異為 0.672 個百分點且區間不含零；下尾差異不顯著。",
+          "evidence": "Table 6 與結論；95% CI [0.372, 0.961]。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【限制】代理資產、2020 年後短樣本與不同市場收盤時間限制外推。",
+          "evidence": "作者限制段及資料對齊說明。",
+          "confidence": "high",
+          "source": "全文／研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】5/5：可直接借鏡尾端差異推論與氣候／綠色資產網路設計。",
+          "evidence": "主題和 QVAR–GFEVD 高度重疊；本文未做 CPU 與 BK 頻率分解。",
+          "confidence": "high",
+          "source": "綜合判斷",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    sustainableTail[\"📄 永續資產尾端連結\"]\n    style sustainableTail fill:#059669,color:#fff,font-weight:bold\n    n0[\"💡 QVAR-GFEVD + 定態拔靴\"]\n    sustainableTail --> n0\n    n1[\"💡 上尾放大有統計支持；下尾不顯著\"]\n    sustainableTail --> n1\n    n2[\"💡 水資產傳送；綠債接收\"]\n    sustainableTail --> n2\n    n3[\"🔗 與美智研究關聯 5/5\"]\n    sustainableTail --> n3"
+    },
+    {
+      "id": "qvar-2026-10-22-thailand-gold-oil-quantile-frequency",
+      "title": "Beyond the Safe Haven: State- and Frequency-Dependent Connectedness of Gold, Oil, the U.S. Dollar, and the Thai Equity Market",
+      "search_date": "2026-10-22",
+      "authors": "Tanattrin Bunnag",
+      "year": "2026",
+      "journal": "Risks, 14(10), Article 242",
+      "doi": "https://doi.org/10.3390/risks14100242",
+      "citations": "0 次（Crossref 與 OpenAlex，2026-10-22）",
+      "openalex_url": "https://openalex.org/W7223023377",
+      "fulltext_url": "https://www.preprints.org/manuscript/202609.0005",
+      "reading_level": "全文精讀",
+      "abstract": "本文用 2008 年 2 月 1 日至 2025 年 12 月 31 日的 4,206 筆日資料，研究 WTI 原油、黃金、美元指數與泰國 SET 股市在不同市場狀態及投資期限下的傳導。分位數—頻率連結結果顯示，中位狀態的系統連結極低，但在第 5 與第 95 分位大幅升高；兩個尾端相對中位數的 TCI 差異約 59.19 與 57.37 個百分點，500 次區塊拔靴區間均不含零。黃金在兩個尾端的總體網路都是重要淨傳送者，但短長期主導者會切換：下尾短期由 SET 主導、長期由油價主導；上尾短期由美元主導、長期由 SET 主導。黃金—SET 的雙向連結在中位數近零、在兩側尾端約 19%，因此不能把黃金視為無條件安全港。",
+      "tags": [
+        "quantile-frequency connectedness",
+        "QVAR",
+        "frequency decomposition",
+        "GFEVD",
+        "block bootstrap",
+        "safe haven"
+      ],
+      "topics": [
+        "能源市場",
+        "原物料/商品",
+        "金融市場",
+        "方法論"
+      ],
+      "keywords": [
+        "WTI crude oil",
+        "gold",
+        "U.S. Dollar Index",
+        "SET Index",
+        "Thailand",
+        "tail connectedness"
+      ],
+      "notes": [
+        "【閱讀層級】全文精讀；以 2026-10-20 正式出版的 MDPI 書目與 DOI 核驗，並完整閱讀作者於 Preprints.org 依 CC BY 4.0 公開的全文版本。Crossref 與 OpenAlex 被引均為 0；OpenAlex W7223023377，is_retracted=false。",
+        "【研究問題與動機】黃金在正常與極端市場狀態下是否仍是泰股的安全港？油價、美元、黃金與 SET 的傳送角色是否會隨分位與短長期頻帶改變？研究強調低無條件相關不等於尾端連結薄弱。",
+        "【研究變數】WTI 原油、XAU/USD 現貨黃金、美國美元指數（DXY）與泰國證券交易所 SET 指數；皆轉為日簡單報酬。四者分別代表全球能源／商品、貴金屬安全港、國際貨幣條件與泰國股票市場風險。",
+        "【資料／市場／樣本】全球 WTI、黃金、美元與泰國股市；2008-02-01 至 2025-12-31，日頻。對齊交易日後每個市場有 4,206 筆觀察。公開全文未在資料定義段明列資料庫名稱，故不推測來源。",
+        "【模型與估計】在 τ=0.05、0.50、0.95 估計分位數連結與 generalized FEVD，計算 TCI、TO、FROM、NET 及黃金—SET 雙向傳導，再分解為短期與長期頻帶。中間分位 τ=0.25、0.75 作補充；作者以不同分位與頻帶比較市場狀態 × 傳導期限的六種組合。",
+        "【穩健性檢驗】加入 τ=0.25 與 0.75、完整頻率 TO／FROM 分解、Pearson／Kendall／Spearman 相關診斷，以及 500 次、區塊長度 5 的區塊拔靴。兩個尾端對中位數的 TCI 差異信賴區間皆遠離零，但上尾與下尾的直接差異區間略含零。",
+        "【主要結果】下尾對中位數 TCI 差異為 59.1898 個百分點（95% CI [57.5924, 60.0270]），上尾對中位數差異為 57.3697（[56.6749, 58.7565]）；上尾與下尾差異不顯著。黃金在兩尾為重要淨傳送者，但短長期領導者切換。Gold→SET 在 τ=.05/.50/.95 為 19.96%/0.02%/19.27%，SET→Gold 為 19.62%/0.05%/18.62%，顯示尾端雙向耦合。",
+        "【作者提出的限制】僅含四個市場，未納入利率、債券、波動指標、加密資產或更多亞洲股市；連結度不是結構因果；分位與頻帶選擇仍有模型不確定性；拔靴不能消除所有規格風險；本文未直接評估投資組合績效。",
+        "【其他限制】以單一泰國市場代表新興市場，跨國外推有限；日頻收盤時間與跨市場交易時區可能影響方向。頻率分解雖可區分衝擊持續性，但沒有外生識別，不能把淨傳送者等同基本面因果來源或把尾端連結直接等同避險失效。",
+        "【APA 7】Bunnag, T. (2026). Beyond the safe haven: State- and frequency-dependent connectedness of gold, oil, the U.S. dollar, and the Thai equity market. Risks, 14(10), Article 242. https://doi.org/10.3390/risks14100242",
+        "【與美智研究的關聯】4/5。可借鏡分位 × 頻率雙維度、尾端與中位差異拔靴，以及傳送者在短長期反轉的呈現方式，適合比較 CPU × 能源／金融資產研究。主要差異是本文沒有氣候風險、綠色資產、TVP-VAR-SV，也未明確採 BK 標準頻帶；研究場域集中於泰國與傳統資產。"
+      ],
+      "type": "search",
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】全文精讀；正式 DOI、Crossref、OpenAlex與 CC BY 全文均已核對。",
+          "evidence": "MDPI 正式書目、OpenAlex W7223023377、Preprints.org CC BY 4.0 全文。",
+          "confidence": "high",
+          "source": "全文／書目",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】檢驗黃金安全港角色是否隨市場狀態與期限改變。",
+          "evidence": "研究問題與導論明確區分分位狀態和短長期頻帶。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】WTI、黃金、DXY 與泰國 SET 組成四市場系統。",
+          "evidence": "資料章與 Table 1。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】2008-02-01 至 2025-12-31，共 4,206 筆對齊日資料。",
+          "evidence": "資料章與描述統計表。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【模型與估計】分位數連結、GFEVD 與短長期頻率分解，主分位為 .05/.50/.95。",
+          "evidence": "方法章與實作步驟。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】中間分位、替代相關衡量與 500 次區塊拔靴支持極端對中位差異。",
+          "evidence": "穩健性章與 Table 5。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】黃金—SET 在中位近零，但在兩尾的雙向連結約 19%；短長期主導者會切換。",
+          "evidence": "方向與頻率結果、Gold–SET 傳導表。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【限制】四市場、單一國家與非結構性連結度限制因果及外推。",
+          "evidence": "作者限制段與方法辨識邊界。",
+          "confidence": "high",
+          "source": "全文／研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】4/5：分位 × 頻率與尾端推論可直接作方法對照。",
+          "evidence": "方法高度重疊；氣候／綠色主題與 TVP-VAR-SV 不重疊。",
+          "confidence": "high",
+          "source": "綜合判斷",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    thaiSafeHaven[\"📄 泰國黃金安全港的尾端與頻率連結\"]\n    style thaiSafeHaven fill:#d97706,color:#fff,font-weight:bold\n    n0[\"💡 Quantile × frequency connectedness\"]\n    thaiSafeHaven --> n0\n    n1[\"💡 兩尾連結遠高於中位\"]\n    thaiSafeHaven --> n1\n    n2[\"💡 黃金—SET 尾端雙向耦合\"]\n    thaiSafeHaven --> n2\n    n3[\"🔗 與美智研究關聯 4/5\"]\n    thaiSafeHaven --> n3"
+    },
     {
       "id": "qvar-2026-10-19-gcc-geopolitical-risk-energy-gold",
       "title": "Geopolitical risk spillovers among GCC stock markets, non-renewable energy, and gold: evidence from a quantile connectedness approach",
