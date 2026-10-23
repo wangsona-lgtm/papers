@@ -1,6 +1,6 @@
 {
-  "total": 158,
-  "updated": "2026-10-22 20:08:47",
+  "total": 161,
+  "updated": "2026-10-23 20:10:00",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,353 @@
     "金融市場"
   ],
   "papers": [
+    {
+      "id": "qvar-2026-10-23-low-carbon-policy-manufacturing-spillovers",
+      "title": "Risk Spillovers Between High-Carbon and Low-Carbon Manufacturing Industries: Implications for Sustainable Industrial Transformation Under Low-Carbon Policy Uncertainty",
+      "search_date": "2026-10-23",
+      "authors": "Jining Wang; Xiaoyu Xia; Lei Wang; Dian Sheng",
+      "year": "2026",
+      "journal": "Sustainability, 18(20), Article 10684",
+      "doi": "https://doi.org/10.3390/su182010684",
+      "citations": "0 次（Crossref；OpenAlex 尚無可解析紀錄，2026-10-23）",
+      "openalex_url": "",
+      "fulltext_url": "https://www.mdpi.com/2071-1050/18/20/10684",
+      "reading_level": "全文精讀",
+      "abstract": "本文把四個高碳製造業與四個低碳製造業置於同一風險網路，並建構中國低碳政策不確定性指數（LCPU），檢驗跨產業風險傳導的時間變化、頻率異質性及政策衝擊反應。2015 年 1 月至 2025 年 7 月的月資料顯示，總風險連結度為 70.88%，其中短期成分為 52.67%、占 74.32%；化工與四個低碳製造業在總體網路中為淨傳送者。TVP-SV-VAR 顯示總體風險連結度對 LCPU 變化的反應集中於一期，之後快速衰減；高碳與低碳群組的個別反應雖多為正，但可信區間常含零，因此不宜解讀為結構因果。",
+      "tags": [
+        "TVP-VAR-BK",
+        "Barunik-Krehlik frequency decomposition",
+        "TVP-SV-VAR",
+        "frequency-domain connectedness",
+        "policy uncertainty",
+        "MCMC"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "潔淨能源",
+        "能源市場",
+        "金融市場"
+      ],
+      "keywords": [
+        "low-carbon policy uncertainty",
+        "high-carbon manufacturing",
+        "low-carbon manufacturing",
+        "industrial transition",
+        "risk spillovers"
+      ],
+      "notes": [
+        "【閱讀層級】全文精讀；完整閱讀 MDPI 46 頁 CC BY 正式全文，並以 Crossref 核對題名、完整作者、日期、卷期與 DOI。Crossref 被引 0，無 update-to／updated-by 關係；OpenAlex 於 2026-10-23 尚無可解析紀錄，故不虛構 ID 或被引數。",
+        "【研究問題與動機】高碳與低碳製造業是否形成共同的風險傳導網路？各產業的傳送／接收角色是否隨短長期頻帶改變？低碳政策不確定性上升後，整體、高碳與低碳製造業的風險連結度如何動態反應？",
+        "【研究變數】低碳端包含風光設備（WE）、光伏（PV）、新能源汽車（NEV）及新能源電池（BAT）；高碳端包含鋼鐵（IS）、化工（CH）、石化（PC）及水泥（CE）。政策變數 LCPU 由新華社、光明網、生態環境部與中國經濟網的低碳政策新聞建構。產業資料以月初第一個交易日收盤價計算月對數報酬。",
+        "【資料／市場／樣本】中國產業指數；2015-01 至 2025-07，月頻。低碳與高碳指數來自中證指數官方網站；全文未另列最終有效樣本量，故記為未報告。作者明確提醒低碳分類只代表主要產品與轉型角色，不表示供應鏈所有活動皆為低排放。",
+        "【模型與估計】以 TVP-VAR(1) 的 generalized FEVD 建構動態 TO、FROM、NET 與 TCI，再用 Baruník–Křehlík 頻率分解區分短長期風險。LCPU 與產業報酬均納入連結系統；另將 TCL、TCL-HC、TCL-LC 與 LCPU 標準化、差分後，以一階 TVP-SV-VAR 和貝葉斯 MCMC 估計時變脈衝反應。",
+        "【穩健性檢驗】改用 TVP-VAR(2)、替代頻帶切點、排除 LCPU 節點，並比較動態 TCI 的 Spearman 相關。三項相關係數分別為 0.8589、0.9891、0.9587；短期連結占比在 VAR(1)／VAR(2) 為 74.32%／90.05%。MCMC 另以 Geweke、ESS、IF 與圖形診斷共同檢查收斂。",
+        "【主要結果】基準 TCI 為 70.88%，短期／長期成分為 52.67／18.21。CH 與四個低碳製造業在總體網路中為淨傳送者，IS、PC、CE 為淨接收者；短期由 CH 強力傳送，長期則四個低碳產業皆為淨傳送者。總 TCI 對 LCPU 變化的一期反應為正且 95% 可信區間不含零，六期與十二期迅速趨近零；高碳、低碳子系統的一期正向傾向則多數區間含零。",
+        "【作者提出的限制】綠色轉型與政策框架仍在演進，現有期間不足以辨識完整長期效果；LCPU 是不可觀察政策不確定性的新聞代理，未必等同企業與投資者實際感受。作者建議延長樣本並結合企業調查、管理者文字揭露與微觀營運資料。",
+        "【其他限制】月初單一價格轉月報酬會捨棄月內資訊；中國產業指數與新聞來源限制跨國外推。TVP-SV-VAR 脈衝反應未提供外生識別，宜視為模型條件下的動態關聯。高／低碳分類含異質產業，不能直接等同企業實際碳強度。",
+        "【APA 7】Wang, J., Xia, X., Wang, L., & Sheng, D. (2026). Risk spillovers between high-carbon and low-carbon manufacturing industries: Implications for sustainable industrial transformation under low-carbon policy uncertainty. Sustainability, 18(20), Article 10684. https://doi.org/10.3390/su182010684",
+        "【與美智研究的關聯】5/5。低碳政策不確定性、TVP-VAR-BK、TVP-SV-VAR 與短長期連結度幾乎直接對應美智的 CPU × 能源金融市場設計；可借鏡把政策指數、BK 頻帶與時變反應置於同一實證架構，並以可信區間限制因果語氣。主要差異是本文以產業指數月報酬為核心，沒有 QVAR 分位狀態或綠色金融資產配置。"
+      ],
+      "type": "search",
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】全文精讀；正式 DOI、Crossref 與 MDPI CC BY 全文均已核對。",
+          "evidence": "Sustainability 46 頁正式全文與 Crossref DOI 記錄。",
+          "confidence": "high",
+          "source": "全文／書目",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】同時檢驗高低碳產業的跨頻帶傳導與 LCPU 動態反應。",
+          "evidence": "導論、理論架構與研究假說。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】八個製造業指數與新聞建構的 LCPU 組成分析系統。",
+          "evidence": "資料來源與 LCPU 建構章。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】中國 2015-01 至 2025-07 月資料；全文未另報有效樣本量。",
+          "evidence": "第 4.1 節資料來源與月報酬轉換說明。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【模型與估計】TVP-VAR-BK 連結度結合一階 TVP-SV-VAR／MCMC。",
+          "evidence": "方法章、頻率分解與第 5 節模型設定。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】替代落後期、頻帶與節點設定均保留動態 TCI 主型態。",
+          "evidence": "Tables 8–11；Spearman 相關 0.8589、0.9891、0.9587。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】短期占總連結度 74.32%，LCPU 的總體反應主要集中於一期。",
+          "evidence": "基準 TCI 表、頻率分解與時變脈衝反應。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【限制】新聞代理、月頻處理與非結構識別限制長期與因果解讀。",
+          "evidence": "作者限制段、資料處理與模型解釋邊界。",
+          "confidence": "high",
+          "source": "全文／研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】5/5：LCPU、BK 與 TVP-SV-VAR 可直接作設計對照。",
+          "evidence": "主題與方法高度重疊；本文未做 QVAR 尾端狀態。",
+          "confidence": "high",
+          "source": "綜合判斷",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    lowCarbonNetwork[\"📄 低碳政策不確定性與製造業風險網路\"]\n    style lowCarbonNetwork fill:#059669,color:#fff,font-weight:bold\n    n0[\"💡 TVP-VAR-BK + TVP-SV-VAR\"]\n    lowCarbonNetwork --> n0\n    n1[\"💡 短期連結占 74.32%\"]\n    lowCarbonNetwork --> n1\n    n2[\"💡 LCPU 反應集中於一期\"]\n    lowCarbonNetwork --> n2\n    n3[\"🔗 與美智研究關聯 5/5\"]\n    lowCarbonNetwork --> n3"
+    },
+    {
+      "id": "qvar-2026-10-23-carbon-regulatory-uncertainty-tail-spillovers",
+      "title": "Downside Tail Risk Spillover Effects Among High-Carbon-Emission Industries Under Carbon Financial Regulatory Policy Uncertainty: Implications for Sustainable Transition",
+      "search_date": "2026-10-23",
+      "authors": "Jining Wang; Jihu Zhang; Lei Wang; Yan Wang",
+      "year": "2026",
+      "journal": "Sustainability, 18(17), Article 9083",
+      "doi": "https://doi.org/10.3390/su18179083",
+      "citations": "0 次（Crossref；OpenAlex 尚無可解析紀錄，2026-10-23）",
+      "openalex_url": "",
+      "fulltext_url": "https://www.mdpi.com/2071-1050/18/17/9083",
+      "reading_level": "全文精讀",
+      "abstract": "本文以 CAViaR 估計中國六個高碳排產業的 5% 下行尾部風險，再用 TVP-VAR-BK 分解時間與頻率連結，並自行建構碳金融監管政策不確定性指數（CFRPU），以 TVP-SV-VAR 檢驗政策變化與尾部網路的動態關聯。2021 年 7 月 16 日至 2025 年 12 月 31 日共 1,083 筆日資料顯示，基準 TCI 約 62.02%；30 日切點下較長期成分占 67.88%，但把切點改為 60 或 90 日後結論會改變。石化在短期為淨接收者、長期轉為淨傳送者；CFRPU 對 TCI 的兩個月反應約 0.02，但 95% 可信區間含零，因此只支持描述性關聯。",
+      "tags": [
+        "CAViaR",
+        "TVP-VAR-BK",
+        "Barunik-Krehlik frequency decomposition",
+        "TVP-SV-VAR",
+        "tail-risk connectedness",
+        "MCMC"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "碳市場/碳交易",
+        "能源市場",
+        "金融市場"
+      ],
+      "keywords": [
+        "carbon financial regulatory policy uncertainty",
+        "downside tail risk",
+        "high-carbon industries",
+        "frequency connectedness",
+        "China"
+      ],
+      "notes": [
+        "【閱讀層級】全文精讀；完整閱讀 MDPI 37 頁 CC BY 正式全文，並以 Crossref 核對題名、作者、日期、卷期與 DOI。Crossref 被引 0，無 update-to／updated-by 關係；OpenAlex 於 2026-10-23 尚無可解析紀錄。",
+        "【研究問題與動機】中國全國碳市場啟動後，高碳排產業的下行尾部風險如何沿產業鏈傳導，傳送角色是否因投資期限改變？碳金融監管政策不確定性變化是否伴隨整體尾部連結度的短期調整？",
+        "【研究變數】六個產業尾部風險序列為鋁、鋼鐵、火電、水泥、煤炭與石化股價指數，以 CAViaR 估計 5% VaR。CFRPU 由《人民日報》與《經濟日報》新聞，以碳金融、監管政策、不確定性三組字典及否定／緩和詞過濾建構；日 TCI 聚合為月均後與 CFRPU 配對。",
+        "【資料／市場／樣本】中國高碳產業；2021-07-16 至 2025-12-31，日頻 1,083 筆，Wind 資料庫。CFRPU 原始擷取 13,349 篇新聞，清理去重後保留 8,594 篇；月度 TVP-SV-VAR 有 54 筆水準資料，標準化差分與一階落後後實際估計 52 筆。",
+        "【模型與估計】先以 CAViaR 估計六產業 5% 下行 VaR，再用 TVP-VAR(1)-BK／generalized FEVD 計算動態 TCI、TO、FROM、NET 與短長期頻帶；基準頻帶切點為 30 交易日。CFRPU 與 TCI 先標準化再一階差分，以一階 TVP-SV-VAR 和貝葉斯 MCMC（2,000 burn-in、保留 10,000 draws）估計時變脈衝反應。",
+        "【穩健性檢驗】改用 VAR(3)、替代尾端機率、60／90 日頻帶切點及 CAViaR-SAV，並對 VaR 做 Kupiec、獨立性與條件涵蓋檢定。30／60／90 日切點的較長期占比為 67.88%／50.58%／40.85%；總 TCI 穩定，但頻率組成與部分產業 NET 符號不穩定。MCMC 另以 Geweke、IF、ESS 與軌跡圖檢查。",
+        "【主要結果】基準總 TCI 約 62.02%。石化在較短期為淨接收者、較長期轉為淨傳送者；火電多為淨接收者。30 日切點下較長期 TCI 為 42.12、占 67.88%，但此長期主導不跨切點穩健。ΔCFRPU 正向創新後，ΔTCI 在兩個月約 0.02、四個月約 0.004、六個月近零；所有 95% 可信區間含零，僅能說存在可能的短期關聯。",
+        "【作者提出的限制】六產業納入碳市場的時點不同且部分尚未納入，樣本可比性有限；CFRPU 只取兩家報紙，外部基準相關為正但不顯著；頻率組成與部分淨角色依切點、落後期而變；TVP-SV-VAR 只有 52 筆有效月資料，且可能存在市場風險反向影響政策或媒體不確定性的回饋。",
+        "【其他限制】CFRPU 字典雖有人工檢查，仍有 55 個 false positives 與 26 個 false negatives；政策反應不具外生識別，不能宣稱因果。頻帶占比會隨切點機械重分配，重點應放在跨期限異質性，而非固定地宣稱長期一定主導。",
+        "【APA 7】Wang, J., Zhang, J., Wang, L., & Wang, Y. (2026). Downside tail risk spillover effects among high-carbon-emission industries under carbon financial regulatory policy uncertainty: Implications for sustainable transition. Sustainability, 18(17), Article 9083. https://doi.org/10.3390/su18179083",
+        "【與美智研究的關聯】5/5。CFRPU × 高碳產業尾部風險、TVP-VAR-BK、TVP-SV-VAR 與頻帶敏感度直接對應美智的 CPU × 能源金融市場設計；尤其可借鏡把政策文本指數有效性、頻帶切點與可信區間納入穩健性。主要差異是本文以 CAViaR 尾部風險而非 QVAR 分位報酬網路，也未納入綠色資產。"
+      ],
+      "type": "search",
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】全文精讀；正式 DOI、Crossref 與 MDPI CC BY 全文均已核對。",
+          "evidence": "Sustainability 37 頁正式全文與 Crossref DOI 記錄。",
+          "confidence": "high",
+          "source": "全文／書目",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】檢驗 CFRPU 與高碳產業下行尾部連結的時變、頻率關係。",
+          "evidence": "研究問題、理論架構與假說。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】六產業 5% CAViaR 與新聞建構 CFRPU。",
+          "evidence": "資料與模型章、CFRPU 建構章。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】2021-07-16 至 2025-12-31，1,083 筆中國日資料。",
+          "evidence": "第 3.2.1 節；Wind 資料庫與六產業指數。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【模型與估計】CAViaR、TVP-VAR-BK 與 TVP-SV-VAR/MCMC 三層架構。",
+          "evidence": "第 3、4 節模型公式與估計設定。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】總 TCI 穩健，但頻帶占比和部分產業角色對規格敏感。",
+          "evidence": "Tables 6–11；替代 lag、尾端、切點與 SAV。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】石化角色跨期限反轉；CFRPU 的短期正向關聯未達可信區間顯著。",
+          "evidence": "頻率 NET、Figure 11 與 95% credible intervals。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【限制】政策指數測量誤差、短月樣本與反向回饋限制解讀。",
+          "evidence": "作者限制段與 CFRPU 驗證結果。",
+          "confidence": "high",
+          "source": "全文／研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】5/5：政策不確定性 × BK 尾部網路可直接借鏡。",
+          "evidence": "主題與 TVP-VAR-BK／TVP-SV-VAR 高度重疊。",
+          "confidence": "high",
+          "source": "綜合判斷",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    carbonRegTail[\"📄 碳監管不確定性與高碳產業尾部風險\"]\n    style carbonRegTail fill:#b45309,color:#fff,font-weight:bold\n    n0[\"💡 CAViaR + TVP-VAR-BK\"]\n    carbonRegTail --> n0\n    n1[\"💡 石化角色跨期限反轉\"]\n    carbonRegTail --> n1\n    n2[\"💡 CFRPU 反應區間含零\"]\n    carbonRegTail --> n2\n    n3[\"🔗 與美智研究關聯 5/5\"]\n    carbonRegTail --> n3"
+    },
+    {
+      "id": "qvar-2026-10-23-media-climate-green-crypto-qqc",
+      "title": "Media climate change concern and green cryptocurrency returns: a quantile-on-quantile analysis",
+      "search_date": "2026-10-23",
+      "authors": "Nigar Taspinar; Baris Ziba; Baris Memduh Eren",
+      "year": "2027",
+      "journal": "The North American Journal of Economics and Finance, 87, Article 102711",
+      "doi": "https://doi.org/10.1016/j.najef.2026.102711",
+      "citations": "0 次（Crossref 與 OpenAlex，2026-10-23）",
+      "openalex_url": "https://openalex.org/W7154620817",
+      "fulltext_url": "https://doi.org/10.2139/ssrn.6591105",
+      "reading_level": "摘要層級",
+      "abstract": "本文研究媒體氣候變遷關注指數（MCCC）與 EOS、IOTA、Stellar、Tezos、Cardano 五種環境導向加密貨幣日報酬之間的非對稱預測連結。QQ connectedness 顯示溢出呈 U 型：在兩側極端分位增強，在中位附近偏弱；MCCC 在高關注狀態傾向成為淨傳送者，方向性連結則隨市場狀態切換。結果支持綠色加密貨幣的分散功能具有狀態依賴性，但可取得摘要未報告樣本期間、樣本量、精確分位、預測期與完整數值，因此本筆只作摘要層級分析。",
+      "tags": [
+        "quantile-on-quantile connectedness",
+        "QQC",
+        "green cryptocurrency",
+        "media climate concern",
+        "tail spillovers",
+        "behavioral finance"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "加密貨幣/數位金融",
+        "綠債/ESG",
+        "金融市場",
+        "行為金融"
+      ],
+      "keywords": [
+        "Media Climate Change Concern Index",
+        "EOS",
+        "IOTA",
+        "Stellar",
+        "Tezos",
+        "Cardano"
+      ],
+      "notes": [
+        "【閱讀層級】摘要層級；以 ScienceDirect 正式文章頁、Crossref 與 OpenAlex 核對。Crossref 被引 0；OpenAlex W7154620817、被引 0、is_retracted=false，並把 SSRN 10.2139/ssrn.6591105 列為綠色開放版本。當次無法取得可核驗全文，故不使用頁面中未完整顯示的資料。",
+        "【研究問題與動機】媒體對氣候變遷的關注是否會預測綠色加密貨幣報酬，且這種資訊傳導是否集中在極端市場／關注狀態？研究以注意力驅動交易與永續資產共同生態系統解釋可能的尾端同步。",
+        "【研究變數】媒體氣候變遷關注指數（MCCC）與 EOS、IOTA、Stellar（XLM）、Tezos（XTZ）、Cardano（ADA）五種被作者界定為環境導向的加密貨幣日報酬。摘要未提供更細的變數轉換與控制變數。",
+        "【資料／市場／樣本】MCCC 與五種綠色加密貨幣，日頻；樣本期間、資料來源及樣本量在可取得摘要中未報告。正式期刊卷期為 2027 年第 87 卷，但 OpenAlex 將線上可得日期記為 2026-08-31。",
+        "【模型與估計】採 quantile-on-quantile connectedness，估計不同 MCCC 與加密報酬分位組合下的總體與方向性預測連結。精確分位網格、VAR 落後期、forecast horizon 與滾動視窗在可取得摘要中未報告。",
+        "【穩健性檢驗】ScienceDirect highlights 與結論片段稱尾端主導型態在替代落後期與 forecast 設定下仍存在；但摘要未列規格、檢定統計量或數值，因此只能記為未完整報告，不能提高證據層級。",
+        "【主要結果】MCCC 與五種綠色加密貨幣的連結呈 U 型，兩側尾端較強、中位附近較弱；淨方向性連結的符號與幅度會隨狀態改變，MCCC 在高關注狀態傾向成為淨傳送者。摘要沒有 TCI 或方向性連結的完整數值，故不補推。",
+        "【作者提出的限制】可取得摘要未列作者正式限制，填為未報告。摘要只說結果可供 ESG 投資組合監測與氣候金融監理參考，沒有宣稱結構性因果。",
+        "【其他限制】綠色加密貨幣分類依共識機制與能源效率，未必等同全生命週期低碳；缺少全文使樣本期間、資料源、分位與穩健性細節無法核驗。媒體關注與報酬連結可能同時受整體風險偏好、加密市場波動或共同新聞驅動。",
+        "【APA 7】Taspinar, N., Ziba, B., & Eren, B. M. (2027). Media climate change concern and green cryptocurrency returns: A quantile-on-quantile analysis. The North American Journal of Economics and Finance, 87, Article 102711. https://doi.org/10.1016/j.najef.2026.102711",
+        "【與美智研究的關聯】4/5。以氣候資訊代理與綠色資產做尾部分位連結，直接呼應 CPU × 綠色資產研究，可借鏡把媒體關注當作替代氣候資訊衝擊並比較 U 型尾端結構。主要差異是資產僅限綠色加密貨幣，方法為 QQ connectedness，沒有 TVP-VAR-SV 或 BK 頻率分解。"
+      ],
+      "type": "search",
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】摘要層級；正式期刊 DOI、OpenAlex 與版本關係已核對。",
+          "evidence": "ScienceDirect 摘要、Crossref 與 OpenAlex W7154620817。",
+          "confidence": "high",
+          "source": "摘要／書目",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】檢驗氣候媒體關注是否在尾端狀態傳導至綠色加密貨幣。",
+          "evidence": "正式摘要與導論片段。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】MCCC 與 EOS、IOTA、XLM、XTZ、ADA。",
+          "evidence": "正式摘要。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】日頻；期間、來源與樣本量未在摘要報告。",
+          "evidence": "正式摘要只陳述 daily data。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【模型與估計】採 quantile-on-quantile connectedness；詳細設定未報告。",
+          "evidence": "正式摘要與 highlights。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】替代規格仍支持尾端主導，但數值與規格未完整報告。",
+          "evidence": "ScienceDirect highlights／結論片段。",
+          "confidence": "medium",
+          "source": "摘要／頁面片段",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】連結呈 U 型，MCCC 在高關注狀態傾向淨傳送。",
+          "evidence": "正式摘要與結論片段。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【限制】缺少全文與完整數值，且綠色加密分類不等同生命週期低碳。",
+          "evidence": "可取得層級與分類邊界。",
+          "confidence": "medium",
+          "source": "證據限制／綜合判斷",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】4/5：氣候資訊 × 綠色資產的尾端連結可直接比較。",
+          "evidence": "主題與分位方法高度重疊；缺少 BK 與 TVP-VAR-SV。",
+          "confidence": "high",
+          "source": "綜合判斷",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    mediaGreenCrypto[\"📄 氣候媒體關注與綠色加密貨幣\"]\n    style mediaGreenCrypto fill:#2563eb,color:#fff,font-weight:bold\n    n0[\"💡 Quantile-on-Quantile connectedness\"]\n    mediaGreenCrypto --> n0\n    n1[\"💡 兩尾較強、中位較弱\"]\n    mediaGreenCrypto --> n1\n    n2[\"💡 高關注時 MCCC 傾向淨傳送\"]\n    mediaGreenCrypto --> n2\n    n3[\"🔗 與美智研究關聯 4/5\"]\n    mediaGreenCrypto --> n3"
+    },
     {
       "id": "qvar-2026-10-22-sustainable-assets-tail-connectedness",
       "title": "Tail-Dependent Connectedness Across Carbon, Water, Clean-Energy, Green-Bond, and ESG Markets",
