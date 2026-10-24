@@ -1,6 +1,6 @@
 {
-  "total": 161,
-  "updated": "2026-10-23 20:10:00",
+  "total": 163,
+  "updated": "2026-10-24 20:10:47",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,238 @@
     "金融市場"
   ],
   "papers": [
+    {
+      "id": "qvar-2026-10-24-centred-residuals-tail-spillover",
+      "title": "How much tail spillover is real? Centring the residuals in quantile connectedness",
+      "search_date": "2026-10-24",
+      "authors": "Szczepan Urjasz",
+      "year": "2026",
+      "journal": "SSRN Electronic Journal (preprint)",
+      "doi": "https://doi.org/10.2139/ssrn.7570675",
+      "citations": "0 次（Crossref 與 OpenAlex，2026-10-24）",
+      "openalex_url": "https://openalex.org/W7207759020",
+      "fulltext_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7570675",
+      "reading_level": "摘要層級",
+      "abstract": "本文檢驗 QVAR connectedness 常見的尾部 U 型是否來自真實依賴結構，或部分源於參考實作。公開摘要指出，R 套件 ConnectednessApproach 在分位數迴歸下把殘差的未中心化二階動差代入 GFEVD，而不是使用共變異數矩陣；兩者相差殘差均值外積形成的秩一項。作者報告，在獨立序列中，未修正指標於尾部分位可達 82.8、在中位數僅 0.4；中心化後，套件內建 18 個資料面板、158 個規格格的中位殘留尾部放大降至 2.2%，依系統參數數量調整滾動視窗後再由 11.6% 降至 1.3%。八個能源與商品系統中有六個修正後輪廓近乎平坦，且一半系統的最大尾部傳送者改變。",
+      "tags": [
+        "QVAR",
+        "quantile connectedness",
+        "GFEVD",
+        "ConnectednessApproach",
+        "replication",
+        "residual centring"
+      ],
+      "topics": [
+        "方法論",
+        "金融市場",
+        "能源市場",
+        "原物料/商品"
+      ],
+      "keywords": [
+        "tail spillovers",
+        "uncentred residuals",
+        "covariance matrix",
+        "implementation bias",
+        "rolling-window identification",
+        "R package"
+      ],
+      "notes": [
+        "【閱讀層級】摘要層級；Crossref、OpenAlex 與 SSRN 公開摘要已核驗。SSRN 顯示 46 頁、2026-10-06 上傳；合法 PDF 端點在本次環境遭內容保護阻擋，因此未冒充全文精讀。Crossref 與 OpenAlex 被引均為 0；OpenAlex W7207759020，is_retracted=false。",
+        "【研究問題與動機】QVAR connectedness 文獻常見的尾部高、中位低 U 型，究竟反映真實尾部依賴，還是 GFEVD 參考實作把非零分位殘差均值誤當共變異造成的機械式放大？",
+        "【研究變數】摘要描述模擬的獨立序列、具有真實 copula 尾部依賴的序列，以及 ConnectednessApproach 套件所附 18 個實證資料面板；其中包含八個能源與商品系統。各面板變數名稱與轉換在公開摘要未逐項報告。",
+        "【資料／市場／樣本】方法重現與模擬研究；摘要報告 18 個內建面板、158 個規格格與八個能源／商品系統，但未提供各資料集國家、市場、樣本期間、頻率或完整樣本量，故均記為未報告。",
+        "【模型與估計】比較分位數 VAR 的 generalized FEVD 使用殘差未中心化二階動差與共變異數矩陣的差異；兩者相差殘差均值外積的秩一項。作者另以系統參數數量調整滾動視窗，摘要給出識別所需約 200(k+1) 筆觀察的經驗門檻。",
+        "【穩健性檢驗】摘要稱同時使用獨立序列、帶真實 copula 尾部依賴的序列、18 個套件面板、158 個規格格與八個能源／商品子系統；並比較僅中心化與按參數數量擴張視窗。未取得全文前，無法核對模擬設計、分位網格、落後期與推論程序。",
+        "【主要結果】未中心化實作在獨立序列的尾部指標為 82.8、中位數為 0.4，且對有真實尾部依賴的序列產生相近讀值。中心化後，18 個面板的 158 個規格格中位殘留放大為 2.2%；依參數數量調整視窗後由 11.6% 降至 1.3%。八個能源／商品系統中六個修正後近乎平坦，四個系統的最大尾部傳送者改變。這些結果指出實作偏誤風險，不等於所有 QVAR 實證結論必然無效。",
+        "【作者提出的限制】公開摘要強調識別與時間解析度的權衡：十二變數的已識別尾部分解可能需要約十年的日資料。摘要未另列作者限制；待取得合法全文後再核對適用條件、軟體版本與修正程式碼。",
+        "【其他限制】目前為未經同儕審查的 SSRN 預印本，且本次只能核驗摘要；不能把摘要中的套件面板結果外推至所有 QVAR、jQFEVD 或自行正確中心化的實作。200(k+1) 應視為作者提出的識別經驗門檻，而非普遍定理；後續須追蹤正式版本、程式碼與套件修補。",
+        "【APA 7】Urjasz, S. (2026). How much tail spillover is real? Centring the residuals in quantile connectedness [Preprint]. SSRN. https://doi.org/10.2139/ssrn.7570675",
+        "【與美智研究的關聯】5/5。本文直接挑戰 QVAR-GFEVD 尾部 U 型的常見實作來源，對美智的 CPU × 能源金融市場 QVAR、BK 與 TVP-VAR-SV 結果解讀屬必要方法稽核。最可借鏡的是明確中心化分位殘差、檢查系統維度相對視窗長度、以模擬零依賴基準及重新排名傳送者；主要差異是本文聚焦估計實作而非氣候風險實證。"
+      ],
+      "type": "search",
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】摘要層級；Crossref、OpenAlex 與 SSRN 公開摘要已核驗。",
+          "evidence": "SSRN 公開摘要、Crossref DOI 紀錄與 OpenAlex W7207759020；PDF 端點受內容保護阻擋。",
+          "confidence": "high",
+          "source": "摘要／書目",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】檢驗 QVAR 尾部 U 型是否部分源於未中心化殘差的參考實作。",
+          "evidence": "摘要明確區分未中心化二階動差與共變異數矩陣。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】使用模擬序列與 18 個套件內建面板；逐項變數未報告。",
+          "evidence": "摘要提供面板數量與能源／商品子集，未列完整資料表。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】158 個規格格；各面板期間、頻率與 N 未報告。",
+          "evidence": "摘要層級的可取得資訊邊界。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【模型與估計】比較 GFEVD 中未中心化二階動差與共變異數矩陣，差異為秩一均值外積。",
+          "evidence": "摘要的方法陳述。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】模擬、套件面板、中心化及擴張視窗均被比較。",
+          "evidence": "摘要列出的多層重現設計；細節待全文。",
+          "confidence": "mid",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】中心化與足夠視窗大幅削弱尾部放大，並改變部分最大傳送者。",
+          "evidence": "摘要報告 82.8 對 0.4、2.2%、11.6% 對 1.3% 及四個角色改變。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【限制】預印本且全文未取得，不能外推為所有 QVAR 研究皆受同一偏誤。",
+          "evidence": "版本狀態、存取層級與方法適用邊界。",
+          "confidence": "high",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】5/5：應成為 QVAR 尾部結果的實作與識別稽核清單。",
+          "evidence": "直接涉及 QVAR-GFEVD、尾部 U 型、視窗長度與傳送者排名。",
+          "confidence": "high",
+          "source": "綜合判斷",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    centredQVAR[\"📄 QVAR 尾部放大的實作稽核\"]\n    style centredQVAR fill:#7c3aed,color:#fff,font-weight:bold\n    n0[\"💡 未中心化殘差可製造秩一偏誤\"]\n    centredQVAR --> n0\n    n1[\"💡 獨立序列尾部指標仍達 82.8\"]\n    centredQVAR --> n1\n    n2[\"💡 中心化與足夠視窗大幅消除放大\"]\n    centredQVAR --> n2\n    n3[\"🔗 與美智研究關聯 5/5\"]\n    centredQVAR --> n3"
+    },
+    {
+      "id": "qvar-2026-10-24-energy-macro-mf-qvar",
+      "title": "Energy Markets and Macroeconomic Tail Risks: A Mixed-Frequency Quantile VAR Connectedness Approach",
+      "search_date": "2026-10-24",
+      "authors": "Chengli Zheng; Yuchun Cai; Bo Huang; Xuanhua Peng",
+      "year": "2026",
+      "journal": "Fluctuation and Noise Letters, advance online publication, Article 2650056",
+      "doi": "https://doi.org/10.1142/S0219477526500562",
+      "citations": "0 次（Crossref；OpenAlex 尚無可解析紀錄，2026-10-24）",
+      "openalex_url": "",
+      "fulltext_url": "https://www.worldscientific.com/doi/10.1142/S0219477526500562",
+      "reading_level": "摘要層級",
+      "abstract": "本文建立混合頻率 MF-QVAR-DY 架構，把高頻能源價格與低頻美國總體變數置於同一條件分位系統，分析化石能源、潔淨能源與總體條件之間的方向性尾部連結。公開摘要顯示，總連結度呈兩端高、中間低；原油是相對穩定的對外風險傳送者，潔淨能源則在極端分位扮演較強的傳送角色。COVID-19 期間化石與潔淨能源共同傳送風險，俄烏戰爭期間則由原油主導。由於本次未取得合法全文，變數清單、樣本期間、分位網格、混合頻率堆疊細節與數值結果均不作推定。",
+      "tags": [
+        "MF-QVAR-DY",
+        "mixed-frequency QVAR",
+        "quantile connectedness",
+        "tail risk",
+        "macroeconomic monitoring"
+      ],
+      "topics": [
+        "宏觀總體",
+        "能源市場",
+        "潔淨能源",
+        "金融市場",
+        "方法論"
+      ],
+      "keywords": [
+        "energy prices",
+        "macroeconomic tail risk",
+        "crude oil",
+        "clean energy",
+        "United States",
+        "mixed frequency"
+      ],
+      "notes": [
+        "【閱讀層級】摘要層級；Crossref、DOI 與 World Scientific 書目已核驗，另以公開索引摘要交叉核對。Crossref 被引 0；OpenAlex DOI 直接查詢於 2026-10-24 尚無可解析紀錄。出版商未提供可合法讀取的全文，因此未標示全文精讀。",
+        "【研究問題與動機】如何在同一條件分位系統中結合高頻能源價格與低頻總體資料，以辨識能源市場向美國總體尾部風險的方向性傳導及危機期間的角色切換？",
+        "【研究變數】公開摘要明列化石能源、潔淨能源與美國總體變數；原油被單獨討論。其他能源價格、總體指標名稱、定義與轉換未報告，未取得全文前不推測。",
+        "【資料／市場／樣本】研究場域為能源市場與美國總體經濟，並比較 COVID-19 與俄烏戰爭期間。公開摘要未報告資料來源、樣本起訖、高低頻資料的確切頻率或最終樣本量。",
+        "【模型與估計】作者由 MF-VAR-DY 的資訊堆疊概念建構 MF-QVAR-DY，在條件分位下估計方向性連結度。摘要未提供分位網格、落後期、預測期、頻率對齊規則、滾動視窗或推論方法。",
+        "【穩健性檢驗】公開摘要未報告替代混合頻率規格、資料對齊、分位、視窗或危機切割的穩健性檢驗；未取得全文前不作推定。",
+        "【主要結果】總連結度呈兩端高、中位低；原油為相對穩定的對外傳送者，潔淨能源在極端分位的對外角色較強。COVID-19 期間化石與潔淨能源共同傳送，俄烏戰爭期間由原油主導。這些是摘要報告的連結度方向，不代表已識別的結構因果。",
+        "【作者提出的限制】公開摘要未報告作者明列的限制；待合法取得全文後再核對。",
+        "【其他限制】摘要沒有變數清單、樣本期、頻率配對與數值估計，現階段無法判斷 mixed-frequency 堆疊是否受發布時點、資訊集合或低頻重複配置影響。連結度亦可能反映共同衝擊，不能將危機期間的淨傳送角色直接視為因果來源。",
+        "【APA 7】Zheng, C., Cai, Y., Huang, B., & Peng, X. (2026). Energy markets and macroeconomic tail risks: A mixed-frequency quantile VAR connectedness approach. Fluctuation and Noise Letters, Article 2650056. Advance online publication. https://doi.org/10.1142/S0219477526500562",
+        "【與美智研究的關聯】4/5。MF-QVAR-DY 可補足日頻能源市場與月／季頻 CPU 或總體條件難以直接併入 QVAR 的頻率不一致問題，且摘要中的尾部 U 型與危機角色切換可作直接比較。主要差異是本文聚焦美國總體尾部風險，未明確採 TVP-VAR-SV、BK 頻率分解或氣候風險指標；並應結合今日中心化殘差方法文獻重新稽核尾部 U 型。"
+      ],
+      "type": "search",
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】摘要層級；Crossref、DOI 與出版商書目已核驗。",
+          "evidence": "Crossref 完整書目與摘要、World Scientific DOI；OpenAlex 尚無紀錄。",
+          "confidence": "high",
+          "source": "摘要／書目",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】把高頻能源價格與低頻總體變數整合於尾部連結系統。",
+          "evidence": "摘要明示 mixed-frequency information stacking 與宏觀尾部監測。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】化石能源、潔淨能源與美國總體變數；完整清單未報告。",
+          "evidence": "摘要可取得範圍。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】美國總體與能源市場；樣本期間、頻率與 N 未報告。",
+          "evidence": "摘要未提供這些欄位。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【模型與估計】建構 MF-QVAR-DY 估計混合頻率條件分位方向性連結。",
+          "evidence": "摘要的方法陳述。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】摘要未報告，不能自行補寫。",
+          "evidence": "本次可取得內容範圍。",
+          "confidence": "high",
+          "source": "證據邊界",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】兩尾連結較高；原油與潔淨能源的傳送角色隨分位與危機改變。",
+          "evidence": "Crossref 與公開索引摘要。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【限制】缺少資料與估計細節，且連結度不能直接作結構因果解讀。",
+          "evidence": "摘要層級證據邊界與 connectedness 方法的辨識限制。",
+          "confidence": "high",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】4/5：提供 CPU／總體低頻資料與能源高頻市場的 QVAR 整合方向。",
+          "evidence": "mixed-frequency QVAR 與尾部危機比較高度可移植；未含 CPU、BK 或 TVP-VAR-SV。",
+          "confidence": "high",
+          "source": "綜合判斷",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    mfQVAR[\"📄 能源 × 總體尾部風險\"]\n    style mfQVAR fill:#2563eb,color:#fff,font-weight:bold\n    n0[\"💡 Mixed-frequency QVAR-DY\"]\n    mfQVAR --> n0\n    n1[\"💡 高頻能源 + 低頻總體資料\"]\n    mfQVAR --> n1\n    n2[\"💡 危機期間傳送角色切換\"]\n    mfQVAR --> n2\n    n3[\"🔗 與美智研究關聯 4/5\"]\n    mfQVAR --> n3"
+    },
     {
       "id": "qvar-2026-10-23-low-carbon-policy-manufacturing-spillovers",
       "title": "Risk Spillovers Between High-Carbon and Low-Carbon Manufacturing Industries: Implications for Sustainable Industrial Transformation Under Low-Carbon Policy Uncertainty",
