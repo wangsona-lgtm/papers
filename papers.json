@@ -1,6 +1,6 @@
 {
-  "total": 163,
-  "updated": "2026-10-24 20:10:47",
+  "total": 167,
+  "updated": "2026-10-25 21:11:59",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,476 @@
     "金融市場"
   ],
   "papers": [
+    {
+      "id": "qvar-2026-10-25-climate-finance-crypto-carbon-tech",
+      "title": "A Multi-Dimensional Analysis of Spillover Connectedness Among Climate Finance, Cryptocurrencies, Carbon Credits, and Technology Stocks: Evidence from the QVAR Network Approach",
+      "search_date": "2026-10-25",
+      "authors": "Ye Jianmu; Fahad Waqas Mir; Misbah Ullah Khan",
+      "year": "2026",
+      "journal": "International Journal of Environmental Research, 20(6), Article 319",
+      "doi": "https://doi.org/10.1007/s41742-026-01273-4",
+      "citations": "0 次（Crossref；OpenAlex 尚無可解析紀錄，2026-10-25）",
+      "openalex_id": "未收錄（查詢於 2026-10-25）",
+      "openalex_url": "",
+      "fulltext_url": "https://link.springer.com/article/10.1007/s41742-026-01273-4",
+      "reading_level": "摘要層級",
+      "abstract": "本研究以 2019 年 3 月 15 日至 2026 年 6 月 10 日的日資料，使用 QVAR 網路分析氣候金融、加密貨幣、碳權與科技股在熊市、常態及牛市下的非對稱連結度。公開摘要顯示，極端狀態的跨市場溢出顯著加強；加密貨幣持續為主要衝擊傳送者，碳權主要吸收其他市場衝擊，科技股則與氣候金融高度整合。因正文受訂閱限制，本文僅作摘要層級分析，不推斷未公開的資產清單、參數或數值。",
+      "tags": [
+        "QVAR",
+        "quantile connectedness",
+        "tail spillovers",
+        "network connectedness",
+        "climate finance"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "碳市場/碳交易",
+        "加密貨幣/數位金融",
+        "AI/科技",
+        "金融市場"
+      ],
+      "keywords": [
+        "climate finance",
+        "cryptocurrencies",
+        "carbon credits",
+        "technology stocks",
+        "market regimes",
+        "tail risk"
+      ],
+      "notes": [
+        "【閱讀層級】摘要層級；Crossref、DOI 與 Springer 公開摘要／書目頁已核驗。出版商明示正文為訂閱內容，未繞過存取控制。Crossref 被引 0；OpenAlex 於 2026-10-25 尚無可解析紀錄。Crossref 未列 update-to／updated-by 關係，出版商頁亦未顯示撤稿或更正通知。",
+        "【研究問題與動機】氣候金融資產與加密貨幣、碳權及科技股之間，是否存在隨熊市、常態與牛市狀態改變的非線性尾部風險傳導？哪些市場在極端狀態下成為主要傳送者或接收者？",
+        "【研究變數】氣候金融端至少包含 MSCI World Climate Change、MSCI World Climate Paris Aligned、MSCI ACWI Low Carbon Target 與 MSCI Global Environment 指數；另納入加密貨幣、碳權與科技股。公開摘要未列個別加密貨幣與科技股指標，故不推測。",
+        "【資料／市場／樣本】全球市場；2019-03-15 至 2026-06-10，日頻。公開摘要未報告資料供應商、前處理、最終樣本量及共同交易日對齊方式，均記為未報告。",
+        "【模型與估計】以 Quantile Vector Autoregression（QVAR）建立跨市場連結網路，比較熊市、常態與牛市的尾部傳導及動態方向性。公開摘要未報告分位數網格、落後期、預測期、滾動視窗與殘差共變異數實作。",
+        "【穩健性檢驗】摘要僅稱跨分位數的穩健性分析確認非對稱溢出型態；未提供替代分位、視窗、落後期、資產代理或統計推論細節，因此不能把未揭露檢驗寫成已完成。",
+        "【主要結果】極端市場狀態下連結度明顯升高；加密貨幣持續為主要衝擊傳送者，碳權多為淨接收者，科技股與氣候金融高度整合。這些結果是條件連結度與方向性描述，不構成已識別因果。",
+        "【作者提出的限制】公開摘要未列作者明示限制；待可合法取得全文後，需再核對樣本對齊、變數選擇、危機事件與估計設定。",
+        "【其他限制】正文受訂閱限制，目前不能核驗資產名單、數值 TCI、時變圖與完整穩健性。新刊 DOI 尚未被 OpenAlex 收錄；此外，多個全球市場交易時區不同，若未妥善處理非同步收盤，方向性角色可能受測量影響。",
+        "【APA 7】Jianmu, Y., Mir, F. W., & Khan, M. U. (2026). A multi-dimensional analysis of spillover connectedness among climate finance, cryptocurrencies, carbon credits, and technology stocks: Evidence from the QVAR network approach. International Journal of Environmental Research, 20(6), Article 319. https://doi.org/10.1007/s41742-026-01273-4",
+        "【與美智研究的關聯】5/5。主題同時涵蓋氣候金融、碳權、加密貨幣與科技股，並以 QVAR 比較尾部角色，能直接擴充美智的氣候風險 × 綠色資產網路。可借鏡多維資產選擇與傳送／接收者分類；主要差異是未採 TVP-VAR-SV 或 Baruník–Křehlík 頻率分解，且摘要未交代殘差中心化，應用時須配合方法稽核。"
+      ],
+      "type": "search",
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】摘要層級；Crossref、DOI 與 Springer 公開摘要／書目頁已核驗。",
+          "evidence": "Crossref DOI 記錄與 Springer 公開摘要／書目頁。",
+          "confidence": "high",
+          "source": "書目／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】氣候金融資產與加密貨幣、碳權及科技股之間，是否存在隨熊市、常態與牛市狀態改變的非線性尾部風險傳導？哪些市場在極端狀態下成為主要傳送者或接收者？",
+          "evidence": "公開摘要的研究目的。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】氣候金融端至少包含 MSCI World Climate Change、MSCI World Climate Paris Aligned、MSCI ACWI Low Carbon Target 與 MSCI Global Environment 指數；另納入加密貨幣、碳權與科技股。",
+          "evidence": "公開摘要與 Springer abbreviations 區段。",
+          "confidence": "high",
+          "source": "摘要／出版商頁",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】全球市場；2019-03-15 至 2026-06-10，日頻。",
+          "evidence": "Springer 公開摘要；樣本量未揭露。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【模型與估計】以 Quantile Vector Autoregression（QVAR）建立跨市場連結網路，比較熊市、常態與牛市的尾部傳導及動態方向性。",
+          "evidence": "公開摘要；估計細節未揭露。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】摘要僅稱跨分位數的穩健性分析確認非對稱溢出型態；未提供替代分位、視窗、落後期、資產代理或統計推論細節，因此不能把未揭露檢驗寫成已完成。",
+          "evidence": "公開摘要僅概述 robustness。",
+          "confidence": "mid",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】極端市場狀態下連結度明顯升高；加密貨幣持續為主要衝擊傳送者，碳權多為淨接收者，科技股與氣候金融高度整合。",
+          "evidence": "公開摘要的方向性結果。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【其他限制】正文受訂閱限制，目前不能核驗資產名單、數值 TCI、時變圖與完整穩健性。",
+          "evidence": "訂閱內容提示與跨市場資料特性。",
+          "confidence": "mid",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】5/5。",
+          "evidence": "主題與方法對照。",
+          "confidence": "high",
+          "source": "綜合判斷",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    root[\"📄 氣候金融與新興資產 QVAR 網路\"]\n    style root fill:#059669,color:#fff,font-weight:bold\n    n0[\"💡 QVAR × 多資產尾部狀態\"]\n    root --> n0\n    n1[\"💡 加密貨幣傳送、碳權接收\"]\n    root --> n1\n    n2[\"🔗 與美智研究關聯 5/5\"]\n    root --> n2"
+    },
+    {
+      "id": "qvar-2026-10-25-physical-transition-climate-risk-green-assets",
+      "title": "Assessing the Impact of Physical and Transition Climate Risks on Clean Energy and Green Bond Markets: A Quantile-on-Quantile Connectedness Analysis",
+      "search_date": "2026-10-25",
+      "authors": "Faycal Chiad",
+      "year": "2026",
+      "journal": "Energy RESEARCH LETTERS, 7(Early View)",
+      "doi": "https://doi.org/10.46557/001c.156409",
+      "citations": "2 次（Crossref；OpenAlex 尚無可解析紀錄，2026-10-25）",
+      "openalex_id": "未收錄（查詢於 2026-10-25）",
+      "openalex_url": "",
+      "fulltext_url": "https://erl.scholasticahq.com/article/156409-assessing-the-impact-of-physical-and-transition-climate-risks-on-clean-energy-and-green-bond-markets-a-quantile-on-quantile-connectedness-analysis.pdf",
+      "reading_level": "全文精讀",
+      "abstract": "本文以美國 2015 年 1 月至 2023 年 6 月日資料，運用 quantile-on-quantile connectedness 分析自然災害財損與氣候政策不確定性對潔淨能源和綠債的狀態依賴連結。反向分位的連結通常最強，最高 TCI 為自然災害第 5 分位與潔淨能源第 95 分位的 46.9；綠債與潔淨能源的平均 TCI 均約 30.2。結果顯示綠債較能緩衝轉型風險，潔淨能源較能緩衝實體風險，但角色會隨分位與時間改變。",
+      "tags": [
+        "QQC",
+        "QVAR",
+        "GFEVD",
+        "climate policy uncertainty",
+        "physical climate risk",
+        "rolling connectedness"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "潔淨能源",
+        "綠債/ESG",
+        "金融市場"
+      ],
+      "keywords": [
+        "natural disasters",
+        "climate policy uncertainty",
+        "clean energy",
+        "green bonds",
+        "United States",
+        "tail risk"
+      ],
+      "notes": [
+        "【閱讀層級】全文精讀；完整閱讀 Energy RESEARCH LETTERS 7 頁正式全文，並核對 DOI、Crossref 與出版資訊。全文為 CC BY-SA 4.0。Crossref 被引 2；OpenAlex 於 2026-10-25 尚無可解析紀錄。Crossref 未列版本更新或撤稿關係。",
+        "【研究問題與動機】美國實體氣候風險（自然災害）與轉型氣候風險（氣候政策不確定性）如何在不同分位組合下連結潔淨能源與綠債？兩類綠色資產的避險功能是否隨市場狀態與風險類型改變？",
+        "【研究變數】潔淨能源以 S&P Global Clean Energy Index 報酬衡量；綠債以 S&P Green Bond Index 報酬衡量；實體氣候風險為美國自然災害的美元財務損失（CRED）；轉型風險以 Gavriilidis（2021）Climate Policy Uncertainty Index 衡量。",
+        "【資料／市場／樣本】美國；2015-01-02 至 2023-06-09，日頻。潔淨能源與綠債資料來自 S&P，災害損失來自 CRED，CPU 來自公開指數。全文未明列最終有效樣本量，故記為未報告。",
+        "【模型與估計】採 Gabauer 與 Stenfors 的 quantile-on-quantile connectedness（QQC），將 QVAR 轉為 QVMA 並以 GFEVD 計算 TCI、TO、FROM 與淨方向性；使用 200 日滾動視窗、BIC 選擇一階落後、20 步預測期，比較直接與反向分位組合。",
+        "【穩健性檢驗】全文主要以直接／反向分位組合、總連結度、淨方向性與動態路徑交叉檢視；未另報告替代視窗、預測期、指數代理或正式信賴區間。描述統計含 Jarque–Bera 與 ARCH-LM，但這些診斷不能取代模型規格穩健性。",
+        "【主要結果】自然災害第 5 分位與潔淨能源第 95 分位的 TCI 最高為 46.9；潔淨能源與綠債的平均 TCI 均約 30.2。反向分位關係多強於同向分位；中位狀態連結較弱。高 CPU 時綠債可轉為淨傳送者；整體而言綠債較能對沖轉型風險，潔淨能源較能對沖實體風險，且實體風險的影響較強。",
+        "【作者提出的限制】作者明列美國單一市場範圍、可能的衡量誤差，以及 QQC 對樣本量敏感；建議擴展其他綠色金融工具並做跨國比較。",
+        "【其他限制】災害財損與市場報酬的日頻對齊可能造成事件時點與零值處理問題，全文未交代最終樣本量及替代代理。200 日視窗與四變數系統的尾部估計仍可能不穩；連結度是條件關聯，不宜把自然災害或 CPU 寫成已識別的因果衝擊。",
+        "【APA 7】Chiad, F. (2026). Assessing the impact of physical and transition climate risks on clean energy and green bond markets: A quantile-on-quantile connectedness analysis. Energy RESEARCH LETTERS, 7(Early View). https://doi.org/10.46557/001c.156409",
+        "【與美智研究的關聯】5/5。CPU × 潔淨能源／綠債與分位溢出完全對應美智核心主題，並額外把自然災害財損納入實體風險，可作為 physical versus transition climate risk 的直接比較基準。可借鏡直接／反向分位、200 日滾動與風險類型分層；主要差異是未做 BK 頻率分解或 TVP-VAR-SV，且樣本僅限美國。"
+      ],
+      "type": "search",
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】全文精讀；完整閱讀 Energy RESEARCH LETTERS 7 頁正式全文，並核對 DOI、Crossref 與出版資訊。",
+          "evidence": "正式 7 頁 PDF、CC BY-SA 4.0 聲明與 Crossref。",
+          "confidence": "high",
+          "source": "全文／書目",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】美國實體氣候風險（自然災害）與轉型氣候風險（氣候政策不確定性）如何在不同分位組合下連結潔淨能源與綠債？兩類綠色資產的避險功能是否隨市場狀態與風險類型改變？",
+          "evidence": "全文導論與研究目的。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】潔淨能源以 S&P Global Clean Energy Index 報酬衡量；綠債以 S&P Green Bond Index 報酬衡量；實體氣候風險為美國自然災害的美元財務損失（CRED）；轉型風險以 Gavriilidis（2021）Climate Policy Uncertainty Index 衡量。",
+          "evidence": "全文 Data 段落。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】美國；2015-01-02 至 2023-06-09，日頻。",
+          "evidence": "全文 Data 段落；樣本量未列。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【模型與估計】採 Gabauer 與 Stenfors 的 quantile-on-quantile connectedness（QQC），將 QVAR 轉為 QVMA 並以 GFEVD 計算 TCI、TO、FROM 與淨方向性；使用 200 日滾動視窗、BIC 選擇一階落後、20 步預測期，比較直接與反向分位組合。",
+          "evidence": "全文方法與圖註。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】全文主要以直接／反向分位組合、總連結度、淨方向性與動態路徑交叉檢視；未另報告替代視窗、預測期、指數代理或正式信賴區間。",
+          "evidence": "全文診斷與結果圖；未見替代規格。",
+          "confidence": "mid",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】自然災害第 5 分位與潔淨能源第 95 分位的 TCI 最高為 46.9；潔淨能源與綠債的平均 TCI 均約 30.2。",
+          "evidence": "全文 Figures 1–3 與結論。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【其他限制】災害財損與市場報酬的日頻對齊可能造成事件時點與零值處理問題，全文未交代最終樣本量及替代代理。",
+          "evidence": "資料對齊與尾部估計的可辨識限制。",
+          "confidence": "mid",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】5/5。",
+          "evidence": "主題、模型與變數的直接重疊。",
+          "confidence": "high",
+          "source": "綜合判斷",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    root[\"📄 實體／轉型氣候風險與綠色資產\"]\n    style root fill:#059669,color:#fff,font-weight:bold\n    n0[\"💡 QQC × 200 日滾動 QVAR\"]\n    root --> n0\n    n1[\"💡 TCI 最高 46.9；避險角色分化\"]\n    root --> n1\n    n2[\"🔗 與美智研究關聯 5/5\"]\n    root --> n2"
+    },
+    {
+      "id": "qvar-2026-10-25-sustainable-markets-quantile-tvp-var",
+      "title": "Dynamic and Frequency-based Connectedness Among Sustainable Markets: Evidence from Quantile TVP-VAR and Wavelet Analysis",
+      "search_date": "2026-10-25",
+      "authors": "Sami Ur Rahman; Francesca Coccia; Imran Ali Khan; Karim Oueslati",
+      "year": "2026",
+      "journal": "Asia-Pacific Financial Markets, advance online publication",
+      "doi": "https://doi.org/10.1007/s10690-026-09606-1",
+      "citations": "1 次（Crossref；OpenAlex 尚無可解析紀錄，2026-10-25）",
+      "openalex_id": "未收錄（查詢於 2026-10-25）",
+      "openalex_url": "",
+      "fulltext_url": "https://link.springer.com/article/10.1007/s10690-026-09606-1",
+      "reading_level": "全文精讀",
+      "abstract": "本文以 2017 年 6 月至 2025 年 2 月的全球綠債、氫能、EUA 碳價、潔淨能源與 ESG 日資料，結合 Quantile TVP-VAR、頻率連結網路與 wavelet coherence。TCI 在下尾、中位與上尾分別為 72.68%、33.08% 與 72.51%，呈明顯尾部放大；短期頻帶主導傳導。潔淨能源、氫能與 ESG 多為尾部傳送者，綠債與碳價則多吸收衝擊。",
+      "tags": [
+        "Quantile TVP-VAR",
+        "Q-GFEVD",
+        "frequency connectedness",
+        "wavelet coherence",
+        "NPDC",
+        "tail spillovers"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "潔淨能源",
+        "碳市場/碳交易",
+        "綠債/ESG",
+        "金融市場"
+      ],
+      "keywords": [
+        "green bonds",
+        "hydrogen",
+        "carbon allowances",
+        "clean energy",
+        "ESG",
+        "investment horizons"
+      ],
+      "notes": [
+        "【閱讀層級】全文精讀；完整閱讀 Springer 開放全文，並以 Crossref 與出版商更新紀錄核對。原文於 2026-05-07 修正作者姓名，2026-05-09 發布更正通知；本筆採更正後版本，該事件不是撤稿。Crossref 被引 1；OpenAlex 於 2026-10-25 尚無可解析紀錄。",
+        "【研究問題與動機】綠債、氫能、碳價、潔淨能源與 ESG 的連結度是否同時受到市場分位與投資期限影響？哪些永續市場在熊市、常態及牛市，以及短、中、長期頻帶中扮演傳送者或接收者？",
+        "【研究變數】S&P Green Bond Index、S&P Kensho Hydrogen Economy Index、EU ETS EUA 碳價、S&P Global Clean Energy Transition Index 與 S&P 500 ESG Scored and Screened Index；以對數轉換後的日報酬分析。",
+        "【資料／市場／樣本】全球永續金融市場；2017-06-01 至 2025-02-28，日頻，資料取自 Investing.com。原文未明列最終共同交易日樣本量，故記為未報告。",
+        "【模型與估計】三階段架構：Quantile TVP-VAR 與 Q-GFEVD 計算總體、方向與淨連結度；將頻率分為短期 1–5 日、中期 5–22 日、長期 22 日以上；再用 NPDC 網路呈現雙邊方向。分位數重點為 0.05、0.50、0.95。",
+        "【穩健性檢驗】以 continuous wavelet transform／wavelet coherence 驗證時間—頻率共移，並做 Ljung–Box、Jarque–Bera、ADF 與 PP 診斷。Wavelet 結果大致支持 Q-TVP-VAR 的分位與頻帶角色，但未見替代資料來源、頻帶切點或樣本視窗。",
+        "【主要結果】總 TCI 在 0.05、0.50、0.95 分位分別為 72.68%、33.08%、72.51%。下尾短期 TCI 為 55.88，中期 9.19、長期 7.61；中位短／中／長期為 28.11、3.31、1.66。潔淨能源、氫能與 ESG 多為尾部淨傳送者，綠債與碳價多為淨接收者；COVID-19 與 2022–2023 年俄烏戰爭／碳市波動期間連結上升。",
+        "【作者提出的限制】原文沒有獨立限制章節或明列限制；結論聚焦政策與投資建議，未處理資料供應商、共同交易日或模型識別的限制。",
+        "【其他限制】Investing.com 的單一資料來源與全球資產非同步收盤可能影響方向性；原文未報告有效樣本量。Wavelet coherence 是共移驗證而非 Q-TVP-VAR 估計的同模型再估，不能當作所有規格選擇均穩健；U 型 TCI 亦應配合殘差中心化稽核。",
+        "【APA 7】Rahman, S. U., Coccia, F., Khan, I. A., & Oueslati, K. (2026). Dynamic and frequency-based connectedness among sustainable markets: Evidence from quantile TVP-VAR and wavelet analysis. Asia-Pacific Financial Markets. Advance online publication. https://doi.org/10.1007/s10690-026-09606-1",
+        "【與美智研究的關聯】5/5。本文同時覆蓋綠債、碳價、潔淨能源、ESG 與氫能，並把 Quantile TVP-VAR、頻率分解與時變網路整合，與美智的 time-frequency QVAR／FRL 設計高度重疊。可直接借鏡 1–5／5–22／22+ 日頻帶、角色表與事件解讀；主要差異是未把 CPU 納入系統，也未採 TVP-VAR-SV 或明示 BK 推導。"
+      ],
+      "type": "search",
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】全文精讀；完整閱讀 Springer 開放全文，並以 Crossref 與出版商更新紀錄核對。",
+          "evidence": "Springer 開放全文、Crossref 與更正紀錄。",
+          "confidence": "high",
+          "source": "全文／書目",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】綠債、氫能、碳價、潔淨能源與 ESG 的連結度是否同時受到市場分位與投資期限影響？哪些永續市場在熊市、常態及牛市，以及短、中、長期頻帶中扮演傳送者或接收者？",
+          "evidence": "全文導論與方法架構。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】S&P Green Bond Index、S&P Kensho Hydrogen Economy Index、EU ETS EUA 碳價、S&P Global Clean Energy Transition Index 與 S&P 500 ESG Scored and Screened Index；以對數轉換後的日報酬分析。",
+          "evidence": "全文 Table 1 與變數說明。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】全球永續金融市場；2017-06-01 至 2025-02-28，日頻，資料取自 Investing.com。",
+          "evidence": "全文資料段落。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【模型與估計】三階段架構：Quantile TVP-VAR 與 Q-GFEVD 計算總體、方向與淨連結度；將頻率分為短期 1–5 日、中期 5–22 日、長期 22 日以上；再用 NPDC 網路呈現雙邊方向。",
+          "evidence": "全文 Methods 與頻帶定義。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】以 continuous wavelet transform／wavelet coherence 驗證時間—頻率共移，並做 Ljung–Box、Jarque–Bera、ADF 與 PP 診斷。",
+          "evidence": "全文 wavelet coherence 與診斷段落。",
+          "confidence": "mid",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】總 TCI 在 0.05、0.50、0.95 分位分別為 72.68%、33.08%、72.51%。",
+          "evidence": "全文 Tables 4–7、動態圖與結論。",
+          "confidence": "high",
+          "source": "全文",
+          "connections": []
+        },
+        {
+          "claim": "【其他限制】Investing.com 的單一資料來源與全球資產非同步收盤可能影響方向性；原文未報告有效樣本量。",
+          "evidence": "資料同步與穩健性範圍。",
+          "confidence": "mid",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】5/5。",
+          "evidence": "資產集合、分位與頻帶均高度重疊。",
+          "confidence": "high",
+          "source": "綜合判斷",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    root[\"📄 全球永續市場分位—頻率網路\"]\n    style root fill:#059669,color:#fff,font-weight:bold\n    n0[\"💡 Quantile TVP-VAR × Wavelet\"]\n    root --> n0\n    n1[\"💡 尾部 TCI 約 72%，短期主導\"]\n    root --> n1\n    n2[\"🔗 與美智研究關聯 5/5\"]\n    root --> n2"
+    },
+    {
+      "id": "qvar-2026-10-25-uncertainty-fossil-green-energy-qqc",
+      "title": "Quantile-on-quantile connectedness of uncertainty with fossil and green energy markets",
+      "search_date": "2026-10-25",
+      "authors": "Pınar Evrim Mandaci; Efe C. Cagli; Dilvin Taşkin; Birce Tedik Kocakaya",
+      "year": "2025",
+      "journal": "Renewable Energy, 249, Article 123235",
+      "doi": "https://doi.org/10.1016/j.renene.2025.123235",
+      "citations": "20 次（Crossref 與 OpenAlex，2026-10-25）",
+      "openalex_id": "W4409638581",
+      "openalex_url": "https://openalex.org/W4409638581",
+      "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S0960148125008973",
+      "reading_level": "摘要層級",
+      "abstract": "本文以 2004 年 8 月至 2023 年 12 月資料，使用 quantile-on-quantile connectedness 比較 EPU、GPR、CPU 與疫情不確定性和化石／綠能市場的雙向尾部連結。多數 TCI 在極端反向分位達峰，高 EPU 與低潔淨能源報酬的連結最強；CPU 與能源指數的連結在 2016 年後轉正。GPR 與 EPU 對能源市場、尤其綠能的連結強於 CPU，但這些是條件關聯而非因果效果。",
+      "tags": [
+        "QQC",
+        "QVAR",
+        "rolling connectedness",
+        "climate policy uncertainty",
+        "geopolitical risk",
+        "energy uncertainty"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "潔淨能源",
+        "能源市場",
+        "地緣政治/國防",
+        "金融市場"
+      ],
+      "keywords": [
+        "economic policy uncertainty",
+        "geopolitical risk",
+        "climate policy uncertainty",
+        "infectious disease uncertainty",
+        "fossil energy",
+        "green energy"
+      ],
+      "notes": [
+        "【閱讀層級】摘要層級；Crossref、OpenAlex 與 ScienceDirect 公開摘要／章節片段已核驗。出版商頁顯示需機構登入或購買全文，未繞過存取控制。Crossref 與 OpenAlex 被引均為 20；OpenAlex W4409638581，is_retracted=false。",
+        "【研究問題與動機】EPU、GPR、CPU 與疫情不確定性如何在不同分位組合下與化石及綠能市場雙向連結？同向與反向分位的尾部傳導是否不同，且重大氣候協定後角色是否改變？",
+        "【研究變數】化石能源市場指數、潔淨／綠能市場指數，以及 Economic Policy Uncertainty、Geopolitical Risk、Climate Policy Uncertainty 與 Infectious Disease Equity Market Volatility 指數。公開資料未提供個別能源指數代碼與完整轉換方式。",
+        "【資料／市場／樣本】全球能源與不確定性指標；2004-08 至 2023-12，月頻。公開摘要／片段未報告資料供應商、完整樣本量與缺失值處理，故記為未報告。",
+        "【模型與估計】採 Gabauer 與 Stenfors 的 quantile-on-quantile connectedness，逐一建立能源市場指數與不確定性指數的雙變量 QVAR；60 個月滾動視窗、BIC 選一階落後、6 步預測期，比較同向與反向分位 TCI 及其動態。",
+        "【穩健性檢驗】出版商章節片段明示另檢查落後期長度，因完整正文不可得，替代落後期與結果未公開；因此只能記錄已做 lag-length sensitivity，不能宣稱其他視窗、預測期或代理變數檢驗。",
+        "【主要結果】除 CPU 外，各 TCI 多在極端反向分位達峰；高 EPU 與低潔淨能源報酬的連結最強。EPU 與能源市場在各分位多呈動態反向關係；CPU 與能源指數的連結在 2016 年後轉正。GPR 與 EPU 對能源市場、尤其綠能的影響強於氣候不確定性；能源市場表現也回饋 CPU，疫情不確定性則跨多個分位傳導。",
+        "【作者提出的限制】可取得的公開摘要／章節片段未列作者明示限制；待合法取得全文後再核對。",
+        "【其他限制】雙變量逐對 QVAR 不能同時控制所有不確定性與能源市場，角色可能反映省略的共同衝擊；60 個月視窗在尾部分位的有效資訊有限。作者把 2016 年後轉正與巴黎協定相連僅屬可能解釋，不能視為協定的因果效果。",
+        "【APA 7】Mandaci, P. E., Cagli, E. C., Taşkin, D., & Tedik Kocakaya, B. (2025). Quantile-on-quantile connectedness of uncertainty with fossil and green energy markets. Renewable Energy, 249, Article 123235. https://doi.org/10.1016/j.renene.2025.123235",
+        "【與美智研究的關聯】5/5。本文把 CPU、EPU、GPR 與疫情不確定性同時連結化石／綠能，且直接比較同向與反向分位，是美智 CPU × 能源金融尾部溢出的核心對照。可借鏡協定前後的動態敘事、雙向傳導與 lag sensitivity；主要差異是雙變量 QQC、月頻與無 BK 頻率分解／TVP-VAR-SV。"
+      ],
+      "type": "search",
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】摘要層級；Crossref、OpenAlex 與 ScienceDirect 公開摘要／章節片段已核驗。",
+          "evidence": "Crossref、OpenAlex W4409638581 與 ScienceDirect 公開內容。",
+          "confidence": "high",
+          "source": "摘要／書目",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】EPU、GPR、CPU 與疫情不確定性如何在不同分位組合下與化石及綠能市場雙向連結？同向與反向分位的尾部傳導是否不同，且重大氣候協定後角色是否改變？",
+          "evidence": "公開摘要與導論片段。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】化石能源市場指數、潔淨／綠能市場指數，以及 Economic Policy Uncertainty、Geopolitical Risk、Climate Policy Uncertainty 與 Infectious Disease Equity Market Volatility 指數。",
+          "evidence": "公開摘要；代碼未揭露。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】全球能源與不確定性指標；2004-08 至 2023-12，月頻。",
+          "evidence": "公開摘要與方法片段。",
+          "confidence": "high",
+          "source": "摘要／片段",
+          "connections": []
+        },
+        {
+          "claim": "【模型與估計】採 Gabauer 與 Stenfors 的 quantile-on-quantile connectedness，逐一建立能源市場指數與不確定性指數的雙變量 QVAR；60 個月滾動視窗、BIC 選一階落後、6 步預測期，比較同向與反向分位 TCI 及其動態。",
+          "evidence": "ScienceDirect 方法／實證片段。",
+          "confidence": "high",
+          "source": "片段",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】出版商章節片段明示另檢查落後期長度，因完整正文不可得，替代落後期與結果未公開；因此只能記錄已做 lag-length sensitivity，不能宣稱其他視窗、預測期或代理變數檢驗。",
+          "evidence": "ScienceDirect robustness 片段。",
+          "confidence": "mid",
+          "source": "片段",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】除 CPU 外，各 TCI 多在極端反向分位達峰；高 EPU 與低潔淨能源報酬的連結最強。",
+          "evidence": "公開摘要的方向與期間結果。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【其他限制】雙變量逐對 QVAR 不能同時控制所有不確定性與能源市場，角色可能反映省略的共同衝擊；60 個月視窗在尾部分位的有效資訊有限。",
+          "evidence": "雙變量設計、視窗與事件解釋的限制。",
+          "confidence": "mid",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】5/5。",
+          "evidence": "CPU、能源市場與 QQC 直接對應。",
+          "confidence": "high",
+          "source": "綜合判斷",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    root[\"📄 不確定性與化石／綠能 QQC\"]\n    style root fill:#059669,color:#fff,font-weight:bold\n    n0[\"💡 雙變量 QVAR × 60 月滾動\"]\n    root --> n0\n    n1[\"💡 反向分位最強；2016 後 CPU 轉正\"]\n    root --> n1\n    n2[\"🔗 與美智研究關聯 5/5\"]\n    root --> n2"
+    },
     {
       "id": "qvar-2026-10-24-centred-residuals-tail-spillover",
       "title": "How much tail spillover is real? Centring the residuals in quantile connectedness",
