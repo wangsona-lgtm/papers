@@ -1,6 +1,6 @@
 {
-  "total": 167,
-  "updated": "2026-10-25 21:11:59",
+  "total": 171,
+  "updated": "2026-10-26 20:05:06",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,469 @@
     "金融市場"
   ],
   "papers": [
+    {
+      "id": "qvar-2026-10-26-carbon-shipping-energy-quantile-frequency",
+      "title": "Green Transition and Risk Connectedness Across Carbon, Shipping, and Energy-Related Commodity Markets: A Quantile Time-Frequency Analysis",
+      "search_date": "2026-10-26",
+      "authors": "Meng Wan; Cong Sui; JiaXi Sun",
+      "year": "2026",
+      "journal": "Research in Transportation Economics, 119, Article 101827",
+      "doi": "https://doi.org/10.1016/j.retrec.2026.101827",
+      "citations": "0 次（Crossref／OpenAlex，2026-10-26）",
+      "openalex_id": "W7203556560",
+      "openalex_url": "https://openalex.org/W7203556560",
+      "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S0739885926001241",
+      "reading_level": "摘要層級",
+      "abstract": "本文以 2010 年 7 月 23 日至 2025 年 11 月 28 日週資料，將 EU 碳市場、航運生命週期市場與能源商品納入 QVAR—Baruník–Křehlík 分位數時頻連結架構。出版社公開摘要顯示，極端分位的連結度高於中位數，短期傳導持續占優；甲醇在整體與短期頻帶較常為淨傳送者，EU 碳價在下尾較重要，新造船市場則在中高分位呈現較強外溢。因正文需機構訂閱，本筆僅作摘要層級分析。",
+      "tags": [
+        "QVAR",
+        "Baruník–Křehlík",
+        "quantile time-frequency connectedness",
+        "rolling connectedness",
+        "green shipping attention"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "碳市場/碳交易",
+        "能源市場",
+        "原物料/商品",
+        "金融市場"
+      ],
+      "keywords": [
+        "EU ETS",
+        "shipping markets",
+        "methanol",
+        "newbuilding market",
+        "energy commodities",
+        "green transition"
+      ],
+      "notes": [
+        "【閱讀層級】摘要層級；已核對 Crossref、OpenAlex 與 ScienceDirect 公開摘要／章節片段。正文需機構訂閱，未繞過存取控制。Crossref 與 OpenAlex 被引均為 0，OpenAlex ID 為 W7203556560，is_retracted=false；Crossref 未列撤稿或更新關係。",
+        "【研究問題與動機】EU ETS 納入航運後，碳成本如何沿碳市場—航運生命週期—傳統與替代燃料市場形成狀態與期限依賴的風險連結？新造船市場是否在綠色轉型下改變其傳統接收者角色？",
+        "【研究變數】EU Allowance 碳價、航運市場（含運價、新造船、二手船與拆船等生命週期環節）及能源相關商品；公開摘要明列甲醇，並另使用實際新造船／替代燃料船舶合約、Green Shipping Attention 與 Shipping Decarbonization Pressure Index 作補充分析。完整指標與資料代碼未公開，故不推測。",
+        "【資料／市場／樣本】歐洲碳市場、全球航運與能源商品；2010-07-23 至 2025-11-28，週頻。公開摘要未報告各序列資料供應商、共同樣本量、缺值與幣別處理，均記為未報告。",
+        "【模型與估計】以 Ando 等人的 QVAR 結合 Baruník–Křehlík 頻域變異分解，重點比較 τ=0.01、0.50、0.99 的總體、方向性與短中長期連結；另做滾動估計、EU ETS Phase III／IV 與 2024 年納入航運的子期比較。基準落後期、預測期、視窗與頻帶切點未由可存取內容完整揭露。",
+        "【穩健性檢驗】出版社片段明列四組敏感度：極端分位改為 0.05／0.95、預測期改為 20／30、滾動視窗改為 60／70 週，以及短期頻帶改為 0–13 週。另以新造船合約及替代燃料船合約檢視角色變化的一致性。",
+        "【主要結果】極端市場的整體連結顯著高於中位狀態，且短期傳導高於中長期；甲醇在整體與短期頻帶是較強淨傳送者，EU 碳市場在下尾較重要，新造船市場於中位至上尾較具外溢性。Phase IV 與航運納入 EU ETS 後，跨市場連結呈上升趨勢；綠色航運關注度與新造船外向溢出呈條件關聯，不能解讀為已識別因果。",
+        "【作者提出的限制】可存取摘要未列作者明示限制；全文的資料代理、模型設定與內生性討論目前無法完整核驗。",
+        "【其他限制】週資料與多市場價格可能存在時區、報價頻率及結構斷點問題；事件子期與關注度分析屬條件關聯，EU ETS 制度變化亦與能源價格及航運景氣同時發生。摘要未提供 TCI 數值與估計不確定性，故不補造數字。",
+        "【APA 7】Wan, M., Sui, C., & Sun, J. (2026). Green transition and risk connectedness across carbon, shipping, and energy-related commodity markets: A quantile time-frequency analysis. Research in Transportation Economics, 119, Article 101827. https://doi.org/10.1016/j.retrec.2026.101827",
+        "【與美智研究的關聯】5/5。主題正面命中『碳價尾部衝擊 × 航運』，方法同時使用 QVAR 與 Baruník–Křehlík 頻率分解，可直接借鏡市場生命週期分層、政策子期、1% 極端分位與替代設定。主要差異是本文未把 CPU 放入核心系統，也未採 TVP-VAR-SV；可優先追蹤其資料定義與頻帶切點。"
+      ],
+      "type": "search",
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】摘要層級；Crossref、OpenAlex 與 ScienceDirect 公開摘要／章節片段已核驗。",
+          "evidence": "DOI  metadata、OpenAlex W7203556560 與出版商頁。",
+          "confidence": "high",
+          "source": "書目／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】檢驗碳市場、航運生命週期與能源商品在綠色轉型下的分位數—頻率風險連結。",
+          "evidence": "公開摘要與導論片段。",
+          "confidence": "high",
+          "source": "摘要／出版商頁",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】EU 碳價、航運市場、新造船及能源商品，並以綠色航運關注與減碳壓力作補充。",
+          "evidence": "公開摘要與章節片段；完整代碼未揭露。",
+          "confidence": "mid",
+          "source": "摘要／出版商頁",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】2010-07-23 至 2025-11-28，週頻。",
+          "evidence": "ScienceDirect 公開摘要。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【模型與估計】QVAR 結合 Baruník–Křehlík 頻域分解，比較 τ=0.01、0.50、0.99。",
+          "evidence": "方法與平均連結度章節片段。",
+          "confidence": "high",
+          "source": "出版商頁",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】替代分位、預測期、視窗與頻帶切點均有敏感度檢查。",
+          "evidence": "Robustness of quantile time-frequency spillovers 章節片段。",
+          "confidence": "high",
+          "source": "出版商頁",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】極端與短期連結較強；甲醇、EU 碳價與新造船的角色隨分位及期限改變。",
+          "evidence": "公開摘要與 highlights。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【其他限制】事件子期與綠色航運關注度結果是條件關聯，不能作因果解讀。",
+          "evidence": "研究設計與公開資訊邊界。",
+          "confidence": "mid",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】5/5。",
+          "evidence": "碳價 × 航運主題與 QVAR-BK 方法均直接重疊。",
+          "confidence": "high",
+          "source": "綜合判斷",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    root[\"📄 碳市場—航運—能源商品\"]\n    style root fill:#059669,color:#fff,font-weight:bold\n    n0[\"💡 QVAR × BK 時頻分解\"]\n    root --> n0\n    n1[\"💡 極端與短期溢出主導\"]\n    root --> n1\n    n2[\"🔗 與美智研究關聯 5/5\"]\n    root --> n2"
+    },
+    {
+      "id": "qvar-2026-10-26-climate-risk-agricultural-qqc",
+      "title": "Dynamic Spillovers Between Climate Risks and Agricultural Commodity Markets: New Insights into Quantile-on-Quantile Connectedness Approach",
+      "search_date": "2026-10-26",
+      "authors": "Xiaoyu Yao; Zhining Zhang",
+      "year": "2026",
+      "journal": "Finance Research Letters, 109, Article 110504",
+      "doi": "https://doi.org/10.1016/j.frl.2026.110504",
+      "citations": "0 次（Crossref／OpenAlex，2026-10-26）",
+      "openalex_id": "W7168182335",
+      "openalex_url": "https://openalex.org/W7168182335",
+      "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S1544612326010329",
+      "reading_level": "摘要層級",
+      "abstract": "本文以 2019 年 8 月 16 日至 2025 年 6 月 30 日的日資料，運用 quantile-on-quantile connectedness 比較實體與轉型氣候風險和中美玉米、黃豆、棉花及稻米期貨之間的聯結。公開摘要指出，農產品期貨在常態分位具避險潛力，極端分位組合下 CBOT 糙米的避險效果最佳；中美淨方向性與 COVID-19、La Niña、Fed 緊縮及中國雙碳政策的動態反應並不一致。正文需機構訂閱，故僅作摘要層級分析。",
+      "tags": [
+        "QQC",
+        "QVAR",
+        "quantile-on-quantile connectedness",
+        "physical climate risk",
+        "transition climate risk"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "原物料/商品",
+        "金融市場"
+      ],
+      "keywords": [
+        "climate physical risk",
+        "climate transition risk",
+        "agricultural futures",
+        "China",
+        "United States",
+        "hedging"
+      ],
+      "notes": [
+        "【閱讀層級】摘要層級；已核對 Crossref、OpenAlex 與 ScienceDirect 公開摘要／資料片段。正文需機構訂閱，未繞過存取控制。Crossref 與 OpenAlex 被引均為 0，OpenAlex ID 為 W7168182335，is_retracted=false；Crossref 未列撤稿或更新關係。",
+        "【研究問題與動機】實體與轉型氣候風險如何在不同聯合分位下與中美農產品期貨互相傳導？商品、國家、市場狀態與事件是否改變期貨的避險角色？",
+        "【研究變數】氣候端使用 Transition Risk Index（TRI）與 Physical Risk Index（PRI）；美國市場包含 CBOT 玉米、CBOT 黃豆、CBOT 糙米與 NYMEX 棉花，中國市場包含 DCE 玉米、DCE 黃豆、CZCE 粳稻與 CZCE 棉花，期貨價格轉為日對數報酬。",
+        "【資料／市場／樣本】中國與美國；2019-08-16 至 2025-06-30，日頻。期貨價格來自 iFinD Financial Terminal；公開片段未報告 TRI／PRI 的原始供應者、共同交易日處理與最終樣本量。",
+        "【模型與估計】採 Gabauer 與 Stenfors（2024）quantile-on-quantile connectedness，估計氣候風險與各商品在全聯合分位網格的總體與淨方向性連結。公開內容未完整揭露分位網格、QVAR 落後期、預測期、滾動視窗及殘差共變異數設定。",
+        "【穩健性檢驗】公開摘要與章節片段沒有交代替代分位、視窗、預測期、風險代理或 bootstrap 推論；跨中國／美國、四類商品與多事件的異質性比較可提供外部對照，但不能取代正式規格敏感度。",
+        "【主要結果】常態分位下農產品期貨具有對沖氣候風險的潛力；在研究涵蓋的極端聯合分位中，CBOT 糙米是最佳避險資產。中美淨方向性顯示市場制度與政策脈絡會改變角色；COVID-19、La Niña、Fed 緊縮與中國雙碳政策各呈現商品特定的連結型態。這些是條件連結，不代表已識別因果。",
+        "【作者提出的限制】可存取摘要未列作者明示限制；全文中的資料代理、事件窗與估計設定尚待合法全文核驗。",
+        "【其他限制】中國與美國交易時段、合約換月、流動性及價格限制不同，可能影響跨國方向性；將事件與連結度變化對照仍可能受同時期宏觀衝擊干擾。摘要未報告數值 TCI 或不確定區間，故不補造。",
+        "【APA 7】Yao, X., & Zhang, Z. (2026). Dynamic spillovers between climate risks and agricultural commodity markets: New insights into quantile-on-quantile connectedness approach. Finance Research Letters, 109, Article 110504. https://doi.org/10.1016/j.frl.2026.110504",
+        "【與美智研究的關聯】5/5。實體／轉型氣候風險、跨分位溢出與中美商品市場均直接補強美智的 CPU × 綠色／商品資產設計。可借鏡 TRI 與 PRI 分層、全聯合分位及跨國事件比較；主要差異是未做 BK 頻率分解或 TVP-VAR-SV，且正文設定目前不可核驗。"
+      ],
+      "type": "search",
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】摘要層級；Crossref、OpenAlex 與 ScienceDirect 公開內容已核驗。",
+          "evidence": "DOI metadata、OpenAlex W7168182335 與出版商頁。",
+          "confidence": "high",
+          "source": "書目／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】比較實體／轉型氣候風險與中美農產品期貨的聯合分位連結。",
+          "evidence": "公開摘要與導論片段。",
+          "confidence": "high",
+          "source": "摘要／出版商頁",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】TRI、PRI 及中美玉米、黃豆、棉花、稻米期貨報酬。",
+          "evidence": "公開摘要與 Data 片段。",
+          "confidence": "high",
+          "source": "摘要／出版商頁",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】2019-08-16 至 2025-06-30，中美日頻資料。",
+          "evidence": "ScienceDirect 公開摘要。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【模型與估計】採 Gabauer–Stenfors quantile-on-quantile connectedness。",
+          "evidence": "公開摘要與 Methodology 片段。",
+          "confidence": "high",
+          "source": "出版商頁",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】公開內容未揭露替代規格或正式推論細節。",
+          "evidence": "目前可存取摘要與章節片段。",
+          "confidence": "mid",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】常態下農期貨具避險潛力，極端組合以 CBOT 糙米表現最佳。",
+          "evidence": "公開摘要與 highlights。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【其他限制】跨國交易制度與事件共時性限制方向性與政策解讀。",
+          "evidence": "研究設計的可辨識邊界。",
+          "confidence": "mid",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】5/5。",
+          "evidence": "氣候風險、分位連結與商品市場直接重疊。",
+          "confidence": "high",
+          "source": "綜合判斷",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    root[\"📄 氣候風險與中美農產品期貨\"]\n    style root fill:#059669,color:#fff,font-weight:bold\n    n0[\"💡 PRI／TRI × QQC\"]\n    root --> n0\n    n1[\"💡 極端狀態下糙米避險最佳\"]\n    root --> n1\n    n2[\"🔗 與美智研究關聯 5/5\"]\n    root --> n2"
+    },
+    {
+      "id": "qvar-2026-10-26-new-economy-regime-quantile-connectedness",
+      "title": "Dynamics of Regime and Quantile Connectedness Across New Economy Markets",
+      "search_date": "2026-10-26",
+      "authors": "Sami Al-Kharusi; Rim El Khoury; Walid Mensi; Khamis Hamed Al-Yahyaee; Sang Hoon Kang",
+      "year": "2026",
+      "journal": "International Review of Economics & Finance, 112, Article 105940",
+      "doi": "https://doi.org/10.1016/j.iref.2026.105940",
+      "citations": "0 次（Crossref；OpenAlex 尚無可解析紀錄，2026-10-26）",
+      "openalex_id": "未收錄（查詢於 2026-10-26）",
+      "openalex_url": "",
+      "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S1059056026010543",
+      "reading_level": "摘要層級",
+      "abstract": "本文以 12 個 S&P Kensho 新經濟子指數，結合 regime-switching、TVP-VAR 與 QVAR，比較高低波動狀態和報酬分位下的系統連結。公開摘要指出，高波動與兩端尾部分位的總連結顯著提高；智慧工廠、AI 與機器人是較穩定的系統性傳送者，潔淨能源與資安的角色則依狀態轉換，且衝擊後的傳染具有遲滯現象。樣本期間、頻率與完整估計設定未公開，因此僅作摘要層級分析。",
+      "tags": [
+        "regime-switching",
+        "TVP-VAR",
+        "QVAR",
+        "quantile connectedness",
+        "systemic risk"
+      ],
+      "topics": [
+        "AI/科技",
+        "潔淨能源",
+        "金融市場",
+        "方法論"
+      ],
+      "keywords": [
+        "new economy",
+        "artificial intelligence",
+        "Fintech",
+        "clean energy",
+        "robotics",
+        "volatility regimes"
+      ],
+      "notes": [
+        "【閱讀層級】摘要層級；已核對 Crossref 與 ScienceDirect 公開摘要。Crossref 被引 0；OpenAlex 於 2026-10-26 尚無可解析紀錄。Crossref 未列撤稿或更新關係，出版商頁亦未顯示撤稿通知。",
+        "【研究問題與動機】新經濟創新產業的連結結構是否同時隨高低波動 regime 與報酬分位改變？哪些產業在壓力、常態與上漲市場中持續傳送或吸收衝擊？",
+        "【研究變數】12 個 S&P Kensho New Economy 子指數，公開摘要明列 Artificial Intelligence、Fintech、Clean Energy、Cyber Security、Robotics、Metaverse Technologies 與 Smart Factories；其餘子指數未在摘要逐一列出，故不推測。",
+        "【資料／市場／樣本】S&P Kensho 全球新經濟產業指數，資料來自 S&P Global 且受授權限制。公開摘要未報告樣本起訖、頻率、最終樣本量、報酬定義與缺值處理，均記為未報告。",
+        "【模型與估計】以 regime-switching framework 區分波動狀態，結合 TVP-VAR 捕捉時變平均連結及 QVAR 描述報酬分位的非線性外溢。摘要未報告 regime 數、分位網格、落後期、預測期、先驗／平滑參數或 TVP 與 QVAR 的整合方式。",
+        "【穩健性檢驗】公開摘要未說明替代模型、指數代理、樣本子期或統計推論；regime 與 quantile 的雙重比較只能視為互補視角，不能取代正式敏感度檢查。",
+        "【主要結果】總連結在高波動 regime 與報酬分布兩端顯著加強。Smart Factories、AI 與 Robotics 跨 regime／分位多為核心傳送者；Clean Energy 與 Cyber Security 的角色依狀態改變。衝擊消退後連結仍具持續性，作者稱為 hysteresis；投資組合分散效益亦隨 regime 循環變化。",
+        "【作者提出的限制】公開摘要未列作者明示限制；資料可用性聲明指出 S&P Global 資料受授權限制且不公開。",
+        "【其他限制】樣本期間、頻率與估計細節未揭露，使角色穩定性及遲滯證據無法獨立重現；12 個主題指數可能共享大型成分股，連結度部分反映重疊曝險。『衝擊傳送』是預測誤差分解方向，不等於結構因果。",
+        "【APA 7】Al-Kharusi, S., El Khoury, R., Mensi, W., Al-Yahyaee, K. H., & Kang, S. H. (2026). Dynamics of regime and quantile connectedness across new economy markets. International Review of Economics & Finance, 112, Article 105940. https://doi.org/10.1016/j.iref.2026.105940",
+        "【與美智研究的關聯】4/5。本文把 TVP-VAR 與 QVAR 對照並涵蓋 Fintech、AI 與潔淨能源，適合借鏡 regime × quantile 的雙軸研究設計、角色穩定性與遲滯解釋。主要差異是沒有氣候風險／CPU、BK 頻率分解或 SV，且摘要不足以確認 TVP-VAR-SV 類設定。"
+      ],
+      "type": "search",
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】摘要層級；Crossref 與 ScienceDirect 公開摘要已核驗。",
+          "evidence": "DOI metadata 與出版商頁。",
+          "confidence": "high",
+          "source": "書目／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】檢驗新經濟產業在波動 regime 與報酬分位下的連結角色。",
+          "evidence": "公開摘要。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】12 個 S&P Kensho 子指數，包含 AI、Fintech、Clean Energy、Cyber Security、Robotics 等。",
+          "evidence": "公開摘要；完整清單未揭露。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】資料來自 S&P Global；樣本期間、頻率與樣本量未報告。",
+          "evidence": "Data availability statement 與摘要。",
+          "confidence": "high",
+          "source": "出版商頁",
+          "connections": []
+        },
+        {
+          "claim": "【模型與估計】結合 regime-switching、TVP-VAR 與 QVAR。",
+          "evidence": "公開摘要。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】公開摘要未說明替代設定與正式推論。",
+          "evidence": "目前可存取內容的資訊邊界。",
+          "confidence": "mid",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】高波動與兩端尾部分位連結加強；AI、Robotics、Smart Factories 多為傳送者。",
+          "evidence": "公開摘要與 highlights。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【其他限制】指數成分重疊與未揭露樣本設定限制可重現性。",
+          "evidence": "資料設計與公開資訊邊界。",
+          "confidence": "mid",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】4/5。",
+          "evidence": "TVP-VAR／QVAR 與潔淨能源方法重疊。",
+          "confidence": "high",
+          "source": "綜合判斷",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    root[\"📄 新經濟市場的 regime—quantile 連結\"]\n    style root fill:#0f766e,color:#fff,font-weight:bold\n    n0[\"💡 TVP-VAR × QVAR\"]\n    root --> n0\n    n1[\"💡 AI／機器人為核心傳送者\"]\n    root --> n1\n    n2[\"🔗 與美智研究關聯 4/5\"]\n    root --> n2"
+    },
+    {
+      "id": "qvar-2026-10-26-stock-markets-oil-qvar",
+      "title": "Quantile Connectedness Between Stock Markets and Oil Price Shocks: A Cross-Country Analysis",
+      "search_date": "2026-10-26",
+      "authors": "Lumengo Bonga-Bonga; Timothy Tafadzwa Makanga",
+      "year": "2026",
+      "journal": "Risks, 14(11), Article 246",
+      "doi": "https://doi.org/10.3390/risks14110246",
+      "citations": "0 次（Crossref；OpenAlex 尚無可解析紀錄，2026-10-26）",
+      "openalex_id": "未收錄（查詢於 2026-10-26）",
+      "openalex_url": "",
+      "fulltext_url": "https://www.mdpi.com/2227-9091/14/11/246",
+      "reading_level": "摘要層級",
+      "abstract": "本文以 2008 年 1 月至 2024 年 1 月的 Brent 原油與 12 個已開發／新興股市資料，採 QVAR-GFEVD、滾動連結、網路分析、危機與產油／用油國比較及樣本外投資組合評估。TCI 在 Q=0.10、0.50、0.90 分別為 85.89%、68.38%、85.18%；美國、加拿大、英國與德國反覆為淨傳送者，Brent 在各分位均為淨接收者。MDPI PDF 在本次執行環境遭 CDN 拒絕，故即使文章為 CC BY，也僅標示摘要層級。",
+      "tags": [
+        "QVAR",
+        "GFEVD",
+        "rolling connectedness",
+        "network topology",
+        "portfolio optimization"
+      ],
+      "topics": [
+        "能源市場",
+        "金融市場",
+        "原物料/商品"
+      ],
+      "keywords": [
+        "Brent crude oil",
+        "stock markets",
+        "developed markets",
+        "emerging markets",
+        "systemic risk",
+        "out-of-sample portfolios"
+      ],
+      "notes": [
+        "【閱讀層級】摘要層級；已核對 Crossref 與 MDPI 公開摘要。文章為 CC BY 4.0，但 PDF 在本次執行環境遭 CDN Access Denied，未以其他方式繞過。Crossref 被引 0；OpenAlex 於 2026-10-26 尚無可解析紀錄。Crossref 未列撤稿或更新關係。",
+        "【研究問題與動機】Brent 與跨國股市的風險連結是否隨熊市、常態與牛市改變？產油國和用油國、危機事件及網路中心性是否提供不同的風險與投資組合資訊？",
+        "【研究變數】Brent 原油報酬與 12 個已開發／新興股市指數報酬；摘要點名美國、加拿大、英國與德國為反覆傳送者。完整 12 國指數名單未在可存取摘要列出，故不推測。另由網路中心性建構投資組合並與 mean-variance 基準比較。",
+        "【資料／市場／樣本】跨國股市與 Brent；2008 年 1 月至 2024 年 1 月。摘要未報告資料頻率、供應商、最終樣本量、共同交易日與匯率處理，均記為未報告。",
+        "【模型與估計】QVAR-GFEVD 比較 Q=0.10、0.50、0.90，並結合滾動連結、網路拓撲、危機子期、產油／用油國分組與樣本外投資組合。摘要未報告落後期、預測期、視窗長度與中心性權重規則。",
+        "【穩健性檢驗】研究將靜態與滾動連結、網路結構、危機比較、產油／用油國分組及樣本外投資組合交叉檢視；但可存取摘要未交代替代分位、視窗、預測期、殘差中心化或 bootstrap 細節。",
+        "【主要結果】TCI 在 Q=0.10、0.50、0.90 分別為 85.89%、68.38%、85.18%。美國、加拿大、英國與德國反覆為淨傳送者，Brent 各分位均為淨接收者；已開發市場形成傳導核心。Mean-variance 基準 Sharpe ratio 為 0.412，優於中心性投資組合；差異只在 Q=0.50 達顯著，兩端尾部未達 5% 顯著。",
+        "【作者提出的限制】可存取摘要未列作者明示限制；完整限制與資料說明尚待可合法取得正文後核驗。",
+        "【其他限制】摘要中的樣本起訖與同題 2024 年學位論文書目略有差異，應以正式文章為準並待全文核對。跨國時區、非同步交易與共同全球因子會影響方向性；網路中心性投資組合未優於簡單 mean-variance，也不宜將預測誤差分解角色解讀為結構因果。",
+        "【APA 7】Bonga-Bonga, L., & Makanga, T. T. (2026). Quantile connectedness between stock markets and oil price shocks: A cross-country analysis. Risks, 14(11), Article 246. https://doi.org/10.3390/risks14110246",
+        "【與美智研究的關聯】4/5。QVAR-GFEVD、尾部 U 型連結、滾動網路與樣本外配置可作為美智研究的金融市場基準與呈現模板。主要差異是研究沒有氣候風險、綠色資產、BK 頻率分解或 TVP-VAR-SV；可借鏡其產油／用油國分組與投資組合負結果。"
+      ],
+      "type": "search",
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】摘要層級；Crossref 與 MDPI 公開摘要已核驗。",
+          "evidence": "DOI metadata、CC BY 聲明與出版商公開摘要。",
+          "confidence": "high",
+          "source": "書目／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】比較 Brent 與跨國股市在不同分位及危機下的連結與投資組合價值。",
+          "evidence": "公開摘要。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】Brent 與 12 個已開發／新興股市指數報酬。",
+          "evidence": "公開摘要；完整國家清單未揭露。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】2008 年 1 月至 2024 年 1 月；頻率與樣本量未報告。",
+          "evidence": "MDPI 公開摘要。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【模型與估計】QVAR-GFEVD、滾動連結、網路與樣本外投資組合。",
+          "evidence": "公開摘要。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】危機、產油／用油國與樣本外比較提供多重對照，但替代參數未揭露。",
+          "evidence": "公開摘要的設計描述。",
+          "confidence": "mid",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】TCI 為 85.89%、68.38%、85.18%；Brent 各分位均為淨接收者。",
+          "evidence": "公開摘要的數值結果。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【其他限制】跨國非同步交易與共同因子限制方向性解讀。",
+          "evidence": "研究設計的可辨識邊界。",
+          "confidence": "mid",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】4/5。",
+          "evidence": "QVAR-GFEVD、尾部比較與投資組合呈現可直接借鏡。",
+          "confidence": "high",
+          "source": "綜合判斷",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    root[\"📄 Brent 與跨國股市 QVAR 網路\"]\n    style root fill:#2563eb,color:#fff,font-weight:bold\n    n0[\"💡 QVAR-GFEVD × 網路分析\"]\n    root --> n0\n    n1[\"💡 尾部 TCI 約 85%；Brent 接收\"]\n    root --> n1\n    n2[\"🔗 與美智研究關聯 4/5\"]\n    root --> n2"
+    },
     {
       "id": "qvar-2026-10-25-climate-finance-crypto-carbon-tech",
       "title": "A Multi-Dimensional Analysis of Spillover Connectedness Among Climate Finance, Cryptocurrencies, Carbon Credits, and Technology Stocks: Evidence from the QVAR Network Approach",
