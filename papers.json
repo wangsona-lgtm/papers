@@ -1,6 +1,6 @@
 {
-  "total": 171,
-  "updated": "2026-10-26 20:05:06",
+  "total": 174,
+  "updated": "2026-10-27 20:43:35",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,352 @@
     "金融市場"
   ],
   "papers": [
+    {
+      "id": "qvar-2026-10-27-eu-ets-climate-risk-qqc",
+      "title": "Unraveling the Complex Interactions Between Emissions Trading System and Climate Risks in the Lens of Carbon Neutrality Strategies: A Quantile-on-Quantile Connectedness Analysis",
+      "search_date": "2026-10-27",
+      "authors": "Magdalena Radulescu; Kamel Si Mohammed; Mohammad Sharif Karimi; Hind Alofaysan; Rena Huseynova",
+      "year": "2026",
+      "journal": "Environmental Modeling & Assessment, 31(5), 1257–1273",
+      "doi": "https://doi.org/10.1007/s10666-026-10128-3",
+      "citations": "0 次（Crossref／OpenAlex，2026-10-27）",
+      "openalex_id": "W7160108238",
+      "openalex_url": "https://openalex.org/W7160108238",
+      "fulltext_url": "https://link.springer.com/article/10.1007/s10666-026-10128-3",
+      "reading_level": "摘要層級",
+      "abstract": "本文檢驗歐盟排放交易制度（ETS）與地緣政治風險、實體氣候風險及轉型氣候風險在 2005–2022 年間的跨分位連結。出版社公開摘要顯示，最強外溢出現在風險低分位與 ETS 高分位的反向分位組合，轉型風險對 ETS 的連結度最高達 66.5；COVID-19 與俄烏戰爭期間動態連結明顯升高。由於 Springer 僅提供訂閱內容預覽，本筆僅作摘要層級分析。",
+      "tags": [
+        "QQCI",
+        "quantile-on-quantile connectedness",
+        "climate transition risk",
+        "physical climate risk",
+        "EU ETS"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "碳市場/碳交易",
+        "地緣政治/國防",
+        "金融市場"
+      ],
+      "keywords": [
+        "European Emissions Trading System",
+        "transition climate risk",
+        "physical climate risk",
+        "geopolitical risk",
+        "carbon neutrality",
+        "tail spillovers"
+      ],
+      "notes": [
+        "【閱讀層級】摘要層級；已核對 Crossref、OpenAlex 與 Springer 出版商頁。正文為訂閱內容，未繞過存取控制。Crossref 與 OpenAlex 被引均為 0，OpenAlex ID 為 W7160108238，is_retracted=false；Crossref 未列撤稿或更新關係。",
+        "【研究問題與動機】歐盟 ETS 碳價如何在不同聯合分位下受到地緣政治、實體氣候與轉型氣候風險影響？危機事件是否改變風險來源與 ETS 之間的尾部連結？",
+        "【研究變數】歐盟 ETS、Geopolitical Risk（GPR）、Physical Climate Risk（PCI）、Transitional Climate Risk（TCI）；摘要另報告 GPRACTS 的相關係數，但未充分定義其建構，故不延伸推測。",
+        "【資料／市場／樣本】歐盟碳市場與全球風險指標；樣本期間為 2005–2022。可存取摘要未報告資料頻率、資料供應商、共同樣本量、缺值處理與 ETS 合約串接方式，均記為未報告。",
+        "【模型與估計】採 Quantile-on-Quantile Connectedness Index（QQCI）刻畫風險來源與 ETS 在不同分位組合下的方向性連結，並進行動態事件比較。公開內容未揭露完整分位網格、落後期、預測期、視窗或推論程序。",
+        "【穩健性檢驗】可存取摘要未報告替代風險代理、分位網格、預測期、滾動視窗或 bootstrap 檢驗；COVID-19 與俄烏戰爭的時間比較只能作事件一致性證據，不能取代正式敏感度分析。",
+        "【主要結果】最強外溢出現在低風險分位與高 ETS 分位的反向組合；TCI 對 ETS 的連結度在極端條件最高達 66.5。ETS 與 GPR、GPRACTS 的線性相關分別約 0.021、0.009，與 PCI、TCI 分別約 −0.009、−0.007；動態連結在 COVID-19 與俄烏戰爭期間尖升。這些結果是條件連結，不代表結構因果。",
+        "【作者提出的限制】可存取摘要未列作者明示限制；資料、估計設定與完整識別討論需待合法全文核驗。出版社資料可用性聲明僅表示可向通訊作者索取。",
+        "【其他限制】2005–2022 橫跨 EU ETS 多個制度階段，配額設計、能源價格與宏觀政策同時變動；未控制的制度斷點可能影響方向性。摘要的線性相關很小，不能與 QQCI 的極端連結數值直接比較。",
+        "【APA 7】Radulescu, M., Si Mohammed, K., Karimi, M. S., Alofaysan, H., & Huseynova, R. (2026). Unraveling the complex interactions between emissions trading system and climate risks in the lens of carbon neutrality strategies: A quantile-on-quantile connectedness analysis. Environmental Modeling & Assessment, 31(5), 1257–1273. https://doi.org/10.1007/s10666-026-10128-3",
+        "【與美智研究的關聯】5/5。主題直接涵蓋實體／轉型氣候風險、碳價與跨分位尾部傳導，能補強美智研究的 climate-risk × green-assets 設計與反向分位解釋。主要差異是本文未使用 CPU、TVP-VAR-SV 或 BK 頻率分解；可追蹤其 QQCI 網格、ETS 制度分段與 TCI 定義。"
+      ],
+      "type": "search",
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】摘要層級；Crossref、OpenAlex 與 Springer 公開摘要已核驗。",
+          "evidence": "DOI metadata、OpenAlex W7160108238 與出版商頁。",
+          "confidence": "high",
+          "source": "書目／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】檢驗 ETS 與地緣政治、實體及轉型氣候風險的聯合分位連結。",
+          "evidence": "Springer 公開摘要。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】EU ETS、GPR、PCI 與 TCI。",
+          "evidence": "公開摘要；GPRACTS 定義未充分揭露。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】2005–2022；頻率與樣本量未報告。",
+          "evidence": "Springer 公開摘要。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【模型與估計】採 Quantile-on-Quantile Connectedness Index。",
+          "evidence": "公開摘要。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】公開摘要未揭露替代規格與推論程序。",
+          "evidence": "目前可存取內容的資訊邊界。",
+          "confidence": "mid",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】TCI 對 ETS 的極端連結最高達 66.5，危機期動態連結升高。",
+          "evidence": "Springer 公開摘要。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【其他限制】制度階段與共同衝擊限制方向性與因果解讀。",
+          "evidence": "研究設計的可辨識邊界。",
+          "confidence": "mid",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】5/5。",
+          "evidence": "氣候風險、碳市場與 QQC 方法直接重疊。",
+          "confidence": "high",
+          "source": "綜合判斷",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    root[\"📄 EU ETS 與氣候風險 QQCI\"]\n    style root fill:#059669,color:#fff,font-weight:bold\n    n0[\"💡 TCI／PCI／GPR × ETS\"]\n    root --> n0\n    n1[\"💡 反向分位外溢最強\"]\n    root --> n1\n    n2[\"🔗 與美智研究關聯 5/5\"]\n    root --> n2"
+    },
+    {
+      "id": "qvar-2026-10-27-shipping-agriculture-energy-extreme-quantile",
+      "title": "Extreme Quantile Connectedness Across Shipping Freights, Agriculture and Energy Commodities",
+      "search_date": "2026-10-27",
+      "authors": "Sang Hoon Kang; Mobeen Ur Rehman; Neeraj Nautiyal; Noha Alessa; Xuan Vinh Vo",
+      "year": "2026",
+      "journal": "International Review of Economics & Finance, 109, Article 105238",
+      "doi": "https://doi.org/10.1016/j.iref.2026.105238",
+      "citations": "2 次（Crossref；OpenAlex 尚無可解析紀錄，2026-10-27）",
+      "openalex_id": "未收錄（查詢於 2026-10-27）",
+      "openalex_url": "",
+      "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S1059056026003515",
+      "reading_level": "摘要層級",
+      "abstract": "本文以 2012 年 11 月 13 日至 2022 年 11 月 9 日的日資料，分析航運運價、農產品與能源商品在極端報酬分位下的連結。出版社公開摘要指出，航運運價指數在常態與上漲市場較常傳送衝擊，能源市場則在下跌市場成為主要傳送者；網路結果亦顯示航運對商品市場變化具有敏感性。雖 Crossref 登錄 CC BY 4.0，本文在本次環境僅能取得公開摘要，因此標示為摘要層級。",
+      "tags": [
+        "extreme quantile connectedness",
+        "network connectedness",
+        "shipping freight",
+        "energy commodities",
+        "agricultural commodities"
+      ],
+      "topics": [
+        "能源市場",
+        "原物料/商品",
+        "金融市場"
+      ],
+      "keywords": [
+        "shipping freights",
+        "agricultural commodities",
+        "energy commodities",
+        "bearish markets",
+        "bullish markets",
+        "spillover network"
+      ],
+      "notes": [
+        "【閱讀層級】摘要層級；已核對 Crossref、ScienceDirect 公開摘要與 RePEc 書目。Crossref 被引 2，並登錄 CC BY 4.0；OpenAlex 於 2026-10-27 尚無可解析紀錄。全文端點在本次環境未能合法取得，未繞過存取控制。",
+        "【研究問題與動機】航運運價、農產品與能源商品在極端市場狀態下如何互相傳導？航運在不同分位是衝擊來源還是接收者，網路角色是否隨熊市、常態與牛市轉換？",
+        "【研究變數】航運 freight indices、農產品商品與能源商品報酬；可存取摘要未列完整指數、商品名稱、報酬定義與貨幣單位，故均不推測。",
+        "【資料／市場／樣本】全球航運、農產品與能源商品市場；2012-11-13 至 2022-11-09，日頻。資料來源、共同交易日、最終樣本量與缺值處理未在摘要報告。",
+        "【模型與估計】以極端分位 connectedness 比較不同報酬狀態，並用 network connectedness 衡量市場節點的方向性與敏感度。公開摘要未說明 QVAR 規格、分位點、落後期、預測期、視窗或殘差共變異數設定。",
+        "【穩健性檢驗】可存取摘要未報告替代分位、視窗、預測期、合約代理、子樣本或 bootstrap 檢驗；網路視覺化屬結果表達與補充分析，不能視為正式穩健性檢驗。",
+        "【主要結果】航運運價指數在常態與 bullish 狀態為較強衝擊傳送者，能源市場則在 bearish 狀態主導傳導。網路分析顯示航運產業對農產品與能源商品變化具高度敏感性；方向性會隨市場狀態改變，不能解讀為已識別的實體因果鏈。",
+        "【作者提出的限制】公開摘要未列作者明示限制；完整資料定義、估計規格與限制需待可合法取得正文後核驗。資料可用性聲明為可向作者索取。",
+        "【其他限制】跨市場交易時段、期貨換月、流動性與共同宏觀因子可能影響方向性；樣本止於 2022 年，未涵蓋後續紅海航運擾動與 EU ETS 納入航運。摘要未提供 TCI 數值或估計不確定性，故不補造。",
+        "【APA 7】Kang, S. H., Ur Rehman, M., Nautiyal, N., Alessa, N., & Vo, X. V. (2026). Extreme quantile connectedness across shipping freights, agriculture and energy commodities. International Review of Economics & Finance, 109, Article 105238. https://doi.org/10.1016/j.iref.2026.105238",
+        "【與美智研究的關聯】4/5。航運、能源與尾部分位連結可作為『碳價尾部衝擊 × 航運』研究的市場網路基準，尤其有助於比較運價與能源在上下尾的角色轉換。主要差異是本文未納入碳價、CPU、氣候風險、BK 頻率分解或 TVP-VAR-SV。"
+      ],
+      "type": "search",
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】摘要層級；Crossref、ScienceDirect 與 RePEc 書目已核驗。",
+          "evidence": "DOI metadata 與出版商公開摘要。",
+          "confidence": "high",
+          "source": "書目／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】比較航運、農產品與能源商品的極端分位連結。",
+          "evidence": "ScienceDirect 公開摘要。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】航運運價、農產品與能源商品報酬；完整序列未報告。",
+          "evidence": "公開摘要。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】2012-11-13 至 2022-11-09，日頻。",
+          "evidence": "ScienceDirect 公開摘要。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【模型與估計】極端分位 connectedness 結合 network connectedness。",
+          "evidence": "公開摘要。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】公開摘要未揭露替代規格與推論細節。",
+          "evidence": "目前可存取內容的資訊邊界。",
+          "confidence": "mid",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】運價在常態／上漲市場傳送，能源在下跌市場傳送。",
+          "evidence": "ScienceDirect 公開摘要。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【其他限制】交易時段、換月與共同因子限制方向性解讀。",
+          "evidence": "研究設計的可辨識邊界。",
+          "confidence": "mid",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】4/5。",
+          "evidence": "航運、能源與尾部 connectedness 直接提供比較基準。",
+          "confidence": "high",
+          "source": "綜合判斷",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    root[\"📄 航運—農產品—能源尾部網路\"]\n    style root fill:#2563eb,color:#fff,font-weight:bold\n    n0[\"💡 極端分位 × 網路連結\"]\n    root --> n0\n    n1[\"💡 傳送角色隨市場狀態切換\"]\n    root --> n1\n    n2[\"🔗 與美智研究關聯 4/5\"]\n    root --> n2"
+    },
+    {
+      "id": "qvar-2026-10-27-stablecoin-sentiment-cross-quantile",
+      "title": "Market Sentiment, Risk Spillover, and the Heterogeneous Performance of Stablecoins: Evidence from Cross-Quantile Analysis and Network Connectedness",
+      "search_date": "2026-10-27",
+      "authors": "Xinyun Han",
+      "year": "2026",
+      "journal": "International Review of Financial Analysis, 114, Article 105165",
+      "doi": "https://doi.org/10.1016/j.irfa.2026.105165",
+      "citations": "2 次（Crossref／OpenAlex，2026-10-27）",
+      "openalex_id": "W7143280423",
+      "openalex_url": "https://openalex.org/W7143280423",
+      "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S105752192600092X",
+      "reading_level": "摘要層級",
+      "abstract": "本文使用 2019 年 11 月至 2025 年 7 月的日資料，以 quantile-on-quantile regression 分析 Crypto Fear & Greed Index 對五種穩定幣報酬與波動的非線性影響，再用 DCC-GARCH connectedness 建構風險傳染網路。公開摘要指出，極端恐慌與貪婪下的波動反應多呈 U 型；AMPL 最敏感且是核心風險來源，DAI 具條件式避險特徵，USDT 與 USDC 較穩健，而 PAXG 對情緒變化較敏感。正文需訂閱，故僅作摘要層級分析。",
+      "tags": [
+        "quantile-on-quantile regression",
+        "DCC-GARCH connectedness",
+        "network connectedness",
+        "market sentiment",
+        "stablecoins"
+      ],
+      "topics": [
+        "加密貨幣/數位金融",
+        "行為金融",
+        "金融市場"
+      ],
+      "keywords": [
+        "Crypto Fear & Greed Index",
+        "USDT",
+        "USDC",
+        "DAI",
+        "AMPL",
+        "PAXG"
+      ],
+      "notes": [
+        "【閱讀層級】摘要層級；已核對 Crossref、OpenAlex、RePEc 與 ScienceDirect 公開摘要。正文需訂閱，未繞過存取控制。Crossref 與 OpenAlex 被引均為 2，OpenAlex ID 為 W7143280423，is_retracted=false；Crossref 未列撤稿或更新關係。",
+        "【研究問題與動機】加密市場情緒是否以非線性、非對稱方式影響不同抵押機制穩定幣的報酬與波動？情緒是否改變穩定幣系統內部的風險傳染與核心節點？",
+        "【研究變數】Crypto Fear & Greed Index；美元鏈下抵押 USDT、USDC，鏈上抵押 DAI，演算法穩定幣 AMPL，以及商品抵押 PAXG；分析報酬、波動與系統內 connectedness。",
+        "【資料／市場／樣本】全球加密貨幣市場；2019 年 11 月至 2025 年 7 月，日頻。公開摘要未報告精確起訖日、資料平台、最終樣本量、時區、缺值與 depeg 事件處理。",
+        "【模型與估計】Quantile-on-Quantile Regression 描述 FGI 對各穩定幣報酬與波動的狀態依賴影響；DCC-GARCH-CONNECTEDNESS 衡量穩定幣之間的動態波動傳染。公開摘要未揭露分位網格、DCC 規格、預測期或網路方向性細節。",
+        "【穩健性檢驗】可存取摘要未報告替代情緒指標、波動模型、分位網格、depeg 子樣本、穩定幣分類或 bootstrap 推論；跨五種抵押機制的異質性比較可提供橫向對照，但不能取代正式敏感度檢驗。",
+        "【主要結果】FGI 對五種穩定幣呈顯著非線性與非對稱影響，波動反應在極端恐慌或貪婪時多為 U 型。AMPL 最敏感且是主要系統風險來源；DAI 具有條件式 safe-haven 特徵但在恐慌時承受較大衝擊；USDT、USDC 較穩健，PAXG 雖具避險屬性但比 USDT／USDC 更受情緒影響。摘要稱市場情緒提高系統 connectedness，但這是關聯性結果。",
+        "【作者提出的限制】可存取摘要未列作者明示限制；完整資料、模型、內生性與穩健性討論需待合法全文核驗。",
+        "【其他限制】FGI 與價格／交易活動共同形成，存在同步性與反向關係；不同穩定幣的抵押、贖回與交易所結構差異可能驅動觀察到的異質性。DCC-GARCH connectedness 不是 QVAR-jQFEVD，也不能識別情緒的結構因果效果。",
+        "【APA 7】Han, X. (2026). Market sentiment, risk spillover, and the heterogeneous performance of stablecoins: Evidence from cross-quantile analysis and network connectedness. International Review of Financial Analysis, 114, Article 105165. https://doi.org/10.1016/j.irfa.2026.105165",
+        "【與美智研究的關聯】3/5。本文補充 clean／stable crypto 的情緒與尾部異質性，可借鏡抵押機制分組、U 型極端反應與網路節點比較。主要差異是研究不含氣候風險、綠色資產、QVAR-jQFEVD、BK 頻率分解或 TVP-VAR-SV。"
+      ],
+      "type": "search",
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】摘要層級；Crossref、OpenAlex、RePEc 與 ScienceDirect 已核驗。",
+          "evidence": "DOI metadata、OpenAlex W7143280423 與公開摘要。",
+          "confidence": "high",
+          "source": "書目／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】檢驗情緒對不同穩定幣的跨分位影響與風險傳染。",
+          "evidence": "RePEc／ScienceDirect 公開摘要。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】FGI 與 USDT、USDC、DAI、AMPL、PAXG。",
+          "evidence": "公開摘要。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】2019 年 11 月至 2025 年 7 月，日頻。",
+          "evidence": "RePEc 公開摘要。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【模型與估計】QQR 結合 DCC-GARCH connectedness。",
+          "evidence": "公開摘要。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】公開摘要未揭露替代情緒、波動或分位設定。",
+          "evidence": "目前可存取內容的資訊邊界。",
+          "confidence": "mid",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】AMPL 是核心風險來源，USDT／USDC 相對穩健，極端情緒下波動反應呈 U 型。",
+          "evidence": "RePEc／ScienceDirect 公開摘要。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【其他限制】FGI 同步性與穩定幣制度差異限制因果解讀。",
+          "evidence": "研究設計的可辨識邊界。",
+          "confidence": "mid",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】3/5。",
+          "evidence": "尾部異質性與數位資產網路可作補充，但核心氣候方法不重疊。",
+          "confidence": "high",
+          "source": "綜合判斷",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    root[\"📄 情緒與穩定幣風險傳染\"]\n    style root fill:#7c3aed,color:#fff,font-weight:bold\n    n0[\"💡 QQR × DCC-GARCH 網路\"]\n    root --> n0\n    n1[\"💡 AMPL 為核心風險來源\"]\n    root --> n1\n    n2[\"🔗 與美智研究關聯 3/5\"]\n    root --> n2"
+    },
     {
       "id": "qvar-2026-10-26-carbon-shipping-energy-quantile-frequency",
       "title": "Green Transition and Risk Connectedness Across Carbon, Shipping, and Energy-Related Commodity Markets: A Quantile Time-Frequency Analysis",
