@@ -1,6 +1,6 @@
 {
-  "total": 174,
-  "updated": "2026-10-27 20:43:35",
+  "total": 176,
+  "updated": "2026-10-28 20:17:00",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,244 @@
     "金融市場"
   ],
   "papers": [
+    {
+      "id": "qvar-2026-10-28-green-finance-green-crypto-cross-quantilogram",
+      "title": "How Are Green Financial Markets Linked to Green Cryptocurrency Return States? Evidence from a Cross-Quantilogram Approach",
+      "search_date": "2026-10-28",
+      "authors": "Qiqi Gu; Junda Wu; Jian Yao",
+      "year": "2026",
+      "journal": "Mathematics, 14(18), 3244",
+      "doi": "https://doi.org/10.3390/math14183244",
+      "citations": "0 次（Crossref；OpenAlex 尚無可解析紀錄，2026-10-28）",
+      "openalex_id": "未收錄（查詢於 2026-10-28）",
+      "openalex_url": "",
+      "fulltext_url": "https://www.mdpi.com/2227-7390/14/18/3244",
+      "reading_level": "摘要層級",
+      "abstract": "本文檢驗綠債、潔淨能源與碳市場對五種文獻分類之綠色加密貨幣報酬狀態的方向性分位依賴。Crossref／RePEc 公開摘要顯示，研究使用 2019 年 9 月 25 日至 2025 年 5 月 23 日日資料、19×19 分位網格、1／5／22 日落後、500 筆滾動窗、bootstrap 曲面檢定，並以五種全期採工作量證明（PoW）的加密貨幣作綠色特異性對照。雖然部分綠債與碳市場配對有異質短期點估計，45 個正向曲面皆未在 5% 水準拒絕整體虛無假設；碳配額價格於落後 5 日的原始綠色組差異最大，但 bootstrap 區間含零，因子調整後也未出現系統性綠色—PoW 分離。描述性的分位數對分位數連結在極端分位高於中位數組合，整體更符合廣泛加密貨幣市場條件，而非環境標籤的一致效果。MDPI PDF 雖為 CC BY 4.0，執行環境的官方 CDN 回傳 Access Denied，故本筆維持摘要層級。",
+      "tags": [
+        "cross-quantilogram",
+        "quantile dependence",
+        "quantile-on-quantile connectedness",
+        "bootstrap surface test",
+        "green cryptocurrency",
+        "proof-of-work"
+      ],
+      "topics": [
+        "加密貨幣/數位金融",
+        "綠債/ESG",
+        "潔淨能源",
+        "碳市場/碳交易",
+        "氣候風險/政策",
+        "金融市場"
+      ],
+      "keywords": [
+        "green financial markets",
+        "green bonds",
+        "clean energy",
+        "carbon markets",
+        "green cryptocurrencies",
+        "Ethereum Merge",
+        "environmental labeling"
+      ],
+      "notes": [
+        "【閱讀層級】摘要層級；已核對 Crossref、RePEc 與 MDPI 官方全文連結。Crossref 被引為 0，OpenAlex 尚無可解析作品紀錄；Crossref 未列撤稿、更新或版本關係。MDPI 版本為 CC BY 4.0，但本次 PDF 請求遭官方 CDN 拒絕，未取得正文，故不填寫正文專屬資訊。",
+        "【研究問題與動機】綠債、潔淨能源與碳市場是否能預測或連結至被文獻標為『綠色』的加密貨幣報酬狀態？觀察到的分位依賴是否真具有綠色特異性，而非一般加密貨幣市場共同因素？",
+        "【研究變數】三類綠色金融市場：綠債、潔淨能源與碳市場；結果變數為五種文獻分類的綠色加密貨幣報酬狀態；對照組為五種在比較樣本全期採 PoW 共識的加密貨幣。各資產名稱、指數代碼及報酬建構在可取得摘要中未逐一報告。",
+        "【資料／市場／樣本】全球綠色金融與加密貨幣市場；日頻率，2019-09-25 至 2025-05-23。摘要未報告總觀測數；滾動估計採 500 筆視窗。",
+        "【模型與估計】靜態 cross-quantilogram 使用 19×19 分位網格與 1、5、22 日落後；另估計 500 筆滾動 cross-quantilogram、bootstrap 曲面檢定、綠色組與 PoW 組比較，以及描述性 quantile-on-quantile connectedness。",
+        "【穩健性檢驗】研究採 45 個正向曲面的整體 bootstrap 檢定、不同滾動窗與尾部分界比較、時間序列 bootstrap 區間、因子調整檢定及 PoW 對照組；這些設計直接檢驗多重比較與『綠色』標籤的特異性。",
+        "【主要結果】部分綠債與碳市場配對在短期出現異質點估計，但 45 個正向曲面皆未於 5% 水準拒絕整體虛無假設。碳配額價格在落後 5 日的原始綠色組差異最大，但 bootstrap 區間含零，因子調整後亦無系統性綠色—PoW 分離。極端分位的描述性 QQ connectedness 高於中位數—中位數組合；結果較支持廣泛加密市場條件，而非一致的環境標籤效應。上述是依賴與連結證據，不是結構因果。",
+        "【作者提出的限制】可取得摘要未列作者明示限制；完整資料來源、資產名單、交易所差異、缺值處理與額外敏感度設定需待合法全文核驗。",
+        "【其他限制】『綠色加密貨幣』依文獻分類，不等同經審計的生命週期碳排或即時能源組合；五種綠色幣與五種 PoW 幣的流動性、市值及投資人結構可能不同。未拒絕整體虛無假設不等於證明完全無依賴，而是本樣本與檢定下證據不足。",
+        "【APA 7】Gu, Q., Wu, J., & Yao, J. (2026). How are green financial markets linked to green cryptocurrency return states? Evidence from a cross-quantilogram approach. Mathematics, 14(18), 3244. https://doi.org/10.3390/math14183244",
+        "【與美智研究的關聯】5/5。主題直接連結綠色資產、碳市場與綠色加密貨幣的跨分位尾部依賴，且以 PoW 對照、整體曲面檢定與因子調整檢查『綠色』標籤，能為美智的 climate-risk × green-assets／FRL 設計提供防漂綠與多重比較基準。主要差異是本文以 cross-quantilogram 與描述性 QQ connectedness 為主，未使用 TVP-VAR-SV 或 BK 頻率分解；可追蹤 19×19 網格、曲面 bootstrap 與綠色特異性識別。"
+      ],
+      "type": "search",
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】摘要層級；Crossref、RePEc 與 MDPI 連結已核驗。",
+          "evidence": "官方 DOI 元資料與出版社連結；PDF CDN 拒絕存取。",
+          "confidence": "high",
+          "source": "書目／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】檢驗綠色金融市場對綠色加密貨幣的方向性分位依賴及綠色特異性。",
+          "evidence": "Crossref／RePEc 摘要。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】綠債、潔淨能源、碳市場、五種綠色加密貨幣與五種 PoW 對照幣。",
+          "evidence": "公開摘要；個別代碼未報告。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】2019-09-25 至 2025-05-23 日資料；500 筆滾動窗。",
+          "evidence": "Crossref 摘要。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【模型與估計】19×19 cross-quantilogram、1／5／22 日落後、bootstrap 曲面與 QQ connectedness。",
+          "evidence": "Crossref 摘要。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】整體曲面、多視窗／尾部分界、PoW 對照與因子調整。",
+          "evidence": "Crossref 摘要。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】45 個正向曲面皆未在 5% 水準拒絕整體虛無假設。",
+          "evidence": "Crossref 摘要；最大原始差異的 bootstrap 區間含零。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【其他限制】文獻式綠色分類不等於經審計的生命週期碳排。",
+          "evidence": "研究設計與分類的可辨識邊界。",
+          "confidence": "mid",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】5/5。",
+          "evidence": "綠色資產、碳市場、加密貨幣、跨分位尾部與防漂綠檢定直接重疊。",
+          "confidence": "high",
+          "source": "綜合判斷",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    root[\"📄 綠色金融 × 綠色加密貨幣\"]\n    style root fill:#059669,color:#fff,font-weight:bold\n    n0[\"💡 19×19 cross-quantilogram\"]\n    root --> n0\n    n1[\"💡 未見系統性綠色—PoW 分離\"]\n    root --> n1\n    n2[\"🔗 與美智研究關聯 5/5\"]\n    root --> n2"
+    },
+    {
+      "id": "qvar-2026-10-28-bigtech-strategic-commodities-qvar",
+      "title": "Dynamic Return and Volatility Connectedness Between U.S. BigTech and Strategic Commodity Markets: A Quantile Vector Autoregression Approach",
+      "search_date": "2026-10-28",
+      "authors": "Shiqi Zhang; Muhammad Naeem; Alexander Boateng; Hao Ji",
+      "year": "2026",
+      "journal": "Finance Research Open, 2(4), 100167",
+      "doi": "https://doi.org/10.1016/j.finr.2026.100167",
+      "citations": "0 次（Crossref；OpenAlex 尚無可解析紀錄，2026-10-28）",
+      "openalex_id": "未收錄（查詢於 2026-10-28）",
+      "openalex_url": "",
+      "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S3050700626000782",
+      "reading_level": "摘要層級",
+      "abstract": "本文以美國市值最大的十家科技公司建立 BigTech 市值加權指數，檢驗其與 Brent 原油、黃金、白銀、天然氣、銅及市值加權農產品指數之報酬與波動連結。ScienceDirect 公開摘要報告 2015 年 1 月 6 日至 2026 年 7 月 23 日共 2,899 筆日資料，並採 QVAR connectedness 分析正常與極端狀態。修正後報酬 TCI 由中位數 23.857% 升至下尾 24.564% 與上尾 25.419%；波動 TCI 則由 16.174% 升至 21.642% 與 20.586%。BigTech 在報酬系統為輕微淨接收者（−1.280），但在波動系統為淨傳遞者，上尾淨外溢達 +16.329；白銀在兩個動差皆是主要淨傳遞者。天然氣與農產品指數分別提供較佳的 BigTech 報酬與波動避險配對。出版社標示開放存取，但本次 PDF 端點回傳 403，故維持摘要層級。",
+      "tags": [
+        "QVAR",
+        "corrected connectedness index",
+        "return connectedness",
+        "volatility connectedness",
+        "tail dependence",
+        "BigTech"
+      ],
+      "topics": [
+        "金融市場",
+        "原物料/商品",
+        "能源市場",
+        "AI/科技"
+      ],
+      "keywords": [
+        "U.S. BigTech",
+        "strategic commodities",
+        "Brent crude oil",
+        "natural gas",
+        "precious metals",
+        "agricultural index",
+        "portfolio hedging"
+      ],
+      "notes": [
+        "【閱讀層級】摘要層級；已核對 Crossref 與 ScienceDirect 出版商公開頁。Crossref 被引為 0，OpenAlex 尚無可解析作品紀錄；Crossref 未列撤稿、更新或版本關係。ScienceDirect 標示開放存取，但本次 PDF 端點回傳 403，未繞過存取控制。",
+        "【研究問題與動機】美國 BigTech 與六類戰略商品在正常、下尾與上尾狀態的報酬與波動連結是否不同？BigTech 在兩個動差系統中是風險傳遞者或接收者，哪些商品具有較佳避險潛力？",
+        "【研究變數】以美國市值最大的十家科技公司建立市值加權 BigTech 指數；商品包括 Brent 原油、黃金、白銀、天然氣、銅與市值加權農產品指數。分析報酬（第一動差）與波動（第二動差）。個別 BigTech 公司與波動建構細節在摘要中未報告。",
+        "【資料／市場／樣本】美國大型科技股與全球主要商品市場；日頻率，2015-01-06 至 2026-07-23，共 2,899 筆觀測。資料供應商在可取得摘要中未報告。",
+        "【模型與估計】以 quantile vector autoregression（QVAR）connectedness 比較中位數、下尾與上尾，估計修正後總連結指數（corrected TCI）、方向性／淨外溢與 BigTech—商品配對連結；QVAR 落後階數、預測期、滾動窗與波動估計方法未在摘要中報告。",
+        "【穩健性檢驗】可取得摘要未報告替代 BigTech 權重、替代商品指數、不同 QVAR 落後階數／預測期、滾動窗、危機分段或 bootstrap 信賴區間；報酬與波動雙系統比較是跨動差一致性分析，但不能取代正式敏感度檢驗。",
+        "【主要結果】修正後報酬 TCI 為中位數 23.857%、下尾 24.564%、上尾 25.419%；波動 TCI 分別為 16.174%、21.642%、20.586%。BigTech 在報酬系統為輕微淨接收者（−1.280），在波動上尾則為明顯淨傳遞者（+16.329）；白銀在報酬與波動系統的淨傳遞值分別為 +7.052、+7.146。天然氣與 BigTech 的報酬配對連結為 0.444，農產品指數與 BigTech 的波動配對連結為 1.914，作者據此辨識兩者為相對較佳避險配對。這些是模型式連結與組合含意，不代表結構因果。",
+        "【作者提出的限制】可取得摘要未列作者明示限制；資料可用性聲明為『可依要求提供』，完整資料、程式與估計設定需待合法全文或作者材料核驗。",
+        "【其他限制】將十家公司聚合成單一市值加權指數會遮蔽公司層級異質性與權重集中；樣本涵蓋 COVID-19、俄烏戰爭與貨幣緊縮，尾部連結可能受事件組成影響。避險判斷來自樣本內配對連結，不等同交易成本後的樣本外避險績效。",
+        "【APA 7】Zhang, S., Naeem, M., Boateng, A., & Ji, H. (2026). Dynamic return and volatility connectedness between U.S. BigTech and strategic commodity markets: A quantile vector autoregression approach. Finance Research Open, 2(4), 100167. https://doi.org/10.1016/j.finr.2026.100167",
+        "【與美智研究的關聯】3/5。方法上直接使用 QVAR、修正後 TCI 與尾部淨外溢，且同時比較報酬與波動，可借鏡美智研究的跨動差報告與 corrected connectedness 指標。主題上缺少氣候風險、綠色資產與 BK 頻率分解，因此屬方法參照而非核心實證對話；可追蹤 BigTech 指數建構與商品避險配對。"
+      ],
+      "type": "search",
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】摘要層級；Crossref 與 ScienceDirect 公開摘要已核驗。",
+          "evidence": "官方 DOI 元資料與出版社頁；PDF 端點回傳 403。",
+          "confidence": "high",
+          "source": "書目／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】比較 BigTech 與六類戰略商品的報酬／波動尾部連結與避險角色。",
+          "evidence": "ScienceDirect 摘要。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】BigTech 市值加權指數、Brent、黃金、白銀、天然氣、銅與農產品指數。",
+          "evidence": "ScienceDirect 摘要。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】2015-01-06 至 2026-07-23，2,899 筆日資料。",
+          "evidence": "ScienceDirect 摘要。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【模型與估計】QVAR connectedness、corrected TCI、方向性與淨外溢。",
+          "evidence": "ScienceDirect 摘要。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】波動 TCI 在尾部升幅大於報酬 TCI。",
+          "evidence": "中位數／下尾／上尾波動 TCI 為 16.174%／21.642%／20.586%。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】BigTech 是報酬淨接收者，但在波動上尾為淨傳遞者。",
+          "evidence": "摘要報告 −1.280 與 +16.329。",
+          "confidence": "high",
+          "source": "摘要",
+          "connections": []
+        },
+        {
+          "claim": "【其他限制】市值加權聚合與樣本內配對連結限制公司異質性及避險外推。",
+          "evidence": "研究設計的可辨識邊界。",
+          "confidence": "mid",
+          "source": "研究限制",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】3/5。",
+          "evidence": "QVAR、corrected TCI 與跨動差重疊，但缺少氣候／綠色資產及頻率分解。",
+          "confidence": "high",
+          "source": "綜合判斷",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    root[\"📄 BigTech × 戰略商品 QVAR\"]\n    style root fill:#2563eb,color:#fff,font-weight:bold\n    n0[\"💡 報酬與波動雙動差\"]\n    root --> n0\n    n1[\"💡 尾部波動連結升高\"]\n    root --> n1\n    n2[\"🔗 與美智研究關聯 3/5\"]\n    root --> n2"
+    },
     {
       "id": "qvar-2026-10-27-eu-ets-climate-risk-qqc",
       "title": "Unraveling the Complex Interactions Between Emissions Trading System and Climate Risks in the Lens of Carbon Neutrality Strategies: A Quantile-on-Quantile Connectedness Analysis",
