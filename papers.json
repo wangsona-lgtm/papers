@@ -1,6 +1,6 @@
 {
-  "total": 212,
-  "updated": "2026-11-02 20:10:26",
+  "total": 217,
+  "updated": "2026-11-03 20:03:03",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,579 @@
     "金融市場"
   ],
   "papers": [
+  {
+      "id": "qvar-2026-11-03-methane-clean-energy-frequency",
+      "title": "Risk transmission between greenhouse gas emissions and clean energy market",
+      "search_date": "2026-11-03",
+      "authors": "Hongjun Zeng; Ziwei Wang; Mohammad Zoynul Abedin; Petr Hájek",
+      "year": "2026",
+      "journal": "Quantitative Finance, advance online publication, 1–23",
+      "doi": "https://doi.org/10.1080/14697688.2026.2725749",
+      "citations": "0 次（Crossref 與 OpenAlex，2026-11-03）",
+      "openalex_id": "W7213891847",
+      "openalex_url": "https://openalex.org/W7213891847",
+      "fulltext_url": "https://cronfa.swan.ac.uk/Record/cronfa72645",
+      "reading_level": "全文精讀",
+      "abstract": "本文以美國衛星甲烷濃度作為溫室氣體風險，結合七個潔淨能源子產業指數，建立 DCC-GARCH 頻域 connectedness 與多層網路。Fuel 指數對甲烷最敏感；COVID-19 後總連結由 51.55 升至 53.17，且風險由短期轉向長期。研究明確承認事件前後變化不是正式因果識別。",
+      "tags": [
+        "DCC-GARCH",
+        "frequency connectedness",
+        "multilayer network",
+        "methane",
+        "clean energy"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "潔淨能源",
+        "金融市場"
+      ],
+      "keywords": [
+        "Sentinel-5P methane",
+        "Google Earth Engine",
+        "COVID-19",
+        "Inflation Reduction Act",
+        "frequency spillover"
+      ],
+      "notes": [
+        "【閱讀層級】全文精讀；核對 Taylor & Francis 書目、Crossref、OpenAlex DOI 紀錄及 Swansea University Cronfa 合法作者版本。Crossref／OpenAlex 被引均為 0；OpenAlex W7213891847，is_retracted=false。",
+        "【研究問題與動機】美國甲烷濃度所代表的氣候風險如何在不同期限傳導至潔淨能源子產業，COVID-19 與 IRA 前後是否伴隨網路結構變化？",
+        "【研究變數】Sentinel-5P CH4 濃度（以 NDVI 去季節化）；Wind、Solar、Clean、Geo、Renew、Bio、Fuel 七個潔淨能源指數。",
+        "【資料／市場／樣本】甲烷來自 Google Earth Engine 的 COPERNICUS/S5P/OFFL/L3_CH4，NDVI 來自 COPERNICUS/S2_HARMONIZED；潔淨能源指數來自 Datastream。2019-10-07 至 2024-12-31，日頻，對齊後 1,304 筆。",
+        "【模型與估計】DCC-GARCH 建立動態相關，再以頻域 connectedness 與多層網路分解短、中、長期風險傳導，並估計脈衝反應。",
+        "【穩健性檢驗】以 COVID-19 起點與 IRA 通過日做 Welch t 檢定及 Chow 斷點檢定；22 項檢定採 Bonferroni 校正。",
+        "【主要結果】Fuel 對甲烷衝擊最敏感；多數潔能指數先負向反應再消散。疫情後總 TCI 51.55→53.17、短期 9.64→7.09、長期 26.06→30.75，顯示傳導轉向長期；這是關聯與結構變化，非因果效果。",
+        "【作者提出的限制】僅研究美國；事件比較未採 event study 或 DiD；外部驅動因子不完整；未同時納入傳統能源。",
+        "【其他限制】衛星甲烷與交易日對齊涉及量測誤差；潔能指數也共同暴露於利率、科技股與政策預期，connectedness 不等於物理排放造成價格變動。",
+        "【APA 7】Zeng, H., Wang, Z., Abedin, M. Z., & Hájek, P. (2026). Risk transmission between greenhouse gas emissions and clean energy market. Quantitative Finance, 1–23. https://doi.org/10.1080/14697688.2026.2725749",
+        "【與美智研究的關聯】5/5。直接對應氣候風險×綠色資產 time-frequency 主線，可借鏡實體氣候量測、三頻帶與多層網路；差異是 DCC-GARCH 而非 QVAR／TVP-VAR-SV。"
+      ],
+      "type": "search",
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】閱讀層級與書目",
+          "evidence": "出版商全文、Crossref、OpenAlex 與 Cronfa 合法作者版本。",
+          "confidence": "high",
+          "source": "全文／書目",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】研究問題與動機",
+          "evidence": "作者摘要與研究設計。",
+          "confidence": "high",
+          "source": "全文／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】研究變數與定義",
+          "evidence": "資料與變數段落。",
+          "confidence": "high",
+          "source": "全文／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】資料與樣本",
+          "evidence": "資料段落與出版商頁面。",
+          "confidence": "high",
+          "source": "全文／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【模型與估計】模型與估計",
+          "evidence": "方法段落與模型設定。",
+          "confidence": "high",
+          "source": "全文／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】穩健性檢驗",
+          "evidence": "穩健性段落；缺失時明確標示。",
+          "confidence": "high",
+          "source": "全文／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】主要結果",
+          "evidence": "結果表、結論或摘要明示內容。",
+          "confidence": "high",
+          "source": "全文／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【限制】作者與方法限制",
+          "evidence": "作者限制段落及方法邊界。",
+          "confidence": "high",
+          "source": "全文／綜合判斷",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】綜合判斷",
+          "evidence": "氣候風險、潔淨能源與頻域網路高度重疊。",
+          "confidence": "high",
+          "source": "綜合判斷",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    root[\"📄 甲烷 × 潔淨能源\"]\n    style root fill:#059669,color:#fff,font-weight:bold\n    n0[\"💡 DCC-GARCH + 頻域網路\"]\n    root --> n0\n    n1[\"💡 疫情後轉向長期\"]\n    root --> n1\n    n2[\"🔗 與美智研究關聯 5/5\"]\n    root --> n2"
+    },
+    {
+      "id": "qvar-2026-11-03-carbon-energy-multidimensional-uncertainty",
+      "title": "Mathematical Characterization of Dynamic Risk Spillovers in Carbon-Energy Financial Networks with Multi-Dimensional Uncertainty: A TVP-VAR-DY Connectedness Approach via Generalized Forecast-Error Variance Decomposition",
+      "search_date": "2026-11-03",
+      "authors": "Wenxin Zhang; Rufei Zhang; Qian Zhu",
+      "year": "2026",
+      "journal": "Mathematics, 14(20), 3783",
+      "doi": "https://doi.org/10.3390/math14203783",
+      "citations": "0 次（Crossref；OpenAlex 尚未建立可核對紀錄，2026-11-03）",
+      "openalex_id": "",
+      "openalex_url": "",
+      "fulltext_url": "https://www.mdpi.com/2227-7390/14/20/3783",
+      "reading_level": "全文精讀",
+      "abstract": "本文把 GPR、EPU、CPU 與碳市場、三種化石能源及三種潔淨能源納入 Bayesian TVP-VAR-DY／GFEVD 網路。2011–2025 月資料顯示 TCI 為 35.9%，CPU 是最大淨傳送者，EUA 的 betweenness centrality 排第二並充當橋接節點；疫情與 2021–2023 多重衝擊期 connectedness 升高。",
+      "tags": [
+        "TVP-VAR-DY",
+        "GFEVD",
+        "Bayesian MCMC",
+        "climate policy uncertainty",
+        "carbon-energy network"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "碳市場",
+        "潔淨能源",
+        "地緣政治"
+      ],
+      "keywords": [
+        "CPU",
+        "GPR",
+        "EPU",
+        "EU allowance",
+        "Bayesian connectedness"
+      ],
+      "notes": [
+        "【閱讀層級】全文精讀；核對 MDPI 全文與 Crossref。Crossref 被引 0 次且 relation 無更新／撤稿關係；OpenAlex 尚無可解析紀錄。",
+        "【研究問題與動機】多維不確定性如何在碳、化石與潔淨能源網路傳遞；CPU、GPR、EPU 與 EUA 分別是來源、接收者或橋接點？",
+        "【研究變數】GPR、EPU、CPU；EUA；原油、天然氣、煤；風能、水力、太陽能，共 10 個節點。",
+        "【資料／市場／樣本】全球不確定性與碳—能源市場，2011-01 至 2025-12，月頻，180 筆；作者用公開不確定性指數與市場價格，可讀段落未逐一列出下載端點。",
+        "【模型與估計】Bayesian TVP-VAR-DY＋GFEVD；p=6、J=10。MCMC 丟棄 20,000 次 burn-in、保留 50,000 次後驗抽樣，估計 TCI、NET、NPDC 與中心性。",
+        "【穩健性檢驗】比較 J=5、10、15及 J=1–10 跨期限平均 TCI；報告 ESS、lag-1 autocorrelation 與 Gelman–Rubin（皆低於 1.02）。",
+        "【主要結果】TCI 35.9%；CPU 最大淨傳送者，GPR 與風能亦為傳送者。EUA betweenness 0.176、排名第 2，偏接收者但作為橋樑。動態 TCI 約 25%–40%，COVID-19 與 2021–2023 顯著升高。",
+        "【作者提出的限制】月頻無法辨識日／週短暫衝擊；高維 TVP-VAR 相對 180 筆有參數膨脹風險，作者以階層先驗正則化。",
+        "【其他限制】事件窗與 connectedness 不能證明 CPU 的結構因果；混合指數、期貨與產業指數會引入量尺與市場微結構差異。",
+        "【APA 7】Zhang, W., Zhang, R., & Zhu, Q. (2026). Mathematical characterization of dynamic risk spillovers in carbon-energy financial networks with multi-dimensional uncertainty: A TVP-VAR-DY connectedness approach via generalized forecast-error variance decomposition. Mathematics, 14(20), 3783. https://doi.org/10.3390/math14203783",
+        "【與美智研究的關聯】4/5。CPU、EUA、化石／潔能與動態 connectedness 高度相關，可借鏡多維節點、橋接中心性與後驗區間；差異是沒有 QVAR、BK 或 TVP-VAR-SV。"
+      ],
+      "type": "search",
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】閱讀層級與書目",
+          "evidence": "MDPI 公開全文與 Crossref。",
+          "confidence": "high",
+          "source": "全文／書目",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】研究問題與動機",
+          "evidence": "作者摘要與研究設計。",
+          "confidence": "high",
+          "source": "全文／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】研究變數與定義",
+          "evidence": "資料與變數段落。",
+          "confidence": "high",
+          "source": "全文／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】資料與樣本",
+          "evidence": "資料段落與出版商頁面。",
+          "confidence": "high",
+          "source": "全文／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【模型與估計】模型與估計",
+          "evidence": "方法段落與模型設定。",
+          "confidence": "high",
+          "source": "全文／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】穩健性檢驗",
+          "evidence": "穩健性段落；缺失時明確標示。",
+          "confidence": "high",
+          "source": "全文／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】主要結果",
+          "evidence": "結果表、結論或摘要明示內容。",
+          "confidence": "high",
+          "source": "全文／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【限制】作者與方法限制",
+          "evidence": "作者限制段落及方法邊界。",
+          "confidence": "high",
+          "source": "全文／綜合判斷",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】綜合判斷",
+          "evidence": "CPU、碳—能源與動態風險網路高度重疊。",
+          "confidence": "high",
+          "source": "綜合判斷",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    root[\"📄 CPU × 碳—能源\"]\n    style root fill:#059669,color:#fff,font-weight:bold\n    n0[\"💡 Bayesian TVP-VAR-DY\"]\n    root --> n0\n    n1[\"💡 CPU 最大淨傳送者\"]\n    root --> n1\n    n2[\"🔗 與美智研究關聯 4/5\"]\n    root --> n2"
+    },
+    {
+      "id": "qvar-2026-11-03-cpu-industry-bond-frequency",
+      "title": "Does climate policy uncertainty drive industry bond credit risk spillovers? New evidence from causality and impact paths in the frequency domain",
+      "search_date": "2026-11-03",
+      "authors": "Ruirui Wu; Bin Li",
+      "year": "2026",
+      "journal": "Applied Economics, advance online publication, 1–19",
+      "doi": "https://doi.org/10.1080/00036846.2026.2645226",
+      "citations": "0 次（Crossref；OpenAlex 尚未建立可核對紀錄，2026-11-03）",
+      "openalex_id": "",
+      "openalex_url": "",
+      "fulltext_url": "https://www.tandfonline.com/doi/abs/10.1080/00036846.2026.2645226",
+      "reading_level": "摘要層級",
+      "abstract": "本文從中國產業債信用風險網路檢驗 CPU 的頻率異質性。摘要顯示短期頻帶主導信用風險溢出，循環性產業的方向性傳導較強；CPU 與消費及循環產業方向性溢出在不同頻帶與狀態具有顯著 quantile causality。因全文受限，本筆不補寫摘要未提供的樣本與穩健性結果。",
+      "tags": [
+        "TVP-VAR",
+        "frequency connectedness",
+        "causality-in-quantiles",
+        "frequency MST",
+        "climate policy uncertainty"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "債券市場",
+        "金融市場"
+      ],
+      "keywords": [
+        "industry bonds",
+        "credit risk spillover",
+        "China",
+        "impact path",
+        "cyclical industries"
+      ],
+      "notes": [
+        "【閱讀層級】摘要層級；核對 Taylor & Francis 摘要、Crossref 與 CrossMark。Crossref 被引 0 次且無更新／撤稿關係；OpenAlex 尚無可解析紀錄。全文需訂閱，未繞過存取控制。",
+        "【研究問題與動機】CPU 是否改變中國產業債信用風險的短、中、長期溢出，以及其 quantile causality 與跨產業路徑？",
+        "【研究變數】CPU；消費、循環、服務與支持產業債信用風險及方向性 connectedness；摘要特別指出農林牧漁業節點。",
+        "【資料／市場／樣本】中國產業債市場；資料可由 CNEFN 取得。樣本期間、頻率與樣本量在摘要中未報告。",
+        "【模型與估計】TVP-VAR frequency connectedness；non-parametric causality-in-quantiles；frequency minimum spanning tree。",
+        "【穩健性檢驗】摘要未報告替代 CPU、頻帶、視窗或模型的穩健性設計，故不補寫。",
+        "【主要結果】短期頻帶主導；循環性產業方向性傳導較大。CPU 對消費與循環產業在不同頻帶／狀態存在 quantile causality；短中期直接路徑經農林牧漁業，長期直接路徑增加。這是預測性方向，不等同結構因果。",
+        "【作者提出的限制】可得摘要未列作者限制，需待合法全文核驗。",
+        "【其他限制】信用風險代理、產業分類與 MST 距離定義可能影響路徑；causality-in-quantiles 不能證明政策外生因果。",
+        "【APA 7】Wu, R., & Li, B. (2026). Does climate policy uncertainty drive industry bond credit risk spillovers? New evidence from causality and impact paths in the frequency domain. Applied Economics, 1–19. https://doi.org/10.1080/00036846.2026.2645226",
+        "【與美智研究的關聯】5/5。直接聚焦 CPU、分位與 frequency connectedness，可補產業債信用風險與路徑延伸；差異是 TVP-VAR＋MST，未用 QVAR-BK 或 TVP-VAR-SV。"
+      ],
+      "type": "search",
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】閱讀層級與書目",
+          "evidence": "出版商摘要、Crossref 與 CrossMark；全文受訂閱限制。",
+          "confidence": "high",
+          "source": "全文／書目",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】研究問題與動機",
+          "evidence": "作者摘要與研究設計。",
+          "confidence": "high",
+          "source": "全文／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】研究變數與定義",
+          "evidence": "資料與變數段落。",
+          "confidence": "high",
+          "source": "全文／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】資料與樣本",
+          "evidence": "資料段落與出版商頁面。",
+          "confidence": "high",
+          "source": "全文／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【模型與估計】模型與估計",
+          "evidence": "方法段落與模型設定。",
+          "confidence": "high",
+          "source": "全文／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】穩健性檢驗",
+          "evidence": "穩健性段落；缺失時明確標示。",
+          "confidence": "high",
+          "source": "全文／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】主要結果",
+          "evidence": "結果表、結論或摘要明示內容。",
+          "confidence": "high",
+          "source": "全文／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【限制】作者與方法限制",
+          "evidence": "作者限制段落及方法邊界。",
+          "confidence": "high",
+          "source": "全文／綜合判斷",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】綜合判斷",
+          "evidence": "CPU、分位與頻率傳導直接相關。",
+          "confidence": "high",
+          "source": "綜合判斷",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    root[\"📄 CPU × 產業債\"]\n    style root fill:#059669,color:#fff,font-weight:bold\n    n0[\"💡 TVP-VAR + quantile causality\"]\n    root --> n0\n    n1[\"💡 短期溢出主導\"]\n    root --> n1\n    n2[\"🔗 與美智研究關聯 5/5\"]\n    root --> n2"
+    },
+    {
+      "id": "qvar-2026-11-03-ai-clean-energy-time-frequency",
+      "title": "Quantile time–frequency connectedness and spillover between artificial intelligence, clean energy, and traditional asset classes: insights and portfolio implications",
+      "search_date": "2026-11-03",
+      "authors": "Naveed Khan; Anam Tariq; Syed Zulfiqar Ali Shah; Hassan Javed",
+      "year": "2026",
+      "journal": "Future Business Journal, 12(1), 106",
+      "doi": "https://doi.org/10.1186/s43093-026-00786-w",
+      "citations": "0 次（Crossref；出版商顯示 1 citation；OpenAlex 尚未建立可核對紀錄，2026-11-03）",
+      "openalex_id": "",
+      "openalex_url": "",
+      "fulltext_url": "https://link.springer.com/article/10.1186/s43093-026-00786-w",
+      "reading_level": "全文精讀",
+      "abstract": "本文以 AI 股、三檔潔淨能源股、MSCI 世界指數與油價，估計 QVAR-BK 式分位數時頻 connectedness 並做投資組合分析。GOOG、MSFT、NVDA 多為淨傳送者，潔淨能源對下行風險較敏感；全樣本 TCI 69.07%，短期 54.35%，長期 14.72%。",
+      "tags": [
+        "QVAR",
+        "Barunik-Krehlik",
+        "quantile time-frequency connectedness",
+        "artificial intelligence",
+        "clean energy"
+      ],
+      "topics": [
+        "AI/科技",
+        "潔淨能源",
+        "金融市場",
+        "原物料/商品"
+      ],
+      "keywords": [
+        "AI equities",
+        "clean energy stocks",
+        "portfolio hedging",
+        "MSCI World",
+        "oil"
+      ],
+      "notes": [
+        "【閱讀層級】全文精讀；核對 Springer Nature 公開全文與 Crossref。Crossref 被引 0 次、出版商顯示 1 citation；OpenAlex 尚無可解析紀錄。",
+        "【研究問題與動機】AI、潔能與傳統資產在熊市、常態與牛市的分位／期限溢出如何變化，哪些資產是淨傳送者且能否避險？",
+        "【研究變數】GOOG、AMZN、MSFT、BIDU、NVDA；NEE、BEP、FSLR；MSCI World 與 oil 日報酬。",
+        "【資料／市場／樣本】Investing.com；2012-01 至 2025-12，日頻；有效樣本量未報告。",
+        "【模型與估計】QVAR/GFEVD（τ=0.05、0.50、0.95）結合 Baruník–Křehlík 頻域分解；另用最低變異／connectedness、最適權重、避險比與 wavelet coherence。",
+        "【穩健性檢驗】ERS／ADF、Jarque–Bera、Ljung–Box、ARCH；以分位、短長頻帶與多種投資組合方法交叉檢視，未見替代滾動窗完整表。",
+        "【主要結果】全樣本 TCI 69.07%，短期 54.35%，長期 14.72%；中位 TCI 23.9%（短期 16.97%、長期 7.11%）。GOOG、MSFT、NVDA 多為傳送者；短期在熊市／常態占優，長期在牛市更突出。",
+        "【作者提出的限制】AI 資產少、外部效度有限；模型未充分捕捉斷點；缺監管與情緒變數；對變數、頻率與樣本敏感。",
+        "【其他限制】個股特有風險與存活選擇可能影響網路；connectedness 與避險績效不表示 AI 或潔能有結構因果關係。",
+        "【APA 7】Khan, N., Tariq, A., Shah, S. Z. A., & Javed, H. (2026). Quantile time–frequency connectedness and spillover between artificial intelligence, clean energy, and traditional asset classes: Insights and portfolio implications. Future Business Journal, 12(1), 106. https://doi.org/10.1186/s43093-026-00786-w",
+        "【與美智研究的關聯】4/5。QVAR、BK、潔淨資產與短長期設計可直接比較；差異是未納入 CPU／實體氣候風險或 TVP-VAR-SV。"
+      ],
+      "type": "search",
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】閱讀層級與書目",
+          "evidence": "Springer Nature 公開全文與 Crossref。",
+          "confidence": "high",
+          "source": "全文／書目",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】研究問題與動機",
+          "evidence": "作者摘要與研究設計。",
+          "confidence": "high",
+          "source": "全文／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】研究變數與定義",
+          "evidence": "資料與變數段落。",
+          "confidence": "high",
+          "source": "全文／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】資料與樣本",
+          "evidence": "資料段落與出版商頁面。",
+          "confidence": "high",
+          "source": "全文／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【模型與估計】模型與估計",
+          "evidence": "方法段落與模型設定。",
+          "confidence": "high",
+          "source": "全文／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】穩健性檢驗",
+          "evidence": "穩健性段落；缺失時明確標示。",
+          "confidence": "high",
+          "source": "全文／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】主要結果",
+          "evidence": "結果表、結論或摘要明示內容。",
+          "confidence": "high",
+          "source": "全文／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【限制】作者與方法限制",
+          "evidence": "作者限制段落及方法邊界。",
+          "confidence": "high",
+          "source": "全文／綜合判斷",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】綜合判斷",
+          "evidence": "QVAR-BK 與潔淨資產方法高度可比。",
+          "confidence": "high",
+          "source": "綜合判斷",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    root[\"📄 AI × 潔淨能源\"]\n    style root fill:#059669,color:#fff,font-weight:bold\n    n0[\"💡 QVAR + BK\"]\n    root --> n0\n    n1[\"💡 AI 股多為傳送者\"]\n    root --> n1\n    n2[\"🔗 與美智研究關聯 4/5\"]\n    root --> n2"
+    },
+    {
+      "id": "qvar-2026-11-03-refi-energy-carbon-qvar",
+      "title": "Spillover dynamics between ReFi tokens, renewable energy tokens, energy markets, and the carbon market: determinants and implications for portfolio diversification",
+      "search_date": "2026-11-03",
+      "authors": "Alishba Rahman Ullah; Shahzeb Khurshid; Seong-Min Yoon",
+      "year": "2026",
+      "journal": "Financial Innovation, 12(1), 113",
+      "doi": "https://doi.org/10.1186/s40854-026-00932-x",
+      "citations": "0 次（Crossref；OpenAlex 尚未建立可核對紀錄，2026-11-03）",
+      "openalex_id": "",
+      "openalex_url": "",
+      "fulltext_url": "https://link.springer.com/article/10.1186/s40854-026-00932-x",
+      "reading_level": "全文精讀",
+      "abstract": "本文把 ReFi、再生能源代幣、潔淨／化石能源與碳信用納入 QVAR、DCC-GARCH 與投資組合分析。極端市場連結較高；常態分位 ReFi 與潔能多為傳送者，極端分位 ReFi 轉為接收者。作者以極端分位、不同視窗／預測期及 FTX 前後子樣本檢驗。",
+      "tags": [
+        "QVAR",
+        "ReFi",
+        "renewable energy tokens",
+        "DCC-GARCH",
+        "carbon credits"
+      ],
+      "topics": [
+        "加密貨幣/數位金融",
+        "潔淨能源",
+        "碳市場",
+        "金融市場"
+      ],
+      "keywords": [
+        "KLIMA",
+        "MOSS",
+        "TOUCAN",
+        "FTX",
+        "portfolio diversification"
+      ],
+      "notes": [
+        "【閱讀層級】全文精讀；核對 Springer Nature、Crossref 與 Mendeley Data。Crossref 被引 0 次且無更新／撤稿關係；OpenAlex 尚無可解析紀錄。",
+        "【研究問題與動機】ReFi／再生能源代幣如何與潔淨、化石能源及碳信用互傳，角色是否隨分位與危機轉換，能否改善投資組合？",
+        "【研究變數】MOSS、KLIMA、TOUCAN；SNC、POWER、ENERGY；Solar、Wind、Biofuel；Oil、Gas、Coal；Carbon credit，共 13 個市場。",
+        "【資料／市場／樣本】CoinMarketCap、S&P Global、Investing.com；2021-10-20 至 2025-02-28，日頻，樣本量未報告。資料 DOI：10.17632/7dmyrcfjmy.1。",
+        "【模型與估計】QVAR(p=1)／GFEVD，τ=0.10、0.50、0.90，H=20、200 日窗；DCC-GARCH 投資組合；另以 EPU、GVX、OVX、美債殖利率、VIX、交易量與潔能指數解釋 TCI。",
+        "【穩健性檢驗】改用 τ=0.01／0.99 與 150 日窗、250 日窗、替代預測期及 FTX 前後子樣本；方向型態大致一致。",
+        "【主要結果】常態分位 ReFi 與多數潔能為傳送者，再生能源代幣、化石能源與碳信用偏接收；極端分位 ReFi 轉接收。FTX 前後幅度改變但數位氣候資產仍重要；分散效果依狀態而變。",
+        "【作者提出的限制】2021 年前資料不足；僅碳連結 ReFi；樣本集中戰爭與 FTX 壓力期；QVAR 反映短中期而非長期均衡。",
+        "【其他限制】流動性、存活與選樣偏誤可能高估穩定性；交易時間不同且共同情緒干擾；不能據此判定 ReFi 真實減碳。",
+        "【APA 7】Ullah, A. R., Khurshid, S., & Yoon, S.-M. (2026). Spillover dynamics between ReFi tokens, renewable energy tokens, energy markets, and the carbon market: Determinants and implications for portfolio diversification. Financial Innovation, 12(1), 113. https://doi.org/10.1186/s40854-026-00932-x",
+        "【與美智研究的關聯】4/5。提供 clean crypto／ReFi 與碳—能源 QVAR 比較，可借鏡極端分位、FTX 子樣本與穩健性；差異是未做 BK 頻域，也未直接使用 CPU。"
+      ],
+      "type": "search",
+      "viewpoints": [
+        {
+          "claim": "【閱讀層級】閱讀層級與書目",
+          "evidence": "Springer Nature 公開全文、Crossref 與公開資料庫。",
+          "confidence": "high",
+          "source": "全文／書目",
+          "connections": []
+        },
+        {
+          "claim": "【研究問題與動機】研究問題與動機",
+          "evidence": "作者摘要與研究設計。",
+          "confidence": "high",
+          "source": "全文／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【研究變數】研究變數與定義",
+          "evidence": "資料與變數段落。",
+          "confidence": "high",
+          "source": "全文／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【資料／市場／樣本】資料與樣本",
+          "evidence": "資料段落與出版商頁面。",
+          "confidence": "high",
+          "source": "全文／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【模型與估計】模型與估計",
+          "evidence": "方法段落與模型設定。",
+          "confidence": "high",
+          "source": "全文／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性檢驗】穩健性檢驗",
+          "evidence": "穩健性段落；缺失時明確標示。",
+          "confidence": "high",
+          "source": "全文／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【主要結果】主要結果",
+          "evidence": "結果表、結論或摘要明示內容。",
+          "confidence": "high",
+          "source": "全文／摘要",
+          "connections": []
+        },
+        {
+          "claim": "【限制】作者與方法限制",
+          "evidence": "作者限制段落及方法邊界。",
+          "confidence": "high",
+          "source": "全文／綜合判斷",
+          "connections": []
+        },
+        {
+          "claim": "【與美智研究的關聯】綜合判斷",
+          "evidence": "ReFi／潔能代幣的 QVAR 網路可補 clean-crypto 主線。",
+          "confidence": "high",
+          "source": "綜合判斷",
+          "connections": []
+        }
+      ],
+      "diagram": "graph TD\n    root[\"📄 ReFi × 能源 × 碳\"]\n    style root fill:#059669,color:#fff,font-weight:bold\n    n0[\"💡 QVAR + DCC-GARCH\"]\n    root --> n0\n    n1[\"💡 極端分位角色反轉\"]\n    root --> n1\n    n2[\"🔗 與美智研究關聯 4/5\"]\n    root --> n2"
+    },
     {
       "id": "qvar-2026-11-02-green-bond-multiscale-quantile",
       "title": "Return Connectedness and Risk Spillovers Between Green Bonds, Conventional Bonds, Stocks, Commodities, and Currency Markets: A Multiscale Quantile Analysis",
