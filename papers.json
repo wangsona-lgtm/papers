@@ -1,6 +1,6 @@
 {
-  "total": 222,
-  "updated": "2026-11-04 20:08:51",
+  "total": 220,
+  "updated": "2026-11-04 20:19:07",
   "topics": [
     "AI/科技",
     "其他",
@@ -8772,49 +8772,7 @@
       ],
       "diagram": "graph TD\n    wqcWaveletQuant[\"📄 wqc: Wavelet Quantile Correlation Analysis（R CRAN \"]\n    style wqcWaveletQuant fill:#2563eb,color:#fff,font-weight:bold\n    vp0研究方法WQC[\"💡 研究方法：WQC (Wavelet Quantile Correlation)\"]\n    style vp0研究方法WQC fill:#fef3c7,stroke:#d97706\n    wqcWaveletQuant --> vp0研究方法WQC\n    vp1研究主題方法論[\"💡 研究主題：方法論\"]\n    style vp1研究主題方法論 fill:#fef3c7,stroke:#d97706\n    wqcWaveletQuant --> vp1研究主題方法論\n    vp0研究方法WQC --- vp1研究主題方法論"
     },
-    {
-      "id": "qvar-2026-08-19-W7164149221",
-      "title": "The \"Extended Joint\" QVAR based connectedness between EU-ETS and European emerging economies' stock volatility",
-      "search_date": "2026-08-19",
-      "authors": "",
-      "year": "2026",
-      "journal": "",
-      "doi": "10.1371/journal.pone.0349789.g002",
-      "citations": "",
-      "openalex_url": "https://openalex.org/W7164149221",
-      "abstract": "",
-      "tags": [
-        "QVAR"
-      ],
-      "topics": [
-        "其他"
-      ],
-      "type": "search",
-      "notes": [
-        "年份：2026",
-        "主題：其他",
-        "方法：QVAR (Quantile Vector Autoregression) + VAR (Vector Autoregression)",
-        "---",
-        "DOI：10.1371/journal.pone.0349789.g002"
-      ],
-      "viewpoints": [
-        {
-          "claim": "研究方法：QVAR (Quantile Vector Autoregression) + VAR (Vector Autoregression)",
-          "evidence": "QVAR (Quantile Vector Autoregression) + VAR (Vector Autoregression)",
-          "confidence": "mid",
-          "source": "方法",
-          "connections": []
-        },
-        {
-          "claim": "研究主題：其他",
-          "evidence": "其他",
-          "confidence": "mid",
-          "source": "主題",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    TheExtendedJoin[\"📄 The \"Extended Joint\" QVAR based connectedness betw\"]\n    style TheExtendedJoin fill:#2563eb,color:#fff,font-weight:bold\n    vp0研究方法QVAR[\"💡 研究方法：QVAR (Quantile Vector Autoregressio\"]\n    style vp0研究方法QVAR fill:#fef3c7,stroke:#d97706\n    TheExtendedJoin --> vp0研究方法QVAR\n    vp1研究主題其他[\"💡 研究主題：其他\"]\n    style vp1研究主題其他 fill:#fef3c7,stroke:#d97706\n    TheExtendedJoin --> vp1研究主題其他\n    vp0研究方法QVAR --- vp1研究主題其他"
-    },
+
     {
       "id": "qvar-2026-08-19-W7134263291",
       "title": "The moderating role of institutional quality in the debt stock-financial development-economic growth nexus: evidence from the panel QARDL model",
@@ -8902,49 +8860,7 @@
       ],
       "diagram": "graph TD\n    GeopoliticalRis[\"📄 Geopolitical Risk, Energy-Route Disruptions, and F\"]\n    style GeopoliticalRis fill:#2563eb,color:#fff,font-weight:bold\n    vp0研究方法QARDL[\"💡 研究方法：QARDL (Quantile Autoregressive Dist\"]\n    style vp0研究方法QARDL fill:#fef3c7,stroke:#d97706\n    GeopoliticalRis --> vp0研究方法QARDL\n    vp1研究主題地緣政治[\"💡 研究主題：地緣政治/國防、宏觀總體\"]\n    style vp1研究主題地緣政治 fill:#fef3c7,stroke:#d97706\n    GeopoliticalRis --> vp1研究主題地緣政治\n    vp0研究方法QARDL --- vp1研究主題地緣政治"
     },
-    {
-      "id": "qvar-2026-07-20-[W7164149221](https://openalex.org/W7164149221)",
-      "title": "The \"Extended Joint\" QVAR based connectedness between EU-ETS and European emerging economies' stock volatility",
-      "search_date": "2026-07-20",
-      "authors": "",
-      "year": "2026",
-      "journal": "",
-      "doi": "[10.1371/journal.pone.0349789.g002](https://doi.org/10.1371/journal.pone.0349789.g002)",
-      "citations": "",
-      "openalex_url": "",
-      "abstract": "",
-      "tags": [
-        "QVAR"
-      ],
-      "topics": [
-        "其他"
-      ],
-      "type": "search",
-      "notes": [
-        "年份：2026",
-        "主題：其他",
-        "方法：QVAR (Quantile Vector Autoregression) + VAR (Vector Autoregression)",
-        "---",
-        "DOI：[10.1371/journal.pone.0349789.g002](https://doi.org/10.1371/journal.pone.0349789.g002)"
-      ],
-      "viewpoints": [
-        {
-          "claim": "研究方法：QVAR (Quantile Vector Autoregression) + VAR (Vector Autoregression)",
-          "evidence": "QVAR (Quantile Vector Autoregression) + VAR (Vector Autoregression)",
-          "confidence": "mid",
-          "source": "方法",
-          "connections": []
-        },
-        {
-          "claim": "研究主題：其他",
-          "evidence": "其他",
-          "confidence": "mid",
-          "source": "主題",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    TheExtendedJoin[\"📄 The \"Extended Joint\" QVAR based connectedness betw\"]\n    style TheExtendedJoin fill:#2563eb,color:#fff,font-weight:bold\n    vp0研究方法QVAR[\"💡 研究方法：QVAR (Quantile Vector Autoregressio\"]\n    style vp0研究方法QVAR fill:#fef3c7,stroke:#d97706\n    TheExtendedJoin --> vp0研究方法QVAR\n    vp1研究主題其他[\"💡 研究主題：其他\"]\n    style vp1研究主題其他 fill:#fef3c7,stroke:#d97706\n    TheExtendedJoin --> vp1研究主題其他\n    vp0研究方法QVAR --- vp1研究主題其他"
-    },
+
     {
       "id": "qvar-2026-07-20-[W7134263291](https://openalex.org/W7134263291)",
       "title": "The moderating role of institutional quality in the debt stock-financial development-economic growth nexus: evidence from the panel QARDL model",
