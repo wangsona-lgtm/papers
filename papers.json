@@ -1,6 +1,6 @@
 {
-  "total": 217,
-  "updated": "2026-11-03 20:03:03",
+  "total": 222,
+  "updated": "2026-11-04 20:08:51",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,581 @@
     "金融市場"
   ],
   "papers": [
+  {
+    "id": "qvar-2026-11-04-bitcoin-energy-carbon-finr",
+    "title": "Interconnected risks: Exploring the spillover affect among bitcoin, energy, and carbon markets",
+    "search_date": "2026-11-04",
+    "authors": "Wei Jiang; Yunying Guo; Wenhua Gao",
+    "year": "2026",
+    "journal": "Finance Research Open, 2(2), Article 100115",
+    "doi": "https://doi.org/10.1016/j.finr.2026.100115",
+    "citations": "0 次（Crossref；OpenAlex 尚未建立可核對紀錄，2026-11-04）",
+    "openalex_id": "",
+    "openalex_url": "",
+    "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S3050700626000277",
+    "reading_level": "摘要層級",
+    "abstract": "本文以 QVAR、Diebold–Yilmaz connectedness 與 Baruník–Křehlík 頻率分解，分析 Bitcoin、煤、原油、天然氣與碳市場的尾部風險傳導。極端狀態的連結高於中間狀態，短期不確定性主導總連結；天然氣在兩端分位皆是重要傳送者，而 Bitcoin 主要接收來自天然氣與原油的衝擊。",
+    "tags": [
+      "QVAR",
+      "BK frequency decomposition",
+      "Bitcoin",
+      "energy markets",
+      "carbon market"
+    ],
+    "topics": [
+      "加密貨幣/數位金融",
+      "能源市場",
+      "碳市場/碳交易"
+    ],
+    "keywords": [
+      "Bitcoin",
+      "coal",
+      "crude oil",
+      "natural gas",
+      "tail risk"
+    ],
+    "notes": [
+      "【閱讀層級】摘要層級；核對 Finance Research Open／ScienceDirect 公開文章頁與 Crossref。文章標示 CC BY 開放取用，但本次正文端點觸發機器人驗證，未繞過存取控制；OpenAlex DOI 查詢無可核對紀錄，Crossref 被引 0，亦無更正或撤稿關聯。",
+      "【研究問題與動機】Bitcoin 挖礦的能源消耗與碳足跡，是否使數位資產、化石能源與碳市場在極端行情中形成更強、且具期限差異的風險傳導網路？",
+      "【研究變數】Bitcoin、煤、原油、天然氣與碳指數價格；摘要與公開頁面未提供各指數供應商或精確代碼。",
+      "【資料／市場／樣本】全球加密、能源與碳市場；頻率、資料來源、樣本起訖與樣本量在可取得的摘要／公開頁面未報告。",
+      "【模型與估計】在 τ=0.10 與 0.90 估計 QVAR，結合 Diebold–Yilmaz connectedness、Baruník–Křehlík 頻率分解、靜態與動態網路，比較短、中、長期傳導。",
+      "【穩健性檢驗】可取得摘要未報告替代分位數、視窗、資料或模型等正式穩健性檢驗；時間域與頻域結果只能視為互補描述。",
+      "【主要結果】時間域 TCI 在 0.10 與 0.90 分位分別約 56.33% 與 56.84%；極端狀態高於中間狀態，短期成分主導。天然氣為主要淨傳送者，Bitcoin 為淨接收者，主要接收天然氣與原油衝擊；這是連結與方向性分解，不是結構因果。",
+      "【作者提出的限制】可取得摘要未列出作者的限制段落，故不代為補寫。",
+      "【其他限制】樣本資訊與資料定義未能從摘要核實；Bitcoin、能源與碳價可能同受流動性、美元、政策與地緣政治共同因子驅動，connectedness 不等於能源價格造成 Bitcoin 變動。",
+      "【APA 7】Jiang, W., Guo, Y., & Gao, W. (2026). Interconnected risks: Exploring the spillover affect among bitcoin, energy, and carbon markets. Finance Research Open, 2(2), Article 100115. https://doi.org/10.1016/j.finr.2026.100115",
+      "【與美智研究的關聯】4/5。QVAR 加 BK 頻率分解與尾部傳導高度可借鏡，並把碳、能源與加密市場放進同一系統；差異是沒有直接納入氣候政策不確定性，且目前只能做摘要層級核對。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {
+        "claim": "【閱讀層級】閱讀層級與書目",
+        "evidence": "出版商頁面、Crossref、OpenAlex 與合法公開全文（如可得）。",
+        "confidence": "high",
+        "source": "全文／書目",
+        "connections": []
+      },
+      {
+        "claim": "【研究問題與動機】研究問題與動機",
+        "evidence": "作者摘要、導論與研究設計。",
+        "confidence": "high",
+        "source": "全文／摘要",
+        "connections": []
+      },
+      {
+        "claim": "【研究變數】研究變數與定義",
+        "evidence": "資料與變數段落；摘要層級記錄不超出摘要。",
+        "confidence": "high",
+        "source": "全文／摘要",
+        "connections": []
+      },
+      {
+        "claim": "【資料／市場／樣本】資料與樣本",
+        "evidence": "資料段落、出版商頁面或摘要；未報告項明確標示。",
+        "confidence": "high",
+        "source": "全文／摘要",
+        "connections": []
+      },
+      {
+        "claim": "【模型與估計】模型與估計",
+        "evidence": "方法段落或摘要明示的模型設定。",
+        "confidence": "high",
+        "source": "全文／摘要",
+        "connections": []
+      },
+      {
+        "claim": "【穩健性檢驗】穩健性檢驗",
+        "evidence": "穩健性段落；摘要未提供時不推斷。",
+        "confidence": "high",
+        "source": "全文／摘要",
+        "connections": []
+      },
+      {
+        "claim": "【主要結果】主要結果",
+        "evidence": "結果表、結論或摘要明示內容。",
+        "confidence": "high",
+        "source": "全文／摘要",
+        "connections": []
+      },
+      {
+        "claim": "【限制】作者與方法限制",
+        "evidence": "作者限制段落及可辨識的設計邊界。",
+        "confidence": "high",
+        "source": "全文／綜合判斷",
+        "connections": []
+      },
+      {
+        "claim": "【與美智研究的關聯】綜合判斷",
+        "evidence": "QVAR、BK 頻率分解及碳—能源—加密市場重疊，但未直接納入 CPU。",
+        "confidence": "high",
+        "source": "綜合判斷",
+        "connections": []
+      }
+    ],
+    "diagram": "graph TD\n    root[\"📄 Bitcoin × 能源 × 碳\"]\n    style root fill:#7c3aed,color:#fff,font-weight:bold\n    n0[\"💡 QVAR + BK 頻率分解\"]\n    root --> n0\n    n1[\"💡 短期尾部連結主導\"]\n    root --> n1\n    n2[\"🔗 與美智研究關聯 4/5\"]\n    root --> n2"
+  },
+  {
+    "id": "qvar-2026-11-04-speculative-activities-tvp-qvar-bk",
+    "title": "Dynamic quantile-frequency connectedness between speculative activities in the energy, financial, precious metal, and agricultural commodity markets",
+    "search_date": "2026-11-04",
+    "authors": "Xiyong Dong; Xueying Lu; Zhuhua Jiang; Jian Su; Seong-Min Yoon",
+    "year": "2026",
+    "journal": "The Quarterly Review of Economics and Finance, 110, Article 102242",
+    "doi": "https://doi.org/10.1016/j.qref.2026.102242",
+    "citations": "Crossref 0 次；OpenAlex 2 次（2026-11-04）",
+    "openalex_id": "W7214399438",
+    "openalex_url": "https://openalex.org/W7214399438",
+    "fulltext_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5492537",
+    "reading_level": "摘要層級",
+    "abstract": "本文以 TVP-QVAR-BK 架構研究能源、金融、貴金屬與農產品八個市場的投機活動連結。尾部分位的總連結顯著提高，短期高於長期；黃金在短期、原油在長期扮演主要傳送者，玉米與黃豆則接收長期衝擊。GPR、EPU、MPU、VIX 與消費者信心的預測關係依分位與頻帶而異。",
+    "tags": [
+      "TVP-QVAR-BK",
+      "quantile-frequency connectedness",
+      "speculative activity",
+      "commodities",
+      "uncertainty"
+    ],
+    "topics": [
+      "原物料/商品",
+      "宏觀總體",
+      "金融市場"
+    ],
+    "keywords": [
+      "gold",
+      "oil",
+      "corn",
+      "soybeans",
+      "GPR",
+      "EPU",
+      "MPU",
+      "VIX"
+    ],
+    "notes": [
+      "【閱讀層級】摘要層級；核對正式期刊 DOI／Crossref、釜山大學研究資訊與 SSRN 版本頁。SSRN 顯示 2025-09-16 上傳、2026-05-06 修訂但不提供下載；正式版 Crossref 被引 0，OpenAlex W7214399438 被引 2、is_retracted=false，未發現更正或撤稿關聯。",
+      "【研究問題與動機】不同資產市場的投機活動在尾部狀態與不同投資期限如何傳遞？宏觀與政策不確定性是否對短、長期總連結具有不同的預測內容？",
+      "【研究變數】八個能源、金融、貴金屬與農產品市場的投機活動；摘要明示黃金、原油、玉米、黃豆。驅動因子包括 GPR、EPU、MPU、VIX 與消費者信心 CCI；其餘四個市場與變數定義在摘要未完整報告。",
+      "【資料／市場／樣本】跨能源、金融、貴金屬與農產品市場；資料來源、國家／交易所、頻率、樣本起訖與樣本量在可取得摘要未報告。",
+      "【模型與估計】TVP-QVAR-BK quantile-frequency connectedness；比較 τ=0.05、0.95 與短／長期頻帶，並評估不確定性因子對總連結的分位／期限異質預測關係。",
+      "【穩健性檢驗】可取得摘要未報告替代視窗、分位數、頻帶切割或變數代理的穩健性檢驗。",
+      "【主要結果】極端投機狀態下總連結顯著上升，短期高於長期；黃金主導尾部短期傳送，原油主導長期傳送，玉米與黃豆是主要長期接收者。高分位下 GPR、EPU、MPU、CCI 與短期連結呈抑制性預測關係，而 GPR、VIX、EPU、MPU 與長期連結呈正向預測關係；這些是預測關聯而非結構因果。",
+      "【作者提出的限制】可取得摘要未列出作者的限制段落，故不代為補寫。",
+      "【其他限制】未能核實投機活動代理、完整八市場清單與樣本設定；共同宏觀衝擊可能同時改變投機與 connectedness，且頻帶結果可能受切割與視窗選擇影響。",
+      "【APA 7】Dong, X., Lu, X., Jiang, Z., Su, J., & Yoon, S.-M. (2026). Dynamic quantile-frequency connectedness between speculative activities in the energy, financial, precious metal, and agricultural commodity markets. The Quarterly Review of Economics and Finance, 110, Article 102242. https://doi.org/10.1016/j.qref.2026.102242",
+      "【與美智研究的關聯】4/5。TVP-QVAR-BK 與研究核心方法幾乎直接重疊，可借鏡短長期傳導、尾部分位及 GPR／EPU／MPU 驅動分析；主要差異是研究對象為跨商品投機活動，沒有 CPU 與綠色資產主軸。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {
+        "claim": "【閱讀層級】閱讀層級與書目",
+        "evidence": "出版商頁面、Crossref、OpenAlex 與合法公開全文（如可得）。",
+        "confidence": "high",
+        "source": "全文／書目",
+        "connections": []
+      },
+      {
+        "claim": "【研究問題與動機】研究問題與動機",
+        "evidence": "作者摘要、導論與研究設計。",
+        "confidence": "high",
+        "source": "全文／摘要",
+        "connections": []
+      },
+      {
+        "claim": "【研究變數】研究變數與定義",
+        "evidence": "資料與變數段落；摘要層級記錄不超出摘要。",
+        "confidence": "high",
+        "source": "全文／摘要",
+        "connections": []
+      },
+      {
+        "claim": "【資料／市場／樣本】資料與樣本",
+        "evidence": "資料段落、出版商頁面或摘要；未報告項明確標示。",
+        "confidence": "high",
+        "source": "全文／摘要",
+        "connections": []
+      },
+      {
+        "claim": "【模型與估計】模型與估計",
+        "evidence": "方法段落或摘要明示的模型設定。",
+        "confidence": "high",
+        "source": "全文／摘要",
+        "connections": []
+      },
+      {
+        "claim": "【穩健性檢驗】穩健性檢驗",
+        "evidence": "穩健性段落；摘要未提供時不推斷。",
+        "confidence": "high",
+        "source": "全文／摘要",
+        "connections": []
+      },
+      {
+        "claim": "【主要結果】主要結果",
+        "evidence": "結果表、結論或摘要明示內容。",
+        "confidence": "high",
+        "source": "全文／摘要",
+        "connections": []
+      },
+      {
+        "claim": "【限制】作者與方法限制",
+        "evidence": "作者限制段落及可辨識的設計邊界。",
+        "confidence": "high",
+        "source": "全文／綜合判斷",
+        "connections": []
+      },
+      {
+        "claim": "【與美智研究的關聯】綜合判斷",
+        "evidence": "TVP-QVAR-BK 與尾部／頻域設計高度重疊，可作方法與驅動因子比較。",
+        "confidence": "high",
+        "source": "綜合判斷",
+        "connections": []
+      }
+    ],
+    "diagram": "graph TD\n    root[\"📄 跨市場投機活動\"]\n    style root fill:#d97706,color:#fff,font-weight:bold\n    n0[\"💡 TVP-QVAR-BK\"]\n    root --> n0\n    n1[\"💡 黃金短期／原油長期傳送\"]\n    root --> n1\n    n2[\"🔗 與美智研究關聯 4/5\"]\n    root --> n2"
+  },
+  {
+    "id": "qvar-2026-11-04-euets-emerging-stocks-extended-joint",
+    "title": "The quantile domain volatility shock transmission between carbon emission trading system and European emerging stock markets: Practical implications for portfolio optimization",
+    "search_date": "2026-11-04",
+    "authors": "Abdullah A. Aljughaiman; Mosab I. Tabash; Suzan Sameer Issa; Abdulateif A. Almulhim",
+    "year": "2026",
+    "journal": "PLOS One, 21(6), e0349789",
+    "doi": "https://doi.org/10.1371/journal.pone.0349789",
+    "citations": "0 次（Crossref 與 OpenAlex，2026-11-04）",
+    "openalex_id": "W7163922966",
+    "openalex_url": "https://openalex.org/W7163922966",
+    "fulltext_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0349789",
+    "reading_level": "全文精讀",
+    "abstract": "本文以 Extended Joint QVAR 分析 EU ETS 與捷克、斯洛伐克、希臘、匈牙利、波蘭股市條件波動的分位傳導，再以 DCC-GARCH-t copula 比較避險策略。TCI 在 0.95 分位升至 88.01%，遠高於 0.05 與 0.50 分位的 30.63% 與 29.43%；斯洛伐克股市的碳價波動曝險最低，捷克與斯洛伐克組合呈現較高避險效率。",
+    "tags": [
+      "Extended Joint QVAR",
+      "EU ETS",
+      "DCC-GARCH-t copula",
+      "portfolio hedging",
+      "emerging Europe"
+    ],
+    "topics": [
+      "碳市場/碳交易",
+      "金融市場",
+      "氣候風險/政策"
+    ],
+    "keywords": [
+      "carbon price volatility",
+      "Czech Republic",
+      "Slovakia",
+      "Greece",
+      "Hungary",
+      "Poland"
+    ],
+    "notes": [
+      "【閱讀層級】全文精讀；核對 PLOS 全文、Crossref 與 OpenAlex W7163922966。Crossref／OpenAlex 被引均為 0，出版商標示 CC BY，Crossref 無更正或撤稿關聯。",
+      "【研究問題與動機】EU ETS 波動與中東歐新興股市的衝擊傳導是否依低、中、高波動分位而異？何種碳—股市組合與避險策略可降低長期 EU ETS 風險？",
+      "【研究變數】EU ETS 價格與捷克、斯洛伐克、希臘、匈牙利、波蘭 MSCI 股市指數；以條件波動進入 connectedness，並以報酬估計 DCC-GARCH-t copula 避險比率與最適權重。",
+      "【資料／市場／樣本】LSEG Data Analytics 與 Bloomberg 日資料，2014-01-01 至 2024-12-01；涵蓋 EU ETS 與五個歐洲新興股市，原文未報告最終有效樣本量。",
+      "【模型與估計】τ=0.05、0.50、0.95 的 Extended Joint QVAR connectedness；基準 H=20，另以 DCC-GARCH-t copula 比較 hedge ratio 與 Kroner–Ng 最適組合權重／避險效率。",
+      "【穩健性檢驗】BDS 非線性檢定；把預測期由 H=20 改為 25，並把 rolling window 由 200 改為 150，三個分位的 TCI 與傳導型態大致一致。",
+      "【主要結果】TCI 在 τ=0.05、0.50、0.95 分別為 30.63%、29.43%、88.01%。上尾時 EU ETS 對捷克、希臘、匈牙利、波蘭波動的貢獻約 19% 左右；斯洛伐克各分位曝險最低。最適權重策略的避險效率顯著高於 hedge ratio，捷克與斯洛伐克組合約達 85% 與 89%。上述為波動分解與投組結果，不是碳政策的因果效果。",
+      "【作者提出的限制】作者主張未來可擴充其他碳市場、國家與更廣資產，並進一步改善模型與預測應用；現有設計聚焦 EU ETS 與五個歐洲新興市場。",
+      "【其他限制】同時期的利率、能源、匯率、歐盟政策與地緣政治共同衝擊未被結構識別；高分位在文中稱為 bullish volatility，較適合解讀為高條件波動狀態，避免與正報酬行情混同。",
+      "【APA 7】Aljughaiman, A. A., Tabash, M. I., Issa, S. S., & Almulhim, A. A. (2026). The quantile domain volatility shock transmission between carbon emission trading system and European emerging stock markets: Practical implications for portfolio optimization. PLOS One, 21(6), e0349789. https://doi.org/10.1371/journal.pone.0349789",
+      "【與美智研究的關聯】4/5。碳市場×金融資產的 Extended Joint QVAR、視窗／預測期穩健性與 tail stress-testing 可直接借鏡；差異是沒有 CPU、BK 頻率分解或 TVP-VAR-SV。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {
+        "claim": "【閱讀層級】閱讀層級與書目",
+        "evidence": "出版商頁面、Crossref、OpenAlex 與合法公開全文（如可得）。",
+        "confidence": "high",
+        "source": "全文／書目",
+        "connections": []
+      },
+      {
+        "claim": "【研究問題與動機】研究問題與動機",
+        "evidence": "作者摘要、導論與研究設計。",
+        "confidence": "high",
+        "source": "全文／摘要",
+        "connections": []
+      },
+      {
+        "claim": "【研究變數】研究變數與定義",
+        "evidence": "資料與變數段落；摘要層級記錄不超出摘要。",
+        "confidence": "high",
+        "source": "全文／摘要",
+        "connections": []
+      },
+      {
+        "claim": "【資料／市場／樣本】資料與樣本",
+        "evidence": "資料段落、出版商頁面或摘要；未報告項明確標示。",
+        "confidence": "high",
+        "source": "全文／摘要",
+        "connections": []
+      },
+      {
+        "claim": "【模型與估計】模型與估計",
+        "evidence": "方法段落或摘要明示的模型設定。",
+        "confidence": "high",
+        "source": "全文／摘要",
+        "connections": []
+      },
+      {
+        "claim": "【穩健性檢驗】穩健性檢驗",
+        "evidence": "穩健性段落；摘要未提供時不推斷。",
+        "confidence": "high",
+        "source": "全文／摘要",
+        "connections": []
+      },
+      {
+        "claim": "【主要結果】主要結果",
+        "evidence": "結果表、結論或摘要明示內容。",
+        "confidence": "high",
+        "source": "全文／摘要",
+        "connections": []
+      },
+      {
+        "claim": "【限制】作者與方法限制",
+        "evidence": "作者限制段落及可辨識的設計邊界。",
+        "confidence": "high",
+        "source": "全文／綜合判斷",
+        "connections": []
+      },
+      {
+        "claim": "【與美智研究的關聯】綜合判斷",
+        "evidence": "碳市場尾部 QVAR 與投組壓力測試高度相關，但缺少 CPU 與頻域分解。",
+        "confidence": "high",
+        "source": "綜合判斷",
+        "connections": []
+      }
+    ],
+    "diagram": "graph TD\n    root[\"📄 EU ETS × 新興歐洲股市\"]\n    style root fill:#059669,color:#fff,font-weight:bold\n    n0[\"💡 Extended Joint QVAR\"]\n    root --> n0\n    n1[\"💡 上尾 TCI 88.01%\"]\n    root --> n1\n    n2[\"🔗 與美智研究關聯 4/5\"]\n    root --> n2"
+  },
+  {
+    "id": "qvar-2026-11-04-commodity-asymmetric-crises",
+    "title": "Commodity markets in flux: examining asymmetric interconnectedness across global crises",
+    "search_date": "2026-11-04",
+    "authors": "Hasan Murat Ertugrul; Onur Polat; Burcu Yuruk; Ali Akgul",
+    "year": "2026",
+    "journal": "Financial Innovation, 12, Article 166",
+    "doi": "https://doi.org/10.1186/s40854-026-00982-1",
+    "citations": "0 次（Crossref；OpenAlex 尚未建立可核對紀錄，2026-11-04）",
+    "openalex_id": "",
+    "openalex_url": "",
+    "fulltext_url": "https://link.springer.com/article/10.1186/s40854-026-00982-1",
+    "reading_level": "全文精讀",
+    "abstract": "本文以近四十年 S&P GSCI 能源、農業、工業金屬、貴金屬與畜牧日報酬，使用 asymmetric TVP-VAR connectedness 分解正負衝擊，並以 QVAR 作補充。金融危機與疫情期間 TCI 尖峰明顯；工業金屬、能源與貴金屬是主要傳送者，畜牧則高度吸收衝擊。",
+    "tags": [
+      "asymmetric TVP-VAR",
+      "QVAR robustness",
+      "positive-negative spillovers",
+      "commodities",
+      "global crises"
+    ],
+    "topics": [
+      "原物料/商品",
+      "地緣政治/國防",
+      "金融市場"
+    ],
+    "keywords": [
+      "S&P GSCI",
+      "energy",
+      "agriculture",
+      "industrial metals",
+      "precious metals",
+      "livestock"
+    ],
+    "notes": [
+      "【閱讀層級】全文精讀；核對 Financial Innovation／Springer 開放全文與 Crossref。Crossref 被引 0、無更正或撤稿關聯；OpenAlex DOI 查詢尚無可核對紀錄。",
+      "【研究問題與動機】主要商品部門的正、負報酬衝擊如何不對稱地跨市場傳遞？近四十年的金融危機、疫情與地緣政治事件如何伴隨 connectedness 結構變化？",
+      "【研究變數】S&P GSCI Energy、Agriculture、Industrial Metals、Precious Metals、Livestock 五指數日對數報酬，並拆為正、負報酬成分。",
+      "【資料／市場／樣本】Refinitiv 日資料，1983-01-10 至 2024-06-26；全球 S&P GSCI 商品指數，原文未報告最終樣本量。",
+      "【模型與估計】主模型為 asymmetric TVP-VAR connectedness，分解平均、正向與負向衝擊；附錄以 QVAR connectedness 作互補，採 200 日 rolling window、lag=1、H=20。",
+      "【穩健性檢驗】BDS 檢定拒絕各序列線性；附錄 QVAR 檢查極端分位 connectedness，作為 asymmetric TVP-VAR 結果的互補，而非主模型替代。",
+      "【主要結果】2008 全球金融危機與 2020 疫情期間動態 TCI 尖峰分別超過 50% 與 35%。平均衝擊中工業金屬、能源、貴金屬向外傳送約 18.31%、15.01%、16.21%；畜牧僅傳送 7.28%、吸收 92.72%。正負衝擊角色亦不對稱，結果反映關聯與傳導分解而非事件因果。",
+      "【作者提出的限制】僅使用五個聚合商品部門，未分析子商品；未把更廣經濟與地緣政治變數直接納入；作者建議未來加入不確定性指標與機器／深度學習。",
+      "【其他限制】聚合指數可能遮蔽油、天然氣、特定金屬與農產品的異質性；事件期間尖峰只是時間對照，未做正式事件因果識別，Refinitiv 資料亦非完全公開可重製。",
+      "【APA 7】Ertugrul, H. M., Polat, O., Yuruk, B., & Akgul, A. (2026). Commodity markets in flux: Examining asymmetric interconnectedness across global crises. Financial Innovation, 12, Article 166. https://doi.org/10.1186/s40854-026-00982-1",
+      "【與美智研究的關聯】3/5。可借鏡 TVP connectedness、正負衝擊拆分與危機比較，附錄 QVAR 也提供分位穩健性；差異是沒有氣候政策不確定性、綠色資產或 BK 頻率分解，主模型亦非 QVAR。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {
+        "claim": "【閱讀層級】閱讀層級與書目",
+        "evidence": "出版商頁面、Crossref、OpenAlex 與合法公開全文（如可得）。",
+        "confidence": "high",
+        "source": "全文／書目",
+        "connections": []
+      },
+      {
+        "claim": "【研究問題與動機】研究問題與動機",
+        "evidence": "作者摘要、導論與研究設計。",
+        "confidence": "high",
+        "source": "全文／摘要",
+        "connections": []
+      },
+      {
+        "claim": "【研究變數】研究變數與定義",
+        "evidence": "資料與變數段落；摘要層級記錄不超出摘要。",
+        "confidence": "high",
+        "source": "全文／摘要",
+        "connections": []
+      },
+      {
+        "claim": "【資料／市場／樣本】資料與樣本",
+        "evidence": "資料段落、出版商頁面或摘要；未報告項明確標示。",
+        "confidence": "high",
+        "source": "全文／摘要",
+        "connections": []
+      },
+      {
+        "claim": "【模型與估計】模型與估計",
+        "evidence": "方法段落或摘要明示的模型設定。",
+        "confidence": "high",
+        "source": "全文／摘要",
+        "connections": []
+      },
+      {
+        "claim": "【穩健性檢驗】穩健性檢驗",
+        "evidence": "穩健性段落；摘要未提供時不推斷。",
+        "confidence": "high",
+        "source": "全文／摘要",
+        "connections": []
+      },
+      {
+        "claim": "【主要結果】主要結果",
+        "evidence": "結果表、結論或摘要明示內容。",
+        "confidence": "high",
+        "source": "全文／摘要",
+        "connections": []
+      },
+      {
+        "claim": "【限制】作者與方法限制",
+        "evidence": "作者限制段落及可辨識的設計邊界。",
+        "confidence": "high",
+        "source": "全文／綜合判斷",
+        "connections": []
+      },
+      {
+        "claim": "【與美智研究的關聯】綜合判斷",
+        "evidence": "提供 TVP 與正負衝擊比較，屬方法延伸而非直接氣候金融證據。",
+        "confidence": "high",
+        "source": "綜合判斷",
+        "connections": []
+      }
+    ],
+    "diagram": "graph TD\n    root[\"📄 全球商品市場\"]\n    style root fill:#92400e,color:#fff,font-weight:bold\n    n0[\"💡 Asymmetric TVP-VAR\"]\n    root --> n0\n    n1[\"💡 工業金屬／能源傳送\"]\n    root --> n1\n    n2[\"🔗 與美智研究關聯 3/5\"]\n    root --> n2"
+  },
+  {
+    "id": "qvar-2026-11-04-oil-airline-tourism",
+    "title": "The impact of oil market volatility on the airline-tourism: quantile VAR approach",
+    "search_date": "2026-11-04",
+    "authors": "Wahbeeah Mohti; Ayesha Rehan; Faheem Aslam; Paulo Ferreira",
+    "year": "2026",
+    "journal": "Cogent Economics & Finance, 14(1), Article 2645745",
+    "doi": "https://doi.org/10.1080/23322039.2026.2645745",
+    "citations": "2 次（Crossref；OpenAlex 尚未建立可核對紀錄，2026-11-04）",
+    "openalex_id": "",
+    "openalex_url": "",
+    "fulltext_url": "https://www.tandfonline.com/doi/pdf/10.1080/23322039.2026.2645745",
+    "reading_level": "全文精讀",
+    "abstract": "本文以全球航空、旅遊、Brent 油價與 GARCH 油價波動，估計 0.05、0.50、0.95 分位的 QVAR 與群組 connectedness。航空在三種狀態均是主要淨傳送者，旅遊、油價與油價波動主要接收衝擊；COVID-19 與俄烏戰爭期間總連結提高，顯示需求與成本通道具有明顯狀態依存性。",
+    "tags": [
+      "QVAR",
+      "group connectedness",
+      "oil volatility",
+      "airlines",
+      "tourism"
+    ],
+    "topics": [
+      "能源市場",
+      "金融市場",
+      "宏觀總體"
+    ],
+    "keywords": [
+      "Brent oil",
+      "GARCH(1,1)",
+      "COVID-19",
+      "Russia-Ukraine war",
+      "travel demand"
+    ],
+    "notes": [
+      "【閱讀層級】全文精讀；核對 Taylor & Francis CC BY 4.0 公開 PDF 與 Crossref。Crossref 被引 2、無更正或撤稿關聯；OpenAlex DOI 查詢尚無可核對紀錄。",
+      "【研究問題與動機】油價與油價波動、航空股及旅遊股在熊市、正常與牛市狀態下如何傳遞衝擊？把個別指數聚合為航空／旅遊群組後，哪個部門是傳送者或接收者？",
+      "【研究變數】四個航空指數（MWPAI、G7AI、SEAI、AGAI）、四個旅遊指數（BSTVI、DKTTI、FTELI、DJTLT）、Brent 油價 OIL，以及由 Brent 日報酬 GARCH(1,1) 估計的 OILV。",
+      "【資料／市場／樣本】航空與旅遊指數來自 LSEG Refinitiv，Brent 來自 Investing 網站；2016-06-21 至 2024-10-24，日頻，原文未報告最終有效樣本量。",
+      "【模型與估計】τ=0.05、0.50、0.95 的 QVAR，lag=1、GFEVD H=10；依 Diebold et al. 群組概念手動聚合航空與旅遊，另估計 rolling-window TCI。",
+      "【穩健性檢驗】ARCH-LM 與 Ljung–Box 支持用 GARCH(1,1) 建構 OILV；rolling group-wise TCI 檢查 COVID-19 與俄烏戰爭期間的時間變化。",
+      "【主要結果】航空在 0.05、0.50、0.95 分位的群組 NET 約 45.86、80.64、36.33，持續為傳送者；旅遊為接收者，OIL 與 OILV 多為接收者且極端狀態更明顯。COVID-19 與俄烏戰爭期間連結升高；這些是狀態依存 connectedness，不是航空活動造成油價或旅遊的因果估計。",
+      "【作者提出的限制】控制因子與資產選擇有限；作者建議加入利率、通膨、地緣政治、綠色能源，或改用航空／旅遊公司層級資料。",
+      "【其他限制】群組 connectedness 是手動聚合，且未提供正式聚合推論；Investing 油價來源與 Refinitiv 指數的交易日對齊、共同需求衝擊及疫情政策均可能影響結果。",
+      "【APA 7】Mohti, W., Rehan, A., Aslam, F., & Ferreira, P. (2026). The impact of oil market volatility on the airline-tourism: Quantile VAR approach. Cogent Economics & Finance, 14(1), Article 2645745. https://doi.org/10.1080/23322039.2026.2645745",
+      "【與美智研究的關聯】3/5。可借鏡 QVAR 群組 connectedness、GARCH 波動建構與危機視窗；差異是研究油價—航空—旅遊需求鏈，沒有氣候風險、綠色資產或頻域分解。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {
+        "claim": "【閱讀層級】閱讀層級與書目",
+        "evidence": "出版商頁面、Crossref、OpenAlex 與合法公開全文（如可得）。",
+        "confidence": "high",
+        "source": "全文／書目",
+        "connections": []
+      },
+      {
+        "claim": "【研究問題與動機】研究問題與動機",
+        "evidence": "作者摘要、導論與研究設計。",
+        "confidence": "high",
+        "source": "全文／摘要",
+        "connections": []
+      },
+      {
+        "claim": "【研究變數】研究變數與定義",
+        "evidence": "資料與變數段落；摘要層級記錄不超出摘要。",
+        "confidence": "high",
+        "source": "全文／摘要",
+        "connections": []
+      },
+      {
+        "claim": "【資料／市場／樣本】資料與樣本",
+        "evidence": "資料段落、出版商頁面或摘要；未報告項明確標示。",
+        "confidence": "high",
+        "source": "全文／摘要",
+        "connections": []
+      },
+      {
+        "claim": "【模型與估計】模型與估計",
+        "evidence": "方法段落或摘要明示的模型設定。",
+        "confidence": "high",
+        "source": "全文／摘要",
+        "connections": []
+      },
+      {
+        "claim": "【穩健性檢驗】穩健性檢驗",
+        "evidence": "穩健性段落；摘要未提供時不推斷。",
+        "confidence": "high",
+        "source": "全文／摘要",
+        "connections": []
+      },
+      {
+        "claim": "【主要結果】主要結果",
+        "evidence": "結果表、結論或摘要明示內容。",
+        "confidence": "high",
+        "source": "全文／摘要",
+        "connections": []
+      },
+      {
+        "claim": "【限制】作者與方法限制",
+        "evidence": "作者限制段落及可辨識的設計邊界。",
+        "confidence": "high",
+        "source": "全文／綜合判斷",
+        "connections": []
+      },
+      {
+        "claim": "【與美智研究的關聯】綜合判斷",
+        "evidence": "可借鏡 QVAR 群組聚合與危機比較，但主題不直接對應氣候政策或綠色資產。",
+        "confidence": "high",
+        "source": "綜合判斷",
+        "connections": []
+      }
+    ],
+    "diagram": "graph TD\n    root[\"📄 油價 × 航空 × 旅遊\"]\n    style root fill:#0369a1,color:#fff,font-weight:bold\n    n0[\"💡 QVAR 群組 connectedness\"]\n    root --> n0\n    n1[\"💡 航空為主要傳送者\"]\n    root --> n1\n    n2[\"🔗 與美智研究關聯 3/5\"]\n    root --> n2"
+  },
   {
       "id": "qvar-2026-11-03-methane-clean-energy-frequency",
       "title": "Risk transmission between greenhouse gas emissions and clean energy market",
