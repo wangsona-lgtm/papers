@@ -1,6 +1,6 @@
 {
-  "total": 220,
-  "updated": "2026-11-04 20:19:07",
+  "total": 225,
+  "updated": "2026-11-05 20:12:06",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,305 @@
     "金融市場"
   ],
   "papers": [
+  {
+    "id": "qvar-2026-11-05-trade-wars-gpr-energy-etfs",
+    "title": "Trade wars, geopolitical risk, and volatility dynamics in sustainable and conventional energy ETFs",
+    "search_date": "2026-11-05",
+    "authors": "Muhammad Shahbaz; Mosab I. Tabash; Umaid A. Sheikh; Hamid Beladi; Shawkat Hammoudeh",
+    "year": "2026",
+    "journal": "Energy Economics, 164, Article 109658",
+    "doi": "https://doi.org/10.1016/j.eneco.2026.109658",
+    "citations": "0 次（Crossref）／0 次（OpenAlex；2026-11-05）",
+    "openalex_id": "W7223116232",
+    "openalex_url": "https://openalex.org/W7223116232",
+    "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S0140988326005384",
+    "reading_level": "摘要層級",
+    "abstract": "本文以頻域 TVP-VAR connectedness 比較貿易政策不確定性（TPU）與地緣政治風險（GPR）對綠色與棕色能源 ETF 條件波動的短、長期傳導，並以分位數迴歸檢驗兩類不確定性對整體及分頻 TCI 的調節關係。TPU 對傳統能源 ETF 的衝擊較強，GPR 對永續能源 ETF 的衝擊較強；TPU 在各期限提高波動連結，而 GPR 主要強化短期連結。",
+    "tags": [
+      "TVP-VAR",
+      "frequency connectedness",
+      "quantile regression",
+      "trade policy uncertainty",
+      "geopolitical risk"
+    ],
+    "topics": [
+      "地緣政治/國防",
+      "潔淨能源",
+      "能源市場",
+      "金融市場"
+    ],
+    "keywords": [
+      "green energy ETF",
+      "brown energy ETF",
+      "TPU",
+      "GPR",
+      "volatility contagion"
+    ],
+    "notes": [
+      "【閱讀層級】摘要層級；核對 Energy Economics／ScienceDirect 正式文章頁、Crossref、OpenAlex 與 SSRN 公開預印本頁。正式全文端點未能合法取得，未繞過存取控制；OpenAlex W7223116232 顯示未撤稿。",
+      "【研究問題與動機】TPU 與 GPR 是否對綠色、棕色能源 ETF 形成不同期限與不同資產類型的波動衝擊，並進一步改變能源 ETF 彼此的波動連結？",
+      "【研究變數】TPU、GPR、永續能源 ETF（摘要點名 FAN、QCLN 等）與傳統能源 ETF（摘要點名 PXE、IXC、VDE、XOP、FCG 等）的條件波動及其 TCI；完整 ETF 清單與波動估計細節在可取得摘要未完整報告。",
+      "【資料／市場／樣本】美國上市之綠色與棕色能源 ETF，以及全球 TPU、GPR 指標；資料來源、樣本期間、頻率與樣本量在正式摘要未報告。",
+      "【模型與估計】先以頻域 TVP-VAR connectedness 分解短、長期衝擊，再針對能源 ETF 子系統計算整體、短期與長期 TCI，並以分位數迴歸估計 TPU、GPR 的調節作用。",
+      "【穩健性檢驗】可取得摘要未列出替代視窗、頻帶、波動模型或其他正式穩健性結果；SSRN 頁面提及 EGARCH 與 Student-t copula，但本次無法核對全文細節。",
+      "【主要結果】TPU 的短、長期衝擊強於 GPR，且傳統能源 ETF 對 TPU 較敏感、永續能源 ETF 對 GPR 較敏感。TPU 顯著提高所有期限的波動連結；GPR 強化短期連結，但摘要／預印本摘要指出其對整體與長期連結的調節方向較弱或為負。這些是預測誤差分解與條件關聯，不是結構因果。",
+      "【作者提出的限制】可取得摘要未提供作者限制段落，故不代為補寫。",
+      "【其他限制】樣本與波動建構資訊未能從正式摘要核實；TPU、GPR 與 ETF 波動可能同受油價、美元、利率與市場風險偏好驅動，分位數迴歸的調節關係不等於外生政策衝擊。",
+      "【APA 7】Shahbaz, M., Tabash, M. I., Sheikh, U. A., Beladi, H., & Hammoudeh, S. (2026). Trade wars, geopolitical risk, and volatility dynamics in sustainable and conventional energy ETFs. Energy Economics, 164, Article 109658. https://doi.org/10.1016/j.eneco.2026.109658",
+      "【與美智研究的關聯】4/5。頻域 TVP-VAR、政策不確定性與綠／棕能源資產可直接補強美智的 CPU—能源金融市場機制比較；主要差異是本文沒有 QVAR／CPU，分位數只用於 TCI 調節迴歸。可追蹤其 TPU 與 GPR 的期限異質性設計。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {"claim": "【閱讀層級】閱讀層級與書目", "evidence": "出版社頁面、Crossref、OpenAlex 與合法公開手稿（如可得）。", "confidence": "high", "source": "書目／摘要", "connections": []},
+      {"claim": "【研究問題與動機】研究問題與動機", "evidence": "作者摘要與研究設計說明。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【研究變數】變數與定義", "evidence": "摘要中明列的指標與 ETF。", "confidence": "medium", "source": "摘要", "connections": []},
+      {"claim": "【資料／市場／樣本】資料與樣本", "evidence": "未公開欄位明確標記未報告。", "confidence": "medium", "source": "摘要", "connections": []},
+      {"claim": "【模型與估計】模型與估計", "evidence": "頻域 TVP-VAR connectedness 與分位數迴歸。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【穩健性檢驗】穩健性", "evidence": "僅記錄可核對內容，未由摘要推斷。", "confidence": "medium", "source": "摘要", "connections": []},
+      {"claim": "【主要結果】主要結果", "evidence": "正式摘要與 highlights 的方向性結果。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【限制】限制與因果邊界", "evidence": "作者未報告項與研究設計可辨識限制分開記錄。", "confidence": "medium", "source": "摘要／方法判讀", "connections": []},
+      {"claim": "【與美智研究的關聯】研究關聯", "evidence": "依 CPU、能源資產、期限分解與分位數方法重疊評分。", "confidence": "medium", "source": "比較判讀", "connections": []}
+    ]
+  },
+  {
+    "id": "qvar-2026-11-05-green-bonds-sukuk-climate-risk",
+    "title": "Green bonds vs green sukuk: Can they protect against climate risks?",
+    "search_date": "2026-11-05",
+    "authors": "Mohammad Enamul Hoque; Syed Mabruk Billah; Burcu Kapar; Rafayet Alam",
+    "year": "2026",
+    "journal": "Journal of Environmental Management, 404, Article 129514",
+    "doi": "https://doi.org/10.1016/j.jenvman.2026.129514",
+    "citations": "0 次（Crossref）／1 次（OpenAlex；2026-11-05）",
+    "openalex_id": "W7151099955",
+    "openalex_url": "https://openalex.org/W7151099955",
+    "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S0301479726009746",
+    "reading_level": "摘要層級",
+    "abstract": "本文比較傳統綠色債券與綠色伊斯蘭債券（green sukuk）對實體氣候風險與轉型氣候風險的避險及安全港能力。研究以分位數對分位數 connectedness 與分位數對分位數迴歸分析 2017 年 9 月至 2023 年 12 月日資料；兩類資產均可能提供氣候風險保護，但 green sukuk 在動盪期間的避險與安全港表現較佳。",
+    "tags": [
+      "quantile-on-quantile connectedness",
+      "QVAR",
+      "quantile-on-quantile regression",
+      "green bonds",
+      "green sukuk"
+    ],
+    "topics": [
+      "氣候風險/政策",
+      "綠債/ESG",
+      "金融市場"
+    ],
+    "keywords": [
+      "physical climate risk",
+      "transition climate risk",
+      "hedge",
+      "safe haven",
+      "Islamic finance"
+    ],
+    "notes": [
+      "【閱讀層級】摘要層級；核對 Journal of Environmental Management／ScienceDirect 公開文章頁、Crossref 與 OpenAlex。公開頁提供摘要、資料與方法片段，但全文受存取限制，未繞過付費牆；OpenAlex W7151099955 顯示未撤稿。",
+      "【研究問題與動機】結構上不同的 green sukuk 與傳統綠色債券，何者能在不同實體與轉型氣候風險狀態下提供較強的避險與安全港功能？",
+      "【研究變數】實體氣候風險（PRI）、轉型氣候風險（TRI）、地區與國家層級綠色債券指數，以及依 Billah 與 Adnan（2024）方法建構的 green sukuk 指數。",
+      "【資料／市場／樣本】全球／地區綠債與 green sukuk 市場；日資料，2017-09-05 至 2023-12-20；資料來源與精確樣本量在可取得公開片段未報告。",
+      "【模型與估計】採 200 日滾動視窗、QVAR(1) 與 20 步預測期估計分位數對分位數 connectedness，並以分位數對分位數迴歸檢驗各氣候風險狀態下的避險／安全港關係。",
+      "【穩健性檢驗】可取得公開內容顯示兩種方法的結論相互印證，但未報告替代視窗、預測期、指數或樣本的正式敏感度檢驗。",
+      "【主要結果】中間分位的平均動態 QQ connectedness 很低，極端分位顯著升高。綠債與 green sukuk 均可能對 PRI、TRI 提供避險與安全港功能，但 green sukuk 尤其在動盪狀態下較佳；此處是條件連結與避險表現，不代表氣候風險對報酬的外生因果。",
+      "【作者提出的限制】可取得摘要／片段未呈現作者限制段落，故不代為補寫。",
+      "【其他限制】自建 green sukuk 指數的方法與流動性、幣別、地區組成可能影響比較；樣本涵蓋 COVID-19 等共同衝擊，且綠債與 sukuk 的期限及信用結構差異可能與氣候風險效果混合。",
+      "【APA 7】Hoque, M. E., Billah, S. M., Kapar, B., & Alam, R. (2026). Green bonds vs green sukuk: Can they protect against climate risks? Journal of Environmental Management, 404, Article 129514. https://doi.org/10.1016/j.jenvman.2026.129514",
+      "【與美智研究的關聯】5/5。實體／轉型氣候風險、綠色資產與 QQ connectedness 直接重疊，可借鏡 200 日視窗、20 步 GFEVD 與避險／安全港判定；差異是本文聚焦綠債與 green sukuk，沒有 CPU、BK 頻率分解或多資產能源系統。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {"claim": "【閱讀層級】閱讀層級與書目", "evidence": "出版社公開頁、Crossref 與 OpenAlex。", "confidence": "high", "source": "書目／摘要", "connections": []},
+      {"claim": "【研究問題與動機】研究問題與動機", "evidence": "摘要與文章 highlights。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【研究變數】變數與定義", "evidence": "公開資料與方法片段。", "confidence": "high", "source": "摘要／片段", "connections": []},
+      {"claim": "【資料／市場／樣本】資料與樣本", "evidence": "出版社 Data 片段提供日資料期間。", "confidence": "high", "source": "公開片段", "connections": []},
+      {"claim": "【模型與估計】模型與估計", "evidence": "出版社方法片段提供視窗、落後期與預測期。", "confidence": "high", "source": "公開片段", "connections": []},
+      {"claim": "【穩健性檢驗】穩健性", "evidence": "只記錄兩種方法的一致性，未推斷未公開檢驗。", "confidence": "medium", "source": "摘要／片段", "connections": []},
+      {"claim": "【主要結果】主要結果", "evidence": "摘要、結論片段與 highlights。", "confidence": "high", "source": "摘要／片段", "connections": []},
+      {"claim": "【限制】限制與因果邊界", "evidence": "作者未報告項與指數可比性限制分開記錄。", "confidence": "medium", "source": "方法判讀", "connections": []},
+      {"claim": "【與美智研究的關聯】研究關聯", "evidence": "依氣候風險、綠債與 QQ connectedness 重疊評分。", "confidence": "high", "source": "比較判讀", "connections": []}
+    ]
+  },
+  {
+    "id": "qvar-2026-11-05-crypto-oil-uncertainty",
+    "title": "Exploring the dynamics of connectedness among cryptocurrency, oil shocks, economic policy uncertainty, geopolitical risk, and the business conditions index",
+    "search_date": "2026-11-05",
+    "authors": "Shekhar Mishra; Satyaban Sahoo; Anuradha Sahu; Pallavi Mishra; Neera Jain",
+    "year": "2025",
+    "journal": "Journal of Applied Economics, 28(1), Article 2583784",
+    "doi": "https://doi.org/10.1080/15140326.2025.2583784",
+    "citations": "1 次（Crossref；OpenAlex 尚無可核對紀錄，2026-11-05）",
+    "openalex_id": "",
+    "openalex_url": "",
+    "fulltext_url": "https://www.tandfonline.com/doi/pdf/10.1080/15140326.2025.2583784",
+    "reading_level": "全文精讀",
+    "abstract": "本文以分位數時間—頻率 connectedness 分析加密貨幣指數、Ready 分解的油價風險／需求／供給衝擊、美國 EPU、全球 GPR 與 ADS 景氣指數。2017–2023 年結果顯示，加密貨幣在短期為淨接收者、長期轉為淨傳送者；油價需求與供給衝擊及 GPR 是重要衝擊來源，極端分位與 COVID-19、俄烏戰爭期間的連結較強。",
+    "tags": [
+      "QVAR",
+      "quantile time-frequency connectedness",
+      "BK frequency decomposition",
+      "oil shocks",
+      "cryptocurrency"
+    ],
+    "topics": [
+      "加密貨幣/數位金融",
+      "地緣政治/國防",
+      "能源市場",
+      "宏觀總體",
+      "金融市場"
+    ],
+    "keywords": [
+      "EPU",
+      "GPR",
+      "ADS business conditions",
+      "oil demand shock",
+      "oil supply shock"
+    ],
+    "notes": [
+      "【閱讀層級】全文精讀；核對 Taylor & Francis 出版社 PDF、Crossref 與全文資料／方法、表 1、表 2、動態圖及結論。PDF 為作者授權公開版本；OpenAlex 尚無可核對 DOI 紀錄，Crossref 無更正或撤稿關聯。",
+      "【研究問題與動機】加密貨幣與油價風險、需求、供給衝擊，以及 EPU、GPR、ADS 景氣狀態的風險傳導，是否因市場分位與投資期限而改變？",
+      "【研究變數】S&P Cryptocurrency Broad Digital Market Index；依 Ready（2018）分解的油價風險、需求、供給衝擊；美國 EPU、全球 GPR 與 Philadelphia Fed 的 ADS Business Conditions Index。",
+      "【資料／市場／樣本】全球加密與油市、美國政策與景氣；2017-03-01 至 2023-07-11，日資料。加密指數取自 Bloomberg，Brent 與油價分解所需資料取自 EIA／相關市場資料，EPU、GPR 取自 Policy Uncertainty 網站，ADS 取自 Philadelphia Fed；全文未集中報告有效樣本量。",
+      "【模型與估計】先依 Ready（2018）識別油價風險／需求／供給衝擊，再估計 QVAR 與 GFEVD connectedness，依 Chatziantoniou 等人的頻率分解比較短期（1–5 日）與長期（5 日以上）及中位、低尾、高尾狀態。",
+      "【穩健性檢驗】全文報告 ERS 單根、Jarque–Bera、Q(20) 與 Q²(20) 檢查以支持非正態與 QVAR 使用；未見替代視窗、預測期、加密指數或油價分解法的正式敏感度分析。",
+      "【主要結果】中位分位下，加密指數自身變異占 83.85%，其他變數貢獻 16.15%；油價風險、需求、供給衝擊對加密指數分別約 5.05%、4.70%、1.84%。加密貨幣總體 NET 約 −0.40%，短期 NET −2.78%、長期 NET 2.38%；油價需求衝擊為重要淨傳送者。極端分位與 2020、2022 危機期連結升高，短期通常主導。這是 connectedness，不是結構因果。",
+      "【作者提出的限制】作者未設獨立限制段落，但建議未來納入其他全球危機、政策變動與宏觀金融因素，以擴充加密市場反應分析。",
+      "【其他限制】單一綜合加密指數可能掩蓋 Bitcoin、Ethereum 等異質性；樣本終止於 2023 年，且油價、GPR、EPU 與加密市場可能受共同流動性或美元因子影響。油價衝擊的識別依賴 Ready 分解假設。",
+      "【APA 7】Mishra, S., Sahoo, S., Sahu, A., Mishra, P., & Jain, N. (2025). Exploring the dynamics of connectedness among cryptocurrency, oil shocks, economic policy uncertainty, geopolitical risk, and the business conditions index. Journal of Applied Economics, 28(1), Article 2583784. https://doi.org/10.1080/15140326.2025.2583784",
+      "【與美智研究的關聯】4/5。QVAR 加 BK 式期限分解、政策／地緣風險與能源金融傳導可作方法及危機期比較；差異是核心資產為加密貨幣，沒有氣候政策不確定性或綠色資產。可借鏡短／長期角色翻轉與油價結構衝擊分解。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {"claim": "【閱讀層級】閱讀層級與書目", "evidence": "出版社完整 PDF、Crossref 與全文核對。", "confidence": "high", "source": "全文／書目", "connections": []},
+      {"claim": "【研究問題與動機】研究問題與動機", "evidence": "全文導論與研究缺口。", "confidence": "high", "source": "全文", "connections": []},
+      {"claim": "【研究變數】變數與定義", "evidence": "全文資料章與油價衝擊分解。", "confidence": "high", "source": "全文", "connections": []},
+      {"claim": "【資料／市場／樣本】資料與樣本", "evidence": "全文第 3 節的期間、頻率與來源。", "confidence": "high", "source": "全文", "connections": []},
+      {"claim": "【模型與估計】模型與估計", "evidence": "全文第 3.2 節 QVAR 與頻率 connectedness 公式。", "confidence": "high", "source": "全文", "connections": []},
+      {"claim": "【穩健性檢驗】穩健性", "evidence": "全文表 1 的分配、定態與序列相關檢查。", "confidence": "high", "source": "全文", "connections": []},
+      {"claim": "【主要結果】主要結果", "evidence": "全文表 2、動態圖與結論的數值及方向。", "confidence": "high", "source": "全文", "connections": []},
+      {"claim": "【限制】限制與因果邊界", "evidence": "作者延伸建議與研究設計限制分開記錄。", "confidence": "medium", "source": "全文／方法判讀", "connections": []},
+      {"claim": "【與美智研究的關聯】研究關聯", "evidence": "依 QVAR、頻率分解、能源與不確定性重疊評分。", "confidence": "medium", "source": "比較判讀", "connections": []}
+    ]
+  },
+  {
+    "id": "qvar-2026-11-05-gpr-ovx-attention-commodities",
+    "title": "Quantile frequency connectedness between geopolitical risk, crude oil volatility, investor attention and commodity markets during geopolitical conflicts",
+    "search_date": "2026-11-05",
+    "authors": "Wafa Abdelmalek; Molka Khemakhem",
+    "year": "2026",
+    "journal": "Management of Environmental Quality: An International Journal, 37(7), 2091–2119",
+    "doi": "https://doi.org/10.1108/MEQ-05-2025-0369",
+    "citations": "0 次（Crossref；OpenAlex 尚無可核對紀錄，2026-11-05）",
+    "openalex_id": "",
+    "openalex_url": "",
+    "fulltext_url": "https://www.emerald.com/meq/article-abstract/37/7/2091/1367376/Quantile-frequency-connectedness-between",
+    "reading_level": "摘要層級",
+    "abstract": "本文以分位數—頻率 connectedness 分析 GPR、原油隱含波動率（OVX）、投資人注意力，以及農業、畜產品與金屬商品市場在俄烏與以巴衝突期間的風險網路。2020–2024 年結果顯示，極端分位的總連結高於中位分位，且上尾強於下尾；正常與熊市由短期連結主導，牛市則呈現較強的長期溢出。",
+    "tags": [
+      "QVAR",
+      "quantile-frequency connectedness",
+      "geopolitical risk",
+      "OVX",
+      "investor attention"
+    ],
+    "topics": [
+      "地緣政治/國防",
+      "原物料/商品",
+      "能源市場",
+      "金融市場"
+    ],
+    "keywords": [
+      "Russia-Ukraine conflict",
+      "Israel-Palestine conflict",
+      "agricultural commodities",
+      "livestock",
+      "metals"
+    ],
+    "notes": [
+      "【閱讀層級】摘要層級；核對 Emerald 正式文章頁、Crossref 與公開 JATS 摘要。全文未公開可得，未繞過存取控制；OpenAlex 尚無可核對 DOI 紀錄，Crossref 無更正或撤稿關聯。",
+      "【研究問題與動機】在近期地緣衝突中，GPR、OVX、投資人注意力與主要商品市場的風險傳導，是否同時具有市場狀態與投資期限異質性？",
+      "【研究變數】GPR、OVX、投資人注意力（IA），以及主要農業、畜產品與金屬商品市場；可取得摘要未列出所有商品名稱與 IA 的精確建構方式。",
+      "【資料／市場／樣本】全球地緣風險、原油與商品市場；2020-01 至 2024-06，涵蓋俄烏與以巴衝突；頻率、來源與樣本量在可取得摘要未報告。",
+      "【模型與估計】採 Chatziantoniou 等人（2022）的分位數—頻率 connectedness，同時比較正常、熊市、牛市及短、長期傳導。",
+      "【穩健性檢驗】可取得摘要未報告替代分位數、頻帶、視窗、注意力代理或事件期間的正式敏感度檢驗。",
+      "【主要結果】極端分位 TCI 明顯高於中位分位，上尾連結又高於下尾，顯示非對稱。正常與熊市以短期 connectedness 為主，牛市的長期溢出較強。摘要未提供個別商品淨傳送／接收者與精確 TCI 數值；不將 connectedness 解讀為因果。",
+      "【作者提出的限制】可取得摘要未提供作者限制段落，故不代為補寫。",
+      "【其他限制】樣本主要由兩場衝突與 COVID-19 後期構成，事件重疊使單一衝突效果難以分離；投資人注意力代理與商品選樣未完整公開，可能影響外部效度。",
+      "【APA 7】Abdelmalek, W., & Khemakhem, M. (2026). Quantile frequency connectedness between geopolitical risk, crude oil volatility, investor attention and commodity markets during geopolitical conflicts. Management of Environmental Quality: An International Journal, 37(7), 2091–2119. https://doi.org/10.1108/MEQ-05-2025-0369",
+      "【與美智研究的關聯】4/5。分位數—頻率 connectedness、GPR／OVX 與危機期狀態切換可作 CPU—能源金融模型的外部衝擊比較；差異是沒有氣候政策或綠色資產，且目前只能做摘要層級核對。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {"claim": "【閱讀層級】閱讀層級與書目", "evidence": "Emerald、Crossref 與公開 JATS 摘要。", "confidence": "high", "source": "書目／摘要", "connections": []},
+      {"claim": "【研究問題與動機】研究問題與動機", "evidence": "Purpose 與 originality 摘要。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【研究變數】變數與定義", "evidence": "Purpose 與 design 摘要。", "confidence": "medium", "source": "摘要", "connections": []},
+      {"claim": "【資料／市場／樣本】資料與樣本", "evidence": "公開摘要提供 2020-01 至 2024-06。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【模型與估計】模型與估計", "evidence": "Design 摘要明列分位數—頻率 connectedness。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【穩健性檢驗】穩健性", "evidence": "未公開欄位明確標記未報告。", "confidence": "medium", "source": "摘要", "connections": []},
+      {"claim": "【主要結果】主要結果", "evidence": "Findings 摘要的分位數與期限方向。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【限制】限制與因果邊界", "evidence": "作者未報告項與事件重疊限制分開記錄。", "confidence": "medium", "source": "摘要／方法判讀", "connections": []},
+      {"claim": "【與美智研究的關聯】研究關聯", "evidence": "依分位數—頻率、能源與不確定性重疊評分。", "confidence": "medium", "source": "比較判讀", "connections": []}
+    ]
+  },
+  {
+    "id": "qvar-2026-11-05-natural-gas-global-stocks",
+    "title": "Analyzing quantile and frequency connectedness between natural gas and stock markets amid turbulent times: Evidence from G7, BRICS, and Gulf countries",
+    "search_date": "2026-11-05",
+    "authors": "Dhouha Mellouli; Azza Bejaoui; Ahmed Jeribi",
+    "year": "2026",
+    "journal": "Journal of Chinese Economic and Business Studies, 24(2), 275–315",
+    "doi": "https://doi.org/10.1080/14765284.2025.2521587",
+    "citations": "5 次（Crossref；OpenAlex 尚無可核對紀錄，2026-11-05）",
+    "openalex_id": "",
+    "openalex_url": "",
+    "fulltext_url": "https://www.tandfonline.com/doi/full/10.1080/14765284.2025.2521587",
+    "reading_level": "摘要層級",
+    "abstract": "本文以分位數與頻率 connectedness 分析天然氣價格和 G7、BRICS、GCC 股市的風險傳導。總連結在尾端分位高於中位，尤其牛市上尾最強，顯示衝擊規模與方向造成非對稱；頻率分解則顯示短期 TCI 對總 TCI 的貢獻高於長期。",
+    "tags": [
+      "QVAR",
+      "quantile time-frequency connectedness",
+      "BK frequency decomposition",
+      "natural gas",
+      "global stock markets"
+    ],
+    "topics": [
+      "能源市場",
+      "金融市場",
+      "宏觀總體"
+    ],
+    "keywords": [
+      "G7",
+      "BRICS",
+      "GCC",
+      "COVID-19",
+      "Russia-Ukraine war"
+    ],
+    "notes": [
+      "【閱讀層級】摘要層級；核對 Taylor & Francis 正式摘要頁、Crossref 與 RePEc。全文需訂閱，未繞過存取控制；OpenAlex 尚無可核對 DOI 紀錄，Crossref 無更正或撤稿關聯。",
+      "【研究問題與動機】天然氣與 G7、BRICS、GCC 股市的風險連結是否在熊市、正常與牛市，以及短、長投資期限下呈現不同強度？",
+      "【研究變數】天然氣價格報酬與 G7、BRICS、GCC 國家／區域股票指數報酬；可取得摘要未列出精確指數代碼。",
+      "【資料／市場／樣本】G7、BRICS、GCC 股市與國際天然氣市場；日資料計算方式可由公開註釋確認，但資料來源、樣本起訖與有效樣本量在可取得摘要未報告。",
+      "【模型與估計】採 QVAR connectedness 比較分位狀態，再分解高頻（短期）與低頻（長期）connectedness；公開摘要未報告落後期、滾動視窗與 GFEVD 預測期。",
+      "【穩健性檢驗】可取得摘要未報告替代天然氣基準、股價指數、視窗、分位數或事件子樣本等正式穩健性檢驗。",
+      "【主要結果】尾端分位的 TCI 高於中位，且極端上尾／牛市最強，表示 connectedness 隨衝擊規模與市場方向呈非對稱。短期 TCI 對總 TCI 的貢獻高於長期；摘要未提供個別市場的 NET 或精確數值。",
+      "【作者提出的限制】可取得摘要未提供作者限制段落，故不代為補寫。",
+      "【其他限制】未公開的樣本期與天然氣基準限制可複核性；G7、BRICS、GCC 組內制度、交易時區與匯率差異可能影響連結估計，全球共同衝擊也可能同時推動氣價與股價。",
+      "【APA 7】Mellouli, D., Bejaoui, A., & Jeribi, A. (2026). Analyzing quantile and frequency connectedness between natural gas and stock markets amid turbulent times: Evidence from G7, BRICS, and Gulf countries. Journal of Chinese Economic and Business Studies, 24(2), 275–315. https://doi.org/10.1080/14765284.2025.2521587",
+      "【與美智研究的關聯】4/5。天然氣—全球股市的 QVAR 與頻率分解，可作 CPU—能源金融市場的跨區域基準；差異是沒有氣候風險／政策指標，也未納入綠色資產。可借鏡 G7、BRICS、GCC 的異質市場配置。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {"claim": "【閱讀層級】閱讀層級與書目", "evidence": "出版社摘要頁、Crossref 與 RePEc。", "confidence": "high", "source": "書目／摘要", "connections": []},
+      {"claim": "【研究問題與動機】研究問題與動機", "evidence": "作者摘要。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【研究變數】變數與定義", "evidence": "摘要明列天然氣與三組股市。", "confidence": "medium", "source": "摘要", "connections": []},
+      {"claim": "【資料／市場／樣本】資料與樣本", "evidence": "未公開欄位明確標記未報告。", "confidence": "medium", "source": "摘要", "connections": []},
+      {"claim": "【模型與估計】模型與估計", "evidence": "摘要與關鍵字的分位數／頻率 connectedness。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【穩健性檢驗】穩健性", "evidence": "未公開欄位明確標記未報告。", "confidence": "medium", "source": "摘要", "connections": []},
+      {"claim": "【主要結果】主要結果", "evidence": "摘要的尾部分位與短期主導結論。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【限制】限制與因果邊界", "evidence": "作者未報告項與跨市場可比性限制分開記錄。", "confidence": "medium", "source": "摘要／方法判讀", "connections": []},
+      {"claim": "【與美智研究的關聯】研究關聯", "evidence": "依 QVAR、頻率分解、能源與金融市場重疊評分。", "confidence": "medium", "source": "比較判讀", "connections": []}
+    ]
+  },
   {
     "id": "qvar-2026-11-04-bitcoin-energy-carbon-finr",
     "title": "Interconnected risks: Exploring the spillover affect among bitcoin, energy, and carbon markets",
