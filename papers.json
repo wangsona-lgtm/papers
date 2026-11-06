@@ -1,6 +1,6 @@
 {
-  "total": 230,
-  "updated": "2026-11-06 20:06:10",
+  "total": 234,
+  "updated": "2026-11-07 06:35:19",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,464 @@
     "金融市場"
   ],
   "papers": [
+  {
+    "id": "qvar-2026-11-07-green-bonds-china-commodities-qvar-dy",
+    "title": "A complex network analysis of risk spillover and linkage effects between green bonds and commodities under the characteristics of the Chinese market",
+    "search_date": "2026-11-07",
+    "authors": "Chunyan Jiang; Wanqi Li; Yayun Wang; Runze Ding",
+    "year": "2026",
+    "journal": "International Review of Economics & Finance, 105, Article 104891",
+    "doi": "https://doi.org/10.1016/j.iref.2026.104891",
+    "citations": "2 次（Crossref）／2 次（OpenAlex；2026-11-07）",
+    "openalex_id": "W7118123888",
+    "openalex_url": "https://openalex.org/W7118123888",
+    "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S1059056026000043",
+    "reading_level": "全文精讀",
+    "abstract": "本文以中國綠債與商品市場為核心，整合 EGARCH、wavelet coherence、QVAR-DY 與複雜網路，辨識波動、尾部與不同期限的風險傳導。結果顯示綠債的網路角色會隨市場狀態與期限改變：短期及極端下跌時較常吸收風險，長期則轉為淨傳遞者；能源、非鐵金屬、匯率與利率在不同狀態扮演關鍵傳導節點。",
+    "tags": [
+      "QVAR-DY",
+      "EGARCH",
+      "wavelet coherence",
+      "quantile connectedness",
+      "green bonds"
+    ],
+    "topics": [
+      "綠債/ESG",
+      "能源市場",
+      "原物料/商品",
+      "金融市場"
+    ],
+    "keywords": [
+      "China Green Bond Index",
+      "commodity markets",
+      "tail risk contagion",
+      "complex network",
+      "time-frequency spillovers"
+    ],
+    "notes": [
+      "【閱讀層級】全文精讀；核對 ScienceDirect 正式公開文章、Crossref 與 OpenAlex。Crossref 顯示 CC BY 4.0，OpenAlex W7118123888 顯示 is_retracted=false；全文未另存本地 PDF。",
+      "【研究問題與動機】中國綠債與商品市場的風險連結是否同時具有波動非對稱、尾部狀態依賴與期限異質性？綠色轉型是否會使綠債由短期風險承接者轉為長期風險傳遞者？",
+      "【研究變數】中國綠債指數（CGBI）、中國總商品指數及農產品、能源、牲畜、礦產、非鐵金屬、油脂、橡膠與鋼鐵等商品類別；控制人民幣兌美元匯率（AECN）、CPI（CCPI）、中國 EPU（CEPI）、地緣政治風險（CGPR）與銀行間利率（CIBR）。",
+      "【資料／市場／樣本】中國市場，2010 年 1 月至 2024 年 2 月；資料來自官方統計網站、CSMAR 與 WIND。可取得全文段落未明確交代觀測頻率與有效樣本量，故記為未報告。",
+      "【模型與估計】先以 EGARCH 擷取非對稱條件波動，再用 wavelet coherence 描繪時頻共動；於 τ=0.05、0.50、0.95 估計 QVAR-DY／GFEVD 的 FROM、TO、NET 與 TCI，並以滾動估計與複雜網路呈現動態及跨期限路徑。",
+      "【穩健性檢驗】全文報告殘差自相關與 ARCH 效果檢查、靜態與滾動 QVAR 比較、短中長期限分解、宏觀控制變數，以及補充材料中的信賴區間與模型診斷；不同方法所得方向與角色轉換相互對照。",
+      "【主要結果】極端下跌的靜態估計中，綠債 NET=-2.79%，外部風險占 92.39%，主要受非鐵金屬 10.03%、總商品 7.57% 與能源 3.75% 影響。短、中、長期 TCI 分別為 85.57%、88.45%、93.38%；綠債長期轉為淨傳遞者（NET=14.05%），匯率長期 NET=79.48%。這些是條件連結與方向性分解，不是結構因果。",
+      "【作者提出的限制】作者指出中國綠債市場仍快速演變，市場結構改變可能降低長期關係的穩定性。",
+      "【其他限制】單一中國市場與專有資料限制外部可重現性；頻率及樣本量交代不足；wavelet、滾動視窗與頻帶設定可能影響角色轉換。文中將 QVAR-DY 方向性描述為因果連結，但未提供外生識別，宜限縮為預測性或條件性傳導。",
+      "【APA 7】Jiang, C., Li, W., Wang, Y., & Ding, R. (2026). A complex network analysis of risk spillover and linkage effects between green bonds and commodities under the characteristics of the Chinese market. International Review of Economics & Finance, 105, Article 104891. https://doi.org/10.1016/j.iref.2026.104891",
+      "【與美智研究的關聯】4/5。綠色資產×商品、QVAR-DY、滾動尾部連結與多期限分解可直接借鏡美智的 time-frequency QVAR 設計；尤其可比較綠債在短長期的角色反轉。主要差異是本文未納入 CPU、TVP-VAR-SV 或明示 BK 分解，且聚焦中國商品供應鏈。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {
+        "claim": "【閱讀層級】正式公開全文與書目已核驗",
+        "evidence": "ScienceDirect、Crossref、OpenAlex W7118123888。",
+        "confidence": "high",
+        "source": "全文／書目",
+        "connections": []
+      },
+      {
+        "claim": "【研究問題與動機】綠債—商品尾部與期限角色轉換",
+        "evidence": "全文研究架構與結論。",
+        "confidence": "high",
+        "source": "全文",
+        "connections": []
+      },
+      {
+        "claim": "【研究變數】綠債、九類商品與五項宏觀風險控制",
+        "evidence": "全文資料選擇段落。",
+        "confidence": "high",
+        "source": "全文",
+        "connections": []
+      },
+      {
+        "claim": "【資料／市場／樣本】中國，2010-01 至 2024-02",
+        "evidence": "全文明列來源與期間；頻率、樣本量未明列。",
+        "confidence": "high",
+        "source": "全文",
+        "connections": []
+      },
+      {
+        "claim": "【模型與估計】EGARCH、wavelet、QVAR-DY 與複雜網路",
+        "evidence": "方法章。",
+        "confidence": "high",
+        "source": "全文",
+        "connections": []
+      },
+      {
+        "claim": "【穩健性檢驗】模型診斷、滾動估計與多期限比較",
+        "evidence": "正文與補充材料說明。",
+        "confidence": "medium",
+        "source": "全文",
+        "connections": []
+      },
+      {
+        "claim": "【主要結果】綠債由短期承接轉為長期傳遞",
+        "evidence": "短中長期 NET 與 TCI 結果。",
+        "confidence": "high",
+        "source": "全文",
+        "connections": []
+      },
+      {
+        "claim": "【限制】單一市場與方向性結果不可因果化",
+        "evidence": "作者限制與識別設計判讀。",
+        "confidence": "medium",
+        "source": "限制／方法判讀",
+        "connections": []
+      },
+      {
+        "claim": "【與美智研究的關聯】綠色資產 time-frequency QVAR",
+        "evidence": "主題、QVAR 與期限分解直接重疊。",
+        "confidence": "high",
+        "source": "比較判讀",
+        "connections": []
+      }
+    ]
+  },
+  {
+    "id": "qvar-2026-11-07-energy-sustainability-technology-etfs",
+    "title": "Dynamic Connectedness Among the Energy ETFs, Sustainability ETFs, and US Technology Sector Indices: An Application of Statistical Modelling",
+    "search_date": "2026-11-07",
+    "authors": "Bashir Ahmad Fida; Dharmendra Singh; Muhammad Naeem; Alexander Boateng",
+    "year": "2026",
+    "journal": "SAGE Open, 16(1), Article 21582440261419239",
+    "doi": "https://doi.org/10.1177/21582440261419239",
+    "citations": "0 次（Crossref）／0 次（OpenAlex；2026-11-07）",
+    "openalex_id": "W7128743584",
+    "openalex_url": "https://openalex.org/W7128743584",
+    "fulltext_url": "https://journals.sagepub.com/doi/full/10.1177/21582440261419239",
+    "reading_level": "全文精讀",
+    "abstract": "本文以能源、永續與美國科技資產檢驗跨狀態的動態風險連結，結合 QVAR 與 TVP-VAR 比較熊市、中位與牛市，以及 COVID-19 前後的傳遞角色。中位狀態由 DSI、XLK 主導，極端狀態則由傳統與部分潔淨能源 ETF 擴大風險；QCLN 在疫後的重要性上升，但其全樣本淨傳遞估計未達明確顯著。",
+    "tags": [
+      "QVAR",
+      "TVP-VAR",
+      "quantile connectedness",
+      "energy ETFs",
+      "sustainability ETFs"
+    ],
+    "topics": [
+      "潔淨能源",
+      "綠債/ESG",
+      "能源市場",
+      "AI/科技",
+      "金融市場"
+    ],
+    "keywords": [
+      "clean energy ETFs",
+      "technology stocks",
+      "systemic risk",
+      "COVID-19",
+      "tail connectedness"
+    ],
+    "notes": [
+      "【閱讀層級】全文精讀；核對 SAGE 公開 HTML／PDF、Crossref 與 OpenAlex。Crossref 顯示 CC BY-NC 4.0，OpenAlex W7128743584 顯示 is_retracted=false。",
+      "【研究問題與動機】能源 ETF、永續 ETF 與美國科技資產的傳遞者／承接者角色是否依熊市、中位與牛市而反轉，且 COVID-19 前、中、後的系統連結是否出現結構變化？",
+      "【研究變數】科技股 AAPL、GOOG、MSFT 與科技 ETF XLK；永續指數 DSI；潔淨能源 ETF ICLN、QCLN、TAN；傳統能源 ETF IYE、VDE、XLE、XOP。以各資產日報酬建立 connectedness 網路。",
+      "【資料／市場／樣本】美國市場日資料，2014 年 10 月至 2024 年 11 月，來源為 Yahoo Finance；原文未明列有效觀測筆數，故樣本量記為未報告。",
+      "【模型與估計】於 τ=0.05、0.50、0.95 估計 QVAR 與廣義 FEVD，計算 TCI、修正 TCI、TO、FROM 與 NET；另以 TVP-VAR 描繪時間變動係數，並分為疫前、COVID-19 與疫後三段。",
+      "【穩健性檢驗】替代滾動視窗、TVP-VAR、三個子樣本、結構變點比較、bootstrap NET 信賴區間，以及 Jarque–Bera、ERS 與 Ljung–Box 診斷。",
+      "【主要結果】中位數 TCI 約 78%，下尾與上尾表格分別為 90.71% 與 89.87%。DSI 與 XLK 的 NET 為 17.52 與 15.32；IYE、VDE、XLE 分別為 6.83、7.00、6.10；TAN 與 ICLN 為 -9.84、-4.33，QCLN 的 1.71 信賴區間含零。疫前、COVID-19、疫後 TCI 約為 85%、91%、84%；屬狀態依賴連結，不代表外生衝擊因果。",
+      "【作者提出的限制】原文沒有獨立限制段落；資料可得聲明稱未產生或分析資料，與正文使用 Yahoo Finance 日資料不一致，需視為報告透明度限制。",
+      "【其他限制】正文將 Pesaran–Smith 型廣義 FEVD 誤稱為 KPSS，且文字稱兩端動態 TCI 常高於 95%，與全樣本表格 89.87%／90.71% 不完全一致。ETF 與個股混合可能使規模、重疊持股與市場微結構造成共同因子；未控制 CPU 或做頻率分解。",
+      "【APA 7】Fida, B. A., Singh, D., Naeem, M., & Boateng, A. (2026). Dynamic connectedness among the energy ETFs, sustainability ETFs, and US technology sector indices: An application of statistical modelling. SAGE Open, 16(1), Article 21582440261419239. https://doi.org/10.1177/21582440261419239",
+      "【與美智研究的關聯】4/5。QVAR+TVP-VAR、潔淨／傳統能源與永續資產的尾部角色反轉，可作為美智研究的資產選擇與穩健性對照；主要差異是未納入氣候政策不確定性、TVP-VAR-SV 或 BK 頻率分解，且原文存在若干報告一致性問題。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {
+        "claim": "【閱讀層級】SAGE 正式全文已核驗",
+        "evidence": "SAGE HTML／PDF、Crossref、OpenAlex W7128743584。",
+        "confidence": "high",
+        "source": "全文／書目",
+        "connections": []
+      },
+      {
+        "claim": "【研究問題與動機】能源、永續與科技資產角色反轉",
+        "evidence": "研究問題與結論。",
+        "confidence": "high",
+        "source": "全文",
+        "connections": []
+      },
+      {
+        "claim": "【研究變數】12 項 ETF、指數與科技股",
+        "evidence": "全文資料與表格。",
+        "confidence": "high",
+        "source": "全文",
+        "connections": []
+      },
+      {
+        "claim": "【資料／市場／樣本】2014-10 至 2024-11 日資料",
+        "evidence": "Yahoo Finance 資料說明；筆數未報告。",
+        "confidence": "high",
+        "source": "全文",
+        "connections": []
+      },
+      {
+        "claim": "【模型與估計】QVAR 三分位與 TVP-VAR",
+        "evidence": "方法章與穩健性章。",
+        "confidence": "high",
+        "source": "全文",
+        "connections": []
+      },
+      {
+        "claim": "【穩健性檢驗】視窗、子樣本、TVP-VAR 與 bootstrap",
+        "evidence": "Robustness 章與 Table 5。",
+        "confidence": "high",
+        "source": "全文",
+        "connections": []
+      },
+      {
+        "claim": "【主要結果】極端狀態由能源資產主導",
+        "evidence": "分位數網路、TCI 與 NET 結果。",
+        "confidence": "high",
+        "source": "全文",
+        "connections": []
+      },
+      {
+        "claim": "【限制】資料聲明、術語與數值敘述不一致",
+        "evidence": "正文、資料可得聲明及表格交叉核對。",
+        "confidence": "high",
+        "source": "全文核對",
+        "connections": []
+      },
+      {
+        "claim": "【與美智研究的關聯】QVAR+TVP-VAR 能源永續網路",
+        "evidence": "方法與資產主題重疊。",
+        "confidence": "high",
+        "source": "比較判讀",
+        "connections": []
+      }
+    ]
+  },
+  {
+    "id": "qvar-2026-11-07-climate-policy-carbon-pricing-co2-qqc",
+    "title": "The Implications of Climate Policy, Carbon Pricing Mechanisms, and Global Energy Market Fluctuations on Global CO2: Evidence From Quantile-On-Quantile Connectedness",
+    "search_date": "2026-11-07",
+    "authors": "Murad A. Bein",
+    "year": "2026",
+    "journal": "Sustainable Development, Advance online publication, Article sd.71282",
+    "doi": "https://doi.org/10.1002/sd.71282",
+    "citations": "1 次（Crossref）／1 次（OpenAlex；2026-11-07）",
+    "openalex_id": "W7163539697",
+    "openalex_url": "https://openalex.org/W7163539697",
+    "fulltext_url": "https://onlinelibrary.wiley.com/doi/10.1002/sd.71282",
+    "reading_level": "摘要層級",
+    "abstract": "本文以 quantile-on-quantile connectedness 檢驗氣候政策不確定性、氣候關注、碳價、潔淨與傳統能源報酬及全球二氧化碳排放的雙向連結。氣候關注在各排放分位數持續傳遞衝擊，CPU 較常承接排放衝擊；平均狀態下碳價為主要傳遞者，潔淨能源多數狀態向排放傳遞資訊，但雙方同處最高分位數時角色反轉。",
+    "tags": [
+      "quantile-on-quantile connectedness",
+      "climate policy uncertainty",
+      "carbon pricing",
+      "clean energy",
+      "CO2 emissions"
+    ],
+    "topics": [
+      "氣候風險/政策",
+      "碳市場/碳交易",
+      "潔淨能源",
+      "能源市場"
+    ],
+    "keywords": [
+      "Climate Concern Index",
+      "global emissions",
+      "carbon trading",
+      "dynamic TCI",
+      "renewable energy"
+    ],
+    "notes": [
+      "【閱讀層級】摘要層級；核對 Wiley DOI、Crossref 與 OpenAlex。OpenAlex W7163539697 顯示 is_retracted=false、全文狀態 closed；未繞過付費牆。",
+      "【研究問題與動機】CPU、社會氣候關注、碳定價及潔淨／傳統能源市場如何在不同排放與資產狀態下雙向連結，哪些變數在極端狀態扮演資訊傳遞者？",
+      "【研究變數】全球二氧化碳排放、氣候政策不確定性（CPU）、氣候關注指數（CCI）、碳價、全球潔淨能源報酬與傳統能源報酬；各指標的精確代碼與建構方式在可取得摘要未報告。",
+      "【資料／市場／樣本】全球層級；資料來源、樣本期間、觀測頻率與樣本量在摘要未報告。",
+      "【模型與估計】quantile-on-quantile connectedness，同時估計直接與反向關係並比較極端及一般狀態；動態 TCI 用於對照氣候高峰會與各國再生能源立法等事件。分位數網格、視窗與預測期未報告。",
+      "【穩健性檢驗】摘要未報告替代指標、替代視窗、bootstrap 或其他正式穩健性檢驗，故不補推。",
+      "【主要結果】CCI 對全球排放的反向連結強於直接連結，且在所有排放分位數持續傳遞衝擊；CPU 呈相反角色並較常承接排放衝擊。碳價在平均狀態多為傳遞者；潔淨能源通常向排放傳遞資訊，但雙方同處最高分位數時潔淨能源轉為承接者。動態 TCI 隨氣候峰會與再生能源立法改變；均屬連結關係，不等同政策因果效果。",
+      "【作者提出的限制】可取得摘要未提供作者限制段落，故不代為補寫。",
+      "【其他限制】全球彙總排放可能遮蔽國家與產業異質性；CPU、CCI、能源報酬與排放可能共同受景氣、技術與政策事件驅動；事件附近的 TCI 變化不能單獨識別法規效果。摘要缺少樣本與估計設定，限制可重現性判斷。",
+      "【APA 7】Bein, M. A. (2026). The implications of climate policy, carbon pricing mechanisms, and global energy market fluctuations on global CO2: Evidence from quantile-on-quantile connectedness. Sustainable Development. Advance online publication. https://doi.org/10.1002/sd.71282",
+      "【與美智研究的關聯】5/5。CPU、碳價、潔淨／傳統能源與尾部雙向 connectedness 直接對應美智的氣候政策不確定性 quantile spillovers；可借鏡把 CCI 與 CO2 納入傳遞者／承接者比較。主要差異是本文未報告 TVP-VAR-SV、BK 頻率分解或金融資產網路。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {
+        "claim": "【閱讀層級】正式書目與摘要層級",
+        "evidence": "Wiley DOI、Crossref、OpenAlex W7163539697。",
+        "confidence": "high",
+        "source": "書目／摘要",
+        "connections": []
+      },
+      {
+        "claim": "【研究問題與動機】CPU、碳價、能源與排放雙向尾部連結",
+        "evidence": "Crossref 正式摘要。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【研究變數】CPU、CCI、碳價、能源報酬與 CO2",
+        "evidence": "摘要明列變數類別。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【資料／市場／樣本】全球層級，細節未報告",
+        "evidence": "摘要未列期間、頻率與樣本量。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【模型與估計】QQ connectedness 與動態 TCI",
+        "evidence": "正式摘要。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【穩健性檢驗】摘要未報告",
+        "evidence": "可取得內容未列正式檢驗。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【主要結果】CCI 傳遞、CPU 承接，碳價平均狀態傳遞",
+        "evidence": "正式摘要的方向性結果。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【限制】事件連結不可解讀為政策因果",
+        "evidence": "識別設計與資料層級判讀。",
+        "confidence": "medium",
+        "source": "方法判讀",
+        "connections": []
+      },
+      {
+        "claim": "【與美智研究的關聯】CPU×能源與碳價 QQ spillovers",
+        "evidence": "核心主題與分位數方法高度重疊。",
+        "confidence": "high",
+        "source": "比較判讀",
+        "connections": []
+      }
+    ]
+  },
+  {
+    "id": "qvar-2026-11-07-shipping-finance-commodities-time-frequency",
+    "title": "Time-Frequency Risk Connectedness in a China-Anchored Shipping–Finance–Commodity Nexus: Evidence from Major Global Stress Periods",
+    "search_date": "2026-11-07",
+    "authors": "Wenyang Wang; Yuxin Wu; Yuhua Shen; Lin Su; Jie Liu; Peng Jia",
+    "year": "2026",
+    "journal": "Transportation Research Record: Journal of the Transportation Research Board, Advance online publication, Article 03611981261491697",
+    "doi": "https://doi.org/10.1177/03611981261491697",
+    "citations": "0 次（Crossref）／0 次（OpenAlex；2026-11-07）",
+    "openalex_id": "W7225297080",
+    "openalex_url": "https://openalex.org/W7225297080",
+    "fulltext_url": "https://journals.sagepub.com/doi/10.1177/03611981261491697",
+    "reading_level": "摘要層級",
+    "abstract": "本文建立以中國為核心的航運—金融—商品網路，以頻譜 connectedness 區分短長期風險傳導，並用分位數 Granger 預測與衝擊反應補充檢驗宏觀關聯。中國金融市場較集中於短期傳導，商品市場是中介橋樑，航運指數則承接較持久的長期衝擊；COVID-19 與俄烏戰爭期間的網路配置明顯改變。",
+    "tags": [
+      "time-frequency connectedness",
+      "spectral connectedness",
+      "quantile Granger causality",
+      "shipping markets",
+      "GFEVD"
+    ],
+    "topics": [
+      "地緣政治/國防",
+      "原物料/商品",
+      "金融市場",
+      "能源市場",
+      "宏觀總體"
+    ],
+    "keywords": [
+      "dry bulk",
+      "tanker shipping",
+      "container shipping",
+      "China financial markets",
+      "global stress periods"
+    ],
+    "notes": [
+      "【閱讀層級】摘要層級；核對 SAGE DOI、Crossref 與 OpenAlex。OpenAlex W7225297080 顯示 is_retracted=false、全文狀態 closed；未繞過付費牆。",
+      "【研究問題與動機】中國金融、商品與航運市場的風險連結如何區分短期與長期？重大壓力事件是否改變網路配置，宏觀變數的預測關聯是否隨狀態而異？",
+      "【研究變數】中國股市、貨幣市場、外匯、現貨商品與商品期貨指標；乾散貨、油輪與貨櫃航運指數；補充宏觀因子涵蓋情緒、預期、工業活動、投資循環及外貿條件。各指數代碼在摘要未報告。",
+      "【資料／市場／樣本】以中國為核心的跨市場週資料，2006 至 2023 年；摘要未報告確切起訖日、資料來源與有效樣本量。",
+      "【模型與估計】VAR 型廣義預測誤差變異分解結合 spectral connectedness，區分短、長期限；另以 quantile Granger predictive tests 與 impulse responses 檢驗宏觀變數的狀態依賴預測關聯。",
+      "【穩健性檢驗】分位數 Granger 與衝擊反應作為補充方法，並比較 COVID-19、俄烏戰爭等壓力期；摘要未報告替代頻帶、替代視窗、bootstrap 或其他正式規格。",
+      "【主要結果】中國金融子市場較集中於短期傳導，商品市場扮演中介橋樑，航運指數較常承接持久的長期衝擊；COVID-19 與俄烏戰爭期間網路配置改變。情緒、預期、工業活動、投資與外貿對 spillover intensity 的預測關聯呈狀態依賴；不應寫成結構因果。",
+      "【作者提出的限制】可取得摘要未提供作者限制段落，故不代為補寫。",
+      "【其他限制】中國錨定的網路不必然外推至其他航運中心；週頻資料可能平滑事件日衝擊；spectral connectedness 本身不是 QVAR，分位數只出現在補充預測檢驗；2006–2023 樣本未涵蓋 2024 年後航運碳定價變化。",
+      "【APA 7】Wang, W., Wu, Y., Shen, Y., Su, L., Liu, J., & Jia, P. (2026). Time-frequency risk connectedness in a China-anchored shipping–finance–commodity nexus: Evidence from major global stress periods. Transportation Research Record: Journal of the Transportation Research Board. Advance online publication. https://doi.org/10.1177/03611981261491697",
+      "【與美智研究的關聯】4/5。航運×金融×商品的 time-frequency connectedness 與分位數預測檢驗，可支援美智追蹤碳價尾部衝擊×航運的資產與頻帶設計。主要差異是本文未納入氣候或碳價指標，主模型不是 QVAR／TVP-VAR-SV，也未明示 BK 分解。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {
+        "claim": "【閱讀層級】正式書目與摘要層級",
+        "evidence": "SAGE DOI、Crossref、OpenAlex W7225297080。",
+        "confidence": "high",
+        "source": "書目／摘要",
+        "connections": []
+      },
+      {
+        "claim": "【研究問題與動機】航運—金融—商品的期限異質性",
+        "evidence": "正式摘要。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【研究變數】中國金融、商品與三類航運指數",
+        "evidence": "摘要明列市場類別。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【資料／市場／樣本】2006–2023 週資料",
+        "evidence": "正式摘要；樣本量未報告。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【模型與估計】spectral connectedness、QGC 與 IRF",
+        "evidence": "正式摘要。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【穩健性檢驗】重大事件與補充預測方法",
+        "evidence": "摘要；其他規格未報告。",
+        "confidence": "medium",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【主要結果】金融短期、航運長期、商品居中",
+        "evidence": "正式摘要的方向性結論。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【限制】主模型非 QVAR，預測關係不可因果化",
+        "evidence": "模型與可取得層級判讀。",
+        "confidence": "high",
+        "source": "方法判讀",
+        "connections": []
+      },
+      {
+        "claim": "【與美智研究的關聯】航運 time-frequency 與分位數檢驗",
+        "evidence": "主題與期限方法可延伸至碳價尾部衝擊。",
+        "confidence": "high",
+        "source": "比較判讀",
+        "connections": []
+      }
+    ]
+  },
   {
     "id": "qvar-2026-11-06-climate-esg-clean-energy-qqc",
     "title": "Do climate risk and ESG sentiment predict clean energy performance? Evidence from quantile-on-quantile analysis",
