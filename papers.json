@@ -1,6 +1,6 @@
 {
-  "total": 234,
-  "updated": "2026-11-07 06:35:19",
+  "total": 235,
+  "updated": "2026-11-07 12:58:11",
   "topics": [
     "AI/科技",
     "其他",
@@ -474,6 +474,48 @@
         "source": "比較判讀",
         "connections": []
       }
+    ]
+  },
+  {
+    "id": "qvar-2026-11-07-brazilian-energy-tvp-qvar-frequency",
+    "title": "Asymmetric market connectedness and systemic risk: A novel quantile and time-frequency evidence from brazilian energy firms",
+    "search_date": "2026-11-07",
+    "authors": "Ran Wu; Ming Li; Shenglin Ma; Hongjun Zeng",
+    "year": "2026",
+    "journal": "Renewable Energy, 260, Article 125162",
+    "doi": "https://doi.org/10.1016/j.renene.2025.125162",
+    "citations": "13 次（Crossref）／13 次（OpenAlex；2026-11-07）",
+    "openalex_id": "W7117551022",
+    "openalex_url": "https://openalex.org/W7117551022",
+    "fulltext_url": "https://www.sciencedirect.com/science/article/abs/pii/S0960148125028265",
+    "reading_level": "摘要層級",
+    "abstract": "本文以巴西 13 家上市能源企業為樣本，採用 time-varying parameter quantile vector autoregression（TVP-QVAR）頻率連結架構，探討市場壓力與不同投資期限下的系統性風險傳導。摘要指出，極端下跌狀態的總連結度最高，且長期頻率連結主導傳導過程；短期頻率在下跌狀態下波動較大。",
+    "tags": ["TVP-QVAR", "quantile connectedness", "time-frequency connectedness", "energy firms", "systemic risk"],
+    "topics": ["潔淨能源", "能源市場", "金融市場"],
+    "keywords": ["Brazilian energy firms", "TVP-QVAR", "frequency connectedness", "tail risk", "systemic risk"],
+    "notes": [
+      "【閱讀層級】摘要層級；核對 ScienceDirect 正式摘要頁、Crossref 與 OpenAlex W7117551022。OpenAlex 顯示 is_retracted=false，且未提供合法公開全文連結；未繞過付費牆。",
+      "【研究問題與動機】巴西上市能源企業間的市場連結與系統性風險，是否會隨下跌、正常與上漲分位數及投資期限而改變？",
+      "【研究變數】13 家巴西上市能源企業的市場資料；其他控制變數未於可取得摘要交代。",
+      "【資料／市場／樣本】巴西能源股市場。正式摘要對樣本期間的表述不一致（文中分別出現 2021–2024 與 2015–2024）；在未取得全文前不採用其一，頻率與樣本量亦未報告。",
+      "【模型與估計】TVP-QVAR frequency connectedness；以極端下跌、正常及極端上漲狀態比較總連結度，並區分短期與長期頻率連結。",
+      "【穩健性檢驗】摘要未報告具體穩健性規格，故不作推斷。",
+      "【主要結果】摘要報告極端下跌的總連結度為 87.34%，高於正常狀態的 84.13% 與極端上漲的 73.69%；長期頻率連結主導資訊傳導，且下跌狀態的短期連結波動較大。這些是條件性連結度比較，不構成因果識別。",
+      "【作者提出的限制】可取得摘要未明列研究限制。",
+      "【其他限制】無合法公開全文，故無法核對樣本期間、資料來源、模型設定與診斷；摘要中的期間資訊彼此不一致，應待全文核對後再用於複製或比較。",
+      "【APA 7】Wu, R., Li, M., Ma, S., & Zeng, H. (2026). Asymmetric market connectedness and systemic risk: A novel quantile and time-frequency evidence from Brazilian energy firms. Renewable Energy, 260, Article 125162. https://doi.org/10.1016/j.renene.2025.125162",
+      "【與美智研究的關聯】4/5。TVP-QVAR、尾部狀態與短長期頻率連結可直接作為氣候政策不確定性—能源金融市場的對照設計；差異是本文未納入氣候風險、綠色資產或 BK 分解，且目前僅能摘要層級判讀。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {"claim": "【閱讀層級】正式書目與摘要層級", "evidence": "ScienceDirect、Crossref、OpenAlex W7117551022。", "confidence": "high", "source": "書目／摘要", "connections": []},
+      {"claim": "【研究問題與動機】巴西能源股的尾部與期限風險傳導", "evidence": "正式摘要。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【研究變數】13 家巴西上市能源企業", "evidence": "正式摘要。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【資料／市場／樣本】樣本期間待全文核對", "evidence": "摘要有兩種期間表述，未取得全文。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【模型與估計】TVP-QVAR 頻率連結", "evidence": "正式摘要。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【主要結果】下跌尾部連結最強、長期頻率主導", "evidence": "正式摘要中的 TCI 與頻率結論。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【限制】摘要期間資訊不一致且不可作因果化解讀", "evidence": "可取得摘要與方法識別判讀。", "confidence": "high", "source": "摘要／方法判讀", "connections": []},
+      {"claim": "【與美智研究的關聯】能源金融的 time-frequency QVAR 對照", "evidence": "TVP-QVAR、尾部與期限設計直接重疊。", "confidence": "high", "source": "比較判讀", "connections": []}
     ]
   },
   {
