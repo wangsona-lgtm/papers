@@ -1,6 +1,6 @@
 {
-  "total": 235,
-  "updated": "2026-11-07 12:58:11",
+  "total": 239,
+  "updated": "2026-11-08 20:12:07",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,462 @@
     "金融市場"
   ],
   "papers": [
+  {
+    "id": "qvar-2026-11-08-china-cpu-energy-spillovers-tvp-var-bk",
+    "title": "The asymmetric impact of China's climate policy uncertainty on risk spillovers among energy markets: A dual-perspective analysis from time and frequency domains",
+    "search_date": "2026-11-08",
+    "authors": "Yuchen An; Xinyu Li; Sidai Guo; Jiashan Song; Kunliang Jiang",
+    "year": "2025",
+    "journal": "Journal of Cleaner Production, 522, Article 146315",
+    "doi": "https://doi.org/10.1016/j.jclepro.2025.146315",
+    "citations": "7 次（Crossref）／7 次（OpenAlex；2026-11-08）",
+    "openalex_id": "W4413143512",
+    "openalex_url": "https://openalex.org/W4413143512",
+    "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S0959652625016658",
+    "reading_level": "摘要層級",
+    "abstract": "本文以中國八個能源市場為對象，結合 TVP-VAR-DY、TVP-VAR-BK 與雙重不對稱 GARCH-MIDAS-CPU，分析氣候政策不確定性正、負向衝擊對跨市場風險傳導及其短中長期結構的差異。結果指出碳市場為淨承接者，上海原油與潔淨能源為淨傳遞者；連結以長期成分為主，但重大事件期 CPU 負向衝擊的短期效應更強。",
+    "tags": [
+      "TVP-VAR-DY",
+      "TVP-VAR-BK",
+      "GARCH-MIDAS",
+      "climate policy uncertainty",
+      "frequency connectedness"
+    ],
+    "topics": [
+      "氣候風險/政策",
+      "潔淨能源",
+      "碳市場/碳交易",
+      "能源市場"
+    ],
+    "keywords": [
+      "China energy markets",
+      "CPU shocks",
+      "asymmetric spillovers",
+      "out-of-sample forecasting",
+      "Barunik-Krehlik decomposition"
+    ],
+    "notes": [
+      "【閱讀層級】摘要層級；核對 ScienceDirect 正式摘要頁、Crossref 與 OpenAlex W4413143512。OpenAlex 顯示 is_retracted=false、closed access；未繞過付費牆。",
+      "【研究問題與動機】中國能源市場的風險傳導是否隨時間與投資期限改變，且 CPU 的正、負向衝擊是否對連結度及其波動預測呈現雙重不對稱？",
+      "【研究變數】八個中國能源市場的風險指標與中國 CPU；正式摘要明列碳市場、上海原油與潔淨能源，其餘市場及變數定義未於可取得內容完整列出。",
+      "【資料／市場／樣本】中國能源市場；資料來源、樣本期間、觀測頻率與有效樣本量在可取得摘要中未報告。",
+      "【模型與估計】TVP-VAR-DY 衡量時域連結，TVP-VAR-BK 分解頻域風險傳導；另建立 Double Asymmetric GARCH-MIDAS-CPU（DAGM-CPU），區分 CPU 正、負向衝擊並進行樣本外波動預測。",
+      "【穩健性檢驗】正式頁面顯示另有穩健性章節，摘要並指出雙重不對稱亦獲樣本外預測支持；具體替代規格、視窗與損失函數未報告。",
+      "【主要結果】碳市場為淨承接者，上海原油與潔淨能源為淨傳遞者；動態連結主要由長期成分主導。CPU 正、負向衝擊均提高風險傳導，正向衝擊偏中長期、負向衝擊偏短期；2020–2021 與 2022–2023 重大事件期間，負向衝擊影響較強。結果屬條件性與預測性關聯。",
+      "【作者提出的限制】可取得摘要未明列作者限制。",
+      "【其他限制】摘要不足以核對八個市場、樣本設計、頻帶切點與預測評估；CPU 與市場連結可能共同受重大事件及其他不確定性驅動，TVP-VAR／GARCH-MIDAS 結果不等同外生因果。",
+      "【APA 7】An, Y., Li, X., Guo, S., Song, J., & Jiang, K. (2025). The asymmetric impact of China's climate policy uncertainty on risk spillovers among energy markets: A dual-perspective analysis from time and frequency domains. Journal of Cleaner Production, 522, Article 146315. https://doi.org/10.1016/j.jclepro.2025.146315",
+      "【與美智研究的關聯】5/5。CPU、能源金融市場、TVP-VAR-DY 與 BK 頻率分解直接重疊，可借鏡正負 CPU 衝擊、短中長期分解及樣本外預測。主要差異是本文沒有 QVAR／TVP-VAR-SV，尾部分布異質性不是核心。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {
+        "claim": "【閱讀層級】正式摘要與書目已核驗",
+        "evidence": "ScienceDirect、Crossref、OpenAlex W4413143512。",
+        "confidence": "high",
+        "source": "摘要／書目",
+        "connections": []
+      },
+      {
+        "claim": "【研究問題與動機】CPU 正負衝擊的時頻不對稱",
+        "evidence": "正式摘要與研究貢獻段落。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【研究變數】八個中國能源市場與 CPU",
+        "evidence": "正式摘要；完整市場清單未公開。",
+        "confidence": "medium",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【資料／市場／樣本】中國；期間與頻率未報告",
+        "evidence": "可取得摘要未提供樣本細節。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【模型與估計】TVP-VAR-DY／BK 與 DAGM-CPU",
+        "evidence": "摘要與方法貢獻段落。",
+        "confidence": "high",
+        "source": "摘要／方法頁",
+        "connections": []
+      },
+      {
+        "claim": "【穩健性檢驗】樣本外預測支持不對稱",
+        "evidence": "摘要；具體規格未報告。",
+        "confidence": "medium",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【主要結果】負向 CPU 在事件期的短期效應較強",
+        "evidence": "正式摘要五項主要結論。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【限制】缺乏尾部模型與外生識別",
+        "evidence": "可取得方法與識別設計判讀。",
+        "confidence": "medium",
+        "source": "方法判讀",
+        "connections": []
+      },
+      {
+        "claim": "【與美智研究的關聯】CPU×能源的 TVP-VAR-BK 核心對照",
+        "evidence": "研究主題與方法直接重疊。",
+        "confidence": "high",
+        "source": "比較判讀",
+        "connections": []
+      }
+    ]
+  },
+  {
+    "id": "qvar-2026-11-08-extreme-events-oil-green-bonds-low-carbon",
+    "title": "Extreme events and quantile time-frequency volatility connectedness across crude oil, green bonds and low-carbon equity markets",
+    "search_date": "2026-11-08",
+    "authors": "Jikai Wang; Gaoxiu Qiao",
+    "year": "2025",
+    "journal": "Research in International Business and Finance, 77, Article 102905",
+    "doi": "https://doi.org/10.1016/j.ribaf.2025.102905",
+    "citations": "7 次（Crossref）／7 次（OpenAlex；2026-11-08）",
+    "openalex_id": "W4409260502",
+    "openalex_url": "https://openalex.org/W4409260502",
+    "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S0275531925001618",
+    "reading_level": "摘要層級",
+    "abstract": "本文比較中國與國際原油、綠債及低碳股票市場的波動連結，結合時頻與分位數架構，並提出 Connectedness Survival Rate（CSR）與 Quantile Connectedness Survival Rate（QCSR）衡量網路穩定性。結果顯示極端事件會放大尾部連結，傳導結構由長期轉向短期；中國綠債與低碳股相對獨立，但長期連結一旦形成具有較高持續性。",
+    "tags": [
+      "QVAR",
+      "TVP-VAR",
+      "quantile time-frequency connectedness",
+      "green bonds",
+      "QCSR"
+    ],
+    "topics": [
+      "氣候風險/政策",
+      "綠債/ESG",
+      "潔淨能源",
+      "能源市場",
+      "金融市場"
+    ],
+    "keywords": [
+      "crude oil futures",
+      "low-carbon equity",
+      "extreme events",
+      "connectedness stability",
+      "portfolio resilience"
+    ],
+    "notes": [
+      "【閱讀層級】摘要層級；核對 ScienceDirect 正式摘要／可見方法段落、Crossref 與 OpenAlex W4409260502。OpenAlex 顯示 is_retracted=false、closed access；未繞過付費牆。",
+      "【研究問題與動機】中國及國際原油、綠債與低碳股票的波動風險如何隨時間、頻率與市場分位數傳導？極端事件是否改變連結強度、期限結構與網路穩定性？",
+      "【研究變數】中國與國際原油期貨、綠債及低碳股票指標的波動；可取得摘要未完整列出所有指數代碼與波動建構方式。",
+      "【資料／市場／樣本】中國與國際能源／綠色金融市場；資料來源、樣本期間、觀測頻率及有效樣本量在可取得摘要中未報告。",
+      "【模型與估計】以 TVP-VAR 時頻 connectedness 結合 QVAR 尾部分析，區分平均與不同分位數、短中長期傳導；另提出 CSR 與 QCSR 評估連結網路在時間與分位數下的穩定性。",
+      "【穩健性檢驗】作者以 CSR／QCSR、平均與分位數網路、不同頻帶及投資組合實驗交叉檢查經濟意義；摘要未報告替代視窗、預測期或其他診斷規格。",
+      "【主要結果】極端事件顯著提高波動連結並使尾部分位數聚集；傳導結構由長期轉向中短期。中國綠債與低碳股相對獨立，分別可能提供短期與長期避險；QCSR 指向長期連結建立較難但形成後更持久。這些結果是連結與投資組合證據，不代表因果效果。",
+      "【作者提出的限制】可取得摘要未明列作者限制。",
+      "【其他限制】無全文可核對樣本與頻帶設定；CSR／QCSR 為新指標，其臨界值、抽樣分布與跨市場可遷移性需進一步驗證；重大事件與市場制度差異可能同時驅動連結變化。",
+      "【APA 7】Wang, J., & Qiao, G. (2025). Extreme events and quantile time-frequency volatility connectedness across crude oil, green bonds and low-carbon equity markets. Research in International Business and Finance, 77, Article 102905. https://doi.org/10.1016/j.ribaf.2025.102905",
+      "【與美智研究的關聯】5/5。綠債、低碳股、原油、極端事件與 quantile time-frequency connectedness 高度重疊；CSR／QCSR 可作為美智研究檢查連結穩定性的延伸。主要差異是未直接納入 CPU 或 TVP-VAR-SV。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {
+        "claim": "【閱讀層級】正式摘要與可見方法段落已核驗",
+        "evidence": "ScienceDirect、Crossref、OpenAlex W4409260502。",
+        "confidence": "high",
+        "source": "摘要／書目",
+        "connections": []
+      },
+      {
+        "claim": "【研究問題與動機】極端事件下的尾部與期限波動傳導",
+        "evidence": "正式摘要與研究問題段落。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【研究變數】原油、綠債與低碳股票波動",
+        "evidence": "正式摘要；完整代碼未公開。",
+        "confidence": "medium",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【資料／市場／樣本】中國與國際市場；期間未報告",
+        "evidence": "可取得摘要未提供完整樣本細節。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【模型與估計】TVP-VAR 時頻、QVAR、CSR／QCSR",
+        "evidence": "正式方法段落與摘要。",
+        "confidence": "high",
+        "source": "摘要／方法頁",
+        "connections": []
+      },
+      {
+        "claim": "【穩健性檢驗】多頻帶、平均／分位數與投組檢查",
+        "evidence": "正式頁面可見貢獻與結論。",
+        "confidence": "medium",
+        "source": "摘要／結論頁",
+        "connections": []
+      },
+      {
+        "claim": "【主要結果】極端事件使連結由長期轉向短期",
+        "evidence": "正式摘要。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【限制】新穩定性指標與樣本設定仍待全文核對",
+        "evidence": "摘要可得性與方法判讀。",
+        "confidence": "medium",
+        "source": "方法判讀",
+        "connections": []
+      },
+      {
+        "claim": "【與美智研究的關聯】綠色資產 quantile time-frequency 核心文獻",
+        "evidence": "主題與方法高度重疊。",
+        "confidence": "high",
+        "source": "比較判讀",
+        "connections": []
+      }
+    ]
+  },
+  {
+    "id": "qvar-2026-11-08-fintech-china-clean-energy-time-frequency",
+    "title": "How do FinTech impact China's traditional and clean energy markets? A time-frequency quantile analysis",
+    "search_date": "2026-11-08",
+    "authors": "Bin Mo; Jiaoting Yi; Ke Yu",
+    "year": "2025",
+    "journal": "Energy, 335, Article 137809",
+    "doi": "https://doi.org/10.1016/j.energy.2025.137809",
+    "citations": "2 次（Crossref）／1 次（OpenAlex；2026-11-08）",
+    "openalex_id": "W4412982037",
+    "openalex_url": "https://openalex.org/W4412982037",
+    "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S0360544225034516",
+    "reading_level": "摘要層級",
+    "abstract": "本文分析中國 FinTech、傳統能源與潔淨能源市場的時頻溢出及跨分位數依賴。潔淨能源在短長期多為淨傳遞者，FinTech 與傳統能源多為淨承接者；短期以核能、長期以氫能的傳遞最突出，極端狀態下 FinTech 與潔淨能源、尤其核能的關係更緊密。",
+    "tags": [
+      "Barunik-Krehlik",
+      "cross-quantilogram",
+      "time-frequency spillovers",
+      "FinTech",
+      "clean energy"
+    ],
+    "topics": [
+      "AI/科技",
+      "潔淨能源",
+      "能源市場",
+      "金融市場"
+    ],
+    "keywords": [
+      "China FinTech index",
+      "traditional energy",
+      "nuclear energy",
+      "hydrogen energy",
+      "quantile dependence"
+    ],
+    "notes": [
+      "【閱讀層級】摘要層級；核對 ScienceDirect 正式摘要／可見資料與方法段落、Crossref 與 OpenAlex W4412982037。OpenAlex 顯示 is_retracted=false、closed access；未繞過付費牆。",
+      "【研究問題與動機】FinTech、傳統能源與不同潔淨能源子市場的風險傳導是否依投資期限、分位數狀態與落後期而改變？",
+      "【研究變數】中國 FinTech 指數、Oil & Gas 與 Coal 指數，以及核能、氫能、風能、太陽能等潔淨能源股票指數。",
+      "【資料／市場／樣本】中國股票指數，2018-03-13 至 2023-12-29，資料來自 WIND；可取得段落未明列觀測頻率與有效樣本量。",
+      "【模型與估計】先用 Barunik-Krehlik 時頻溢出指數衡量短長期傳導，再用 cross-quantilogram／cross-quantile dependence 比較不同分位數與落後期的依賴。本文不是標準 QVAR。",
+      "【穩健性檢驗】摘要稱主要結論通過穩健性檢查，但可取得內容未列出替代指標、視窗、頻帶或其他具體規格。",
+      "【主要結果】潔淨能源在短長期皆為主要淨傳遞者，FinTech 與傳統能源多為淨承接者；短期以核能、長期以氫能的傳遞最大。極端狀態下 FinTech 與潔淨能源的依賴增強，尤以核能最明顯，且關係會隨落後期演化。這些是時頻與分位數依賴，不構成因果識別。",
+      "【作者提出的限制】可取得摘要未明列作者限制。",
+      "【其他限制】單一中國市場與 WIND 專有資料限制重現性；cross-quantilogram 主要刻畫預測性依賴，不能直接解讀為 FinTech 對能源的結構因果；樣本涵蓋 COVID-19，事件效應可能主導結果。",
+      "【APA 7】Mo, B., Yi, J., & Yu, K. (2025). How do FinTech impact China's traditional and clean energy markets? A time-frequency quantile analysis. Energy, 335, Article 137809. https://doi.org/10.1016/j.energy.2025.137809",
+      "【與美智研究的關聯】4/5。BK 時頻分解、極端分位數與潔淨能源子市場可補強美智研究的能源／科技比較與期限異質性；差異是本文使用 cross-quantilogram 而非 QVAR、沒有 CPU 或 TVP-VAR-SV。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {
+        "claim": "【閱讀層級】正式摘要、資料與方法片段已核驗",
+        "evidence": "ScienceDirect、Crossref、OpenAlex W4412982037。",
+        "confidence": "high",
+        "source": "摘要／書目",
+        "connections": []
+      },
+      {
+        "claim": "【研究問題與動機】FinTech—能源的期限與尾部依賴",
+        "evidence": "正式摘要。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【研究變數】FinTech、傳統能源與四類潔淨能源",
+        "evidence": "正式資料段落。",
+        "confidence": "high",
+        "source": "資料頁",
+        "connections": []
+      },
+      {
+        "claim": "【資料／市場／樣本】中國 WIND，2018-03-13 至 2023-12-29",
+        "evidence": "正式資料段落；頻率與樣本量未報告。",
+        "confidence": "high",
+        "source": "資料頁",
+        "connections": []
+      },
+      {
+        "claim": "【模型與估計】BK 時頻溢出與 cross-quantilogram",
+        "evidence": "正式方法段落。",
+        "confidence": "high",
+        "source": "方法頁",
+        "connections": []
+      },
+      {
+        "claim": "【穩健性檢驗】摘要稱通過但規格未公開",
+        "evidence": "正式摘要。",
+        "confidence": "medium",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【主要結果】核能短期、氫能長期傳遞較強",
+        "evidence": "正式摘要。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【限制】單一市場與非因果依賴設計",
+        "evidence": "資料可得性與方法識別判讀。",
+        "confidence": "medium",
+        "source": "方法判讀",
+        "connections": []
+      },
+      {
+        "claim": "【與美智研究的關聯】BK×潔淨能源的期限比較",
+        "evidence": "方法與能源子市場設計重疊。",
+        "confidence": "high",
+        "source": "比較判讀",
+        "connections": []
+      }
+    ]
+  },
+  {
+    "id": "qvar-2026-11-08-clean-energy-fintech-qvar-portfolio",
+    "title": "Do clean energy stocks diversify the risk of FinTech stocks? Connectedness and portfolio implications",
+    "search_date": "2026-11-08",
+    "authors": "Irene Henriques; Perry Sadorsky",
+    "year": "2024",
+    "journal": "Global Finance Journal, 62, Article 101019",
+    "doi": "https://doi.org/10.1016/j.gfj.2024.101019",
+    "citations": "22 次（Crossref）／24 次（OpenAlex；2026-11-08）",
+    "openalex_id": "W4400807799",
+    "openalex_url": "https://openalex.org/W4400807799",
+    "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S1044028324000917",
+    "reading_level": "摘要層級",
+    "abstract": "本文以 QVAR 估計 FinTech 與太陽能、風能及核能股票的動態報酬連結與投資組合效益。尾部總連結高於中位數，COVID-19 初期造成強但短暫的連結衝擊；FinTech 對核能是淨傳遞者，而風能、太陽能與核能加入 FinTech 投組後可改善風險調整後報酬並降低回撤。",
+    "tags": [
+      "QVAR",
+      "quantile connectedness",
+      "FinTech",
+      "clean energy stocks",
+      "portfolio optimization"
+    ],
+    "topics": [
+      "AI/科技",
+      "潔淨能源",
+      "金融市場"
+    ],
+    "keywords": [
+      "solar stocks",
+      "wind stocks",
+      "nuclear stocks",
+      "minimum connectedness portfolio",
+      "COVID-19"
+    ],
+    "notes": [
+      "【閱讀層級】摘要層級；核對 RePEc 正式書目摘要、ScienceDirect 文章頁、Crossref 與 OpenAlex W4400807799。OpenAlex 顯示 is_retracted=false、closed access；未繞過付費牆。",
+      "【研究問題與動機】太陽能、風能與核能股票能否分散 FinTech 股票風險？這種分散效果是否隨市場分位數、COVID-19 與投組再平衡頻率改變？",
+      "【研究變數】FinTech 股票與太陽能、風能、核能股票報酬；投資組合比較 FinTech 單一投資及加入潔淨能源後的報酬、Sharpe ratio 與 drawdown。具體指數代碼未於摘要列出。",
+      "【資料／市場／樣本】股票市場，2016 年 9 月至 2024 年 4 月；資料來源、觀測頻率與有效樣本量在可取得摘要中未報告。",
+      "【模型與估計】以 QVAR 建立動態報酬 connectedness，對照中位與尾部分位數的 TCI／方向性角色；另建構 minimum connectedness 等投資組合，測試日、週、月再平衡。",
+      "【穩健性檢驗】以日、週、月三種投組再平衡頻率檢查績效穩健性；摘要未報告替代 QVAR 階數、視窗、預測期或其他統計診斷。",
+      "【主要結果】尾部連結高於中位數，COVID-19 初期的連結衝擊大但短暫；正常狀態下系統風險每年約增加 3.5%。FinTech 對核能為淨傳遞者，較少受風能、太陽能與核能衝擊。日再平衡 minimum connectedness portfolio 的年報酬 11%、Sharpe 0.37，高於 FinTech 單一投資的 5.4% 與 0.11，且回撤較低。結果屬條件連結與樣本內投組比較。",
+      "【作者提出的限制】可取得摘要未明列作者限制。",
+      "【其他限制】樣本涵蓋 COVID-19 且未見交易成本、可投資性與樣本外檢驗細節；再平衡頻率的比較不等同完整實際績效；QVAR 方向性不可直接解讀為結構因果。",
+      "【APA 7】Henriques, I., & Sadorsky, P. (2024). Do clean energy stocks diversify the risk of FinTech stocks? Connectedness and portfolio implications. Global Finance Journal, 62, Article 101019. https://doi.org/10.1016/j.gfj.2024.101019",
+      "【與美智研究的關聯】4/5。QVAR、潔淨能源、FinTech 與尾部連結可作為綠色資產系統的實證對照，且投組績效提供應用延伸；差異是未含 CPU、頻率分解或 TVP-VAR-SV。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {
+        "claim": "【閱讀層級】正式摘要與書目已核驗",
+        "evidence": "RePEc、ScienceDirect、Crossref、OpenAlex W4400807799。",
+        "confidence": "high",
+        "source": "摘要／書目",
+        "connections": []
+      },
+      {
+        "claim": "【研究問題與動機】潔淨能源能否分散 FinTech 尾部風險",
+        "evidence": "正式摘要。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【研究變數】FinTech 與太陽能、風能、核能股票",
+        "evidence": "正式摘要；代碼未公開。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【資料／市場／樣本】2016-09 至 2024-04",
+        "evidence": "正式摘要；來源、頻率、樣本量未報告。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【模型與估計】QVAR connectedness 與投組最佳化",
+        "evidence": "正式摘要。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【穩健性檢驗】日週月再平衡比較",
+        "evidence": "正式摘要。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【主要結果】尾部連結較高且潔淨能源改善投組績效",
+        "evidence": "正式摘要中的連結與績效數值。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【限制】交易成本與樣本外績效未明",
+        "evidence": "摘要可得性與投組設計判讀。",
+        "confidence": "medium",
+        "source": "方法判讀",
+        "connections": []
+      },
+      {
+        "claim": "【與美智研究的關聯】QVAR×潔淨能源×FinTech 對照",
+        "evidence": "方法與資產主題直接重疊。",
+        "confidence": "high",
+        "source": "比較判讀",
+        "connections": []
+      }
+    ]
+  },
   {
     "id": "qvar-2026-11-07-green-bonds-china-commodities-qvar-dy",
     "title": "A complex network analysis of risk spillover and linkage effects between green bonds and commodities under the characteristics of the Chinese market",
