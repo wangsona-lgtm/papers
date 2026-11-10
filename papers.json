@@ -1,6 +1,6 @@
 {
-  "total": 245,
-  "updated": "2026-11-09 20:01:20",
+  "total": 250,
+  "updated": "2026-11-10 20:13:22",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,304 @@
     "金融市場"
   ],
   "papers": [
+  {
+    "id": "qvar-2026-11-10-climate-attention-commodity-multilayer",
+    "title": "Valuing the Invisible: Consequences of Institutional Investors' Climate Change Attention on Commodity Multilayer Information Spillover Network Dynamics",
+    "search_date": "2026-11-10",
+    "authors": "Xinhui Chen; Liyan Han; Shanghui Jia; Jiayu Jin",
+    "year": "2026",
+    "journal": "Journal of Futures Markets, advance online publication",
+    "doi": "https://doi.org/10.1002/fut.70149",
+    "citations": "0 次（Crossref；OpenAlex 尚未收錄；2026-11-10）",
+    "openalex_id": "",
+    "openalex_url": "",
+    "fulltext_url": "https://onlinelibrary.wiley.com/doi/10.1002/fut.70149",
+    "reading_level": "摘要層級",
+    "abstract": "本文檢驗機構投資人的氣候變遷注意力如何與 27 種商品期貨的報酬、波動、短期尾部風險與長期偏態風險多層資訊溢出相連。2014–2024 年日資料顯示，化石燃料是主要風險輸出者，短期尾部風險傳導強於長期偏態風險；以兩階段滾動誤差修正程序濾除 Bloomberg 搜尋量雜訊後，氣候注意力在市場上行期與較弱尾部傳導相關，但在嚴重下跌期此穩定關聯明顯減弱。",
+    "tags": [
+      "multilayer spillover network",
+      "climate change attention",
+      "tail risk",
+      "skewness risk",
+      "commodity futures"
+    ],
+    "topics": [
+      "氣候風險/政策",
+      "能源市場",
+      "原物料/商品",
+      "金融市場"
+    ],
+    "keywords": [
+      "institutional investors",
+      "Bloomberg search volume",
+      "fossil fuels",
+      "market downturns",
+      "state-dependent transmission"
+    ],
+    "notes": [
+      "【閱讀層級】摘要層級；核對 Crossref 正式摘要、作者、DOI 與 Wiley 正式頁。Wiley 頁面觸發安全驗證，未繞過；Crossref 無更正／撤稿關係，OpenAlex 尚未收錄。",
+      "【研究問題與動機】機構投資人的氣候注意力是否改變商品期貨多層風險網路，且此關聯是否依市場上行或嚴重下跌狀態而異？",
+      "【研究變數】27 種商品期貨的報酬、波動、短期尾部風險與長期偏態風險；以 Bloomberg 搜尋量建構並去除雜訊的有效氣候注意力指數。",
+      "【資料／市場／樣本】全球商品期貨，2014–2024 年日資料，共 27 種期貨；摘要未列完整商品清單、價格資料庫、精確起訖日與有效觀測數。",
+      "【模型與估計】多層資訊溢出網路；以兩階段滾動誤差修正程序濾除 Bloomberg 搜尋量雜訊，再比較不同市場狀態下氣候注意力與風險傳導的關聯。",
+      "【穩健性檢驗】摘要未報告替代氣候注意力指標、網路估計、窗口、尾部門檻或樣本切割等穩健性檢驗。",
+      "【主要結果】化石燃料為主要風險輸出者，短期尾部風險溢出強於長期偏態風險；氣候注意力在市場上行期與較弱尾部風險傳導相關，但在嚴重下跌期此關聯顯著減弱。這是狀態依賴關聯，不宜寫成氣候注意力的外生因果效果。",
+      "【作者提出的限制】可取得摘要未列作者限制，全文未能合法讀取。",
+      "【其他限制】搜尋量仍可能混合事件強度、媒體報導與投資人反應；摘要未交代多層網路識別與反向關聯處理，商品異質性也可能使總體網路遮蔽個別市場差異。",
+      "【APA 7】Chen, X., Han, L., Jia, S., & Jin, J. (2026). Valuing the invisible: Consequences of institutional investors' climate change attention on commodity multilayer information spillover network dynamics. Journal of Futures Markets. Advance online publication. https://doi.org/10.1002/fut.70149",
+      "【與美智研究的關聯】4/5。氣候資訊、能源／商品資產、尾部與高階矩風險傳導直接互補，可借鏡多層網路及上行／下行情境比較；主要差異是本文使用氣候注意力而非 CPU，摘要未顯示 QVAR、TVP-VAR-SV 或 BK 頻率分解。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {"claim": "【閱讀層級】正式摘要已核驗", "evidence": "Crossref 正式摘要與 Wiley 書目；全文未取得。", "confidence": "high", "source": "摘要／書目", "connections": []},
+      {"claim": "【研究問題】氣候注意力與多層商品風險網路", "evidence": "正式摘要研究目的。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【研究變數】27 種商品與四層風險", "evidence": "摘要明列報酬、波動、尾部與偏態風險。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【資料】2014–2024 日資料", "evidence": "正式摘要；精確樣本量未報告。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【模型】多層網路與滾動誤差修正", "evidence": "正式摘要方法描述。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【穩健性】摘要未報告", "evidence": "不補推未公開檢驗。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【結果】下跌期穩定關聯減弱", "evidence": "正式摘要狀態依賴結果。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【限制】搜尋注意力可能內生", "evidence": "代理變數與識別判讀。", "confidence": "medium", "source": "方法判讀", "connections": []},
+      {"claim": "【關聯】可擴充美智研究的高階矩層", "evidence": "氣候資訊與尾部商品傳導重疊。", "confidence": "high", "source": "比較判讀", "connections": []}
+    ]
+  },
+  {
+    "id": "qvar-2026-11-10-eu-unemployment-quantile-frequency-network",
+    "title": "On the Network Topology of Unemployment Transmission in the European Union: A Quantile and Frequency Approach",
+    "search_date": "2026-11-10",
+    "authors": "Athanassios Stavrakoudis",
+    "year": "2026",
+    "journal": "Economies, 14(11), Article 530",
+    "doi": "https://doi.org/10.3390/economies14110530",
+    "citations": "0 次（Crossref；OpenAlex 尚未收錄；2026-11-10）",
+    "openalex_id": "",
+    "openalex_url": "",
+    "fulltext_url": "https://www.mdpi.com/2227-7099/14/11/530",
+    "reading_level": "全文精讀",
+    "abstract": "本文以 EU27 月失業率建構懲罰式 QVAR，將五個分位數與三個頻帶組合成 15 個 connectedness 網路，並以模擬評估推論可行性。2000 年 2 月至 2026 年 6 月的結果顯示，同期相關所占比重由短期向長期下降，而尾部分位的落後動態占比高於中位數；上尾連結高於中位數僅能視為探索性結果。產業相似度與雙邊貿易和邊權重相關，但 bootstrap 對水準統計量覆蓋不足、邊篩選無法控制錯誤發現，因此作者明確限制因果與精確網路排名的詮釋。",
+    "tags": [
+      "penalised QVAR",
+      "Barunik-Krehlik decomposition",
+      "quantile-frequency connectedness",
+      "network inference",
+      "EU unemployment"
+    ],
+    "topics": [
+      "宏觀總體",
+      "方法論"
+    ],
+    "keywords": [
+      "EU27",
+      "unemployment transmission",
+      "frequency bands",
+      "bootstrap coverage",
+      "false discovery rate"
+    ],
+    "notes": [
+      "【閱讀層級】全文精讀；MDPI 44 頁 CC BY 全文、Crossref DOI 與 CrossMark 均已核對。Crossref 無更正／撤稿關係，OpenAlex 尚未收錄。",
+      "【研究問題與動機】EU 成員國失業變動是否形成具分位數與期限差異的網路；哪些國家配對相連，以及產業結構、貿易、移民與距離能否解釋邊權重？",
+      "【研究變數】EU27 之 15–74 歲、季節調整失業率；方向性／總 connectedness、頻帶邊權重、同期相關與落後動態占比；產業相似度、雙邊貿易、移民與距離。",
+      "【資料／市場／樣本】Eurostat une_rt_m，EU27 月資料，2000 年 2 月至 2026 年 6 月；317 個水準觀測、316 個一階差分觀測且無缺值。基準使用 logit 後月差分，另以 25–74 歲失業率驗證。",
+      "【模型與估計】懲罰式 QVAR、GFEVD 與 BK 頻率分解，五個分位數×三頻帶形成 15 個加權有向網路；另做 recursive-residual bootstrap、跨分位數檢定、rank-score 直接係數檢定與 dyadic regression。",
+      "【穩健性檢驗】以受貿易權重限制的 global VAR 比較；19 個單一變動規格、10 個軸共 100 次估計，涵蓋預測期、落後階、年齡口徑、轉換、頻帶邊界、懲罰、樣本切割、共同因子與 0.1 個百分點報告格點擾動。",
+      "【主要結果】所有分位數下，同期相關占比由短期向長期下降，尾端落後動態占比高於中位數；上尾 connectedness 超過中位數，但估計器本身可產生部分差距，故只屬探索性。邊權重與產業相似度及雙邊貿易相關；僅德國至奧地利在 0.25 分位的直接落後一期係數獲支持，且檢定低功效。",
+      "【作者提出的限制】水準統計無可靠信賴區間，國家排名未被統計辨識；邊篩選在真實邊存在時不控制錯誤發現，極端上尾選模不穩定，尾部差異可能來自波動而非傳導，且模型不能證明預測優勢。",
+      "【其他限制】成員國以現行 EU27 身分回溯全樣本，未模型化入盟與採用歐元時點；失業率四捨五入形成格點、近月資料可修訂，差分與頻帶設定對 connectedness 水準仍有實質影響。",
+      "【APA 7】Stavrakoudis, A. (2026). On the network topology of unemployment transmission in the European Union: A quantile and frequency approach. Economies, 14(11), Article 530. https://doi.org/10.3390/economies14110530",
+      "【與美智研究的關聯】4/5。QVAR、BK 頻率分解與網路推論高度重疊，尤其可借鏡其 bootstrap 覆蓋失敗、尾中位差距偏誤與錯誤發現警告；主要差異是研究對象為失業率且無氣候風險、綠色資產或 TVP-VAR-SV。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {"claim": "【閱讀層級】CC BY 全文已精讀", "evidence": "MDPI 全文、Crossref 與 CrossMark。", "confidence": "high", "source": "全文／書目", "connections": []},
+      {"claim": "【研究問題】EU 失業的分位數—頻率網路", "evidence": "全文研究設計與四項假說。", "confidence": "high", "source": "全文", "connections": []},
+      {"claim": "【資料】EU27 共有 316 個差分月觀測", "evidence": "全文資料章節。", "confidence": "high", "source": "全文", "connections": []},
+      {"claim": "【模型】五分位×三頻帶懲罰式 QVAR", "evidence": "全文方法章節。", "confidence": "high", "source": "全文", "connections": []},
+      {"claim": "【穩健性】100 次規格與 global VAR", "evidence": "全文第 6 節。", "confidence": "high", "source": "全文", "connections": []},
+      {"claim": "【結果】尾部落後動態占比較高", "evidence": "全文結果與結論。", "confidence": "high", "source": "全文", "connections": []},
+      {"claim": "【推論】水準與邊不宜視為精確估計", "evidence": "模擬顯示覆蓋與 FDR 失敗。", "confidence": "high", "source": "全文", "connections": []},
+      {"claim": "【限制】上尾差距僅探索性", "evidence": "作者明確限制語句與選模不穩定。", "confidence": "high", "source": "全文", "connections": []},
+      {"claim": "【關聯】直接強化美智方法推論邊界", "evidence": "QVAR/BK 網路推論可直接移植。", "confidence": "high", "source": "比較判讀", "connections": []}
+    ]
+  },
+  {
+    "id": "qvar-2026-11-10-ai-bitcoin-energy-tvpvar-wavelet",
+    "title": "Conditional Integration of AI Equities with Traditional and Alternative Assets: Evidence from Wavelet Coherence and Time-Varying Connectedness",
+    "search_date": "2026-11-10",
+    "authors": "Heni Boubaker; Nadia Farjallah",
+    "year": "2026",
+    "journal": "Journal of Risk and Financial Management, 19(11), Article 907",
+    "doi": "https://doi.org/10.3390/jrfm19110907",
+    "citations": "0 次（Crossref；OpenAlex 尚未收錄；2026-11-10）",
+    "openalex_id": "",
+    "openalex_url": "",
+    "fulltext_url": "https://www.mdpi.com/1911-8074/19/11/907",
+    "reading_level": "全文精讀",
+    "abstract": "本文檢驗 AI 股票指數與 Bitcoin、黃金、WTI 及潔淨能源的時變、跨期限整合。2018 年 1 月至 2026 年 7 月的 2,120 筆共同交易日日報酬顯示，平均 TCI 為 20.23%，但 2020 年 3 月升至 53.8%；潔淨能源與 AI 指數是淨傳遞者，Bitcoin、黃金與油價為淨承接者。加入 S&P 500 後，AI 的傳遞角色多由廣泛股市曝險解釋，顯示共同市場風險比 AI 特有衝擊更重要，平時可見的分散效益在壓力期可能減弱。",
+    "tags": [
+      "TVP-VAR",
+      "wavelet coherence",
+      "time-varying Granger causality",
+      "AI equities",
+      "clean energy"
+    ],
+    "topics": [
+      "AI/科技",
+      "加密貨幣/數位金融",
+      "潔淨能源",
+      "能源市場",
+      "金融市場"
+    ],
+    "keywords": [
+      "Bitcoin",
+      "gold",
+      "WTI crude oil",
+      "market factor",
+      "portfolio diversification"
+    ],
+    "notes": [
+      "【閱讀層級】全文精讀；MDPI CC BY 全文、Crossref DOI 與完整書目均已核對。Crossref 無更正／撤稿關係，OpenAlex 尚未收錄。",
+      "【研究問題與動機】大型 AI 企業股票是否與 Bitcoin、黃金、原油與潔淨能源形成時變、跨期限的共同變動與衝擊傳導，以及這些關係能否提供壓力期分散效益？",
+      "【研究變數】等權 AI 指數（NVIDIA、Microsoft、Alphabet A、Apple）、Bitcoin、COMEX 黃金、EIA WTI 現貨與 iShares Global Clean Energy ETF；日對數報酬。",
+      "【資料／市場／樣本】Yahoo Finance、Alpha Vantage、EIA；2018-01-02 至 2026-07-07，共 2,120 筆共同交易日日報酬。Bitcoin 以 UTC 收盤，WTI 負價造成的 2020-04-20、21 兩日被排除。",
+      "【模型與估計】wavelet coherence、TVP-VAR(1) connectedness（H=10、forgetting factors 0.99）、windowed scalogram difference、FEVD 與時變 Granger causality。",
+      "【穩健性檢驗】逐一改用四支 AI 成分股、AIQ/BOTZ ETF、Brent、週資料、QQQ、S&P 500 與市場調整 AI 指數；另改 forgetting factors、H=5/20 與 VAR(2)。角色排序大致穩定，但控制廣泛股市後 AI 特有成分轉為淨承接者。",
+      "【主要結果】平均 TCI 20.23%，2020-03-16 達 53.8%；潔淨能源與 AI 指數平均為淨傳遞者，Bitcoin、黃金與 WTI 為淨承接者。AI—潔淨能源雙向溢出約 19%，但加入 S&P 500 後廣泛股市成為主導傳遞者，顯示 AI 角色多反映市場 beta 而非 AI 特有因果衝擊。",
+      "【作者提出的限制】AI 指數依樣本末市值事後選股；資產集合有限；尚未納入 quantile／time-frequency connectedness、同步盤中資料、動態避險績效與 connectedness 驅動因子的識別。",
+      "【其他限制】不同市場收盤時間可能製造日頻領先落後；共同交易日對齊與剔除 WTI 負價兩日會改變壓力期資訊，且 connectedness 主要是條件相關與變異分解，不等同結構因果。",
+      "【APA 7】Boubaker, H., & Farjallah, N. (2026). Conditional integration of AI equities with traditional and alternative assets: Evidence from wavelet coherence and time-varying connectedness. Journal of Risk and Financial Management, 19(11), Article 907. https://doi.org/10.3390/jrfm19110907",
+      "【與美智研究的關聯】4/5。潔淨能源、Bitcoin、原油與時頻動態網路可作資產層比較，並提醒控制廣泛市場因子；主要差異是本文為平均 TVP-VAR 與 wavelet coherence，未使用 QVAR、BK 或氣候政策風險。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {"claim": "【閱讀層級】CC BY 全文已精讀", "evidence": "MDPI 全文與 Crossref。", "confidence": "high", "source": "全文／書目", "connections": []},
+      {"claim": "【研究問題】AI 與另類／能源資產的條件整合", "evidence": "全文目的與研究缺口。", "confidence": "high", "source": "全文", "connections": []},
+      {"claim": "【資料】2,120 筆共同交易日日報酬", "evidence": "全文資料章節。", "confidence": "high", "source": "全文", "connections": []},
+      {"claim": "【模型】wavelet、TVP-VAR 與時變因果", "evidence": "全文方法章節。", "confidence": "high", "source": "全文", "connections": []},
+      {"claim": "【穩健性】替代資產、頻率與市場因子", "evidence": "全文第 4.9 節。", "confidence": "high", "source": "全文", "connections": []},
+      {"claim": "【結果】平均 TCI 20.23%、壓力期升高", "evidence": "全文表 3 與動態 TCI。", "confidence": "high", "source": "全文", "connections": []},
+      {"claim": "【識別】AI 傳遞角色多為市場 beta", "evidence": "加入與剔除 S&P 500 的規格。", "confidence": "high", "source": "全文", "connections": []},
+      {"claim": "【限制】非同步收盤與事後選股", "evidence": "作者資料章節與結論限制。", "confidence": "high", "source": "全文", "connections": []},
+      {"claim": "【關聯】潔淨能源網路的市場因子基準", "evidence": "與美智資產網路設計互補。", "confidence": "high", "source": "比較判讀", "connections": []}
+    ]
+  },
+  {
+    "id": "qvar-2026-11-10-china-edible-oil-tail-risk-network",
+    "title": "A Study on Tail Risk Contagion Between China’s Edible Oil Futures Market and Financial Markets: a Complex Network-Based Perspective",
+    "search_date": "2026-11-10",
+    "authors": "Tinghong Guo; Xinyong Lu; Yongjian Huang; Shenglin Ma; Qianqian Zhang",
+    "year": "2026",
+    "journal": "Computational Economics, advance online publication",
+    "doi": "https://doi.org/10.1007/s10614-026-11336-5",
+    "citations": "1 次（Crossref）；1 次（OpenAlex；2026-11-10）",
+    "openalex_id": "W7140120378",
+    "openalex_url": "https://openalex.org/W7140120378",
+    "fulltext_url": "https://link.springer.com/article/10.1007/s10614-026-11336-5",
+    "reading_level": "摘要層級",
+    "abstract": "本文從複雜網路角度檢驗中國食用油期貨與金融市場的尾部風險傳導，結合 wavelet coherence 與 quantile time-frequency volatility spillover，辨識不同衝擊強度及期限下的非線性關係。摘要顯示，極端市場狀態的溢出顯著高於正常狀態且具有不對稱性，頻域結果也呈現週期變化，說明食用油期貨面臨的金融市場風險取決於尾部狀態與投資期限。",
+    "tags": [
+      "quantile time-frequency spillover",
+      "complex network",
+      "wavelet coherence",
+      "tail risk contagion",
+      "edible oil futures"
+    ],
+    "topics": [
+      "原物料/商品",
+      "金融市場",
+      "方法論"
+    ],
+    "keywords": [
+      "China",
+      "agricultural futures",
+      "extreme market states",
+      "frequency dependence",
+      "systemic risk"
+    ],
+    "notes": [
+      "【閱讀層級】摘要層級；核對 Springer/CrossMark 書目與公開摘要、Crossref、OpenAlex。出版社全文未公開，未繞過付費牆；CrossMark 顯示文件為 current，OpenAlex 標示非撤稿。",
+      "【研究問題與動機】中國食用油期貨與金融市場的尾部風險是否隨市場狀態與投資期限改變，以及複雜網路能否辨識主要傳導路徑？",
+      "【研究變數】中國食用油期貨與金融市場之波動／尾部風險；公開摘要未列完整期貨、股匯債或其他金融市場變數名稱。",
+      "【資料／市場／樣本】中國食用油期貨與相關金融市場；公開摘要未報告資料庫、樣本期間、頻率、精確起訖日與有效觀測數。",
+      "【模型與估計】wavelet coherence、複雜網路與 quantile time-frequency volatility spillover 指數，用於比較不同衝擊幅度與頻率下的尾部傳導。",
+      "【穩健性檢驗】可取得摘要未報告替代分位數、頻帶、窗口、風險度量、變數集合或樣本切割。",
+      "【主要結果】極端市場狀態下的溢出顯著強於正常狀態，並呈不對稱與週期性；摘要指出金融市場對中國食用油期貨的尾部傳導具有分位數與期限異質性，但未提供具體方向、數值或事件期。",
+      "【作者提出的限制】可取得摘要未列作者限制。",
+      "【其他限制】金融市場與樣本設計未公開使外部效度及反向傳導難以核對；wavelet 與 quantile 網路顯示狀態依賴關聯，不足以單獨識別結構因果。",
+      "【APA 7】Guo, T., Lu, X., Huang, Y., Ma, S., & Zhang, Q. (2026). A study on tail risk contagion between China’s edible oil futures market and financial markets: A complex network-based perspective. Computational Economics. Advance online publication. https://doi.org/10.1007/s10614-026-11336-5",
+      "【與美智研究的關聯】3/5。quantile、time-frequency 與複雜網路設計可借鏡尾部和期限比較；主要差異是研究對象為食用油期貨／金融市場，摘要未顯示氣候風險、綠色資產、TVP-VAR-SV 或明確 BK 實作。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {"claim": "【閱讀層級】公開摘要已核驗", "evidence": "Springer/CrossMark、Crossref 與 OpenAlex。", "confidence": "high", "source": "摘要／書目", "connections": []},
+      {"claim": "【研究問題】食用油期貨的尾部跨市場傳導", "evidence": "正式摘要研究目的。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【變數】完整市場清單未報告", "evidence": "摘要只概括食用油期貨與金融市場。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【資料】期間、頻率與樣本量未報告", "evidence": "不補推未公開欄位。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【模型】quantile time-frequency 複雜網路", "evidence": "正式摘要。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【穩健性】摘要未報告", "evidence": "不推斷全文內容。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【結果】極端狀態溢出更強且不對稱", "evidence": "正式摘要。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【限制】市場清單不足以核對方向", "evidence": "摘要資訊邊界。", "confidence": "high", "source": "證據邊界", "connections": []},
+      {"claim": "【關聯】尾部—期限網路的商品市場對照", "evidence": "方法重疊、主題不同。", "confidence": "medium", "source": "比較判讀", "connections": []}
+    ]
+  },
+  {
+    "id": "qvar-2026-11-10-gpr-energy-chemical-tvpvar-bk",
+    "title": "Does geopolitical risks drive the extreme spillovers of bulk energy and chemical commodity",
+    "search_date": "2026-11-10",
+    "authors": "Zhang Tao; Tianzhuang Li; Yadi Chen; Xiaoyue Huang",
+    "year": "2025",
+    "journal": "PLOS One, 20(6), e0326268",
+    "doi": "https://doi.org/10.1371/journal.pone.0326268",
+    "citations": "5 次（Crossref）；9 次（OpenAlex；2026-11-10）",
+    "openalex_id": "W4411401963",
+    "openalex_url": "https://openalex.org/W4411401963",
+    "fulltext_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0326268",
+    "reading_level": "全文精讀",
+    "abstract": "本文以 TVP-VAR-DY、TVP-VAR-BK 與不對稱網路分析 2018 年 3 月至 2024 年 12 月的日資料，檢驗 GPR、Brent、WTI、INE 與中國五種化工期貨的風險傳導。總溢出為 36.51%，短、中、長頻分別為 27.53%、6.56%、2.42%；Brent 與 WTI 為主要風險傳遞者，化工市場多為承接者。負向衝擊的總溢出 37.84 高於正向衝擊 34.21，且危機期短頻風險快速上升，支持「上游主動、下游被動」但會隨市場狀態轉換的網路圖像。",
+    "tags": [
+      "TVP-VAR-BK",
+      "TVP-VAR-DY",
+      "geopolitical risk",
+      "asymmetric spillover",
+      "petrochemical network"
+    ],
+    "topics": [
+      "地緣政治/國防",
+      "能源市場",
+      "原物料/商品",
+      "金融市場"
+    ],
+    "keywords": [
+      "Brent",
+      "WTI",
+      "INE crude oil",
+      "chemical futures",
+      "negative shocks"
+    ],
+    "notes": [
+      "【閱讀層級】全文精讀；PLOS CC BY 全文、Crossref、PubMed、OpenAlex 與 2025-10-22 更正通知均已核對。更正僅撤銷四位作者的共同貢獻標示，原研究未撤稿。",
+      "【研究問題與動機】GPR、國際／中國原油與下游化工期貨是否形成具有時間、頻率與正負衝擊不對稱的風險網路，以及風險如何沿石化產業鏈傳導？",
+      "【研究變數】Caldara–Iacoviello GPR；Brent、WTI、INE 原油；瀝青、LLDPE、PP、PTA、PVC 期貨收盤價與對數報酬；TO、FROM、NET、NPT 與正負衝擊網路。",
+      "【資料／市場／樣本】Wind 與 GPR 指數；中國及國際市場日資料，2018 年 3 月至 2024 年 12 月。原文未在正文報告最終有效樣本量；附錄提供程式與資料 ZIP。",
+      "【模型與估計】Kalman filter TVP-VAR-DY、GFEVD、TVP-VAR-BK 短中長頻分解、正負風險不對稱模型與淨成對溢出複雜網路；SIC 選 VAR(1)，預測期 H=100。",
+      "【穩健性檢驗】全文先以 ADF 驗證各報酬序列定態，並同時比較靜態／動態、時域／三頻帶、正／負衝擊與網路路徑；未見替代 GPR、替代 H／落後階或子樣本的傳統穩健性表。",
+      "【主要結果】總溢出 36.51%；短、中、長頻為 27.53%、6.56%、2.42%。Brent 與 WTI 的淨溢出分別為 45.21% 與 43.37%；負向網路總溢出 37.84 高於正向的 34.21，LLDPE 在負向網路由承接者轉為傳遞者。結果描述條件性風險傳導，不宜寫成 GPR 的單向結構因果。",
+      "【作者提出的限制】未納入天然氣與煤炭；TVP-VAR 高維度下可能過度配適，作者建議未來以 Elastic Net 降維。",
+      "【其他限制】GPR 與商品價格可能共同回應未觀察全球衝擊；H=100 與頻帶切點缺少敏感度分析，產業鏈敘事也未以外生供應鏈衝擊識別。",
+      "【APA 7】Tao, Z., Li, T., Chen, Y., & Huang, X. (2025). Does geopolitical risks drive the extreme spillovers of bulk energy and chemical commodity. PLOS One, 20(6), e0326268. https://doi.org/10.1371/journal.pone.0326268",
+      "【與美智研究的關聯】4/5。TVP-VAR-BK、正負尾部／事件非對稱與能源商品網路高度可借鏡，可作 GPR 與 CPU 傳導的對照；主要差異是本文沒有 QVAR，且聚焦原油—化工產業鏈而非綠色資產。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {"claim": "【閱讀層級】PLOS 全文與更正已核驗", "evidence": "PLOS、PubMed、Crossref、OpenAlex。", "confidence": "high", "source": "全文／書目", "connections": []},
+      {"claim": "【研究問題】GPR—原油—化工時頻網路", "evidence": "全文研究設計。", "confidence": "high", "source": "全文", "connections": []},
+      {"claim": "【資料】2018-03 至 2024-12 日資料", "evidence": "全文資料章節與 Wind 說明。", "confidence": "high", "source": "全文", "connections": []},
+      {"claim": "【模型】TVP-VAR-DY/BK 與不對稱網路", "evidence": "全文方法章節。", "confidence": "high", "source": "全文", "connections": []},
+      {"claim": "【設定】VAR(1)、H=100", "evidence": "全文實證設定。", "confidence": "high", "source": "全文", "connections": []},
+      {"claim": "【結果】短頻 27.53% 主導總溢出", "evidence": "全文表 2–3。", "confidence": "high", "source": "全文", "connections": []},
+      {"claim": "【結果】負向溢出高於正向", "evidence": "37.84 對 34.21，全文表 4。", "confidence": "high", "source": "全文", "connections": []},
+      {"claim": "【限制】能源集合有限且可能過配適", "evidence": "作者結論限制段落。", "confidence": "high", "source": "全文", "connections": []},
+      {"claim": "【關聯】美智研究的 GPR/BK 對照組", "evidence": "方法相近、衝擊來源不同。", "confidence": "high", "source": "比較判讀", "connections": []}
+    ]
+  },
   {
     "id": "qvar-2026-11-09-cpu-carbon-intensive-networks-entropy",
     "title": "Does Climate Policy Uncertainty Shape Carbon-Intensive Stock Networks? Evidence from Connectedness and Entropy",
