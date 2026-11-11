@@ -1,6 +1,6 @@
 {
-  "total": 250,
-  "updated": "2026-11-10 20:13:22",
+  "total": 254,
+  "updated": "2026-11-11 20:10:37",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,244 @@
     "金融市場"
   ],
   "papers": [
+  {
+    "id": "qvar-2026-11-11-physical-climate-risk-detectability",
+    "title": "Is Physical Climate-Risk Transmission Detectable in Daily Data? Quantile Connectedness Evidence from Insurance, Reinsurance, and Climate-Vulnerable Sovereign Markets",
+    "search_date": "2026-11-11",
+    "authors": "Bashar Yaser Almansour; Seyed Amirhossein Shojaei; Jesus Cuauhtemoc Tellez Gaytan; Firas Armosh",
+    "year": "2026",
+    "journal": "Forecasting, 8(6), Article 107",
+    "doi": "https://doi.org/10.3390/forecast8060107",
+    "citations": "0 次（Crossref；OpenAlex 尚未收錄；2026-11-11）",
+    "openalex_id": "",
+    "openalex_url": "",
+    "fulltext_url": "https://www.mdpi.com/2571-9394/8/6/107",
+    "reading_level": "摘要層級",
+    "abstract": "本文檢驗日頻資料能否辨識實體氣候風險向保險、再保險、氣候脆弱主權債、房地產、農業、水資源與調適市場的傳導。2020 年 1 月至 2026 年 6 月資料的 QVAR connectedness 約為 45%–47%，但主要來自股票區塊，約五分之二可由共同市場因子解釋；排除 2020 年 3 月後，尾部放大效果消失。新聞型實體風險指數對市場與主權債下尾的解釋力不優於安慰劑，顯示日頻資料未提供強而穩定的實體氣候衝擊傳導證據，但較小或純尾部效果仍不能排除。",
+    "tags": [
+      "QVAR connectedness",
+      "physical climate risk",
+      "placebo tests",
+      "Monte Carlo power",
+      "climate-vulnerable sovereigns"
+    ],
+    "topics": [
+      "氣候風險/政策",
+      "金融市場"
+    ],
+    "keywords": [
+      "insurance",
+      "reinsurance",
+      "sovereign bonds",
+      "common market factor",
+      "tail transmission"
+    ],
+    "notes": [
+      "【閱讀層級】摘要層級；已核對 Crossref 正式摘要、MDPI 書目頁與 DOI。官方 PDF 端點回傳 403，未改試繞過方式；Crossref 無更正／撤稿關係，OpenAlex 尚未收錄。",
+      "【研究問題與動機】日頻市場資料能否辨識實體氣候風險向保險、再保險、氣候脆弱主權債及相關調適市場的傳導，或表面 connectedness 主要只是共同市場因子與危機事件？",
+      "【研究變數】新聞型實體氣候風險指數，以及保險、再保險、氣候脆弱主權債、房地產、農業、水資源與調適市場等七項公開市場序列；摘要未列各序列完整代碼。",
+      "【資料／市場／樣本】全球相關市場日資料，2020 年 1 月至 2026 年 6 月；摘要未報告精確起訖日、資料庫與有效觀測數。另做週頻、月頻與災損規格。",
+      "【模型與估計】QVAR connectedness，分位數 0.05、0.50、0.95；bias-corrected bootstrap、三組安慰劑虛無、Monte Carlo 檢定力分析、共同市場因子分解與 complementary co-exceedance test。",
+      "【穩健性檢驗】排除 2020 年 3 月崩盤、週頻、月頻、災損規格、三組安慰劑與共同因子調整；另比較 centred 與 uncentred innovation covariance，後者會機械性把尾部 connectedness 膨脹至約 81%。",
+      "【主要結果】TCI 在 0.05、0.50、0.95 分位分別為 47.0%、45.1%、47.2%；再保險為淨承接者、保險為淨傳遞者。約五分之二 connectedness 來自共同市場因子，排除 2020 年 3 月後尾部放大消失；實體風險指數對市場或主權債下尾不優於安慰劑。co-exceedance 對解釋承接者變異約 2% 以上的純尾部傳導有 86% 檢定力，較小效果仍不能排除。",
+      "【作者提出的限制】connectedness 檢定主要能辨識大型線性傳導；對小型或純尾部傳導檢定力有限，因此無顯著結果不能解讀為完全沒有實體氣候風險。",
+      "【其他限制】樣本從 2020 年開始且涵蓋疫情崩盤，共同股票曝險與代理指數量測誤差可能主導日頻結果；摘要未提供完整資產代碼、交易日對齊與模型階數。",
+      "【APA 7】Almansour, B. Y., Shojaei, S. A., Tellez Gaytan, J. C., & Armosh, F. (2026). Is physical climate-risk transmission detectable in daily data? Quantile connectedness evidence from insurance, reinsurance, and climate-vulnerable sovereign markets. Forecasting, 8(6), Article 107. https://doi.org/10.3390/forecast8060107",
+      "【與美智研究的關聯】5/5。直接檢驗氣候風險的 QVAR 尾部傳導，尤其可借鏡安慰劑、共同市場因子、檢定力分析與 covariance centering 警告；主要差異是實體氣候風險而非 CPU，且未做 BK 時頻分解或 TVP-VAR-SV。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {"claim": "【閱讀層級】正式摘要已核驗", "evidence": "Crossref 正式摘要、MDPI 書目與 DOI；全文未取得。", "confidence": "high", "source": "摘要／書目", "connections": []},
+      {"claim": "【研究問題】日頻資料能否辨識實體氣候傳導", "evidence": "正式摘要研究目的。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【資料】2020-01 至 2026-06 的七類市場序列", "evidence": "正式摘要；精確觀測數未報告。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【模型】QVAR、bootstrap、安慰劑與 power analysis", "evidence": "正式摘要方法段。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【結果】TCI 約 45%–47%", "evidence": "正式摘要報告三個分位數數值。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【識別】共同市場因子解釋約五分之二", "evidence": "正式摘要共同因子分解。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【推論】無顯著結果不等於零效果", "evidence": "Monte Carlo 與 co-exceedance 檢定力界線。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【限制】covariance centering 會改變尾部 TCI", "evidence": "正式摘要報告未中心化時約 81%。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【關聯】可直接強化美智的假傳導排除設計", "evidence": "氣候 QVAR 與安慰劑／共同因子高度重疊。", "confidence": "high", "source": "比較判讀", "connections": []}
+    ]
+  },
+  {
+    "id": "qvar-2026-11-11-china-energy-esg-gold-qtf",
+    "title": "Return Spillovers Among Conventional Energy, New Energy Subsectors, ESG Assets and Gold: A Quantile Time–Frequency Connectedness Network Approach",
+    "search_date": "2026-11-11",
+    "authors": "Rong Li; Yuhan Li; Yuxin Liu; Wanting Sun",
+    "year": "2026",
+    "journal": "International Journal of Financial Studies, 14(11), Article 301",
+    "doi": "https://doi.org/10.3390/ijfs14110301",
+    "citations": "0 次（Crossref；OpenAlex 尚未收錄；2026-11-11）",
+    "openalex_id": "",
+    "openalex_url": "",
+    "fulltext_url": "https://www.preprints.org/manuscript/202609.1975",
+    "reading_level": "摘要層級",
+    "abstract": "本文以十個中國市場曝險檢驗傳統能源、新能源子產業、ESG 與黃金的量化時頻連通性。正式版摘要報告滾動平均 TCI 在中位數為 60.406%，下尾與上尾分別升至 86.868% 與 86.664%；風電與光電具有最大中位數輸出強度，短頻帶主導基準結果。正式版的未知斷點檢定與固定日期信賴區間均未支持俄烏戰爭造成永久因果結構轉折，且投資組合結果顯示淨承接者身分本身不足以證明避險有效。",
+    "tags": [
+      "quantile time-frequency connectedness",
+      "QVAR",
+      "Barunik-Krehlik decomposition",
+      "energy transition",
+      "portfolio evaluation"
+    ],
+    "topics": [
+      "潔淨能源",
+      "能源市場",
+      "綠債/ESG",
+      "原物料/商品",
+      "金融市場"
+    ],
+    "keywords": [
+      "China",
+      "wind power",
+      "photovoltaics",
+      "gold ETF",
+      "Russia-Ukraine conflict"
+    ],
+    "notes": [
+      "【閱讀層級】摘要層級；以 Crossref 正式版摘要為結論依據，並核對公開預印本 v1 的資料與方法。正式 MDPI 全文未能取得；預印本對俄烏戰爭的結構轉折敘述與正式摘要不同，故以正式摘要較保守結論為準。Crossref 無更正／撤稿關係，OpenAlex 尚未收錄。",
+      "【研究問題與動機】傳統能源、新能源五個子產業、ESG 與黃金在正常及上下尾市場中如何傳遞風險；不同頻帶的角色是否切換，以及俄烏戰爭是否造成永久的 connectedness 結構轉折？",
+      "【研究變數】正式摘要為十個中國市場曝險；公開預印本 v1 列出華證 ESG、煤炭、天然氣、風電、光電、水電、核電、新能源車、CSI 新能源綜合指數與華安黃金 ETF 的日對數報酬。",
+      "【資料／市場／樣本】公開預印本 v1 報告中國市場 2019-04-01 至 2026-04-03，共 1,702 筆交易日日報酬；正式摘要未重述起訖日與樣本量，正式版全文仍待核對。",
+      "【模型與估計】QVAR 與 Chatziantoniou 等人的 quantile time-frequency connectedness／BK 型頻譜分解，分位數 0.05、0.50、0.95，搭配複雜網路、滾動 connectedness、未知斷點檢定與固定日期信賴區間；另做 1,500 個日期的投資組合評估。",
+      "【穩健性檢驗】正式摘要報告未知斷點與固定日期檢定，以及替代黃金代理下的投資組合敏感性；公開預印本 v1 另比較 100、200、300 日滾動窗口，但其全文結果未必等同正式版。",
+      "【主要結果】正式版滾動平均 TCI 在中位數為 60.406%，下尾與上尾分別為 86.868% 與 86.664%；風電與光電有最大中位數輸出強度，短頻帶主導且下尾長頻占比較高。未知斷點檢定未拒絕常數平均，固定日期信賴區間含零，因此不能把俄烏戰爭寫成永久因果結構轉折；最小變異投資組合可降低實現變異，但結果依黃金代理而變。",
+      "【作者提出的限制】正式摘要明確指出結果受共同曝險、資料前處理與工具／資產代理驗證限制；淨承接者位置不等同實際避險效果。公開預印本另承認樣本涵蓋與波動度計算仍有不確定性。",
+      "【其他限制】預印本 v1 曾宣稱俄烏戰爭造成不可逆結構上移，但正式摘要的斷點檢定不支持此因果敘述；版本差異顯示正式全文未取得前，不能沿用預印本的強結論或政策建議。",
+      "【APA 7】Li, R., Li, Y., Liu, Y., & Sun, W. (2026). Return spillovers among conventional energy, new energy subsectors, ESG assets and gold: A quantile time–frequency connectedness network approach. International Journal of Financial Studies, 14(11), Article 301. https://doi.org/10.3390/ijfs14110301",
+      "【與美智研究的關聯】5/5。QVAR、BK 型頻率分解、極端分位與能源／ESG 網路高度重疊；尤其可借鏡正式版對結構轉折與避險詮釋的保守檢定。主要差異是沒有 CPU／實體或轉型氣候風險指數，也未使用 TVP-VAR-SV。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {"claim": "【閱讀層級】正式摘要加預印本交叉核對", "evidence": "Crossref 正式摘要優先；預印本 v1 僅補資料與方法。", "confidence": "high", "source": "摘要／公開預印本", "connections": []},
+      {"claim": "【研究問題】能源轉型資產的分位數—頻率網路", "evidence": "正式摘要與預印本研究目的。", "confidence": "high", "source": "摘要／預印本", "connections": []},
+      {"claim": "【資料】十個中國市場曝險", "evidence": "正式摘要；細項來自預印本 v1。", "confidence": "medium", "source": "摘要／預印本", "connections": []},
+      {"claim": "【樣本】預印本為 1,702 筆日資料", "evidence": "預印本資料章節；正式版待核。", "confidence": "medium", "source": "預印本", "connections": []},
+      {"claim": "【模型】QVAR 與量化時頻 connectedness", "evidence": "正式摘要與預印本方法章節。", "confidence": "high", "source": "摘要／預印本", "connections": []},
+      {"claim": "【結果】尾部 TCI 約 86.7%–86.9%", "evidence": "Crossref 正式摘要明列數值。", "confidence": "high", "source": "正式摘要", "connections": []},
+      {"claim": "【識別】未證成俄烏戰爭永久因果轉折", "evidence": "正式摘要的未知斷點與固定日期檢定。", "confidence": "high", "source": "正式摘要", "connections": []},
+      {"claim": "【版本衝突】預印本強結論已被正式摘要收斂", "evidence": "預印本宣稱不可逆上移；正式摘要檢定不拒絕。", "confidence": "high", "source": "版本比較", "connections": []},
+      {"claim": "【關聯】可作美智時頻 QVAR 的事件檢定範本", "evidence": "方法高度重疊且示範避免因果過度解讀。", "confidence": "high", "source": "比較判讀", "connections": []}
+    ]
+  },
+  {
+    "id": "qvar-2026-11-11-green-bonds-g8-multiscale",
+    "title": "Multi-scale quantile connectedness effects between green bonds and G8 countries’ financial markets",
+    "search_date": "2026-11-11",
+    "authors": "Guoqin Zhao; Yuhao Li; Hangda Li; Xin Xu",
+    "year": "2026",
+    "journal": "Applied Economics, advance online publication, 1–28",
+    "doi": "https://doi.org/10.1080/00036846.2026.2706689",
+    "citations": "0 次（Crossref；OpenAlex 尚未收錄；2026-11-11）",
+    "openalex_id": "",
+    "openalex_url": "",
+    "fulltext_url": "https://www.tandfonline.com/doi/full/10.1080/00036846.2026.2706689",
+    "reading_level": "摘要層級",
+    "abstract": "本文以 2015–2025 年日資料分析綠債與 G8 金融市場的狀態、時間與期限差異，結合 TVP-QVAR connectedness 與 wavelet 分析。極端分位數下連通性最強，綠債多數時間為淨風險承接者，但在疫情期間暫時轉為傳遞者；歐洲股市是主要系統性傳遞者。中頻共動占優勢，而疫情後長期 coherence 減弱，顯示綠債的分散與避險功能依市場狀態和投資期限而定。",
+    "tags": [
+      "TVP-QVAR",
+      "wavelet coherence",
+      "green bonds",
+      "G8 markets",
+      "multi-scale connectedness"
+    ],
+    "topics": [
+      "綠債/ESG",
+      "金融市場"
+    ],
+    "keywords": [
+      "COVID-19",
+      "safe haven",
+      "European equities",
+      "market states",
+      "investment horizons"
+    ],
+    "notes": [
+      "【閱讀層級】摘要層級；已核對 Crossref 作者、DOI、頁碼與 Taylor & Francis 正式摘要。出版商頁面回傳 403，未繞過；Crossref 無更正／撤稿關係，OpenAlex 尚未收錄。",
+      "【研究問題與動機】綠債與 G8 金融市場的風險連通性是否隨熊市、常態、牛市、時間與投資期限改變，以及疫情前後綠債的分散與避險角色是否穩定？",
+      "【研究變數】綠債與 G8 國家金融市場日報酬；摘要明列歐洲股市的重要性，但未逐一列出所有市場指數與資料代碼。",
+      "【資料／市場／樣本】G8 市場，2015–2025 年日資料；摘要未報告精確起訖日、來源與有效觀測數。",
+      "【模型與估計】TVP-QVAR connectedness 衡量分位數與時間差異，搭配 wavelet-based analysis／wavelet coherence 分析多尺度共動與疫情前後變化。",
+      "【穩健性檢驗】摘要呈現 TVP-QVAR 與 wavelet 兩種互補方法及疫情前後比較，但未報告替代綠債指數、窗口、預測期或 bootstrap 等穩健性設定。",
+      "【主要結果】極端分位數 connectedness 最強；綠債通常為淨承接者，疫情期間短暫轉為傳遞者，歐洲股市為主要系統性傳遞者。中頻共動主導，疫情後長期 coherence 減弱，因此綠債分散與避險功能具有狀態與期限條件。",
+      "【作者提出的限制】可取得摘要未列作者限制，全文未能合法讀取。",
+      "【其他限制】G8 範圍與資產代表指數未在摘要完整揭露；TVP-QVAR 與 wavelet 的頻帶定義、模型階數與因果識別不足，疫情分段也可能混入其他同步政策與流動性衝擊。",
+      "【APA 7】Zhao, G., Li, Y., Li, H., & Xu, X. (2026). Multi-scale quantile connectedness effects between green bonds and G8 countries’ financial markets. Applied Economics, 1–28. Advance online publication. https://doi.org/10.1080/00036846.2026.2706689",
+      "【與美智研究的關聯】4/5。綠債、極端分位、TVP-QVAR 與多尺度分析高度重疊，可借鏡綠債由承接者轉為傳遞者的情境比較；主要差異是未直接納入 CPU／氣候風險，也不是 BK 分解或 TVP-VAR-SV。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {"claim": "【閱讀層級】正式摘要已核驗", "evidence": "Taylor & Francis 摘要與 Crossref 書目。", "confidence": "high", "source": "摘要／書目", "connections": []},
+      {"claim": "【研究問題】綠債與 G8 的多尺度風險網路", "evidence": "正式摘要研究目的。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【資料】2015–2025 年日資料", "evidence": "正式摘要；精確樣本量未報告。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【模型】TVP-QVAR 與 wavelet", "evidence": "正式摘要方法描述。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【結果】極端分位連通性最強", "evidence": "正式摘要。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【角色】綠債疫情期間短暫轉為傳遞者", "evidence": "正式摘要方向性結果。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【頻率】中頻共動主導", "evidence": "正式摘要 wavelet 結果。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【限制】避險功能具條件性", "evidence": "狀態與期限異質性，不能概括為固定安全港。", "confidence": "high", "source": "摘要判讀", "connections": []},
+      {"claim": "【關聯】可比較美智綠色資產的角色切換", "evidence": "綠債、TVP-QVAR 與極端分位重疊。", "confidence": "high", "source": "比較判讀", "connections": []}
+    ]
+  },
+  {
+    "id": "qvar-2026-11-11-g7-cpu-esg-green-bond-qfc",
+    "title": "Multiscale connectedness between stocks, energy, and green bonds under economic and climate policy uncertainty: evidence from the G7",
+    "search_date": "2026-11-11",
+    "authors": "Houssem Eddine Belghouthi; Adel Boubaker",
+    "year": "2026",
+    "journal": "Economic Change and Restructuring, 59(4), Article 85, 1–52",
+    "doi": "https://doi.org/10.1007/s10644-026-10042-4",
+    "citations": "2 次（Crossref／OpenAlex；2026-11-11）",
+    "openalex_id": "W7167886868",
+    "openalex_url": "https://openalex.org/W7167886868",
+    "fulltext_url": "https://link.springer.com/article/10.1007/s10644-026-10042-4",
+    "reading_level": "摘要層級",
+    "abstract": "本文檢驗 G7 股市、原油、潔淨能源與綠債在全球經濟政策不確定性、氣候政策不確定性與 ESG 不確定性下的量化頻率連通性。2015 年 8 月 3 日至 2025 年 8 月 20 日資料顯示，極端熊市與牛市的 connectedness 顯著升高且以短期為主；歐洲與日本股市常為淨傳遞者，美國、加拿大、原油、潔淨能源與綠債多為淨承接者，但危機期角色會反轉。CPU 與 ESG 不確定性對連通性的放大作用強於全球 EPU，WQC 則顯示長期依賴強於短期。",
+    "tags": [
+      "quantile-frequency connectedness",
+      "wavelet quantile correlation",
+      "climate policy uncertainty",
+      "green bonds",
+      "G7 markets"
+    ],
+    "topics": [
+      "氣候風險/政策",
+      "潔淨能源",
+      "能源市場",
+      "綠債/ESG",
+      "金融市場"
+    ],
+    "keywords": [
+      "ESG uncertainty",
+      "global economic policy uncertainty",
+      "quantile causality",
+      "quantile-on-quantile regression",
+      "WilderHill"
+    ],
+    "notes": [
+      "【閱讀層級】摘要層級；已核對 RePEc 公開摘要、Crossref、Springer DOI 與 OpenAlex W7167886868。全文受限，未繞過；OpenAlex 標示非撤稿，Crossref 無更正／撤稿關係。",
+      "【研究問題與動機】G7 股市、原油、潔淨能源與綠債的跨市場 connectedness 如何隨分位數與期限改變，以及 GEPU、CPU 與 ESG 不確定性何者更能放大這些傳導？",
+      "【研究變數】G7 股市、原油、WilderHill 潔淨能源與綠債資產，以及全球 EPU、氣候政策不確定性與 ESG-based sustainability uncertainty；摘要未列所有指數代碼與資料庫。",
+      "【資料／市場／樣本】G7 市場，2015-08-03 至 2025-08-20；摘要未報告頻率與有效觀測數，依研究描述推定為市場價格序列，但不補寫未明示欄位。",
+      "【模型與估計】quantile-frequency connectedness、wavelet quantile correlation（WQC）、non-parametric quantile causality 與 quantile-on-quantile regression（QQR）。",
+      "【穩健性檢驗】以 WQC、非參數分位數因果與 QQR 交叉檢查 connectedness 結果；摘要未報告替代指數、窗口、頻帶界線或 bootstrap 細節。",
+      "【主要結果】極端熊市與牛市 connectedness 顯著高於常態且主要集中短期；歐洲與日本股市常為淨傳遞者，美國、加拿大、原油、潔淨能源與綠債多為淨承接者，但危機期會反轉。WQC 顯示長期依賴強於短期；CPU 與 ESG 不確定性的放大作用強於全球 EPU，WilderHill 與加拿大在分位數因果網路中為重要雙向節點。",
+      "【作者提出的限制】可取得摘要未列作者限制，全文受限。",
+      "【其他限制】多種不確定性指數可能共同反映危機新聞與市場壓力，connectedness 與 QQR 不能自行建立結構因果；市場角色反轉也可能對頻帶、窗口與資產代理敏感。",
+      "【APA 7】Belghouthi, H. E., & Boubaker, A. (2026). Multiscale connectedness between stocks, energy, and green bonds under economic and climate policy uncertainty: Evidence from the G7. Economic Change and Restructuring, 59(4), Article 85, 1–52. https://doi.org/10.1007/s10644-026-10042-4",
+      "【與美智研究的關聯】5/5。CPU、潔淨能源、綠債、quantile-frequency connectedness 與 WQC 幾乎直接對應美智主題，可借鏡三種不確定性比較與角色反轉；主要差異是摘要未顯示 TVP-VAR-SV，且頻率分解的具體估計細節尚待全文。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {"claim": "【閱讀層級】公開摘要已核驗", "evidence": "RePEc 摘要、Crossref、Springer DOI 與 OpenAlex。", "confidence": "high", "source": "摘要／書目", "connections": []},
+      {"claim": "【研究問題】CPU 與 ESGU 下的 G7 多尺度傳導", "evidence": "公開摘要研究目的。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【資料】2015-08-03 至 2025-08-20", "evidence": "RePEc 摘要；頻率與 n 未報告。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【模型】量化頻率、WQC、分位數因果與 QQR", "evidence": "公開摘要方法描述。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【結果】極端狀態且短期 connectedness 較強", "evidence": "公開摘要。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【方向】歐洲與日本常為淨傳遞者", "evidence": "公開摘要方向性結果。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【不確定性】CPU 與 ESGU 強於 GEPU", "evidence": "公開摘要比較結果。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【限制】關聯與分位數因果不等同外生因果", "evidence": "方法識別判讀。", "confidence": "medium", "source": "方法判讀", "connections": []},
+      {"claim": "【關聯】直接對應美智的 CPU—綠色資產時頻框架", "evidence": "主題、資產與方法高度重疊。", "confidence": "high", "source": "比較判讀", "connections": []}
+    ]
+  },
   {
     "id": "qvar-2026-11-10-climate-attention-commodity-multilayer",
     "title": "Valuing the Invisible: Consequences of Institutional Investors' Climate Change Attention on Commodity Multilayer Information Spillover Network Dynamics",
