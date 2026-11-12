@@ -1,6 +1,6 @@
 {
-  "total": 254,
-  "updated": "2026-11-11 20:10:37",
+  "total": 259,
+  "updated": "2026-11-12 20:14:26",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,305 @@
     "金融市場"
   ],
   "papers": [
+  {
+    "id": "qvar-2026-11-12-climate-risk-brown-green-equity",
+    "title": "Climate Risk Transmission Across Brown and Green Energy Equity Markets During the Energy Transition",
+    "search_date": "2026-11-12",
+    "authors": "Shigeyuki Hamori",
+    "year": "2026",
+    "journal": "Energies, 19(17), Article 4095",
+    "doi": "https://doi.org/10.3390/en19174095",
+    "citations": "0 次（Crossref；OpenAlex 尚未收錄；2026-11-12）",
+    "openalex_id": "",
+    "openalex_url": "",
+    "fulltext_url": "https://www.mdpi.com/1996-1073/19/17/4095",
+    "reading_level": "全文精讀",
+    "abstract": "本文以棕色與綠色能源 ETF 檢驗市場狀態、投資期限及氣候風險如何共同形塑報酬連通性。六檔 ETF 的全樣本 TCI 為 70.26%，上下尾連通性均高於中位數；下尾的長期成分更重要。控制 VIX、S&P 500 報酬與 WTI 變動後，實體氣候風險創新與次日總連通性變化呈負相關，轉型風險創新則與短期連通性變化呈正相關；作者明確將結果界定為條件關聯而非因果效果。",
+    "tags": [
+      "quantile-frequency connectedness",
+      "QVAR",
+      "Barunik-Krehlik decomposition",
+      "physical climate risk",
+      "transition risk"
+    ],
+    "topics": [
+      "氣候風險/政策",
+      "潔淨能源",
+      "能源市場",
+      "金融市場"
+    ],
+    "keywords": [
+      "brown energy ETFs",
+      "green energy ETFs",
+      "TRI",
+      "PRI",
+      "horizon-specific connectedness"
+    ],
+    "notes": [
+      "【閱讀層級】全文精讀；已核對 MDPI 正式全文、Crossref 書目與 DOI。Crossref 無更正／撤稿關係；OpenAlex 於 2026-11-12 尚未收錄。",
+      "【研究問題與動機】棕色與綠色能源股票之風險傳遞是否隨市場分位數與投資期限改變，且轉型風險與實體氣候風險創新是否對不同期限的 connectedness 具有不同條件關聯？",
+      "【研究變數】棕色能源 ETF：XLE、IXC、VDE；綠色能源 ETF：ICLN、TAN、PBW；氣候變數為 Bua 等人的 Transition Risk Index 與 Physical Risk Index，控制 VIX、S&P 500 報酬及 WTI 價格變動。",
+      "【資料／市場／樣本】Yahoo Finance 日調整收盤價；六檔 ETF 共同樣本為 2015-01-05 至 2024-12-30，共 2,514 筆。200 日滾動 connectedness 為 2,316 筆；最終氣候風險迴歸為 2,300 筆。",
+      "【模型與估計】Diebold–Yilmaz GFEVD、QVAR connectedness、Baruník–Křehlík 型頻率分解、200 日滾動估計，以及以 connectedness 日變動為應變數的 OLS；氣候風險與控制變數皆落後一交易日，推論採 Newey–West HAC。",
+      "【穩健性檢驗】替代 HAC 頻寬 5／20／50／100／199 日、移除高 studentized residual、排除 2020 年 3–4 月、1%／99% winsorization、分開放入 TRI／PRI、落後應變數與替代五日頻率切點。",
+      "【主要結果】全樣本 TCI 為 70.26%；三檔棕色能源 ETF 為淨傳遞者、三檔綠色 ETF 為淨承接者。尾部 connectedness 高於中位數，下尾的長期成分尤其突出。PRI 對次日總 connectedness 變化係數為 −0.513（p=0.029），TRI 對短期 connectedness 為正；PRI 結果在移除影響值後不再顯著，故證據並非對所有處理都穩健。",
+      "【作者提出的限制】只涵蓋六檔 ETF；氣候風險迴歸為 reduced-form predictive specification，不能建立因果；尚未處理國別制度與能源結構異質性。",
+      "【其他限制】200 日重疊窗口造成機械性序列依賴，雖以 HAC 與 connectedness 日變動處理，仍可能壓縮有效資訊；PRI 負向係數對影響值敏感，且 ETF 代表性不等同完整棕綠資產宇宙。",
+      "【APA 7】Hamori, S. (2026). Climate risk transmission across brown and green energy equity markets during the energy transition. Energies, 19(17), Article 4095. https://doi.org/10.3390/en19174095",
+      "【與美智研究的關聯】5/5。直接結合氣候實體／轉型風險、QVAR 與 BK 型頻率分解，並以風險創新解釋 connectedness；可借鏡樣本對齊、滾動窗口重疊的 HAC 推論及因果邊界。主要差異是 ETF 棕綠能源系統，未採 TVP-VAR-SV，氣候變數亦非 CPU。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {"claim": "【閱讀層級】正式全文已核驗", "evidence": "MDPI 正式全文、Crossref 與 DOI 均已核對。", "confidence": "high", "source": "全文／書目", "connections": []},
+      {"claim": "【資料】六檔 ETF 共 2,514 筆日資料", "evidence": "正文資料與附錄樣本對齊表。", "confidence": "high", "source": "全文", "connections": []},
+      {"claim": "【模型】QVAR 與 quantile-frequency connectedness", "evidence": "方法章的 GFEVD、QVAR 與頻率分解。", "confidence": "high", "source": "全文", "connections": []},
+      {"claim": "【結果】全樣本 TCI 為 70.26%", "evidence": "正文 Table 2。", "confidence": "high", "source": "全文", "connections": []},
+      {"claim": "【狀態】尾部連通性高於中位數", "evidence": "分位數與聯合狀態—頻率分析。", "confidence": "high", "source": "全文", "connections": []},
+      {"claim": "【氣候風險】PRI 與次日總連通性變化呈負關聯", "evidence": "係數 −0.513、p=0.029，但對影響值處理敏感。", "confidence": "medium", "source": "全文", "connections": []},
+      {"claim": "【氣候風險】TRI 主要關聯短期成分", "evidence": "頻率別迴歸與替代切點。", "confidence": "high", "source": "全文", "connections": []},
+      {"claim": "【限制】結果不是結構因果", "evidence": "作者明示 reduced-form predictive association。", "confidence": "high", "source": "全文", "connections": []},
+      {"claim": "【關聯】可直接強化美智的 CPU—connectedness 識別與推論", "evidence": "氣候風險、QVAR、頻率分解與滾動窗口推論高度重疊。", "confidence": "high", "source": "比較判讀", "connections": []}
+    ]
+  },
+  {
+    "id": "qvar-2026-11-12-carbon-lowcarbon-fossil-dependence",
+    "title": "Analyzing the dynamic connectedness and quantile dependence between carbon and fossil energy markets",
+    "search_date": "2026-11-12",
+    "authors": "Walid Mensi; Salem Adel Ziadat; Bashar Yaser Almansour; Ronald McIver; Sang Hoon Kang",
+    "year": "2026",
+    "journal": "Journal of Commodity Markets, 44, Article 100593",
+    "doi": "https://doi.org/10.1016/j.jcomm.2026.100593",
+    "citations": "0 次（Crossref／OpenAlex；2026-11-12）",
+    "openalex_id": "W7221794261",
+    "openalex_url": "https://openalex.org/W7221794261",
+    "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S2405851326000553",
+    "reading_level": "摘要層級",
+    "abstract": "本文檢驗歐盟碳排放配額、全球低碳股票 ETF 與主要化石能源市場的動態相依。R² 分解顯示整體連通性主要由同時期關係及石油相關商品主導；EUA 整體為淨承接者，而低碳股票 ETF 在落後成分中轉為淨貢獻者。WQC 顯示上尾與中長期尺度的共同變動較強，cross-quantilogram 顯示 22 日落後的分位數預測相依常比 1 或 5 日更明顯；摘要所述 NCQ 結果則以 WTI 與取暖油最突出。",
+    "tags": [
+      "R2-decomposed connectedness",
+      "wavelet quantile correlation",
+      "cross-quantilogram",
+      "causality-in-quantiles",
+      "carbon-energy nexus"
+    ],
+    "topics": [
+      "碳市場/碳交易",
+      "氣候風險/政策",
+      "能源市場",
+      "金融市場"
+    ],
+    "keywords": [
+      "EU allowances",
+      "CRBN ETF",
+      "WTI",
+      "heating oil",
+      "fossil energy"
+    ],
+    "notes": [
+      "【閱讀層級】摘要層級；已核對 Elsevier 公開摘要、Crossref 書目、DOI 與 OpenAlex。OpenAlex 標示非撤稿且無開放全文；未繞過付費牆。",
+      "【研究問題與動機】EUA、低碳股票與化石能源市場的相依有多少來自同時期而非落後傳遞，且其強度是否隨分位數、頻率尺度與落後期而改變？",
+      "【研究變數】EU Allowances、iShares MSCI ACWI Low Carbon Target ETF（CRBN）與主要化石能源市場；摘要點名 WTI、取暖油、天然氣與煤，其他能源序列未完整列出。",
+      "【資料／市場／樣本】歐洲碳市場、全球低碳股票與主要化石能源市場；摘要未報告資料來源、樣本期間、頻率與有效樣本量。",
+      "【模型與估計】R²-decomposed connectedness 區分同時期與落後成分；wavelet quantile correlation 描述分位數與尺度相依；cross-quantilogram 比較 1、5、22 日落後；nonparametric causality-in-quantiles 檢驗非線性 Granger 可預測性。",
+      "【穩健性檢驗】摘要未列正式穩健性章節；多方法順序設計可交叉描述同時期、分位數—頻率與落後可預測性，但不能視為對同一參數的完整穩健性檢驗。",
+      "【主要結果】石油相關商品主導連通結構且同時期成分最大；EUA 整體為淨承接者，CRBN 在落後成分中轉為淨貢獻者。上尾及中長期尺度共同變動較強，22 日落後的分位數預測相依常比 1／5 日明顯；天然氣與煤的關係較弱且較不穩定。",
+      "【作者提出的限制】公開摘要未報告作者明列的限制。",
+      "【其他限制】未取得全文，無法核對樣本、頻帶邊界、窗口、分位數格點與所有穩健性；R² connectedness、WQC 與 CQ／NCQ 衡量不同概念，不能把可預測性直接寫成因果傳導。",
+      "【APA 7】Mensi, W., Ziadat, S. A., Almansour, B. Y., McIver, R., & Kang, S. H. (2026). Analyzing the dynamic connectedness and quantile dependence between carbon and fossil energy markets. Journal of Commodity Markets, 44, Article 100593. https://doi.org/10.1016/j.jcomm.2026.100593",
+      "【與美智研究的關聯】4/5。主題直接涵蓋碳、低碳股票與化石能源，且辨識分位數與頻率尺度；可借鏡同時期／落後 R² 分解與 22 日 lag 設計。主要差異是未採 QVAR／TVP-VAR-SV＋BK 的同一架構，也未納入 CPU。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {"claim": "【閱讀層級】僅正式摘要已核驗", "evidence": "Elsevier 公開摘要與書目；全文為 closed access。", "confidence": "high", "source": "摘要／書目", "connections": []},
+      {"claim": "【變數】EUA、CRBN 與化石能源", "evidence": "正式摘要的研究系統。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【方法】R² 分解、WQC、CQ 與 NCQ", "evidence": "正式摘要的方法序列。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【結果】同時期與油品主導", "evidence": "正式摘要主要結論。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【角色】EUA 整體為淨承接者", "evidence": "正式摘要。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【角色】CRBN 在落後成分轉為淨貢獻者", "evidence": "正式摘要。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【頻率】上尾與中長期相依較強", "evidence": "WQC 摘要結果。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【限制】樣本與頻帶尚未報告", "evidence": "公開摘要未提供。", "confidence": "high", "source": "證據缺口", "connections": []},
+      {"claim": "【關聯】可比較碳—能源的分位數與期限異質性", "evidence": "研究系統與美智的氣候—能源 spillover 問題重疊。", "confidence": "high", "source": "比較判讀", "connections": []}
+    ]
+  },
+  {
+    "id": "qvar-2026-11-12-ecofriendly-climate-carbon-qqejc",
+    "title": "Vulnerability of eco-friendly assets to return shocks from climate change and carbon credit indices",
+    "search_date": "2026-11-12",
+    "authors": "Remzi Gök; Elie Bouri; Hail Park",
+    "year": "2026",
+    "journal": "Borsa Istanbul Review, 26(2), Article 100770",
+    "doi": "https://doi.org/10.1016/j.bir.2025.100770",
+    "citations": "1 次（Crossref；OpenAlex 尚未收錄；2026-11-12）",
+    "openalex_id": "",
+    "openalex_url": "",
+    "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S2214845025002091",
+    "reading_level": "摘要層級",
+    "abstract": "本文提出 QQ-EJC，把 quantile-on-quantile connectedness 與 extended-joint connectedness 結合，用以衡量氣候變遷與碳信用指數衝擊對環保資產的脆弱性並評估投資組合。氣候變遷指數比碳信用指數與環保資產連結更強，尤以潔淨能源與再生科技股票為甚；極端負向衝擊下 connectedness 最強，兩個氣候／碳指數均是主要衝擊傳遞者。最低 connectedness 投資組合顯示碳信用與潔淨能源較有效，綠債未提供額外價值。",
+    "tags": [
+      "QQ-EJC",
+      "quantile-on-quantile connectedness",
+      "extended joint connectedness",
+      "climate change index",
+      "portfolio hedging"
+    ],
+    "topics": [
+      "氣候風險/政策",
+      "碳市場/碳交易",
+      "潔淨能源",
+      "綠債/ESG"
+    ],
+    "keywords": [
+      "eco-friendly assets",
+      "carbon credits",
+      "clean energy",
+      "renewable technology",
+      "green bonds"
+    ],
+    "notes": [
+      "【閱讀層級】摘要層級；已核對 Elsevier 公開摘要、Crossref 書目與 DOI。文章標示 CC BY-NC-ND 4.0，但本次未取得可直接檢閱的完整 PDF；OpenAlex 尚未收錄。",
+      "【研究問題與動機】氣候變遷與碳信用指數的不同分位數衝擊如何傳入環保資產，哪些資產最脆弱，並能否以 connectedness 為基礎改善多變量投資組合？",
+      "【研究變數】氣候變遷指數、碳信用指數及多類環保資產；摘要明示潔淨能源、再生科技股票與綠債，其他資產及確切代理代碼未報告。",
+      "【資料／市場／樣本】全球氣候／碳與環保金融資產；公開摘要未報告資料來源、起訖日、頻率與樣本量。",
+      "【模型與估計】作者提出 quantile-on-quantile extended joint connectedness（QQ-EJC），結合 Gabauer–Stenfors 型 Q-Q connectedness 與 extended-joint connectedness；另以 minimum connectedness portfolio 評估權重與避險效率。",
+      "【穩健性檢驗】摘要未列正式穩健性檢驗；動態總量與淨 quantile connectedness、疫情前後變化及投資組合結果提供多面向比較，但細節需全文核對。",
+      "【主要結果】氣候變遷指數比碳信用指數更強地連結環保資產，潔淨能源與再生科技股票最突出；極端負向衝擊下連通性最大，氣候與碳指數是主要傳遞者。疫情期間系統先脫鉤後再耦合；最低 connectedness 組合中，碳信用與潔淨能源最有效，綠債無額外價值。",
+      "【作者提出的限制】公開摘要未報告作者明列的限制。",
+      "【其他限制】樣本、分位數格點、代理指數與成本假設均未在摘要中提供；投資組合表現未必納入交易成本或樣本外檢驗。Connectedness 是預測誤差關聯，不應解讀為結構因果。",
+      "【APA 7】Gök, R., Bouri, E., & Park, H. (2026). Vulnerability of eco-friendly assets to return shocks from climate change and carbon credit indices. Borsa Istanbul Review, 26(2), Article 100770. https://doi.org/10.1016/j.bir.2025.100770",
+      "【與美智研究的關聯】5/5。直接連結氣候／碳風險與綠色資產的聯合尾部傳遞，QQ-EJC 可作為 QVAR＋BK 主模型之外的雙分位數穩健性或延伸。主要差異是未呈現 TVP-VAR-SV 或 BK 頻率分解，且氣候指標不是 CPU。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {"claim": "【閱讀層級】正式摘要已核驗", "evidence": "Elsevier 公開摘要、Crossref 與 DOI。", "confidence": "high", "source": "摘要／書目", "connections": []},
+      {"claim": "【方法】提出 QQ-EJC", "evidence": "正式摘要的方法說明。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【結果】氣候變遷指數連結強於碳信用", "evidence": "正式摘要。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【資產】潔淨能源與再生科技最脆弱", "evidence": "正式摘要。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【尾部】極端負向 connectedness 最強", "evidence": "正式摘要。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【方向】氣候與碳指數為主要傳遞者", "evidence": "正式摘要。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【組合】綠債未提供額外價值", "evidence": "最低 connectedness 投資組合摘要結論。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【限制】樣本與成本假設未報告", "evidence": "公開摘要未提供。", "confidence": "high", "source": "證據缺口", "connections": []},
+      {"claim": "【關聯】適合做氣候—綠色資產雙分位延伸", "evidence": "研究問題與 Q-Q connectedness 方法高度重疊。", "confidence": "high", "source": "比較判讀", "connections": []}
+    ]
+  },
+  {
+    "id": "qvar-2026-11-12-ai-fintech-blue-finance-qfc",
+    "title": "Quantile–Frequency Connectedness Among Artificial Intelligence, FinTech, and Blue Economy Markets",
+    "search_date": "2026-11-12",
+    "authors": "Imen Jellouli",
+    "year": "2026",
+    "journal": "International Journal of Financial Studies, 14(2), Article 32",
+    "doi": "https://doi.org/10.3390/ijfs14020032",
+    "citations": "2 次（Crossref；OpenAlex 尚未收錄；2026-11-12）",
+    "openalex_id": "",
+    "openalex_url": "",
+    "fulltext_url": "https://www.mdpi.com/2227-7072/14/2/32",
+    "reading_level": "全文精讀",
+    "abstract": "本文以 AI、FinTech、藍色經濟 ETF 與全球股票基準建立 quantile–frequency connectedness 網路。2021 年 10 月至 2025 年 2 月日資料顯示，TCI 由中位數的 55.92% 升至下尾 73.30% 與上尾 74.06%，約四分之三傳遞集中於短期。AI／機器人指數是主要短期淨傳遞者，FinTech 角色隨市場狀態改變，藍色金融 ETF 多為條件式吸收者；替代滾動窗口與加入一般 ESG 指數後，主要方向性階層仍大致不變。",
+    "tags": [
+      "quantile-frequency connectedness",
+      "QVAR",
+      "AI assets",
+      "FinTech",
+      "blue finance"
+    ],
+    "topics": [
+      "AI/科技",
+      "潔淨能源",
+      "綠債/ESG",
+      "金融市場"
+    ],
+    "keywords": [
+      "KFTX",
+      "NQROBO",
+      "BJLE",
+      "OCEN",
+      "sustainable digital finance"
+    ],
+    "notes": [
+      "【閱讀層級】全文精讀；已核對 MDPI 正式全文、Crossref 書目與 DOI。Crossref 無更正／撤稿關係；OpenAlex 於 2026-11-12 尚未收錄。",
+      "【研究問題與動機】AI 與 FinTech 的數位創新衝擊如何跨分位數與投資期限傳向藍色金融資產；藍色經濟 ETF 是穩定器、傳遞者或僅反映一般 ESG 共同變動？",
+      "【研究變數】KFTX（FinTech）、NQROBO（AI／機器人）、BJLE 與 OCEN（藍色經濟 ETF）、MSCI 全球股票基準；延伸規格加入 STOXX Global ESG Leaders Index。",
+      "【資料／市場／樣本】Refinitiv Datastream 日收盤價，2021-10-22 至 2025-02-21；全球／美國科技、藍色經濟與股票基準。原文未明列清理後有效樣本量。",
+      "【模型與估計】Chatziantoniou 等人的 QVAR quantile–frequency connectedness，分位數 0.05／0.50／0.95；短期 1–5 日、長期 5 日以上，並計算動態 TCI、方向性與 pairwise network。",
+      "【穩健性檢驗】以 75、100、150 日窗口替代 200 日基準；方向性傳遞角色大致一致。另加入 STOXX Global ESG Leaders 檢驗藍色 ETF 結果是否只反映一般 ESG 共變動。",
+      "【主要結果】TCI 為中位數 55.92%、下尾 73.30%、上尾 74.06%；短期約占總傳遞四分之三。NQROBO 是主要短期淨傳遞者；KFTX 在中位數較穩定、壓力情境可轉為傳遞者；藍色金融資產多為條件式承接者。",
+      "【作者提出的限制】未充分處理產業異質性、行為不對稱與政策衝擊；後疫情與地緣政治事件主導的短樣本不足以辨識長期結構循環，藍色金融工具種類也有限。",
+      "【其他限制】作者將若干 connectedness 變化對應到 COP、AI 熱潮與貨幣緊縮，主要是事件一致性敘述而非識別出的因果機制；資料窗口僅約三年半，長期頻帶與危機比較需保守解讀。",
+      "【APA 7】Jellouli, I. (2026). Quantile–frequency connectedness among artificial intelligence, FinTech, and Blue Economy markets. International Journal of Financial Studies, 14(2), Article 32. https://doi.org/10.3390/ijfs14020032",
+      "【與美智研究的關聯】4/5。方法直接使用 QVAR 與頻率 connectedness，可作為綠色科技／FinTech／藍色金融延伸與窗口穩健性範例。主要差異是未納入氣候風險或 CPU，也未使用 TVP-VAR-SV。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {"claim": "【閱讀層級】正式全文已核驗", "evidence": "MDPI 全文、Crossref 與 DOI。", "confidence": "high", "source": "全文／書目", "connections": []},
+      {"claim": "【資料】2021-10-22 至 2025-02-21 日資料", "evidence": "正文資料章。", "confidence": "high", "source": "全文", "connections": []},
+      {"claim": "【模型】QVAR quantile-frequency connectedness", "evidence": "正文方法章。", "confidence": "high", "source": "全文", "connections": []},
+      {"claim": "【結果】TCI 由 55.92% 升至尾部 73%–74%", "evidence": "正文 Tables 3–5。", "confidence": "high", "source": "全文", "connections": []},
+      {"claim": "【期限】短期傳遞約占四分之三", "evidence": "正文靜態分解。", "confidence": "high", "source": "全文", "connections": []},
+      {"claim": "【角色】AI／機器人是主要傳遞者", "evidence": "靜態與動態方向性結果。", "confidence": "high", "source": "全文", "connections": []},
+      {"claim": "【穩健性】替代窗口維持主要階層", "evidence": "75／100／150 日窗口及 ESG 延伸規格。", "confidence": "high", "source": "全文", "connections": []},
+      {"claim": "【限制】事件敘述不是因果識別", "evidence": "研究採 connectedness 描述，未建構外生衝擊。", "confidence": "high", "source": "方法判讀", "connections": []},
+      {"claim": "【關聯】提供綠色科技與 FinTech 的時頻 QVAR 比較", "evidence": "方法與永續資產設計高度可移植。", "confidence": "high", "source": "比較判讀", "connections": []}
+    ]
+  },
+  {
+    "id": "qvar-2026-11-12-csr-sustainability-qvar",
+    "title": "Forecasting the Quantile Connectedness: Insight From Global CSR and Sustainability Indices",
+    "search_date": "2026-11-12",
+    "authors": "Miklesh Prasad Yadav; Maria Giuseppina Bruna; Ahmed Imran Hunjra; Vandana Arya",
+    "year": "2026",
+    "journal": "Journal of Forecasting, 45(4), 1601–1616",
+    "doi": "https://doi.org/10.1002/for.70106",
+    "citations": "0 次（Crossref；OpenAlex 尚未收錄；2026-11-12）",
+    "openalex_id": "",
+    "openalex_url": "",
+    "fulltext_url": "https://onlinelibrary.wiley.com/doi/10.1002/for.70106",
+    "reading_level": "摘要層級",
+    "abstract": "本文以 2019 年 12 月至 2024 年 3 月日資料分析全球 CSR 與永續指數的分位數 connectedness。作者各選取四個大型 CSR 與永續指數，運用 QVAR 檢視下尾、中位與上尾狀態。摘要顯示三種市場狀態均存在高 connectedness，自然與人為危機衝擊並未破壞整體連結；S&P/TSX 再生能源與潔淨科技指數在下尾及中位數的衝擊傳遞最小，因而可能提供條件式配置價值。",
+    "tags": [
+      "QVAR",
+      "quantile connectedness",
+      "CSR indices",
+      "sustainability indices",
+      "renewable energy"
+    ],
+    "topics": [
+      "綠債/ESG",
+      "潔淨能源",
+      "金融市場"
+    ],
+    "keywords": [
+      "global CSR",
+      "sustainability index",
+      "RSPRECTI",
+      "portfolio diversification",
+      "crisis shocks"
+    ],
+    "notes": [
+      "【閱讀層級】摘要層級；已核對 Crossref 正式摘要、Wiley 書目、RePEc 與 DOI。未取得可合法直接檢閱的全文；OpenAlex 尚未收錄。",
+      "【研究問題與動機】CSR 指數與較廣義永續指數在熊市、正常與牛市狀態下如何相互傳遞衝擊，危機是否破壞其 connectedness，哪些指數的傳遞角色較弱？",
+      "【研究變數】依市值選取四個 CSR 指數與四個永續指數；摘要點名 S&P/TSX Renewable Energy and Clean Technology Index（RSPRECTI），其餘七個指數名稱未報告。",
+      "【資料／市場／樣本】全球 CSR／永續指數日價格，2019-12-30 至 2024-03-27；摘要未報告資料供應商、交易日對齊方式與有效樣本量。",
+      "【模型與估計】Quantile Vector Autoregression（QVAR）與分位數 connectedness，至少比較下尾、中位與上尾；題名提到 forecasting，但摘要未說明預測設計、窗口、損失函數或樣本外評估。",
+      "【穩健性檢驗】公開摘要未報告正式穩健性檢驗、替代窗口、替代分位數或樣本外預測評估。",
+      "【主要結果】八個 CSR／永續指數在下尾、中位與上尾均高度連通；自然與人為危機衝擊未削弱整體 interconnectedness。RSPRECTI 在下尾與中位數的衝擊傳遞最小，作者因此提出其可能適合納入投資組合。",
+      "【作者提出的限制】公開摘要未報告作者明列的限制。",
+      "【其他限制】摘要未提供 TCI 數值、分位數設定、淨角色表或樣本外預測結果；低衝擊傳遞不等於必然避險，仍需結合報酬、風險、交易成本及 out-of-sample 檢驗。",
+      "【APA 7】Yadav, M. P., Bruna, M. G., Hunjra, A. I., & Arya, V. (2026). Forecasting the quantile connectedness: Insight from global CSR and sustainability indices. Journal of Forecasting, 45(4), 1601–1616. https://doi.org/10.1002/for.70106",
+      "【與美智研究的關聯】3/5。提供 ESG／永續資產的 QVAR 比較與潔淨科技指數角色，可作資產選取與跨分位基準。主要差異是未納入氣候風險、CPU、TVP-VAR-SV 或 BK 頻率分解。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {"claim": "【閱讀層級】僅正式摘要已核驗", "evidence": "Crossref 正式摘要、Wiley／RePEc 書目與 DOI。", "confidence": "high", "source": "摘要／書目", "connections": []},
+      {"claim": "【資料】2019-12-30 至 2024-03-27 日資料", "evidence": "正式摘要。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【樣本】四個 CSR 與四個永續指數", "evidence": "正式摘要。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【模型】採 QVAR connectedness", "evidence": "正式摘要。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【結果】三種市場狀態均高度連通", "evidence": "正式摘要。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【角色】RSPRECTI 在下尾與中位數傳遞最小", "evidence": "正式摘要。", "confidence": "high", "source": "摘要", "connections": []},
+      {"claim": "【危機】危機未破壞整體連結", "evidence": "正式摘要的作者敘述。", "confidence": "medium", "source": "摘要", "connections": []},
+      {"claim": "【限制】無 TCI 與樣本外預測細節", "evidence": "公開摘要未提供。", "confidence": "high", "source": "證據缺口", "connections": []},
+      {"claim": "【關聯】可作永續指數 QVAR 基準", "evidence": "資產主題與方法可比較，但氣候／頻率面向較弱。", "confidence": "high", "source": "比較判讀", "connections": []}
+    ]
+  },
   {
     "id": "qvar-2026-11-11-physical-climate-risk-detectability",
     "title": "Is Physical Climate-Risk Transmission Detectable in Daily Data? Quantile Connectedness Evidence from Insurance, Reinsurance, and Climate-Vulnerable Sovereign Markets",
