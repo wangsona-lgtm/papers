@@ -1,6 +1,6 @@
 {
-  "total": 259,
-  "updated": "2026-11-12 20:14:26",
+  "total": 261,
+  "updated": "2026-11-13 20:06:49",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,234 @@
     "金融市場"
   ],
   "papers": [
+  {
+    "id": "qvar-2026-11-13-china-green-assets-qvar",
+    "title": "Shock transmission among green financial instruments and major financial assets and commodities in China: A quantile connectedness analysis",
+    "search_date": "2026-11-13",
+    "authors": "Hui Yang; Román Ferrer",
+    "year": "2026",
+    "journal": "Global Finance Journal, 71, Article 101282",
+    "doi": "https://doi.org/10.1016/j.gfj.2026.101282",
+    "citations": "1 次（Crossref；OpenAlex 尚未收錄；2026-11-13）",
+    "openalex_id": "",
+    "openalex_url": "",
+    "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S1044028326000505",
+    "reading_level": "摘要層級",
+    "abstract": "本文以中國綠債、五類潔淨能源股票、主要傳統金融資產與關鍵商品，檢驗報酬衝擊傳遞是否隨市場狀態改變。QVAR connectedness 顯示系統在極端跌市與漲市的連通性均明顯升高；潔淨能源股票在各市場狀態皆是主要淨傳遞者，但核能、風能與太陽能的系統影響大於水力與垃圾發電。黃金、原油與中國綠債則在全樣本及各市場狀態主要為淨承接者。",
+    "tags": [
+      "quantile connectedness",
+      "QVAR",
+      "green bonds",
+      "clean energy stocks",
+      "China"
+    ],
+    "topics": [
+      "潔淨能源",
+      "綠債/ESG",
+      "能源市場",
+      "金融市場"
+    ],
+    "keywords": [
+      "Chinese green bonds",
+      "nuclear energy",
+      "wind energy",
+      "solar energy",
+      "tail spillovers"
+    ],
+    "notes": [
+      "【閱讀層級】摘要層級；已核對 Elsevier 公開摘要、Crossref 書目、DOI 與 CC BY 4.0 授權。公開 PDF 端點本次回傳 403，OpenAlex 尚未解析此 DOI，故未冒充全文精讀。Crossref 無更正／撤稿關係。",
+      "【研究問題與動機】中國綠色金融資產與主要傳統金融資產、商品之報酬衝擊傳遞是否隨衝擊幅度與市場狀態改變，且不同潔淨能源子產業的系統角色是否相同？",
+      "【研究變數】綠色資產包括中國綠債與五類潔淨能源股票：核能、風能、太陽能、水力及垃圾發電；另納入主要傳統金融資產與關鍵商品，公開摘要點名黃金與原油，其餘代理指數未完整報告。",
+      "【資料／市場／樣本】中國金融市場及商品市場的報酬資料；公開摘要未報告資料來源、樣本期間、頻率與有效樣本量，故均記為未報告。",
+      "【模型與估計】採 Ando、Greenwood-Nimmo 與 Shin（2022）的 quantile connectedness／QVAR-GFEVD 架構，比較不同條件分位數下的總量、方向與淨連通性。摘要未報告落後期、預測期、窗口與分位數格點。",
+      "【穩健性檢驗】公開摘要未列正式穩健性檢驗；同時比較多種市場狀態與五個潔淨能源子產業可描述異質性，但不能替代替代窗口、替代模型或樣本外檢驗。",
+      "【主要結果】連通性在極端跌市與漲市均急升。中國潔淨能源股票在各市場狀態為主要淨傳遞者，其中核能、風能與太陽能持續領先，水力與垃圾發電的傳遞角色較弱；黃金、原油與中國綠債則在全樣本及各狀態為淨承接者。",
+      "【作者提出的限制】公開摘要未報告作者明列的限制；資料可得性聲明僅稱資料可向作者索取。",
+      "【其他限制】未取得全文，無法核對完整資產清單、樣本、分位數設計與穩健性。QVAR connectedness 衡量預測誤差關聯與方向，不足以識別結構因果；中國市場結果亦不宜直接外推至全球綠色資產。",
+      "【APA 7】Yang, H., & Ferrer, R. (2026). Shock transmission among green financial instruments and major financial assets and commodities in China: A quantile connectedness analysis. Global Finance Journal, 71, Article 101282. https://doi.org/10.1016/j.gfj.2026.101282",
+      "【與美智研究的關聯】4/5。可作為綠債與分產業潔淨能源之尾部分位網絡比較，並提供子產業異質性與淨傳遞者判讀；主要差異是未納入 CPU／實體與轉型氣候風險，也未採 TVP-VAR-SV 或 BK 頻率分解。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {
+        "claim": "【閱讀層級】僅正式摘要已核驗",
+        "evidence": "Elsevier 公開摘要、Crossref、DOI 與授權資訊；PDF 端點未能合法存取。",
+        "confidence": "high",
+        "source": "摘要／書目",
+        "connections": []
+      },
+      {
+        "claim": "【資產】中國綠債與五類潔淨能源股票",
+        "evidence": "正式摘要列出綠債及核能、風能、太陽能、水力與垃圾發電子產業。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【方法】採 QVAR quantile connectedness",
+        "evidence": "正式摘要明示 Ando 等人的 quantile connectedness 架構。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【狀態】極端跌市與漲市的 spillover 均升高",
+        "evidence": "正式摘要與 highlights。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【傳遞者】潔淨能源股票主導衝擊傳遞",
+        "evidence": "正式摘要在所有市場狀態的淨方向結果。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【異質性】核能、風能與太陽能影響最大",
+        "evidence": "正式摘要的子產業比較。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【承接者】黃金、原油與中國綠債為淨承接者",
+        "evidence": "正式摘要的全樣本與狀態別結論。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【限制】樣本與估計細節未報告",
+        "evidence": "公開摘要未提供資料起訖、頻率、窗口與分位數格點。",
+        "confidence": "high",
+        "source": "證據缺口",
+        "connections": []
+      },
+      {
+        "claim": "【關聯】可比較綠債與潔淨能源子產業的尾部角色",
+        "evidence": "研究問題與美智的氣候／綠色資產 QVAR 網絡高度重疊。",
+        "confidence": "high",
+        "source": "比較判讀",
+        "connections": []
+      }
+    ]
+  },
+  {
+    "id": "qvar-2026-11-13-ai-gpr-esg-qqc",
+    "title": "Tail-driven interdependence: quantile-on-quantile connectedness among AI-driven economic uncertainty, geopolitical risk, and ESG sustainability shocks",
+    "search_date": "2026-11-13",
+    "authors": "Ayberk Şeker",
+    "year": "2026",
+    "journal": "Economic Change and Restructuring, 59(5), Article 123",
+    "doi": "https://doi.org/10.1007/s10644-026-10071-z",
+    "citations": "0 次（Crossref／OpenAlex；2026-11-13）",
+    "openalex_id": "W7212218750",
+    "openalex_url": "https://openalex.org/W7212218750",
+    "fulltext_url": "https://link.springer.com/article/10.1007/s10644-026-10071-z",
+    "reading_level": "摘要層級",
+    "abstract": "本文以 2015 年 1 月至 2025 年 6 月月資料，研究 AI 驅動經濟不確定性、地緣政治風險與 ESG 永續不確定性之非線性、狀態依賴連通。Q-Q connectedness 顯示尾部分位的 spillover 明顯高於分配中位附近，三種不確定性會在高波動期交替成為淨傳遞者與淨承接者。小波結果顯示共同全球衝擊的作用偏短期，結構性不確定性則在中長期更重要；bootstrap 結果支持連通結構的持續性。",
+    "tags": [
+      "quantile-on-quantile connectedness",
+      "wavelet coherence",
+      "partial wavelet coherence",
+      "bootstrap",
+      "uncertainty spillovers"
+    ],
+    "topics": [
+      "地緣政治/國防",
+      "AI/科技",
+      "綠債/ESG",
+      "金融市場"
+    ],
+    "keywords": [
+      "AI economic uncertainty",
+      "geopolitical risk",
+      "ESG uncertainty",
+      "tail risk",
+      "time-frequency dependence"
+    ],
+    "notes": [
+      "【閱讀層級】摘要層級；已核對 Springer 正式文章頁、Crossref、DOI 與 OpenAlex。出版社頁明示為訂閱內容，未繞過存取控制；OpenAlex 標示非撤稿且 closed access。Crossref 無更正／撤稿關係。",
+      "【研究問題與動機】AI 驅動經濟不確定性、地緣政治風險與 ESG 永續不確定性是否形成尾部依賴且具期限異質性的衝擊網絡，三者的傳遞／承接角色是否會隨高波動期改變？",
+      "【研究變數】Artificial Intelligence Economic Uncertainty Index（AIEU）、Geopolitical Risk Index（GPR）與 ESG-based Sustainability Uncertainty Index（ESGUI）。",
+      "【資料／市場／樣本】月資料，2015 年 1 月至 2025 年 6 月；指數所代表的全球不確定性系統。公開摘要未報告各指數來源、轉換方式與有效樣本量。",
+      "【模型與估計】Quantile-on-Quantile Connectedness（QQC）衡量雙方條件分位狀態；Wavelet Transform Coherence 與 Partial Wavelet Coherence 分析期限結構與共同衝擊；bootstrap 檢驗 connectedness 架構的持續性。摘要未報告分位數格點、窗口與重抽樣次數。",
+      "【穩健性檢驗】以 wavelet coherence、partial wavelet coherence 與 bootstrap 作多方法檢查；bootstrap 支持中央分位附近連通架構的持續性，且未改變尾部衝擊的方向與強度。",
+      "【主要結果】極端分位的 spillover 顯著強於中位數附近；AIEU、GPR 與 ESGUI 在高波動期交替充當淨傳遞者與淨承接者。共同全球衝擊較集中於短期，結構性不確定性在中長期更重要。",
+      "【作者提出的限制】公開摘要未報告作者明列的限制。",
+      "【其他限制】只有三個月頻指數且未取得全文，無法核對分位數、頻帶、樣本處理與 bootstrap 細節；connectedness 與 wavelet coherence 是相依／可預測關係，不能解讀為結構因果。AIEU 與 ESGUI 亦可能共享新聞語料或共同宏觀因子。",
+      "【APA 7】Şeker, A. (2026). Tail-driven interdependence: Quantile-on-quantile connectedness among AI-driven economic uncertainty, geopolitical risk, and ESG sustainability shocks. Economic Change and Restructuring, 59(5), Article 123. https://doi.org/10.1007/s10644-026-10071-z",
+      "【與美智研究的關聯】4/5。提供氣候／ESG 類不確定性與 GPR、AI 不確定性的雙分位尾部網絡及小波期限比較，可作為 CPU spillover 的替代不確定性設計與共同因子敏感度檢查。主要差異是未包含綠色資產價格，也未採 TVP-VAR-SV＋BK＋QVAR 主架構。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {
+        "claim": "【閱讀層級】僅正式摘要已核驗",
+        "evidence": "Springer 正式摘要、Crossref、DOI 與 OpenAlex；全文為訂閱內容。",
+        "confidence": "high",
+        "source": "摘要／書目",
+        "connections": []
+      },
+      {
+        "claim": "【變數】AIEU、GPR 與 ESGUI",
+        "evidence": "正式摘要明列三項不確定性指數。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【樣本】2015 年 1 月至 2025 年 6 月月資料",
+        "evidence": "Springer 正式摘要。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【方法】QQC、小波與 bootstrap",
+        "evidence": "正式摘要的方法說明。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【尾部】極端狀態 spillover 高於中央分位",
+        "evidence": "正式摘要主要結論。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【角色】三種不確定性會交替傳遞與承接衝擊",
+        "evidence": "正式摘要的 directional connectedness 結論。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【期限】共同衝擊偏短期、結構不確定性偏中長期",
+        "evidence": "wavelet-based 摘要結果。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【穩健性】bootstrap 支持連通架構持續性",
+        "evidence": "正式摘要的 bootstrap 結果。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【關聯】可補強 CPU 研究的替代不確定性與共同因子檢查",
+        "evidence": "ESG／GPR／AI 不確定性與雙分位、期限異質性高度重疊。",
+        "confidence": "high",
+        "source": "比較判讀",
+        "connections": []
+      }
+    ]
+  },
   {
     "id": "qvar-2026-11-12-climate-risk-brown-green-equity",
     "title": "Climate Risk Transmission Across Brown and Green Energy Equity Markets During the Energy Transition",
