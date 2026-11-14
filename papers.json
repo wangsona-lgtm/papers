@@ -1,6 +1,6 @@
 {
-  "total": 261,
-  "updated": "2026-11-13 20:06:49",
+  "total": 263,
+  "updated": "2026-11-14 20:12:58",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,238 @@
     "金融市場"
   ],
   "papers": [
+  {
+    "id": "qvar-2026-11-14-eu-climate-policy-milestones",
+    "title": "Priced In? EU Climate-Policy Milestones, Carbon Prices and European Sector Stocks from 2020 to 2026",
+    "search_date": "2026-11-14",
+    "authors": "Bashar Yaser Almansour; Seyed Amirhossein Shojaei; Muna Al Mukhaini; Marjan Orouji",
+    "year": "2026",
+    "journal": "Journal of Risk and Financial Management, 19(11), Article 916",
+    "doi": "https://doi.org/10.3390/jrfm19110916",
+    "citations": "0 次（Crossref；OpenAlex 尚未收錄；2026-11-14）",
+    "openalex_id": "",
+    "openalex_url": "",
+    "fulltext_url": "https://www.mdpi.com/1911-8074/19/11/916",
+    "reading_level": "全文精讀",
+    "abstract": "本文檢驗 2020–2026 年 19 項歐盟氣候政策里程碑是否構成 EUA、Brent、綠債、潔淨能源股票與歐洲產業股票的新資訊。經事件研究、隨機化推論、多重檢定、統計力與弱識別診斷後，主要資產的公告日異常報酬均無法與偶然波動區分；EUA 價格反應僅在 16 個單向事件中的 6 個符合政策法律方向。結果支持政策資訊可能在漫長立法過程中逐步定價，但樣本事件少、法律內容與市場驚奇不一致及日資料識別不足，亦不能排除。",
+    "tags": [
+      "climate policy",
+      "EU ETS",
+      "event study",
+      "carbon prices",
+      "green assets",
+      "weak identification"
+    ],
+    "topics": [
+      "氣候風險/政策",
+      "碳市場/碳交易",
+      "綠債/ESG",
+      "潔淨能源",
+      "金融市場"
+    ],
+    "keywords": [
+      "Fit for 55",
+      "CBAM",
+      "EUA futures",
+      "European sector stocks",
+      "multiple testing"
+    ],
+    "notes": [
+      "【閱讀層級】全文精讀；已核對 MDPI CC BY 4.0 全文、Crossref 書目與 DOI。Crossref 無更正／撤稿關係；OpenAlex 於 2026-11-14 尚未解析此 DOI。",
+      "【研究問題與動機】2020–2026 年歐盟由 Fit for 55、ETS／CBAM 收緊轉向 2025–2026 年部分放寬時，正式政策里程碑是否對碳價、棕色與綠色資產構成可辨識的新資訊？研究特別檢查法律內容、實際市場驚奇與公告日識別是否一致。",
+      "【研究變數】19 項 EU 政策事件（9 收緊、7 放寬、3 混合）；十個 STOXX Europe 600 產業指數、ICE EUA 12 月連續期貨、Brent、NASDAQ Clean Edge Green Energy Index、iShares USD Green Bond ETF；控制／因子含 STOXX Europe 600、TTF、Bloomberg Commodity Index、NASDAQ、德國 10 年債殖利率、VIX／VSTOXX 與 GPR。",
+      "【資料／市場／樣本】歐洲市場日資料；價格主要取自 Investing.com，VIX 取自 FRED，GPR 取自 Caldara–Iacoviello。報酬樣本為 2020-01-02 至 2026-09-30，共 1,733 個歐洲交易日；2019 年資料僅供最早事件估計窗。各資產有效觀測約 1,682–1,733 筆。",
+      "【模型與估計】市場模型事件研究以事件前 [−260, −11] 的 250 筆資料估計 OLS，主要事件窗為 [0,+1]；另用資產專屬因子模型、BMP／秩／符號與隨機化檢定、Benjamini–Hochberg FDR、事件誘發變異、跨事件 EUA-CAR 迴歸、日資料交互作用與 Rigobon 型異質變異識別。",
+      "【穩健性檢驗】替代事件窗 [0]、[−1,+1]、[0,+5]；資產專屬因子與 VIX；排除七個混淆事件、REPowerEU 或 2022 年事件；擴至規則化 25 事件、依新聞驚奇重編碼、leave-one-out、wild bootstrap、統計力／最小可檢效果、安慰劑與弱識別 Anderson–Rubin 集合；另以三個美國潔淨能源事件作正控制。",
+      "【主要結果】多重檢定後，沒有資產的淨收緊異常報酬顯著；95% bootstrap 區間可排除碳密集產業約 1.5% 以上、EUA 約 1.6% 以上的兩日效果，但不能排除較小效果。EUA 反應僅 6/16 次符合政策方向，公告日變異未上升；Brent 僅有 10% 水準的弱證據。綠債與 EUA 的負向關聯不通過 FDR，且納入殖利率後由 0.25% 降至 0.04%（p=0.50）。異質變異識別條件不成立，不能解讀為因果政策效果。",
+      "【作者提出的限制】事件數少；按法律內容分類可能不同於市場預期；日資料無法隔離消息精確到達時點；公開資料只容許價格指數及兩個產業／綠債代理。作者建議改用盤中 EUA 與股票資料、新聞覆蓋建構連續驚奇指標及企業層級排放／免費配額。",
+      "【其他限制】研究衡量正式公告日的短窗反應，不等於政策的總體或長期因果效果。十四個事件已被預報或屬確認性結果，事件群聚、共同能源／貨幣新聞與 benchmark 吸收市場整體效果仍可能弱化估計；零結果必須與統計力界線共同解讀。",
+      "【APA 7】Almansour, B. Y., Shojaei, S. A., Al Mukhaini, M., & Orouji, M. (2026). Priced in? EU climate-policy milestones, carbon prices and European sector stocks from 2020 to 2026. Journal of Risk and Financial Management, 19(11), Article 916. https://doi.org/10.3390/jrfm19110916",
+      "【與美智研究的關聯】4/5。它不是 QVAR／BK 研究，但直接檢驗氣候政策消息、EUA、能源、綠債與潔淨能源資產，對美智研究最重要的借鏡是：法律方向不等於市場驚奇，日頻 EUA 公告反應可能是弱工具，且零結果需報告統計力、多重檢定與混淆事件。主要差異是其採事件研究而非 TVP-VAR-SV、BK 或分位數連結。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {
+        "claim": "【證據層級】開放全文與完整附錄已核驗",
+        "evidence": "MDPI CC BY 4.0 HTML 全文、Crossref 與 DOI。",
+        "confidence": "high",
+        "source": "全文／書目",
+        "connections": []
+      },
+      {
+        "claim": "【事件】涵蓋 19 項 EU 氣候政策里程碑",
+        "evidence": "主分析含 9 個收緊、7 個放寬與 3 個混合事件。",
+        "confidence": "high",
+        "source": "全文",
+        "connections": []
+      },
+      {
+        "claim": "【資產】同時觀察 EUA、Brent、產業股與綠色資產",
+        "evidence": "十個 STOXX 產業、EUA、Brent、CELS 與 BGRN。",
+        "confidence": "high",
+        "source": "全文",
+        "connections": []
+      },
+      {
+        "claim": "【結果】沒有淨收緊反應通過多重檢定",
+        "evidence": "主要與替代事件窗的 FDR 結果。",
+        "confidence": "high",
+        "source": "全文結果",
+        "connections": []
+      },
+      {
+        "claim": "【EUA】法律方向與價格方向多數不一致",
+        "evidence": "16 個收緊／放寬事件僅 6 次方向相符。",
+        "confidence": "high",
+        "source": "全文結果",
+        "connections": []
+      },
+      {
+        "claim": "【識別】日頻 EUA 反應是弱工具",
+        "evidence": "變異比不顯著且 Anderson–Rubin 集合無界。",
+        "confidence": "high",
+        "source": "識別診斷",
+        "connections": []
+      },
+      {
+        "claim": "【綠債】負向關聯不足以作投資結論",
+        "evidence": "不通過 FDR，控制 Bund 殖利率後效果接近零。",
+        "confidence": "high",
+        "source": "全文結果",
+        "connections": []
+      },
+      {
+        "claim": "【限制】零結果不證明完全提前定價",
+        "evidence": "小事件樣本、有限統計力與日資料時點誤差仍存在。",
+        "confidence": "high",
+        "source": "作者限制",
+        "connections": []
+      },
+      {
+        "claim": "【研究借鏡】CPU／碳價衝擊需區分法律內容與驚奇",
+        "evidence": "新聞驗證與 2026 年 EUA 反向反應顯示兩者可能不同。",
+        "confidence": "high",
+        "source": "比較判讀",
+        "connections": []
+      }
+    ]
+  },
+  {
+    "id": "qvar-2026-11-14-green-crypto-tail-connectedness",
+    "title": "Green cryptocurrencies, carbon-neutral blockchain, and sustainable finance: tail connectedness and systemic risk in the digital asset sustainability nexus",
+    "search_date": "2026-11-14",
+    "authors": "Bashar Yaser Almansour; Ammar Yaser Almansour; Seyed Amirhossein Shojaei",
+    "year": "2026",
+    "journal": "Eurasian Economic Review, 16(3), 1185–1210",
+    "doi": "https://doi.org/10.1007/s40822-026-00389-4",
+    "citations": "0 次（Crossref／OpenAlex；2026-11-14）",
+    "openalex_id": "W7204200782",
+    "openalex_url": "https://openalex.org/W7204200782",
+    "fulltext_url": "https://link.springer.com/article/10.1007/s40822-026-00389-4",
+    "reading_level": "摘要層級",
+    "abstract": "本文檢驗 Ethereum Merge 後，proof-of-stake 加密資產被包裝為永續資產是否真的帶來分散與系統風險利益。Asymmetric Slope CAViaR 與 QVAR connectedness 顯示，總連通性由中位數狀態的 43% 升至下尾的 75%；proof-of-stake 資產持續為尾部風險淨傳遞者，而傳統 ESG、碳與其他永續金融資產主要為淨承接者。投資組合回測亦指出，加入數位資產會提高而非降低尾部風險，直接質疑「技術轉綠即具綠色溢價／避險效益」的敘事。",
+    "tags": [
+      "QVAR",
+      "CAViaR",
+      "green cryptocurrencies",
+      "tail connectedness",
+      "proof-of-stake",
+      "greenwashing"
+    ],
+    "topics": [
+      "加密貨幣/數位金融",
+      "綠債/ESG",
+      "碳市場/碳交易",
+      "氣候風險/政策",
+      "金融市場"
+    ],
+    "keywords": [
+      "Ethereum Merge",
+      "tokenised carbon",
+      "Digital-Traditional Sustainability Partition Hypothesis",
+      "CVaR",
+      "portfolio backtest"
+    ],
+    "notes": [
+      "【閱讀層級】摘要層級；已核對 Springer 正式摘要、RePEc、Crossref、OpenAlex 與 DOI。出版商明示為訂閱內容，本次未繞過存取控制。OpenAlex W7204200782 顯示非撤稿、closed access；Crossref 無更正／撤稿關係。",
+      "【研究問題與動機】Ethereum 於 2022 年 Merge 轉為 proof-of-stake 後，主要加密資產的節能標籤是否足以使其成為具分散利益的永續金融資產，抑或只是把數位尾部風險傳入 ESG 與碳市場的『轉綠』敘事？",
+      "【研究變數】proof-of-stake／綠色加密資產、傳統永續金融資產、ESG 與碳市場代理，以及文中稱為 TOKCARB 的 tokenised-carbon 指數；正式摘要未逐一列出代幣、ETF／指數名稱與變數定義，故其餘記為未報告。",
+      "【資料／市場／樣本】跨數位資產與傳統永續金融市場，樣本期間為 2022-09 至 2026-05。出版商公開摘要未報告資料來源與頻率；公開附錄標籤顯示擴展樣本最多 954 筆，但無法由摘要確認各序列有效樣本量。",
+      "【模型與估計】先以 Asymmetric Slope CAViaR 衡量條件尾部風險，再以 Quantile VAR connectedness 比較中位數與下尾的總量、方向及淨連通性；另進行投資組合 CVaR／效率前緣回測。公開摘要未報告落後期、預測期、窗口及完整分位數格點。",
+      "【穩健性檢驗】出版商可見附錄標籤列出擴展窗口（336 至 954 筆）、TOKCARB 權重敏感度、Bai–Perron 結構斷點、local projection、TCI／NET 規格敏感度、強制去槓桿與流動性機制、Sharpe／CVaR／最大回撤及邊際風險貢獻；因正文受限，具體設定與全部數值未核驗。",
+      "【主要結果】TCI 由中位數的 43% 升至下尾的 75%。proof-of-stake 資產為持續的尾部風險淨傳遞者，傳統永續金融資產主要為淨承接者；加密原生衝擊可傳至 ESG 與碳市場。公開投資組合結果指出，加入數位資產提高尾部風險，ESG-only 效率前緣優於 ESG+digital。以上是狀態依賴的連通性與回測結果，不應改寫為因果。",
+      "【作者提出的限制】公開摘要未列作者明示限制，訂閱正文亦未合法取得，故不推測其限制段落內容。",
+      "【其他限制】摘要未列完整資產與頻率，無法檢查代幣選樣、流動性與 survivorship bias；樣本從 Merge 後開始，難把共時的市場制度、ETF 核准與加密週期分離。QVAR 方向連通性不是結構因果；『green premium 被推翻』也只適用於本文代理資產、期間與尾部風險準則。",
+      "【APA 7】Yaser Almansour, B., Almansour, A. Y., & Shojaei, S. A. (2026). Green cryptocurrencies, carbon-neutral blockchain, and sustainable finance: Tail connectedness and systemic risk in the digital asset sustainability nexus. Eurasian Economic Review, 16(3), 1185–1210. https://doi.org/10.1007/s40822-026-00389-4",
+      "【與美智研究的關聯】5/5。它直接命中『clean crypto 是否只是漂綠』與 QVAR 尾部連通性，並把數位資產、ESG 與碳市場放入同一風險網絡；可借鏡 CAViaR→QVAR 的尾部風險建構、資產分群與 CVaR 回測。主要差異是未納入 CPU／實體與轉型氣候風險，也未採 TVP-VAR-SV 或 BK 時頻分解。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {
+        "claim": "【證據層級】正式摘要已核驗，正文受訂閱限制",
+        "evidence": "Springer 正式摘要、RePEc、Crossref、OpenAlex 與 DOI。",
+        "confidence": "high",
+        "source": "摘要／書目",
+        "connections": []
+      },
+      {
+        "claim": "【問題】節能共識機制不必然帶來分散效益",
+        "evidence": "研究以 Merge 後 proof-of-stake 資產檢驗綠色溢價敘事。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【方法】Asymmetric Slope CAViaR 結合 QVAR connectedness",
+        "evidence": "正式摘要明示兩階段尾部風險與連通性架構。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【狀態】TCI 從中位數 43% 升至下尾 75%",
+        "evidence": "正式摘要報告的狀態別總連通性。",
+        "confidence": "high",
+        "source": "摘要結果",
+        "connections": []
+      },
+      {
+        "claim": "【傳遞者】proof-of-stake 資產傳出尾部風險",
+        "evidence": "正式摘要的淨方向結果。",
+        "confidence": "high",
+        "source": "摘要結果",
+        "connections": []
+      },
+      {
+        "claim": "【承接者】傳統永續金融資產主要吸收衝擊",
+        "evidence": "Digital-Traditional Sustainability Partition Hypothesis。",
+        "confidence": "high",
+        "source": "摘要結果",
+        "connections": []
+      },
+      {
+        "claim": "【跨市場】加密原生衝擊傳至 ESG 與碳市場",
+        "evidence": "正式摘要的第三項結果。",
+        "confidence": "high",
+        "source": "摘要結果",
+        "connections": []
+      },
+      {
+        "claim": "【投資組合】加入數位資產提高尾部風險",
+        "evidence": "摘要與公開附錄效率前緣說明。",
+        "confidence": "high",
+        "source": "摘要／公開附錄標籤",
+        "connections": []
+      },
+      {
+        "claim": "【研究借鏡】可直接檢驗 clean-crypto 漂綠敘事",
+        "evidence": "節能標籤與實際尾部分散／傳染效果被分開衡量。",
+        "confidence": "high",
+        "source": "比較判讀",
+        "connections": []
+      }
+    ]
+  },
   {
     "id": "qvar-2026-11-13-china-green-assets-qvar",
     "title": "Shock transmission among green financial instruments and major financial assets and commodities in China: A quantile connectedness analysis",
