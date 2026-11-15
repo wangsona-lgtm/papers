@@ -1,6 +1,6 @@
 {
-  "total": 263,
-  "updated": "2026-11-14 20:12:58",
+  "total": 266,
+  "updated": "2026-11-15 20:15:54",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,349 @@
     "金融市場"
   ],
   "papers": [
+  {
+    "id": "qvar-2026-11-15-btc-eth-divergence-connectedness",
+    "title": "Can Bitcoin–Ethereum Return Divergence Explain Change in Cryptocurrency Market Connectedness? Evidence Across Distributional States",
+    "search_date": "2026-11-15",
+    "authors": "Juan Manuel Candelo-Viáfara; José Luis Duque-Ceballos; Laura Salas-Arbeláez",
+    "year": "2026",
+    "journal": "FinTech, 5(4), Article 102",
+    "doi": "https://doi.org/10.3390/fintech5040102",
+    "citations": "0 次（Crossref；OpenAlex 尚未收錄；2026-11-15）",
+    "openalex_id": "",
+    "openalex_url": "",
+    "fulltext_url": "https://www.mdpi.com/2674-1032/5/4/102",
+    "reading_level": "全文精讀",
+    "abstract": "本文檢驗 Bitcoin 與 Ethereum 報酬差異的方向與幅度，是否能描述加密市場連通性變化的分配狀態。2018–2026 年十二種加密貨幣的 TVP-VAR 顯示平均 TCI 為 80.10%（修正後 87.38%），ETH 與 BTC 是主要淨傳遞者。分位數、quantile-on-quantile 與 QQVAR 結果顯示，小幅 BTC–ETH 距離在部分狀態與連通性下降相關，大幅距離則與連通性上升相關；預測性外溢在尾部與同向分位組合最強，但效果會隨網絡構成與控制變數改變，不能解讀為結構因果。",
+    "tags": [
+      "TVP-VAR",
+      "QQVAR",
+      "quantile-on-quantile",
+      "cryptocurrency connectedness",
+      "Bitcoin",
+      "Ethereum"
+    ],
+    "topics": [
+      "加密貨幣/數位金融",
+      "金融市場"
+    ],
+    "keywords": [
+      "BTC–ETH return differential",
+      "Total Connectedness Index",
+      "predictive spillovers",
+      "distributional states",
+      "CoinGecko"
+    ],
+    "notes": [
+      "【閱讀層級】全文精讀；已核對 MDPI CC BY 4.0 HTML 全文、Crossref 書目與 DOI。Crossref 無更正／撤稿關係；OpenAlex 於 2026-11-15 尚未解析此 DOI。",
+      "【研究問題與動機】BTC 與 ETH 的相對報酬方向（RD）及絕對報酬距離（AD）是否提供不同的市場整合資訊，且其與全市場連通性變化的關聯是否依條件分位與聯合分位狀態而改變？",
+      "【研究變數】十二種加密貨幣的美元日收盤價與對數報酬：BTC、ETH、XRP、BNB、DOGE、ADA、BCH、TRX、LTC、XLM、XMR、ETC；由 TVP-VAR 產生 TCI 及其一階差分 ΔTCI，另建構有號 BTC−ETH 報酬差 RD 與絕對距離 AD。",
+      "【資料／市場／樣本】CoinGecko 公開資料；全球加密貨幣市場；2018-01-01 至 2026-08-20，日頻。原始日曆 3,154 筆，報酬轉換及剔除 2022-05-23 附近缺值後為 3,151 筆平衡樣本。",
+      "【模型與估計】第一階段為 Bayesian TVP-VAR(1)，遺忘因子 0.99、GFEVD 預測期 20 日，估計十二資產 TCI。第二階段以分位數迴歸與 QQR 分析 RD／AD 對 ΔTCI 的狀態依賴關聯；第三階段以二變量 QQVAR、1 年滾動窗、1 階落後與 30 日預測期比較直接與反向分位組合的預測性連通性。",
+      "【穩健性檢驗】ADF、PP 與 KPSS 平穩性檢驗；QQR 帶寬 0.03／0.08；QQVAR 窗口 250／350 日；排除 BTC、ETH 後重建十幣 TCI；加入市場波動與落後 ΔTCI 控制；bootstrap 信賴區間；並比較 RD、AD 與合併模型的樣本外 RMSE／MAE。",
+      "【主要結果】十二幣平均 TCI 為 80.10%，修正 TCI 為 87.38%；ETH（NET 15.36）與 BTC（10.18）為最大淨傳遞者。AD 在低至中分位常與 ΔTCI 負相關，在高分位轉正；直接分位組合的連通性通常高於反向組合。排除 BTC、ETH 後，AD 平均 QQVAR 連通性 14.82%，RD 為 10.78%，差 4.04 個百分點（95% bootstrap CI [2.63, 5.44]），但條件平均式加入波動控制後 AD 不顯著（p=0.2972）。",
+      "【作者提出的限制】結果描述預測性連通性與條件關聯而非結構因果；BTC–ETH 差異只涵蓋市場相對資訊的一個面向。作者建議測試其他具經濟意義的配對、加入頻率分解，並檢驗流動性、機構資金流與市場專屬資訊。",
+      "【其他限制】十二幣樣本涉及存活者與選樣問題；TCI 與 RD／AD 共享 BTC、ETH 可能產生機械關聯，雖十幣重估可降低但不能完全消除。樣本外誤差差異很小且未建立統計顯著性，事件對照亦不能替代識別設計。",
+      "【APA 7】Candelo-Viáfara, J. M., Duque-Ceballos, J. L., & Salas-Arbeláez, L. (2026). Can Bitcoin–Ethereum return divergence explain change in cryptocurrency market connectedness? Evidence across distributional states. FinTech, 5(4), Article 102. https://doi.org/10.3390/fintech5040102",
+      "【與美智研究的關聯】3/5。研究不含氣候政策或綠色資產，但 QQVAR 的聯合分位面、直接／反向分位比較、bootstrap 及排除網絡核心資產的機械關聯檢查，可移植到 CPU × 綠色資產的尾部連通性設計。主要差異是沒有 TVP-VAR-SV、BK 頻率分解與氣候風險變數。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {
+        "claim": "【證據層級】開放全文與附錄已核驗",
+        "evidence": "MDPI CC BY 4.0 HTML 全文、Crossref 與 DOI。",
+        "confidence": "high",
+        "source": "全文／書目",
+        "connections": []
+      },
+      {
+        "claim": "【資料】十二幣日資料共 3,151 筆",
+        "evidence": "CoinGecko，2018-01-01 至 2026-08-20。",
+        "confidence": "high",
+        "source": "全文資料段",
+        "connections": []
+      },
+      {
+        "claim": "【基線】修正後平均 TCI 為 87.38%",
+        "evidence": "十二幣 TVP-VAR 平均 connectedness table。",
+        "confidence": "high",
+        "source": "全文結果",
+        "connections": []
+      },
+      {
+        "claim": "【角色】ETH 與 BTC 是主要淨傳遞者",
+        "evidence": "NET 分別為 15.36 與 10.18。",
+        "confidence": "high",
+        "source": "全文結果",
+        "connections": []
+      },
+      {
+        "claim": "【非線性】AD 關聯由負轉正",
+        "evidence": "小距離對應較低 ΔTCI，大距離對應較高 ΔTCI。",
+        "confidence": "high",
+        "source": "QR／QQR 結果",
+        "connections": []
+      },
+      {
+        "claim": "【尾部】同向分位的預測性外溢較強",
+        "evidence": "QQVAR 直接分位組合通常高於反向組合。",
+        "confidence": "high",
+        "source": "QQVAR 結果",
+        "connections": []
+      },
+      {
+        "claim": "【穩健性】排除 BTC／ETH 後主要分配型態仍在",
+        "evidence": "十幣網絡重估、控制與 bootstrap 檢查。",
+        "confidence": "high",
+        "source": "全文穩健性",
+        "connections": []
+      },
+      {
+        "claim": "【限制】結果不是結構因果",
+        "evidence": "作者明示僅為條件關聯與預測性 connectedness。",
+        "confidence": "high",
+        "source": "作者限制",
+        "connections": []
+      },
+      {
+        "claim": "【研究借鏡】應檢查核心變數重疊造成的機械關聯",
+        "evidence": "排除 BTC、ETH 後重建 TCI 的設計可移植至 CPU／綠色資產網絡。",
+        "confidence": "high",
+        "source": "比較判讀",
+        "connections": []
+      }
+    ]
+  },
+  {
+    "id": "qvar-2026-11-15-carbon-price-uncertainty-wqc",
+    "title": "Quantile dependence between carbon price uncertainty and sustainable financial markets: Evidence of nonlinear thresholds and COVID-19 structural breaks",
+    "search_date": "2026-11-15",
+    "authors": "Fayçal Chiad",
+    "year": "2026",
+    "journal": "World Development Sustainability, 9, Article 100365",
+    "doi": "https://doi.org/10.1016/j.wds.2026.100365",
+    "citations": "0 次（Crossref；OpenAlex 尚未收錄；2026-11-15）",
+    "openalex_id": "",
+    "openalex_url": "",
+    "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S2772655X26000984",
+    "reading_level": "摘要層級",
+    "abstract": "本文以 2013–2022 年週資料檢驗碳價不確定性與綠債、潔淨能源及 ESG 市場的非線性分位依存。Cross-quantilogram 與 wavelet quantile correlation 顯示，潔淨能源與 ESG 只有在 CVIX 超過第 90 百分位後才出現顯著避險反轉；綠債則在各測試分位多維持正向共同變動，未呈現相同的極端避險反轉。COVID-19 後斜率幅度增大，但 Bai–Perron 檢定未一致把 2020 年 3 月辨識為三類資產的共同斷點。",
+    "tags": [
+      "wavelet quantile correlation",
+      "cross-quantilogram",
+      "carbon price uncertainty",
+      "green bonds",
+      "clean energy",
+      "ESG"
+    ],
+    "topics": [
+      "氣候風險/政策",
+      "碳市場/碳交易",
+      "綠債/ESG",
+      "潔淨能源",
+      "金融市場"
+    ],
+    "keywords": [
+      "CVIX",
+      "S&P Green Bond Index",
+      "S&P Clean Energy Index",
+      "S&P 1200 ESG Index",
+      "threshold reversal"
+    ],
+    "notes": [
+      "【閱讀層級】摘要層級；已核對 Elsevier 公開摘要、Crossref 書目、DOI 與開放取用標示。出版商頁面本次回傳 403，未繞過存取控制；OpenAlex 尚未解析此 DOI，Crossref 無更正／撤稿關係。",
+      "【研究問題與動機】碳價不確定性是否在不同分位與投資期限下改變永續資產的避險／分散角色，且 COVID-19 是否造成可辨識的結構變化？",
+      "【研究變數】Carbon Price Volatility Index（CVIX）；S&P Green Bond Index、S&P Clean Energy Index 與 S&P 1200 ESG Index。摘要未完整報告轉換方式與各序列詳細定義。",
+      "【資料／市場／樣本】全球碳價與永續金融市場；2013 年 9 月至 2022 年 12 月，週頻。公開摘要未報告資料供應商及有效樣本量，故記為未報告。",
+      "【模型與估計】Cross-quantilogram 衡量分位依存與方向性，wavelet quantile correlation（WQC）辨識期限差異；以 QQR 作互補檢查，另採正式 threshold test、Bai–Perron 多重斷點及 COVID-19 子樣本比較。",
+      "【穩健性檢驗】摘要明示 bootstrap 顯著性、兩個獨立 threshold tests、不同帶寬的符號穩定性、QQR、Bai–Perron 結構斷點與 COVID-19 前後比較；具體 bootstrap 次數與帶寬值未報告。",
+      "【主要結果】潔淨能源在高 CVIX 分位僅提供狹窄但顯著的避險區；潔淨能源與 ESG 均在 CVIX 第 90 百分位以上出現顯著避險反轉，且跨帶寬符號穩定。綠債主要與碳不確定性正向共同變動，所有測試分位均未見同類避險反轉。COVID-19 後斜率放大，但 2020 年 3 月並非三市場一致的正式斷點。",
+      "【作者提出的限制】公開摘要未列作者明示限制，故不推測全文限制段內容。",
+      "【其他限制】單一 CVIX 與三個全球指數可能掩蓋區域及制度差異；週頻與 2013–2022 樣本無法涵蓋後續碳市場制度變化。CQ／WQC／QQR 描述分位依存與可預測性，不足以識別碳不確定性的結構因果效果。",
+      "【APA 7】Chiad, F. (2026). Quantile dependence between carbon price uncertainty and sustainable financial markets: Evidence of nonlinear thresholds and COVID-19 structural breaks. World Development Sustainability, 9, Article 100365. https://doi.org/10.1016/j.wds.2026.100365",
+      "【與美智研究的關聯】5/5。直接命中碳價尾部衝擊 × 綠債／潔淨能源／ESG 與 WQC 時頻分位分析，可作為 CPU × 綠色資產研究的 FRL 比較基準。可借鏡正式門檻檢定、帶寬敏感度與『COVID 後幅度上升不等於單一斷點』的保守推論；主要差異是未採 QVAR、TVP-VAR-SV 或 BK。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {
+        "claim": "【閱讀層級】僅正式摘要已核驗",
+        "evidence": "Elsevier 公開摘要、Crossref 與 DOI；未繞過 403。",
+        "confidence": "high",
+        "source": "摘要／書目",
+        "connections": []
+      },
+      {
+        "claim": "【資料】CVIX 對三類永續資產",
+        "evidence": "週資料涵蓋綠債、潔淨能源與 ESG，2013-09 至 2022-12。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【方法】CQ 與 WQC 捕捉狀態及期限異質性",
+        "evidence": "另以 QQR、門檻與 Bai–Perron 檢定互補。",
+        "confidence": "high",
+        "source": "摘要方法",
+        "connections": []
+      },
+      {
+        "claim": "【門檻】潔淨能源與 ESG 在 CVIX 第 90 百分位後反轉",
+        "evidence": "兩個正式 threshold tests 與帶寬敏感度支持。",
+        "confidence": "high",
+        "source": "摘要結果",
+        "connections": []
+      },
+      {
+        "claim": "【綠債】未呈現同類極端避險反轉",
+        "evidence": "測試分位多為正向共同變動而非顯著 hedge。",
+        "confidence": "high",
+        "source": "摘要結果",
+        "connections": []
+      },
+      {
+        "claim": "【疫情】COVID 後斜率幅度上升",
+        "evidence": "子樣本比較顯示關聯增強。",
+        "confidence": "high",
+        "source": "摘要結果",
+        "connections": []
+      },
+      {
+        "claim": "【斷點】2020 年 3 月不是一致正式斷點",
+        "evidence": "Bai–Perron 未對三類資產一致辨識。",
+        "confidence": "high",
+        "source": "摘要結果",
+        "connections": []
+      },
+      {
+        "claim": "【限制】分位依存不是結構因果",
+        "evidence": "觀察性 CQ／WQC／QQR 無外生識別。",
+        "confidence": "high",
+        "source": "方法邊界",
+        "connections": []
+      },
+      {
+        "claim": "【研究借鏡】門檻反轉可強化尾部假說",
+        "evidence": "適合與 CPU × 綠色資產的 QVAR／FRL 結果交叉驗證。",
+        "confidence": "high",
+        "source": "比較判讀",
+        "connections": []
+      }
+    ]
+  },
+  {
+    "id": "qvar-2026-11-15-cnpu-technology-markets",
+    "title": "Carbon neutrality policy uncertainty and technology markets in China: Tail-risk connectedness, multiscale transmission, and portfolio implications",
+    "search_date": "2026-11-15",
+    "authors": "Ran Wu; Shuxian Zheng; Zhigang Su",
+    "year": "2026",
+    "journal": "Carbon Neutral Technologies, 2(2), Article 100036",
+    "doi": "https://doi.org/10.1016/j.cnt.2026.100036",
+    "citations": "0 次（Crossref；OpenAlex 尚未收錄；2026-11-15）",
+    "openalex_id": "",
+    "openalex_url": "",
+    "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S3050660326000244",
+    "reading_level": "摘要層級",
+    "abstract": "本文從中國地方政府政策文件建構月頻碳中和政策不確定性（CNPU）指數，並以 TVP-QVAR、wavelet Granger causality、wavelet quantile correlation 與投資組合方法分析其和八個科技指數的風險關係。總連通性在尾部顯著高於中位數；CNPU 在正常狀態較邊緣且多為淨承接者，但極端期間的傳遞能力明顯提高並可暫時成為重要傳遞者。科技市場回饋 CNPU 以 8–16 個月期限最強，CNPU 對部分科技產業則同時出現在較短與較長期限。",
+    "tags": [
+      "TVP-QVAR",
+      "wavelet quantile correlation",
+      "climate policy uncertainty",
+      "technology stocks",
+      "tail connectedness",
+      "portfolio optimization"
+    ],
+    "topics": [
+      "氣候風險/政策",
+      "AI/科技",
+      "金融市場"
+    ],
+    "keywords": [
+      "China Carbon-Neutrality Policy Uncertainty",
+      "local government policy documents",
+      "8–16 month horizon",
+      "hedge ratio",
+      "hedging effectiveness"
+    ],
+    "notes": [
+      "【閱讀層級】摘要層級；已核對 Elsevier 公開摘要、Crossref 書目、DOI 與開放取用標示。出版商頁面本次回傳 403，未繞過存取控制；OpenAlex 尚未解析此 DOI，Crossref 無更正／撤稿關係。",
+      "【研究問題與動機】地方政府政策制定與落實所釋放的碳中和政策不確定性，如何在不同市場狀態、時間與期限下和中國科技市場相互傳遞風險，並改變避險配置？",
+      "【研究變數】從中國地方政府政策文件建構的月頻 CNPU 指數，以及八個科技產業指數。公開摘要未列八個指數名稱、成分及報酬轉換定義，故記為未報告。",
+      "【資料／市場／樣本】中國碳中和政策與科技股票市場，月頻；公開摘要未報告樣本起訖、資料供應商及有效樣本量。CNPU 的文本母體為地方政府政策文件。",
+      "【模型與估計】TVP-QVAR connectedness 衡量狀態依賴與時間變動方向；wavelet Granger causality 與 WQC 分析多尺度方向及分位依存；另以動態 hedge ratios、hedging effectiveness 與投資組合最佳化評估配置含義。",
+      "【穩健性檢驗】公開摘要呈現 TVP-QVAR、wavelet Granger、WQC 與投資組合結果的跨方法一致性，但未列替代指數、窗口、落後期或正式敏感度檢驗，故具體穩健性設定記為未報告。",
+      "【主要結果】尾部分位的總連通性明顯高於中位數。正常狀態下 CNPU 位於網絡邊緣並主要承接風險；極端期間其傳遞能力上升，可能暫時轉為重要淨傳遞者。科技市場對 CNPU 的回饋在 8–16 個月最強，CNPU 對部分科技產業則跨短、長期限；避險比率與效率在不同配對間高度異質。",
+      "【作者提出的限制】公開摘要未列作者明示限制，故不推測全文限制段內容。",
+      "【其他限制】CNPU 的字典、文本覆蓋與指數驗證細節未在摘要報告；八個科技指數、樣本與估計超參數亦未核對。政策文本不確定性和市場風險可能共同受宏觀事件驅動；Granger 與 connectedness 均不等同結構因果。",
+      "【APA 7】Wu, R., Zheng, S., & Su, Z. (2026). Carbon neutrality policy uncertainty and technology markets in China: Tail-risk connectedness, multiscale transmission, and portfolio implications. Carbon Neutral Technologies, 2(2), Article 100036. https://doi.org/10.1016/j.cnt.2026.100036",
+      "【與美智研究的關聯】5/5。直接命中『氣候政策不確定性 × 資產市場』、TVP-QVAR 與 WQC 多尺度傳遞；地方政策文件 CNPU 可作為新聞型 CPU 的替代構念，8–16 個月回饋亦提供期限假說。主要差異是科技指數而非綠債／潔淨能源，且未明示 TVP-VAR-SV 與 BK 分解。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {
+        "claim": "【閱讀層級】僅正式摘要已核驗",
+        "evidence": "Elsevier 公開摘要、Crossref 與 DOI；未繞過 403。",
+        "confidence": "high",
+        "source": "摘要／書目",
+        "connections": []
+      },
+      {
+        "claim": "【構念】CNPU 來自地方政府政策文件",
+        "evidence": "與新聞型 CPU 不同，聚焦政策制定及落實。",
+        "confidence": "high",
+        "source": "摘要",
+        "connections": []
+      },
+      {
+        "claim": "【方法】TVP-QVAR 結合 wavelet Granger 與 WQC",
+        "evidence": "同時處理狀態、時間與期限異質性。",
+        "confidence": "high",
+        "source": "摘要方法",
+        "connections": []
+      },
+      {
+        "claim": "【尾部】總連通性高於中位狀態",
+        "evidence": "正式摘要的 tail amplification 結果。",
+        "confidence": "high",
+        "source": "摘要結果",
+        "connections": []
+      },
+      {
+        "claim": "【角色】CNPU 正常時承接、極端時可轉為傳遞",
+        "evidence": "淨方向隨市場狀態改變。",
+        "confidence": "high",
+        "source": "摘要結果",
+        "connections": []
+      },
+      {
+        "claim": "【期限】科技市場回饋在 8–16 個月最強",
+        "evidence": "wavelet 證據指出中期回饋集中。",
+        "confidence": "high",
+        "source": "摘要結果",
+        "connections": []
+      },
+      {
+        "claim": "【配置】避險效果具有配對異質性",
+        "evidence": "多個科技指數配對具有不同 hedge ratio 與 effectiveness。",
+        "confidence": "high",
+        "source": "摘要結果",
+        "connections": []
+      },
+      {
+        "claim": "【缺口】八個指數與樣本期間未公開",
+        "evidence": "公開摘要未列完整變數、起訖與樣本量。",
+        "confidence": "high",
+        "source": "證據缺口",
+        "connections": []
+      },
+      {
+        "claim": "【研究借鏡】政策文件型 CPU 可作替代衡量",
+        "evidence": "可與新聞型 CPU 比較構念敏感度與期限傳遞。",
+        "confidence": "high",
+        "source": "比較判讀",
+        "connections": []
+      }
+    ]
+  },
   {
     "id": "qvar-2026-11-14-eu-climate-policy-milestones",
     "title": "Priced In? EU Climate-Policy Milestones, Carbon Prices and European Sector Stocks from 2020 to 2026",
