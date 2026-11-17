@@ -1,6 +1,6 @@
 {
-  "total": 274,
-  "updated": "2026-11-17 20:05:04",
+  "total": 272,
+  "updated": "2026-11-17 20:17:47",
   "topics": [
     "AI/科技",
     "其他",
@@ -11374,59 +11374,6 @@
       "diagram": "graph TD\n    Nonlinearinform[\"📄 Nonlinear information spillovers between geopoliti\"]\n    style Nonlinearinform fill:#2563eb,color:#fff,font-weight:bold\n    vp0研究方法QVAR[\"💡 研究方法：QVAR (Quantile Vector Autoregressio\"]\n    style vp0研究方法QVAR fill:#fef3c7,stroke:#d97706\n    Nonlinearinform --> vp0研究方法QVAR\n    vp1研究主題地緣政治[\"💡 研究主題：地緣政治/國防、原物料/商品\"]\n    style vp1研究主題地緣政治 fill:#fef3c7,stroke:#d97706\n    Nonlinearinform --> vp1研究主題地緣政治\n    vp0研究方法QVAR --- vp1研究主題地緣政治"
     },
     {
-      "id": "qvar-2026-10-09-W7140109798",
-      "title": "Time-varying, frequency-domain, and quantile spillovers across energy and financial markets under climate policy uncertainty: TVP-VAR-SV, BK, QVAR",
-      "search_date": "2026-10-09",
-      "authors": "",
-      "year": "2026",
-      "journal": "",
-      "doi": "10.1007/s11135-026-02668-3",
-      "citations": "",
-      "openalex_url": "https://openalex.org/W7140109798",
-      "abstract": "",
-      "tags": [
-        "QVAR",
-        "TVP-VAR"
-      ],
-      "topics": [
-        "氣候風險/政策",
-        "金融市場",
-        "宏觀總體"
-      ],
-      "type": "search",
-      "notes": [
-        "年份：2026",
-        "主題：氣候風險/政策、金融市場、宏觀總體",
-        "方法：QVAR (Quantile Vector Autoregression) + TVP-VAR (Time-Varying Parameter VAR) + VAR (Vector Autoregression)",
-        "---",
-        "DOI：10.1007/s11135-026-02668-3"
-      ],
-      "viewpoints": [
-        {
-          "claim": "主題：氣候風險/政策、金融市場、宏觀總體",
-          "evidence": "主題：氣候風險/政策、金融市場、宏觀總體",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "研究方法：QVAR (Quantile Vector Autoregression) + TVP-VAR (Time-Varying Parameter VAR) + V",
-          "evidence": "QVAR (Quantile Vector Autoregression) + TVP-VAR (Time-Varying Parameter VAR) + VAR (Vector Autoregression)",
-          "confidence": "mid",
-          "source": "方法",
-          "connections": []
-        },
-        {
-          "claim": "研究主題：氣候風險/政策、金融市場、宏觀總體",
-          "evidence": "氣候風險/政策、金融市場、宏觀總體",
-          "confidence": "mid",
-          "source": "主題",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    Timevaryingfreq[\"📄 Time-varying, frequency-domain, and quantile spill\"]\n    style Timevaryingfreq fill:#2563eb,color:#fff,font-weight:bold\n    vp0主題氣候風險政策[\"💡 主題：氣候風險/政策、金融市場、宏觀總體\"]\n    style vp0主題氣候風險政策 fill:#fef3c7,stroke:#d97706\n    Timevaryingfreq --> vp0主題氣候風險政策\n    vp1研究方法QVAR[\"💡 研究方法：QVAR (Quantile Vector Autoregressio\"]\n    style vp1研究方法QVAR fill:#fef3c7,stroke:#d97706\n    Timevaryingfreq --> vp1研究方法QVAR\n    vp2研究主題氣候風險[\"💡 研究主題：氣候風險/政策、金融市場、宏觀總體\"]\n    style vp2研究主題氣候風險 fill:#fef3c7,stroke:#d97706\n    Timevaryingfreq --> vp2研究主題氣候風險\n    vp0主題氣候風險政策 --- vp1研究方法QVAR\n    vp1研究方法QVAR --- vp2研究主題氣候風險"
-    },
-    {
       "id": "qvar-2026-10-09-W7132843361",
       "title": "Dynamic resilience assessment of the shipping market to extreme carbon trading price tail shocks: scenario-based QVAR",
       "search_date": "2026-10-09",
@@ -12384,59 +12331,6 @@
         }
       ],
       "diagram": "graph TD\n    Nonlinearinform[\"📄 Nonlinear information spillovers between geopoliti\"]\n    style Nonlinearinform fill:#2563eb,color:#fff,font-weight:bold\n    vp0研究方法QVAR[\"💡 研究方法：QVAR (Quantile Vector Autoregressio\"]\n    style vp0研究方法QVAR fill:#fef3c7,stroke:#d97706\n    Nonlinearinform --> vp0研究方法QVAR\n    vp1研究主題地緣政治[\"💡 研究主題：地緣政治/國防、原物料/商品\"]\n    style vp1研究主題地緣政治 fill:#fef3c7,stroke:#d97706\n    Nonlinearinform --> vp1研究主題地緣政治\n    vp0研究方法QVAR --- vp1研究主題地緣政治"
-    },
-    {
-      "id": "qvar-2026-09-03-[W7140109798](https://openalex.org/W7140109798)",
-      "title": "Time-varying, frequency-domain, and quantile spillovers across energy and financial markets under climate policy uncertainty: evidence from TVP-VAR-SV, BK, and QVAR models",
-      "search_date": "2026-09-03",
-      "authors": "",
-      "year": "2026",
-      "journal": "",
-      "doi": "[10.1007/s11135-026-02668-3](https://doi.org/10.1007/s11135-026-02668-3)",
-      "citations": "",
-      "openalex_url": "",
-      "abstract": "",
-      "tags": [
-        "QVAR",
-        "TVP-VAR"
-      ],
-      "topics": [
-        "氣候風險/政策",
-        "金融市場",
-        "宏觀總體"
-      ],
-      "type": "search",
-      "notes": [
-        "年份：2026",
-        "主題：氣候風險/政策、金融市場、宏觀總體",
-        "方法：QVAR (Quantile Vector Autoregression) + TVP-VAR (Time-Varying Parameter VAR) + VAR (Vector Autoregression)",
-        "---",
-        "DOI：[10.1007/s11135-026-02668-3](https://doi.org/10.1007/s11135-026-02668-3)"
-      ],
-      "viewpoints": [
-        {
-          "claim": "主題：氣候風險/政策、金融市場、宏觀總體",
-          "evidence": "主題：氣候風險/政策、金融市場、宏觀總體",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "研究方法：QVAR (Quantile Vector Autoregression) + TVP-VAR (Time-Varying Parameter VAR) + V",
-          "evidence": "QVAR (Quantile Vector Autoregression) + TVP-VAR (Time-Varying Parameter VAR) + VAR (Vector Autoregression)",
-          "confidence": "mid",
-          "source": "方法",
-          "connections": []
-        },
-        {
-          "claim": "研究主題：氣候風險/政策、金融市場、宏觀總體",
-          "evidence": "氣候風險/政策、金融市場、宏觀總體",
-          "confidence": "mid",
-          "source": "主題",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    Timevaryingfreq[\"📄 Time-varying, frequency-domain, and quantile spill\"]\n    style Timevaryingfreq fill:#2563eb,color:#fff,font-weight:bold\n    vp0主題氣候風險政策[\"💡 主題：氣候風險/政策、金融市場、宏觀總體\"]\n    style vp0主題氣候風險政策 fill:#fef3c7,stroke:#d97706\n    Timevaryingfreq --> vp0主題氣候風險政策\n    vp1研究方法QVAR[\"💡 研究方法：QVAR (Quantile Vector Autoregressio\"]\n    style vp1研究方法QVAR fill:#fef3c7,stroke:#d97706\n    Timevaryingfreq --> vp1研究方法QVAR\n    vp2研究主題氣候風險[\"💡 研究主題：氣候風險/政策、金融市場、宏觀總體\"]\n    style vp2研究主題氣候風險 fill:#fef3c7,stroke:#d97706\n    Timevaryingfreq --> vp2研究主題氣候風險\n    vp0主題氣候風險政策 --- vp1研究方法QVAR\n    vp1研究方法QVAR --- vp2研究主題氣候風險"
     },
     {
       "id": "qvar-2026-09-03-[W7135189148](https://openalex.org/W7135189148)",
@@ -16322,58 +16216,63 @@
       "search_date": "2026-06-10",
       "authors": "Md Qamruzzaman; Abdulrahman Alomair; Mohammed Alomair; Sylvia Kor",
       "year": "2026",
-      "journal": "Quality & Quantity",
-      "doi": "//doi.org/10.1007/s11135026026683",
-      "citations": "0",
-      "openalex_url": "//openalex.org/W7140109798",
-      "abstract": "-  研究氣候政策不確定性對能源與金融市場波動外溢的影響，結合 TVP-VAR-SV、BK 頻率連結度與 QVAR 模型。",
+      "journal": "Quality & Quantity, 60(3), 10765–10804",
+      "doi": "https://doi.org/10.1007/s11135-026-02668-3",
+      "citations": "2 次（Crossref；OpenAlex 尚未收錄；2026-11-17）",
+      "openalex_id": "",
+      "openalex_url": "",
+      "fulltext_url": "https://link.springer.com/article/10.1007/s11135-026-02668-3",
+      "reading_level": "全文精讀（含資料品質警示）",
+      "abstract": "本文整合 TVP-VAR-SV、Baruník–Křehlík 頻率分解與 QVAR，分析氣候政策不確定性對歐洲電力、能源、碳與金融資產外溢的期限與尾部異質性。作者報告 CPU 在長期與下行情境的放大作用較強；但全文中的樣本期間、觀察資料與合成序列描述互相衝突，因此此筆保留資料品質警示，引用前應再核對資料表與重現材料。",
       "tags": [
+        "TVP-VAR-SV",
+        "Baruník–Křehlík",
         "QVAR",
-        "TVP-VAR"
+        "climate policy uncertainty",
+        "DCC-GARCH",
+        "GAS copula"
       ],
       "topics": [
         "氣候風險/政策",
+        "能源市場",
+        "碳市場/碳交易",
         "金融市場",
-        "宏觀總體"
+        "宏觀總體",
+        "方法論"
+      ],
+      "keywords": [
+        "European electricity",
+        "EUA",
+        "frequency connectedness",
+        "tail spillovers",
+        "hedging",
+        "data quality warning"
+      ],
+      "notes": [
+        "【閱讀層級】全文精讀，但列為資料品質警示；DOI、作者、卷期頁碼與 Springer 書目可核驗。Crossref 被引 2 次；OpenAlex 於 2026-11-17 仍無可解析紀錄。",
+        "【研究問題與動機】CPU 如何改變歐洲電力、化石能源、碳與金融資產間的時變、期限別與尾部外溢？動態、頻域與分位數模型是否給出一致的風險傳導圖像？",
+        "【研究變數】德國日前電價、Brent、天然氣、煤、EUA 碳價、CPU、STOXX Europe 600、Bitcoin、Ethereum、VIX、EUR/USD。文中另提法國、西班牙、Nordic bidding zones 與 TTF 作替代。",
+        "【資料／市場／樣本】ENTSO-E、World Bank／IMF commodity prices、EIA／FRED、PolicyUncertainty.org／Figshare 等。重要警示：全文一處寫 2010-01 至 2023-12，另一處又寫 2015-01 至 2024-12；最終樣本、頻率轉換與樣本量未能一致核對。",
+        "【模型與估計】TVP-VAR-SV；Baruník–Křehlík 短／中／長期 connectedness；QVAR 尾部 connectedness；DCC-GARCH 與 GAS copula 用於動態對沖比較。",
+        "【穩健性檢驗】文中以法國、西班牙、Nordic bidding zones 與 TTF 等市場替代並比較動態對沖；但資料建構、頻率協調與合成序列敘述不一致，削弱這些檢查的可稽核性。",
+        "【主要結果】作者報告 CPU 在長期限與下行情境是較強的外溢放大者；短期主要由電力、油、氣的實體能源衝擊主導，中期逐漸轉向碳與股票，牛市則由加密資產與股票較常傳送。這些是模型內方向性外溢，不等同識別後的政策因果。",
+        "【作者提出的限制】歷史 CPU 指數可能無法完整捕捉即時談判與前瞻政策；異質市場與頻率協調會造成測量限制。",
+        "【其他限制】圖表敘述出現 synthetic mean-reverting VIX、AR(1) CPU 與模擬衝擊字樣，和資料來源段宣稱的觀察資料不一致。取得資料、程式與原始表格前，不宜把結果作為精確數值證據。",
+        "【APA 7】Qamruzzaman, M., Alomair, A., Alomair, M., & Kor, S. (2026). Time-varying, frequency-domain, and quantile spillovers across energy and financial markets under climate policy uncertainty: Evidence from TVP-VAR-SV, BK, and QVAR models. Quality & Quantity, 60(3), 10765–10804. https://doi.org/10.1007/s11135-026-02668-3",
+        "【與美智研究的關聯】5/5（主題與方法完全重疊，但證據可信度暫降）。可借鏡 TVP-VAR-SV＋BK＋QVAR 三層架構與 hedging 模組；主要差異與風險是資料建構及樣本期間不一致，應作反面品質案例而非直接複製。"
       ],
       "type": "search",
-      "notes": [
-        "作者：Md Qamruzzaman; Abdulrahman Alomair; Mohammed Alomair; Sylvia Kor",
-        "年份：2026",
-        "期刊：Quality & Quantity",
-        "主題：氣候風險/政策、金融市場、宏觀總體",
-        "方法：QVAR (Quantile Vector Autoregression) + TVP-VAR (Time-Varying Parameter VAR) + VAR (Vector Autoregression)",
-        "---",
-        "【摘要】-  研究氣候政策不確定性對能源與金融市場波動外溢的影響，結合 TVP-VAR-SV、BK 頻率連結度與 QVAR 模型。",
-        "發現：-  研究氣候政策不確定性對能源與金融市場波動外溢的影響",
-        "---",
-        "DOI：//doi.org/10.1007/s11135026026683",
-        "被引次數：0"
-      ],
       "viewpoints": [
-        {
-          "claim": "主題：氣候風險/政策、金融市場、宏觀總體",
-          "evidence": "主題：氣候風險/政策、金融市場、宏觀總體",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "【摘要】-  研究氣候政策不確定性對能源與金融市場波動外溢的影響，結合 TVP-VAR-SV、BK 頻率連結度與 QVAR 模型。",
-          "evidence": "【摘要】-  研究氣候政策不確定性對能源與金融市場波動外溢的影響，結合 TVP-VAR-SV、BK 頻率連結度與 QVAR 模型。",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        },
-        {
-          "claim": "發現：-  研究氣候政策不確定性對能源與金融市場波動外溢的影響",
-          "evidence": "發現：-  研究氣候政策不確定性對能源與金融市場波動外溢的影響",
-          "confidence": "mid",
-          "source": "陳述",
-          "connections": []
-        }
-      ],
-      "diagram": "graph TD\n    Timevaryingfreq[\"📄 Time-varying, frequency-domain, and quantile spill\"]\n    style Timevaryingfreq fill:#2563eb,color:#fff,font-weight:bold\n    vp0主題氣候風險政策[\"💡 主題：氣候風險/政策、金融市場、宏觀總體\"]\n    style vp0主題氣候風險政策 fill:#fef3c7,stroke:#d97706\n    Timevaryingfreq --> vp0主題氣候風險政策\n    vp1摘要研究氣[\"💡 【摘要】-  研究氣候政策不確定性對能源與金融市場波動外溢的影響，結合 TVP-\"]\n    style vp1摘要研究氣 fill:#fef3c7,stroke:#d97706\n    Timevaryingfreq --> vp1摘要研究氣\n    vp2發現研究氣候[\"💡 發現：-  研究氣候政策不確定性對能源與金融市場波動外溢的影響\"]\n    style vp2發現研究氣候 fill:#fef3c7,stroke:#d97706\n    Timevaryingfreq --> vp2發現研究氣候\n    vp0主題氣候風險政策 --- vp1摘要研究氣\n    vp1摘要研究氣 --- vp2發現研究氣候"
+        {"claim": "【證據層級】全文已核驗但有資料警示", "evidence": "Springer 全文與 Crossref 書目可核驗；資料段與圖表敘述衝突。", "confidence": "medium", "source": "全文／書目", "connections": []},
+        {"claim": "【架構】整合 TVP-VAR-SV、BK 與 QVAR", "evidence": "同時比較時變、頻率與尾部 connectedness。", "confidence": "high", "source": "全文方法段", "connections": []},
+        {"claim": "【市場】電力、能源、EUA 與金融資產", "evidence": "另含 CPU、股票、加密資產、VIX 與匯率。", "confidence": "high", "source": "全文資料段", "connections": []},
+        {"claim": "【結果】CPU 在長期與下行情境較強", "evidence": "作者報告其為模型中的外溢放大者。", "confidence": "medium", "source": "全文結果", "connections": []},
+        {"claim": "【頻率】短期由實體能源衝擊主導", "evidence": "中期較偏碳與股票，牛市較偏加密與股票。", "confidence": "medium", "source": "全文結果", "connections": []},
+        {"claim": "【衝突】樣本期間有兩種版本", "evidence": "全文分別出現 2010–2023 與 2015–2024。", "confidence": "high", "source": "全文資料段", "connections": []},
+        {"claim": "【衝突】觀察資料與合成序列敘述不一致", "evidence": "synthetic VIX、AR(1) CPU 與資料來源段難以對齊。", "confidence": "high", "source": "全文品質審查", "connections": []},
+        {"claim": "【界線】方向性外溢不是政策因果", "evidence": "模型未提供外生 CPU 識別。", "confidence": "high", "source": "比較判讀", "connections": []},
+        {"claim": "【研究借鏡】高度相關但只能審慎使用", "evidence": "可借鏡三層架構，不能直接採用衝突的樣本與數值。", "confidence": "high", "source": "比較判讀", "connections": []}
+      ]
     },
     {
       "id": "2026-06-10-19",
