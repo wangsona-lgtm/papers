@@ -1,6 +1,6 @@
 {
-  "total": 272,
-  "updated": "2026-11-17 20:17:47",
+  "total": 276,
+  "updated": "2026-11-18 20:29:15",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,466 @@
     "金融市場"
   ],
   "papers": [
+  {
+    "id": "qvar-2026-11-18-green-bond-tech-tvp-fqvar",
+    "title": "Time-Varying Tail connectedness between green bonds, US tech equities, and AI/Cybersecurity ETFs: A TVP-FQVAR and machine learning approach",
+    "search_date": "2026-11-18",
+    "authors": "Sami Mejri; Arturo Leccadito",
+    "year": "2026",
+    "journal": "Green Finance, 8(4), 750–780",
+    "doi": "https://doi.org/10.3934/GF.2026027",
+    "citations": "0 次（Crossref；OpenAlex 尚未收錄；2026-11-18）",
+    "openalex_id": "",
+    "openalex_url": "",
+    "fulltext_url": "https://www.aimspress.com/article/doi/10.3934/GF.2026027",
+    "reading_level": "全文精讀",
+    "abstract": "本文以綠債、BOTZ／CIBR 與美國大型科技股建立時變參數頻率分位數 VAR（TVP-FQVAR）網絡，並以 SVM、XGBoost 預測尾部總連通性。1,341 筆日觀測的估計顯示，5% 下尾 TVP 總連通性為 85.61%，其中短期 60.76%、長期 24.85%；95% 上尾為 85.16%，其中短期 70.87%、長期 14.29%。綠債在兩端均為最大淨接收者，下尾時 NVDA 與 TSLA 的淨傳遞值分別升至 10.97 與 11.21。機器學習結果把 VIX、通膨預期與黃金／比特幣比率列為主要預測訊號，但這些是預測關聯而非結構性驅動因素。",
+    "tags": [
+      "TVP-FQVAR",
+      "frequency QVAR",
+      "Baruník–Křehlík",
+      "SVM",
+      "XGBoost",
+      "green bonds"
+    ],
+    "topics": [
+      "綠債/ESG",
+      "AI/科技",
+      "金融市場"
+    ],
+    "keywords": [
+      "BOTZ",
+      "CIBR",
+      "NVIDIA",
+      "Tesla",
+      "gold-to-Bitcoin ratio",
+      "tail connectedness"
+    ],
+    "notes": [
+      "【閱讀層級】全文精讀；已核對 AIMS Press 公開 HTML、31 頁 CC BY 4.0 PDF、Crossref DOI／完整書目，並渲染檢查封面、資料表、TVP-FQVAR 結果表與結論頁。OpenAlex 於 2026-11-18 尚未解析該 DOI。",
+      "【研究問題與動機】綠債與美國大型科技股、AI／機器人與資安 ETF 的尾部風險是否跨分位數與投資期間傳遞；時間變動是否改變淨傳遞者身分；宏觀金融變數能否預測系統連通性。",
+      "【研究變數】GREEN.BONDS、BOTZ、CIBR、NVDA、MSFT、AAPL、AMZN、TSLA、GOOG 的日報酬；預測變數為黃金／比特幣比率、10 年減 2 年美債利差、5 年通膨預期、VIX 與 ICE BofA 投資級公司債選擇權調整利差。",
+      "【資料／市場／樣本】美國市場日資料，共 1,341 筆觀測；全文未報告資產價格的原始供應商、明確起訖日期與綠債指數名稱，故這些欄位記為未報告。",
+      "【模型與估計】先估靜態 Frequency QVAR，再以遞迴折現更新係數與共變異數形成 TVP-FQVAR；頻帶分為 1–5 日短期及 6 日以上長期。另以 200 日滾動 QVAR 的總、短期與長期 TCI 作為 SVM／XGBoost 預測目標，並用 feature importance 與 SHAP 解釋。",
+      "【穩健性檢驗】比較靜態與時變參數 FQVAR、5% 與 95% 分位、短長頻帶及 SVM／XGBoost 模型；全文未提供主要 connectedness 指標的 bootstrap 信賴區間、替代綠債代理或明確資料起訖日敏感度。",
+      "【主要結果】TVP-FQVAR 下尾總 TCI 85.61%，短期 60.76%、長期 24.85%；上尾總 TCI 85.16%，短期 70.87%、長期 14.29%。綠債淨值在下尾為 −12.67、上尾為 −15.53；下尾時 NVDA 與 TSLA 轉為最強淨傳遞者（10.97、11.21）。較佳的下尾 TCI 預測模型 RMSE 約 1.02、R² 33.5%。",
+      "【作者提出的限制】全文未設獨立限制段；討論承認靜態模型會遮蔽壓力期角色轉換，機器學習變數的重要性隨模型與期間而異。",
+      "【其他限制】未報告資產資料來源與樣本日期，降低完全重現性；ML 部分的依變數來自 200 日滾動 QVAR，與主文宣稱的 TVP-FQVAR 不完全同一估計物。高 TCI 是縮減式預測誤差分配，不能直接寫成科技股造成綠債風險；預測重要性也不等於經濟機制。",
+      "【APA 7】Mejri, S., & Leccadito, A. (2026). Time-varying tail connectedness between green bonds, US tech equities, and AI/cybersecurity ETFs: A TVP-FQVAR and machine learning approach. Green Finance, 8(4), 750–780. https://doi.org/10.3934/GF.2026027",
+      "【與美智研究的關聯】5/5。與綠色資產、尾部 QVAR、BK 頻率分解及時變參數完全重疊，可直接借鏡 TVP-FQVAR 的短長期角色轉換與淨傳遞者穩定性檢查；主要差異是本文沒有 CPU／氣候風險、TVP-VAR-SV 或碳價，並加入 AI／資安資產與 ML 預測層。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {
+        "claim": "【證據層級】公開全文已核驗",
+        "evidence": "AIMS Press HTML、31 頁 PDF、Crossref 與 CC BY 4.0。",
+        "confidence": "high",
+        "source": "全文／書目",
+        "connections": []
+      },
+      {
+        "claim": "【資料】九項資產、1,341 筆日觀測",
+        "evidence": "正文 Table 1；起訖日與價格供應商未報告。",
+        "confidence": "high",
+        "source": "全文資料段",
+        "connections": []
+      },
+      {
+        "claim": "【方法】TVP-FQVAR 分解分位數與頻率",
+        "evidence": "短期 1–5 日、長期 6 日以上。",
+        "confidence": "high",
+        "source": "全文方法段",
+        "connections": []
+      },
+      {
+        "claim": "【下尾】TVP 總 TCI 為 85.61%",
+        "evidence": "短期 60.76%、長期 24.85%。",
+        "confidence": "high",
+        "source": "全文 Table 4",
+        "connections": []
+      },
+      {
+        "claim": "【上尾】TVP 總 TCI 為 85.16%",
+        "evidence": "短期 70.87%、長期 14.29%。",
+        "confidence": "high",
+        "source": "全文 Table 5",
+        "connections": []
+      },
+      {
+        "claim": "【方向】綠債為最大淨接收者",
+        "evidence": "下尾 −12.67；上尾 −15.53。",
+        "confidence": "high",
+        "source": "全文結果",
+        "connections": []
+      },
+      {
+        "claim": "【壓力角色】NVDA 與 TSLA 轉為下尾淨傳遞者",
+        "evidence": "TVP 淨值 10.97 與 11.21；靜態模型未呈現相同排序。",
+        "confidence": "high",
+        "source": "全文比較",
+        "connections": []
+      },
+      {
+        "claim": "【限制】ML 預測重要性不是結構因果",
+        "evidence": "SVM／XGBoost 的變數權重隨模型與頻帶改變。",
+        "confidence": "high",
+        "source": "全文比較判讀",
+        "connections": []
+      },
+      {
+        "claim": "【研究借鏡】可檢查 CPU 網絡的角色穩定性",
+        "evidence": "靜態與 TVP 的淨傳遞排序在下尾明顯不同。",
+        "confidence": "high",
+        "source": "比較判讀",
+        "connections": []
+      }
+    ]
+  },
+  {
+    "id": "qvar-2026-11-18-uk-monetary-volatility-connectedness",
+    "title": "Bank rate surprises, quantitative easing regimes and volatility connectedness in UK financial markets",
+    "search_date": "2026-11-18",
+    "authors": "Tran Khoi Nguyen Le; Xuan Bach Tran",
+    "year": "2026",
+    "journal": "Banks and Bank Systems, 21(4), 224–241",
+    "doi": "https://doi.org/10.21511/bbs.21(4).2026.14",
+    "citations": "0 次（Crossref；OpenAlex 尚未收錄；2026-11-18）",
+    "openalex_id": "",
+    "openalex_url": "",
+    "fulltext_url": "https://businessperspectives.org/journals/banks-and-bank-systems/issue-538/bank-rate-surprises-quantitative-easing-regimes-and-volatility-connectedness-in-uk-financial-markets",
+    "reading_level": "全文精讀",
+    "abstract": "本文以 2010–2025 年英國公債、FTSE 100、英鎊與 Brent 的月實現波動建立 VAR-GFEVD 網絡，並檢驗窄窗利率意外與量化寬鬆（QE）狀態是否改變連通性。基準 TCI 為 39.65%，校正 TCI 為 52.87%；FTSE 100 是顯著淨傳遞者（42.11），Brent 是淨接收者（−54.00），英鎊淨值 −1.36 與零無異。窄窗 Bank Rate 意外在五個月落後內都不能預測連通性；若使用收盤到收盤代理與 Newey–West 誤差會出現顯著關係，但把第一階段估計誤差納入移動區塊 bootstrap 後消失。15 個 QE 與非 QE 差異均不顯著，顯示 connectedness 研究必須同時處理政策意外辨識與估計不確定性。",
+    "tags": [
+      "VAR-GFEVD",
+      "monetary policy surprises",
+      "quantitative easing",
+      "moving-block bootstrap",
+      "volatility connectedness",
+      "UK financial markets"
+    ],
+    "topics": [
+      "宏觀總體",
+      "金融市場"
+    ],
+    "keywords": [
+      "Bank Rate",
+      "QE",
+      "FTSE 100",
+      "gilts",
+      "GBP/USD",
+      "Brent"
+    ],
+    "notes": [
+      "【閱讀層級】全文精讀；已核對 Business Perspectives 官方 HTML、19 頁 CC BY 4.0 PDF、Crossref DOI／完整書目，並渲染檢查摘要、資料表、FEVD 結果與結論頁。OpenAlex 於 2026-11-18 尚未提供可解析紀錄。",
+      "【研究問題與動機】英國窄窗 Bank Rate 意外與 QE／QT 狀態是否改變公債、股票、匯率和原油的總、方向與淨波動連通性；政策意外代理與第一階段估計誤差是否會製造虛假的政策訊號。",
+      "【研究變數】FTSE 100、英國 10 年期公債殖利率、GBP/USD 與 Brent 的月實現波動；2 年期公債窄窗政策意外、Target／Path／QE 因子及英格蘭銀行資產購買操作紀錄。",
+      "【資料／市場／樣本】英國與全球油市，2010-01 至 2025-12；3,907 個共同交易日彙整為 192 個完整月份。來源為英格蘭銀行、UK Monetary Policy Event-Study Database、公開 FTSE 收盤與美國 EIA。QE-active 62 月、QT-active 29 月。",
+      "【模型與估計】四變數 VAR(2) 搭配 generalized FEVD，H=12 月；36 月滾動視窗估計 TCI、TO、FROM、NET。政策迴歸含當期與四個月落後；以 2,000 次 wild bootstrap 估 connectedness 區間，並以 moving-block bootstrap 重跑完整兩階段流程。",
+      "【穩健性檢驗】替代窄窗／收盤到收盤／Target／Path 因子，24／36／48／60 月視窗，危機排除寬度、VAR 落後 1–4 與 FEVD 6／12／18／24 月；ADF、KPSS、Portmanteau、ARCH、JB、穩定根與 daily local projections。",
+      "【主要結果】TCI 39.65%、校正後 52.87%。FTSE 100 NET 42.11（95% CI 35.48–53.31）、公債 13.25（4.62–24.19）、Brent −54.00（−70.10 至 −51.20）、英鎊 −1.36（−5.71–7.05）。窄窗政策意外的聯合檢定皆不顯著；15 個 QE-active 減 QE-inactive 差異全部跨零。",
+      "【作者提出的限制】GFEVD 是縮減式而非結構識別；QE 狀態非隨機且樣本小；只有四個市場、月頻率對政策事件偏粗；結果依賴落後期、預測期與視窗。日頻 20 日結果因重疊視窗嚴重，只列附錄。",
+      "【其他限制】QE regime 比較只有 35 個可用狀態觀測，無法把政策效果與觸發 QE 的壓力條件分開；rolling window 中有七個爆炸根視窗。研究不是 QVAR／頻率分解，不能直接外推到尾部分位或 BK 頻帶。",
+      "【APA 7】Le, T. K. N., & Tran, X. B. (2026). Bank rate surprises, quantitative easing regimes and volatility connectedness in UK financial markets. Banks and Bank Systems, 21(4), 224–241. https://doi.org/10.21511/bbs.21(4).2026.14",
+      "【與美智研究的關聯】3/5。主題屬貨幣政策與 connectedness；可直接借鏡窄窗意外辨識、兩階段 moving-block bootstrap、淨角色信賴區間與爆炸根揭露，避免把 CPU 代理或事件同期波動寫成結構傳遞。主要差異是本文沒有分位數、氣候／綠色資產、TVP-VAR-SV 或 BK 分解。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {
+        "claim": "【證據層級】公開全文已核驗",
+        "evidence": "官方 HTML、19 頁 PDF、Crossref 與 CC BY 4.0。",
+        "confidence": "high",
+        "source": "全文／書目",
+        "connections": []
+      },
+      {
+        "claim": "【資料】3,907 日、192 月觀測",
+        "evidence": "2010-01 至 2025-12，四個市場。",
+        "confidence": "high",
+        "source": "全文資料段",
+        "connections": []
+      },
+      {
+        "claim": "【方法】VAR-GFEVD 加兩階段 bootstrap",
+        "evidence": "2,000 次重估 connectedness 與政策迴歸。",
+        "confidence": "high",
+        "source": "全文方法段",
+        "connections": []
+      },
+      {
+        "claim": "【網絡】基準 TCI 為 39.65%",
+        "evidence": "校正 TCI 52.87%。",
+        "confidence": "high",
+        "source": "全文 Table 3",
+        "connections": []
+      },
+      {
+        "claim": "【方向】FTSE 傳遞、Brent 接收",
+        "evidence": "NET 42.11 與 −54.00，bootstrap 區間均不跨零。",
+        "confidence": "high",
+        "source": "全文結果",
+        "connections": []
+      },
+      {
+        "claim": "【利率意外】月頻連通性沒有可測關聯",
+        "evidence": "窄窗意外在當期與四個月落後的聯合檢定皆不顯著。",
+        "confidence": "high",
+        "source": "全文結果",
+        "connections": []
+      },
+      {
+        "claim": "【QE】15 個 regime 差異均跨零",
+        "evidence": "點估計符號亦隨危機排除規則改變。",
+        "confidence": "high",
+        "source": "全文結果",
+        "connections": []
+      },
+      {
+        "claim": "【識別】收盤代理與簡化誤差會產生假訊號",
+        "evidence": "改用窄窗意外及重跑第一階段後，顯著性消失。",
+        "confidence": "high",
+        "source": "全文比較",
+        "connections": []
+      },
+      {
+        "claim": "【研究借鏡】CPU 網絡應報估計不確定性",
+        "evidence": "兩階段 bootstrap 與替代代理可區分政策訊號和測量誤差。",
+        "confidence": "high",
+        "source": "比較判讀",
+        "connections": []
+      }
+    ]
+  },
+  {
+    "id": "qvar-2026-11-18-energy-firms-higher-moment-bk",
+    "title": "Multidimensional time–frequency risk spillovers among global energy enterprises: Firm-level evidence from higher-moment connectedness",
+    "search_date": "2026-11-18",
+    "authors": "Ran Wu; Chaoyu Gong; Zhigang Su",
+    "year": "2026",
+    "journal": "Energy Economics, 164, Article 109679",
+    "doi": "https://doi.org/10.1016/j.eneco.2026.109679",
+    "citations": "0 次（Crossref；OpenAlex 0 次；2026-11-18）",
+    "openalex_id": "W7225753025",
+    "openalex_url": "https://openalex.org/W7225753025",
+    "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S0140988326005591",
+    "reading_level": "摘要層級",
+    "abstract": "本文以 50 家全球石油、天然氣與電力企業為節點，從報酬、波動、偏度與峰度四個風險維度建立高維時頻 connectedness 網絡。2021 年 12 月 23 日至 2026 年 6 月 30 日的日股價經 GJR-SK 形成風險量後，再以 Elastic Net-VAR、Diebold–Yilmaz 與 Baruník–Křehlík 分解。官方摘要顯示，波動是最強系統性溢出管道，報酬與峰度亦高度連通，偏度較弱但能揭露選擇性非對稱傳遞；短期頻帶主導全部網絡，但波動含較持久的長期成分。企業淨角色會隨風險維度與外部衝擊切換，不能由單一市場平均網絡概括。",
+    "tags": [
+      "Elastic Net-VAR",
+      "Diebold–Yilmaz",
+      "Baruník–Křehlík",
+      "higher moments",
+      "firm network",
+      "energy risk"
+    ],
+    "topics": [
+      "能源市場",
+      "金融市場",
+      "原物料/商品"
+    ],
+    "keywords": [
+      "oil and gas firms",
+      "power utilities",
+      "skewness",
+      "kurtosis",
+      "short-term connectedness",
+      "event windows"
+    ],
+    "notes": [
+      "【閱讀層級】摘要層級；已核對 ScienceDirect 官方摘要／highlights、Crossref DOI／完整書目及 OpenAlex W7225753025。出版社標示訂閱存取，未繞過付費牆；OpenAlex 記錄 is_retracted=false、closed access。",
+      "【研究問題與動機】全球能源企業在報酬、波動、偏度與峰度風險上有多強的企業層級連通性；短長期頻帶與重大外部衝擊是否改變淨傳遞者／接收者角色。",
+      "【研究變數】50 家代表性石油、天然氣與電力企業的日股價；以 GJR-SK 建構報酬、波動、偏度與峰度四種風險量。官方摘要未列企業完整清單。",
+      "【資料／市場／樣本】全球能源企業，Yahoo Finance 日資料，2021-12-23 至 2026-06-30；50 家企業。官方摘要未報告實際交易日樣本量與國家分布。",
+      "【模型與估計】GJR-SK 估計高階動差，Elastic Net-VAR 處理高維系統，再以 Diebold–Yilmaz GFEVD 與 Baruník–Křehlík 頻率分解估計多維方向與短長期 connectedness。",
+      "【穩健性檢驗】官方摘要提及不同風險維度、頻帶與重大衝擊事件窗的角色比較；替代懲罰參數、企業樣本、VAR 落後期、頻帶切點與 bootstrap 推論未報告。",
+      "【主要結果】波動連通性最強且長期成分較持久；報酬與峰度亦有實質 spillover，偏度較弱但呈現選擇性非對稱傳遞。短期 spillover 主導四個網絡；油氣巨頭主導報酬與波動傳遞，公用事業／基礎設施在不確定性網絡重要，煉油與下游企業在尾部事件居核心。",
+      "【作者提出的限制】官方摘要未明列限制；全文受訂閱限制，本次不補寫未核驗的作者限制。",
+      "【其他限制】GJR-SK 的條件偏度／峰度不是直接 QVAR 尾部分位；Elastic Net 懲罰、事件窗與 BK 頻帶設定可能影響網絡中心性。事件附近角色切換是描述性同期證據，不能寫成地緣政治或運輸事件造成企業角色改變。",
+      "【APA 7】Wu, R., Gong, C., & Su, Z. (2026). Multidimensional time–frequency risk spillovers among global energy enterprises: Firm-level evidence from higher-moment connectedness. Energy Economics, 164, 109679. https://doi.org/10.1016/j.eneco.2026.109679",
+      "【與美智研究的關聯】3/5。與能源金融 connectedness、BK 頻率分解、尾部高階動差及角色切換有方法重疊，可借鏡高維正則化與多風險層網絡；主要差異是沒有 CPU、綠色資產、QVAR 或 TVP-VAR-SV，研究單位是企業。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {
+        "claim": "【證據層級】官方摘要已核驗",
+        "evidence": "ScienceDirect 摘要／highlights、Crossref 與 OpenAlex。",
+        "confidence": "medium",
+        "source": "摘要／書目",
+        "connections": []
+      },
+      {
+        "claim": "【資料】50 家能源企業日資料",
+        "evidence": "2021-12-23 至 2026-06-30，來源 Yahoo Finance。",
+        "confidence": "medium",
+        "source": "官方摘要",
+        "connections": []
+      },
+      {
+        "claim": "【方法】GJR-SK 加 Elastic Net-VAR",
+        "evidence": "再接 DY 與 BK 頻率 connectedness。",
+        "confidence": "medium",
+        "source": "官方摘要",
+        "connections": []
+      },
+      {
+        "claim": "【維度】波動是最強 spillover 管道",
+        "evidence": "報酬與峰度次之，偏度較弱。",
+        "confidence": "medium",
+        "source": "官方摘要",
+        "connections": []
+      },
+      {
+        "claim": "【頻率】短期 spillover 主導",
+        "evidence": "波動風險另含較持久的長期成分。",
+        "confidence": "medium",
+        "source": "官方摘要",
+        "connections": []
+      },
+      {
+        "claim": "【方向】油氣巨頭主導報酬與波動傳遞",
+        "evidence": "摘要把 utilities／infrastructure 與 refiners 分別定位於其他風險網絡。",
+        "confidence": "medium",
+        "source": "官方摘要",
+        "connections": []
+      },
+      {
+        "claim": "【狀態】企業角色會隨衝擊切換",
+        "evidence": "事件窗顯示同一企業可由傳遞者轉接收者。",
+        "confidence": "medium",
+        "source": "官方摘要",
+        "connections": []
+      },
+      {
+        "claim": "【限制】事件窗不識別因果",
+        "evidence": "摘要沒有反事實設計或結構衝擊。",
+        "confidence": "medium",
+        "source": "比較判讀",
+        "connections": []
+      },
+      {
+        "claim": "【研究借鏡】可擴充 CPU 網絡為多風險層",
+        "evidence": "把報酬、波動、偏度與峰度分開可避免單一 TCI 過度概括。",
+        "confidence": "medium",
+        "source": "比較判讀",
+        "connections": []
+      }
+    ]
+  },
+  {
+    "id": "qvar-2026-11-18-policy-green-energy-qqte",
+    "title": "Policy-driven interdependence between green and traditional energy markets: new evidence from a quantile-on-quantile transfer entropy analysis",
+    "search_date": "2026-11-18",
+    "authors": "Marco Tedeschi; Adeolu O. Adewuyi; Aviral Kumar Tiwari",
+    "year": "2026",
+    "journal": "China Accounting and Finance Review, 28(5), 635–655",
+    "doi": "https://doi.org/10.1108/CAFR-07-2025-0125",
+    "citations": "0 次（Crossref；OpenAlex 尚未收錄；2026-11-18）",
+    "openalex_id": "",
+    "openalex_url": "",
+    "fulltext_url": "https://www.emerald.com/10.1108/CAFR-07-2025-0125",
+    "reading_level": "摘要層級",
+    "abstract": "本文以 quantile-on-quantile transfer entropy（QQTE）檢驗綠債 ETF、潔淨能源 ETF 與傳統能源股票之間的非線性資訊流，並比較納入經濟政策不確定性（EPU）與貨幣政策干預（MPI）前後的網絡。2019 年 1 月 4 日至 2025 年 4 月 25 日的官方摘要結果顯示，若忽略政策狀態，潔淨能源在較低與中位分位會向綠債及傳統能源傳遞資訊；控制 EPU 與 MPI 後，綠債與潔淨能源之間的連結減弱，而傳統能源仍是主要 shock transmitter。這些結果是條件資訊流與分位依存，不足以識別政策干預造成市場傳遞改變。",
+    "tags": [
+      "QQTE",
+      "quantile-on-quantile",
+      "transfer entropy",
+      "economic policy uncertainty",
+      "monetary policy intervention",
+      "green energy"
+    ],
+    "topics": [
+      "潔淨能源",
+      "綠債/ESG",
+      "能源市場",
+      "宏觀總體"
+    ],
+    "keywords": [
+      "BGRN",
+      "ICLN",
+      "S&P 500 Energy",
+      "EPU",
+      "MPI",
+      "policy regimes"
+    ],
+    "notes": [
+      "【閱讀層級】摘要層級；已核對 Crossref 官方結構化摘要、DOI、完整作者、卷期頁碼與 CC BY 4.0 授權。Emerald 頁面在本次執行觸發 Cloudflare 驗證，未繞過；OpenAlex 尚未提供可解析紀錄。",
+      "【研究問題與動機】綠債、潔淨能源與傳統能源市場的資訊流是否隨兩個市場的分位數組合改變，以及 EPU 與貨幣政策干預是否會改變替代能源與傳統能源之間的連結。",
+      "【研究變數】iShares USD Green Bond ETF（BGRN）、iShares Global Clean Energy ETF（ICLN）、S&P 500 Energy Index（SP500EN），以及 EPU 與 MPI 政策狀態。摘要未提供報酬轉換與 MPI 的精確定義。",
+      "【資料／市場／樣本】2019-01-04 至 2025-04-25；涵蓋全球綠債／潔淨能源 ETF 與美國傳統能源股。摘要未報告資料來源、頻率與樣本量。",
+      "【模型與估計】採 Yao et al.（2025）提出的 QQTE，逐一描繪來源與目的變數不同分位數組合的非線性方向資訊流，並比較忽略及納入 EPU／MPI 的條件網絡。",
+      "【穩健性檢驗】摘要層級可確認的比較是未控制政策、控制 EPU 與控制 MPI；替代分位數網格、transfer entropy 參數、資料頻率、bootstrap 推論與替代政策代理未報告。",
+      "【主要結果】未納入政策狀態時，ICLN 在較低與中位分位向 BGRN 與 SP500EN 傳遞資訊；加入 EPU 與 MPI 後，BGRN 與 ICLN 的連結減弱。SP500EN 在控制政策後仍是主要衝擊傳遞者；綠色固定收益與傳統能源股之間呈現一定分散化空間。",
+      "【作者提出的限制】官方摘要的 research implications 強調政策穩定與不干預情境，但未明列資料、估計或外部效度限制；全文未合法解析，故不補寫未核驗內容。",
+      "【其他限制】QQTE 是三市場的條件資訊流分析，不等於 QVAR-GFEVD 或 BK 頻率連通性；以 EPU／MPI 作條件化不能把政策視為外生衝擊。摘要缺少頻率、樣本量與推論不確定性，投資組合結論只能視為方向性含意。",
+      "【APA 7】Tedeschi, M., Adewuyi, A. O., & Tiwari, A. K. (2026). Policy-driven interdependence between green and traditional energy markets: New evidence from a quantile-on-quantile transfer entropy analysis. China Accounting and Finance Review, 28(5), 635–655. https://doi.org/10.1108/CAFR-07-2025-0125",
+      "【與美智研究的關聯】4/5。與政策不確定性、綠債／潔淨能源、尾部方向傳遞高度重疊，可借鏡把 EPU 與貨幣政策狀態作為條件變數，檢查 CPU 結果是否只是共同政策環境；主要差異是 QQTE 非多變量 QVAR、沒有 BK 頻帶、TVP-VAR-SV 或碳價。"
+    ],
+    "type": "search",
+    "viewpoints": [
+      {
+        "claim": "【證據層級】官方摘要已核驗",
+        "evidence": "Crossref 結構化摘要、DOI、書目與 CC BY 4.0。",
+        "confidence": "medium",
+        "source": "摘要／書目",
+        "connections": []
+      },
+      {
+        "claim": "【資料】2019-01-04 至 2025-04-25",
+        "evidence": "三項市場工具；頻率與樣本量摘要未報告。",
+        "confidence": "medium",
+        "source": "官方摘要",
+        "connections": []
+      },
+      {
+        "claim": "【方法】QQTE 描繪雙分位方向資訊流",
+        "evidence": "並比較 EPU／MPI 條件化前後。",
+        "confidence": "medium",
+        "source": "官方摘要",
+        "connections": []
+      },
+      {
+        "claim": "【未控制政策】ICLN 向兩市場傳遞資訊",
+        "evidence": "主要出現在較低與中位分位。",
+        "confidence": "medium",
+        "source": "官方摘要",
+        "connections": []
+      },
+      {
+        "claim": "【政策條件化】兩個綠色市場連結減弱",
+        "evidence": "加入 EPU 與 MPI 後，BGRN–ICLN 依存下降。",
+        "confidence": "medium",
+        "source": "官方摘要",
+        "connections": []
+      },
+      {
+        "claim": "【方向】傳統能源仍是主要傳遞者",
+        "evidence": "控制 EPU／MPI 後仍保持該角色。",
+        "confidence": "medium",
+        "source": "官方摘要",
+        "connections": []
+      },
+      {
+        "claim": "【資產配置】綠債與能源股可能保留分散化空間",
+        "evidence": "政策狀態下兩者的 contagion 較弱。",
+        "confidence": "medium",
+        "source": "官方摘要",
+        "connections": []
+      },
+      {
+        "claim": "【限制】條件化不等於政策因果",
+        "evidence": "EPU／MPI 未被結構性識別為外生衝擊。",
+        "confidence": "medium",
+        "source": "比較判讀",
+        "connections": []
+      },
+      {
+        "claim": "【研究借鏡】政策狀態可作 CPU 網絡敏感度",
+        "evidence": "比較有無 EPU／MPI 可辨認共同政策環境。",
+        "confidence": "medium",
+        "source": "比較判讀",
+        "connections": []
+      }
+    ]
+  },
   {
     "id": "qvar-2026-11-17-nev-tech-tail-risk",
     "title": "Tail Risk Spillover Effects of the Technology Market on Chinese New Energy Vehicle Firms: A Perspective of Time-Varying Technological Cycles",
