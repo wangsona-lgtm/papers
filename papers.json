@@ -1,6 +1,6 @@
 {
-  "total": 305,
-  "updated": "2026-11-28 08:52:44",
+  "total": 308,
+  "updated": "2026-11-28 20:16:10",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,351 @@
     "金融市場"
   ],
   "papers": [
+    {
+      "id": "qvar-2026-11-28-cpu-renewable-developed-economies",
+      "title": "Climate Policy Uncertainty and Renewable Energy Market Stability in Developed Economies: A Quantile Connectedness Approach",
+      "search_date": "2026-11-28",
+      "authors": "Omer Faruk Derindag; Nesrin Ozkan",
+      "year": "2026",
+      "journal": "Sustainability, 18(22), Article 11707",
+      "doi": "https://doi.org/10.3390/su182211707",
+      "citations": "0 次（Crossref）／0 次（OpenAlex；2026-11-28）",
+      "openalex_id": "W7236240237",
+      "openalex_url": "https://openalex.org/W7236240237",
+      "fulltext_url": "https://www.mdpi.com/2071-1050/18/22/11707",
+      "reading_level": "全文精讀",
+      "abstract": "本文把美國新聞型氣候政策不確定性（CPU）視為外部／全球政策不確定性代理，與 21 個已開發經濟體的再生能源股票報酬共同放入 QVAR connectedness 網絡，檢視熊市、常態與牛市下的衝擊共享，再以國家與年份固定效果面板連結 OECD 環境政策嚴格度（EPS）。2004–2025 年結果顯示，中位數 TCI 為 88.47%，CPU 是最大淨傳遞者（NET 8.06），且下跌市場的 connectedness 高於中位與上漲市場。較高 EPS 與較低溢出相關，但不是因果效果；極端分位估計因尾端觀測太少而明顯過度配適，作者據此以 0.20／0.80 分位作主要尾端判讀。附錄部分 TCI 與信賴區間數值存在內部不一致，網站因此保留品質警示，不把該段穩健性敘述視為已充分證實。",
+      "tags": [
+        "QVAR",
+        "quantile connectedness",
+        "climate policy uncertainty",
+        "renewable energy equities",
+        "environmental policy stringency",
+        "fixed-effects panel"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "潔淨能源",
+        "金融市場"
+      ],
+      "keywords": [
+        "CPU",
+        "OECD EPS",
+        "developed economies",
+        "tail spillovers",
+        "GFEVD",
+        "market stability"
+      ],
+      "notes": [
+        "【閱讀層級】全文精讀；2026-11-28 以 MDPI CC BY 公開全文、補充材料說明、Crossref 與 OpenAlex 核驗。Crossref／OpenAlex 均未標示撤稿或拉回，OpenAlex 為 W7236240237、gold OA。",
+        "【研究問題與動機】CPU 是否是跨國再生能源市場網絡的淨衝擊來源？其角色與整體 connectedness 是否隨熊市、常態與牛市而改變？政策較嚴格的國家是否呈現較低的 CPU 溢出暴露？",
+        "【研究變數】Gavriilidis 美國新聞型 CPU 指數的對數一階差分；21 個已開發經濟體之 Bloomberg／MSCI 國家再生或潔淨能源股票指數日對數報酬；OECD EPS；面板控制變數為實質人均 GDP 對數與再生能源占最終能源消費比重。",
+        "【資料／市場／樣本】德國、英國、荷蘭、瑞典、丹麥、瑞士、比利時、愛爾蘭、葡萄牙、紐西蘭、盧森堡、冰島、新加坡、以色列、捷克、斯洛維尼亞、斯洛伐克、愛沙尼亞、拉脫維亞、立陶宛與希臘；日資料 2004-08-12 至 2025-09-12，補充材料報告 5,500 個共同交易日；年度面板涵蓋 2004–2025。CPU 公開，市場指數受 Bloomberg／MSCI 授權限制。",
+        "【模型與估計】QVAR-GFEVD connectedness，估計 TCI、TO、FROM、NET 與 pairwise spillovers；基準 lag 1（BIC）、H=10，主要分位為 0.20、0.50、0.80，另以 0.05–0.95 網格檢查尾端樣本敏感度。第二階段把各國日 TO spillover 年平均後，以國家與年份固定效果面板連結 EPS。",
+        "【穩健性檢驗】替代 H=20／40、lag 2／3、36 個月 rolling window、0.05–0.95 分位網格、2012–2018 與 2019–2025 子樣本、全球 CPU 替代指標、lagged EPS、Driscoll–Kraay／國家叢聚標準誤，以及 ADF、Bai–Perron、Pesaran CD、Wooldridge 檢定。作者發現極端分位僅約 4–16 個尾端觀測時估計跳升，故不採 0.05／0.95 作主要結論。",
+        "【主要結果】中位數 TCI 88.47%；CPU 的 NET 為 8.06（TO 約 10.4、FROM 約 2.4），是最大淨傳遞者，但對各國單一市場的直接份額很小。下尾 connectedness 高於中位，上尾最低；較高 EPS 與較低 CPU 溢出相關，作者主規格報告一點 EPS 對應年度溢出低 0.083 個百分點，但 lagged EPS 與全球 CPU 替代後弱化，不能寫成政策因果。",
+        "【作者提出的限制】美國 CPU 只能代理外部不確定性，無法分離 21 國國內 CPU；GFEVD 共享變異不識別因果；大型系統的 TCI 有約 5–7 點上偏，多數 NET 未顯著異於零；EPS 無工具變數；日資料與年度面板銜接會損失年內變化；市場層級無法解析公司／專案；EPS 衡量嚴格度而非可信度；僅涵蓋已開發經濟體。",
+        "【其他限制與品質警示】附錄 A1 列出的 H=10 TCI 88.47 與 H=20／40 的 48.65／48.66 並非『幾乎不變』；附錄 A2 的 88.47 亦落在其列示信賴區間 [36.52, 50.53] 之外。這些內部不一致可能是表格、標籤或計算錯誤，未取得更正版前不得把附錄敘述當作穩健性證據。另 22 變量系統本身會機械性提高 TCI。",
+        "【APA 7】Derindag, O. F., & Ozkan, N. (2026). Climate policy uncertainty and renewable energy market stability in developed economies: A quantile connectedness approach. Sustainability, 18(22), Article 11707. https://doi.org/10.3390/su182211707",
+        "【與美智研究的關聯】5/5。直接重疊 CPU、QVAR、尾部 spillovers、潔淨／再生能源與跨國市場。可借鏡：把 CPU 作為網絡節點、在大型系統中用尾端有效觀測數決定主要分位、明確區分 connectedness 與因果。主要差異：未使用 TVP-VAR-SV 或 BK 頻率分解，且第二階段是 EPS 固定效果面板。可追蹤引用：Ando et al.（2022）QVAR 與 CPU 指標文獻。"
+      ],
+      "type": "search",
+      "viewpoints": [
+        {
+          "claim": "【證據層級】合法全文精讀",
+          "evidence": "MDPI CC BY 全文與補充材料說明均可公開核驗；Crossref／OpenAlex 未標示撤稿。",
+          "confidence": "high",
+          "source": "MDPI／Crossref／OpenAlex",
+          "connections": []
+        },
+        {
+          "claim": "【系統】CPU 加 21 個已開發經濟體再生能源市場",
+          "evidence": "日資料 2004-08-12 至 2025-09-12，共 5,500 個共同交易日。",
+          "confidence": "high",
+          "source": "全文與補充材料",
+          "connections": []
+        },
+        {
+          "claim": "【方法】QVAR-GFEVD 與固定效果面板",
+          "evidence": "基準 lag 1、H=10、τ=0.20／0.50／0.80；年度 TO spillover 配對 OECD EPS。",
+          "confidence": "high",
+          "source": "方法段",
+          "connections": []
+        },
+        {
+          "claim": "【中位網絡】TCI 88.47%",
+          "evidence": "中位數下約 88% 的十步預測誤差變異歸於跨變量 innovations。",
+          "confidence": "medium",
+          "source": "Table 3；大型系統可能上偏",
+          "connections": []
+        },
+        {
+          "claim": "【CPU 角色】最大淨傳遞者",
+          "evidence": "CPU NET 8.06、TO 約 10.4、FROM 約 2.4，但對單一國家的直接份額小。",
+          "confidence": "medium",
+          "source": "Table 3／結果段",
+          "connections": []
+        },
+        {
+          "claim": "【尾部】下跌市場共享衝擊較強",
+          "evidence": "0.20 分位 connectedness 高於中位與 0.80；0.05／0.95 因尾端樣本稀少被作者判為不可靠。",
+          "confidence": "high",
+          "source": "分位敏感度與子樣本檢查",
+          "connections": []
+        },
+        {
+          "claim": "【政策嚴格度】與較低溢出相關而非因果",
+          "evidence": "EPS 主規格係數為負，但 lagged EPS 與全球 CPU 替代後弱化，且無工具變數。",
+          "confidence": "medium",
+          "source": "固定效果面板／作者限制",
+          "connections": []
+        },
+        {
+          "claim": "【品質警示】附錄數值內部矛盾",
+          "evidence": "H=10 的 88.47 與 H=20／40 約 48.65 不支持『幾乎不變』；88.47 亦不在列示 CI 內。",
+          "confidence": "high",
+          "source": "Appendix A Tables A1–A2",
+          "connections": []
+        },
+        {
+          "claim": "【研究借鏡】尾端有效樣本數必須顯式稽核",
+          "evidence": "作者顯示極端分位的高 connectedness 隨尾端觀測減少而跳升，適合用於美智研究的分位選擇與敏感度設計。",
+          "confidence": "high",
+          "source": "比較判讀",
+          "connections": []
+        }
+      ]
+    },
+    {
+      "id": "qvar-2026-09-10-math-climate-comovement",
+      "title": "Modeling Comovement and Asynchrony Between Fossil and Clean Energy Markets Under Climate Risks Using Quantile-on-Quantile Connectedness",
+      "search_date": "2026-09-10",
+      "authors": "Mengyue Liu; Rufei Zhang; Yuanyuan Jiang; Wang Gao",
+      "year": "2026",
+      "journal": "Mathematics, 14(9), Article 1486",
+      "doi": "https://doi.org/10.3390/math14091486",
+      "citations": "0 次（Crossref）／1 次（OpenAlex；2026-11-28）",
+      "openalex_id": "W7158952582",
+      "openalex_url": "https://openalex.org/W7158952582",
+      "fulltext_url": "https://www.mdpi.com/2227-7390/14/9/1486",
+      "reading_level": "全文精讀",
+      "abstract": "本文以 MSCI ACWI Energy 與 S&P Global Clean Energy 指數衡量全球化石與潔淨能源市場，將 quantile-on-quantile connectedness 延伸至頻率域，分辨同分位共移與反向分位非同步，再以 ARDL 連結自然災害、全球暖化、國際氣候峰會與氣候政策風險。2003–2023 年日資料顯示，共移整體占優勢；報酬連結主要集中短期，波動連結較偏長期。氣候政策與全球暖化風險和更強的報酬非同步相關，氣候政策與國際峰會則和波動非同步相關。正文對 lag 選擇出現 p=4 與圖說 lag 1 的內部差異，解讀時需保留品質警示。",
+      "tags": [
+        "quantile-on-quantile connectedness",
+        "frequency-domain connectedness",
+        "ARDL",
+        "physical climate risk",
+        "transition risk",
+        "clean energy"
+      ],
+      "topics": [
+        "氣候風險/政策",
+        "潔淨能源",
+        "能源市場"
+      ],
+      "keywords": [
+        "fossil energy",
+        "clean energy",
+        "comovement",
+        "asynchrony",
+        "global warming risk",
+        "climate policy risk"
+      ],
+      "notes": [
+        "【閱讀層級】全文精讀；2026-11-28 以 MDPI CC BY 全文重新核驗先前遺失紀錄，並以 Crossref／OpenAlex 核對 DOI、作者與撤稿狀態。OpenAlex W7158952582、1 次引用、is_retracted=false。",
+        "【研究問題與動機】化石與潔淨能源在相同分位狀態下的共移及相反分位狀態下的非同步，是否隨時間與短長期限改變？實體與轉型氣候風險如何改變 reverse TCI 相對 direct TCI 的結構？",
+        "【研究變數】MSCI ACWI Energy Index、S&P Global Clean Energy Index 的日報酬與 GARCH(1,1) 條件波動；Faccini 等人的自然災害、全球暖化、國際峰會、氣候政策四類氣候風險，其中前兩者屬實體風險、後兩者屬轉型風險。",
+        "【資料／市場／樣本】全球上市化石與潔淨能源市場；2003-11-21 至 2023-06-30；日資料；精確有效樣本量未報告。兩個市場各用一個廣泛指數代理。",
+        "【模型與估計】QVAR／GFEVD 的 quantile-on-quantile connectedness，分解 direct、reverse、TO、FROM、NET、NPDC 與 TCI；200 日 rolling window、H=20，分位 0.05–0.95、步長 0.05；頻率域分為 1–5 日短期與 5 日以上長期；第二階段以 ARDL 解釋 ΔTCI（reverse 減 direct）。",
+        "【穩健性檢驗】JB 與 ERS 支持非正態且定態；頻率分解具加總關係，並分別比較報酬／波動、overall／short／long 與動態 direct／reverse 結果。正文未清楚報告替代 rolling window、H、分位格點、指數代理或 ARDL 規格的系統性敏感度檢驗。",
+        "【主要結果】報酬 direct TCI 約 52.1%–88.3%，reverse／非同步約 9.0%–56.2%；短期共移 42.0%–71.8%、長期共移 9.2%–22.9，報酬外溢因此短期主導。波動整體亦以共移為主，但長期 ΔTCI 的變動範圍更大。ARDL 顯示氣候政策與全球暖化和報酬非同步上升相關；氣候政策與國際峰會和波動非同步相關。這些是條件關聯，不是結構因果。",
+        "【作者提出的限制】聚合指數無法捕捉地區、次產業與市場結構異質性；結論不宜直接外推至區域市場或其他資產；QQ connectedness 與簡化 ARDL 依賴既定規格，難以涵蓋高維、多層互動。",
+        "【其他限制與品質警示】正文結果段稱 SBIC 選 lag 4，但圖 1／2 說明標示 lag 1，兩者未調和；在未取得作者更正前，網站不把 lag 設定視為完全可重現。ARDL 對估計出的 connectedness 再迴歸也會累積第一階段估計誤差，且研究未識別氣候風險的外生結構衝擊。",
+        "【APA 7】Liu, M., Zhang, R., Jiang, Y., & Gao, W. (2026). Modeling comovement and asynchrony between fossil and clean energy markets under climate risks using quantile-on-quantile connectedness. Mathematics, 14(9), Article 1486. https://doi.org/10.3390/math14091486",
+        "【與美智研究的關聯】5/5。重疊氣候風險、潔淨／傳統能源、QQ connectedness、尾部狀態與頻率分解。可借鏡：用 direct／reverse TCI 明確區分共移與非同步，並把報酬與波動拆開。主要差異：第二階段採 ARDL，未使用 TVP-VAR-SV；頻率分解雖為 spectral GFEVD，但未明確標為 BK 實作。"
+      ],
+      "type": "search",
+      "viewpoints": [
+        {
+          "claim": "【證據層級】合法全文精讀",
+          "evidence": "MDPI CC BY 全文、Crossref 與 OpenAlex 可核驗，未標示撤稿。",
+          "confidence": "high",
+          "source": "MDPI／Crossref／OpenAlex",
+          "connections": []
+        },
+        {
+          "claim": "【系統】全球化石與潔淨能源雙市場",
+          "evidence": "MSCI ACWI Energy 與 S&P Global Clean Energy，日資料 2003-11-21 至 2023-06-30。",
+          "confidence": "high",
+          "source": "資料段",
+          "connections": []
+        },
+        {
+          "claim": "【方法】QQ connectedness 加頻率分解與 ARDL",
+          "evidence": "200 日窗、H=20、0.05–0.95 分位；短期 1–5 日、長期 5 日以上。",
+          "confidence": "medium",
+          "source": "方法／結果段",
+          "connections": []
+        },
+        {
+          "claim": "【報酬】短期共移占主導",
+          "evidence": "短期 direct TCI 42.0%–71.8%，長期僅 9.2%–22.9%。",
+          "confidence": "high",
+          "source": "結果段",
+          "connections": []
+        },
+        {
+          "claim": "【波動】長期反向結構較持久",
+          "evidence": "長期波動 ΔTCI 變動約 −40% 至 10%，幅度大於短期。",
+          "confidence": "medium",
+          "source": "動態 connectedness 結果",
+          "connections": []
+        },
+        {
+          "claim": "【氣候風險】與非同步結構相關",
+          "evidence": "氣候政策／全球暖化對報酬 ΔTCI、氣候政策／國際峰會對波動 ΔTCI 有顯著正向關聯。",
+          "confidence": "medium",
+          "source": "ARDL 結果",
+          "connections": []
+        },
+        {
+          "claim": "【因果邊界】connectedness 與 ARDL 不識別結構因果",
+          "evidence": "模型描述條件性共享變異與關聯，沒有外生工具或結構衝擊設計。",
+          "confidence": "high",
+          "source": "方法判讀",
+          "connections": []
+        },
+        {
+          "claim": "【品質警示】lag 設定內部不一致",
+          "evidence": "正文稱 SBIC lag 4，圖說標示 lag 1，尚無作者更正。",
+          "confidence": "high",
+          "source": "正文與圖說交叉核對",
+          "connections": []
+        },
+        {
+          "claim": "【研究借鏡】同步與非同步可分開量化",
+          "evidence": "direct／reverse TCI 可補充美智研究對尾端同向與交叉狀態傳遞的解釋。",
+          "confidence": "high",
+          "source": "比較判讀",
+          "connections": []
+        }
+      ]
+    },
+    {
+      "id": "qvar-2026-09-05-igd-100324",
+      "title": "Extreme frequency connectedness between clean energy, fossil fuel, and G7 stock markets: Portfolio management implications",
+      "search_date": "2026-09-05",
+      "authors": "Houssem Eddine Belghouthi; Walid Mensi; Khamis Hamed Al-Yahyaee",
+      "year": "2026",
+      "journal": "Innovation and Green Development, 5(1), Article 100324",
+      "doi": "https://doi.org/10.1016/j.igd.2026.100324",
+      "citations": "9 次（Crossref）／9 次（OpenAlex；2026-11-28）",
+      "openalex_id": "W7118932637",
+      "openalex_url": "https://openalex.org/W7118932637",
+      "fulltext_url": "https://www.sciencedirect.com/science/article/pii/S2949753126000019",
+      "reading_level": "全文精讀",
+      "abstract": "本文以 G7 股市、Brent／WTI／汽油／取暖油與三個潔淨能源指數建立 quantile-frequency connectedness 網絡，並比較多種投組策略。2015–2025 年結果顯示，尾部分位 connectedness 接近 100%，中位分位低於 60%；熊市高於牛市，短期外溢通常高於長期。G7 股市多為淨傳遞者，潔淨能源在熊市多為淨接收者；油品的角色可能由短期接收轉為長期傳遞。淨接收者不等同 safe haven，投組含意仍需依波動、報酬與壓力期表現共同判斷。",
+      "tags": [
+        "quantile frequency connectedness",
+        "QVAR",
+        "G7",
+        "clean energy",
+        "oil",
+        "portfolio hedging"
+      ],
+      "topics": [
+        "潔淨能源",
+        "能源市場",
+        "金融市場"
+      ],
+      "keywords": [
+        "Brent",
+        "WTI",
+        "gasoline",
+        "heating oil",
+        "S&P Global Clean Energy",
+        "minimum connectedness portfolio"
+      ],
+      "notes": [
+        "【閱讀層級】全文精讀；本紀錄於 2026-09-05 曾依合法 gold OA／CC BY-NC-ND 全文完成精讀，2026-11-28 因歷史資料重建遺失而補回，並重新以 Crossref／OpenAlex 核驗。OpenAlex W7118932637、9 次引用、is_retracted=false。",
+        "【研究問題與動機】G7 股票、傳統油品與潔淨能源的風險傳遞是否因熊／常／牛市及投資期限而異？不同能源資產納入 G7 股市投組後，能否改善波動與風險調整後報酬？",
+        "【研究變數】G7 國家股票指數；Brent、WTI、Gasoline、Heating Oil；S&P Global Clean Energy、RENIXX、WilderHill 三個潔淨能源指數之日報酬。",
+        "【資料／市場／樣本】G7 與全球能源資產；2015-03-02 至 2025-03-21；日資料；原文未直接報告最終樣本量，可讀全文段落未完整列出每一序列的資料供應商。",
+        "【模型與估計】quantile-frequency connectedness；100 日 rolling-window QVAR、lag 1、10-step forecast；短期 1–5 日、長期 5 日以上；網絡圖。投組比較 minimum variance、minimum connectedness、minimum correlation 與 hedging effectiveness。",
+        "【穩健性檢驗】比較 0.05、0.50、0.95 分位、短／長頻帶、靜態與動態網絡，以及多種投組權重與 hedging effectiveness。現有精讀紀錄未保存替代 rolling window、lag、H 或頻帶切點的完整敏感度數值，故不補推未核實結果。",
+        "【主要結果】極端分位 TCI 接近 100%，中位低於 60%；熊市與短期 connectedness 更強。G7 股市多為淨傳遞者，潔淨能源在熊市多為淨接收者；油品可能由短期淨接收轉為長期淨傳遞。minimum-variance 投組下油品降低波動貢獻約 89%–94%，潔淨能源約 76%–83%，但後者的風險調整後報酬較佳。",
+        "【作者提出的限制】作者建議未來擴展至新興經濟體；現有系統集中於 G7、四個油品與三個潔淨能源指數，外部效度受資產與市場選擇限制。",
+        "【其他限制】100 日窗、lag、H、頻帶界線與指數代理會影響淨角色；極端分位接近 100% 也可能受尾端樣本與高維系統影響。淨接收者本身不是 safe-haven 的充分證據，connectedness 亦非結構因果，需搭配壓力期相關、尾部損失與樣本外績效。",
+        "【APA 7】Belghouthi, H. E., Mensi, W., & Al-Yahyaee, K. H. (2026). Extreme frequency connectedness between clean energy, fossil fuel, and G7 stock markets: Portfolio management implications. Innovation and Green Development, 5(1), Article 100324. https://doi.org/10.1016/j.igd.2026.100324",
+        "【與美智研究的關聯】4/5。重疊 QVAR、頻率分解、尾部 connectedness、潔淨／化石能源與投組含意。可借鏡：100 日窗、lag 1、H=10、1–5 日短頻帶，以及把 connectedness 角色與實際投組結果並列。主要差異：未納入 CPU 或氣候風險指標，也不是 TVP-VAR-SV＋BK 的完整架構。"
+      ],
+      "type": "search",
+      "viewpoints": [
+        {
+          "claim": "【證據層級】既有合法全文精讀紀錄補回",
+          "evidence": "2026-09-05 已依 gold OA 全文核驗；本輪更新 Crossref／OpenAlex 與撤稿狀態。",
+          "confidence": "high",
+          "source": "既有精讀紀錄／Crossref／OpenAlex",
+          "connections": []
+        },
+        {
+          "claim": "【系統】G7 股票、四油品與三潔淨能源指數",
+          "evidence": "日資料 2015-03-02 至 2025-03-21。",
+          "confidence": "high",
+          "source": "全文精讀紀錄",
+          "connections": []
+        },
+        {
+          "claim": "【方法】rolling QVAR 頻率 connectedness",
+          "evidence": "100 日窗、lag 1、H=10，短期 1–5 日、長期 5 日以上。",
+          "confidence": "high",
+          "source": "方法段",
+          "connections": []
+        },
+        {
+          "claim": "【市場狀態】尾端 connectedness 接近 100%",
+          "evidence": "0.05／0.95 明顯高於中位分位，中位低於 60%。",
+          "confidence": "medium",
+          "source": "結果段；尾端樣本限制",
+          "connections": []
+        },
+        {
+          "claim": "【頻率】短期外溢通常占優勢",
+          "evidence": "跨市場衝擊主要在 1–5 日頻帶快速傳遞。",
+          "confidence": "medium",
+          "source": "頻率分解結果",
+          "connections": []
+        },
+        {
+          "claim": "【方向性】G7 股票多傳遞、潔淨能源在熊市多接收",
+          "evidence": "油品角色並會由短期接收轉為長期傳遞。",
+          "confidence": "medium",
+          "source": "網絡與 NET 結果",
+          "connections": []
+        },
+        {
+          "claim": "【投組】油品降波動較多、潔淨能源風險調整報酬較佳",
+          "evidence": "MVP 下油品約 89%–94%、潔淨能源約 76%–83% 的波動降低貢獻。",
+          "confidence": "medium",
+          "source": "投組結果",
+          "connections": []
+        },
+        {
+          "claim": "【解讀邊界】淨接收不等於 safe haven",
+          "evidence": "仍需壓力期相關、尾部損失與樣本外績效佐證。",
+          "confidence": "high",
+          "source": "方法判讀",
+          "connections": []
+        },
+        {
+          "claim": "【研究借鏡】頻率角色應與投組績效共同報告",
+          "evidence": "可用於美智研究避免僅以 NET 角色直接推論避險價值。",
+          "confidence": "high",
+          "source": "比較判讀",
+          "connections": []
+        }
+      ]
+    },
     {
       "id": "qvar-2026-11-28-ai-sin-industries-time-frequency",
       "title": "Quantile-time-frequency connectedness between AI and sin industries",
