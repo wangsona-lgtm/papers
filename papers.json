@@ -1,6 +1,6 @@
 {
-  "total": 304,
-  "updated": "2026-11-26 20:08:39",
+  "total": 305,
+  "updated": "2026-11-28 08:52:44",
   "topics": [
     "AI/科技",
     "其他",
@@ -18,6 +18,121 @@
     "金融市場"
   ],
   "papers": [
+    {
+      "id": "qvar-2026-11-28-ai-sin-industries-time-frequency",
+      "title": "Quantile-time-frequency connectedness between AI and sin industries",
+      "search_date": "2026-11-28",
+      "authors": "Barbara Čeryová; Peter Árendáš",
+      "year": "2026",
+      "journal": "Finance Research Letters, 111, Article 110662",
+      "doi": "https://doi.org/10.1016/j.frl.2026.110662",
+      "citations": "0 次（Crossref）／0 次（OpenAlex；2026-11-28）",
+      "openalex_id": "W7204523275",
+      "openalex_url": "https://openalex.org/W7204523275",
+      "fulltext_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6933526",
+      "reading_level": "摘要層級",
+      "abstract": "本文以全球人工智慧產業與釀酒、烈酒／葡萄酒、菸草、賭場／博弈、航太／國防、煤／燃料及油氣探勘生產等具爭議產業為系統，使用分位數—時頻 connectedness 檢視 2018–2026 年風險傳遞如何隨市場狀態與投資視野改變。公開摘要與出版商可見片段顯示，整體 TCI 為 50.57%，短期 connectedness 主導；AI 平均是溫和淨傳遞者，但由短期淨接收者轉為較強的長期淨傳遞者。航太／國防是最大淨傳遞者，煤／燃料是最大淨接收者；AI 與賭場／博弈及航太／國防的雙向溢出最強。危機期 connectedness 升高，但主要由正常至中度市場狀態驅動，不能據此解讀為 AI 對各產業的結構因果效果。",
+      "tags": [
+        "QVAR",
+        "quantile time-frequency connectedness",
+        "Baruník–Křehlík frequency decomposition",
+        "artificial intelligence",
+        "sin industries"
+      ],
+      "topics": [
+        "AI/科技",
+        "地緣政治/國防",
+        "能源市場",
+        "金融市場"
+      ],
+      "keywords": [
+        "S&P Kensho Global Artificial Intelligence Enablers",
+        "aerospace and defense",
+        "casinos and gaming",
+        "coal and consumable fuels",
+        "oil and gas",
+        "tail spillovers"
+      ],
+      "notes": [
+        "【閱讀層級】摘要層級；2026-11-28 以 Finance Research Letters 出版頁可見摘要／方法／結果片段、DOI／Crossref、OpenAlex 與 SSRN 版本頁核驗。SSRN 公開作者版本下載端點在本次自動讀取時被內容保護阻擋，因此未宣稱全文精讀，也未繞過存取控制。",
+        "【研究問題與動機】AI 與傳統 sin sectors 及碳密集 brown industries 的風險連結，是否隨時間、分位市場狀態與短長投資視野改變；這補足既有研究偏重 AI 與永續資產、較少檢視其與國防、博弈及高碳產業連結的缺口。",
+        "【研究變數】S&P Kensho Global Artificial Intelligence Enablers Index；S&P Global 1200 Brewers、Distillers/Vintners、Tobacco、Casinos/Gaming、Aerospace/Defense、Coal/Consumable Fuels 與 Oil/Gas Exploration/Production 指數之每日 log return。",
+        "【資料／市場／樣本】全球產業指數，2018-06-01 至 2026-05-31；日資料，每一序列 2,009 筆。公開方法摘錄與表格另將部分樣本終點寫為 2026-05-30，網站保留這一日的來源內部差異。",
+        "【模型與估計】Quantile-Time-Frequency connectedness：以 QVAR、Wold 表示、GFEVD、Diebold–Yılmaz 方向性 connectedness 與 Baruník–Křehlík 頻率分解整合估計；200 日 rolling window，BIC 選 lag 1，GFEVD horizon 100；短期 1–5 日，長期 6 日以上。",
+        "【穩健性檢驗】公開可見資料顯示作者以 2022-01-01 分割前後子樣本，檢查 AI 指數早期可能含回填值的偏誤：前期 TCI 57.13、後期 44.89；AI 總 NET 兩期皆正，但短／長期組成明顯改變。未取得完整正文，其他替代窗長、lag、horizon 或指數代理檢驗未報告。",
+        "【主要結果】全樣本 TCI 50.57%，短期與長期 TCI 分別為 39.81% 與 10.76%。航太／國防為最大淨傳遞者（NET 9.85；TO 66.45），煤／燃料為最大淨接收者（NET −8.02）；AI 為溫和淨傳遞者（NET 2.27），但短期 NET −0.72、長期 NET 2.99。AI 與賭場／博弈及航太／國防的雙向連結最強，與菸草最弱。",
+        "【作者提出的限制】公開摘要未列正式限制段；可見材料特別處理 AI 指數早期可能存在 backfilled-index bias，並以子樣本比較作部分回應。完整作者限制段未取得。",
+        "【其他限制】全球產業指數可能遮蔽區域與公司異質性；connectedness 衡量的是條件性預測誤差變異共享，不識別結構因果；危機期上升不代表危機造成溢出；結果亦依 rolling window、lag、horizon、頻帶與指數代理而定，且未展示樣本外避險績效。",
+        "【APA 7】Čeryová, B., & Árendáš, P. (2026). Quantile-time-frequency connectedness between AI and sin industries. Finance Research Letters, 111, 110662. https://doi.org/10.1016/j.frl.2026.110662",
+        "【與美智研究的關聯】4/5。重疊 QVAR、BK 時頻分解、尾端 connectedness、AI／能源與國防市場；可借鏡 200 日 rolling QVAR、1–5 日與 6 日以上頻帶，以及將危機升溢出拆成市場狀態貢獻。主要差異是未納入 CPU／氣候風險、綠色資產或 TVP-VAR-SV，且研究對象為 AI 與 sin industries。OpenAlex 將作者顯示為 Barbara Rašiová；正式出版商與 Crossref 顯示 Barbara Čeryová，本站依正式期刊版本著錄，未推定兩種拼寫的法律身分關係。"
+      ],
+      "type": "search",
+      "viewpoints": [
+        {
+          "claim": "【證據層級】摘要層級",
+          "evidence": "出版商公開摘要、方法／結果片段、Crossref、OpenAlex 與 SSRN 版本頁；未取得可完整讀取的正式全文。",
+          "confidence": "medium",
+          "source": "出版商／書目 API／版本頁",
+          "connections": []
+        },
+        {
+          "claim": "【系統】AI 與七個 sin／brown 產業指數",
+          "evidence": "包含博弈、航太／國防、煤與油氣等全球 S&P 產業指數。",
+          "confidence": "high",
+          "source": "公開方法片段",
+          "connections": []
+        },
+        {
+          "claim": "【方法】QVAR 與 BK 頻率分解",
+          "evidence": "200 日 rolling window、lag 1、H=100，短期 1–5 日、長期 6 日以上。",
+          "confidence": "medium",
+          "source": "公開方法／表格摘錄",
+          "connections": []
+        },
+        {
+          "claim": "【總體】TCI 50.57%，短期主導",
+          "evidence": "短期 TCI 39.81%，長期 TCI 10.76%。",
+          "confidence": "medium",
+          "source": "公開結果摘錄",
+          "connections": []
+        },
+        {
+          "claim": "【AI 角色】短期接收、長期傳遞",
+          "evidence": "AI 的短期 NET −0.72、長期 NET 2.99，全樣本 NET 2.27。",
+          "confidence": "medium",
+          "source": "公開結果摘錄",
+          "connections": []
+        },
+        {
+          "claim": "【國防／能源節點】角色明顯不對稱",
+          "evidence": "航太／國防 NET 9.85，煤／燃料 NET −8.02。",
+          "confidence": "medium",
+          "source": "公開結果摘錄",
+          "connections": []
+        },
+        {
+          "claim": "【穩健性】2022 年前後組成改變",
+          "evidence": "子樣本 TCI 由 57.13 降至 44.89，AI 的短／長期 NET 組成反轉。",
+          "confidence": "medium",
+          "source": "公開表格摘錄",
+          "connections": []
+        },
+        {
+          "claim": "【撤稿／版本】未標記撤稿",
+          "evidence": "OpenAlex is_retracted=false；Crossref 無 update/retraction relation。SSRN 為同題作者版本，不另算一篇。",
+          "confidence": "high",
+          "source": "Crossref／OpenAlex",
+          "connections": []
+        },
+        {
+          "claim": "【研究借鏡】將市場狀態與投資視野分開",
+          "evidence": "可用於美智研究區分 CPU／氣候風險在尾端與短長期頻帶的條件性傳遞，並避免把危機共現寫成因果。",
+          "confidence": "high",
+          "source": "比較判讀",
+          "connections": []
+        }
+      ]
+    },
   {
     "id": "qvar-2026-11-26-fintech-global-sustainability-frequency",
     "title": "Spillovers Between Global Sustainability and the FinTech Market: Evidence from Quantiles and Frequency Bands",
